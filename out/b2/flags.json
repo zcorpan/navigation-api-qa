@@ -374,7 +374,7 @@
  },
  {
   "id": "19d26f38f3",
-  "page": "https://bigpara.hurriyet.com.<token>",
+  "page": "https://bigpara.hurriyet.com.tr/haberler/genel-haberler/ibbnin-yeni-taksi-ihalesinde-plaka-fiyatlari-belli-oldu-sadece-15-tane-satildi_ID102267821/",
   "errors": {},
   "api": [
    "get:currentEntry",
@@ -694,7 +694,7 @@
  },
  {
   "id": "edb81694ad",
-  "page": "https://evz.<token>.html",
+  "page": "https://evz.ro/ministerul-culturii-reintroduce-bursele-dupa-aproape-20-de-ani-ce-conditii-trebuie-indeplinite.html",
   "errors": {},
   "api": [],
   "diffs": [
@@ -6466,7 +6466,7 @@
  },
  {
   "id": "1e6f5b6078",
-  "page": "https://www.tv2.<token>",
+  "page": "https://www.tv2.no/nyheter/coop-tar-grep-etter-dagligvareangrep-i-frankrike/19314844/",
   "errors": {},
   "api": [
    "get:currentEntry",
@@ -7091,7 +7091,7 @@
  },
  {
   "id": "c51e737ab8",
-  "page": "https://www.sondakika.<token>",
+  "page": "https://www.sondakika.com/spor/haber-tumer-metinden-fenerbahce-icin-olay-kehanet-20334504/",
   "errors": {},
   "api": [
    "call:entries",
@@ -9797,7 +9797,7 @@
  },
  {
   "id": "b092db9738",
-  "page": "https://www.discogs.<token>",
+  "page": "https://www.discogs.com/digs/collecting/draft-the-25-best-selling-new-releases-on-discogs-in-august-2026/",
   "errors": {},
   "api": [
    "call:entries",
@@ -11634,7 +11634,7 @@
  },
  {
   "id": "6625013fbf",
-  "page": "https://www.milliyet.com.<token>",
+  "page": "https://www.milliyet.com.tr/gundem/son-dakika-istanbullular-dikkat-bu-gece-basliyor-13-ilce-icin-alarm-7678568",
   "errors": {},
   "api": [
    "get:canGoBack",
@@ -12183,6 +12183,13 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "load",
+    "metric": "textLen",
+    "A": 16500,
+    "D": 12925
+   },
+   {
     "setup": "C",
     "step": "link",
     "metric": "navLen",
@@ -12267,6 +12274,48 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "reload",
+    "metric": "path",
+    "A": "https://www.pepper.pl/strona/cookies-policy",
+    "D": "https://www.pepper.pl/"
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "navLen",
+    "A": 3,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "navIdx",
+    "A": 1,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "textLen",
+    "A": 16139,
+    "D": 12925
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "titleHash",
+    "A": "4ca398875fe9",
+    "D": "34aa0b2d6872"
+   },
+   {
     "setup": "C",
     "step": "fragment",
     "metric": "navLen",
@@ -12281,6 +12330,55 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "path",
+    "A": "https://www.pepper.pl/strona/cookies-policy",
+    "D": "https://www.pepper.pl/"
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "navIdx",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "scrollY",
+    "A": 629,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "textLen",
+    "A": 16139,
+    "D": 12925
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "titleHash",
+    "A": "4ca398875fe9",
+    "D": "34aa0b2d6872"
+   },
+   {
     "setup": "C",
     "step": "back2",
     "metric": "navLen",
@@ -12293,13 +12391,69 @@
     "metric": "navIdx",
     "A": 1,
     "C": null
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "path",
+    "A": "https://www.pepper.pl/strona/cookies-policy",
+    "D": "https://www.pepper.pl/"
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "navIdx",
+    "A": 1,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "scrollY",
+    "A": 629,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "textLen",
+    "A": 16139,
+    "D": 12925
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "titleHash",
+    "A": "4ca398875fe9",
+    "D": "34aa0b2d6872"
    }
   ],
   "skippedSteps": {
    "A": [],
    "A2": [],
    "B": [],
-   "C": []
+   "C": [],
+   "D": [
+    "link",
+    "link2",
+    "back",
+    "back3",
+    "forward"
+   ]
   }
  },
  {
@@ -12647,7 +12801,7 @@
  },
  {
   "id": "87c3cc3fd6",
-  "page": "https://www.osta.<token>.html",
+  "page": "https://www.osta.ee/vana-super-triikraud-rosenfors-vaata-kaal-3-64kg-258945891.html",
   "errors": {},
   "api": [
    "call:entries",
@@ -13757,7 +13911,7 @@
  },
  {
   "id": "98c233af23",
-  "page": "https://www.stuff.co.<token>",
+  "page": "https://www.stuff.co.nz/nz-news/361046976/simon-gault-denied-skin-cancer-surgery-cover-after-50-years-southern-cross",
   "errors": {},
   "api": [
    "call:entries",
@@ -14440,7 +14594,7 @@
  },
  {
   "id": "7642e231b1",
-  "page": "https://pomorska.<token>",
+  "page": "https://pomorska.pl/wycinka-lasu-pod-budowe-linii-kolejowej-w-kujawsko-pomorskiem-rolnicy-zbulwersowani/ar/c1p2-29435389",
   "errors": {},
   "api": [
    "call:entries",
@@ -14515,7 +14669,7 @@
  },
  {
   "id": "e373ac9512",
-  "page": "https://tsn.<token>.html",
+  "page": "https://tsn.ua/ukrayina/tramp-stav-na-bik-putina-obmezennia-rozviddanykh-i-starlink-iak-ssha-zmushuiut-ukrayinu-pryyniaty-umovy-rosiyi-3189283.html",
   "errors": {},
   "api": [
    "listen:navigate"
@@ -14657,7 +14811,7 @@
  },
  {
   "id": "2c8711fbb7",
-  "page": "https://www.dn.<token>",
+  "page": "https://www.dn.se/sverige/sa-blev-sverige-trumpministrarnas-ogonsten-i-nato/",
   "errors": {},
   "api": [
    "get:currentEntry",
@@ -15034,7 +15188,7 @@
  },
  {
   "id": "c31921150b",
-  "page": "https://telemagazyn.<token>",
+  "page": "https://telemagazyn.pl/nasz-nowy-dom-w-czwartek-15-10-ruda-wolinska-pod-siedlcami-przygarneli-chore-dzieci-mieszkaja-na-zapadnietych-podlogach-zdjecia/ar/c13p2-29434317",
   "errors": {},
   "api": [
    "call:entries",
@@ -15439,7 +15593,7 @@
  },
  {
   "id": "070174f0db",
-  "page": "https://www.lanacion.com.<token>",
+  "page": "https://www.lanacion.com.ar/economia/luis-caputo-se-reunio-con-kristalina-georgieva-mientras-sigue-pendiente-el-giro-de-us869-millones-nid13102026/",
   "errors": {},
   "api": [
    "call:entries",
@@ -17961,7 +18115,7 @@
  },
  {
   "id": "4d24d7cc18",
-  "page": "https://www.leparisien.<token>.php",
+  "page": "https://www.leparisien.fr/societe/nous-sommes-tous-dans-le-meme-bateau-la-rue-gronde-toujours-dans-le-sillage-des-lyceens-13-10-2026-JSY4CZJG4ZEUZLEN4THK5CHESM.php",
   "errors": {},
   "api": [
    "call:entries",
@@ -18527,7 +18681,7 @@
  },
  {
   "id": "7119ab008d",
-  "page": "https://www.channelnewsasia.<token>",
+  "page": "https://www.channelnewsasia.com/singapore/cybersecurity-full-transparency-ai-attacks-rogue-6455271",
   "errors": {},
   "api": [
    "call:entries",
@@ -18965,7 +19119,7 @@
  },
  {
   "id": "aff22ba73c",
-  "page": "https://pink.<token>",
+  "page": "https://pink.rs/politika/820302/vucic-raznezio-celu-srbiju-i-zamolio-za-pomoc-na-ulici-nadeni-ostali-bez-majke-ljubav-je-tolika-da-sam-odlucio-da-dvoma-dam-zauvek-dom-video",
   "errors": {},
   "api": [
    "get:currentEntry",
@@ -19108,7 +19262,7 @@
  },
  {
   "id": "5837798f12",
-  "page": "https://www.climatempo.com.<token>",
+  "page": "https://www.climatempo.com.br/noticia/norte/amazonas-segue-com-tempo-instavel-e-risco-de-temporais-nos-proximos-dias",
   "errors": {},
   "api": [
    "call:entries",
@@ -21187,7 +21341,7 @@
  },
  {
   "id": "041cabb50d",
-  "page": "https://www.mydealz.<token>",
+  "page": "https://www.mydealz.de/deals/eisenstadt-osterreich-1-nacht-im-4-hotel-galantha-inkl-fruhstuck-spa-frizzante-ab-5450eur-pp-rooftop-bar-am-schloss-esterhazy-2854033",
   "errors": {},
   "api": [
    "listen:navigate"
@@ -22096,7 +22250,7 @@
  },
  {
   "id": "356061a1d3",
-  "page": "https://247sports.<token>",
+  "page": "https://247sports.com/longformarticle/2028-top247-rankings-new-players-positions-update-291262576/",
   "errors": {},
   "api": [
    "call:entries",
@@ -23597,6 +23751,20 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "load",
+    "metric": "textLen",
+    "A": 3144,
+    "D": 688
+   },
+   {
+    "setup": "D",
+    "step": "load",
+    "metric": "titleHash",
+    "A": "315fa39342d5",
+    "D": "6c58da82f9cd"
+   },
+   {
     "setup": "C",
     "step": "link",
     "metric": "navLen",
@@ -23718,6 +23886,48 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "reload",
+    "metric": "path",
+    "A": "https://beacons.ai/i/managers",
+    "D": "https://beacons.ai/"
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "navLen",
+    "A": 3,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "navIdx",
+    "A": 1,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "textLen",
+    "A": 2717,
+    "D": 688
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "titleHash",
+    "A": "efc30698bb11",
+    "D": "6c58da82f9cd"
+   },
+   {
     "setup": "C",
     "step": "fragment",
     "metric": "navLen",
@@ -23732,6 +23942,48 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "path",
+    "A": "https://beacons.ai/i/managers",
+    "D": "https://beacons.ai/"
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "navIdx",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "textLen",
+    "A": 2717,
+    "D": 688
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "titleHash",
+    "A": "efc30698bb11",
+    "D": "6c58da82f9cd"
+   },
+   {
     "setup": "C",
     "step": "back2",
     "metric": "navLen",
@@ -23744,13 +23996,62 @@
     "metric": "navIdx",
     "A": 1,
     "C": null
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "path",
+    "A": "https://beacons.ai/i/managers",
+    "D": "https://beacons.ai/"
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "navIdx",
+    "A": 1,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "textLen",
+    "A": 2717,
+    "D": 688
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "titleHash",
+    "A": "efc30698bb11",
+    "D": "6c58da82f9cd"
    }
   ],
   "skippedSteps": {
    "A": [],
    "A2": [],
    "B": [],
-   "C": []
+   "C": [],
+   "D": [
+    "link",
+    "link2",
+    "back",
+    "back3",
+    "forward"
+   ]
   }
  },
  {
@@ -24213,7 +24514,7 @@
  },
  {
   "id": "ccbabfb883",
-  "page": "https://collider.<token>",
+  "page": "https://collider.com/clayface-r-rated-violence-body-horror-tom-rhys-harries-naomi-ackie/",
   "errors": {},
   "api": [
    "get:currentEntry",
@@ -24331,6 +24632,13 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "load",
+    "metric": "textLen",
+    "A": 9112,
+    "D": 4671
+   },
+   {
     "setup": "C",
     "step": "link",
     "metric": "navLen",
@@ -24357,6 +24665,13 @@
     "metric": "navIdx",
     "A": 0,
     "C": null
+   },
+   {
+    "setup": "D",
+    "step": "back",
+    "metric": "textLen",
+    "A": 9112,
+    "D": 4671
    },
    {
     "setup": "C",
@@ -24429,6 +24744,10 @@
     "back3"
    ],
    "C": [
+    "link2",
+    "back3"
+   ],
+   "D": [
     "link2",
     "back3"
    ]
@@ -26419,7 +26738,7 @@
  },
  {
   "id": "793de70359",
-  "page": "https://www.xv-ru.com/video.<token>",
+  "page": "https://www.xv-ru.com/video.omfeotf5d95/56979880/0/made_a_wish_and_now_my_step_brother_s_big_titty_wife_is_obsessed_with_my_cock_-_obsession_parody_-_cami_strella_x_lev_lieben",
   "errors": {},
   "api": [
    "get:activation"
@@ -26832,6 +27151,55 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "link2",
+    "metric": "path",
+    "A": "https://www.dateinasia.com/",
+    "D": "https://www.dateinasia.com/faq"
+   },
+   {
+    "setup": "D",
+    "step": "link2",
+    "metric": "sameDoc",
+    "A": false,
+    "D": true
+   },
+   {
+    "setup": "D",
+    "step": "link2",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "link2",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "link2",
+    "metric": "navIdx",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "link2",
+    "metric": "textLen",
+    "A": 1210,
+    "D": 8591
+   },
+   {
+    "setup": "D",
+    "step": "link2",
+    "metric": "titleHash",
+    "A": "b8de735d4871",
+    "D": "1a8dbfdaf53c"
+   },
+   {
     "setup": "C",
     "step": "back",
     "metric": "navLen",
@@ -26844,6 +27212,55 @@
     "metric": "navIdx",
     "A": 1,
     "C": null
+   },
+   {
+    "setup": "D",
+    "step": "back",
+    "metric": "path",
+    "A": "https://www.dateinasia.com/faq",
+    "D": "https://www.dateinasia.com/signin"
+   },
+   {
+    "setup": "D",
+    "step": "back",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "back",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "back",
+    "metric": "navIdx",
+    "A": 1,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "back",
+    "metric": "scrollY",
+    "A": 0,
+    "D": 632
+   },
+   {
+    "setup": "D",
+    "step": "back",
+    "metric": "textLen",
+    "A": 8596,
+    "D": 268
+   },
+   {
+    "setup": "D",
+    "step": "back",
+    "metric": "titleHash",
+    "A": "1a8dbfdaf53c",
+    "D": "55026a2bebaa"
    },
    {
     "setup": "C",
@@ -26860,6 +27277,55 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "back3",
+    "metric": "path",
+    "A": "https://www.dateinasia.com/signin",
+    "D": "about:blank"
+   },
+   {
+    "setup": "D",
+    "step": "back3",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "back3",
+    "metric": "navLen",
+    "A": 3,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "back3",
+    "metric": "navIdx",
+    "A": 0,
+    "D": null
+   },
+   {
+    "setup": "D",
+    "step": "back3",
+    "metric": "scrollY",
+    "A": 632,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "back3",
+    "metric": "textLen",
+    "A": 268,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "back3",
+    "metric": "titleHash",
+    "A": "55026a2bebaa",
+    "D": "da39a3ee5e6b"
+   },
+   {
     "setup": "C",
     "step": "forward",
     "metric": "navLen",
@@ -26874,6 +27340,55 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "forward",
+    "metric": "path",
+    "A": "https://www.dateinasia.com/faq",
+    "D": "https://www.dateinasia.com/signin"
+   },
+   {
+    "setup": "D",
+    "step": "forward",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "forward",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "forward",
+    "metric": "navIdx",
+    "A": 1,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "forward",
+    "metric": "scrollY",
+    "A": 0,
+    "D": 632
+   },
+   {
+    "setup": "D",
+    "step": "forward",
+    "metric": "textLen",
+    "A": 8596,
+    "D": 268
+   },
+   {
+    "setup": "D",
+    "step": "forward",
+    "metric": "titleHash",
+    "A": "1a8dbfdaf53c",
+    "D": "55026a2bebaa"
+   },
+   {
     "setup": "C",
     "step": "reload",
     "metric": "navLen",
@@ -26886,6 +27401,55 @@
     "metric": "navIdx",
     "A": 1,
     "C": null
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "path",
+    "A": "https://www.dateinasia.com/faq",
+    "D": "https://www.dateinasia.com/signin"
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "navIdx",
+    "A": 1,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "scrollY",
+    "A": 0,
+    "D": 632
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "textLen",
+    "A": 8596,
+    "D": 268
+   },
+   {
+    "setup": "D",
+    "step": "reload",
+    "metric": "titleHash",
+    "A": "1a8dbfdaf53c",
+    "D": "55026a2bebaa"
    },
    {
     "setup": "C",
@@ -26902,6 +27466,55 @@
     "C": null
    },
    {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "path",
+    "A": "https://www.dateinasia.com/faq",
+    "D": "https://www.dateinasia.com/signin"
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "navIdx",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "scrollY",
+    "A": 0,
+    "D": 632
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "textLen",
+    "A": 8596,
+    "D": 268
+   },
+   {
+    "setup": "D",
+    "step": "fragment",
+    "metric": "titleHash",
+    "A": "1a8dbfdaf53c",
+    "D": "55026a2bebaa"
+   },
+   {
     "setup": "C",
     "step": "back2",
     "metric": "navLen",
@@ -26914,13 +27527,63 @@
     "metric": "navIdx",
     "A": 1,
     "C": null
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "path",
+    "A": "https://www.dateinasia.com/faq",
+    "D": "https://www.dateinasia.com/signin"
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "histDelta",
+    "A": 2,
+    "D": 1
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "navLen",
+    "A": 3,
+    "D": 2
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "navIdx",
+    "A": 1,
+    "D": 0
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "scrollY",
+    "A": 0,
+    "D": 632
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "textLen",
+    "A": 8596,
+    "D": 268
+   },
+   {
+    "setup": "D",
+    "step": "back2",
+    "metric": "titleHash",
+    "A": "1a8dbfdaf53c",
+    "D": "55026a2bebaa"
    }
   ],
   "skippedSteps": {
    "A": [],
    "A2": [],
    "B": [],
-   "C": []
+   "C": [],
+   "D": []
   }
  },
  {
@@ -27822,7 +28485,7 @@
  },
  {
   "id": "f578197344",
-  "page": "https://www.gigasena.com.<token>.htm",
+  "page": "https://www.gigasena.com.br/mega-sena/sorteio/2026-10/premio-do-sorteio-da-mega-sena-3069-do-dia-11-de-outubro-de-2026-estimado-em-rs-112000000.htm",
   "errors": {},
   "api": [
    "get:currentEntry",
@@ -27842,6 +28505,13 @@
     "metric": "navIdx",
     "A": 0,
     "C": null
+   },
+   {
+    "setup": "D",
+    "step": "load",
+    "metric": "path",
+    "A": "https://www.gigasena.com.<token>.htm",
+    "D": "https://www.gigasena.com.br/mega-sena/sorteio/2026-10/premio-do-sorteio-da-mega-sena-3069-do-dia-11-de-outubro-de-2026-estimado-em-rs-112000000.htm"
    },
    {
     "setup": "B",
@@ -28018,6 +28688,13 @@
     "metric": "scrollY",
     "A": 0,
     "C": 279
+   },
+   {
+    "setup": "D",
+    "step": "back3",
+    "metric": "path",
+    "A": "https://www.gigasena.com.<token>.htm",
+    "D": "https://www.gigasena.com.br/mega-sena/sorteio/2026-10/premio-do-sorteio-da-mega-sena-3069-do-dia-11-de-outubro-de-2026-estimado-em-rs-112000000.htm"
    },
    {
     "setup": "B",
@@ -28231,12 +28908,13 @@
    "A": [],
    "A2": [],
    "B": [],
-   "C": []
+   "C": [],
+   "D": []
   }
  },
  {
   "id": "ed51a357b7",
-  "page": "https://www.dnevno.<token>",
+  "page": "https://www.dnevno.hr/vijesti/u-saboru-frcaju-uvrede-zastupnici-lete-van-zeljka-antunovic-otkrila-sto-je-nekad-bilo-drukcije-3442193/",
   "errors": {},
   "api": [
    "get:currentEntry",
@@ -29238,7 +29916,7 @@
  },
  {
   "id": "5326037be2",
-  "page": "https://www.vg.<token>",
+  "page": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/haborus-extraprofit-mol-kis-benzinkutas-egri",
   "errors": {},
   "api": [
    "call:entries",
@@ -30664,7 +31342,7 @@
  },
  {
   "id": "8b2cb5777e",
-  "page": "https://extra.globo.<token>.ghtml",
+  "page": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/10/marcio-canella-e-marcus-amin-sao-presos-pela-pf-em-novo-desdobramento-da-operacao-unha-e-carne.ghtml",
   "errors": {},
   "api": [
    "get:currentEntry",
@@ -32005,7 +32683,7 @@
  },
  {
   "id": "85d420c94d",
-  "page": "https://www.7sur7.<token>~ad695663/",
+  "page": "https://www.7sur7.be/faits-divers/il-a-vu-la-police-et-sest-enfui-cetait-stupide-le-pere-des-suspects-interpelles-apres-la-mort-du-policier-a-jette-sexprime~ad695663/",
   "errors": {},
   "api": [
    "get:activation",

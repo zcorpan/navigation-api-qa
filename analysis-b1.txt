@@ -124,7 +124,7 @@
     D forward textLen A=19838 D=202 
     D forward titleHash A=13ec18496a26 D=1647b9db6c01 
 
-## 31ab92294d https://www.premierleague.<token>
+## 31ab92294d https://www.premierleague.com/en/news/4737110/revealed-official-premier-league-fan-team-of-matchweek
    api: call:entries get:currentEntry listen:navigatesuccess
     D reload path A=https://www.premierleague.<token> D=https://www.premierleague.com/en/ 
     D reload histDelta A=0 D=1 
@@ -239,7 +239,7 @@
     D reload stuck A=False D=True 
     D fragment stuck A=False D=True 
 
-## fc0e549409 https://visualikigai.cmpunjabrashancard.<token>
+## fc0e549409 https://visualikigai.cmpunjabrashancard.pk/series/roxana-como-proteger-al-hermano-mayor-de-la-protag
    api: get:currentEntry listen:navigatesuccess
     D load navLen A=2 D=1 
     D load navIdx A=1 D=0 
@@ -262,7 +262,7 @@
     D fragment textLen A=1951 D=0 
     D back2 textLen A=1951 D=0 
 
-## 6d4924de78 https://www.liputan6.<token>
+## 6d4924de78 https://www.liputan6.com/news/read/8314357/baru-dilantik-kepala-bnpb-langsung-verifikasi-data-kebaka
    api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
     D link path A=https://www.liputan6.<token> D=https://www.liputan6.com/ 
     D link sameDoc A=True D=False 
@@ -274,7 +274,7 @@
     D back2 titleHash A=7329e876f9f4 D=3e30cf369913 
     D back2 newErrors A=None D=['TypeError'] 
 
-## 854a9efd77 https://smn.conagua.gob.<token>
+## 854a9efd77 https://smn.conagua.gob.mx/pronosticos/pronosticossubmenu/pronostico-meteorologico-general
    api: 
     D link stuck A=True D=False 
     D link textLen A=1317 D=1550 
@@ -468,7 +468,7 @@
     D load textLen A=2946 D=2246 
     D back textLen A=2946 D=2246 
 
-## e11b551a11 https://serieously.ouest-france.<token>
+## e11b551a11 https://serieously.ouest-france.fr/micro-macro-quel-est-ce-jeu-de-societe-indispensable-pour-tous-le
    api: get:currentEntry listen:navigatesuccess
     D link newErrors A=None D=['Script error.'] 
     D forward navIdx A=1 D=0 
@@ -509,7 +509,7 @@
     D back2 textLen A=602 D=369 
     D back2 newErrors A=None D=['ChunkLoadError'] 
 
-## 36d5b48233 https://www.fogaonet.<token>
+## 36d5b48233 https://www.fogaonet.com/blog-da-redacao/pitacos-botafogo-danilo-mais-dez-problema-arthur-cabral-men
    api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
     D back scrollY A=0 D=4737 
     D back newErrors A=None D=['ResizeObserver loop completed with undel'] 
@@ -557,7 +557,7 @@
     D back2 navLen A=3 D=2 
     D back2 navIdx A=1 D=0 
 
-## 1c80355927 https://visorikigai.gettocaboca.<token>
+## 1c80355927 https://visorikigai.gettocaboca.com/series/roxana-como-proteger-al-hermano-mayor-de-la-protagonista/
    api: get:currentEntry listen:navigatesuccess
     D back2 scrollY A=5380 D=5796 
 
@@ -605,7 +605,7 @@
     D back2 titleHash A=a843a5124d4d D=5dd8c7ef6a06 
     D back2 newErrors A=None D=['TypeError'] 
 
-## 486884624d https://viralikigai.radiot.<token>
+## 486884624d https://viralikigai.radiot.space/series/roxana-como-proteger-al-hermano-mayor-de-la-protagonista/
    api: get:currentEntry listen:navigatesuccess
     D back2 scrollY A=5360 D=5796 
 
@@ -653,7 +653,7 @@
     D back2 navLen A=3 D=2 
     D back2 navIdx A=1 D=0 
 
-## 5254256188 https://tv2.<token>
+## 5254256188 https://tv2.dk/reel/2026-10-13-26-aarig-kok-vil-bryde-tabu-med-tv-optraeden-6406741157112
    api: get:currentEntry listen:navigatesuccess
     B reload newErrors A=None B=['TypeError: can\'t access property "trackSessionEnd", this.tracker is null'] C_same_as_A=True
 
@@ -863,7 +863,7 @@
     D back2 scrollY A=1038 D=0 
     D back2 textLen A=16761 D=13775 
 
-## b2377f6b72 https://www.marca.<token>.html
+## b2377f6b72 https://www.marca.com/futbol/champions-league/cronica/2026/10/14/gueler-resucita-madrid-mourinho.htm
    api: get:currentEntry listen:navigatesuccess
     D back newErrors A=None D=['TypeError'] 
 
@@ -901,7 +901,7 @@
     D back2 scrollY A=316 D=0 
     D back2 textLen A=9405 D=5982 
 
-## 6b6cea95e0 https://www.freemalaysiatoday.<token>
+## 6b6cea95e0 https://www.freemalaysiatoday.com/category/highlight/2026/10/15/attacks-in-strait-of-hormuz-reach-hi
    api: call:entries get:currentEntry listen:navigate listen:navigatesuccess listen:oncurrententrychange
     D link path A=https://www.freemalaysiatoday.<token> D=https://www.freemalaysiatoday.com/ 
     D link textLen A=5340 D=9190 
@@ -955,7 +955,7 @@
     D back2 textLen A=3937 D=110 
     D back2 titleHash A=25a72d181047 D=be288566bc93 
 
-## 4f3a6829a9 https://www.capital.<token>
+## 4f3a6829a9 https://www.capital.gr/oikonomia/4023432/goldman-sachs-poso-megalo-tha-einai-to-sok-se-ependuseis-ka
    api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
     B load newErrors A=None B=['TypeError: E is not a function'] C_same_as_A=True
     B link histDelta A=2 B=1 C_same_as_A=True

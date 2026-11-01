@@ -2,7 +2,7 @@
 Usage: scrub_out.py <dir> ..."""
 import glob, json, os, re, sys
 terms = [t for t in open('.publish-terms').read().splitlines() if len(t) > 2] if os.path.exists('.publish-terms') else []
-TOKEN = re.compile(r'[A-Za-z0-9+/_-]{60,}={0,2}')
+TOKEN = re.compile(r'(?<![A-Za-z0-9+/_-])[A-Za-z0-9+/_-]{200,}={0,2}')
 IPHOST = re.compile(r'\b\d{1,3}-\d{1,3}-\d{1,3}-\d{1,3}\b')
 TERMS = re.compile('|'.join(re.escape(t) for t in terms), re.I) if terms else None
 

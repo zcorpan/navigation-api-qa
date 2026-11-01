@@ -5,21 +5,21 @@
 80 ('B', 'scrollY', False)
 73 ('B', 'titleHash', False)
 59 ('B', 'path', False)
-19 ('D', 'titleHash', None)
-19 ('D', 'navLen', None)
-19 ('D', 'navIdx', None)
-18 ('D', 'textLen', None)
+35 ('D', 'textLen', None)
+33 ('D', 'titleHash', None)
+32 ('D', 'navLen', None)
+32 ('D', 'navIdx', None)
+27 ('D', 'path', None)
+27 ('D', 'histDelta', None)
 17 ('B', 'histDelta', True)
 15 ('B', 'newErrors', True)
 14 ('B', 'sameDoc', True)
-14 ('D', 'histDelta', None)
 13 ('B', 'sameDoc', False)
-12 ('D', 'path', None)
+13 ('D', 'scrollY', None)
 11 ('B', 'textLen', True)
 11 ('B', 'titleHash', True)
 10 ('B', 'path', True)
-8 ('D', 'sameDoc', None)
-5 ('D', 'scrollY', None)
+9 ('D', 'sameDoc', None)
 3 ('D', 'newErrors', None)
 3 ('B', 'navIdx', True)
 3 ('D', 'stuck', None)
@@ -40,7 +40,7 @@
     B link2 titleHash A=251f61a2f8ce B=dbba31e140a6 C_same_as_A=True
     B back sameDoc A=False B=True C_same_as_A=True
 
-## 19d26f38f3 https://bigpara.hurriyet.com.<token>
+## 19d26f38f3 https://bigpara.hurriyet.com.tr/haberler/genel-haberler/ibbnin-yeni-taksi-ihalesinde-plaka-fiyatlari
    api: get:currentEntry listen:navigate listen:navigatesuccess
     B reload stuck A=False B=True C_same_as_A=True
     B fragment stuck A=False B=True C_same_as_A=True
@@ -136,6 +136,30 @@
     B back2 textLen A=27822 B=11519 C_same_as_A=True
     B back2 titleHash A=6ad9cd6e8d35 B=0804caf3293b C_same_as_A=True
 
+## d88f55c86f https://www.pepper.pl/
+   api: listen:currententrychange listen:navigate
+    D load textLen A=16500 D=12925 
+    D reload path A=https://www.pepper.pl/strona/cookies-policy D=https://www.pepper.pl/ 
+    D reload histDelta A=2 D=0 
+    D reload navLen A=3 D=1 
+    D reload navIdx A=1 D=0 
+    D reload textLen A=16139 D=12925 
+    D reload titleHash A=4ca398875fe9 D=34aa0b2d6872 
+    D fragment path A=https://www.pepper.pl/strona/cookies-policy D=https://www.pepper.pl/ 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment scrollY A=629 D=0 
+    D fragment textLen A=16139 D=12925 
+    D fragment titleHash A=4ca398875fe9 D=34aa0b2d6872 
+    D back2 path A=https://www.pepper.pl/strona/cookies-policy D=https://www.pepper.pl/ 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 scrollY A=629 D=0 
+    D back2 textLen A=16139 D=12925 
+    D back2 titleHash A=4ca398875fe9 D=34aa0b2d6872 
+
 ## 3395cbb798 https://www.noon.com/uae-en/welcome-new-user/
    errors: {'C': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.noon.com/uae-en/&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError@chrome://remo'}
    api: call:entries
@@ -167,7 +191,7 @@
     D back sameDoc A=True D=False 
     D back3 newErrors A=None D=['NotReadableError'] 
 
-## 2c8711fbb7 https://www.dn.<token>
+## 2c8711fbb7 https://www.dn.se/sverige/sa-blev-sverige-trumpministrarnas-ogonsten-i-nato/
    api: get:currentEntry listen:navigate listen:navigatesuccess
     B load newErrors A=None B=['ResizeObserver loop completed with undelivered notifications.'] C_same_as_A=True
     B link newErrors A=None B=['ResizeObserver loop completed with undelivered notifications.'] C_same_as_A=True
@@ -213,7 +237,7 @@
     B fragment histDelta A=3 B=2 C_same_as_A=True
     B back2 histDelta A=3 B=2 C_same_as_A=True
 
-## 5837798f12 https://www.climatempo.com.<token>
+## 5837798f12 https://www.climatempo.com.br/noticia/norte/amazonas-segue-com-tempo-instavel-e-risco-de-temporais-n
    api: call:entries get:activation get:currentEntry listen:navigate listen:navigatesuccess
     B reload newErrors A=None B=['Script error.'] C_same_as_A=True
 
@@ -255,6 +279,34 @@
    api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
     B load textLen A=5402 B=6941 C_same_as_A=True
 
+## e0b44a8c9b https://beacons.ai/
+   api: get:transition intercept:push listen:navigate
+    D load textLen A=3144 D=688 
+    D load titleHash A=315fa39342d5 D=6c58da82f9cd 
+    D reload path A=https://beacons.ai/i/managers D=https://beacons.ai/ 
+    D reload histDelta A=2 D=0 
+    D reload navLen A=3 D=1 
+    D reload navIdx A=1 D=0 
+    D reload textLen A=2717 D=688 
+    D reload titleHash A=efc30698bb11 D=6c58da82f9cd 
+    D fragment path A=https://beacons.ai/i/managers D=https://beacons.ai/ 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment textLen A=2717 D=688 
+    D fragment titleHash A=efc30698bb11 D=6c58da82f9cd 
+    D back2 path A=https://beacons.ai/i/managers D=https://beacons.ai/ 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=2717 D=688 
+    D back2 titleHash A=efc30698bb11 D=6c58da82f9cd 
+
+## 32eb7a1742 https://beacons.ai/i/brands-old
+   api: listen:navigate
+    D load textLen A=9112 D=4671 
+    D back textLen A=9112 D=4671 
+
 ## 442c578078 https://eba.gov.tr/
    api: listen:navigate
     D fragment histDelta A=1 D=0 
@@ -281,6 +333,63 @@
 ## b238182396 https://elevenlabs.io/app/sign-up
    api: call:entries get:activation get:currentEntry listen:currententrychange
     B back3 newErrors A=None B=['Error: Minified React error #N; visit URL for the full message or use the non-minified dev environment for full errors and additional helpful warnings.'] C_same_as_A=True
+
+## 392eeb2692 https://www.dateinasia.com/signin
+   api: listen:navigate
+    D link2 path A=https://www.dateinasia.com/ D=https://www.dateinasia.com/faq 
+    D link2 sameDoc A=False D=True 
+    D link2 histDelta A=2 D=1 
+    D link2 navLen A=3 D=2 
+    D link2 navIdx A=2 D=1 
+    D link2 textLen A=1210 D=8591 
+    D link2 titleHash A=b8de735d4871 D=1a8dbfdaf53c 
+    D back path A=https://www.dateinasia.com/faq D=https://www.dateinasia.com/signin 
+    D back histDelta A=2 D=1 
+    D back navLen A=3 D=2 
+    D back navIdx A=1 D=0 
+    D back scrollY A=0 D=632 
+    D back textLen A=8596 D=268 
+    D back titleHash A=1a8dbfdaf53c D=55026a2bebaa 
+    D back3 path A=https://www.dateinasia.com/signin D=about:blank 
+    D back3 histDelta A=2 D=1 
+    D back3 navLen A=3 D=0 
+    D back3 navIdx A=0 D=None 
+    D back3 scrollY A=632 D=0 
+    D back3 textLen A=268 D=0 
+    D back3 titleHash A=55026a2bebaa D=da39a3ee5e6b 
+    D forward path A=https://www.dateinasia.com/faq D=https://www.dateinasia.com/signin 
+    D forward histDelta A=2 D=1 
+    D forward navLen A=3 D=2 
+    D forward navIdx A=1 D=0 
+    D forward scrollY A=0 D=632 
+    D forward textLen A=8596 D=268 
+    D forward titleHash A=1a8dbfdaf53c D=55026a2bebaa 
+    D reload path A=https://www.dateinasia.com/faq D=https://www.dateinasia.com/signin 
+    D reload histDelta A=2 D=1 
+    D reload navLen A=3 D=2 
+    D reload navIdx A=1 D=0 
+    D reload scrollY A=0 D=632 
+    D reload textLen A=8596 D=268 
+    D reload titleHash A=1a8dbfdaf53c D=55026a2bebaa 
+    D fragment path A=https://www.dateinasia.com/faq D=https://www.dateinasia.com/signin 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment scrollY A=0 D=632 
+    D fragment textLen A=8596 D=268 
+    D fragment titleHash A=1a8dbfdaf53c D=55026a2bebaa 
+    D back2 path A=https://www.dateinasia.com/faq D=https://www.dateinasia.com/signin 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 scrollY A=0 D=632 
+    D back2 textLen A=8596 D=268 
+    D back2 titleHash A=1a8dbfdaf53c D=55026a2bebaa 
+
+## f578197344 https://www.gigasena.com.br/mega-sena/sorteio/2026-10/premio-do-sorteio-da-mega-sena-3069-do-dia-11-
+   api: get:currentEntry listen:navigatesuccess
+    D load path A=https://www.gigasena.com.<token>.htm D=https://www.gigasena.com.br/mega-sena/sorteio/2026-10/premio-do-sorteio-da-mega-sena-3069-do-dia-11-de-outubro-de-2026-estimado-em-rs-112000000.htm 
+    D back3 path A=https://www.gigasena.com.<token>.htm D=https://www.gigasena.com.br/mega-sena/sorteio/2026-10/premio-do-sorteio-da-mega-sena-3069-do-dia-11-de-outubro-de-2026-estimado-em-rs-112000000.htm 
 
 ## ceaf994f3e https://www.mtn.co.za/
    api: call:entries
@@ -313,7 +422,7 @@
     D back2 navLen A=2 D=3 
     D back2 navIdx A=0 D=1 
 
-## 8b2cb5777e https://extra.globo.<token>.ghtml
+## 8b2cb5777e https://extra.globo.com/rio/casos-de-policia/noticia/2026/10/marcio-canella-e-marcus-amin-sao-presos
    api: get:currentEntry listen:navigatesuccess
     B link newErrors A=None B=['TypeError: googletag.pubads is not a function'] C_same_as_A=True
 

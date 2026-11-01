@@ -35,7 +35,7 @@ CC_HOST = re.compile(r'\b(google|bing|yahoo|amazon|facebook)\.(?:co\.)?(?!com\b|
 IP = re.compile(r'\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b')
 
 
-TOKEN = re.compile(r'[A-Za-z0-9+/_-]{60,}={0,2}')
+TOKEN = re.compile(r'(?<![A-Za-z0-9+/_-])[A-Za-z0-9+/_-]{200,}={0,2}')
 IPHOST = re.compile(r'\b\d{1,3}-\d{1,3}-\d{1,3}-\d{1,3}\b')
 
 
