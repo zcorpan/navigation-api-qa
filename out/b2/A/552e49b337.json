@@ -1,0 +1,771 @@
+{
+ "id": "552e49b337",
+ "page": "https://www.currys.co.uk/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.currys.co.uk/",
+   "readyState": "complete",
+   "timeOrigin": 1793562833280.1,
+   "marker": null,
+   "histLen": 13,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 5710,
+   "active": "BODY",
+   "textLen": 8931,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.currys.co.uk/",
+    "key": "3200e518-3900-4613-b3ae-2bfad0726c67",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.currys.co.uk/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "552e49b3376a"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 207
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287243)",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900)"
+     ],
+     "t": 207
+    },
+    {
+     "k": "error",
+     "e": "Uncaught SyntaxError: Unexpected token '='",
+     "f": "https://www.currys.co.uk/",
+     "l": 7192,
+     "t": 250
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 727
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1963
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "error": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "A parser-blocking, cross site (i.e. different eTLD+1) script, https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network "
+    },
+    {
+     "k": "console-warning",
+     "e": "A parser-blocking, cross site (i.e. different eTLD+1) script, https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network "
+    },
+    {
+     "k": "pageerror",
+     "e": "Unexpected token '='"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot convert undefined or null to object"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "The resource https://currysprod.a.bigcontent.io/v1/static/Interwind-1.6s-200px-purple-whiteCircle was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "\ud83d\ude80 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "Cannot load Tag Resources more than once..."
+    },
+    {
+     "k": "console-warning",
+     "e": "Cannot load Tag Data more than once..."
+    },
+    {
+     "k": "console-warning",
+     "e": "Cannot load Tag Script more than once..."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "pageerror",
+     "e": "Unexpected token 'P', \"Page not found\" is not valid JSON"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "552e49b3376a",
+   "titleHash": "c3a463e5543d"
+  },
+  {
+   "step": "link",
+   "href": "https://www.currys.co.uk/store-finder",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.currys.co.uk/store-finder",
+   "readyState": "complete",
+   "timeOrigin": 1793562842602,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1021,
+   "active": "BODY",
+   "textLen": 689,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.currys.co.uk/store-finder",
+    "key": "e48c0da9-b8d4-4dc3-92bc-940f5d9a407c",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.currys.co.uk/store-finder",
+     "from": "https://www.currys.co.uk/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "365184a1771c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 25
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "365184a1771c",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.currys.co.uk/",
+   "readyState": "complete",
+   "timeOrigin": 1793562845246.3,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1021,
+   "active": "BODY",
+   "textLen": 689,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.currys.co.uk/",
+    "key": "3200e518-3900-4613-b3ae-2bfad0726c67",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.currys.co.uk/",
+     "from": "https://www.currys.co.uk/store-finder",
+     "entryIsCurrent": true
+    },
+    "urlHash": "552e49b3376a"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.currys.co.uk/store-finder",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 25
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.currys.co.uk/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2605,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "552e49b3376a",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://www.currys.co.uk/store-finder",
+   "readyState": "complete",
+   "timeOrigin": 1793562847844.8,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1021,
+   "active": "BODY",
+   "textLen": 689,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.currys.co.uk/store-finder",
+    "key": "e48c0da9-b8d4-4dc3-92bc-940f5d9a407c",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.currys.co.uk/store-finder",
+     "from": "https://www.currys.co.uk/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "365184a1771c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.currys.co.uk/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 2
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.currys.co.uk/store-finder",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2580,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "365184a1771c",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.currys.co.uk/store-finder",
+   "readyState": "complete",
+   "timeOrigin": 1793562850445.2,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1021,
+   "active": "BODY",
+   "textLen": 689,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.currys.co.uk/store-finder",
+    "key": "e48c0da9-b8d4-4dc3-92bc-940f5d9a407c",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.currys.co.uk/store-finder",
+     "from": "https://www.currys.co.uk/store-finder",
+     "entryIsCurrent": true
+    },
+    "urlHash": "365184a1771c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 22
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.currys.co.uk/store-finder",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 3
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "365184a1771c",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.currys.co.uk/store-finder",
+   "readyState": "complete",
+   "timeOrigin": 1793562850445.2,
+   "marker": "m6",
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1021,
+   "active": "BODY",
+   "textLen": 689,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.currys.co.uk/store-finder",
+    "key": "622b31f2-c059-4ee8-98e7-ba005363b078",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.currys.co.uk/store-finder",
+     "from": "https://www.currys.co.uk/store-finder",
+     "entryIsCurrent": false
+    },
+    "urlHash": "63097ad6dcd3"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 22
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.currys.co.uk/store-finder",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2630,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.currys.co.uk/store-finder",
+     "t": 2630
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.currys.co.uk/store-finder",
+     "t": 2630
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2630
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.currys.co.uk/store-finder",
+     "t": 2630
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "63097ad6dcd3",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.currys.co.uk/store-finder",
+   "readyState": "complete",
+   "timeOrigin": 1793562850445.2,
+   "marker": "m7",
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1021,
+   "active": "BODY",
+   "textLen": 689,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.currys.co.uk/store-finder",
+    "key": "e48c0da9-b8d4-4dc3-92bc-940f5d9a407c",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.currys.co.uk/store-finder",
+     "from": "https://www.currys.co.uk/store-finder",
+     "entryIsCurrent": true
+    },
+    "urlHash": "365184a1771c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 22
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.currys.co.uk/store-finder",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2630,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.currys.co.uk/store-finder",
+     "t": 2630
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.currys.co.uk/store-finder",
+     "t": 2630
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2630
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.currys.co.uk/store-finder",
+     "t": 2630
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.currys.co.uk/store-finder",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5211,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.currys.co.uk/store-finder",
+     "t": 5212
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5212
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.currys.co.uk/store-finder",
+     "t": 5212
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.currys.co.uk/store-finder",
+     "t": 5212
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "365184a1771c",
+   "titleHash": "6c58da82f9cd"
+  }
+ ],
+ "plan": {
+  "link": "https://www.currys.co.uk/store-finder",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 25.0,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

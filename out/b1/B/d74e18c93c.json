@@ -1,0 +1,979 @@
+{
+ "id": "d74e18c93c",
+ "page": "https://bycheck.org/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:updateCurrentEntry": 1,
+    "currententrychange": 1,
+    "get:currentEntry": 4,
+    "pageshow": 1
+   },
+   "docH": 3482,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 179
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 179
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 179
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 179
+    },
+    {
+     "a": "[{\"state\":{\"bycheckPath\":\"/\"}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "N[m]@https://bycheck.org/:52:79",
+      "markCurrentEntry@https://bycheck.org/js/back-nav.mjs:44:9",
+      "initBack@https://bycheck.org/js/back-nav.mjs:151:5",
+      "@https://bycheck.org/js/back-nav.mjs:176:38"
+     ],
+     "t": 179
+    },
+    {
+     "from": "https://bycheck.org/",
+     "k": "currententrychange",
+     "m": null,
+     "t": 179
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 182
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://bycheck.org/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "271e919d-9cd4-490e-8ae9-ac4b12292473",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://bycheck.org/",
+    "urlHash": "d74e18c93c24"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3631,
+   "timeOrigin": 1793555570074,
+   "url": "https://bycheck.org/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d74e18c93c24",
+   "titleHash": "c5f4d72ae7f4"
+  },
+  {
+   "step": "link",
+   "href": "https://bycheck.org/check/subscriptions/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:updateCurrentEntry": 1,
+    "currententrychange": 1,
+    "get:currentEntry": 4,
+    "pageshow": 1
+   },
+   "docH": 3085,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "a": "[{\"state\":{\"bycheckPath\":\"/check/subscriptions/\"}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "N[m]@https://bycheck.org/check/subscriptions/:52:79",
+      "markCurrentEntry@https://bycheck.org/js/back-nav.mjs:44:9",
+      "initBack@https://bycheck.org/js/back-nav.mjs:151:5",
+      "@https://bycheck.org/js/back-nav.mjs:176:38"
+     ],
+     "t": 71
+    },
+    {
+     "from": "https://bycheck.org/check/subscriptions/",
+     "k": "currententrychange",
+     "m": null,
+     "t": 71
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 78
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://bycheck.org/check/subscriptions/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "6bfa224f-897b-4599-832c-6cd9773c09de",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://bycheck.org/check/subscriptions/",
+    "urlHash": "9b5039bebc5e"
+   },
+   "prev": {
+    "counts": {
+     "call:updateCurrentEntry": 1,
+     "currententrychange": 1,
+     "get:currentEntry": 4,
+     "navigate:push": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 179
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 179
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 179
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 179
+     },
+     {
+      "a": "[{\"state\":{\"bycheckPath\":\"/\"}}]",
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "s": [
+       "N[m]@https://bycheck.org/:52:79",
+       "markCurrentEntry@https://bycheck.org/js/back-nav.mjs:44:9",
+       "initBack@https://bycheck.org/js/back-nav.mjs:151:5",
+       "@https://bycheck.org/js/back-nav.mjs:176:38"
+      ],
+      "t": 179
+     },
+     {
+      "from": "https://bycheck.org/",
+      "k": "currententrychange",
+      "m": null,
+      "t": 179
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 182
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": "A",
+      "t": 4276,
+      "url": "https://bycheck.org/check/subscriptions/",
+      "userInitiated": true
+     }
+    ],
+    "url": "https://bycheck.org/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2529,
+   "timeOrigin": 1793555574532,
+   "url": "https://bycheck.org/check/subscriptions/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9b5039bebc5e",
+   "titleHash": "bcfced452904"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 4,
+    "pageshow": 1
+   },
+   "docH": 3482,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 20
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://bycheck.org/",
+     "entryIsCurrent": true,
+     "from": "https://bycheck.org/check/subscriptions/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "271e919d-9cd4-490e-8ae9-ac4b12292473",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://bycheck.org/",
+    "urlHash": "d74e18c93c24"
+   },
+   "prev": {
+    "counts": {
+     "call:updateCurrentEntry": 1,
+     "currententrychange": 1,
+     "get:currentEntry": 4,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "a": "[{\"state\":{\"bycheckPath\":\"/check/subscriptions/\"}}]",
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "s": [
+       "N[m]@https://bycheck.org/check/subscriptions/:52:79",
+       "markCurrentEntry@https://bycheck.org/js/back-nav.mjs:44:9",
+       "initBack@https://bycheck.org/js/back-nav.mjs:151:5",
+       "@https://bycheck.org/js/back-nav.mjs:176:38"
+      ],
+      "t": 71
+     },
+     {
+      "from": "https://bycheck.org/check/subscriptions/",
+      "k": "currententrychange",
+      "m": null,
+      "t": 71
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 78
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2667,
+      "url": "https://bycheck.org/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://bycheck.org/check/subscriptions/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3631,
+   "timeOrigin": 1793555577232,
+   "url": "https://bycheck.org/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "d74e18c93c24",
+   "titleHash": "c5f4d72ae7f4"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:updateCurrentEntry": 1,
+    "currententrychange": 1,
+    "get:currentEntry": 4,
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 3085,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "a": "[{\"state\":{\"bycheckPath\":\"/check/subscriptions/\"}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "N[m]@https://bycheck.org/check/subscriptions/:52:79",
+      "markCurrentEntry@https://bycheck.org/js/back-nav.mjs:44:9",
+      "initBack@https://bycheck.org/js/back-nav.mjs:151:5",
+      "@https://bycheck.org/js/back-nav.mjs:176:38"
+     ],
+     "t": 71
+    },
+    {
+     "from": "https://bycheck.org/check/subscriptions/",
+     "k": "currententrychange",
+     "m": null,
+     "t": 71
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 78
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2667,
+     "url": "https://bycheck.org/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5273
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://bycheck.org/check/subscriptions/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "6bfa224f-897b-4599-832c-6cd9773c09de",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://bycheck.org/check/subscriptions/",
+    "urlHash": "9b5039bebc5e"
+   },
+   "prev": {
+    "counts": {
+     "call:updateCurrentEntry": 1,
+     "currententrychange": 1,
+     "get:currentEntry": 4,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "a": "[{\"state\":{\"bycheckPath\":\"/check/subscriptions/\"}}]",
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "s": [
+       "N[m]@https://bycheck.org/check/subscriptions/:52:79",
+       "markCurrentEntry@https://bycheck.org/js/back-nav.mjs:44:9",
+       "initBack@https://bycheck.org/js/back-nav.mjs:151:5",
+       "@https://bycheck.org/js/back-nav.mjs:176:38"
+      ],
+      "t": 71
+     },
+     {
+      "from": "https://bycheck.org/check/subscriptions/",
+      "k": "currententrychange",
+      "m": null,
+      "t": 71
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 78
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2667,
+      "url": "https://bycheck.org/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://bycheck.org/check/subscriptions/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2529,
+   "timeOrigin": 1793555574532,
+   "url": "https://bycheck.org/check/subscriptions/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9b5039bebc5e",
+   "titleHash": "bcfced452904"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 4,
+    "pageshow": 1
+   },
+   "docH": 3085,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 166
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://bycheck.org/check/subscriptions/",
+     "entryIsCurrent": true,
+     "from": "https://bycheck.org/check/subscriptions/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "6bfa224f-897b-4599-832c-6cd9773c09de",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://bycheck.org/check/subscriptions/",
+    "urlHash": "9b5039bebc5e"
+   },
+   "prev": {
+    "counts": {
+     "call:updateCurrentEntry": 1,
+     "currententrychange": 1,
+     "get:currentEntry": 4,
+     "navigate:traverse": 1,
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 71
+     },
+     {
+      "a": "[{\"state\":{\"bycheckPath\":\"/check/subscriptions/\"}}]",
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "s": [
+       "N[m]@https://bycheck.org/check/subscriptions/:52:79",
+       "markCurrentEntry@https://bycheck.org/js/back-nav.mjs:44:9",
+       "initBack@https://bycheck.org/js/back-nav.mjs:151:5",
+       "@https://bycheck.org/js/back-nav.mjs:176:38"
+      ],
+      "t": 71
+     },
+     {
+      "from": "https://bycheck.org/check/subscriptions/",
+      "k": "currententrychange",
+      "m": null,
+      "t": 71
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 78
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2667,
+      "url": "https://bycheck.org/",
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 5273
+     }
+    ],
+    "url": "https://bycheck.org/check/subscriptions/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2529,
+   "timeOrigin": 1793555582435,
+   "url": "https://bycheck.org/check/subscriptions/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9b5039bebc5e",
+   "titleHash": "bcfced452904"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 4,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3085,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 166
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2764,
+     "url": "https://bycheck.org/check/subscriptions/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://bycheck.org/check/subscriptions/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2764
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2764,
+     "url": "https://bycheck.org/check/subscriptions/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2764
+    },
+    {
+     "k": "hashchange",
+     "t": 2764,
+     "url": "https://bycheck.org/check/subscriptions/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://bycheck.org/check/subscriptions/",
+     "entryIsCurrent": false,
+     "from": "https://bycheck.org/check/subscriptions/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "e6db6f7d-c30f-4629-b750-004832f31812",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://bycheck.org/check/subscriptions/",
+    "urlHash": "8b2d9fb61cdf"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2529,
+   "timeOrigin": 1793555582435,
+   "url": "https://bycheck.org/check/subscriptions/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8b2d9fb61cdf",
+   "titleHash": "bcfced452904"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 4,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3085,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 166
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2764,
+     "url": "https://bycheck.org/check/subscriptions/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://bycheck.org/check/subscriptions/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2764
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2764,
+     "url": "https://bycheck.org/check/subscriptions/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2764
+    },
+    {
+     "k": "hashchange",
+     "t": 2764,
+     "url": "https://bycheck.org/check/subscriptions/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5344,
+     "url": "https://bycheck.org/check/subscriptions/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://bycheck.org/check/subscriptions/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5344
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5344
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5344,
+     "url": "https://bycheck.org/check/subscriptions/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5345,
+     "url": "https://bycheck.org/check/subscriptions/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://bycheck.org/check/subscriptions/",
+     "entryIsCurrent": true,
+     "from": "https://bycheck.org/check/subscriptions/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "6bfa224f-897b-4599-832c-6cd9773c09de",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://bycheck.org/check/subscriptions/",
+    "urlHash": "9b5039bebc5e"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2529,
+   "timeOrigin": 1793555582435,
+   "url": "https://bycheck.org/check/subscriptions/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9b5039bebc5e",
+   "titleHash": "bcfced452904"
+  }
+ ],
+ "plan": {
+  "link": "https://bycheck.org/check/subscriptions/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 20.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

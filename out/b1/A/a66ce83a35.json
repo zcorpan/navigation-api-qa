@@ -1,0 +1,1077 @@
+{
+ "id": "a66ce83a35",
+ "page": "https://www.viamichelin.fr/magazine/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.viamichelin.fr/magazine/",
+   "readyState": "complete",
+   "timeOrigin": 1793553920699.5,
+   "marker": null,
+   "histLen": 5,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4494,
+   "active": "BODY",
+   "textLen": 3937,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.viamichelin.fr/magazine/",
+    "key": "6275b867-3135-4f38-b5b1-33a942bea1ed",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.viamichelin.fr/magazine/",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "aa9e11103ea3"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": null,
+     "t": 237
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 237,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 237
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 254
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 868
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3110
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 3110
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "[magazine] error ad loading {event: ads.load_failed, err: Error: GPT not loaded\n    at https://cdn.adgtw.orangeads.fr/build/adgw-spa-viam.min.js:5:22015\n    \u2026}"
+    },
+    {
+     "k": "console-warning",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Error in googletag.display: could not find div with id \"via_b3_728x90_magazine\" in DOM for slot: /3513,2787961/via_ban_3_728x90_magazine.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Error in googletag.display: could not find div with id \"via_g1_970x250_magazine\" in DOM for slot: /3513,2787961/via_mas_1_970x250_magazine.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Error in googletag.display: could not find div with id \"via_r1_300x250_magazine\" in DOM for slot: /3513,2787961/via_rec_1_300x250_magazine.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Error in googletag.display: could not find div with id \"via_r2_300x250_magazine\" in DOM for slot: /3513,2787961/via_rec_2_300x250_magazine.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "aa9e11103ea3",
+   "titleHash": "25a72d181047"
+  },
+  {
+   "step": "link",
+   "href": "https://www.viamichelin.fr/magazine/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.viamichelin.fr/magazine/",
+   "readyState": "complete",
+   "timeOrigin": 1793553920699.5,
+   "marker": "m0",
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4494,
+   "active": "A",
+   "textLen": 3937,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.viamichelin.fr/magazine/",
+    "key": "c279ef4a-f335-45ec-a448-fe10aa730756",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.viamichelin.fr/magazine/",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "514d74cdb341"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": null,
+     "t": 237
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 237,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 237
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 254
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 868
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3110
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 3110
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/magazine/",
+     "t": 5877
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5877,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 5878
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5878
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5878
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "history:pushState": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "514d74cdb341",
+   "titleHash": "25a72d181047"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.viamichelin.fr/magazine/",
+   "readyState": "complete",
+   "timeOrigin": 1793553920699.5,
+   "marker": "m1",
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4494,
+   "active": "A",
+   "textLen": 3937,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.viamichelin.fr/magazine/",
+    "key": "6275b867-3135-4f38-b5b1-33a942bea1ed",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.viamichelin.fr/magazine/",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "aa9e11103ea3"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": null,
+     "t": 237
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 237,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 237
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 254
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 868
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3110
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 3110
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/magazine/",
+     "t": 5877
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5877,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 5878
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5878
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5878
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 8461,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 8461
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8461
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8461
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "t": 8461
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "history:pushState": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "aa9e11103ea3",
+   "titleHash": "25a72d181047"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://www.viamichelin.fr/magazine/",
+   "readyState": "complete",
+   "timeOrigin": 1793553920699.5,
+   "marker": "m2",
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4494,
+   "active": "A",
+   "textLen": 3937,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.viamichelin.fr/magazine/",
+    "key": "c279ef4a-f335-45ec-a448-fe10aa730756",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.viamichelin.fr/magazine/",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "514d74cdb341"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": null,
+     "t": 237
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 237,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 237
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 254
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 868
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3110
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 3110
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/magazine/",
+     "t": 5877
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5877,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 5878
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5878
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5878
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 8461,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 8461
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8461
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8461
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "t": 8461
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 11192,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 11193
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11193
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 11193
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "t": 11193
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "get:currentEntry": 4,
+    "listen:navigatesuccess": 1,
+    "history:pushState": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigate:traverse": 2,
+    "currententrychange:traverse": 2,
+    "popstate": 2
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "514d74cdb341",
+   "titleHash": "25a72d181047"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.viamichelin.fr/magazine/",
+   "readyState": "complete",
+   "timeOrigin": 1793553934834.3,
+   "marker": null,
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 5184,
+   "active": "BODY",
+   "textLen": 3937,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.viamichelin.fr/magazine/",
+    "key": "c279ef4a-f335-45ec-a448-fe10aa730756",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.viamichelin.fr/magazine/",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "514d74cdb341"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 140
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 140
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 505
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[magazine] error ad loading {event: ads.load_failed, err: Error: GPT not loaded\n    at https://cdn.adgtw.orangeads.fr/build/adgw-spa-viam.min.js:5:22015\n    \u2026}"
+    },
+    {
+     "k": "console-warning",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Error in googletag.display: could not find div with id \"via_b3_728x90_magazine\" in DOM for slot: /3513,2787961/via_ban_3_728x90_magazine.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Error in googletag.display: could not find div with id \"via_g1_970x250_magazine\" in DOM for slot: /3513,2787961/via_mas_1_970x250_magazine.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Error in googletag.display: could not find div with id \"via_r1_300x250_magazine\" in DOM for slot: /3513,2787961/via_rec_1_300x250_magazine.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Error in googletag.display: could not find div with id \"via_r2_300x250_magazine\" in DOM for slot: /3513,2787961/via_rec_2_300x250_magazine.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "514d74cdb341",
+   "titleHash": "25a72d181047"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.viamichelin.fr/magazine/",
+   "readyState": "complete",
+   "timeOrigin": 1793553934834.3,
+   "marker": "m4",
+   "histLen": 7,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 5184,
+   "active": "BODY",
+   "textLen": 3937,
+   "nav": {
+    "len": 4,
+    "idx": 3,
+    "url": "https://www.viamichelin.fr/magazine/",
+    "key": "7c526f64-4279-4d4d-94c4-b5560b610eb4",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.viamichelin.fr/magazine/",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "a52769e0df73"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 140
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 140
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 505
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3227,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 3227
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "t": 3227
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3228
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3228
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "t": 3229
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a52769e0df73",
+   "titleHash": "25a72d181047"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.viamichelin.fr/magazine/",
+   "readyState": "complete",
+   "timeOrigin": 1793553934834.3,
+   "marker": "m5",
+   "histLen": 7,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4704,
+   "active": "BODY",
+   "textLen": 3937,
+   "nav": {
+    "len": 4,
+    "idx": 2,
+    "url": "https://www.viamichelin.fr/magazine/",
+    "key": "c279ef4a-f335-45ec-a448-fe10aa730756",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.viamichelin.fr/magazine/",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "514d74cdb341"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 140
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 140
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 505
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3227,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 3227
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "t": 3227
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3228
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3228
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "t": 3229
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5947,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.viamichelin.fr/magazine/",
+     "t": 5947
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5947
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5947
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "t": 5947
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.viamichelin.fr/magazine/",
+     "t": 5955
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "514d74cdb341",
+   "titleHash": "25a72d181047"
+  }
+ ],
+ "plan": {
+  "link": "https://www.viamichelin.fr/magazine/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 24.1,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

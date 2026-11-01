@@ -1,118 +1,59 @@
 {
- "A": {
-  "browser": "Chrome Canary 159.0.8136.0",
+ "D": {
+  "browser": "Safari TP 27.0",
   "result": [
    {
-    "label": "load",
-    "activationType": "push",
-    "activationEntryUrl": "activation-keys.html",
-    "activationFromUrl": null,
-    "sameKey": true,
     "sameEntryObject": true,
-    "idx": 0
-   },
-   {
-    "label": "after replaceState",
+    "activationFromUrl": null,
     "activationType": "push",
     "activationEntryUrl": "activation-keys.html",
-    "activationFromUrl": null,
-    "sameKey": true,
-    "sameEntryObject": false,
-    "idx": 0
+    "label": "load",
+    "idx": 0,
+    "sameKey": true
    },
    {
+    "sameEntryObject": false,
+    "activationFromUrl": null,
+    "activationType": "push",
+    "activationEntryUrl": "activation-keys.html",
+    "label": "after replaceState",
+    "idx": 0,
+    "sameKey": true
+   },
+   {
+    "sameEntryObject": false,
+    "activationFromUrl": null,
+    "activationType": "push",
+    "activationEntryUrl": "activation-keys.html",
     "label": "after pushState",
-    "activationType": "push",
-    "activationEntryUrl": "activation-keys.html",
-    "activationFromUrl": null,
-    "sameKey": false,
-    "sameEntryObject": false,
-    "idx": 1
-   },
-   {
-    "label": "after back (same-document)",
-    "activationType": "push",
-    "activationEntryUrl": "activation-keys.html",
-    "activationFromUrl": null,
-    "sameKey": true,
-    "sameEntryObject": false,
-    "idx": 0
-   },
-   {
-    "label": "after reload",
-    "activationType": "reload",
-    "activationEntryUrl": "activation-keys.html?r",
-    "activationFromUrl": "activation-keys.html?r",
-    "sameKey": true,
-    "sameEntryObject": true,
-    "idx": 0
-   },
-   {
-    "label": "after returning, persisted=false",
-    "activationType": "traverse",
-    "activationEntryUrl": "activation-keys.html?r",
-    "activationFromUrl": "page2.html",
-    "sameKey": true,
-    "sameEntryObject": true,
-    "idx": 0
-   }
-  ]
- },
- "B": {
-  "browser": "Firefox Nightly 161.0a1",
-  "result": [
-   {
-    "activationEntryUrl": "activation-keys.html",
-    "activationFromUrl": null,
-    "activationType": "push",
-    "idx": 0,
-    "label": "load",
-    "sameEntryObject": true,
-    "sameKey": true
-   },
-   {
-    "activationEntryUrl": "activation-keys.html",
-    "activationFromUrl": null,
-    "activationType": "push",
-    "idx": 0,
-    "label": "after replaceState",
-    "sameEntryObject": false,
-    "sameKey": true
-   },
-   {
-    "activationEntryUrl": "activation-keys.html",
-    "activationFromUrl": null,
-    "activationType": "push",
     "idx": 1,
-    "label": "after pushState",
-    "sameEntryObject": false,
     "sameKey": false
    },
    {
-    "activationEntryUrl": "activation-keys.html",
+    "sameEntryObject": false,
     "activationFromUrl": null,
     "activationType": "push",
-    "idx": 0,
+    "activationEntryUrl": "activation-keys.html",
     "label": "after back (same-document)",
-    "sameEntryObject": false,
+    "idx": 0,
     "sameKey": true
    },
    {
-    "activationEntryUrl": "activation-keys.html?r",
+    "sameEntryObject": true,
     "activationFromUrl": "activation-keys.html?r",
     "activationType": "reload",
-    "idx": 0,
+    "activationEntryUrl": "activation-keys.html?r",
     "label": "after reload",
-    "sameEntryObject": true,
+    "idx": 0,
     "sameKey": true
    },
    {
-    "activationEntryUrl": "activation-keys.html?r",
-    "activationFromUrl": "page2.html",
-    "activationType": "traverse",
-    "idx": 0,
-    "label": "after returning, persisted=false",
     "sameEntryObject": true,
+    "activationFromUrl": "activation-keys.html?r",
+    "activationType": "reload",
+    "activationEntryUrl": "activation-keys.html?r",
+    "label": "after returning, persisted=true",
+    "idx": 0,
     "sameKey": true
    }
   ]

@@ -1,0 +1,718 @@
+{
+ "id": "73482eecbb",
+ "page": "https://www.mobile.de/consent/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.mobile.de/consent/",
+   "readyState": "complete",
+   "timeOrigin": 1793553751265.1,
+   "marker": null,
+   "histLen": 9,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 10608,
+   "active": "BODY",
+   "textLen": 29712,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.mobile.de/consent/",
+    "key": "da934696-91fb-486e-ab54-bf09dd87bdcf",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.mobile.de/consent/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "73482eecbb20"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 536
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 536
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/consent/",
+     "t": 536
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.mobile.de/consent/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 536,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.mobile.de/consent/",
+     "t": 536
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 540
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 540
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 546
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 727
+    }
+   ],
+   "counts": {
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "73482eecbb20",
+   "titleHash": "f54aa8385e48"
+  },
+  {
+   "step": "link",
+   "href": "https://www.mobile.de/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.mobile.de/",
+   "readyState": "complete",
+   "timeOrigin": 1793553756317.1,
+   "marker": null,
+   "histLen": 10,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1023,
+   "active": "BODY",
+   "textLen": 1206,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.mobile.de/",
+    "key": "68691eee-d36a-485a-b9c0-9a488dece56e",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.mobile.de/",
+     "from": "https://www.mobile.de/consent/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f870e9e308c2"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 36
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "f870e9e308c2",
+   "titleHash": "e1103a8f13d5"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.mobile.de/consent/",
+   "readyState": "complete",
+   "timeOrigin": 1793553758879.1,
+   "marker": null,
+   "histLen": 10,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 10608,
+   "active": "BODY",
+   "textLen": 29712,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.mobile.de/consent/",
+    "key": "da934696-91fb-486e-ab54-bf09dd87bdcf",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.mobile.de/consent/",
+     "from": "https://www.mobile.de/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "73482eecbb20"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1022
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1022
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/consent/",
+     "t": 1022
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.mobile.de/consent/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1022,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.mobile.de/consent/",
+     "t": 1022
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1024
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1024
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1028
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1088
+    }
+   ],
+   "counts": {
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "73482eecbb20",
+   "titleHash": "f54aa8385e48"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://www.mobile.de/",
+   "readyState": "complete",
+   "timeOrigin": 1793553761620.2,
+   "marker": null,
+   "histLen": 10,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1023,
+   "active": "BODY",
+   "textLen": 1206,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.mobile.de/",
+    "key": "68691eee-d36a-485a-b9c0-9a488dece56e",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.mobile.de/",
+     "from": "https://www.mobile.de/consent/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f870e9e308c2"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 44
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "f870e9e308c2",
+   "titleHash": "e1103a8f13d5"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.mobile.de/",
+   "readyState": "complete",
+   "timeOrigin": 1793553764346.6,
+   "marker": null,
+   "histLen": 10,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1023,
+   "active": "BODY",
+   "textLen": 1206,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.mobile.de/",
+    "key": "68691eee-d36a-485a-b9c0-9a488dece56e",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.mobile.de/",
+     "from": "https://www.mobile.de/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f870e9e308c2"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 34
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "f870e9e308c2",
+   "titleHash": "e1103a8f13d5"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.mobile.de/",
+   "readyState": "complete",
+   "timeOrigin": 1793553764346.6,
+   "marker": "m4",
+   "histLen": 11,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1023,
+   "active": "BODY",
+   "textLen": 1206,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.mobile.de/",
+    "key": "8f950ed1-7865-4a15-900d-b3a786cf094d",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.mobile.de/",
+     "from": "https://www.mobile.de/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "d170624544e9"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 34
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.mobile.de/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2601,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.mobile.de/",
+     "t": 2601
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.mobile.de/",
+     "t": 2601
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2601
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.mobile.de/",
+     "t": 2601
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d170624544e9",
+   "titleHash": "e1103a8f13d5"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.mobile.de/",
+   "readyState": "complete",
+   "timeOrigin": 1793553764346.6,
+   "marker": "m5",
+   "histLen": 11,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1023,
+   "active": "BODY",
+   "textLen": 1206,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.mobile.de/",
+    "key": "68691eee-d36a-485a-b9c0-9a488dece56e",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.mobile.de/",
+     "from": "https://www.mobile.de/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f870e9e308c2"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 34
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.mobile.de/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2601,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.mobile.de/",
+     "t": 2601
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.mobile.de/",
+     "t": 2601
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2601
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.mobile.de/",
+     "t": 2601
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.mobile.de/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5186,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.mobile.de/",
+     "t": 5186
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5186
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.mobile.de/",
+     "t": 5186
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.mobile.de/",
+     "t": 5187
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f870e9e308c2",
+   "titleHash": "e1103a8f13d5"
+  }
+ ],
+ "plan": {
+  "link": "https://www.mobile.de/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 20.9,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

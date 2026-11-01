@@ -1,0 +1,829 @@
+{
+ "id": "836bb15592",
+ "page": "https://store.steampowered.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://store.steampowered.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793553002317.4,
+   "marker": null,
+   "histLen": 5,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4340,
+   "active": "BODY",
+   "textLen": 5909,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://store.steampowered.com/",
+    "key": "3d8027cf-a6de-405d-9e6e-d6e7a15de906",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://store.steampowered.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "836bb1559232"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 172
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+      "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+     ],
+     "t": 214
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "listen:currententrychange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "link",
+   "href": "https://store.steampowered.com/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://store.steampowered.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793553007059.1,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4340,
+   "active": "BODY",
+   "textLen": 5671,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://store.steampowered.com/",
+    "key": "a518365c-f70a-4495-bfc1-ecf03dc0ee30",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://store.steampowered.com/",
+     "from": "https://store.steampowered.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "836bb1559232"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at BindNavEvent (https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js",
+      "at ReplaceHistoryURL (https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js"
+     ],
+     "t": 8
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8
+    },
+    {
+     "k": "call",
+     "m": "navigate",
+     "a": "[\"https://store.steampowered.com/\",{\"history\":\"replace\",\"info\":\"local\"}]",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as navigate] (<anonymous>:53:79)",
+      "at ReplaceHistoryURL (https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js",
+      "at Object.RemoveParamFromURL (https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js"
+     ],
+     "t": 8
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://store.steampowered.com/",
+     "same": false,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": "local",
+     "src": null,
+     "t": 8,
+     "prevented": false
+    },
+    {
+     "k": "intercept",
+     "m": "replace",
+     "url": "https://store.steampowered.com/",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+      "at Navigation.<anonymous> (https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js",
+      "at N.<computed> [as navigate] (<anonymous>:57:18)"
+     ],
+     "opts": {
+      "handler": "function",
+      "precommit": "undefined",
+      "focusReset": null,
+      "scroll": null
+     },
+     "t": 8
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://store.steampowered.com/",
+     "t": 8
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8
+    },
+    {
+     "k": "committed",
+     "m": "navigate",
+     "t": 8
+    },
+    {
+     "k": "finished",
+     "m": "navigate",
+     "t": 8
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 80
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+      "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+     ],
+     "t": 108
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigate": 1,
+    "call:navigate": 1,
+    "navigate:replace:local": 1,
+    "intercept:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "committed:navigate": 1,
+    "finished:navigate": 1,
+    "pageshow": 1,
+    "listen:currententrychange": 1
+   },
+   "prev": {
+    "url": "https://store.steampowered.com/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 172
+     },
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+       "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+      ],
+      "t": 214
+     },
+     {
+      "k": "navigate",
+      "m": "push",
+      "url": "https://store.steampowered.com/",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": "A",
+      "t": 4429,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "listen:currententrychange": 1,
+     "navigate:push": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://store.steampowered.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793553009757.6,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4340,
+   "active": "BODY",
+   "textLen": 5727,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://store.steampowered.com/",
+    "key": "3d8027cf-a6de-405d-9e6e-d6e7a15de906",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://store.steampowered.com/",
+     "from": "https://store.steampowered.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "836bb1559232"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 46
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+      "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+     ],
+     "t": 69
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "listen:currententrychange": 1
+   },
+   "prev": {
+    "url": "https://store.steampowered.com/",
+    "log": [
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 7
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at BindNavEvent (https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js",
+       "at ReplaceHistoryURL (https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js"
+      ],
+      "t": 8
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 8
+     },
+     {
+      "k": "call",
+      "m": "navigate",
+      "a": "[\"https://store.steampowered.com/\",{\"history\":\"replace\",\"info\":\"local\"}]",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as navigate] (<anonymous>:53:79)",
+       "at ReplaceHistoryURL (https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js",
+       "at Object.RemoveParamFromURL (https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js"
+      ],
+      "t": 8
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://store.steampowered.com/",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "info": "local",
+      "src": null,
+      "t": 8,
+      "prevented": false
+     },
+     {
+      "k": "intercept",
+      "m": "replace",
+      "url": "https://store.steampowered.com/",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+       "at Navigation.<anonymous> (https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js",
+       "at N.<computed> [as navigate] (<anonymous>:57:18)"
+      ],
+      "opts": {
+       "handler": "function",
+       "precommit": "undefined"
+      },
+      "t": 8
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://store.steampowered.com/",
+      "t": 8
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 8
+     },
+     {
+      "k": "committed",
+      "m": "navigate",
+      "t": 8
+     },
+     {
+      "k": "finished",
+      "m": "navigate",
+      "t": 8
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 80
+     },
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+       "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+      ],
+      "t": 108
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://store.steampowered.com/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2423,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "get:currentEntry": 2,
+     "listen:navigate": 1,
+     "call:navigate": 1,
+     "navigate:replace:local": 1,
+     "intercept:replace": 1,
+     "currententrychange:replace": 1,
+     "navigatesuccess": 1,
+     "committed:navigate": 1,
+     "finished:navigate": 1,
+     "pageshow": 1,
+     "listen:currententrychange": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://store.steampowered.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793553012439.8,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4340,
+   "active": "BODY",
+   "textLen": 5710,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://store.steampowered.com/",
+    "key": "a518365c-f70a-4495-bfc1-ecf03dc0ee30",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://store.steampowered.com/",
+     "from": "https://store.steampowered.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "836bb1559232"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 46
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+      "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+     ],
+     "t": 69
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "listen:currententrychange": 1
+   },
+   "prev": {
+    "url": "https://store.steampowered.com/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 46
+     },
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+       "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+      ],
+      "t": 69
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://store.steampowered.com/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2674,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "listen:currententrychange": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://store.steampowered.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793553015137.5,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4340,
+   "active": "BODY",
+   "textLen": 5745,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://store.steampowered.com/",
+    "key": "a518365c-f70a-4495-bfc1-ecf03dc0ee30",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://store.steampowered.com/",
+     "from": "https://store.steampowered.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "836bb1559232"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 493
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+      "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+     ],
+     "t": 514
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "listen:currententrychange": 1
+   },
+   "prev": {
+    "url": "https://store.steampowered.com/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 46
+     },
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+       "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+      ],
+      "t": 69
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "listen:currententrychange": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "fragment",
+   "href": "https://store.steampowered.com/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://store.steampowered.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793553015137.5,
+   "marker": "m4",
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 2179,
+   "docH": 4390,
+   "active": "A#tab_newreleases_content_trigger",
+   "textLen": 6101,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://store.steampowered.com/",
+    "key": "a518365c-f70a-4495-bfc1-ecf03dc0ee30",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://store.steampowered.com/",
+     "from": "https://store.steampowered.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "836bb1559232"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 493
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+      "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+     ],
+     "t": 514
+    },
+    {
+     "k": "rejection",
+     "e": "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+     "t": 3269
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "listen:currententrychange": 1,
+    "rejection": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Error reporter does not know how to parse generated stack:"
+    },
+    {
+     "k": "console-warning",
+     "e": "undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22"
+    }
+   ],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://store.steampowered.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793553021828.8,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4340,
+   "active": "BODY",
+   "textLen": 5641,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://store.steampowered.com/",
+    "key": "3d8027cf-a6de-405d-9e6e-d6e7a15de906",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://store.steampowered.com/",
+     "from": "https://store.steampowered.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "836bb1559232"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 49
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+      "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+     ],
+     "t": 72
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "listen:currententrychange": 1
+   },
+   "prev": {
+    "url": "https://store.steampowered.com/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 493
+     },
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at dQ (https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js",
+       "at https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js"
+      ],
+      "t": 514
+     },
+     {
+      "k": "rejection",
+      "e": "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+      "t": 3269
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://store.steampowered.com/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 5963,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "listen:currententrychange": 1,
+     "rejection": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  }
+ ],
+ "plan": {
+  "link": "https://store.steampowered.com/",
+  "fragment": "https://store.steampowered.com/"
+ },
+ "consent": null,
+ "elapsed": 22.2,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

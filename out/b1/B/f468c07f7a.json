@@ -1,0 +1,766 @@
+{
+ "id": "f468c07f7a",
+ "page": "https://www.windguru.cz/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY#body",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 292
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 500,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 500,
+     "url": "https://www.windguru.cz/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.windguru.cz/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 500
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 500
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "ty@https://scripts.stay22.com/letmeallez.js:61:76738",
+      "@https://scripts.stay22.com/letmeallez.js:61:77269",
+      "I/<@https://scripts.stay22.com/letmeallez.js:2:1339"
+     ],
+     "t": 1150
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1295
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 1295
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "n.start@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:16942",
+      "t.start/e</<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133289",
+      "t.start/e<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133260"
+     ],
+     "t": 1515
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "n.start@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:16981",
+      "t.start/e</<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133289",
+      "t.start/e<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133260"
+     ],
+     "t": 1515
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.windguru.cz/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "00bf77d6-855c-41c8-9d9c-5c13525ad8ac",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.windguru.cz/",
+    "urlHash": "f468c07f7a3f"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 21969,
+   "timeOrigin": 1793555404244,
+   "url": "https://www.windguru.cz/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793555405857_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793555405857_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793555405859_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793555405859_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "f468c07f7a3f",
+   "titleHash": "822c7a2d1d88"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY#body",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 217
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 419,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 420,
+     "url": "https://www.windguru.cz/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.windguru.cz/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 420
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 420
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "ty@https://scripts.stay22.com/letmeallez.js:61:76738",
+      "@https://scripts.stay22.com/letmeallez.js:61:77269",
+      "I/<@https://scripts.stay22.com/letmeallez.js:2:1339"
+     ],
+     "t": 880
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 978
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 978
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "n.start@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:16942",
+      "t.start/e</<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133289",
+      "t.start/e<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133260"
+     ],
+     "t": 1116
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "n.start@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:16981",
+      "t.start/e</<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133289",
+      "t.start/e<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133260"
+     ],
+     "t": 1116
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.windguru.cz/",
+     "entryIsCurrent": true,
+     "from": "https://www.windguru.cz/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "00bf77d6-855c-41c8-9d9c-5c13525ad8ac",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.windguru.cz/",
+    "urlHash": "f468c07f7a3f"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 21969,
+   "timeOrigin": 1793555408827,
+   "url": "https://www.windguru.cz/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "f468c07f7a3f",
+   "titleHash": "822c7a2d1d88"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY#body",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 34,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 217
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 419,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 420,
+     "url": "https://www.windguru.cz/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.windguru.cz/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 420
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 420
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "ty@https://scripts.stay22.com/letmeallez.js:61:76738",
+      "@https://scripts.stay22.com/letmeallez.js:61:77269",
+      "I/<@https://scripts.stay22.com/letmeallez.js:2:1339"
+     ],
+     "t": 880
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 978
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 978
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "n.start@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:16942",
+      "t.start/e</<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133289",
+      "t.start/e<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133260"
+     ],
+     "t": 1116
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "n.start@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:16981",
+      "t.start/e</<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133289",
+      "t.start/e<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133260"
+     ],
+     "t": 1116
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2805,
+     "url": "https://www.windguru.cz/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.windguru.cz/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2805
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2805,
+     "url": "https://www.windguru.cz/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2805
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2805
+    },
+    {
+     "k": "hashchange",
+     "t": 2806,
+     "url": "https://www.windguru.cz/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.windguru.cz/",
+     "entryIsCurrent": false,
+     "from": "https://www.windguru.cz/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "28b4db1b-9ef7-4c7e-b5c6-5e1f3f21ec0b",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.windguru.cz/",
+    "urlHash": "eb39afafd537"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 21969,
+   "timeOrigin": 1793555408827,
+   "url": "https://www.windguru.cz/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "eb39afafd537",
+   "titleHash": "822c7a2d1d88"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY#body",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 217
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 419,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 420,
+     "url": "https://www.windguru.cz/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.windguru.cz/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 420
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 420
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "ty@https://scripts.stay22.com/letmeallez.js:61:76738",
+      "@https://scripts.stay22.com/letmeallez.js:61:77269",
+      "I/<@https://scripts.stay22.com/letmeallez.js:2:1339"
+     ],
+     "t": 880
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 978
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 978
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "n.start@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:16942",
+      "t.start/e</<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133289",
+      "t.start/e<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133260"
+     ],
+     "t": 1116
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.windguru.cz/:70:45",
+      "n.start@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:16981",
+      "t.start/e</<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133289",
+      "t.start/e<@https://securityannex.net/public/l1409wu1tc5hmwlo7.module.js:1:133260"
+     ],
+     "t": 1116
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2805,
+     "url": "https://www.windguru.cz/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.windguru.cz/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2805
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2805,
+     "url": "https://www.windguru.cz/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2805
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2805
+    },
+    {
+     "k": "hashchange",
+     "t": 2806,
+     "url": "https://www.windguru.cz/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5399,
+     "url": "https://www.windguru.cz/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.windguru.cz/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5399
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5399
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5399
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5399,
+     "url": "https://www.windguru.cz/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5404,
+     "url": "https://www.windguru.cz/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.windguru.cz/",
+     "entryIsCurrent": true,
+     "from": "https://www.windguru.cz/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "00bf77d6-855c-41c8-9d9c-5c13525ad8ac",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.windguru.cz/",
+    "urlHash": "f468c07f7a3f"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 22024,
+   "timeOrigin": 1793555408827,
+   "url": "https://www.windguru.cz/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f468c07f7a3f",
+   "titleHash": "822c7a2d1d88"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

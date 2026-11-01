@@ -1,0 +1,1675 @@
+{
+ "id": "9daf97e718",
+ "page": "https://www.elespectador.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 13094,
+   "histLen": 22,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 205,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 205,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 205
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 205
+    },
+    {
+     "e": "No config could be discovered in the page",
+     "k": "rejection",
+     "t": 327
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/:70:45",
+      "Us@https://jsc.mgid.com/site/939125.js:386:4107",
+      "@https://jsc.mgid.com/site/939125.js:390:20537",
+      "@https://jsc.mgid.com/site/939125.js:390:21209"
+     ],
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 537
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 537
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.elespectador.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 948
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1371
+    },
+    {
+     "e": "Script error.",
+     "f": "https://jsc.mgid.com/site/939125.js",
+     "k": "error",
+     "l": 0,
+     "t": 5473
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.elespectador.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "1b94bd63-dc78-4367-a0b7-9c09ab02aeda",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.elespectador.com/",
+    "urlHash": "9daf97e71831"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13570,
+   "timeOrigin": 1793555321264,
+   "url": "https://www.elespectador.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: already configured"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: No config could be discovered in the page"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_tt_enable_cookie\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getAttribute\", i is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getHighEntropyValues\", navigator.userAgentData is undefined"
+    }
+   ],
+   "urlHash": "9daf97e71831",
+   "titleHash": "168ae37015ea"
+  },
+  {
+   "step": "link",
+   "href": "https://www.elespectador.com/suscripciones/promo-ahorro/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1,
+    "rejection": 1
+   },
+   "docH": 13094,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 205,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 205,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 205
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 205
+    },
+    {
+     "e": "No config could be discovered in the page",
+     "k": "rejection",
+     "t": 327
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/:70:45",
+      "Us@https://jsc.mgid.com/site/939125.js:386:4107",
+      "@https://jsc.mgid.com/site/939125.js:390:20537",
+      "@https://jsc.mgid.com/site/939125.js:390:21209"
+     ],
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 537
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 537
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.elespectador.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 948
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1371
+    },
+    {
+     "e": "Script error.",
+     "f": "https://jsc.mgid.com/site/939125.js",
+     "k": "error",
+     "l": 0,
+     "t": 5473
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8375,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8375
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 8375,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8381
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8381
+    },
+    {
+     "k": "hashchange",
+     "t": 8395,
+     "url": "https://www.elespectador.com/"
+    }
+   ],
+   "marker": "m0",
+   "nav": {
+    "activation": {
+     "entry": "https://www.elespectador.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4fc1f534-3aa2-4a98-9f19-1d1bfa955e7d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.elespectador.com/",
+    "urlHash": "0b3181a6524e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13570,
+   "timeOrigin": 1793555321264,
+   "url": "https://www.elespectador.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "0b3181a6524e",
+   "titleHash": "168ae37015ea"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "currententrychange:traverse": 1,
+    "error": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2,
+    "rejection": 1
+   },
+   "docH": 13094,
+   "histLen": 23,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 205,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 205,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 205
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 205
+    },
+    {
+     "e": "No config could be discovered in the page",
+     "k": "rejection",
+     "t": 327
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/:70:45",
+      "Us@https://jsc.mgid.com/site/939125.js:386:4107",
+      "@https://jsc.mgid.com/site/939125.js:390:20537",
+      "@https://jsc.mgid.com/site/939125.js:390:21209"
+     ],
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 537
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 537
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.elespectador.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 948
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1371
+    },
+    {
+     "e": "Script error.",
+     "f": "https://jsc.mgid.com/site/939125.js",
+     "k": "error",
+     "l": 0,
+     "t": 5473
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8375,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8375
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 8375,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8381
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8381
+    },
+    {
+     "k": "hashchange",
+     "t": 8395,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10959,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 10959
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10959
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10959
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10959,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 10966,
+     "url": "https://www.elespectador.com/"
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://www.elespectador.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "1b94bd63-dc78-4367-a0b7-9c09ab02aeda",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.elespectador.com/",
+    "urlHash": "9daf97e71831"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13570,
+   "timeOrigin": 1793555321264,
+   "url": "https://www.elespectador.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9daf97e71831",
+   "titleHash": "168ae37015ea"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "currententrychange:traverse": 2,
+    "error": 1,
+    "get:currentEntry": 4,
+    "hashchange": 3,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigate:traverse": 2,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 3,
+    "rejection": 1
+   },
+   "docH": 13094,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 205,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 205,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 205
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 205
+    },
+    {
+     "e": "No config could be discovered in the page",
+     "k": "rejection",
+     "t": 327
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/:70:45",
+      "Us@https://jsc.mgid.com/site/939125.js:386:4107",
+      "@https://jsc.mgid.com/site/939125.js:390:20537",
+      "@https://jsc.mgid.com/site/939125.js:390:21209"
+     ],
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 537
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 537
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.elespectador.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 948
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1371
+    },
+    {
+     "e": "Script error.",
+     "f": "https://jsc.mgid.com/site/939125.js",
+     "k": "error",
+     "l": 0,
+     "t": 5473
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8375,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8375
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 8375,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8381
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8381
+    },
+    {
+     "k": "hashchange",
+     "t": 8395,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10959,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 10959
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10959
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10959
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10959,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 10966,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 13579,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 13579
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 13579
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13579
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 13579,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 13596,
+     "url": "https://www.elespectador.com/"
+    }
+   ],
+   "marker": "m2",
+   "nav": {
+    "activation": {
+     "entry": "https://www.elespectador.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4fc1f534-3aa2-4a98-9f19-1d1bfa955e7d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.elespectador.com/",
+    "urlHash": "0b3181a6524e"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13570,
+   "timeOrigin": 1793555321264,
+   "url": "https://www.elespectador.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0b3181a6524e",
+   "titleHash": "168ae37015ea"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 12852,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "e": "No config could be discovered in the page",
+     "k": "rejection",
+     "t": 160
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 223,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 223,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 223
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 223
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 558
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 558
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/",
+      "Us@https://jsc.mgid.com/site/939125.js:386:4107",
+      "@https://jsc.mgid.com/site/939125.js:390:20537",
+      "@https://jsc.mgid.com/site/939125.js:390:21209"
+     ],
+     "t": 594
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.elespectador.com/",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 923
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1169
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.elespectador.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.elespectador.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4fc1f534-3aa2-4a98-9f19-1d1bfa955e7d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.elespectador.com/",
+    "urlHash": "0b3181a6524e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13458,
+   "timeOrigin": 1793555337632,
+   "url": "https://www.elespectador.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: already configured"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: No config could be discovered in the page"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "0b3181a6524e",
+   "titleHash": "168ae37015ea"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1,
+    "rejection": 1
+   },
+   "docH": 12852,
+   "histLen": 25,
+   "histState": "null",
+   "log": [
+    {
+     "e": "No config could be discovered in the page",
+     "k": "rejection",
+     "t": 160
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 223,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 223,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 223
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 223
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 558
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 558
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/",
+      "Us@https://jsc.mgid.com/site/939125.js:386:4107",
+      "@https://jsc.mgid.com/site/939125.js:390:20537",
+      "@https://jsc.mgid.com/site/939125.js:390:21209"
+     ],
+     "t": 594
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.elespectador.com/",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 923
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1169
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3775,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3775
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3775,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3786
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3786
+    },
+    {
+     "k": "hashchange",
+     "t": 3791,
+     "url": "https://www.elespectador.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.elespectador.com/",
+     "entryIsCurrent": false,
+     "from": "https://www.elespectador.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "4c5acca6-59d3-4e8c-b430-76ba7e459893",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.elespectador.com/",
+    "urlHash": "ddac4122caf3"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13458,
+   "timeOrigin": 1793555337632,
+   "url": "https://www.elespectador.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "ddac4122caf3",
+   "titleHash": "168ae37015ea"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2,
+    "rejection": 1
+   },
+   "docH": 12852,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "e": "No config could be discovered in the page",
+     "k": "rejection",
+     "t": 160
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 223,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 223,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 223
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 223
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 558
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 558
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.elespectador.com/",
+      "Us@https://jsc.mgid.com/site/939125.js:386:4107",
+      "@https://jsc.mgid.com/site/939125.js:390:20537",
+      "@https://jsc.mgid.com/site/939125.js:390:21209"
+     ],
+     "t": 594
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.elespectador.com/",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 923
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1169
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3775,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3775
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3775,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3786
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3786
+    },
+    {
+     "k": "hashchange",
+     "t": 3791,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6371,
+     "url": "https://www.elespectador.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.elespectador.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6372
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6372
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6372
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6372,
+     "url": "https://www.elespectador.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6381,
+     "url": "https://www.elespectador.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.elespectador.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.elespectador.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "4fc1f534-3aa2-4a98-9f19-1d1bfa955e7d",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.elespectador.com/",
+    "urlHash": "0b3181a6524e"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13458,
+   "timeOrigin": 1793555337632,
+   "url": "https://www.elespectador.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0b3181a6524e",
+   "titleHash": "168ae37015ea"
+  }
+ ],
+ "plan": {
+  "link": "https://www.elespectador.com/suscripciones/promo-ahorro/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 25.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

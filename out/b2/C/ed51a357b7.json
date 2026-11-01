@@ -1,0 +1,941 @@
+{
+ "id": "ed51a357b7",
+ "page": "https://www.dnevno.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY#top",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9747,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 939
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6956,
+   "timeOrigin": 1793567000441,
+   "url": "https://www.dnevno.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/Logobox.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567000990_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567000990_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567000991_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567000991_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-inarticle3.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-inarticle4.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-inarticle5.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-inarticle6.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1558958276669-0.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1529480976723-8.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-takeover.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[spotlight] Widget Invalid coordinates (null, null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[spotlight] Widget Invalid zipcode (45.815399)."
+    },
+    {
+     "k": "console-warn",
+     "e": "onAtlReady -> all ready, running modular, screen width: 1366"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[spotlight] Widget Location strategy data is not initialized"
+    },
+    {
+     "k": "console-warn",
+     "e": "checkSlots => unfill candidates: 0 of 9 slots"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567005700_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567005700_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567005701_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567005701_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[REMS:Filter] Calling unscanned API Object(35)"
+    },
+    {
+     "k": "console-warn",
+     "e": "protected media: enableFraudDetection"
+    },
+    {
+     "k": "console-warn",
+     "e": "[REMS:Filter] Calling unscanned API Object(35)"
+    }
+   ],
+   "urlHash": "ed51a357b702",
+   "titleHash": "d1dc80e3cb51"
+  },
+  {
+   "step": "link",
+   "href": "https://www.dnevno.hr/",
+   "click": "native",
+   "settle": 3.3,
+   "active": "BODY#top",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 8685,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2159
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11373,
+   "timeOrigin": 1793567008351,
+   "url": "https://www.dnevno.hr/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/7dnevno.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/History_300x600.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Vue warn]: Failed to mount app: mount target selector \"#read-more\" returned null."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1604398363417-0.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-takeover.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "onAtlReady -> all ready, running modular, screen width: 1366"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "4c6c87fd9101",
+   "titleHash": "64e757b79de8"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.dnevno.hr/category/vijesti/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY#top",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5046,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 474
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8999,
+   "timeOrigin": 1793567011751,
+   "url": "https://www.dnevno.hr/category/vijesti/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Vue warn]: Failed to mount app: mount target selector \"#read-more\" returned null."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-takeover.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "onAtlReady -> all ready, running modular, screen width: 1366"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[REMS:Filter] Calling unscanned API Object(35)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[REMS:Filter] Calling unscanned API Object(35)"
+    }
+   ],
+   "urlHash": "2fef258c6a14",
+   "titleHash": "5937c3a6dcb5"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY#top",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 8685,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 460
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11373,
+   "timeOrigin": 1793567014866,
+   "url": "https://www.dnevno.hr/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Vue warn]: Failed to mount app: mount target selector \"#read-more\" returned null."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1604398363417-0.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-takeover.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/7dnevno.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/History_300x600.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "onAtlReady -> all ready, running modular, screen width: 1366"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[REMS:Filter] Calling unscanned API Object(35)"
+    },
+    {
+     "k": "pageerror",
+     "e": "SecurityError: Permission denied to access property \"confiantConsentCounter\" on cross-origin object"
+    },
+    {
+     "k": "console-error",
+     "e": "Bidder Debug  v0.0.110 Object(3)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201clotame_domain_check\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201clotame_domain_check\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201clotame_domain_check\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pubcid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cc_id\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cpanoramaId_expiry\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cpanoramaId\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cpanoramaIdType\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "4c6c87fd9101",
+   "titleHash": "64e757b79de8"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY#top",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9778,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 757
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6935,
+   "timeOrigin": 1793567017911,
+   "url": "https://www.dnevno.<token>",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-inarticle3.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-inarticle4.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-inarticle5.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-inarticle6.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1558958276669-0.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1529480976723-8.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-takeover.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/Logobox.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "console-warn",
+     "e": "[spotlight] Widget Invalid coordinates (null, null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[spotlight] Widget Invalid zipcode (45.815399)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[spotlight] Widget Location strategy data is not initialized"
+    },
+    {
+     "k": "console-warn",
+     "e": "onAtlReady -> all ready, running modular, screen width: 1366"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[REMS:Filter] Calling unscanned API Object(35)"
+    }
+   ],
+   "urlHash": "594319b76331",
+   "titleHash": "d1dc80e3cb51"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY#top",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 8685,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 476
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11373,
+   "timeOrigin": 1793567021343,
+   "url": "https://www.dnevno.hr/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "checkSlots => unfill candidates: 0 of 10 slots"
+    },
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/7dnevno.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Vue warn]: Failed to mount app: mount target selector \"#read-more\" returned null."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1604398363417-0.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-takeover.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/History_300x600.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "onAtlReady -> all ready, running modular, screen width: 1366"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[REMS:Filter] Calling unscanned API Object(35)"
+    }
+   ],
+   "urlHash": "4c6c87fd9101",
+   "titleHash": "64e757b79de8"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY#top",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 8685,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 732
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11373,
+   "timeOrigin": 1793567024415,
+   "url": "https://www.dnevno.hr/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/History_300x600.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://banners.zagreb.info/7dnevno.html\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Vue warn]: Failed to mount app: mount target selector \"#read-more\" returned null."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1604398363417-0.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-takeover.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "onAtlReady -> all ready, running modular, screen width: 1366"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[REMS:Filter] Calling unscanned API Object(35)"
+    }
+   ],
+   "urlHash": "4c6c87fd9101",
+   "titleHash": "64e757b79de8"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY#top",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 8685,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 732
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3326,
+     "url": "https://www.dnevno.hr/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3331,
+     "url": "https://www.dnevno.hr/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11373,
+   "timeOrigin": 1793567024415,
+   "url": "https://www.dnevno.hr/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "checkSlots => unfill candidates: 0 of 11 slots"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "df9a6c41e542",
+   "titleHash": "64e757b79de8"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY#top",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 8685,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 732
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3326,
+     "url": "https://www.dnevno.hr/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3331,
+     "url": "https://www.dnevno.hr/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5946,
+     "url": "https://www.dnevno.hr/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5955,
+     "url": "https://www.dnevno.hr/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11373,
+   "timeOrigin": 1793567024415,
+   "url": "https://www.dnevno.hr/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4c6c87fd9101",
+   "titleHash": "64e757b79de8"
+  }
+ ],
+ "plan": {
+  "link": "https://www.dnevno.hr/",
+  "link2": "https://www.dnevno.hr/category/vijesti/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 32.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

@@ -1,0 +1,1240 @@
+{
+ "id": "2a9aab441f",
+ "page": "https://baseball.fantasysports.yahoo.com/b1",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY#yui_3_18_1_1_1793554662710_75",
+   "counts": {
+    "call:entries": 2,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2884,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 546
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/b1:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 546
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/b1:70:45",
+      "@https://baseball.fantasysports.yahoo.com/b1:1318:28",
+      "_notify@https://s.yimg.com/zz/combo",
+      "notify@https://s.yimg.com/zz/combo"
+     ],
+     "t": 607
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 713
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://baseball.fantasysports.yahoo.com/b1:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 734
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://baseball.fantasysports.yahoo.com/b1:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4779
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://baseball.fantasysports.yahoo.com/b1",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "a46d63bf-42b7-436a-8b1f-638ae7ea26cb",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://baseball.fantasysports.yahoo.com/b1",
+    "urlHash": "2a9aab441fc7"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4170,
+   "timeOrigin": 1793554662091,
+   "url": "https://baseball.fantasysports.yahoo.com/b1",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58746/sync"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58782/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.ta"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58692/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com a"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58699/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com abou"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58952/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com about:/"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    }
+   ],
+   "urlHash": "2a9aab441fc7",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "link",
+   "href": "https://baseball.fantasysports.yahoo.com/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY#yui_3_18_1_1_1793554670290_75",
+   "counts": {
+    "call:entries": 3,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2884,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 243
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 243
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 383
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "@https://baseball.fantasysports.yahoo.com/:1318:28",
+      "_notify@https://s.yimg.com/zz/combo",
+      "notify@https://s.yimg.com/zz/combo"
+     ],
+     "t": 393
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://baseball.fantasysports.yahoo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 415
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://baseball.fantasysports.yahoo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1114
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://baseball.fantasysports.yahoo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1117
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://baseball.fantasysports.yahoo.com/",
+     "entryIsCurrent": true,
+     "from": "https://baseball.fantasysports.yahoo.com/b1",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "b1411921-7786-422b-b0af-081dab2d85c0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://baseball.fantasysports.yahoo.com/",
+    "urlHash": "beb643a3294d"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554669815,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Didomi - Failed to decode TCF consent string from cookies: <token>"
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    }
+   ],
+   "urlHash": "beb643a3294d",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY#yui_3_18_1_1_1793554673305_75",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2884,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 302
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/b1:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 302
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/b1:70:45",
+      "@https://baseball.fantasysports.yahoo.com/b1:1318:28",
+      "_notify@https://s.yimg.com/zz/combo",
+      "notify@https://s.yimg.com/zz/combo"
+     ],
+     "t": 396
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 597
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://baseball.fantasysports.yahoo.com/b1",
+     "entryIsCurrent": true,
+     "from": "https://baseball.fantasysports.yahoo.com/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "a46d63bf-42b7-436a-8b1f-638ae7ea26cb",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://baseball.fantasysports.yahoo.com/b1",
+    "urlHash": "2a9aab441fc7"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554673216,
+   "url": "https://baseball.fantasysports.yahoo.com/b1",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58746/sync"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58782/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.ta"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58692/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com a"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58699/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com abou"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58952/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com about:/"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cb9755abee476c12d2c9250c7c3cd0ae.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cb9755abee476c12d2c9250c7c3cd0ae.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.loader.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cb9755abee476c12d2c9250c7c3cd0ae.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.animation.js was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cb9755abee476c12d2c9250c7c3cd0ae.safeframe.googlesyndication.com/safeframe/1-0-45/html/styles/style.css\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    }
+   ],
+   "urlHash": "2a9aab441fc7",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY#yui_3_18_1_1_1793554676643_75",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2884,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 342
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 342
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "@https://baseball.fantasysports.yahoo.com/:1318:28",
+      "_notify@https://s.yimg.com/zz/combo",
+      "notify@https://s.yimg.com/zz/combo"
+     ],
+     "t": 470
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 713
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://baseball.fantasysports.yahoo.com/",
+     "entryIsCurrent": true,
+     "from": "https://baseball.fantasysports.yahoo.com/b1",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "b1411921-7786-422b-b0af-081dab2d85c0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://baseball.fantasysports.yahoo.com/",
+    "urlHash": "beb643a3294d"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554676538,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cb9755abee476c12d2c9250c7c3cd0ae.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.loader.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cb9755abee476c12d2c9250c7c3cd0ae.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.animation.js was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: Banner is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cb9755abee476c12d2c9250c7c3cd0ae.safeframe.googlesyndication.com/safeframe/1-0-45/html/styles/style.css\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "beb643a3294d",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY#yui_3_18_1_1_1793554680960_75",
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2884,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 506
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 506
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "@https://baseball.fantasysports.yahoo.com/:1318:28",
+      "_notify@https://s.yimg.com/zz/combo",
+      "notify@https://s.yimg.com/zz/combo"
+     ],
+     "t": 570
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://baseball.fantasysports.yahoo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1636
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6408
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://baseball.fantasysports.yahoo.com/",
+     "entryIsCurrent": true,
+     "from": "https://baseball.fantasysports.yahoo.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "b1411921-7786-422b-b0af-081dab2d85c0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://baseball.fantasysports.yahoo.com/",
+    "urlHash": "beb643a3294d"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554680392,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    }
+   ],
+   "urlHash": "beb643a3294d",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY#yui_3_18_1_1_1793554680960_75",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 2884,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 506
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 506
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "@https://baseball.fantasysports.yahoo.com/:1318:28",
+      "_notify@https://s.yimg.com/zz/combo",
+      "notify@https://s.yimg.com/zz/combo"
+     ],
+     "t": 570
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://baseball.fantasysports.yahoo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1636
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6408
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8989,
+     "url": "https://baseball.fantasysports.yahoo.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://baseball.fantasysports.yahoo.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8989
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 8989,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8989
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8989
+    },
+    {
+     "k": "hashchange",
+     "t": 8989,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://baseball.fantasysports.yahoo.com/",
+     "entryIsCurrent": false,
+     "from": "https://baseball.fantasysports.yahoo.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "dac24ca5-be37-4f24-9170-52f55adb24fe",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://baseball.fantasysports.yahoo.com/",
+    "urlHash": "3d5f06b02e13"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554680392,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3d5f06b02e13",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY#yui_3_18_1_1_1793554680960_75",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 2884,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 506
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 506
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://baseball.fantasysports.yahoo.com/:70:45",
+      "@https://baseball.fantasysports.yahoo.com/:1318:28",
+      "_notify@https://s.yimg.com/zz/combo",
+      "notify@https://s.yimg.com/zz/combo"
+     ],
+     "t": 570
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://baseball.fantasysports.yahoo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1636
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6408
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8989,
+     "url": "https://baseball.fantasysports.yahoo.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://baseball.fantasysports.yahoo.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8989
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 8989,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8989
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8989
+    },
+    {
+     "k": "hashchange",
+     "t": 8989,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11561,
+     "url": "https://baseball.fantasysports.yahoo.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://baseball.fantasysports.yahoo.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 11562
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11562
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 11562
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11562,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 11563,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://baseball.fantasysports.yahoo.com/",
+     "entryIsCurrent": true,
+     "from": "https://baseball.fantasysports.yahoo.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "b1411921-7786-422b-b0af-081dab2d85c0",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://baseball.fantasysports.yahoo.com/",
+    "urlHash": "beb643a3294d"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554680392,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "beb643a3294d",
+   "titleHash": "46c8e684c83e"
+  }
+ ],
+ "plan": {
+  "link": "https://baseball.fantasysports.yahoo.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 32.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

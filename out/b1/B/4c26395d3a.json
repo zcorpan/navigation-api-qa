@@ -1,0 +1,417 @@
+{
+ "id": "4c26395d3a",
+ "page": "https://www.tomshardware.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "IFRAME#sp_message_iframe_1505747",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 378,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 378,
+     "url": "https://www.tomshardware.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.tomshardware.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 378
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 378
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 888
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.tomshardware.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "470d89bb-cc15-4f54-9574-d6938e5e5960",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.tomshardware.com/",
+    "urlHash": "4c26395d3ab7"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16368,
+   "timeOrigin": 1793555365599,
+   "url": "https://www.tomshardware.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": " FTE  No archive filter present"
+    },
+    {
+     "k": "console-warn",
+     "e": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+    },
+    {
+     "k": "console-error",
+     "e": " BORDEAUX  There is no slot for ad \"skin\""
+    },
+    {
+     "k": "console-error",
+     "e": " BORDEAUX  There is no slot for ad \"overlay\""
+    }
+   ],
+   "urlHash": "4c26395d3ab7",
+   "titleHash": "236109d809bf"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "IFRAME#sp_message_iframe_1505747",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 745
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.tomshardware.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.tomshardware.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "470d89bb-cc15-4f54-9574-d6938e5e5960",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.tomshardware.com/",
+    "urlHash": "4c26395d3ab7"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16368,
+   "timeOrigin": 1793555370658,
+   "url": "https://www.tomshardware.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": " FTE  No archive filter present"
+    },
+    {
+     "k": "console-warn",
+     "e": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+    },
+    {
+     "k": "console-error",
+     "e": " BORDEAUX  There is no slot for ad \"skin\""
+    },
+    {
+     "k": "console-error",
+     "e": " BORDEAUX  There is no slot for ad \"overlay\""
+    }
+   ],
+   "urlHash": "4c26395d3ab7",
+   "titleHash": "236109d809bf"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "IFRAME#sp_message_iframe_1505747",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 26,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 745
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3327,
+     "url": "https://www.tomshardware.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.tomshardware.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3327
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3327,
+     "url": "https://www.tomshardware.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3328
+    },
+    {
+     "k": "hashchange",
+     "t": 3328,
+     "url": "https://www.tomshardware.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.tomshardware.com/",
+     "entryIsCurrent": false,
+     "from": "https://www.tomshardware.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "faa59f85-98e4-4e55-b753-86839ea7a271",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.tomshardware.com/",
+    "urlHash": "f2836cb160d2"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16368,
+   "timeOrigin": 1793555370658,
+   "url": "https://www.tomshardware.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f2836cb160d2",
+   "titleHash": "236109d809bf"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "IFRAME#sp_message_iframe_1505747",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 745
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3327,
+     "url": "https://www.tomshardware.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.tomshardware.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3327
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3327,
+     "url": "https://www.tomshardware.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3328
+    },
+    {
+     "k": "hashchange",
+     "t": 3328,
+     "url": "https://www.tomshardware.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5900,
+     "url": "https://www.tomshardware.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.tomshardware.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5900
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5900
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5900,
+     "url": "https://www.tomshardware.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5901,
+     "url": "https://www.tomshardware.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.tomshardware.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.tomshardware.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "470d89bb-cc15-4f54-9574-d6938e5e5960",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.tomshardware.com/",
+    "urlHash": "4c26395d3ab7"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16368,
+   "timeOrigin": 1793555370658,
+   "url": "https://www.tomshardware.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4c26395d3ab7",
+   "titleHash": "236109d809bf"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 13.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -1,0 +1,571 @@
+{
+ "id": "7e132aa948",
+ "page": "https://sp.manga.nicovideo.jp/comic/74458",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5442,
+   "histLen": 31,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 780,
+     "url": "/comic/74458"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3039
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1679,
+   "timeOrigin": 1793563289749,
+   "url": "https://sp.manga.nicovideo.jp/comic/74458",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "7e132aa94867",
+   "titleHash": "79c7d9c48d08"
+  },
+  {
+   "step": "link",
+   "href": "https://sp.manga.nicovideo.jp/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 10867,
+   "histLen": 32,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 267,
+     "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 286
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:replaceState": 1,
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 780,
+      "url": "/comic/74458"
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 3039
+     }
+    ],
+    "url": "https://sp.manga.nicovideo.jp/comic/74458"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1924,
+   "timeOrigin": 1793563297222,
+   "url": "https://sp.manga.nicovideo.jp/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "cb3aa49d5dc6",
+   "titleHash": "97be28ee7ad7"
+  },
+  {
+   "step": "link2",
+   "href": "https://sp.manga.nicovideo.jp/ranking",
+   "click": "native",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3783,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 267,
+     "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 286
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4387,
+     "url": "/ranking"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1394,
+   "timeOrigin": 1793563297222,
+   "url": "https://sp.manga.nicovideo.jp/ranking",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4737524eae56",
+   "titleHash": "fa7386783c65"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10867,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 267,
+     "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 286
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4387,
+     "url": "/ranking"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5500,
+     "url": "https://sp.manga.nicovideo.jp/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5504,
+     "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1924,
+   "timeOrigin": 1793563297222,
+   "url": "https://sp.manga.nicovideo.jp/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "cb3aa49d5dc6",
+   "titleHash": "97be28ee7ad7"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5442,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 238,
+     "url": "/comic/74458"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 239
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1679,
+   "timeOrigin": 1793563306087,
+   "url": "https://sp.manga.nicovideo.jp/comic/74458",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "7e132aa94867",
+   "titleHash": "79c7d9c48d08"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 10867,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 12
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 13,
+     "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:replaceState": 1,
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 238,
+      "url": "/comic/74458"
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 239
+     }
+    ],
+    "url": "https://sp.manga.nicovideo.jp/comic/74458"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1924,
+   "timeOrigin": 1793563309674,
+   "url": "https://sp.manga.nicovideo.jp/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "cb3aa49d5dc6",
+   "titleHash": "97be28ee7ad7"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 10867,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1007
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1008,
+     "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:replaceState": 1,
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 12
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 13,
+      "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+     }
+    ],
+    "url": "https://sp.manga.nicovideo.jp/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1847,
+   "timeOrigin": 1793563312261,
+   "url": "https://sp.manga.nicovideo.jp/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "cb3aa49d5dc6",
+   "titleHash": "97be28ee7ad7"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10867,
+   "histLen": 33,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1007
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1008,
+     "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3596,
+     "url": "https://sp.manga.nicovideo.jp/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3596,
+     "url": "https://sp.manga.nicovideo.jp/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1847,
+   "timeOrigin": 1793563312261,
+   "url": "https://sp.manga.nicovideo.jp/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "cd166f542a9f",
+   "titleHash": "97be28ee7ad7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 10867,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1007
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1008,
+     "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3596,
+     "url": "https://sp.manga.nicovideo.jp/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3596,
+     "url": "https://sp.manga.nicovideo.jp/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6181,
+     "url": "https://sp.manga.nicovideo.jp/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 6183,
+     "url": "/?cmnhd_ref=device%3Dsp%26site%3Dnicomanga_sp%26pos%3Dheader_logo"
+    },
+    {
+     "k": "hashchange",
+     "t": 6184,
+     "url": "https://sp.manga.nicovideo.jp/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1847,
+   "timeOrigin": 1793563312261,
+   "url": "https://sp.manga.nicovideo.jp/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "cb3aa49d5dc6",
+   "titleHash": "97be28ee7ad7"
+  }
+ ],
+ "plan": {
+  "link": "https://sp.manga.nicovideo.jp/",
+  "link2": "https://sp.manga.nicovideo.jp/ranking",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 31.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

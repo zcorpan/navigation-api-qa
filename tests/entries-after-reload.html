@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>navigation.entries() after reload</title>
+<!--
+Load this page, follow a same-origin link to ?step=2, then reload: navigation.entries() should
+still have both entries. ?how=driver reloads with WebDriver refresh instead of location.reload().
+-->
+<a id=next href="?step=2">next</a>
+<script>
+const q = new URLSearchParams(location.search);
+const snap = label => ({ label, len: navigation.entries().length, idx: navigation.currentEntry.index, histLen: history.length,
+  type: navigation.activation && navigation.activation.navigationType });
+const rec = JSON.parse(sessionStorage.getItem('rec') || '[]');
+if (!q.get('step')) {
+  sessionStorage.setItem('rec', '[]'); rec.length = 0;
+  window.__plan = ['click #next', 'wait 2500'];
+} else {
+  onload = () => {
+    rec.push(snap(sessionStorage.getItem('reloaded') ? 'after reload' : 'after link'));
+    sessionStorage.setItem('rec', JSON.stringify(rec));
+    if (!sessionStorage.getItem('reloaded')) { sessionStorage.setItem('reloaded', '1'); setTimeout(() => location.reload(), 300); }
+    else { sessionStorage.removeItem('reloaded'); sessionStorage.setItem('__result', JSON.stringify(rec)); }
+  };
+}
+</script>

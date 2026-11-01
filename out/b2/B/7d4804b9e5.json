@@ -1,0 +1,677 @@
+{
+ "id": "7d4804b9e5",
+ "page": "https://www.znanylekarz.pl/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY#homepage",
+   "counts": {
+    "call:entries": 1,
+    "pageshow": 1
+   },
+   "docH": 3161,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 282
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4437
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.znanylekarz.pl/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "c20edbe6-9e33-4f90-9a29-28a896725c50",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.znanylekarz.pl/",
+    "urlHash": "7d4804b9e5a2"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6180,
+   "timeOrigin": 1793563911508,
+   "url": "https://www.znanylekarz.pl/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "7d4804b9e5a2",
+   "titleHash": "0355ab315636"
+  },
+  {
+   "step": "link",
+   "href": "https://www.znanylekarz.pl/gdpr/patient-data",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 3087,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 226
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "entryIsCurrent": true,
+     "from": "https://www.znanylekarz.pl/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "ecbe569a-5877-4c76-a8b4-92aadef990d8",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+    "urlHash": "aba95e1ee990"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4320,
+   "timeOrigin": 1793563918560,
+   "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "aba95e1ee990",
+   "titleHash": "0355ab315636"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.znanylekarz.pl/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 3161,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 188
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.znanylekarz.pl/",
+     "entryIsCurrent": true,
+     "from": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "64cb9029-a654-47fb-aea0-f24f44725239",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.znanylekarz.pl/",
+    "urlHash": "7d4804b9e5a2"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6363,
+   "timeOrigin": 1793563921522,
+   "url": "https://www.znanylekarz.pl/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "7d4804b9e5a2",
+   "titleHash": "0355ab315636"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 3087,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 151
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "entryIsCurrent": true,
+     "from": "https://www.znanylekarz.pl/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ecbe569a-5877-4c76-a8b4-92aadef990d8",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+    "urlHash": "aba95e1ee990"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4320,
+   "timeOrigin": 1793563924307,
+   "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "aba95e1ee990",
+   "titleHash": "0355ab315636"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 3161,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 175
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.znanylekarz.pl/",
+     "entryIsCurrent": true,
+     "from": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "c20edbe6-9e33-4f90-9a29-28a896725c50",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.znanylekarz.pl/",
+    "urlHash": "7d4804b9e5a2"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6363,
+   "timeOrigin": 1793563927046,
+   "url": "https://www.znanylekarz.pl/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "7d4804b9e5a2",
+   "titleHash": "0355ab315636"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 3087,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 151
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2729,
+     "url": "https://www.znanylekarz.pl/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5509
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "entryIsCurrent": true,
+     "from": "https://www.znanylekarz.pl/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ecbe569a-5877-4c76-a8b4-92aadef990d8",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+    "urlHash": "aba95e1ee990"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4320,
+   "timeOrigin": 1793563924307,
+   "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "aba95e1ee990",
+   "titleHash": "0355ab315636"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 3087,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 375
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "entryIsCurrent": true,
+     "from": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ecbe569a-5877-4c76-a8b4-92aadef990d8",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+    "urlHash": "aba95e1ee990"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4320,
+   "timeOrigin": 1793563932388,
+   "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "aba95e1ee990",
+   "titleHash": "0355ab315636"
+  },
+  {
+   "step": "fragment",
+   "href": "https://www.znanylekarz.pl/gdpr/patient-data",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3087,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 375
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 2960,
+     "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "userInitiated": true
+    },
+    {
+     "from": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2960
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2960,
+     "url": "https://www.znanylekarz.pl/gdpr/patient-data"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2984
+    },
+    {
+     "k": "hashchange",
+     "t": 2985,
+     "url": "https://www.znanylekarz.pl/gdpr/patient-data"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "entryIsCurrent": false,
+     "from": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "32e246d5-aa3c-44d7-849a-010f1e506813",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+    "urlHash": "01ec42089f3a"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 1022,
+   "textLen": 4320,
+   "timeOrigin": 1793563932388,
+   "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "01ec42089f3a",
+   "titleHash": "0355ab315636"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3087,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 375
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 2960,
+     "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "userInitiated": true
+    },
+    {
+     "from": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2960
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2960,
+     "url": "https://www.znanylekarz.pl/gdpr/patient-data"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2984
+    },
+    {
+     "k": "hashchange",
+     "t": 2985,
+     "url": "https://www.znanylekarz.pl/gdpr/patient-data"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5541,
+     "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5542
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5542
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5542,
+     "url": "https://www.znanylekarz.pl/gdpr/patient-data"
+    },
+    {
+     "k": "hashchange",
+     "t": 5569,
+     "url": "https://www.znanylekarz.pl/gdpr/patient-data"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "entryIsCurrent": true,
+     "from": "https://www.znanylekarz.pl/gdpr/patient-data",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ecbe569a-5877-4c76-a8b4-92aadef990d8",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+    "urlHash": "aba95e1ee990"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4320,
+   "timeOrigin": 1793563932388,
+   "url": "https://www.znanylekarz.pl/gdpr/patient-data",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "aba95e1ee990",
+   "titleHash": "0355ab315636"
+  }
+ ],
+ "plan": {
+  "link": "https://www.znanylekarz.pl/gdpr/patient-data",
+  "link2": "https://www.znanylekarz.pl/",
+  "fragment": "https://www.znanylekarz.pl/gdpr/patient-data"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 29.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

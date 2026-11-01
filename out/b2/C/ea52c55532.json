@@ -1,0 +1,589 @@
+{
+ "id": "ea52c55532",
+ "page": "https://esaj.tjsp.jus.br/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 4,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 35,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1682,
+     "url": "/esaj"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2014
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3247,
+     "url": "https://esaj.tjsp.jus.br/esaj"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3247,
+     "url": "https://esaj.tjsp.jus.br/esaj"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3253,
+     "url": "/esaj"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2684,
+   "timeOrigin": 1793562457357,
+   "url": "https://esaj.tjsp.jus.br/esaj",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad"
+    },
+    {
+     "k": "console-error",
+     "e": "[Elastic APM] RUM agent isn't correctly configured. serviceName \"/env/__NEXT_PUBLIC_ELASTIC_APM_SERVICE_NAME__\" contains invalid characters! (allowed: a-z, A-Z, 0-9, _, -, <space>)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Elastic APM] RUM agent is inactive"
+    }
+   ],
+   "urlHash": "0abffe85b727",
+   "titleHash": "34fe1a326db8"
+  },
+  {
+   "step": "link",
+   "href": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 899,
+   "histLen": 36,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1497
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562464660,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    }
+   ],
+   "urlHash": "49ccabb89c97",
+   "titleHash": "64e223a5fb99"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 4,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 36,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 15
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 17,
+     "url": "/esaj"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1215,
+     "url": "https://esaj.tjsp.jus.br/esaj"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1215,
+     "url": "https://esaj.tjsp.jus.br/esaj"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1218,
+     "url": "/esaj"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1497
+     }
+    ],
+    "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2684,
+   "timeOrigin": 1793562469281,
+   "url": "https://esaj.tjsp.jus.br/esaj",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad"
+    },
+    {
+     "k": "console-error",
+     "e": "[Elastic APM] RUM agent isn't correctly configured. serviceName \"/env/__NEXT_PUBLIC_ELASTIC_APM_SERVICE_NAME__\" contains invalid characters! (allowed: a-z, A-Z, 0-9, _, -, <space>)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Elastic APM] RUM agent is inactive"
+    }
+   ],
+   "urlHash": "0abffe85b727",
+   "titleHash": "34fe1a326db8"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 899,
+   "histLen": 36,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 32
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562472019,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    }
+   ],
+   "urlHash": "49ccabb89c97",
+   "titleHash": "64e223a5fb99"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 899,
+   "histLen": 36,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3598
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562474902,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    }
+   ],
+   "urlHash": "49ccabb89c97",
+   "titleHash": "64e223a5fb99"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 899,
+   "histLen": 37,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3598
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6166,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    },
+    {
+     "k": "hashchange",
+     "t": 6177,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562474902,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "88d67f158ebb",
+   "titleHash": "64e223a5fb99"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 899,
+   "histLen": 37,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3598
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6166,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    },
+    {
+     "k": "hashchange",
+     "t": 6177,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 8745,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    },
+    {
+     "k": "hashchange",
+     "t": 8756,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562474902,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "49ccabb89c97",
+   "titleHash": "64e223a5fb99"
+  }
+ ],
+ "plan": {
+  "link": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 29.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

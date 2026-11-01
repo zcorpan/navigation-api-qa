@@ -1,0 +1,803 @@
+{
+ "id": "be1b78a519",
+ "page": "https://www.meta.com/ai-glasses/meta-glasses/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "H2",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 927,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 927,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 927
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "C@https://static.xx.fbcdn.net/rsrc.<token>",
+      "s@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:759",
+      "g@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:4288"
+     ],
+     "t": 928
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "C@https://static.xx.fbcdn.net/rsrc.<token>",
+      "s@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:488",
+      "u@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:546"
+     ],
+     "t": 929
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "@https://static.xx.fbcdn.net/rsrc.<token>",
+      "Q@https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/lcq-X2bCqcU.js:70:2927",
+      "V@https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/lcq-X2bCqcU.js:70:1540"
+     ],
+     "t": 931
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 932
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2634
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "1d3b7e76-7d9b-44d1-b46b-d6018bb63a4f",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+    "urlHash": "dc62f600565e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6152,
+   "timeOrigin": 1793555104775,
+   "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://connect.facebook.net/en_US/fbevents.js from being executed because it violates the following directive: \u201cscript-src 'self' 'nonce-FRYH4oc5' https://*.fbcdn.net https://*.oculus.com https://www.meta.com/3ds2/dd"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://tags.tiqcdn.com/utag/facebook/realitylabs/rbm-prod/utag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'nonce-hn1NpIHs' blob: https://*.fbthirdpartypixel.com https://*.f"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: There was an error on loading https://tags.tiqcdn.com/utag/facebook/realitylabs/rbm-prod/utag.js"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://tags.tiqcdn.com/utag/facebook/realitylabs/prod/utag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'nonce-DwFHwoN4' blob: https://*.fbthirdpartypixel.com https://*.fbcdn"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: There was an error on loading https://tags.tiqcdn.com/utag/facebook/realitylabs/prod/utag.js"
+    }
+   ],
+   "urlHash": "dc62f600565e",
+   "titleHash": "0e7d80692db7"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "H2",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 489,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 489,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 489
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "C@https://static.xx.fbcdn.net/rsrc.<token>",
+      "s@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:759",
+      "g@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:4288"
+     ],
+     "t": 490
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "C@https://static.xx.fbcdn.net/rsrc.<token>",
+      "s@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:488",
+      "u@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:546"
+     ],
+     "t": 490
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "@https://static.xx.fbcdn.net/rsrc.<token>",
+      "Q@https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/lcq-X2bCqcU.js:70:2927",
+      "V@https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/lcq-X2bCqcU.js:70:1540"
+     ],
+     "t": 492
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 494
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1929
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "entryIsCurrent": true,
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "1d3b7e76-7d9b-44d1-b46b-d6018bb63a4f",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+    "urlHash": "dc62f600565e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6152,
+   "timeOrigin": 1793555115503,
+   "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://connect.facebook.net/en_US/fbevents.js from being executed because it violates the following directive: \u201cscript-src 'self' 'nonce-pwJUPwgx' https://*.fbcdn.net https://*.oculus.com https://www.meta.com/3ds2/dd"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://tags.tiqcdn.com/utag/facebook/realitylabs/prod/utag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'nonce-G3DyvEuL' blob: https://*.fbthirdpartypixel.com https://*.fbcdn"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: There was an error on loading https://tags.tiqcdn.com/utag/facebook/realitylabs/prod/utag.js"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://tags.tiqcdn.com/utag/facebook/realitylabs/rbm-prod/utag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'nonce-QYMsY8vi' blob: https://*.fbthirdpartypixel.com https://*.f"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: There was an error on loading https://tags.tiqcdn.com/utag/facebook/realitylabs/rbm-prod/utag.js"
+    }
+   ],
+   "urlHash": "dc62f600565e",
+   "titleHash": "0e7d80692db7"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "H2",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "hashchange": 1,
+    "history:replaceState": 3,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigateerror": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 4,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 489,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 489,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 489
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "C@https://static.xx.fbcdn.net/rsrc.<token>",
+      "s@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:759",
+      "g@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:4288"
+     ],
+     "t": 490
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "C@https://static.xx.fbcdn.net/rsrc.<token>",
+      "s@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:488",
+      "u@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:546"
+     ],
+     "t": 490
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "@https://static.xx.fbcdn.net/rsrc.<token>",
+      "Q@https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/lcq-X2bCqcU.js:70:2927",
+      "V@https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/lcq-X2bCqcU.js:70:1540"
+     ],
+     "t": 492
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 494
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1929
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4517,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4517
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4517,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 4523,
+     "url": "/se/en/ai-glasses/meta-glasses/#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 4523
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4523,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 4523
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4524
+    },
+    {
+     "k": "hashchange",
+     "t": 4541,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 4816,
+     "url": "/se/en/ai-glasses/meta-glasses/#navqa-frag"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4816,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 4817
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4817
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "entryIsCurrent": false,
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "533eb3e4-2431-4983-8c29-88ad9a21f45e",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+    "urlHash": "9513b48b3045"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6152,
+   "timeOrigin": 1793555115503,
+   "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9513b48b3045",
+   "titleHash": "0e7d80692db7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "H2",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 3,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigate:traverse": 1,
+    "navigateerror": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 4,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 489,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 489,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 489
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "C@https://static.xx.fbcdn.net/rsrc.<token>",
+      "s@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:759",
+      "g@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:4288"
+     ],
+     "t": 490
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "C@https://static.xx.fbcdn.net/rsrc.<token>",
+      "s@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:488",
+      "u@https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:546"
+     ],
+     "t": 490
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.meta.com/se/en/ai-glasses/meta-glasses/:70:45",
+      "@https://static.xx.fbcdn.net/rsrc.<token>",
+      "Q@https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/lcq-X2bCqcU.js:70:2927",
+      "V@https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/lcq-X2bCqcU.js:70:1540"
+     ],
+     "t": 492
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 494
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1929
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4517,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4517
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4517,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 4523,
+     "url": "/se/en/ai-glasses/meta-glasses/#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 4523
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4523,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 4523
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4524
+    },
+    {
+     "k": "hashchange",
+     "t": 4541,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 4816,
+     "url": "/se/en/ai-glasses/meta-glasses/#navqa-frag"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4816,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 4817
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4817
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7123,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7123
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7123
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7124,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    },
+    {
+     "k": "hashchange",
+     "t": 7163,
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "entryIsCurrent": true,
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "1d3b7e76-7d9b-44d1-b46b-d6018bb63a4f",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+    "urlHash": "dc62f600565e"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6152,
+   "timeOrigin": 1793555115503,
+   "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "dc62f600565e",
+   "titleHash": "0e7d80692db7"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 21.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

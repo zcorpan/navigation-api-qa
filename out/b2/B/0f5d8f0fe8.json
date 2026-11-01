@@ -1,0 +1,1877 @@
+{
+ "id": "0f5d8f0fe8",
+ "page": "https://newsdig.tbs.co.jp/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6943,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "_installNavigationListener@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:19190",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151",
+      "_initialize@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:17391",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151"
+     ],
+     "t": 573
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:480399",
+      "s@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:402"
+     ],
+     "t": 594
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 618
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 655
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 655
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1304
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2732
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newsdig.tbs.co.jp/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "3790edeb-178c-4402-9bed-bb03776e44e1",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newsdig.tbs.co.jp/",
+    "urlHash": "0f5d8f0fe8c9"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3832,
+   "timeOrigin": 1793563075608,
+   "url": "https://newsdig.tbs.co.jp/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793563076960\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (media-src) at data:video/mp4;base64,AAAAIGZ0eXBpc29tAA\u2026 because it violates the following directive: \u201cmedia-src https://* 'unsafe-inline' 'unsafe-eval' blob:\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twpid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://tag.flvcdn.net/ltag.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCCDCF\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 miss"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://b99.yahoo.<cc>/pagead/conversion_async.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://b99.yahoo.<cc>/pagead/conversion_async.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twpid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCCDCF\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextd2039go7vtbb\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextdqjewv1tfl6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "0f5d8f0fe8c9",
+   "titleHash": "8d59dff649a1"
+  },
+  {
+   "step": "link",
+   "href": "https://newsdig.tbs.co.jp/list/area/select",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6506,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 562
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "_installNavigationListener@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:19190",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151",
+      "_initialize@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:17391",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151"
+     ],
+     "t": 718
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:480399",
+      "s@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:402"
+     ],
+     "t": 756
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 796
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 796
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1095
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newsdig.tbs.co.jp/list/area/select",
+     "entryIsCurrent": true,
+     "from": "https://newsdig.tbs.co.jp/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "f3544d74-ffee-46e5-a85e-772a055e588e",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newsdig.tbs.co.jp/list/area/select",
+    "urlHash": "928d75a9f6b8"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2820,
+   "timeOrigin": 1793563086318,
+   "url": "https://newsdig.tbs.co.jp/list/area/select",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793563087290\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (media-src) at data:video/mp4;base64,AAAAIGZ0eXBpc29tAA\u2026 because it violates the following directive: \u201cmedia-src https://* 'unsafe-inline' 'unsafe-eval' blob:\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 miss"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextd86rnnazcx8p\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "928d75a9f6b8",
+   "titleHash": "03c53744c056"
+  },
+  {
+   "step": "link2",
+   "href": "https://newsdig.tbs.co.jp/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6943,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 471
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "_installNavigationListener@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:19190",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151",
+      "_initialize@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:17391",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151"
+     ],
+     "t": 518
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:480399",
+      "s@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:402"
+     ],
+     "t": 553
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 586
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 586
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1204
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newsdig.tbs.co.jp/",
+     "entryIsCurrent": true,
+     "from": "https://newsdig.tbs.co.jp/list/area/select",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "0ab1f9cf-8636-4df7-96e1-5ad13ac0cb29",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newsdig.tbs.co.jp/",
+    "urlHash": "0f5d8f0fe8c9"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3835,
+   "timeOrigin": 1793563090709,
+   "url": "https://newsdig.tbs.co.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793563091552\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (media-src) at data:video/mp4;base64,AAAAIGZ0eXBpc29tAA\u2026 because it violates the following directive: \u201cmedia-src https://* 'unsafe-inline' 'unsafe-eval' blob:\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 miss"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextdmdqozzpy7r9\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "0f5d8f0fe8c9",
+   "titleHash": "8d59dff649a1"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6506,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 397
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "_installNavigationListener@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:19190",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151",
+      "_initialize@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:17391",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151"
+     ],
+     "t": 448
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:480399",
+      "s@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:402"
+     ],
+     "t": 472
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 486
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 486
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 948
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newsdig.tbs.co.jp/list/area/select",
+     "entryIsCurrent": true,
+     "from": "https://newsdig.tbs.co.jp/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "f3544d74-ffee-46e5-a85e-772a055e588e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newsdig.tbs.co.jp/list/area/select",
+    "urlHash": "928d75a9f6b8"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2864,
+   "timeOrigin": 1793563095252,
+   "url": "https://newsdig.tbs.co.jp/list/area/select",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793563095969\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (media-src) at data:video/mp4;base64,AAAAIGZ0eXBpc29tAA\u2026 because it violates the following directive: \u201cmedia-src https://* 'unsafe-inline' 'unsafe-eval' blob:\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 miss"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextd344inwlf42b\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "928d75a9f6b8",
+   "titleHash": "03c53744c056"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6943,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 668
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "_installNavigationListener@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:19190",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151",
+      "_initialize@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:17391",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151"
+     ],
+     "t": 772
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:480399",
+      "s@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:402"
+     ],
+     "t": 806
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 836
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 836
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1195
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newsdig.tbs.co.jp/",
+     "entryIsCurrent": true,
+     "from": "https://newsdig.tbs.co.jp/list/area/select",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "3790edeb-178c-4402-9bed-bb03776e44e1",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newsdig.tbs.co.jp/",
+    "urlHash": "0f5d8f0fe8c9"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3879,
+   "timeOrigin": 1793563099182,
+   "url": "https://newsdig.tbs.co.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793563100210\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (media-src) at data:video/mp4;base64,AAAAIGZ0eXBpc29tAA\u2026 because it violates the following directive: \u201cmedia-src https://* 'unsafe-inline' 'unsafe-eval' blob:\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 miss"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextds6e8a619sta\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextdc8ksjgj06lk\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "0f5d8f0fe8c9",
+   "titleHash": "8d59dff649a1"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6506,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 385
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "_installNavigationListener@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:19190",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151",
+      "_initialize@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:17391",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151"
+     ],
+     "t": 425
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:480399",
+      "s@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:402"
+     ],
+     "t": 447
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 461
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 461
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 934
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newsdig.tbs.co.jp/list/area/select",
+     "entryIsCurrent": true,
+     "from": "https://newsdig.tbs.co.jp/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "f3544d74-ffee-46e5-a85e-772a055e588e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newsdig.tbs.co.jp/list/area/select",
+    "urlHash": "928d75a9f6b8"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2864,
+   "timeOrigin": 1793563103376,
+   "url": "https://newsdig.tbs.co.jp/list/area/select",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793563104077\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (media-src) at data:video/mp4;base64,AAAAIGZ0eXBpc29tAA\u2026 because it violates the following directive: \u201cmedia-src https://* 'unsafe-inline' 'unsafe-eval' blob:\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 miss"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextdphlcu75n9wd\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "928d75a9f6b8",
+   "titleHash": "03c53744c056"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6506,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "_installNavigationListener@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:19190",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151",
+      "_initialize@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:17391",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151"
+     ],
+     "t": 1096
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:480399",
+      "s@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:402"
+     ],
+     "t": 1454
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1919
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 1920
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2282
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 25686
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newsdig.tbs.co.jp/list/area/select",
+     "entryIsCurrent": true,
+     "from": "https://newsdig.tbs.co.jp/list/area/select",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "f3544d74-ffee-46e5-a85e-772a055e588e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newsdig.tbs.co.jp/list/area/select",
+    "urlHash": "928d75a9f6b8"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2884,
+   "timeOrigin": 1793563107261,
+   "url": "https://newsdig.tbs.co.jp/list/area/select",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793563109267\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RXNLNZ32B6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (media-src) at data:video/mp4;base64,AAAAIGZ0eXBpc29tAA\u2026 because it violates the following directive: \u201cmedia-src https://* 'unsafe-inline' 'unsafe-eval' blob:\u201d"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://tag.flvcdn.net/ltag.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://b99.yahoo.<cc>/pagead/conversion_async.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://b99.yahoo.<cc>/pagead/conversion_async.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextdpkzxfu6s6e\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 miss"
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Blocked loading mixed active content \u201chttp://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_twsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "928d75a9f6b8",
+   "titleHash": "03c53744c056"
+  },
+  {
+   "step": "fragment",
+   "href": "https://newsdig.tbs.co.jp/list/area/select",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6506,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "_installNavigationListener@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:19190",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151",
+      "_initialize@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:17391",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151"
+     ],
+     "t": 1096
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:480399",
+      "s@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:402"
+     ],
+     "t": 1454
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1919
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 1920
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2282
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 25686
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 28296,
+     "url": "https://newsdig.tbs.co.jp/list/area/select",
+     "userInitiated": true
+    },
+    {
+     "from": "https://newsdig.tbs.co.jp/list/area/select",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 28296
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 28296,
+     "url": "https://newsdig.tbs.co.jp/list/area/select"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 28307
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 28307
+    },
+    {
+     "k": "hashchange",
+     "t": 28310,
+     "url": "https://newsdig.tbs.co.jp/list/area/select"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://newsdig.tbs.co.jp/list/area/select",
+     "entryIsCurrent": false,
+     "from": "https://newsdig.tbs.co.jp/list/area/select",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "fb13adf5-84ae-48ae-93da-4920b531be2a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newsdig.tbs.co.jp/list/area/select",
+    "urlHash": "7fd3c3390871"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 783,
+   "textLen": 2884,
+   "timeOrigin": 1793563107261,
+   "url": "https://newsdig.tbs.co.jp/list/area/select",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "7fd3c3390871",
+   "titleHash": "03c53744c056"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6506,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "_installNavigationListener@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:19190",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151",
+      "_initialize@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:17391",
+      "Oe</<@https://pub.dv.tech/dvtag/29287119/DV1011455/pub.js:2:3151"
+     ],
+     "t": 1096
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:480399",
+      "s@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/3e8c6e88-55f1-4baa-a90d-6c65b2630749/grumi.js:7:402"
+     ],
+     "t": 1454
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1919
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 1920
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2282
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 25686
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 28296,
+     "url": "https://newsdig.tbs.co.jp/list/area/select",
+     "userInitiated": true
+    },
+    {
+     "from": "https://newsdig.tbs.co.jp/list/area/select",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 28296
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 28296,
+     "url": "https://newsdig.tbs.co.jp/list/area/select"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 28307
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 28307
+    },
+    {
+     "k": "hashchange",
+     "t": 28310,
+     "url": "https://newsdig.tbs.co.jp/list/area/select"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 31228,
+     "url": "https://newsdig.tbs.co.jp/list/area/select",
+     "userInitiated": false
+    },
+    {
+     "from": "https://newsdig.tbs.co.jp/list/area/select",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 31228
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 31228
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 31229
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 31229,
+     "url": "https://newsdig.tbs.co.jp/list/area/select"
+    },
+    {
+     "k": "hashchange",
+     "t": 31233,
+     "url": "https://newsdig.tbs.co.jp/list/area/select"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://newsdig.tbs.co.jp/list/area/select",
+     "entryIsCurrent": true,
+     "from": "https://newsdig.tbs.co.jp/list/area/select",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "f3544d74-ffee-46e5-a85e-772a055e588e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newsdig.tbs.co.jp/list/area/select",
+    "urlHash": "928d75a9f6b8"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 3780,
+   "textLen": 2884,
+   "timeOrigin": 1793563107261,
+   "url": "https://newsdig.tbs.co.jp/list/area/select",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_L6E64DWXKP\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    }
+   ],
+   "urlHash": "928d75a9f6b8",
+   "titleHash": "03c53744c056"
+  }
+ ],
+ "plan": {
+  "link": "https://newsdig.tbs.co.jp/list/area/select",
+  "link2": "https://newsdig.tbs.co.jp/",
+  "fragment": "https://newsdig.tbs.co.jp/list/area/select"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 66.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

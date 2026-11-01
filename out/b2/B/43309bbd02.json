@@ -1,0 +1,1349 @@
+{
+ "id": "43309bbd02",
+ "page": "https://www.ndtv.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 3,
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 9016,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 631
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 632
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 634
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "n.start@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:16903",
+      "t.start/e</<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133220",
+      "t.start/e<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133191"
+     ],
+     "t": 771
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "n.start@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:16942",
+      "t.start/e</<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133220",
+      "t.start/e<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133191"
+     ],
+     "t": 771
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 913
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 913
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1196
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1603
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.ndtv.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "e28d55c9-292f-4d6a-9d90-a270719ab4f9",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.ndtv.com/",
+    "urlHash": "43309bbd02d7"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16020,
+   "timeOrigin": 1793562147700,
+   "url": "https://www.ndtv.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562148146_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562148146_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableLazyLoad is deprecated, use googletag.setConfig({lazyLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: Interstitial_1x1.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "virtual placement container selector should return only one element: xasaxscsaascascsdv"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: sticky-logo"
+    },
+    {
+     "k": "console-warn",
+     "e": "StickyLogo: parsed placement has no items"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either t"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562155730_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562155730_sharedId\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "43309bbd02d7",
+   "titleHash": "919e07b9adaa"
+  },
+  {
+   "step": "link",
+   "href": "https://www.ndtv.com/latest",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "docH": 6120,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 326
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination",
+      "QG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 406
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 432
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.ndtv.com/latest",
+     "entryIsCurrent": true,
+     "from": "https://www.ndtv.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "01bfec5f-ed8e-49e8-9039-5528f093c2c9",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.ndtv.com/latest",
+    "urlHash": "3e9ae41e677f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562157632,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "TBT=0tvi2=30933&tvi48=32982&tvi50=32901"
+    }
+   ],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.ndtv.com/",
+   "click": "native",
+   "settle": 2.7,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 2,
+    "error": 1,
+    "get:canGoBack": 1,
+    "get:canGoForward": 1,
+    "get:currentEntry": 4,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 9071,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 182
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "n.start@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:16903",
+      "t.start/e</<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133220",
+      "t.start/e<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133191"
+     ],
+     "t": 442
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "n.start@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:16942",
+      "t.start/e</<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133220",
+      "t.start/e<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133191"
+     ],
+     "t": 442
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 722
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 780
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 780
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1045
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 1045
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 1046
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 1046
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1046
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1046
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 1046
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2566
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.ndtv.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.ndtv.com/latest",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "35644167-d9ed-4465-ba15-c81a90c9c940",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.ndtv.com/",
+    "urlHash": "43309bbd02d7"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 15637,
+   "timeOrigin": 1793562161416,
+   "url": "https://www.ndtv.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "protected media: enableFraudDetection"
+    },
+    {
+     "k": "console-warn",
+     "e": "virtual placement container selector should return only one element: xasaxscsaascascsdv"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: sticky-logo, Video Reel Above Feed"
+    },
+    {
+     "k": "console-warn",
+     "e": "StickyLogo: parsed placement has no items"
+    },
+    {
+     "k": "console-warn",
+     "e": "Reel placement with no content. Page https://www.ndtv.com/. Mode organic-video-reel-dvr."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableLazyLoad is deprecated, use googletag.setConfig({lazyLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: Interstitial_1x1.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "protected media: onFraudScriptLoaded"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "43309bbd02d7",
+   "titleHash": "919e07b9adaa"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 271
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination",
+      "QG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 317
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 397
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.ndtv.com/latest",
+     "entryIsCurrent": true,
+     "from": "https://www.ndtv.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "01bfec5f-ed8e-49e8-9039-5528f093c2c9",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.ndtv.com/latest",
+    "urlHash": "3e9ae41e677f"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562167195,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "error": 1,
+    "get:canGoBack": 1,
+    "get:canGoForward": 1,
+    "get:currentEntry": 4,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 12203,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 146
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 585
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 586
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "n.start@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:16903",
+      "t.start/e</<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133220",
+      "t.start/e<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133191"
+     ],
+     "t": 595
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "n.start@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:16942",
+      "t.start/e</<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133220",
+      "t.start/e<@https://zipthelake.com/dist/f9815f9ae424/1a5ef115ca5e3cf25bda686bdd.v2.js:1:133191"
+     ],
+     "t": 595
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 692
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 756
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 756
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 756
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 756
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 756
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 756
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 756
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1128
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.ndtv.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.ndtv.com/latest",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "e28d55c9-292f-4d6a-9d90-a270719ab4f9",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.ndtv.com/",
+    "urlHash": "43309bbd02d7"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 6477,
+   "textLen": 18595,
+   "timeOrigin": 1793562170197,
+   "url": "https://www.ndtv.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "protected media: enableFraudDetection"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableLazyLoad is deprecated, use googletag.setConfig({lazyLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: Interstitial_1x1.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "virtual placement container selector should return only one element: xasaxscsaascascsdv"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: sticky-logo"
+    },
+    {
+     "k": "console-warn",
+     "e": "StickyLogo: parsed placement has no items"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "protected media: onFraudScriptLoaded"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Home Thumbnails New | Card 5"
+    },
+    {
+     "k": "console-warn",
+     "e": "StickyLogo: parsed placement has no items"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot rtbdemand7285 rendered inside of the viewport.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[2026-11-01T19:42:53.097Z]  @firebase/app-compat: \n      Warning: Firebase is already defined in the global scope. Please make sure\n      Firebase library is only loaded once.\n    "
+    }
+   ],
+   "urlHash": "43309bbd02d7",
+   "titleHash": "919e07b9adaa"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 2,
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 271
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination",
+      "QG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 317
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 397
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2969,
+     "url": "https://www.ndtv.com/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 6737
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://www.ndtv.com/latest",
+     "entryIsCurrent": true,
+     "from": "https://www.ndtv.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "01bfec5f-ed8e-49e8-9039-5528f093c2c9",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.ndtv.com/latest",
+    "urlHash": "3e9ae41e677f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562167195,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 633
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination",
+      "QG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 708
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 752
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.ndtv.com/latest",
+     "entryIsCurrent": true,
+     "from": "https://www.ndtv.com/latest",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "01bfec5f-ed8e-49e8-9039-5528f093c2c9",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.ndtv.com/latest",
+    "urlHash": "3e9ae41e677f"
+   },
+   "prev": {
+    "counts": {
+     "call:entries": 2,
+     "navigate:traverse": 1,
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 271
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/destination",
+       "jt@https://www.googletagmanager.com/gtag/destination",
+       "NG@https://www.googletagmanager.com/gtag/destination",
+       "QG@https://www.googletagmanager.com/gtag/destination"
+      ],
+      "t": 317
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 397
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2969,
+      "url": "https://www.ndtv.com/",
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 6737
+     }
+    ],
+    "url": "https://www.ndtv.com/latest"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562176768,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 633
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination",
+      "QG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 708
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 752
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3318,
+     "url": "https://www.ndtv.com/latest",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.ndtv.com/latest",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3318
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3318,
+     "url": "https://www.ndtv.com/latest"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3327
+    },
+    {
+     "k": "hashchange",
+     "t": 3327,
+     "url": "https://www.ndtv.com/latest"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.ndtv.com/latest",
+     "entryIsCurrent": false,
+     "from": "https://www.ndtv.com/latest",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "a1e61748-b917-4b89-a8a1-37c1511ad7c6",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.ndtv.com/latest",
+    "urlHash": "321424e869a3"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562176768,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "321424e869a3",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 633
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination",
+      "QG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 708
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 752
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3318,
+     "url": "https://www.ndtv.com/latest",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.ndtv.com/latest",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3318
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3318,
+     "url": "https://www.ndtv.com/latest"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3327
+    },
+    {
+     "k": "hashchange",
+     "t": 3327,
+     "url": "https://www.ndtv.com/latest"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5967,
+     "url": "https://www.ndtv.com/latest",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.ndtv.com/latest",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5968
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5968
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5968,
+     "url": "https://www.ndtv.com/latest"
+    },
+    {
+     "k": "hashchange",
+     "t": 5991,
+     "url": "https://www.ndtv.com/latest"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.ndtv.com/latest",
+     "entryIsCurrent": true,
+     "from": "https://www.ndtv.com/latest",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "01bfec5f-ed8e-49e8-9039-5528f093c2c9",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.ndtv.com/latest",
+    "urlHash": "3e9ae41e677f"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562176768,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  }
+ ],
+ "plan": {
+  "link": "https://www.ndtv.com/latest",
+  "link2": "https://www.ndtv.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 37.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

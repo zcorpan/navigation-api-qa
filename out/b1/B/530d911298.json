@@ -1,0 +1,988 @@
+{
+ "id": "530d911298",
+ "page": "https://www.idokep.hu/szmog",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3370,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://cdn.atmedia.hu/idokep.hu.js",
+     "k": "error",
+     "l": 0,
+     "t": 258
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 444
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/szmog:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 444
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 446
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/szmog:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:657178",
+      "s@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:386"
+     ],
+     "t": 4799
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/szmog:70:45",
+      "Pi@https://jsc.native.azerion.com/site/1031649.js:233:4040",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:19451",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:20134"
+     ],
+     "t": 4813
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.idokep.hu/szmog",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "19b5f03d-f082-4821-9c67-ecbbfb5e8938",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.idokep.hu/szmog",
+    "urlHash": "530d91129815"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1017,
+   "timeOrigin": 1793553568920,
+   "url": "https://www.idokep.hu/szmog",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: redeclaration of const adsDebug"
+    },
+    {
+     "k": "console-warn",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warn",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR - (ox_esp) Call to OX failedSyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "530d91129815",
+   "titleHash": "234ff8fb45a6"
+  },
+  {
+   "step": "link",
+   "href": "https://www.idokep.hu/idojaras/Budapest",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6692,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://cdn.atmedia.hu/idokep.hu.js",
+     "k": "error",
+     "l": 0,
+     "t": 207
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 361
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 361
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 768
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "Pi@https://jsc.native.azerion.com/site/1031649.js:233:4040",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:19451",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:20134"
+     ],
+     "t": 827
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:657178",
+      "s@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:386"
+     ],
+     "t": 862
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.idokep.hu/idojaras/Budapest",
+     "entryIsCurrent": true,
+     "from": "https://www.idokep.hu/szmog",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cf5e2607-6679-49b4-8a4e-265d57031c21",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.idokep.hu/idojaras/Budapest",
+    "urlHash": "59d1db3c7daf"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4161,
+   "timeOrigin": 1793553576513,
+   "url": "https://www.idokep.hu/idojaras/Budapest",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: redeclaration of const adsDebug"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warn",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "59d1db3c7daf",
+   "titleHash": "6c9fe5f51044"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3370,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://cdn.atmedia.hu/idokep.hu.js",
+     "k": "error",
+     "l": 0,
+     "t": 254
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 341
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/szmog:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 341
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 467
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/szmog:70:45",
+      "Pi@https://jsc.native.azerion.com/site/1031649.js:233:4040",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:19451",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:20134"
+     ],
+     "t": 885
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/szmog:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:657178",
+      "s@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:386"
+     ],
+     "t": 896
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.idokep.hu/szmog",
+     "entryIsCurrent": true,
+     "from": "https://www.idokep.hu/idojaras/Budapest",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "19b5f03d-f082-4821-9c67-ecbbfb5e8938",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.idokep.hu/szmog",
+    "urlHash": "530d91129815"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1017,
+   "timeOrigin": 1793553580101,
+   "url": "https://www.idokep.hu/szmog",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: redeclaration of const adsDebug"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warn",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "530d91129815",
+   "titleHash": "234ff8fb45a6"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6962,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://cdn.atmedia.hu/idokep.hu.js",
+     "k": "error",
+     "l": 0,
+     "t": 116
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 508
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 508
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 956
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "Pi@https://jsc.native.azerion.com/site/1031649.js:233:4040",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:19451",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:20134"
+     ],
+     "t": 1509
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:657178",
+      "s@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:386"
+     ],
+     "t": 1557
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.idokep.hu/idojaras/Budapest",
+     "entryIsCurrent": true,
+     "from": "https://www.idokep.hu/szmog",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cf5e2607-6679-49b4-8a4e-265d57031c21",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.idokep.hu/idojaras/Budapest",
+    "urlHash": "59d1db3c7daf"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4161,
+   "timeOrigin": 1793553583295,
+   "url": "https://www.idokep.hu/idojaras/Budapest",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: redeclaration of const adsDebug"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warn",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "59d1db3c7daf",
+   "titleHash": "6c9fe5f51044"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6376,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://cdn.atmedia.hu/idokep.hu.js",
+     "k": "error",
+     "l": 0,
+     "t": 366
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 698
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 698
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 705
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:657178",
+      "s@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:386"
+     ],
+     "t": 1076
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "Pi@https://jsc.native.azerion.com/site/1031649.js:233:4040",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:19451",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:20134"
+     ],
+     "t": 1078
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.idokep.hu/idojaras/Budapest",
+     "entryIsCurrent": true,
+     "from": "https://www.idokep.hu/idojaras/Budapest",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cf5e2607-6679-49b4-8a4e-265d57031c21",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.idokep.hu/idojaras/Budapest",
+    "urlHash": "59d1db3c7daf"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4161,
+   "timeOrigin": 1793553586918,
+   "url": "https://www.idokep.hu/idojaras/Budapest",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: redeclaration of const adsDebug"
+    },
+    {
+     "k": "console-warn",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warn",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "59d1db3c7daf",
+   "titleHash": "6c9fe5f51044"
+  },
+  {
+   "step": "fragment",
+   "href": "https://www.idokep.hu/idojaras/Budapest",
+   "click": "native",
+   "settle": 2.8,
+   "active": "A#a-ik-cur-weather-nav-idokep",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6852,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://cdn.atmedia.hu/idokep.hu.js",
+     "k": "error",
+     "l": 0,
+     "t": 366
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 698
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 698
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 705
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:657178",
+      "s@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:386"
+     ],
+     "t": 1076
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/idojaras/Budapest:70:45",
+      "Pi@https://jsc.native.azerion.com/site/1031649.js:233:4040",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:19451",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:20134"
+     ],
+     "t": 1078
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.idokep.hu/idojaras/Budapest",
+     "entryIsCurrent": true,
+     "from": "https://www.idokep.hu/idojaras/Budapest",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cf5e2607-6679-49b4-8a4e-265d57031c21",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.idokep.hu/idojaras/Budapest",
+    "urlHash": "59d1db3c7daf"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 1033,
+   "textLen": 4161,
+   "timeOrigin": 1793553586918,
+   "url": "https://www.idokep.hu/idojaras/Budapest",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "59d1db3c7daf",
+   "titleHash": "6c9fe5f51044"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3370,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://cdn.atmedia.hu/idokep.hu.js",
+     "k": "error",
+     "l": 0,
+     "t": 356
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 474
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/szmog:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 474
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 505
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/szmog:70:45",
+      "Pi@https://jsc.native.azerion.com/site/1031649.js:233:4040",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:19451",
+      "@https://jsc.native.azerion.com/site/1031649.js:237:20134"
+     ],
+     "t": 1043
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.idokep.hu/szmog:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:657178",
+      "s@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:386"
+     ],
+     "t": 1054
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.idokep.hu/szmog",
+     "entryIsCurrent": true,
+     "from": "https://www.idokep.hu/idojaras/Budapest",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "19b5f03d-f082-4821-9c67-ecbbfb5e8938",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.idokep.hu/szmog",
+    "urlHash": "530d91129815"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1017,
+   "timeOrigin": 1793553593737,
+   "url": "https://www.idokep.hu/szmog",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: redeclaration of const adsDebug"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warn",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "530d91129815",
+   "titleHash": "234ff8fb45a6"
+  }
+ ],
+ "plan": {
+  "link": "https://www.idokep.hu/idojaras/Budapest",
+  "fragment": "https://www.idokep.hu/idojaras/Budapest"
+ },
+ "consent": ".qc-cmp2-summary-buttons button[mode=\"primary\"]",
+ "elapsed": 28.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

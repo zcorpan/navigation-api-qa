@@ -1,0 +1,881 @@
+{
+ "id": "3258258b91",
+ "page": "https://accounts.x.ai/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 106
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 184
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 278
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 278
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 279,
+     "url": "/sign-in?redirect=account&return_to=%2F"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 279,
+     "url": "https://accounts.x.ai/sign-in",
+     "userInitiated": false
+    },
+    {
+     "from": "https://accounts.x.ai/sign-in",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 279
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 285
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 285
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 286
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4357
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4363
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://accounts.x.ai/sign-in",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "1b5df596-2baa-4954-8c10-0fc5a0d750d4",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://accounts.x.ai/sign-in",
+    "urlHash": "98398a2423f9"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 304,
+   "timeOrigin": 1793562626770,
+   "url": "https://accounts.x.ai/sign-in",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: avar: A required mapping (for -1, 0 or 1) is missing (font-family: \"xVfMark\" style:normal weight:100..900 width:100 src index:0) source: https://accounts.x.ai/_next/static/media/XVF_Mark.2oh37lbjbqxm9.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: Table discarded (font-family: \"xVfMark\" style:normal weight:100..900 width:100 src index:0) source: https://accounts.x.ai/_next/static/media/XVF_Mark.2oh37lbjbqxm9.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://wa.onelink.me/v1/onelink because it violates the following directive: \u201cconnect-src 'self' https://status.x.ai https://cdn.cookielaw.org https://cookie-cdn.cookiepro.com https://geolocation.onetrus"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://t.co/1/i/adsctp because it violates the following directive: \u201cconnect-src 'self' https://status.x.ai https://cdn.cookielaw.org https://cookie-cdn.cookiepro.com https://geolocation.onetrust.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://analytics.twitter.com/1/i/adsctp because it violates the following directive: \u201cconnect-src 'self' https://status.x.ai https://cdn.cookielaw.org https://cookie-cdn.cookiepro.com https://geolocation"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://t.co/1/i/adsct"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics.twitter.com/1/i/adsct"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://t.co/1/i/adsctp because it violates the following directive: \u201cconnect-src 'self' https://status.x.ai https://cdn.cookielaw.org https://cookie-cdn.cookiepro.com https://geolocation.onetrust.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://analytics.twitter.com/1/i/adsctp because it violates the following directive: \u201cconnect-src 'self' https://status.x.ai https://cdn.cookielaw.org https://cookie-cdn.cookiepro.com https://geolocation"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://t.co/1/i/adsct"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics.twitter.com/1/i/adsct"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.com/rmkt/collect/17453864730/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.com/rmkt/collect/18037926571/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.com/ccm/collect"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.com/rmkt/collect/17453864730/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.com/rmkt/collect/18037926571/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.com/ccm/collect"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.com/pagead/1p-user-list/17453864730/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/17453864730/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.com/pagead/1p-user-list/18037926571/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/18037926571/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a style (style-src-elem) at https://tags.srv.stackadapt.com/sa.css from being applied because it violates the following directive: \u201cstyle-src 'self' 'unsafe-inline'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://tags.srv.stackadapt.com/sa.jpeg because it violates the following directive: \u201cconnect-src 'self' https://status.x.ai https://cdn.cookielaw.org https://cookie-cdn.cookiepro.com https://geolocation."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://tags.srv.stackadapt.com/saq_pxl"
+    }
+   ],
+   "urlHash": "98398a2423f9",
+   "titleHash": "f93cdc11e8c4"
+  },
+  {
+   "step": "link",
+   "href": "https://accounts.x.ai/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1021,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 22
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 64
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://accounts.x.ai/",
+     "entryIsCurrent": true,
+     "from": "https://accounts.x.ai/sign-in",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "ef75b74a-4916-4bfa-ab49-d1bf699d48ae",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://accounts.x.ai/",
+    "urlHash": "3258258b9199"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 681,
+   "timeOrigin": 1793562634032,
+   "url": "https://accounts.x.ai/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3258258b9199",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1021,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 15
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 16
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://accounts.x.ai/sign-in",
+     "entryIsCurrent": true,
+     "from": "https://accounts.x.ai/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "1b5df596-2baa-4954-8c10-0fc5a0d750d4",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://accounts.x.ai/sign-in",
+    "urlHash": "98398a2423f9"
+   },
+   "prev": {
+    "counts": {
+     "listen:navigate": 1,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+      ],
+      "t": 22
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 64
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2991,
+      "url": "https://accounts.x.ai/sign-in",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://accounts.x.ai/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 681,
+   "timeOrigin": 1793562637069,
+   "url": "https://accounts.x.ai/sign-in",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "98398a2423f9",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1021,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 5
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://accounts.x.ai/",
+     "entryIsCurrent": true,
+     "from": "https://accounts.x.ai/sign-in",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "ef75b74a-4916-4bfa-ab49-d1bf699d48ae",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://accounts.x.ai/",
+    "urlHash": "3258258b9199"
+   },
+   "prev": {
+    "counts": {
+     "listen:navigate": 1,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+      ],
+      "t": 15
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 16
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2611,
+      "url": "https://accounts.x.ai/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://accounts.x.ai/sign-in"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 681,
+   "timeOrigin": 1793562639701,
+   "url": "https://accounts.x.ai/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3258258b9199",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1021,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 42
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 43
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://accounts.x.ai/",
+     "entryIsCurrent": true,
+     "from": "https://accounts.x.ai/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "ef75b74a-4916-4bfa-ab49-d1bf699d48ae",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://accounts.x.ai/",
+    "urlHash": "3258258b9199"
+   },
+   "prev": {
+    "counts": {
+     "listen:navigate": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+      ],
+      "t": 5
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 6
+     }
+    ],
+    "url": "https://accounts.x.ai/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 681,
+   "timeOrigin": 1793562642292,
+   "url": "https://accounts.x.ai/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3258258b9199",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 1021,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 42
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 43
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2632,
+     "url": "https://accounts.x.ai/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://accounts.x.ai/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2632
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2632,
+     "url": "https://accounts.x.ai/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2632
+    },
+    {
+     "k": "hashchange",
+     "t": 2632,
+     "url": "https://accounts.x.ai/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://accounts.x.ai/",
+     "entryIsCurrent": false,
+     "from": "https://accounts.x.ai/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "75494b3f-00bf-4cd2-b593-2df16da36c28",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://accounts.x.ai/",
+    "urlHash": "2c6ca898ddfb"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 681,
+   "timeOrigin": 1793562642292,
+   "url": "https://accounts.x.ai/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "2c6ca898ddfb",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 1021,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 42
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 43
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2632,
+     "url": "https://accounts.x.ai/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://accounts.x.ai/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2632
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2632,
+     "url": "https://accounts.x.ai/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2632
+    },
+    {
+     "k": "hashchange",
+     "t": 2632,
+     "url": "https://accounts.x.ai/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5247,
+     "url": "https://accounts.x.ai/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://accounts.x.ai/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5253
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5253
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5253,
+     "url": "https://accounts.x.ai/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5254,
+     "url": "https://accounts.x.ai/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://accounts.x.ai/",
+     "entryIsCurrent": true,
+     "from": "https://accounts.x.ai/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ef75b74a-4916-4bfa-ab49-d1bf699d48ae",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://accounts.x.ai/",
+    "urlHash": "3258258b9199"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 681,
+   "timeOrigin": 1793562642292,
+   "url": "https://accounts.x.ai/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3258258b9199",
+   "titleHash": "6c58da82f9cd"
+  }
+ ],
+ "plan": {
+  "link": "https://accounts.x.ai/",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept All Cookies",
+ "elapsed": 23.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -1,0 +1,781 @@
+{
+ "id": "31ab92294d",
+ "page": "https://www.premierleague.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.premierleague.<token>",
+   "readyState": "complete",
+   "timeOrigin": 1793554248006,
+   "marker": null,
+   "histLen": 22,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3102,
+   "active": "DIV",
+   "textLen": 2523,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.premierleague.<token>",
+    "key": "a44bd345-fe43-4639-aad6-1efc329a035e",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.premierleague.<token>",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "31ab92294dd8"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 345
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 345
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.premierleague.<token>",
+     "t": 752
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.premierleague.<token>",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 752,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.premierleague.<token>",
+     "t": 753
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 754
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 754
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 785,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 908,
+     "len": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1037
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5108,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 5113,
+     "len": 1
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "call:entries": 4,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Value for 'page' in object 'params' was undefined. The key 'page' has been omitted from the query string. Please be explicit with values, e.g. boolean or empty string"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "31ab92294dd8",
+   "titleHash": "b6fc14022449"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.premierleague.<token>",
+   "readyState": "complete",
+   "timeOrigin": 1793554256361.4,
+   "marker": null,
+   "histLen": 22,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3102,
+   "active": "DIV",
+   "textLen": 2523,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.premierleague.<token>",
+    "key": "a44bd345-fe43-4639-aad6-1efc329a035e",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.premierleague.<token>",
+     "from": "https://www.premierleague.<token>",
+     "entryIsCurrent": true
+    },
+    "urlHash": "31ab92294dd8"
+   },
+   "log": [
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 118,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 136
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 136
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.premierleague.<token>",
+     "t": 518
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.premierleague.<token>",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 518,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.premierleague.<token>",
+     "t": 518
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 520
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 520
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 612
+    }
+   ],
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "Value for 'page' in object 'params' was undefined. The key 'page' has been omitted from the query string. Please be explicit with values, e.g. boolean or empty string"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "31ab92294dd8",
+   "titleHash": "b6fc14022449"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.premierleague.<token>",
+   "readyState": "complete",
+   "timeOrigin": 1793554256361.4,
+   "marker": "m4",
+   "histLen": 23,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3102,
+   "active": "DIV",
+   "textLen": 2523,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.premierleague.<token>",
+    "key": "c908fa2d-9694-4daf-b051-28b49e76f1ee",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.premierleague.<token>",
+     "from": "https://www.premierleague.<token>",
+     "entryIsCurrent": false
+    },
+    "urlHash": "a384a31db6b9"
+   },
+   "log": [
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 118,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 136
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 136
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.premierleague.<token>",
+     "t": 518
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.premierleague.<token>",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 518,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.premierleague.<token>",
+     "t": 518
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 520
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 520
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 612
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.premierleague.<token>",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3256,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.premierleague.<token>",
+     "t": 3256
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.premierleague.<token>",
+     "t": 3257
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3264
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3264
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.premierleague.<token>",
+     "t": 3266
+    }
+   ],
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a384a31db6b9",
+   "titleHash": "b6fc14022449"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.premierleague.<token>",
+   "readyState": "complete",
+   "timeOrigin": 1793554256361.4,
+   "marker": "m5",
+   "histLen": 23,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3102,
+   "active": "DIV",
+   "textLen": 2523,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.premierleague.<token>",
+    "key": "a44bd345-fe43-4639-aad6-1efc329a035e",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.premierleague.<token>",
+     "from": "https://www.premierleague.<token>",
+     "entryIsCurrent": true
+    },
+    "urlHash": "31ab92294dd8"
+   },
+   "log": [
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 118,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 136
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 136
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.premierleague.<token>",
+     "t": 518
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.premierleague.<token>",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 518,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.premierleague.<token>",
+     "t": 518
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 520
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 520
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 612
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.premierleague.<token>",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3256,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.premierleague.<token>",
+     "t": 3256
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.premierleague.<token>",
+     "t": 3257
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3264
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3264
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.premierleague.<token>",
+     "t": 3266
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.premierleague.<token>",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5927,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.premierleague.<token>",
+     "t": 5927
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5927
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5927
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.premierleague.<token>",
+     "t": 5927
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.premierleague.<token>",
+     "t": 5937
+    }
+   ],
+   "counts": {
+    "call:entries": 1,
+    "get:currentEntry": 4,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "31ab92294dd8",
+   "titleHash": "b6fc14022449"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 17.1,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

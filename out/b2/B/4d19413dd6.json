@@ -1,0 +1,876 @@
+{
+ "id": "4d19413dd6",
+ "page": "https://www.eleconomista.es/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY#lazy-container",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 14782,
+   "histLen": 17,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 321
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 321
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 536
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.eleconomista.es/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "ccaf7adf-c0df-4a96-9829-4c504aad6bce",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.eleconomista.es/",
+    "urlHash": "4d19413dd680"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18973,
+   "timeOrigin": 1793563142116,
+   "url": "https://www.eleconomista.es/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-error",
+     "e": "Error: `apstag.init` was called multiple times with different pubIDs (d2c1d4de-7c69-49c2-8aec-7ee14abe5ed5 then 3747)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "4d19413dd680",
+   "titleHash": "4cbb0f996fd3"
+  },
+  {
+   "step": "link",
+   "href": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5936,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 107
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 107
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 179
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "entryIsCurrent": true,
+     "from": "https://www.eleconomista.es/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "8200312b-a2f2-4a3f-9cf1-41c9cd4ec474",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+    "urlHash": "f3dbdc33f89d"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 6
+     }
+    ],
+    "url": "about:srcdoc"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13382,
+   "timeOrigin": 1793563147200,
+   "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "f3dbdc33f89d",
+   "titleHash": "3149c7fa4e4e"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.eleconomista.es/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY#lazy-container",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 14782,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 189
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 189
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 308
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.eleconomista.es/",
+     "entryIsCurrent": true,
+     "from": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "96725e85-7db8-457d-821d-25410139140c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.eleconomista.es/",
+    "urlHash": "4d19413dd680"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 17149,
+   "timeOrigin": 1793563150366,
+   "url": "https://www.eleconomista.es/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "4d19413dd680",
+   "titleHash": "4cbb0f996fd3"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5958,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 98
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 98
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 168
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "entryIsCurrent": true,
+     "from": "https://www.eleconomista.es/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "8200312b-a2f2-4a3f-9cf1-41c9cd4ec474",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+    "urlHash": "f3dbdc33f89d"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 9
+     }
+    ],
+    "url": "about:srcdoc"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13382,
+   "timeOrigin": 1793563153591,
+   "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "f3dbdc33f89d",
+   "titleHash": "3149c7fa4e4e"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY#lazy-container",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 14782,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 91
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 91
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 186
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.eleconomista.es/",
+     "entryIsCurrent": true,
+     "from": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "ccaf7adf-c0df-4a96-9829-4c504aad6bce",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.eleconomista.es/",
+    "urlHash": "4d19413dd680"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 17149,
+   "timeOrigin": 1793563156346,
+   "url": "https://www.eleconomista.es/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "4d19413dd680",
+   "titleHash": "4cbb0f996fd3"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5958,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 56
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 56
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 122
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "entryIsCurrent": true,
+     "from": "https://www.eleconomista.es/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "8200312b-a2f2-4a3f-9cf1-41c9cd4ec474",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+    "urlHash": "f3dbdc33f89d"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 5
+     }
+    ],
+    "url": "about:srcdoc"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13382,
+   "timeOrigin": 1793563159116,
+   "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f3dbdc33f89d",
+   "titleHash": "3149c7fa4e4e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5958,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 312
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 312
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 458
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "entryIsCurrent": true,
+     "from": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "8200312b-a2f2-4a3f-9cf1-41c9cd4ec474",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+    "urlHash": "f3dbdc33f89d"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:srcdoc"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13382,
+   "timeOrigin": 1793563161817,
+   "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f3dbdc33f89d",
+   "titleHash": "3149c7fa4e4e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 5958,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 312
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 312
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 458
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3049,
+     "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3049
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3049,
+     "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3049
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3049
+    },
+    {
+     "k": "hashchange",
+     "t": 3049,
+     "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "entryIsCurrent": false,
+     "from": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "54c49944-4439-497c-ab88-ef6f7fbfef38",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+    "urlHash": "5103d2491337"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13382,
+   "timeOrigin": 1793563161817,
+   "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5103d2491337",
+   "titleHash": "3149c7fa4e4e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 5958,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 312
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 312
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 458
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3049,
+     "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3049
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3049,
+     "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3049
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3049
+    },
+    {
+     "k": "hashchange",
+     "t": 3049,
+     "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5623,
+     "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5623
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5623
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5623
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5623,
+     "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php"
+    },
+    {
+     "k": "hashchange",
+     "t": 5623,
+     "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "entryIsCurrent": true,
+     "from": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "8200312b-a2f2-4a3f-9cf1-41c9cd4ec474",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+    "urlHash": "f3dbdc33f89d"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13382,
+   "timeOrigin": 1793563161817,
+   "url": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f3dbdc33f89d",
+   "titleHash": "3149c7fa4e4e"
+  }
+ ],
+ "plan": {
+  "link": "https://www.eleconomista.es/politica-de-privacidad/cookies-2018-05-25.php",
+  "link2": "https://www.eleconomista.es/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 28.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

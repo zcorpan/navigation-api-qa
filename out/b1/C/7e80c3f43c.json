@@ -1,0 +1,188 @@
+{
+ "id": "7e80c3f43c",
+ "page": "https://eportal.incometax.gov.in/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1
+   },
+   "docH": 800,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19,
+   "timeOrigin": 1793553967710,
+   "url": "https://eportal.incometax.gov.in/iec/foservices/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "639ba45d5d32",
+   "titleHash": "50804cdf53ba"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1
+   },
+   "docH": 800,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "https://eportal.incometax.gov.in/iec/foservices/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19,
+   "timeOrigin": 1793553975271,
+   "url": "https://eportal.incometax.gov.in/iec/foservices/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Roboto\" style:normal weight:400 width:100 src index:0): status=2152398850 source: https://static.incometax.gov.in/iec/foservices/Roboto-Regular.475ba9e4e2d63456.woff2"
+    }
+   ],
+   "urlHash": "639ba45d5d32",
+   "titleHash": "50804cdf53ba"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3629,
+     "url": "https://eportal.incometax.gov.in/iec/foservices/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3629,
+     "url": "https://eportal.incometax.gov.in/iec/foservices/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19,
+   "timeOrigin": 1793553975271,
+   "url": "https://eportal.incometax.gov.in/iec/foservices/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0fe1e8c789c2",
+   "titleHash": "50804cdf53ba"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 2
+   },
+   "docH": 8,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 14971
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793553967691,
+   "url": "about:blank",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3c4fd307aff9",
+   "titleHash": "da39a3ee5e6b"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 17.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

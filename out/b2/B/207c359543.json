@@ -1,0 +1,1528 @@
+{
+ "id": "207c359543",
+ "page": "https://substack.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 3383,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 367
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 481
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 829
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://substack.com/",
+     "entryIsCurrent": true,
+     "from": "https://substack.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "b8e824b2-aa01-4b43-a18b-de9aa6beff60",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://substack.com/",
+    "urlHash": "207c35954338"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 15
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1753,
+   "timeOrigin": 1793561802424,
+   "url": "https://substack.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "207c35954338",
+   "titleHash": "00f8a2c270aa"
+  },
+  {
+   "step": "link",
+   "href": "https://substack.com/explore",
+   "click": "native",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:push": 1,
+    "history:pushState": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4543,
+   "histLen": 16,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 367
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 481
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 829
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 1947,
+     "url": "/explore"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1947,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 1948
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1948
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2954
+    }
+   ],
+   "marker": "m0",
+   "nav": {
+    "activation": {
+     "entry": "https://substack.com/",
+     "entryIsCurrent": false,
+     "from": "https://substack.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "eab70f0d-b046-4dda-9b53-4d7e5a06c9f3",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://substack.com/explore",
+    "urlHash": "43fca8e503c1"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2948,
+   "timeOrigin": 1793561802424,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "link2",
+   "href": "https://substack.com/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:push": 2,
+    "history:pushState": 2,
+    "listen:navigate": 1,
+    "navigate:push": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 3383,
+   "histLen": 17,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 367
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 481
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 829
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 1947,
+     "url": "/explore"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1947,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 1948
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1948
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2954
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4580,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4580,
+     "url": "https://substack.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/explore",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4581
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4582
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5592
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://substack.com/",
+     "entryIsCurrent": false,
+     "from": "https://substack.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "02e43687-d3db-4ad3-b370-ab81c4f97c39",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://substack.com/",
+    "urlHash": "207c35954338"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1753,
+   "timeOrigin": 1793561802424,
+   "url": "https://substack.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "207c35954338",
+   "titleHash": "00f8a2c270aa"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "call:entries": 4,
+    "currententrychange:push": 2,
+    "currententrychange:traverse": 1,
+    "history:pushState": 2,
+    "listen:navigate": 1,
+    "navigate:push": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 17,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 367
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 481
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 829
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 1947,
+     "url": "/explore"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1947,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 1948
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1948
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2954
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4580,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4580,
+     "url": "https://substack.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/explore",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4581
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4582
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5592
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7225,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7226
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7227
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7227,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 8233
+    }
+   ],
+   "marker": "m2",
+   "nav": {
+    "activation": {
+     "entry": "https://substack.com/",
+     "entryIsCurrent": false,
+     "from": "https://substack.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "eab70f0d-b046-4dda-9b53-4d7e5a06c9f3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://substack.com/explore",
+    "urlHash": "43fca8e503c1"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 187,
+   "timeOrigin": 1793561802424,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "call:entries": 5,
+    "currententrychange:push": 2,
+    "currententrychange:traverse": 2,
+    "history:pushState": 2,
+    "listen:navigate": 1,
+    "navigate:push": 2,
+    "navigate:traverse": 2,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3383,
+   "histLen": 17,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 367
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 481
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 829
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 1947,
+     "url": "/explore"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1947,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 1948
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1948
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2954
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4580,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4580,
+     "url": "https://substack.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/explore",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4581
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4582
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5592
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7225,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7226
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7227
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7227,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 8233
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9797,
+     "url": "https://substack.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/explore",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 9798
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9798
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9798,
+     "url": "https://substack.com/"
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10805
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://substack.com/",
+     "entryIsCurrent": true,
+     "from": "https://substack.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "b8e824b2-aa01-4b43-a18b-de9aa6beff60",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://substack.com/",
+    "urlHash": "207c35954338"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1753,
+   "timeOrigin": 1793561802424,
+   "url": "https://substack.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "207c35954338",
+   "titleHash": "00f8a2c270aa"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "call:entries": 6,
+    "currententrychange:push": 2,
+    "currententrychange:traverse": 3,
+    "history:pushState": 2,
+    "listen:navigate": 1,
+    "navigate:push": 2,
+    "navigate:traverse": 3,
+    "navigatesuccess": 5,
+    "pageshow": 1,
+    "popstate": 3
+   },
+   "docH": 800,
+   "histLen": 17,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 367
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 481
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 829
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 1947,
+     "url": "/explore"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1947,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 1948
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1948
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2954
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4580,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4580,
+     "url": "https://substack.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/explore",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4581
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4582
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5592
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7225,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7226
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7227
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7227,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 8233
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9797,
+     "url": "https://substack.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/explore",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 9798
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9798
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9798,
+     "url": "https://substack.com/"
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10805
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 12398,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 12403
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12403
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12403,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 13425
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://substack.com/",
+     "entryIsCurrent": false,
+     "from": "https://substack.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "eab70f0d-b046-4dda-9b53-4d7e5a06c9f3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://substack.com/explore",
+    "urlHash": "43fca8e503c1"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 540,
+   "timeOrigin": 1793561802424,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 17,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 211
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 256
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 311
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://substack.com/explore",
+     "entryIsCurrent": true,
+     "from": "https://substack.com/explore",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "eab70f0d-b046-4dda-9b53-4d7e5a06c9f3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://substack.com/explore",
+    "urlHash": "43fca8e503c1"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 187,
+   "timeOrigin": 1793561817922,
+   "url": "https://substack.com/explore",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 17,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 211
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 256
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 311
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2808,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/explore",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2809
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2810,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2811
+    },
+    {
+     "k": "hashchange",
+     "t": 2811,
+     "url": "https://substack.com/explore"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://substack.com/explore",
+     "entryIsCurrent": false,
+     "from": "https://substack.com/explore",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "014a684a-7751-43b6-b236-54313986084f",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://substack.com/explore",
+    "urlHash": "f7c7b7912625"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 187,
+   "timeOrigin": 1793561817922,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f7c7b7912625",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 17,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 211
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 256
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 311
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2808,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/explore",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2809
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2810,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2811
+    },
+    {
+     "k": "hashchange",
+     "t": 2811,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5383,
+     "url": "https://substack.com/explore",
+     "userInitiated": false
+    },
+    {
+     "from": "https://substack.com/explore",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5384
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5384
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5384,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "k": "hashchange",
+     "t": 5388,
+     "url": "https://substack.com/explore"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://substack.com/explore",
+     "entryIsCurrent": true,
+     "from": "https://substack.com/explore",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "eab70f0d-b046-4dda-9b53-4d7e5a06c9f3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://substack.com/explore",
+    "urlHash": "43fca8e503c1"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 187,
+   "timeOrigin": 1793561817922,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  }
+ ],
+ "plan": {
+  "link": "https://substack.com/explore",
+  "link2": "https://substack.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept",
+ "elapsed": 29.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

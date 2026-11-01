@@ -1,0 +1,31 @@
+{
+ "D": {
+  "browser": "Safari TP 27.0",
+  "result": {
+   "type": null,
+   "entry": "no activation",
+   "activation": "null"
+  }
+ },
+ "A": {
+  "browser": "Chrome Canary 159.0.8136.0",
+  "result": {
+   "activation": "null",
+   "type": null,
+   "entry": "no activation"
+  }
+ },
+ "B": {
+  "browser": "Firefox Nightly 161.0a1",
+  "result": {
+   "harnessError": "Message: Failed to decode response from marionette\n"
+  }
+ },
+ "C": {
+  "browser": "Firefox Nightly 161.0a1",
+  "result": {
+   "activationError": "ReferenceError: navigation is not defined",
+   "entryError": "ReferenceError: navigation is not defined"
+  }
+ }
+}

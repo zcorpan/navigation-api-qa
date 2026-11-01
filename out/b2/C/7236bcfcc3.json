@@ -1,0 +1,341 @@
+{
+ "id": "7236bcfcc3",
+ "page": "https://www.mayoclinic.org/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 5109,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 122,
+     "url": "/"
+    },
+    {
+     "e": "[object SecurityPolicyViolationEvent]",
+     "k": "rejection",
+     "t": 234
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 253
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2977,
+   "timeOrigin": 1793563265872,
+   "url": "https://www.mayoclinic.org/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[LaunchDarkly] The waitForInitialization function was called without a timeout specified. In a future version a default timeout will be applied."
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: SecurityPolicyViolationEvent { isTrusted }"
+    }
+   ],
+   "urlHash": "7236bcfcc34b",
+   "titleHash": "73b4b4408b01"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 5109,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 118,
+     "url": "/"
+    },
+    {
+     "e": "[object SecurityPolicyViolationEvent]",
+     "k": "rejection",
+     "t": 198
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 313
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -2
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2977,
+   "timeOrigin": 1793563270330,
+   "url": "https://www.mayoclinic.org/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[next-auth][error][CLIENT_FETCH_ERROR] \nhttps://next-auth.js.org/errors NetworkError when attempting to fetch resource. Object(3)"
+    },
+    {
+     "k": "console-error",
+     "e": "[LaunchDarkly] undefined"
+    },
+    {
+     "k": "console-warn",
+     "e": "[LaunchDarkly] The waitForInitialization function was called without a timeout specified. In a future version a default timeout will be applied."
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: SecurityPolicyViolationEvent { isTrusted }"
+    }
+   ],
+   "urlHash": "7236bcfcc34b",
+   "titleHash": "73b4b4408b01"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1,
+    "rejection": 1
+   },
+   "docH": 5109,
+   "histLen": 27,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 118,
+     "url": "/"
+    },
+    {
+     "e": "[object SecurityPolicyViolationEvent]",
+     "k": "rejection",
+     "t": 198
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 313
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2891,
+     "url": "https://www.mayoclinic.org/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2891,
+     "url": "/#navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 2891,
+     "url": "https://www.mayoclinic.org/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2977,
+   "timeOrigin": 1793563270330,
+   "url": "https://www.mayoclinic.org/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "dc9b8d97c971",
+   "titleHash": "73b4b4408b01"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2,
+    "rejection": 1
+   },
+   "docH": 5109,
+   "histLen": 27,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 118,
+     "url": "/"
+    },
+    {
+     "e": "[object SecurityPolicyViolationEvent]",
+     "k": "rejection",
+     "t": 198
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 313
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2891,
+     "url": "https://www.mayoclinic.org/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2891,
+     "url": "/#navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 2891,
+     "url": "https://www.mayoclinic.org/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5471,
+     "url": "https://www.mayoclinic.org/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5474,
+     "url": "https://www.mayoclinic.org/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2977,
+   "timeOrigin": 1793563270330,
+   "url": "https://www.mayoclinic.org/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "7236bcfcc34b",
+   "titleHash": "73b4b4408b01"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

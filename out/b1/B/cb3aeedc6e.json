@@ -1,0 +1,456 @@
+{
+ "id": "cb3aeedc6e",
+ "page": "https://www.rugbyrama.fr/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "IFRAME",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 18855,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 774
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5760
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.rugbyrama.fr/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 5760
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.rugbyrama.fr/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "f7b4b385-415a-4c3b-b562-198d58e2b2dd",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.rugbyrama.fr/",
+    "urlHash": "cb3aeedc6e54"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 26513,
+   "timeOrigin": 1793554808453,
+   "url": "https://www.rugbyrama.fr/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "cb3aeedc6e54",
+   "titleHash": "7c0d111f8a49"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 18855,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 573
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.rugbyrama.fr/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 573
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1093
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.rugbyrama.fr/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "83e50570-8e71-429e-8f07-b117182654e2",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.rugbyrama.fr/",
+    "urlHash": "cb3aeedc6e54"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 26589,
+   "timeOrigin": 1793554816189,
+   "url": "https://www.rugbyrama.fr/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api-v6.prod.first-id.fr/info. (Reason: CORS request did not succeed). Status code: (null)."
+    }
+   ],
+   "urlHash": "cb3aeedc6e54",
+   "titleHash": "7c0d111f8a49"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 18855,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 573
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.rugbyrama.fr/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 573
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1093
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3708,
+     "url": "https://www.rugbyrama.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.rugbyrama.fr/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3708
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3708,
+     "url": "https://www.rugbyrama.fr/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3713
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3713
+    },
+    {
+     "k": "hashchange",
+     "t": 3713,
+     "url": "https://www.rugbyrama.fr/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.rugbyrama.fr/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "6845d238-0232-45eb-a570-5e80d4ea105b",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.rugbyrama.fr/",
+    "urlHash": "11500773bb46"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 26589,
+   "timeOrigin": 1793554816189,
+   "url": "https://www.rugbyrama.fr/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "11500773bb46",
+   "titleHash": "7c0d111f8a49"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 18855,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 573
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.rugbyrama.fr/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 573
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1093
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3708,
+     "url": "https://www.rugbyrama.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.rugbyrama.fr/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3708
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3708,
+     "url": "https://www.rugbyrama.fr/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3713
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3713
+    },
+    {
+     "k": "hashchange",
+     "t": 3713,
+     "url": "https://www.rugbyrama.fr/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6301,
+     "url": "https://www.rugbyrama.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.rugbyrama.fr/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6302
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6302
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6302
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6302,
+     "url": "https://www.rugbyrama.fr/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6308,
+     "url": "https://www.rugbyrama.fr/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.rugbyrama.fr/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "83e50570-8e71-429e-8f07-b117182654e2",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.rugbyrama.fr/",
+    "urlHash": "cb3aeedc6e54"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 26589,
+   "timeOrigin": 1793554816189,
+   "url": "https://www.rugbyrama.fr/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "cb3aeedc6e54",
+   "titleHash": "7c0d111f8a49"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 17.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

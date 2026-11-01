@@ -1,0 +1,689 @@
+{
+ "id": "efdd22fb7a",
+ "page": "https://kepco.jp/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://kepco.jp/",
+   "readyState": "complete",
+   "timeOrigin": 1793554047631.2,
+   "marker": null,
+   "histLen": 21,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2368,
+   "active": "BODY",
+   "textLen": 665,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://kepco.jp/",
+    "key": "f1c3749e-1262-41ed-af99-08f07ec0d8ee",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://kepco.jp/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "efdd22fb7acb"
+   },
+   "log": [
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2654,
+     "len": 1
+    },
+    {
+     "k": "error",
+     "e": "Uncaught ReferenceError: date is not defined",
+     "f": "https://kepco.jp/assets/js/common.js",
+     "l": 99,
+     "t": 3528
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: $el.matchHeight is not a function",
+     "f": "https://kepco.jp/js/common/jquery.matchHeight-min.js",
+     "l": 34,
+     "t": 4825
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4830
+    }
+   ],
+   "counts": {
+    "call:entries": 1,
+    "error": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+     "k": "pageerror",
+     "e": "date is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "$el.matchHeight is not a function"
+    }
+   ],
+   "urlHash": "efdd22fb7acb",
+   "titleHash": "a3a38c9a1697"
+  },
+  {
+   "step": "link",
+   "href": "https://kepco.jp/gas/lp_gas/",
+   "click": "native",
+   "settle": 4.1,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "readyState": "complete",
+   "timeOrigin": 1793554058072,
+   "marker": null,
+   "histLen": 22,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 16613,
+   "active": "BODY",
+   "textLen": 19838,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "key": "240ad3cc-a90e-415d-8b5a-ab4904ebf913",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "from": "https://kepco.jp/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5d595537e95f"
+   },
+   "log": [
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 388,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2494
+    }
+   ],
+   "counts": {
+    "call:entries": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    }
+   ],
+   "urlHash": "5d595537e95f",
+   "titleHash": "13ec18496a26"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://kepco.jp/",
+   "readyState": "complete",
+   "timeOrigin": 1793554062222,
+   "marker": null,
+   "histLen": 22,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2280,
+   "active": "BODY",
+   "textLen": 665,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://kepco.jp/",
+    "key": "f1c3749e-1262-41ed-af99-08f07ec0d8ee",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://kepco.jp/",
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "efdd22fb7acb"
+   },
+   "log": [
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 83,
+     "len": 2
+    },
+    {
+     "k": "error",
+     "e": "Uncaught ReferenceError: date is not defined",
+     "f": "https://kepco.jp/assets/js/common.js",
+     "l": 99,
+     "t": 94
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: $el.matchHeight is not a function",
+     "f": "https://kepco.jp/js/common/jquery.matchHeight-min.js",
+     "l": 34,
+     "t": 299
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 302
+    }
+   ],
+   "counts": {
+    "call:entries": 1,
+    "error": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+     "k": "pageerror",
+     "e": "date is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "$el.matchHeight is not a function"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "efdd22fb7acb",
+   "titleHash": "a3a38c9a1697"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "readyState": "complete",
+   "timeOrigin": 1793554064888.2,
+   "marker": null,
+   "histLen": 22,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 16613,
+   "active": "BODY",
+   "textLen": 19838,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "key": "240ad3cc-a90e-415d-8b5a-ab4904ebf913",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "from": "https://kepco.jp/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5d595537e95f"
+   },
+   "log": [
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 92,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 862
+    }
+   ],
+   "counts": {
+    "call:entries": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "5d595537e95f",
+   "titleHash": "13ec18496a26"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "readyState": "complete",
+   "timeOrigin": 1793554067522.9,
+   "marker": null,
+   "histLen": 22,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 202,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "key": "240ad3cc-a90e-415d-8b5a-ab4904ebf913",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5d595537e95f"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "log": [
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as entries] (<anonymous>:53:79)",
+       "at it (https://www.googletagmanager.com/gtag/js",
+       "at jt (https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 92,
+      "len": 2
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 862
+     }
+    ],
+    "counts": {
+     "call:entries": 1,
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "5d595537e95f",
+   "titleHash": "1647b9db6c01"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "readyState": "complete",
+   "timeOrigin": 1793554067522.9,
+   "marker": "m4",
+   "histLen": 23,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 202,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "key": "b254652c-7745-4ef9-b272-65913775f1a6",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "3397d3b24910"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2559,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "t": 2559
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "t": 2559
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2559
+    },
+    {
+     "k": "hashchange",
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "t": 2559
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3397d3b24910",
+   "titleHash": "1647b9db6c01"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "readyState": "complete",
+   "timeOrigin": 1793554067522.9,
+   "marker": "m5",
+   "histLen": 23,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 202,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "key": "240ad3cc-a90e-415d-8b5a-ab4904ebf913",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5d595537e95f"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2559,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "t": 2559
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "t": 2559
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2559
+    },
+    {
+     "k": "hashchange",
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "t": 2559
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5126,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "t": 5126
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5126
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "t": 5126
+    },
+    {
+     "k": "hashchange",
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "t": 5126
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5d595537e95f",
+   "titleHash": "1647b9db6c01"
+  }
+ ],
+ "plan": {
+  "link": "https://kepco.jp/gas/lp_gas/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 27.6,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

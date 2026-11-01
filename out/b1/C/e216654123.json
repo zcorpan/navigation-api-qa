@@ -1,0 +1,984 @@
+{
+ "id": "e216654123",
+ "page": "https://onedio.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "error": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 19221,
+   "histLen": 13,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 208,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 208,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 780
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/ line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 5033
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/ line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 5033
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -2
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19966,
+   "timeOrigin": 1793553516350,
+   "url": "https://onedio.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' immediately after loading, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Turnstile already has been loaded. Was Turnstile imported multiple times?"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' immediately after loading, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553516937_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553516937_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553516938_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553516938_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' after 1 second, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' after 1 second, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "console-warn",
+     "e": "JS code is not integrated correctly, place script - \"jsc.idealmedia.io/site/1031473.js\" in the head of your website"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "e21665412309",
+   "titleHash": "126b54ee5c73"
+  },
+  {
+   "step": "link",
+   "href": "https://onedio.com/test",
+   "click": "native",
+   "settle": 2.9,
+   "active": "IFRAME",
+   "counts": {
+    "error": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 10455,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 125,
+     "url": "/test"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 125,
+     "url": "/test"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1886
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3161
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3161
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13249,
+   "timeOrigin": 1793553524031,
+   "url": "https://onedio.com/test",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Blocked loading mixed active content \u201chttp://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    }
+   ],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "error": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 19221,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 994,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 995,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2218
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/ line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3315
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/ line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3315
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19972,
+   "timeOrigin": 1793553529059,
+   "url": "https://onedio.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' immediately after loading, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Turnstile already has been loaded. Was Turnstile imported multiple times?"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' immediately after loading, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' after 1 second, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' after 1 second, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "console-warn",
+     "e": "JS code is not integrated correctly, place script - \"jsc.idealmedia.io/site/1031473.js\" in the head of your website"
+    }
+   ],
+   "urlHash": "e21665412309",
+   "titleHash": "126b54ee5c73"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "error": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 10512,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 101,
+     "url": "/test"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 102,
+     "url": "/test"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2596
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3766
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3766
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13237,
+   "timeOrigin": 1793553534045,
+   "url": "https://onedio.com/test",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    }
+   ],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "error": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 10455,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 93,
+     "url": "/test"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 93,
+     "url": "/test"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2355
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3288
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3288
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13299,
+   "timeOrigin": 1793553539237,
+   "url": "https://onedio.com/test",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    }
+   ],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "error": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10455,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 93,
+     "url": "/test"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 93,
+     "url": "/test"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2355
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3288
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3288
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4922,
+     "url": "https://onedio.com/test"
+    },
+    {
+     "k": "hashchange",
+     "t": 4927,
+     "url": "https://onedio.com/test"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13299,
+   "timeOrigin": 1793553539237,
+   "url": "https://onedio.com/test",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a342ee80529b",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "error": 2,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 10455,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 93,
+     "url": "/test"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 93,
+     "url": "/test"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2355
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3288
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3288
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4922,
+     "url": "https://onedio.com/test"
+    },
+    {
+     "k": "hashchange",
+     "t": 4927,
+     "url": "https://onedio.com/test"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7523,
+     "url": "https://onedio.com/test"
+    },
+    {
+     "k": "hashchange",
+     "t": 7533,
+     "url": "https://onedio.com/test"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13296,
+   "timeOrigin": 1793553539237,
+   "url": "https://onedio.com/test",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  }
+ ],
+ "plan": {
+  "link": "https://onedio.com/test",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 33.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

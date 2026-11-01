@@ -1,0 +1,826 @@
+{
+ "id": "78f645202b",
+ "page": "https://weathernews.jp/news/202610/130231/",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 18,
+   "url": "https://weathernews.jp/news/202610/130231/",
+   "log": [],
+   "docH": 3415,
+   "marker": null,
+   "timeOrigin": 1793566709519,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 2139,
+   "nav": {
+    "url": "https://weathernews.jp/news/202610/130231/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "57cade62-fd7a-4fc3-bafa-9a31cbde0fee",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://weathernews.jp/news/202610/130231/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "78f645202bf1"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "78f645202bf1",
+   "titleHash": "f4cacca54b18"
+  },
+  {
+   "step": "link",
+   "href": "https://weathernews.jp/",
+   "click": "js",
+   "settle": 3.8,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 19,
+   "url": "https://weathernews.jp/",
+   "log": [],
+   "docH": 3387,
+   "marker": null,
+   "timeOrigin": 1793566718974,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://weathernews.jp/news/202610/130231/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://weathernews.jp/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 60,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 1978,
+   "nav": {
+    "url": "https://weathernews.jp/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "fd427baf-8adf-4d39-b58b-b9169a4043aa",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://weathernews.jp/",
+     "from": "https://weathernews.jp/news/202610/130231/",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "8142a6eb2db7"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "8142a6eb2db7",
+   "titleHash": "964420a631a1"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 19,
+   "url": "https://weathernews.jp/news/202610/130231/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://weathernews.jp/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 60,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://weathernews.jp/news/202610/130231/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 125,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 126,
+     "m": "replace",
+     "from": "https://weathernews.jp/news/202610/130231/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 126
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 127
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://weathernews.jp/news/202610/130231/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 129,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 130,
+     "m": "replace",
+     "from": "https://weathernews.jp/news/202610/130231/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 130
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 130
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://weathernews.jp/news/202610/130231/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 4198,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 4198,
+     "m": "replace",
+     "from": "https://weathernews.jp/news/202610/130231/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4198
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4198
+    },
+    {
+     "k": "pageshow",
+     "t": 4198,
+     "persisted": true
+    }
+   ],
+   "docH": 3415,
+   "marker": "m0",
+   "timeOrigin": 1793566709519,
+   "scrollX": 0,
+   "counts": {
+    "navigate:replace": 3,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "get:currentEntry": 3,
+    "navigate:push": 1,
+    "currententrychange:replace": 3
+   },
+   "prev": {
+    "url": "https://weathernews.jp/",
+    "log": [
+     {
+      "k": "rejection",
+      "e": "AxiosError: Network Error",
+      "t": 243
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://weathernews.jp/news/202610/130231/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 250,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "rejection": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 2139,
+   "nav": {
+    "url": "https://weathernews.jp/news/202610/130231/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "57cade62-fd7a-4fc3-bafa-9a31cbde0fee",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://weathernews.jp/news/202610/130231/",
+     "from": "https://weathernews.jp/",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "78f645202bf1"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "78f645202bf1",
+   "titleHash": "f4cacca54b18"
+  },
+  {
+   "step": "forward",
+   "settle": 3.0,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 19,
+   "url": "https://weathernews.jp/",
+   "log": [
+    {
+     "k": "rejection",
+     "e": "AxiosError: Network Error",
+     "t": 243
+    },
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://weathernews.jp/news/202610/130231/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 250,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 2861,
+     "persisted": true
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4429
+    }
+   ],
+   "docH": 3387,
+   "marker": "m1",
+   "timeOrigin": 1793566718974,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "rejection": 1,
+    "pageshow": 1,
+    "get:currentEntry": 1
+   },
+   "prev": {
+    "url": "https://weathernews.jp/news/202610/130231/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://weathernews.jp/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 60,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://weathernews.jp/news/202610/130231/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 125,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 126,
+      "m": "replace",
+      "from": "https://weathernews.jp/news/202610/130231/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 126
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 127
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://weathernews.jp/news/202610/130231/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 129,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 130,
+      "m": "replace",
+      "from": "https://weathernews.jp/news/202610/130231/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 130
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 130
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://weathernews.jp/news/202610/130231/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 4198,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 4198,
+      "m": "replace",
+      "from": "https://weathernews.jp/news/202610/130231/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 4198
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 4198
+     },
+     {
+      "k": "pageshow",
+      "t": 4198,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://weathernews.jp/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 6756,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "currententrychange:replace": 3,
+     "get:currentEntry": 3,
+     "navigate:replace": 3,
+     "navigate:push": 1,
+     "navigatesuccess": 3,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 1980,
+   "nav": {
+    "url": "https://weathernews.jp/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "fd427baf-8adf-4d39-b58b-b9169a4043aa",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://weathernews.jp/",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "8142a6eb2db7"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "8142a6eb2db7",
+   "titleHash": "964420a631a1"
+  },
+  {
+   "step": "reload",
+   "settle": 2.9,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 19,
+   "url": "https://weathernews.jp/",
+   "log": [],
+   "docH": 3387,
+   "marker": null,
+   "timeOrigin": 1793566728688,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://weathernews.jp/",
+    "log": [
+     {
+      "k": "rejection",
+      "e": "AxiosError: Network Error",
+      "t": 243
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://weathernews.jp/news/202610/130231/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 250,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 2861,
+      "persisted": true
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 4429
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "rejection": 1,
+     "pageshow": 1,
+     "get:currentEntry": 1
+    }
+   },
+   "textLen": 1978,
+   "nav": {
+    "url": "https://weathernews.jp/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "fd427baf-8adf-4d39-b58b-b9169a4043aa",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://weathernews.jp/",
+     "from": "https://weathernews.jp/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "8142a6eb2db7"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "8142a6eb2db7",
+   "titleHash": "964420a631a1"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 20,
+   "url": "https://weathernews.jp/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://weathernews.jp/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 24,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 27,
+     "m": "push",
+     "from": "https://weathernews.jp/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 27
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 27
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://weathernews.jp/",
+     "t": 27
+    },
+    {
+     "k": "hashchange",
+     "url": "https://weathernews.jp/",
+     "t": 32
+    }
+   ],
+   "docH": 3387,
+   "marker": "m4",
+   "timeOrigin": 1793566728688,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 1978,
+   "nav": {
+    "url": "https://weathernews.jp/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "b2ab22b7-0689-4ceb-9ab0-813e987b564e",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://weathernews.jp/",
+     "from": "https://weathernews.jp/",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "c419e5a90dad"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "c419e5a90dad",
+   "titleHash": "964420a631a1"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 20,
+   "url": "https://weathernews.jp/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://weathernews.jp/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 24,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 27,
+     "m": "push",
+     "from": "https://weathernews.jp/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 27
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 27
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://weathernews.jp/",
+     "t": 27
+    },
+    {
+     "k": "hashchange",
+     "url": "https://weathernews.jp/",
+     "t": 32
+    },
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://weathernews.jp/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 2696,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 2697,
+     "m": "traverse",
+     "from": "https://weathernews.jp/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2697
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2697
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://weathernews.jp/",
+     "t": 2697
+    },
+    {
+     "k": "hashchange",
+     "url": "https://weathernews.jp/",
+     "t": 2701
+    }
+   ],
+   "docH": 3387,
+   "marker": "m5",
+   "timeOrigin": 1793566728688,
+   "scrollX": 0,
+   "counts": {
+    "get:currentEntry": 2,
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 2,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 1978,
+   "nav": {
+    "url": "https://weathernews.jp/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "fd427baf-8adf-4d39-b58b-b9169a4043aa",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://weathernews.jp/",
+     "from": "https://weathernews.jp/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "8142a6eb2db7"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "8142a6eb2db7",
+   "titleHash": "964420a631a1"
+  }
+ ],
+ "plan": {
+  "link": "https://weathernews.jp/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 27.8,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

@@ -1,0 +1,581 @@
+{
+ "id": "595c3cce24",
+ "page": "https://www.google.com/",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 28,
+   "url": "https://www.google.com/",
+   "log": [],
+   "docH": 800,
+   "marker": null,
+   "timeOrigin": 1793563200556,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 185,
+   "nav": {
+    "url": "https://www.google.com/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "647ba6de-fd4e-4885-9188-c826074d80fd",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.google.com/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "link",
+   "href": "https://www.google.com/setprefs",
+   "click": "js",
+   "settle": 2.5,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "TEXTAREA#ti6dpd",
+   "histLen": 29,
+   "url": "https://www.google.com/",
+   "log": [],
+   "docH": 800,
+   "marker": null,
+   "timeOrigin": 1793563207716,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.google.com/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.google.com/setprefs",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 94,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 185,
+   "nav": {
+    "url": "https://www.google.com/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "01221c57-bbbd-487b-8f7f-9a309b7bdf06",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.google.com/",
+     "from": null,
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "back",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 29,
+   "url": "https://www.google.com/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://www.google.com/setprefs",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 94,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 2727,
+     "persisted": true
+    }
+   ],
+   "docH": 800,
+   "marker": "m0",
+   "timeOrigin": 1793563200556,
+   "scrollX": 0,
+   "counts": {
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.google.com/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.google.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 78,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 185,
+   "nav": {
+    "url": "https://www.google.com/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "647ba6de-fd4e-4885-9188-c826074d80fd",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.google.com/",
+     "from": "https://www.google.com/",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "TEXTAREA#ti6dpd",
+   "histLen": 29,
+   "url": "https://www.google.com/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://www.google.com/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 78,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3111,
+     "persisted": true
+    }
+   ],
+   "docH": 800,
+   "marker": "m1",
+   "timeOrigin": 1793563207716,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.google.com/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.google.com/setprefs",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 94,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 2727,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.google.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 5726,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1,
+     "navigate:push": 1
+    }
+   },
+   "textLen": 185,
+   "nav": {
+    "url": "https://www.google.com/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "01221c57-bbbd-487b-8f7f-9a309b7bdf06",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.google.com/",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "reload",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "TEXTAREA#ti6dpd",
+   "histLen": 29,
+   "url": "https://www.google.com/",
+   "log": [],
+   "docH": 800,
+   "marker": null,
+   "timeOrigin": 1793563215982,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.google.com/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.google.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 78,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3111,
+      "persisted": true
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 185,
+   "nav": {
+    "url": null,
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "01221c57-bbbd-487b-8f7f-9a309b7bdf06",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": null,
+     "from": null,
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": null
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "TEXTAREA#ti6dpd",
+   "histLen": 30,
+   "url": "https://www.google.com/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.google.com/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 66,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 66,
+     "m": "push",
+     "from": "null"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 66
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.google.com/",
+     "t": 67
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.google.com/",
+     "t": 70
+    }
+   ],
+   "docH": 800,
+   "marker": "m4",
+   "timeOrigin": 1793563215982,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "navigatesuccess": 1,
+    "navigate:push": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 185,
+   "nav": {
+    "url": "https://www.google.com/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "ca134703-e3cc-4299-ad9e-66f3ffecdd39",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": null,
+     "from": null,
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "9dd36d818fcb"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9dd36d818fcb",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "back2",
+   "settle": 2.8,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "TEXTAREA#ti6dpd",
+   "histLen": 30,
+   "url": "https://www.google.com/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.google.com/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 66,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 66,
+     "m": "push",
+     "from": "null"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 66
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.google.com/",
+     "t": 67
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.google.com/",
+     "t": 70
+    },
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.google.com/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 2760,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 2761,
+     "m": "traverse",
+     "from": "https://www.google.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2761
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.google.com/",
+     "t": 2761
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.google.com/",
+     "t": 2767
+    }
+   ],
+   "docH": 800,
+   "marker": "m5",
+   "timeOrigin": 1793563215982,
+   "scrollX": 0,
+   "counts": {
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 2,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 185,
+   "nav": {
+    "url": null,
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "01221c57-bbbd-487b-8f7f-9a309b7bdf06",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": null,
+     "from": null,
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": null
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  }
+ ],
+ "plan": {
+  "link": "https://www.google.com/setprefs",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#L2AGLb",
+ "elapsed": 24.0,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

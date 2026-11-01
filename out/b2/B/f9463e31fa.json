@@ -1,0 +1,3209 @@
+{
+ "id": "f9463e31fa",
+ "page": "https://www.gofundme.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7448,
+   "histLen": 4,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 297,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 297,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 297
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 297
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1295
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1299
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1375
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1525
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.gofundme.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "8fde5fbc-b786-47e2-a9e7-da469c9f4b2a",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.gofundme.com/",
+    "urlHash": "f9463e31fa01"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2914,
+   "timeOrigin": 1793562118392,
+   "url": "https://www.gofundme.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: avar: A required mapping (for -1, 0 or 1) is missing (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: Table discarded (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: STAT: Invalid table minorVersion for format 4 axis values: 1 (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: Table discarded (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "console-warn",
+     "e": "Coralogix Browser SDK - browser doesnt support TBT events"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid previewUrl detected. Please check that you have entered it correctly."
+    },
+    {
+     "k": "console-warn",
+     "e": "External identity type of CustomerId not set on the user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cmptest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cmptest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cmptest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cmptest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: not well-formed\nLocation: https://api.gofundme.com/geolocation\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "f9463e31fa01",
+   "titleHash": "89c96a40f6f1"
+  },
+  {
+   "step": "link",
+   "href": "https://www.gofundme.com/s",
+   "click": "native",
+   "settle": 2.6,
+   "active": "INPUT",
+   "counts": {
+    "call:entries": 6,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 3271,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 297,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 297,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 297
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 297
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1295
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1299
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1375
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1525
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5588,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5588,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5588
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5589
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5727
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6599
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6602
+    }
+   ],
+   "marker": "m0",
+   "nav": {
+    "activation": {
+     "entry": "https://www.gofundme.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "ceddf33a-0d52-47a0-82f5-13c034760f41",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.gofundme.com/s",
+    "urlHash": "e972ba449fc8"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3714,
+   "timeOrigin": 1793562118392,
+   "url": "https://www.gofundme.com/s",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e972ba449fc8",
+   "titleHash": "5fb829ba2901"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.gofundme.com/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 9,
+    "currententrychange:push": 2,
+    "currententrychange:replace": 1,
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "navigate:push": 2,
+    "navigate:replace": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1
+   },
+   "docH": 7448,
+   "histLen": 6,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 297,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 297,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 297
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 297
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1295
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1299
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1375
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1525
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5588,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5588,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5588
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5589
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5727
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6599
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6602
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 9196,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9196,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 9196
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9197
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 9300
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10204
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10206
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://www.gofundme.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "d38c5c2b-75dc-45f5-81e5-0bd37e8a4e28",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.gofundme.com/",
+    "urlHash": "f9463e31fa01"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2971,
+   "timeOrigin": 1793562118392,
+   "url": "https://www.gofundme.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f9463e31fa01",
+   "titleHash": "89c96a40f6f1"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "INPUT",
+   "counts": {
+    "call:entries": 12,
+    "currententrychange:push": 2,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "history:pushState": 2,
+    "history:replaceState": 2,
+    "navigate:push": 2,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 5,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3271,
+   "histLen": 6,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 297,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 297,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 297
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 297
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1295
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1299
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1375
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1525
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5588,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5588,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5588
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5589
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5727
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6599
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6602
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 9196,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9196,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 9196
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9197
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 9300
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10204
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10206
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11424,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 11425
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11425
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11425,
+     "url": "https://www.gofundme.com/s"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11428,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11429,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 11429
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11429
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 11496
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 12553
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 12555
+    }
+   ],
+   "marker": "m2",
+   "nav": {
+    "activation": {
+     "entry": "https://www.gofundme.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ceddf33a-0d52-47a0-82f5-13c034760f41",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.gofundme.com/s",
+    "urlHash": "e972ba449fc8"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3714,
+   "timeOrigin": 1793562118392,
+   "url": "https://www.gofundme.com/s",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e972ba449fc8",
+   "titleHash": "5fb829ba2901"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 15,
+    "currententrychange:push": 2,
+    "currententrychange:replace": 3,
+    "currententrychange:traverse": 2,
+    "history:pushState": 2,
+    "history:replaceState": 3,
+    "navigate:push": 2,
+    "navigate:replace": 3,
+    "navigate:traverse": 2,
+    "navigatesuccess": 7,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 7448,
+   "histLen": 6,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 297,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 297,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 297
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 297
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1295
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1299
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1375
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1525
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5588,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5588,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5588
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5589
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5727
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6599
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6602
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 9196,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9196,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 9196
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9197
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 9300
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10204
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10206
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11424,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 11425
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11425
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11425,
+     "url": "https://www.gofundme.com/s"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11428,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11429,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 11429
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11429
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 11496
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 12553
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 12555
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 14132,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 14132
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 14132
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 14132,
+     "url": "https://www.gofundme.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 14298,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 14298,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 14298
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 14298
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 14372
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 15308
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 15311
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://www.gofundme.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "8fde5fbc-b786-47e2-a9e7-da469c9f4b2a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.gofundme.com/",
+    "urlHash": "f9463e31fa01"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2971,
+   "timeOrigin": 1793562118392,
+   "url": "https://www.gofundme.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f9463e31fa01",
+   "titleHash": "89c96a40f6f1"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "INPUT",
+   "counts": {
+    "call:entries": 18,
+    "currententrychange:push": 2,
+    "currententrychange:replace": 4,
+    "currententrychange:traverse": 3,
+    "history:pushState": 2,
+    "history:replaceState": 4,
+    "navigate:push": 2,
+    "navigate:replace": 4,
+    "navigate:traverse": 3,
+    "navigatesuccess": 9,
+    "pageshow": 1,
+    "popstate": 3
+   },
+   "docH": 3271,
+   "histLen": 6,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 297,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 297,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 297
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 297
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1295
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1299
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1375
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1525
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5588,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5588,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5588
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5589
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5727
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6599
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 6602
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 9196,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9196,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 9196
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9197
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 9300
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10204
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 10206
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11424,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 11425
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11425
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11425,
+     "url": "https://www.gofundme.com/s"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11428,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11429,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 11429
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11429
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 11496
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 12553
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 12555
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 14132,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 14132
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 14132
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 14132,
+     "url": "https://www.gofundme.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 14298,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 14298,
+     "url": "https://www.gofundme.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 14298
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 14298
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 14372
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 15308
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 15311
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 16774,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 16775
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 16776
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 16776,
+     "url": "https://www.gofundme.com/s"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 16785,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 16785,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 16785
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 16786
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 16980
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 18060
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 18062
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.gofundme.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ceddf33a-0d52-47a0-82f5-13c034760f41",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.gofundme.com/s",
+    "urlHash": "e972ba449fc8"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3714,
+   "timeOrigin": 1793562118392,
+   "url": "https://www.gofundme.com/s",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e972ba449fc8",
+   "titleHash": "5fb829ba2901"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "INPUT",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3271,
+   "histLen": 6,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 243,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 243,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 243
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 245
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1005
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1207
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1208
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1248
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.gofundme.com/s",
+     "entryIsCurrent": true,
+     "from": "https://www.gofundme.com/s",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ceddf33a-0d52-47a0-82f5-13c034760f41",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.gofundme.com/s",
+    "urlHash": "e972ba449fc8"
+   },
+   "prev": {
+    "counts": {
+     "call:entries": 18,
+     "currententrychange:push": 2,
+     "currententrychange:replace": 4,
+     "currententrychange:traverse": 3,
+     "history:pushState": 2,
+     "history:replaceState": 4,
+     "navigate:push": 2,
+     "navigate:replace": 4,
+     "navigate:traverse": 3,
+     "navigatesuccess": 9,
+     "pageshow": 1,
+     "popstate": 3
+    },
+    "log": [
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 297,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 297,
+      "url": "https://www.gofundme.com/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.gofundme.com/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 297
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 297
+     },
+     {
+      "k": "call",
+      "len": 1,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 1295
+     },
+     {
+      "k": "call",
+      "len": 1,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 1299
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1375
+     },
+     {
+      "k": "call",
+      "len": 1,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 1525
+     },
+     {
+      "k": "history",
+      "m": "pushState",
+      "t": 5588,
+      "url": "/s"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 5588,
+      "url": "https://www.gofundme.com/s",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.gofundme.com/",
+      "k": "currententrychange",
+      "m": "push",
+      "t": 5588
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 5589
+     },
+     {
+      "k": "call",
+      "len": 2,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 5727
+     },
+     {
+      "k": "call",
+      "len": 2,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 6599
+     },
+     {
+      "k": "call",
+      "len": 2,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 6602
+     },
+     {
+      "k": "history",
+      "m": "pushState",
+      "t": 9196,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 9196,
+      "url": "https://www.gofundme.com/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.gofundme.com/s",
+      "k": "currententrychange",
+      "m": "push",
+      "t": 9196
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 9197
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 9300
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 10204
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 10206
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 11424,
+      "url": "https://www.gofundme.com/s",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.gofundme.com/",
+      "k": "currententrychange",
+      "m": "traverse",
+      "t": 11425
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 11425
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 11425,
+      "url": "https://www.gofundme.com/s"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 11428,
+      "url": "/s"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 11429,
+      "url": "https://www.gofundme.com/s",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.gofundme.com/s",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 11429
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 11429
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 11496
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 12553
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 12555
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 14132,
+      "url": "https://www.gofundme.com/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.gofundme.com/s",
+      "k": "currententrychange",
+      "m": "traverse",
+      "t": 14132
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 14132
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 14132,
+      "url": "https://www.gofundme.com/"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 14298,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 14298,
+      "url": "https://www.gofundme.com/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.gofundme.com/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 14298
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 14298
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 14372
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 15308
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 15311
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 16774,
+      "url": "https://www.gofundme.com/s",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.gofundme.com/",
+      "k": "currententrychange",
+      "m": "traverse",
+      "t": 16775
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 16776
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 16776,
+      "url": "https://www.gofundme.com/s"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 16785,
+      "url": "/s"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 16785,
+      "url": "https://www.gofundme.com/s",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.gofundme.com/s",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 16785
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 16786
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 16980
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 18060
+     },
+     {
+      "k": "call",
+      "len": 3,
+      "m": "entries",
+      "s": [
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js",
+       "QG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 18062
+     }
+    ],
+    "url": "https://www.gofundme.com/s"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3682,
+   "timeOrigin": 1793562138371,
+   "url": "https://www.gofundme.com/s",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: avar: A required mapping (for -1, 0 or 1) is missing (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: Table discarded (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: STAT: Invalid table minorVersion for format 4 axis values: 1 (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: Table discarded (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "console-warn",
+     "e": "Coralogix Browser SDK - browser doesnt support TBT events"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: not well-formed\nLocation: https://api.gofundme.com/geolocation\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid previewUrl detected. Please check that you have entered it correctly."
+    },
+    {
+     "k": "console-warn",
+     "e": "External identity type of CustomerId not set on the user"
+    }
+   ],
+   "urlHash": "e972ba449fc8",
+   "titleHash": "5fb829ba2901"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "INPUT",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3271,
+   "histLen": 6,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 243,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 243,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 243
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 245
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1005
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1207
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1208
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1248
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3598,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3599
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3599,
+     "url": "https://www.gofundme.com/s"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3599,
+     "url": "/s#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 3599
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3599,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3599
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3599
+    },
+    {
+     "k": "hashchange",
+     "t": 3600,
+     "url": "https://www.gofundme.com/s"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.gofundme.com/s",
+     "entryIsCurrent": false,
+     "from": "https://www.gofundme.com/s",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "a283ae21-17a6-4831-ab9a-d3c8e11a8232",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.gofundme.com/s",
+    "urlHash": "98f9b302f118"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3682,
+   "timeOrigin": 1793562138371,
+   "url": "https://www.gofundme.com/s",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "98f9b302f118",
+   "titleHash": "5fb829ba2901"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "INPUT",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigateerror": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3271,
+   "histLen": 6,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 243,
+     "url": "/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 243,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 243
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 245
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1005
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1207
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1208
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1248
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3598,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3599
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3599,
+     "url": "https://www.gofundme.com/s"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3599,
+     "url": "/s#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 3599
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3599,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3599
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3599
+    },
+    {
+     "k": "hashchange",
+     "t": 3600,
+     "url": "https://www.gofundme.com/s"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6196,
+     "url": "https://www.gofundme.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.gofundme.com/s",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6196
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6197
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6197,
+     "url": "https://www.gofundme.com/s"
+    },
+    {
+     "k": "hashchange",
+     "t": 6197,
+     "url": "https://www.gofundme.com/s"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.gofundme.com/s",
+     "entryIsCurrent": true,
+     "from": "https://www.gofundme.com/s",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ceddf33a-0d52-47a0-82f5-13c034760f41",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.gofundme.com/s",
+    "urlHash": "e972ba449fc8"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3682,
+   "timeOrigin": 1793562138371,
+   "url": "https://www.gofundme.com/s",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e972ba449fc8",
+   "titleHash": "5fb829ba2901"
+  }
+ ],
+ "plan": {
+  "link": "https://www.gofundme.com/s",
+  "link2": "https://www.gofundme.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 29.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

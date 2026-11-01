@@ -1,0 +1,1502 @@
+{
+ "id": "9e9270d5bc",
+ "page": "https://letterboxd.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://letterboxd.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793563574788.3,
+   "marker": null,
+   "histLen": 29,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6330,
+   "active": "BODY",
+   "textLen": 7451,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://letterboxd.com/",
+    "key": "f6731a86-80f2-4a1e-ade9-8f7b5b728bf8",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://letterboxd.com/",
+     "from": "https://letterboxd.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9e9270d5bc19"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 425
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287243)",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900)"
+     ],
+     "t": 426
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at n.start (https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:16879)",
+      "at https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:133212",
+      "at new Promise (<anonymous>)",
+      "at https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:133183"
+     ],
+     "t": 738
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at n.start (https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:16918)",
+      "at https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:133212",
+      "at new Promise (<anonymous>)",
+      "at https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:133183"
+     ],
+     "t": 738
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1144
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 2,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Allow attribute will take precedence over 'allowfullscreen'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    }
+   ],
+   "urlHash": "9e9270d5bc19",
+   "titleHash": "ed3ee55ccf9b"
+  },
+  {
+   "step": "link",
+   "href": "https://letterboxd.com/films/",
+   "click": "native",
+   "settle": 2.6,
+   "url": "https://letterboxd.com/films/",
+   "readyState": "complete",
+   "timeOrigin": 1793563583073.81,
+   "marker": null,
+   "histLen": 30,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 262,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://letterboxd.com/films/",
+    "key": "2b34da60-b05a-4b72-9e85-70adca8acec7",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://letterboxd.com/films/",
+     "from": "https://letterboxd.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "867fdb2f019f"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/?__cf_chl_rt_tk=7ATGeeXhAf.W__lSYJgsIKdi.1rF68hJnyMzzptKjoE-1793563583-<ip>-j9wR.X1crsVtBpbALvlzONY.G6u5ueNwVI8tXz8eIY4",
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/",
+     "t": 80
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 80,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 80
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 80
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 199
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "No available adapters."
+    },
+    {
+     "k": "console-warning",
+     "e": "OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size"
+    }
+   ],
+   "urlHash": "867fdb2f019f",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "url": "https://letterboxd.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793563585682.3,
+   "marker": null,
+   "histLen": 30,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6370,
+   "active": "BODY",
+   "textLen": 7451,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://letterboxd.com/",
+    "key": "f6731a86-80f2-4a1e-ade9-8f7b5b728bf8",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://letterboxd.com/",
+     "from": "https://letterboxd.com/films/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9e9270d5bc19"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 313
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287243)",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900)"
+     ],
+     "t": 313
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at n.start (https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:16879)",
+      "at https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:133212",
+      "at new Promise (<anonymous>)",
+      "at https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:133183"
+     ],
+     "t": 456
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at n.start (https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:16918)",
+      "at https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:133212",
+      "at new Promise (<anonymous>)",
+      "at https://fixedfold.com/chunks/gl6q4x_xemkzrnr4m6uz6h.js:1:133183"
+     ],
+     "t": 456
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 546
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 2,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Allow attribute will take precedence over 'allowfullscreen'."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "9e9270d5bc19",
+   "titleHash": "ed3ee55ccf9b"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://letterboxd.com/films/",
+   "readyState": "complete",
+   "timeOrigin": 1793563588477.5,
+   "marker": null,
+   "histLen": 30,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 262,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://letterboxd.com/films/",
+    "key": "2b34da60-b05a-4b72-9e85-70adca8acec7",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://letterboxd.com/films/",
+     "from": "https://letterboxd.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "867fdb2f019f"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/?__cf_chl_rt_tk=7ATGeeXhAf.W__lSYJgsIKdi.1rF68hJnyMzzptKjoE-1793563583-<ip>-j9wR.X1crsVtBpbALvlzONY.G6u5ueNwVI8tXz8eIY4",
+     "t": 2
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/",
+     "t": 74
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 74,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 74
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 74
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 110
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:srcdoc",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 3
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Failed to execute 'postMessage' on 'Window': Invalid target origin 'null' in a call to 'postMessage'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "No available adapters."
+    },
+    {
+     "k": "console-warning",
+     "e": "OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy."
+    }
+   ],
+   "urlHash": "867fdb2f019f",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "url": "https://letterboxd.com/films/",
+   "readyState": "complete",
+   "timeOrigin": 1793563591132.145,
+   "marker": null,
+   "histLen": 30,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 262,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://letterboxd.com/films/",
+    "key": "2b34da60-b05a-4b72-9e85-70adca8acec7",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://letterboxd.com/films/",
+     "from": "https://letterboxd.com/films/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "867fdb2f019f"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/?__cf_chl_rt_tk=7alWjJnV10Nx32Ee05y7fOnS588oGfh8komMZ5Fw6ro-1793563591-<ip>-Y8XuSPwke_Vw0xXlAfO7xbIXpy0EwXRBRr1pXVmm9Mw",
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/",
+     "t": 60
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 60,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 60
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 60
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 90
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://letterboxd.com/films/",
+    "log": [
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/films/?__cf_chl_rt_tk=7ATGeeXhAf.W__lSYJgsIKdi.1rF68hJnyMzzptKjoE-1793563583-<ip>-j9wR.X1crsVtBpbALvlzONY.G6u5ueNwVI8tXz8eIY4",
+      "t": 2
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://letterboxd.com/films/",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://letterboxd.com/films/",
+      "t": 2
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 2
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/films/",
+      "t": 74
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://letterboxd.com/films/",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 74,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://letterboxd.com/films/",
+      "t": 74
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 74
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 110
+     }
+    ],
+    "counts": {
+     "history:replaceState": 2,
+     "navigate:replace": 2,
+     "currententrychange:replace": 2,
+     "navigatesuccess": 2,
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "No available adapters."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-warning",
+     "e": "OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size"
+    }
+   ],
+   "urlHash": "867fdb2f019f",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://letterboxd.com/films/",
+   "readyState": "complete",
+   "timeOrigin": 1793563591132.145,
+   "marker": "m6",
+   "histLen": 31,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 262,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://letterboxd.com/films/",
+    "key": "7ffd1f20-4ba8-4e6c-9581-fa2bd4c6af7f",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://letterboxd.com/films/",
+     "from": "https://letterboxd.com/films/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "4891014ded7e"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/?__cf_chl_rt_tk=7alWjJnV10Nx32Ee05y7fOnS588oGfh8komMZ5Fw6ro-1793563591-<ip>-Y8XuSPwke_Vw0xXlAfO7xbIXpy0EwXRBRr1pXVmm9Mw",
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/",
+     "t": 60
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 60,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 60
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 60
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 90
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2707,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://letterboxd.com/films/",
+     "t": 2707
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://letterboxd.com/films/",
+     "t": 2707
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2707
+    },
+    {
+     "k": "hashchange",
+     "url": "https://letterboxd.com/films/",
+     "t": 2707
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4891014ded7e",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://letterboxd.com/films/",
+   "readyState": "complete",
+   "timeOrigin": 1793563591132.145,
+   "marker": "m7",
+   "histLen": 31,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 262,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://letterboxd.com/films/",
+    "key": "2b34da60-b05a-4b72-9e85-70adca8acec7",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://letterboxd.com/films/",
+     "from": "https://letterboxd.com/films/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "867fdb2f019f"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/?__cf_chl_rt_tk=7alWjJnV10Nx32Ee05y7fOnS588oGfh8komMZ5Fw6ro-1793563591-<ip>-Y8XuSPwke_Vw0xXlAfO7xbIXpy0EwXRBRr1pXVmm9Mw",
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/films/",
+     "t": 60
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 60,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://letterboxd.com/films/",
+     "t": 60
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 60
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 90
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2707,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://letterboxd.com/films/",
+     "t": 2707
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://letterboxd.com/films/",
+     "t": 2707
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2707
+    },
+    {
+     "k": "hashchange",
+     "url": "https://letterboxd.com/films/",
+     "t": 2707
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://letterboxd.com/films/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5299,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://letterboxd.com/films/",
+     "t": 5299
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5299
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://letterboxd.com/films/",
+     "t": 5300
+    },
+    {
+     "k": "hashchange",
+     "url": "https://letterboxd.com/films/",
+     "t": 5300
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "867fdb2f019f",
+   "titleHash": "5ffa9751f584"
+  }
+ ],
+ "plan": {
+  "link": "https://letterboxd.com/films/",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 24.6,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

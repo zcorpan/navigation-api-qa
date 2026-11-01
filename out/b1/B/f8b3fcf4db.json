@@ -1,0 +1,818 @@
+{
+ "id": "f8b3fcf4db",
+ "page": "https://cloud.mail.ru/promo/quota",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 6325,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 868,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 868,
+     "url": "https://cloud.mail.ru/promo/quota",
+     "userInitiated": false
+    },
+    {
+     "from": "https://cloud.mail.ru/promo/quota",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 868
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 877
+    },
+    {
+     "e": "null",
+     "k": "rejection",
+     "t": 1108
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1688
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://cloud.mail.ru/promo/quota",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "f4723411-a4fe-4327-a912-2770854e565a",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cloud.mail.ru/promo/quota",
+    "urlHash": "f8b3fcf4dba3"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4427,
+   "timeOrigin": 1793554828232,
+   "url": "https://cloud.mail.ru/promo/quota",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/ads/ga-audiences"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cp\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cp\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: null"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://account.mail.ru/login was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://account.mail.ru/login was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://account.mail.ru/login was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "console-error",
+     "e": "[00:02.063] \u274c  error   \u0412\u044b \u043d\u0435 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u044b.  Object(20)  "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    }
+   ],
+   "urlHash": "f8b3fcf4dba3",
+   "titleHash": "7d10a06036e2"
+  },
+  {
+   "step": "link",
+   "href": "https://cloud.mail.ru/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "pageshow": 1
+   },
+   "docH": 3098,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Error: [metida] XRay not included",
+     "f": "https://limg.imgsmail.ru/whiteline/2.233.5/external.crossnav.modern.js",
+     "k": "error",
+     "l": 1,
+     "t": 136
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6114
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://cloud.mail.ru/",
+     "entryIsCurrent": true,
+     "from": "https://cloud.mail.ru/promo/quota",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4ac3511e-f197-45d4-82c0-35f73c5451ac",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cloud.mail.ru/",
+    "urlHash": "0b987b7fea5b"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3047,
+   "timeOrigin": 1793554836930,
+   "url": "https://cloud.mail.ru/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: [metida] XRay not included"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    }
+   ],
+   "urlHash": "0b987b7fea5b",
+   "titleHash": "e1915bd3a1b4"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 6325,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "e": "null",
+     "k": "rejection",
+     "t": 423
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 613
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://cloud.mail.ru/promo/quota",
+     "entryIsCurrent": true,
+     "from": "https://cloud.mail.ru/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "f4723411-a4fe-4327-a912-2770854e565a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cloud.mail.ru/promo/quota",
+    "urlHash": "f8b3fcf4dba3"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 2
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4427,
+   "timeOrigin": 1793554845825,
+   "url": "https://cloud.mail.ru/promo/quota",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cp\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cp\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'self' 'report-sample' 'nonce-6095506f2499ae384ac2cb33b5211efb' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eva"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: null"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://account.mail.ru/login was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://account.mail.ru/login was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://account.mail.ru/login was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "console-error",
+     "e": "[00:01.045] \u274c  error   \u0412\u044b \u043d\u0435 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u044b.  Object(20)  "
+    }
+   ],
+   "urlHash": "f8b3fcf4dba3",
+   "titleHash": "7d10a06036e2"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 3098,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Error: [metida] XRay not included",
+     "f": "https://limg.imgsmail.ru/whiteline/2.233.5/external.crossnav.modern.js",
+     "k": "error",
+     "l": 1,
+     "t": 136
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6114
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 8713,
+     "url": "https://cloud.mail.ru/promo/quota",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 11949
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://cloud.mail.ru/",
+     "entryIsCurrent": true,
+     "from": "https://cloud.mail.ru/promo/quota",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4ac3511e-f197-45d4-82c0-35f73c5451ac",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cloud.mail.ru/",
+    "urlHash": "0b987b7fea5b"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3047,
+   "timeOrigin": 1793554836930,
+   "url": "https://cloud.mail.ru/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: [metida] XRay not included"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/ads/ga-audiences"
+    }
+   ],
+   "urlHash": "0b987b7fea5b",
+   "titleHash": "e1915bd3a1b4"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "pageshow": 1
+   },
+   "docH": 3098,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Error: [metida] XRay not included",
+     "f": "https://limg.imgsmail.ru/whiteline/2.233.5/external.crossnav.modern.js",
+     "k": "error",
+     "l": 1,
+     "t": 344
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 608
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://cloud.mail.ru/",
+     "entryIsCurrent": true,
+     "from": "https://cloud.mail.ru/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4ac3511e-f197-45d4-82c0-35f73c5451ac",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cloud.mail.ru/",
+    "urlHash": "0b987b7fea5b"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 11899
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3047,
+   "timeOrigin": 1793554851652,
+   "url": "https://cloud.mail.ru/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Error: [metida] XRay not included"
+    }
+   ],
+   "urlHash": "0b987b7fea5b",
+   "titleHash": "e1915bd3a1b4"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "error": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3098,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Error: [metida] XRay not included",
+     "f": "https://limg.imgsmail.ru/whiteline/2.233.5/external.crossnav.modern.js",
+     "k": "error",
+     "l": 1,
+     "t": 344
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 608
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3197,
+     "url": "https://cloud.mail.ru/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://cloud.mail.ru/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3197
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3197,
+     "url": "https://cloud.mail.ru/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3197
+    },
+    {
+     "k": "hashchange",
+     "t": 3197,
+     "url": "https://cloud.mail.ru/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://cloud.mail.ru/",
+     "entryIsCurrent": false,
+     "from": "https://cloud.mail.ru/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "5be6ceea-2afd-482b-9f27-a9f11e750919",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cloud.mail.ru/",
+    "urlHash": "f2f3a95a58ab"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3047,
+   "timeOrigin": 1793554851652,
+   "url": "https://cloud.mail.ru/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    }
+   ],
+   "urlHash": "f2f3a95a58ab",
+   "titleHash": "e1915bd3a1b4"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "error": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3098,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Error: [metida] XRay not included",
+     "f": "https://limg.imgsmail.ru/whiteline/2.233.5/external.crossnav.modern.js",
+     "k": "error",
+     "l": 1,
+     "t": 344
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 608
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3197,
+     "url": "https://cloud.mail.ru/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://cloud.mail.ru/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3197
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3197,
+     "url": "https://cloud.mail.ru/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3197
+    },
+    {
+     "k": "hashchange",
+     "t": 3197,
+     "url": "https://cloud.mail.ru/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5786,
+     "url": "https://cloud.mail.ru/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://cloud.mail.ru/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5786
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5786
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5786,
+     "url": "https://cloud.mail.ru/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5787,
+     "url": "https://cloud.mail.ru/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://cloud.mail.ru/",
+     "entryIsCurrent": true,
+     "from": "https://cloud.mail.ru/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "4ac3511e-f197-45d4-82c0-35f73c5451ac",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cloud.mail.ru/",
+    "urlHash": "0b987b7fea5b"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3047,
+   "timeOrigin": 1793554851652,
+   "url": "https://cloud.mail.ru/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0b987b7fea5b",
+   "titleHash": "e1915bd3a1b4"
+  }
+ ],
+ "plan": {
+  "link": "https://cloud.mail.ru/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept all",
+ "elapsed": 32.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

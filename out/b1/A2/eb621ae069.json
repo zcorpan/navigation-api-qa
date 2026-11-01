@@ -1,0 +1,351 @@
+{
+ "id": "eb621ae069",
+ "page": "https://app.emby.media/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://app.emby.media/",
+   "readyState": "complete",
+   "timeOrigin": 1793555701026,
+   "marker": null,
+   "histLen": 8,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 0,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://app.emby.media/",
+    "key": "448ae702-721d-4dcc-83d1-42cf6c2ab61b",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://app.emby.media/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "eb621ae069bf"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 255
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "eb621ae069bf",
+   "titleHash": "2cbe45baddc2"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://app.emby.media/",
+   "readyState": "complete",
+   "timeOrigin": 1793555705809.6,
+   "marker": null,
+   "histLen": 8,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 0,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://app.emby.media/",
+    "key": "448ae702-721d-4dcc-83d1-42cf6c2ab61b",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://app.emby.media/",
+     "from": "https://app.emby.media/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "eb621ae069bf"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://app.emby.media/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 255
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "eb621ae069bf",
+   "titleHash": "2cbe45baddc2"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "url": "https://app.emby.media/",
+   "readyState": "complete",
+   "timeOrigin": 1793555705809.6,
+   "marker": "m4",
+   "histLen": 9,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 0,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://app.emby.media/",
+    "key": "2fb336ab-9590-4168-be74-4cccbfbcee2c",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://app.emby.media/",
+     "from": "https://app.emby.media/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "9bdeb272da51"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://app.emby.media/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2597,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://app.emby.media/",
+     "t": 2597
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://app.emby.media/",
+     "t": 2597
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2597
+    },
+    {
+     "k": "hashchange",
+     "url": "https://app.emby.media/",
+     "t": 2598
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9bdeb272da51",
+   "titleHash": "2cbe45baddc2"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://app.emby.media/",
+   "readyState": "complete",
+   "timeOrigin": 1793555705809.6,
+   "marker": "m5",
+   "histLen": 9,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 0,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://app.emby.media/",
+    "key": "448ae702-721d-4dcc-83d1-42cf6c2ab61b",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://app.emby.media/",
+     "from": "https://app.emby.media/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "eb621ae069bf"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://app.emby.media/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2597,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://app.emby.media/",
+     "t": 2597
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://app.emby.media/",
+     "t": 2597
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2597
+    },
+    {
+     "k": "hashchange",
+     "url": "https://app.emby.media/",
+     "t": 2598
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://app.emby.media/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5193,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://app.emby.media/",
+     "t": 5193
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5193
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://app.emby.media/",
+     "t": 5193
+    },
+    {
+     "k": "hashchange",
+     "url": "https://app.emby.media/",
+     "t": 5193
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "eb621ae069bf",
+   "titleHash": "2cbe45baddc2"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.7,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

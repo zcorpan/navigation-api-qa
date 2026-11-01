@@ -1,0 +1,477 @@
+{
+ "id": "a8b9ffd77c",
+ "page": "https://auth.uber.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://auth.uber.com/v2/",
+   "readyState": "complete",
+   "timeOrigin": 1793562215999.7,
+   "marker": null,
+   "histLen": 23,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "INPUT#PHONE_NUMBER_or_EMAIL_ADDRESS",
+   "textLen": 190,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://auth.uber.com/v2/",
+    "key": "f68e326e-d897-43e7-a4b8-a2e63ddd7bd0",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://auth.uber.com/v2/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "0888ab3dee47"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": null,
+     "t": 96
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://auth.uber.com/v2/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 97,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://auth.uber.com/v2/",
+     "t": 97
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 97
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:191421",
+      "at mn.<computed> (https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:191440)",
+      "at https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:196465",
+      "at Generator.<anonymous> (https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:160144)"
+     ],
+     "t": 278,
+     "len": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 284
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "call:entries": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    }
+   ],
+   "urlHash": "0888ab3dee47",
+   "titleHash": "18d802fa8f6b"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://auth.uber.com/v2/",
+   "readyState": "complete",
+   "timeOrigin": 1793562220790.3,
+   "marker": null,
+   "histLen": 23,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "INPUT#PHONE_NUMBER_or_EMAIL_ADDRESS",
+   "textLen": 190,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://auth.uber.com/v2/",
+    "key": "f68e326e-d897-43e7-a4b8-a2e63ddd7bd0",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://auth.uber.com/v2/",
+     "from": "https://auth.uber.com/v2/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0888ab3dee47"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 252
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:191421",
+      "at mn.<computed> (https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:191440)",
+      "at https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:196465",
+      "at Generator.<anonymous> (https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:160144)"
+     ],
+     "t": 285,
+     "len": 1
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "call:entries": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    },
+    {
+     "k": "console-error",
+     "e": "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token."
+    }
+   ],
+   "urlHash": "0888ab3dee47",
+   "titleHash": "18d802fa8f6b"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "url": "https://auth.uber.com/v2/",
+   "readyState": "complete",
+   "timeOrigin": 1793562220790.3,
+   "marker": "m6",
+   "histLen": 24,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "INPUT#PHONE_NUMBER_or_EMAIL_ADDRESS",
+   "textLen": 190,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://auth.uber.com/v2/",
+    "key": "0174d044-0f0a-4c72-a3f2-b43ca36bc8c2",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://auth.uber.com/v2/",
+     "from": "https://auth.uber.com/v2/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "f581a4235628"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 252
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:191421",
+      "at mn.<computed> (https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:191440)",
+      "at https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:196465",
+      "at Generator.<anonymous> (https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:160144)"
+     ],
+     "t": 285,
+     "len": 1
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://auth.uber.com/v2/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2841,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://auth.uber.com/v2/",
+     "t": 2842
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://auth.uber.com/v2/",
+     "t": 2842
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2842
+    },
+    {
+     "k": "hashchange",
+     "url": "https://auth.uber.com/v2/",
+     "t": 2845
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "call:entries": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f581a4235628",
+   "titleHash": "18d802fa8f6b"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "url": "https://auth.uber.com/v2/",
+   "readyState": "complete",
+   "timeOrigin": 1793562220790.3,
+   "marker": "m7",
+   "histLen": 24,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "INPUT#PHONE_NUMBER_or_EMAIL_ADDRESS",
+   "textLen": 190,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://auth.uber.com/v2/",
+    "key": "f68e326e-d897-43e7-a4b8-a2e63ddd7bd0",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://auth.uber.com/v2/",
+     "from": "https://auth.uber.com/v2/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0888ab3dee47"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 252
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:191421",
+      "at mn.<computed> (https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:191440)",
+      "at https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:196465",
+      "at Generator.<anonymous> (https://ak04a6qc.uber.com/v2/30000F36-CADF-490C-929A-C6A7DD8B33C4/api.js:17:160144)"
+     ],
+     "t": 285,
+     "len": 1
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://auth.uber.com/v2/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2841,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://auth.uber.com/v2/",
+     "t": 2842
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://auth.uber.com/v2/",
+     "t": 2842
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2842
+    },
+    {
+     "k": "hashchange",
+     "url": "https://auth.uber.com/v2/",
+     "t": 2845
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://auth.uber.com/v2/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5492,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://auth.uber.com/v2/",
+     "t": 5492
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5492
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://auth.uber.com/v2/",
+     "t": 5492
+    },
+    {
+     "k": "hashchange",
+     "url": "https://auth.uber.com/v2/",
+     "t": 5495
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "call:entries": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0888ab3dee47",
+   "titleHash": "18d802fa8f6b"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 13.1,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

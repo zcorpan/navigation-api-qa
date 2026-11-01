@@ -1,60 +1,105 @@
-44 ('B', 'navLen', False)
-43 ('B', 'textLen', False)
+172 ('D', 'textLen', None)
+123 ('D', 'navLen', None)
+114 ('D', 'navIdx', None)
+87 ('D', 'titleHash', None)
+84 ('D', 'histDelta', None)
+82 ('D', 'path', None)
+54 ('B', 'navLen', False)
+52 ('B', 'navIdx', False)
+52 ('D', 'scrollY', None)
+48 ('B', 'histDelta', False)
+45 ('B', 'textLen', False)
 42 ('B', 'scrollY', False)
-41 ('B', 'navIdx', False)
-37 ('B', 'histDelta', False)
-32 ('B', 'path', False)
-32 ('B', 'titleHash', False)
-26 ('B', 'newErrors', True)
-18 ('D', 'histDelta', None)
-18 ('D', 'navLen', None)
-17 ('D', 'navIdx', None)
-15 ('D', 'path', None)
-15 ('D', 'titleHash', None)
+38 ('B', 'path', False)
+36 ('D', 'newErrors', None)
+34 ('B', 'titleHash', False)
+29 ('B', 'newErrors', True)
+24 ('D', 'sameDoc', None)
+22 ('D', 'stuck', None)
 13 ('B', 'histDelta', True)
-9 ('B', 'textLen', True)
-9 ('D', 'sameDoc', None)
-8 ('B', 'path', True)
-8 ('B', 'titleHash', True)
-5 ('B', 'sameDoc', False)
-4 ('D', 'textLen', None)
+10 ('B', 'textLen', True)
+9 ('B', 'path', True)
+9 ('B', 'titleHash', True)
+6 ('B', 'sameDoc', False)
+6 ('D', 'intercepted', None)
+5 ('B', 'sameDoc', True)
 3 ('B', 'navErrors', True)
-3 ('D', 'scrollY', None)
-2 ('B', 'sameDoc', True)
 2 ('B', 'stuck', False)
 2 ('B', 'scrollY', True)
+1 ('B', 'navIdx', True)
 1 ('B', 'intercepted', True)
 
 ## ce89ef6fd4 https://sudoku.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
-
-## d4ed3c9829 https://www.target.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:currentEntry listen:currententrychange listen:navigatesuccess
+    D link newErrors A=None D=['TypeError'] 
+    D back newErrors A=None D=['TypeError'] 
 
 ## 5f6416169a https://note.com/tag/VIVANT
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:activation get:currentEntry
+    D link histDelta A=2 D=1 
+    D link navLen A=3 D=2 
+    D link navIdx A=2 D=1 
+    D link textLen A=3166 D=5000 
+    D back path A=https://note.com/ D=https://note.com/tag/VIVANT 
+    D back histDelta A=2 D=1 
+    D back navLen A=3 D=2 
+    D back navIdx A=1 D=0 
+    D back titleHash A=692920e165a5 D=e727812b59e1 
+    D forward histDelta A=2 D=1 
+    D forward navLen A=3 D=2 
+    D forward navIdx A=2 D=1 
+    D reload histDelta A=2 D=1 
+    D reload navLen A=3 D=2 
+    D reload navIdx A=2 D=1 
+    D fragment histDelta A=3 D=2 
+    D fragment navLen A=4 D=3 
+    D fragment navIdx A=3 D=2 
+    D back2 histDelta A=3 D=2 
+    D back2 navLen A=4 D=3 
+    D back2 navIdx A=2 D=1 
 
 ## 431f414a8b https://ads.tiktok.com/business/en-US
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: listen:navigate
+    D reload scrollY A=6787 D=9242 
+    D fragment scrollY A=6787 D=9242 
 
 ## ef35d98c8c https://www.teacherspayteachers.com/browse
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries
+    D load textLen A=21665 D=15516 
+    D reload textLen A=21546 D=15447 
+    D fragment textLen A=21546 D=15447 
+    D back2 textLen A=21546 D=15447 
 
 ## 9daf97e718 https://www.elespectador.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-
-## 776e81fa44 https://www.bodegaaurrera.com.mx/
-   errors: {'B': 'WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.bodegaaurrera.com.mx/&c=UTF-8&captivePortalState=unknown&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.bodegaaurrera.com.mx.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError@chrome://rem', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries
+    D link histDelta A=1 D=0 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D back path A=https://www.elespectador.com/ D=about:blank 
+    D back sameDoc A=True D=False 
+    D back histDelta A=1 D=0 
+    D back navLen A=2 D=1 
+    D back textLen A=13521 D=0 
+    D back titleHash A=168ae37015ea D=da39a3ee5e6b 
+    D forward sameDoc A=True D=False 
+    D forward histDelta A=1 D=0 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D reload histDelta A=3 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D fragment histDelta A=4 D=0 
+    D fragment navLen A=3 D=1 
+    D fragment navIdx A=2 D=0 
+    D back2 path A=https://www.elespectador.com/ D=about:blank 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=4 D=0 
+    D back2 navLen A=3 D=1 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=13409 D=0 
+    D back2 titleHash A=168ae37015ea D=da39a3ee5e6b 
 
 ## 068d6d84a4 https://arenascan.com/manga/eleceed/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: listen:navigate
     B link path A=https://arenascan.com/ B=https://frs2c.com/link2 C_same_as_A=True
     B link histDelta A=1 B=3 C_same_as_A=True
@@ -72,875 +117,1161 @@
     B reload navErrors A=None B=['navigateerror AbortError'] C_same_as_A=True
     B back2 sameDoc A=False B=True C_same_as_A=True
 
-## 77c092b2d2 https://www.omelete.com.br/series-tv/visionquest-explicado-quem-e-paladino/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-
 ## efdd22fb7a https://kepco.jp/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries
+    D link textLen A=19838 D=202 
+    D link titleHash A=13ec18496a26 D=1647b9db6c01 
+    D forward textLen A=19838 D=202 
+    D forward titleHash A=13ec18496a26 D=1647b9db6c01 
 
-## 31ab92294d https://www.premierleague.com/en/news/4737110/revealed-official-premier-league-fan-team-of-matchweek
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## 31ab92294d https://www.premierleague.<token>
    api: call:entries get:currentEntry listen:navigatesuccess
+    D reload path A=https://www.premierleague.<token> D=https://www.premierleague.com/en/ 
+    D reload histDelta A=0 D=1 
+    D reload navLen A=1 D=2 
+    D reload navIdx A=0 D=1 
+    D reload textLen A=2523 D=14009 
+    D reload titleHash A=b6fc14022449 D=1680dac5c0b9 
+    D fragment path A=https://www.premierleague.<token> D=https://www.premierleague.com/en/ 
+    D fragment histDelta A=1 D=2 
+    D fragment navLen A=2 D=3 
+    D fragment navIdx A=1 D=2 
+    D fragment textLen A=2523 D=14009 
+    D fragment titleHash A=b6fc14022449 D=1680dac5c0b9 
+    D back2 path A=https://www.premierleague.<token> D=https://www.premierleague.com/en/ 
+    D back2 histDelta A=1 D=2 
+    D back2 navLen A=2 D=3 
+    D back2 navIdx A=0 D=1 
+    D back2 textLen A=2523 D=14068 
+    D back2 titleHash A=b6fc14022449 D=1680dac5c0b9 
 
 ## 9b62b0b9a4 https://www.vinted.it/items/10366940069-giacca-esercito-cecoslovacco
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:activation get:currentEntry listen:navigatesuccess
+    D load textLen A=1914 D=122 
+    D reload path A=https://www.vinted.it/items/10366940069-giacca-esercito-cecoslovacco D=https://www.vinted.it/ 
+    D reload histDelta A=0 D=1 
+    D reload navLen A=1 D=2 
+    D reload navIdx A=0 D=1 
+    D reload scrollY A=1811 D=0 
+    D reload textLen A=2933 D=346 
+    D reload titleHash A=63ce333c7d6f D=13fb0295a3c0 
+    D fragment path A=https://www.vinted.it/items/10366940069-giacca-esercito-cecoslovacco D=https://www.vinted.it/ 
+    D fragment histDelta A=1 D=2 
+    D fragment navLen A=2 D=3 
+    D fragment navIdx A=1 D=2 
+    D fragment scrollY A=1421 D=0 
+    D fragment textLen A=3697 D=346 
+    D fragment titleHash A=63ce333c7d6f D=13fb0295a3c0 
+    D back2 path A=https://www.vinted.it/items/10366940069-giacca-esercito-cecoslovacco D=https://www.vinted.it/ 
+    D back2 histDelta A=1 D=2 
+    D back2 navLen A=2 D=3 
+    D back2 navIdx A=0 D=1 
+    D back2 scrollY A=1421 D=0 
+    D back2 textLen A=3697 D=2213 
+    D back2 titleHash A=63ce333c7d6f D=13fb0295a3c0 
 
 ## a177a0d7f4 https://www.flashscore.sk/zapas/futbal/como-ttyLthOA/feyenoord-8zjySeoN/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate
-
-## 3451610013 https://zerakijewels.com/collections/bangles
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries listen:navigate
-    B load newErrors A=None B=['TypeError: The specifier “vendor” was a bare specifier, but was not remapped to anything. Relative module specifiers must start with “./”, “../” or “/”.'] C_same_as_A=True
-    B reload newErrors A=None B=['TypeError: The specifier “vendor” was a bare specifier, but was not remapped to anything. Relative module specifiers must start with “./”, “../” or “/”.'] C_same_as_A=True
-
-## 5863642ed3 https://3hentai.net/d/766104
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 99cc4c0feb https://www.2dehands.be/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 920b05f9d3 https://vimeo.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:currententrychange listen:navigate
-
-## 5a74c53e54 https://www.livescore.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigate listen:navigatesuccess
-
-## 530d911298 https://www.idokep.hu/szmog
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
-   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-
-## fc0e549409 https://visualikigai.cmpunjabrashancard.pk/series/roxana-como-proteger-al-hermano-mayor-de-la-protag
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigatesuccess
-
-## 44f000e3ea https://ca.pinterest.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 08043ba1a1 https://poe2db.tw/Aldurs_Legacy
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigatesuccess
-
-## dc61dab7e7 https://www.metrobyt-mobile.com/deals/40period
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## c47fa73904 https://www.ihg.com/rewardsclub/us/en/join
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries listen:currententrychange listen:navigate
-
-## 6d4924de78 https://www.liputan6.com/news/read/8314357/baru-dilantik-kepala-bnpb-langsung-verifikasi-data-kebaka
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
-
-## c35f1dfb89 https://www.nbcsports.com/watch/nba/first-impressions-of-sean-sweeneys-orlando-magic-after-defeating
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
-
-## 854a9efd77 https://smn.conagua.gob.mx/pronosticos/pronosticossubmenu/pronostico-meteorologico-general
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 595c3cce24 https://www.google.com/
-   errors: {'B': 'InvalidSessionIdException: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n', 'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
-   api: call:entries get:activation get:currentEntry
-
-## c668f43873 https://www.si.com/nfl/matt-verderame-notes-why-bills-defense-will-derail-super-bowl-dreams
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:currententrychange listen:navigate listen:navigatesuccess
-
-## d3cccc31de https://xsz-av.com/video/210351
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate
-
-## 07f2c839a0 https://crocobet.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 5b74cb603e https://247sports.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-    B fragment scrollY A=572 B=486 C_same_as_A=True
-
-## 83073fbc51 https://www.wrangler.in/collections
-   errors: {'B': 'InvalidSessionIdException: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries listen:navigate listen:onnavigate
-
-## 0f08b37047 https://www.flashscore.sk/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate
-
-## de9b884a1f https://www.telekom.de/shop/geraete/iphone-duo-erleben
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries listen:currententrychange listen:navigate
-
-## 9398e8309b https://www.officedepot.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 4e154b8a32 https://www.onlinehomeshop.com/department/christmas
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries listen:navigate
-    B link newErrors A=None B=['Script error.'] C_same_as_A=True
-
-## 0772318497 https://www.alo.rs/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigatesuccess
-
-## 3b40e0e82e https://www.2ememain.be/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 649b394e16 https://www.tgcom24.mediaset.it/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:activation get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-
-## a91cd4d5c7 https://www.evite.com/invites/party/holidays/halloween/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate
-
-## 4740655698 https://cheezburger.com/47108613/the-kelly-clarkson-debacle-singer-tries-to-buy-an-expensive-item-at
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-
-## e60d2b07ef https://oceans-nadia.com/special/nonstop-esse
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## c9999985df https://www.kupi.cz/letak/billa-velky-letak-293
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigate listen:navigatesuccess
-    B reload navErrors A=None B=['navigateerror AbortError'] C_same_as_A=True
-
-## a18035f66e https://terraria.wiki.gg/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:currententrychange listen:navigate listen:navigatesuccess
-
-## 9488cdfe37 https://www.climatempo.com.br/
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
-   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
-
-## 520d02b322 https://rozetka.com.ua/ua/smart/
-   errors: {'B': 'InvalidSessionIdException: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## b2dac41972 https://www.deporvillage.com/catalogsearch/result
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:activation get:currentEntry listen:navigate listen:navigatesuccess
-
-## ca3ab7c697 https://faberlic.com/ru/en/series/d6b23ea9-e6cc-49b4-a03c-430678588605
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 73482eecbb https://www.mobile.de/consent/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:activation get:currentEntry listen:navigatesuccess
-
-## aa4f66fd9f https://www.flashscore.pe/partido/futbol/como-ttyLthOA/feyenoord-8zjySeoN/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate
-
-## 40f5da3e2e https://one8.com//collections/cricket-sneakers
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries listen:navigate
-
-## 17b817dea2 https://www.nutaku.net/notice/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 88ebd0a4d4 https://www.lavuelta.es/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## e11b551a11 https://serieously.ouest-france.fr/micro-macro-quel-est-ce-jeu-de-societe-indispensable-pour-tous-le
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigatesuccess
-
-## dabd8d23e5 https://help.steampowered.com/
-   api: 
-    D link path A=https://help.steampowered.com/en/wizard/HelpWithGame/ D=https://help.steampowered.com/en/ 
-    D link histDelta A=1 D=0 
-    D link navLen A=2 D=1 
-    D link navIdx A=1 D=0 
-    D link titleHash A=4e754daeaa00 D=43c4eac7c069 
-    D back path A=https://help.steampowered.com/en/ D=about:blank 
-    D back sameDoc A=True D=False 
-    D back histDelta A=1 D=0 
-    D back navLen A=2 D=0 
-    D back navIdx A=0 D=None 
-    D back textLen A=495 D=0 
-    D back titleHash A=43c4eac7c069 D=da39a3ee5e6b 
-    D forward path A=https://help.steampowered.com/en/wizard/HelpWithGame/ D=https://help.steampowered.com/en/ 
-    D forward sameDoc A=True D=False 
-    D forward histDelta A=1 D=0 
-    D forward navLen A=2 D=1 
-    D forward navIdx A=1 D=0 
-    D forward titleHash A=4e754daeaa00 D=43c4eac7c069 
-    D reload path A=https://help.steampowered.com/en/wizard/HelpWithGame/ D=https://help.steampowered.com/en/ 
-    D reload histDelta A=1 D=0 
-    D reload navLen A=2 D=1 
-    D reload navIdx A=1 D=0 
-    D reload titleHash A=4e754daeaa00 D=43c4eac7c069 
     D fragment histDelta A=2 D=1 
     D fragment navLen A=3 D=2 
     D fragment navIdx A=2 D=1 
-    D back2 path A=https://help.steampowered.com/en/wizard/HelpWithGame/ D=about:blank 
+    D back2 path A=https://www.flashscore.sk/ D=https://www.flashscore.sk/zapas/futbal/como-ttyLthOA/feyenoord-8zjySeoN/ 
     D back2 sameDoc A=True D=False 
     D back2 histDelta A=2 D=1 
-    D back2 navLen A=3 D=0 
-    D back2 navIdx A=1 D=None 
-    D back2 textLen A=574 D=0 
-    D back2 titleHash A=4e754daeaa00 D=da39a3ee5e6b 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=34821 D=5180 
+    D back2 titleHash A=3ed03714c7b4 D=c8fed54baff9 
 
-## f31d8add1f https://www.redgifs.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
+## 3451610013 https://zerakijewels.com/collections/bangles
+   api: call:entries listen:navigate
+    B load newErrors A=None B=['TypeError: The specifier “vendor” was a bare specifier, but was not remapped to anything. Relative module specifiers must start with “./”, “../” or “/”.'] C_same_as_A=True
+    D forward newErrors A=None D=['TypeError'] 
+    B reload newErrors A=None B=['TypeError: The specifier “vendor” was a bare specifier, but was not remapped to anything. Relative module specifiers must start with “./”, “../” or “/”.'] C_same_as_A=True
+    D fragment newErrors A=None D=['TypeError'] 
+    D back2 newErrors A=None D=['TypeError'] 
 
-## 00bfe38d4b https://www.wetter.com/wetter_aktuell/regenradar/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 83b3e42f56 https://pm.eyefinity.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## 920b05f9d3 https://vimeo.com/
    api: listen:currententrychange listen:navigate
+    D load textLen A=9520 D=7090 
+    D link histDelta A=1 D=2 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D back path A=https://vimeo.com/ D=https://vimeo.com/log_in 
+    D back histDelta A=1 D=2 
+    D back navLen A=2 D=1 
+    D back textLen A=9520 D=321 
+    D back titleHash A=6d4719e2ddc3 D=fa9a669ee88b 
+    D forward histDelta A=1 D=2 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D reload histDelta A=1 D=2 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D fragment histDelta A=2 D=3 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 histDelta A=2 D=3 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+
+## 5a74c53e54 https://www.livescore.com/
+   api: get:currentEntry listen:navigate listen:navigatesuccess
+    D link textLen A=4128 D=1549 
+    D back textLen A=3189 D=2473 
+    D forward textLen A=4128 D=1549 
+    D reload textLen A=4074 D=1495 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment textLen A=4074 D=1497 
+    D back2 path A=https://www.livescore.com/en/news/ D=https://www.livescore.com/en/ 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=4074 D=2473 
+    D back2 titleHash A=12dd3c29e82f D=7be34720c53e 
+
+## 530d911298 https://www.idokep.hu/szmog
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    D link stuck A=False D=True 
+    D forward stuck A=False D=True 
+    D reload stuck A=False D=True 
+    D fragment stuck A=False D=True 
+
+## fc0e549409 https://visualikigai.cmpunjabrashancard.<token>
+   api: get:currentEntry listen:navigatesuccess
+    D load navLen A=2 D=1 
+    D load navIdx A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D reload textLen A=3829 D=2637 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment scrollY A=5570 D=4255 
+    D fragment textLen A=3829 D=2637 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 scrollY A=5570 D=4255 
+    D back2 textLen A=3829 D=2637 
+
+## 44f000e3ea https://ca.pinterest.com/
+   api: 
+    D load textLen A=1951 D=0 
+    D reload textLen A=1824 D=0 
+    D fragment textLen A=1951 D=0 
+    D back2 textLen A=1951 D=0 
+
+## 6d4924de78 https://www.liputan6.<token>
+   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
+    D link path A=https://www.liputan6.<token> D=https://www.liputan6.com/ 
+    D link sameDoc A=True D=False 
+    D link titleHash A=3e30cf369913 D=7329e876f9f4 
+    D back sameDoc A=True D=False 
+    D back newErrors A=None D=['TypeError'] 
+    D back2 path A=https://www.liputan6.com/ D=https://www.liputan6.<token> 
+    D back2 sameDoc A=True D=False 
+    D back2 titleHash A=7329e876f9f4 D=3e30cf369913 
+    D back2 newErrors A=None D=['TypeError'] 
+
+## 854a9efd77 https://smn.conagua.gob.<token>
+   api: 
+    D link stuck A=True D=False 
+    D link textLen A=1317 D=1550 
+    D forward stuck A=True D=False 
+    D forward textLen A=1317 D=1550 
+
+## 595c3cce24 https://www.google.com/
+   api: call:entries get:activation get:currentEntry
+    B back sameDoc A=False B=True C_same_as_A=True
+    B forward sameDoc A=False B=True C_same_as_A=True
+
+## d3cccc31de https://xsz-av.com/video/210351
+   api: listen:navigate
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D back navLen A=2 D=1 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+
+## 5b74cb603e https://247sports.com/
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    D link stuck A=False D=True 
+    D back scrollY A=90 D=0 
+    D back stuck A=False D=True 
+    D forward scrollY A=89 D=0 
+    D forward stuck A=False D=True 
+    D reload scrollY A=89 D=0 
+    B fragment scrollY A=572 B=486 C_same_as_A=True
+    D fragment scrollY A=572 D=484 
+    D back2 scrollY A=89 D=0 
+
+## 83073fbc51 https://www.wrangler.in/collections
+   api: call:entries listen:navigate listen:onnavigate
+    B link newErrors A=None B=['TypeError: NetworkError when attempting to fetch resource.'] C_same_as_A=True
+    D link newErrors A=None D=['TypeError'] 
+    B back newErrors A=None B=['TypeError: NetworkError when attempting to fetch resource.'] C_same_as_A=True
+    D back newErrors A=None D=['TypeError'] 
+    B forward newErrors A=None B=['TypeError: NetworkError when attempting to fetch resource.'] C_same_as_A=True
+    D forward newErrors A=None D=['TypeError'] 
+
+## 0f08b37047 https://www.flashscore.sk/
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 path A=https://www.flashscore.sk/spravy/ D=https://www.flashscore.sk/ 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=4657 D=34831 
+    D back2 titleHash A=39b8aea9597a D=3ed03714c7b4 
+
+## de9b884a1f https://www.telekom.de/shop/geraete/iphone-duo-erleben
+   api: call:entries listen:currententrychange listen:navigate
+    D back navLen A=2 D=1 
+
+## 4e154b8a32 https://www.onlinehomeshop.com/department/christmas
+   api: call:entries listen:navigate
+    B link newErrors A=None B=['Script error.'] C_same_as_A=True
+    D back newErrors A=None D=['Script error.'] 
+
+## 649b394e16 https://www.tgcom24.mediaset.it/
+   api: call:entries get:activation get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    D link scrollY A=251 D=1 
+    D back scrollY A=251 D=1 
+    D forward scrollY A=251 D=1 
+    D reload scrollY A=251 D=1 
+    D fragment scrollY A=251 D=1 
+    D back2 scrollY A=251 D=1 
+
+## a91cd4d5c7 https://www.evite.com/invites/party/holidays/halloween/
+   api: listen:navigate
+    D link textLen A=6518 D=3708 
+    D forward textLen A=6518 D=3708 
+    D reload textLen A=6518 D=3708 
+    D fragment textLen A=6532 D=3722 
+    D back2 textLen A=6532 D=3722 
+
+## c9999985df https://www.kupi.cz/letak/billa-velky-letak-293
+   api: get:currentEntry listen:navigate listen:navigatesuccess
+    D load path A=https://www.kupi.cz/letak/billa-velky-letak-293 D=https://www.seznam.cz/nastaveni-souhlasu/ 
+    D load textLen A=1763 D=0 
+    D load titleHash A=2d71615969a8 D=115f611f26ac 
+    B reload navErrors A=None B=['navigateerror AbortError'] C_same_as_A=True
+    D reload path A=https://www.kupi.cz/ D=https://www.seznam.cz/nastaveni-souhlasu/ 
+    D reload histDelta A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D reload textLen A=14707 D=0 
+    D reload titleHash A=776de179be7d D=115f611f26ac 
+    D fragment path A=https://www.kupi.cz/ D=https://www.seznam.cz/nastaveni-souhlasu/ 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment textLen A=14707 D=0 
+    D fragment titleHash A=776de179be7d D=115f611f26ac 
+    D back2 path A=https://www.kupi.cz/ D=https://www.seznam.cz/nastaveni-souhlasu/ 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=14707 D=0 
+    D back2 titleHash A=776de179be7d D=115f611f26ac 
+
+## a18035f66e https://terraria.wiki.gg/
+   api: get:currentEntry listen:currententrychange listen:navigate listen:navigatesuccess
+    D load textLen A=5712 D=263 
+    D load titleHash A=dba49d071ebd D=5ffa9751f584 
+
+## 9488cdfe37 https://www.climatempo.com.br/
+   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
+    D load textLen A=10770 D=7757 
+    D back textLen A=10749 D=7557 
+
+## 520d02b322 https://rozetka.com.ua/ua/smart/
+   api: listen:navigate
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D back navLen A=2 D=1 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+
+## b2dac41972 https://www.deporvillage.com/catalogsearch/result
+   api: call:entries get:activation get:currentEntry listen:navigate listen:navigatesuccess
+    D load textLen A=1543 D=2302 
+    D link path A=https://www.deporvillage.com/stc/shipment D=https://www.deporvillage.com/stc/politica-inteligencia-artificial 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D back navLen A=2 D=1 
+    D forward path A=https://www.deporvillage.com/stc/shipment D=https://www.deporvillage.com/stc/politica-inteligencia-artificial 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D reload path A=https://www.deporvillage.com/stc/shipment D=https://www.deporvillage.com/stc/politica-inteligencia-artificial 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D fragment path A=https://www.deporvillage.com/stc/shipment D=https://www.deporvillage.com/stc/politica-inteligencia-artificial 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 path A=https://www.deporvillage.com/stc/shipment D=https://www.deporvillage.com/stc/politica-inteligencia-artificial 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+
+## 73482eecbb https://www.mobile.de/consent/
+   api: get:activation get:currentEntry listen:navigatesuccess
+    D link textLen A=1206 D=0 
+    D link titleHash A=e1103a8f13d5 D=da39a3ee5e6b 
+    D forward textLen A=1206 D=0 
+    D forward titleHash A=e1103a8f13d5 D=da39a3ee5e6b 
+    D reload textLen A=1206 D=0 
+    D reload titleHash A=e1103a8f13d5 D=da39a3ee5e6b 
+    D fragment textLen A=1206 D=0 
+    D fragment titleHash A=e1103a8f13d5 D=da39a3ee5e6b 
+    D back2 textLen A=1206 D=0 
+    D back2 titleHash A=e1103a8f13d5 D=da39a3ee5e6b 
+
+## aa4f66fd9f https://www.flashscore.pe/partido/futbol/como-ttyLthOA/feyenoord-8zjySeoN/
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 path A=https://www.flashscore.pe/ D=https://www.flashscore.pe/partido/futbol/como-ttyLthOA/feyenoord-8zjySeoN/ 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=41550 D=6554 
+    D back2 titleHash A=da73fa7f04d2 D=244732b0fb15 
+
+## 40f5da3e2e https://one8.com//collections/cricket-sneakers
+   api: call:entries listen:navigate
+    D link textLen A=2323 D=1557 
+    D forward textLen A=2323 D=1557 
+    D reload textLen A=2323 D=1557 
+    D fragment textLen A=2323 D=1557 
+    D back2 textLen A=2323 D=1557 
+
+## 17b817dea2 https://www.nutaku.net/notice/
+   api: 
+    D load textLen A=2946 D=2246 
+    D back textLen A=2946 D=2246 
+
+## e11b551a11 https://serieously.ouest-france.<token>
+   api: get:currentEntry listen:navigatesuccess
+    D link newErrors A=None D=['Script error.'] 
+    D forward navIdx A=1 D=0 
+    D forward newErrors A=None D=['NotReadableError', 'TypeError'] 
+    D reload path A=https://serieously.ouest-france.fr/quiz/ D=https://serieously.ouest-france.<token> 
+    D reload navIdx A=1 D=0 
+    D reload textLen A=8123 D=10102 
+    D reload titleHash A=e819973b9d47 D=11b8c252fba7 
+    D fragment path A=https://serieously.ouest-france.fr/quiz/ D=https://serieously.ouest-france.<token> 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment scrollY A=0 D=1910 
+    D fragment textLen A=8123 D=10102 
+    D fragment titleHash A=e819973b9d47 D=11b8c252fba7 
+    D back2 path A=https://serieously.ouest-france.fr/quiz/ D=https://serieously.ouest-france.<token> 
+    D back2 navIdx A=1 D=2 
+    D back2 scrollY A=0 D=1910 
+    D back2 textLen A=8123 D=10102 
+    D back2 titleHash A=e819973b9d47 D=11b8c252fba7 
 
 ## ddac2dfb90 https://mobile.free.fr/souscription
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: 
+    D load textLen A=18922 D=5433 
+    D link textLen A=29904 D=8511 
+    D back textLen A=18909 D=5407 
+    D forward textLen A=29904 D=8511 
+    D reload textLen A=29904 D=8511 
+    D fragment textLen A=29904 D=8511 
+    D back2 textLen A=29904 D=8511 
 
 ## 204aeffbcd https://help.steampowered.com/en/wizard/HelpWithGame
    api: 
-    D load scrollY A=0 D=216 
-    D link path A=https://help.steampowered.com/en/ D=https://help.steampowered.com/en/wizard/HelpWithGame 
-    D link histDelta A=1 D=0 
-    D link navLen A=2 D=1 
-    D link navIdx A=1 D=0 
-    D link titleHash A=43c4eac7c069 D=08b076d05565 
-    D back path A=https://help.steampowered.com/en/wizard/HelpWithGame D=about:blank 
-    D back sameDoc A=True D=False 
-    D back histDelta A=1 D=0 
-    D back navLen A=2 D=0 
-    D back navIdx A=0 D=None 
-    D back textLen A=457 D=0 
-    D back titleHash A=08b076d05565 D=da39a3ee5e6b 
-    D forward path A=https://help.steampowered.com/en/ D=https://help.steampowered.com/en/wizard/HelpWithGame 
-    D forward sameDoc A=True D=False 
-    D forward histDelta A=1 D=0 
-    D forward navLen A=2 D=1 
-    D forward navIdx A=1 D=0 
-    D forward titleHash A=43c4eac7c069 D=08b076d05565 
-    D reload path A=https://help.steampowered.com/en/ D=https://help.steampowered.com/en/wizard/HelpWithGame 
+    D load scrollY A=0 D=217 
+
+## b36387eb0e https://www.dola.com/
+   api: call:entries listen:navigate
+    B back2 newErrors A=None B=['ChunkLoadError: Loading chunk ndn failed.\n(error: URL)'] C_same_as_A=True
+    D back2 textLen A=602 D=369 
+    D back2 newErrors A=None D=['ChunkLoadError'] 
+
+## 36d5b48233 https://www.fogaonet.<token>
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    D back scrollY A=0 D=4737 
+    D back newErrors A=None D=['ResizeObserver loop completed with undel'] 
+
+## 79713cbc01 https://www.franceinfo.fr/
+   api: call:entries
+    D load textLen A=30887 D=37618 
+    D link textLen A=7494 D=13089 
+    D back textLen A=31109 D=37618 
+    D forward textLen A=7494 D=13089 
+    D reload textLen A=7494 D=13089 
+    D fragment textLen A=7494 D=13089 
+    D back2 textLen A=7494 D=13089 
+
+## 74281908b5 https://manhwadesu.wiki/
+   api: 
+    B back2 path A=about:blank B=https://manhwadesu.rest/ C_same_as_A=True
+    B back2 sameDoc A=False B=True C_same_as_A=True
+    B back2 navIdx A=None B=0 C_same_as_A=True
+    B back2 scrollY A=0 B=2467 C_same_as_A=True
+    B back2 textLen A=0 B=4144 C_same_as_A=True
+    B back2 titleHash A=da39a3ee5e6b B=849885113fd1 C_same_as_A=True
+    D back2 path A=about:blank D=https://manhwadesu.rest/ 
+    D back2 sameDoc A=False D=True 
+    D back2 navLen A=0 D=1 
+    D back2 navIdx A=None D=0 
+    D back2 scrollY A=0 D=2480 
+    D back2 textLen A=0 D=3728 
+    D back2 titleHash A=da39a3ee5e6b D=849885113fd1 
+
+## 8dca21b263 https://jp.xsz-av.com/video/210351
+   api: listen:navigate
+    D load textLen A=2005 D=261 
+    D load titleHash A=8de9a74f0925 D=5ffa9751f584 
+    D reload path A=https://jp.xsz-av.com/ D=https://jp.xsz-av.com/video/210351 
     D reload histDelta A=1 D=0 
     D reload navLen A=2 D=1 
     D reload navIdx A=1 D=0 
-    D reload scrollY A=0 D=217 
-    D reload titleHash A=43c4eac7c069 D=08b076d05565 
+    D fragment path A=https://jp.xsz-av.com/ D=https://jp.xsz-av.com/video/210351 
     D fragment histDelta A=2 D=1 
     D fragment navLen A=3 D=2 
     D fragment navIdx A=2 D=1 
-    D fragment scrollY A=0 D=376 
-    D back2 path A=https://help.steampowered.com/en/ D=about:blank 
-    D back2 sameDoc A=True D=False 
+    D back2 path A=https://jp.xsz-av.com/ D=https://jp.xsz-av.com/video/210351 
     D back2 histDelta A=2 D=1 
-    D back2 navLen A=3 D=0 
-    D back2 navIdx A=1 D=None 
-    D back2 textLen A=495 D=0 
-    D back2 titleHash A=43c4eac7c069 D=da39a3ee5e6b 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
 
-## 3fc1d97174 https://www.telkom.co.za/tap2win
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries
-
-## b36387eb0e https://www.dola.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries listen:navigate
-    B back2 newErrors A=None B=['ChunkLoadError: Loading chunk ndn failed.\n(error: URL)'] C_same_as_A=True
-
-## 36d5b48233 https://www.fogaonet.com/blog-da-redacao/pitacos-botafogo-danilo-mais-dez-problema-arthur-cabral-men
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-
-## bb50eebdb6 https://uaserials.my/13336-alfa-00.html
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 23c77e781e https://phe69.shop/em-hoc-sinh-xinh-dam-dang-yeu-lam-tinh-cung-ban-trai-full-clip-pic-p1/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 79713cbc01 https://www.franceinfo.fr/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries
-
-## 74281908b5 https://manhwadesu.wiki/
-   errors: {'B': 'InvalidSessionIdException: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 8dca21b263 https://jp.xsz-av.com/video/210351
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate
-
-## 1c80355927 https://visorikigai.gettocaboca.com/series/roxana-como-proteger-al-hermano-mayor-de-la-protagonista/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## 1c80355927 https://visorikigai.gettocaboca.<token>
    api: get:currentEntry listen:navigatesuccess
+    D back2 scrollY A=5380 D=5796 
 
 ## f8b3fcf4db https://cloud.mail.ru/promo/quota
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: 
-
-## e44887db23 https://www.prozis.com/us/us/campaign/75871
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate
+    D link textLen A=3047 D=1431 
+    D forward textLen A=3047 D=1431 
+    D reload textLen A=3047 D=1431 
+    D fragment textLen A=3047 D=1431 
+    D back2 textLen A=3047 D=1431 
 
 ## 1cc5ce740a https://de.xvideos.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:activation
+    D load path A=https://de.xvideos.com/ D=https://fr.xvideos.com/ 
+    D load titleHash A=0e27193848f0 D=ae60a044a5c1 
+    D reload path A=https://de.xvideos.com/ D=https://fr.xvideos.com/ 
+    D reload titleHash A=0e27193848f0 D=ae60a044a5c1 
+    D fragment path A=https://de.xvideos.com/ D=https://fr.xvideos.com/ 
+    D fragment titleHash A=0e27193848f0 D=ae60a044a5c1 
+    D back2 path A=https://de.xvideos.com/ D=https://fr.xvideos.com/ 
+    D back2 titleHash A=0e27193848f0 D=ae60a044a5c1 
 
 ## 954e5c6e49 https://www.lg.com/us/tvs
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries listen:navigate
+    D load textLen A=14303 D=10516 
     B link newErrors A=None B=['ReferenceError: transcend is not defined'] C_same_as_A=True
+    D link stuck A=False D=True 
+    D link textLen A=48791 D=23318 
+    D link newErrors A=None D=['TypeError'] 
+    D back textLen A=14270 D=10516 
+    D back newErrors A=None D=['TypeError'] 
+    D forward stuck A=False D=True 
+    D forward textLen A=48791 D=23322 
+    D reload textLen A=48791 D=23318 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment textLen A=48991 D=23329 
+    D back2 path A=https://www.lg.com/us/promotions/top-appliance-deals D=https://www.lg.com/us/tvs 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=49110 D=10516 
+    D back2 titleHash A=a843a5124d4d D=5dd8c7ef6a06 
+    D back2 newErrors A=None D=['TypeError'] 
 
-## 486884624d https://viralikigai.radiot.space/series/roxana-como-proteger-al-hermano-mayor-de-la-protagonista/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## 486884624d https://viralikigai.radiot.<token>
    api: get:currentEntry listen:navigatesuccess
+    D back2 scrollY A=5360 D=5796 
 
 ## e216654123 https://onedio.com/
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
    api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 path A=https://onedio.com/test D=https://onedio.com/ 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=13254 D=19844 
+    D back2 titleHash A=6566d607032e D=126b54ee5c73 
 
 ## 651daa861c https://www.pensador.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:currentEntry listen:navigatesuccess
+    D fragment newErrors A=None D=['TypeError'] 
 
 ## 4cd380f7e9 https://www.mindmegette.hu/recept/csirkemellpaprikas
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
    api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-
-## 1c5b7ee1a9 https://www.hobbylobby.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:currentEntry
+    D link newErrors A=None D=['Error'] 
 
 ## e274c6885c https://beta.xfreehd.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: listen:navigate
     B load newErrors A=None B=['TurnstileError: [Cloudflare Turnstile] Unable to find a container for "#ts-post-comment".'] C_same_as_A=True
+    D load textLen A=2825 D=4007 
+    D back textLen A=2887 D=4064 
     B back2 newErrors A=None B=['TurnstileError: [Cloudflare Turnstile] Unable to find a container for "#ts-post-comment".'] C_same_as_A=True
+    D back2 textLen A=2815 D=4011 
 
 ## b8bc5ad392 https://live-tennis.eu/en/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D link newErrors A=None D=['NotReadableError'] 
+    D back navLen A=2 D=1 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
 
-## 5254256188 https://tv2.dk/reel/2026-10-13-26-aarig-kok-vil-bryde-tabu-med-tv-optraeden-6406741157112
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## 5254256188 https://tv2.<token>
    api: get:currentEntry listen:navigatesuccess
     B reload newErrors A=None B=['TypeError: can\'t access property "trackSessionEnd", this.tracker is null'] C_same_as_A=True
 
 ## 66ada76ae9 https://www.goindigo.in/hotels
-   errors: {'B': 'InvalidSessionIdException: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n', 'C': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.goindigo.in/hotels%3FlinkNav%3DHotel_Deals_HotelBAU_Dec25%7Cv1%7C3&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriv', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+   errors: {'B': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.goindigo.in/hotels%3FlinkNav%3DHotel_Deals_HotelBAU_Dec25%7Cv1%7C3&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriv', 'C': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.goindigo.in/hotels%3FlinkNav%3DHotel_Deals_HotelBAU_Dec25%7Cv1%7C3&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriv'}
    api: 
+    D link path A=https://www.goindigo.in/hotels D=safari-resource:/ErrorPage.html 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D link textLen A=4266 D=234 
+    D link titleHash A=bbf1268c49f4 D=a0ec0e79da63 
+    D back path A=chrome-error://chromewebdata/ D=safari-resource:/ErrorPage.html 
+    D back navLen A=0 D=2 
+    D back navIdx A=None D=1 
+    D back titleHash A=6361a8123fb2 D=a0ec0e79da63 
+    D forward path A=chrome-error://chromewebdata/ D=safari-resource:/ErrorPage.html 
+    D forward navLen A=0 D=2 
+    D forward navIdx A=None D=0 
+    D forward titleHash A=6361a8123fb2 D=a0ec0e79da63 
+    D reload path A=chrome-error://chromewebdata/ D=safari-resource:/ErrorPage.html 
+    D reload navLen A=0 D=2 
+    D reload navIdx A=None D=0 
+    D reload titleHash A=6361a8123fb2 D=a0ec0e79da63 
+    D fragment path A=chrome-error://chromewebdata/ D=safari-resource:/ErrorPage.html 
+    D fragment navLen A=0 D=2 
+    D fragment navIdx A=None D=1 
+    D fragment titleHash A=6361a8123fb2 D=a0ec0e79da63 
+    D back2 path A=chrome-error://chromewebdata/ D= 
+    D back2 sameDoc A=False D=None 
+    D back2 histDelta A=1 D=-7 
+    D back2 navLen A=0 D=None 
+    D back2 scrollY A=0 D=None 
+    D back2 stuck A=False D=True 
+    D back2 textLen A=220 D=0 
+    D back2 titleHash A=6361a8123fb2 D=None 
 
 ## bdc3af2443 https://www.tradeinn.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries listen:navigate
-
-## 52b198d213 https://www.seher.no/kjendis/viser-frem-magen-og-kjaeresten/85283257
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:currententrychange listen:navigate listen:navigatesuccess
-
-## f468c07f7a https://www.windguru.cz/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:currententrychange listen:navigate listen:navigatesuccess
+    D load scrollY A=0 D=2466 
+    D load textLen A=6492 D=4137 
+    D back scrollY A=0 D=2120 
+    D back textLen A=6492 D=4137 
+    D fragment scrollY A=626 D=942 
+    D back2 scrollY A=0 D=5230 
 
 ## 7ebcabe976 https://www.tokyo-sports.co.jp/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:currentEntry listen:navigatesuccess
     B load newErrors A=None B=['Script error.', 'TypeError: Failed to update the ServiceWorker for scope URL because the registration has been changed since the update was scheduled.'] C_same_as_A=True
+    D back newErrors A=None D=['TypeError'] 
 
 ## b6469724c9 https://www.wrangler.in/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries listen:navigate listen:onnavigate
     B link newErrors A=None B=['TypeError: NetworkError when attempting to fetch resource.'] C_same_as_A=True
+    D link newErrors A=None D=['TypeError'] 
     B back newErrors A=None B=['TypeError: NetworkError when attempting to fetch resource.'] C_same_as_A=True
+    D back newErrors A=None D=['TypeError'] 
     B forward newErrors A=None B=['TypeError: NetworkError when attempting to fetch resource.'] C_same_as_A=True
+    D forward newErrors A=None D=['TypeError'] 
 
 ## 95f1255517 https://24h.pchome.com.tw/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries
-
-## df949510ca https://vdenergy.dpsconsulting.es/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries call:navigate call:updateCurrentEntry get:currentEntry listen:navigate
-    B back2 scrollY A=0 B=None C_same_as_A=True
-
-## 038cec44e6 https://www.masrawy.com/news/news_publicaffairs/details/2026/10/14/3062514/%D8%AA%D8%B1%D8%A7%D9%85%
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
-
-## 3f1bad7142 https://www.shazam.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 5409adfea6 https://www.leboncoin.fr/recherche
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
+    D fragment histDelta A=1 D=0 
+    D fragment navLen A=2 D=1 
+    D fragment navIdx A=1 D=0 
+    D back2 path A=https://24h.pchome.com.tw/ D=about:blank 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=1 D=0 
+    D back2 navLen A=2 D=0 
+    D back2 navIdx A=0 D=None 
+    D back2 textLen A=15319 D=0 
+    D back2 titleHash A=72de204554c6 D=da39a3ee5e6b 
 
 ## 7991e63e20 https://www.news.com.au/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
+    D load path A=https://www.news.com.au/ D=https://www.news.com.au/afx_prid/2026.10.20.1/auth/ptc/ 
+    D load textLen A=15009 D=1000 
+    D load titleHash A=b2172f0e0669 D=da39a3ee5e6b 
+    D reload path A=https://www.news.com.au/weather D=https://www.news.com.au/afx_prid/2026.10.20.1/auth/ptc/ 
+    D reload histDelta A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D fragment path A=https://www.news.com.au/weather D=https://www.news.com.au/afx_prid/2026.10.20.1/auth/ptc/ 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 path A=https://www.news.com.au/weather D=https://www.news.com.au/afx_prid/2026.10.20.1/auth/ptc/ 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
 
 ## 8ef063f116 https://weebcentral.com/chapters/01M4TY7JEGKG2ERB468SDYYGRA
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: 
+    D load path A=https://weebcentral.com/chapters/01M4TY7JEGKG2ERB468SDYYGRA D=safari-resource:/CertificateWarningFall2023.html 
+    D load titleHash A=5b65037351ca D=cc66ea667479 
+    D reload path A=https://weebcentral.com/chapters/01M4TY7JEGKG2ERB468SDYYGRA D=safari-resource:/CertificateWarningFall2023.html 
+    D reload titleHash A=5b65037351ca D=cc66ea667479 
+    D fragment path A=https://weebcentral.com/chapters/01M4TY7JEGKG2ERB468SDYYGRA D=safari-resource:/CertificateWarningFall2023.html 
+    D fragment titleHash A=5b65037351ca D=cc66ea667479 
+    D back2 path A=https://weebcentral.com/chapters/01M4TY7JEGKG2ERB468SDYYGRA D= 
+    D back2 sameDoc A=True D=None 
+    D back2 histDelta A=1 D=-6 
+    D back2 navLen A=2 D=None 
+    D back2 navIdx A=0 D=None 
+    D back2 scrollY A=0 D=None 
+    D back2 stuck A=False D=True 
+    D back2 titleHash A=5b65037351ca D=None 
 
 ## 1e639846fb https://limbuscompany.wiki.gg/wiki/Canto_X:_The_Gaze_Bearing
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:currentEntry listen:currententrychange listen:navigate listen:navigatesuccess
+    D reload histDelta A=0 D=1 
+    D fragment histDelta A=1 D=2 
+    D back2 histDelta A=1 D=2 
 
 ## ca328e7abd https://www.bonprix.de/kategorie/im-trend-trends-monochrome-looks/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: 
+    D back scrollY A=0 D=7305 
 
 ## 21b92bd231 https://www.diariodocentrodomundo.com.br/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:currentEntry listen:navigate listen:navigatesuccess
+    D link stuck A=False D=True 
+    D back stuck A=False D=True 
+    D forward stuck A=False D=True 
 
 ## cdff2ca82f https://www.sisal.it/bonus/bonus-benvenuto/scommesse
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: 
+    D reload titleHash A=1647b9db6c01 D=da39a3ee5e6b 
+    D fragment titleHash A=1647b9db6c01 D=da39a3ee5e6b 
+    D back2 titleHash A=1647b9db6c01 D=da39a3ee5e6b 
 
 ## 5a22ea8041 https://www.mos.jp/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries
     B link newErrors A=None B=['uncaught exception: [object Object]'] C_same_as_A=True
     B back newErrors A=None B=['uncaught exception: [object Object]'] C_same_as_A=True
+    D back scrollY A=0 D=1627 
     B forward newErrors A=None B=['uncaught exception: [object Object]'] C_same_as_A=True
     B reload newErrors A=None B=['uncaught exception: [object Object]'] C_same_as_A=True
 
-## d74e18c93c https://bycheck.org/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:updateCurrentEntry get:currentEntry
-
-## c91a326a79 https://bustimes.org/regions/W
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 4c26395d3a https://www.tomshardware.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 581b86de32 https://create.kahoot.it/auth/login/troubles
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
 ## 099ee49c74 https://vimeo.com/solutions/vimeo-streaming
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+   errors: {'D': 'InvalidSessionIdException: Message: ; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
    api: listen:currententrychange listen:navigate
 
 ## 83345e9dd2 https://jp.gotchamall.com/
-   errors: {'A': 'Error: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://jp.gotchamall.com/\nCall log:\n  - navigating to "https://jp.gotchamall.com/", waiting until "load"\n', 'A2': 'Error: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://jp.gotchamall.com/\nCall log:\n  - navigating to "https://jp.gotchamall.com/", waiting until "load"\n', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+   errors: {'A': 'Error: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://jp.gotchamall.com/\nCall log:\n  - navigating to "https://jp.gotchamall.com/", waiting until "load"\n', 'A2': 'Error: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://jp.gotchamall.com/\nCall log:\n  - navigating to "https://jp.gotchamall.com/", waiting until "load"\n'}
    api: 
 
-## e2e7e2dddf https://www.fotogramas.es/festival-de-sitges/a74099483/kevin-bacon-actor-director-entrevista-family-
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigatesuccess
-
-## 63feacaf85 https://chronicguru.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:updateCurrentEntry get:currentEntry listen:currententrychange
-
 ## 8fd0003023 https://www.wowhead.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:canGoBack get:currentEntry listen:currententrychange listen:navigate listen:navigatesuccess
-
-## 5832140aee https://www.gofundme.com/create/fundraiser
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries
-
-## 2a9aab441f https://baseball.fantasysports.yahoo.com/b1
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
-
-## 6bc1959cc6 https://www.photoroom.com/contact-sales
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries listen:currententrychange listen:navigate
-
-## 2621a2726e https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigate listen:navigatesuccess
+    D load textLen A=11115 D=8315 
+    D link stuck A=True D=False 
+    D link textLen A=10328 D=7693 
+    D back textLen A=11501 D=8310 
+    D forward textLen A=10719 D=7755 
+    D reload textLen A=10719 D=8142 
+    D fragment textLen A=10719 D=8142 
+    D back2 textLen A=10714 D=8142 
 
 ## 5e7fa2b112 https://tw.sports.yahoo.com/news/%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E3%80%8B%E5%BC%B5%E6%94%BF%E7%
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:activation get:currentEntry listen:navigatesuccess
+    D reload textLen A=6156 D=853 
+    D fragment textLen A=6156 D=853 
+    D back2 newErrors A=None D=['Error'] 
 
 ## 8774880b18 https://www.mathplayground.com/math-games.html
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:currentEntry listen:navigate listen:navigatesuccess
     B forward histDelta A=1 B=2 C_same_as_A=True
     B reload histDelta A=1 B=2 C_same_as_A=True
     B fragment histDelta A=2 B=3 C_same_as_A=True
     B back2 histDelta A=2 B=3 C_same_as_A=True
 
-## 5980c1add2 https://www.ixigo.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries
-
 ## 97092ff981 https://www.flashscore.com.ve/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 path A=https://www.flashscore.com.ve/noticias/ D=https://www.flashscore.com.ve/ 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=4983 D=42234 
+    D back2 titleHash A=8b2e236c1298 D=c8d6fd34c752 
 
 ## da75cd184c https://diamond.jp/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
+    D link textLen A=1980 D=2338 
+    D reload textLen A=1980 D=2338 
+    D fragment textLen A=1980 D=2338 
+    D back2 textLen A=1980 D=2338 
 
 ## 84d0d2dcf8 https://chronicguru.com/concentrates/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:updateCurrentEntry get:currentEntry listen:currententrychange
-
-## fdeed80bf0 https://www.wa.de/nordrhein-westfalen/dennis-will-aussagen-anwalt-kuendigt-gestaendnis-im-horrorhaus
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
+    D reload scrollY A=123 D=0 
 
 ## 852ce1b3e7 https://www.sacnilk.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: listen:navigatesuccess
+    D reload scrollY A=0 D=658 
+    D fragment scrollY A=0 D=658 
+    D back2 scrollY A=0 D=658 
 
 ## 436de1eb62 https://razorpay.com/engage/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:transition intercept:push listen:navigate
+    D link textLen A=16760 D=13772 
+    D forward textLen A=16760 D=13774 
+    D reload textLen A=16760 D=13774 
+    D fragment intercepted A=1 D=0 
+    D fragment textLen A=16988 D=13607 
+    D back2 scrollY A=1038 D=0 
+    D back2 textLen A=16761 D=13775 
 
-## b2377f6b72 https://www.marca.com/futbol/champions-league/cronica/2026/10/14/gueler-resucita-madrid-mourinho.htm
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## b2377f6b72 https://www.marca.<token>.html
    api: get:currentEntry listen:navigatesuccess
+    D back newErrors A=None D=['TypeError'] 
 
 ## 60aa039103 https://www.xfinity.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries listen:navigatesuccess
-
-## b955db2251 https://www.cainz.com/contents/service/regular_delivery.html
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 565d562884 https://www.purposegames.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigate listen:navigatesuccess
-
-## 5829541c3b https://ads.tiktok.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate
-
-## 1e438e75f6 https://www.calciomercato.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate
+    D link path A=https://www.xfinity.com/planbuilder D=https://www.xfinity.com/learn/internet-service 
+    D link titleHash A=1b84c8c7262e D=1647b9db6c01 
+    D forward path A=https://www.xfinity.com/planbuilder D=https://www.xfinity.com/learn/internet-service 
+    D forward titleHash A=1b84c8c7262e D=1647b9db6c01 
+    D reload path A=https://www.xfinity.com/planbuilder D=https://www.xfinity.com/learn/internet-service 
+    D reload titleHash A=1b84c8c7262e D=1647b9db6c01 
+    D fragment path A=https://www.xfinity.com/planbuilder D=https://www.xfinity.com/learn/internet-service 
+    D fragment titleHash A=1b84c8c7262e D=1647b9db6c01 
+    D back2 path A=https://www.xfinity.com/planbuilder D=https://www.xfinity.com/learn/internet-service 
+    D back2 titleHash A=1b84c8c7262e D=1647b9db6c01 
 
 ## 356a503892 https://immobilier.lefigaro.fr/prix-immobilier
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
+    D reload scrollY A=952 D=0 
+    D fragment scrollY A=952 D=0 
+    D back2 scrollY A=952 D=0 
 
 ## 710964360f https://www.xvideos-ar.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:activation
     B load newErrors A=None B=['undefined'] C_same_as_A=True
     B reload newErrors A=None B=['undefined'] C_same_as_A=True
 
 ## 36ecbe26f5 https://www.trendyol.sa/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries listen:navigate
+    D load textLen A=7774 D=4270 
+    D reload scrollY A=316 D=0 
+    D reload textLen A=9405 D=5982 
+    D fragment scrollY A=316 D=0 
+    D fragment textLen A=9405 D=5982 
+    D back2 scrollY A=316 D=0 
+    D back2 textLen A=9405 D=5982 
 
-## 1ba8112e39 https://plan-vivienda.mit.gob.ec/quiz-programas
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 6b6cea95e0 https://www.freemalaysiatoday.com/category/highlight/2026/10/15/attacks-in-strait-of-hormuz-reach-hi
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## 6b6cea95e0 https://www.freemalaysiatoday.<token>
    api: call:entries get:currentEntry listen:navigate listen:navigatesuccess listen:oncurrententrychange
+    D link path A=https://www.freemalaysiatoday.<token> D=https://www.freemalaysiatoday.com/ 
+    D link textLen A=5340 D=9190 
+    D link titleHash A=92356f32e9b6 D=bb983768893f 
+    D forward path A=https://www.freemalaysiatoday.<token> D=https://www.freemalaysiatoday.com/ 
+    D forward textLen A=5340 D=9190 
+    D forward titleHash A=92356f32e9b6 D=bb983768893f 
+    D reload path A=https://www.freemalaysiatoday.<token> D=https://www.freemalaysiatoday.com/ 
+    D reload textLen A=5286 D=9102 
+    D reload titleHash A=92356f32e9b6 D=bb983768893f 
+    D fragment path A=https://www.freemalaysiatoday.<token> D=https://www.freemalaysiatoday.com/ 
+    D fragment textLen A=5286 D=9102 
+    D fragment titleHash A=92356f32e9b6 D=bb983768893f 
+    D back2 path A=https://www.freemalaysiatoday.<token> D=https://www.freemalaysiatoday.com/ 
+    D back2 textLen A=5286 D=9102 
+    D back2 titleHash A=92356f32e9b6 D=bb983768893f 
 
 ## 2c624b6c3c https://www.pixiv.net/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:currentEntry listen:navigatesuccess
+    D reload histDelta A=0 D=1 
+    D fragment histDelta A=1 D=2 
+    D back2 histDelta A=1 D=2 
 
 ## 84f15b24c7 https://www.asahi.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
     B load newErrors A=None B=['Script error.'] C_same_as_A=True
 
-## 94479772d9 https://www.gettyimages.in/detail/photo/rear-view-of-cornrow-braids-on-little-girl-royalty-free-imag
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:currententrychange listen:navigate
-
 ## 088f482cf6 https://services.nidw.gov.bd/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+   errors: {'D': 'InvalidSessionIdException: Message: ; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
    api: 
 
-## 291b7aef93 https://www.birkenstock.com/us/us-policies-privacy.html
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate
-
 ## a66ce83a35 https://www.viamichelin.fr/magazine/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:currentEntry listen:navigatesuccess
+    D load navLen A=2 D=1 
+    D load navIdx A=1 D=0 
+    D load textLen A=3937 D=110 
+    D load titleHash A=25a72d181047 D=be288566bc93 
+    D reload histDelta A=1 D=0 
+    D reload navLen A=3 D=1 
+    D reload navIdx A=2 D=0 
+    D reload textLen A=3937 D=110 
+    D reload titleHash A=25a72d181047 D=be288566bc93 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=4 D=2 
+    D fragment navIdx A=3 D=1 
+    D fragment textLen A=3937 D=110 
+    D fragment titleHash A=25a72d181047 D=be288566bc93 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=4 D=2 
+    D back2 navIdx A=2 D=0 
+    D back2 textLen A=3937 D=110 
+    D back2 titleHash A=25a72d181047 D=be288566bc93 
 
-## 4f3a6829a9 https://www.capital.gr/oikonomia/4023432/goldman-sachs-poso-megalo-tha-einai-to-sok-se-ependuseis-ka
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## 4f3a6829a9 https://www.capital.<token>
    api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
     B load newErrors A=None B=['TypeError: E is not a function'] C_same_as_A=True
     B link histDelta A=2 B=1 C_same_as_A=True
-    B back path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.gr/oikonomia/4023432/goldman-sachs-poso-megalo-tha-einai-to-sok-se-ependuseis-katanalotes-epixeiriseis-dimosionomika-kai-aep-apo-tin-ektinaxi-ton-apodoseon-ton-omologon/ C_same_as_A=True
+    D link histDelta A=2 D=1 
+    D link navLen A=3 D=2 
+    D link navIdx A=2 D=1 
+    B back path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.<token> C_same_as_A=True
     B back sameDoc A=True B=False C_same_as_A=True
     B back histDelta A=2 B=1 C_same_as_A=True
     B back textLen A=6974 B=14158 C_same_as_A=True
     B back titleHash A=73e44e798fa6 B=3162a183c130 C_same_as_A=True
     B back newErrors A=None B=['TypeError: can\'t access property "BigInt", n() is undefined', 'TypeError: can\'t access property "style", document.getElementById(...) is null'] C_same_as_A=True
-    B forward path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.gr/oikonomia/4023432/goldman-sachs-poso-megalo-tha-einai-to-sok-se-ependuseis-katanalotes-epixeiriseis-dimosionomika-kai-aep-apo-tin-ektinaxi-ton-apodoseon-ton-omologon/ C_same_as_A=True
+    D back path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ D=https://www.capital.<token> 
+    D back sameDoc A=True D=False 
+    D back histDelta A=2 D=1 
+    D back navLen A=3 D=2 
+    D back navIdx A=1 D=0 
+    D back textLen A=6974 D=14126 
+    D back titleHash A=73e44e798fa6 D=3162a183c130 
+    B forward path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.<token> C_same_as_A=True
     B forward histDelta A=2 B=1 C_same_as_A=True
     B forward textLen A=6974 B=14158 C_same_as_A=True
     B forward titleHash A=73e44e798fa6 B=3162a183c130 C_same_as_A=True
-    B reload path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.gr/oikonomia/4023432/goldman-sachs-poso-megalo-tha-einai-to-sok-se-ependuseis-katanalotes-epixeiriseis-dimosionomika-kai-aep-apo-tin-ektinaxi-ton-apodoseon-ton-omologon/ C_same_as_A=True
+    D forward sameDoc A=True D=False 
+    D forward histDelta A=2 D=1 
+    D forward navLen A=3 D=2 
+    D forward navIdx A=2 D=1 
+    B reload path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.<token> C_same_as_A=True
     B reload histDelta A=2 B=1 C_same_as_A=True
     B reload textLen A=6974 B=14158 C_same_as_A=True
     B reload titleHash A=73e44e798fa6 B=3162a183c130 C_same_as_A=True
     B reload newErrors A=None B=['TypeError: can\'t access property "style", document.getElementById(...) is null'] C_same_as_A=True
-    B fragment path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.gr/oikonomia/4023432/goldman-sachs-poso-megalo-tha-einai-to-sok-se-ependuseis-katanalotes-epixeiriseis-dimosionomika-kai-aep-apo-tin-ektinaxi-ton-apodoseon-ton-omologon/ C_same_as_A=True
+    B fragment path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.<token> C_same_as_A=True
     B fragment histDelta A=3 B=2 C_same_as_A=True
     B fragment textLen A=6974 B=14158 C_same_as_A=True
     B fragment titleHash A=73e44e798fa6 B=3162a183c130 C_same_as_A=True
-    B back2 path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.gr/oikonomia/4023432/goldman-sachs-poso-megalo-tha-einai-to-sok-se-ependuseis-katanalotes-epixeiriseis-dimosionomika-kai-aep-apo-tin-ektinaxi-ton-apodoseon-ton-omologon/ C_same_as_A=True
+    B back2 path A=https://www.capital.gr/finance/quote/%ce%93%ce%94/ B=https://www.capital.<token> C_same_as_A=True
     B back2 histDelta A=3 B=2 C_same_as_A=True
     B back2 textLen A=6974 B=14158 C_same_as_A=True
     B back2 titleHash A=73e44e798fa6 B=3162a183c130 C_same_as_A=True
 
 ## 4132d04124 https://www.globo.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: call:entries get:currentEntry listen:navigatesuccess
     B load newErrors A=None B=['[object Object]'] C_same_as_A=True
 
 ## cb3aeedc6e https://www.rugbyrama.fr/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:currentEntry listen:navigatesuccess
+    D reload scrollY A=3554 D=5657 
+    D fragment scrollY A=3554 D=5657 
+    D back2 scrollY A=3554 D=5657 
 
 ## 83aa6e743c https://www.tf1info.fr/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: get:currentEntry listen:navigatesuccess
+    D forward newErrors A=None D=['TypeError'] 
 
 ## 87534d1bf6 https://www.punjabeducare.org/competency-enhancementplan
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: 
-
-## 4e51b2eabb https://uaserials.my/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
+    D back navLen A=1 D=2 
+    D forward navLen A=1 D=2 
+    D reload navLen A=1 D=2 
 
 ## eb621ae069 https://app.emby.media/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: 
+    D reload histDelta A=0 D=1 
+    D reload navLen A=1 D=2 
+    D reload navIdx A=0 D=1 
+    D reload textLen A=0 D=221 
+    D fragment histDelta A=1 D=2 
+    D fragment navLen A=2 D=3 
+    D fragment navIdx A=1 D=2 
+    D fragment textLen A=0 D=221 
+    D back2 histDelta A=1 D=2 
+    D back2 navLen A=2 D=3 
+    D back2 navIdx A=0 D=1 
+    D back2 intercepted A=0 D=1 
+    D back2 textLen A=0 D=221 
 
 ## 10a2362285 https://xsz-av.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
    api: 
-
-## c1a7b87539 https://oantagonista.com.br/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:currentEntry listen:navigatesuccess
-
-## 5b15dd34fc https://www.loft.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate
-
-## ece957a601 https://www.decathlon.es/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:activation get:currentEntry listen:navigate
-
-## d7d47c35e6 https://steamcommunity.com/app/1551980
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
-   api: 
-
-## 7e80c3f43c https://eportal.incometax.gov.in/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## ebe5323ce1 https://www.chittorgarh.com/report/ipo-in-india-list-main-board-sme/82/mainboard/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigate listen:navigatesuccess
-
-## 288dd1f1dd https://udn.com/news/story/6810/9814953
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-
-## 78f645202b https://weathernews.jp/news/202610/130231/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
-
-## 0d105a8f9e http://www.viaggiatreno.it/
-   errors: {'A': 'Error: Page.goto: net::ERR_BLOCKED_BY_CLIENT at http://www.viaggiatreno.it/\nCall log:\n  - navigating to "http://www.viaggiatreno.it/", waiting until "load"\n', 'A2': 'Error: Page.goto: net::ERR_BLOCKED_BY_CLIENT at http://www.viaggiatreno.it/\nCall log:\n  - navigating to "http://www.viaggiatreno.it/", waiting until "load"\n', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:currententrychange listen:navigate
-
-## cf9c0b6492 https://www.e.leclerc/fp/raclette-grill-6-coupelles-elsay-3603313551541
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate
-
-## 7c34350a0d https://www.showroomprive.com/vente.aspx
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:currententrychange listen:navigate
-
-## ad15c0ae95 https://www.unieuro.it/volantino-piu-gusto-alle-tue-passioni
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-    B fragment textLen A=2475 B=1197 C_same_as_A=True
-
-## be1b78a519 https://www.meta.com/ai-glasses/meta-glasses/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: listen:navigate listen:navigatesuccess
-
-## cb7baf9280 https://www.xnxx-ru.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:activation
-
-## 836bb15592 https://store.steampowered.com/
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
-   api: call:navigate get:currentEntry intercept:replace listen:currententrychange listen:navigate
-    B fragment newErrors A=None B=["AbortError: The fetching process for the media resource was aborted by the user agent at the user's request."] C_same_as_A=True
-
-## 5e3ece390d https://olhardigital.com.br/2026/10/15/ciencia-e-espaco/incendios-na-amazonia-reduzem-a-absorcao-de-
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
-   api: get:currentEntry listen:navigate listen:navigatesuccess
-
-## eb7980b056 https://pumpbear.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries call:updateCurrentEntry get:transition intercept:push intercept:traverse listen:navigate scroll:push scroll:traverse
-    B back newErrors A=None B=['Error: Loading chunk N failed after N retries.'] C_same_as_A=True
-
-## 22d863d363 https://pt.faphouse.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 3a4035431e https://www.rogers.com/tv/plans
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries
-
-## b240296710 https://caras.com.br/
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
-   api: get:currentEntry listen:navigate listen:navigatesuccess
-
-## 1e6a3d2bf6 https://www.spectrum.net/page/spectrum-storm-center
-   errors: {'B': 'InvalidSessionIdException: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## ee4d4b8d86 https://www.jiji.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigate listen:navigatesuccess
-
-## 1680aa000b https://steamcommunity.com/
-   api: 
-    D link path A=https://steamcommunity.com/app/883710 D=https://steamcommunity.com/ 
-    D link sameDoc A=False D=True 
-    D link histDelta A=1 D=0 
-    D link navLen A=2 D=1 
-    D link navIdx A=1 D=0 
-    D link titleHash A=d99071b778a5 D=104e4d532818 
-    D back sameDoc A=False D=True 
-    D back histDelta A=1 D=0 
-    D back navLen A=2 D=1 
-    D forward path A=https://steamcommunity.com/app/883710 D=https://steamcommunity.com/ 
-    D forward sameDoc A=False D=True 
-    D forward histDelta A=1 D=0 
-    D forward navLen A=2 D=1 
-    D forward navIdx A=1 D=0 
-    D forward titleHash A=d99071b778a5 D=104e4d532818 
-    D reload path A=https://steamcommunity.com/app/883710 D=https://steamcommunity.com/ 
+    D load textLen A=3000 D=258 
+    D load titleHash A=96bfa33e9368 D=5ffa9751f584 
+    D reload path A=https://xsz-av.com/videos/japanese D=https://xsz-av.com/ 
     D reload histDelta A=1 D=0 
     D reload navLen A=2 D=1 
     D reload navIdx A=1 D=0 
-    D reload titleHash A=d99071b778a5 D=104e4d532818 
-    D fragment path A=https://steamcommunity.com/app/883710 D=https://steamcommunity.com/ 
+    D fragment path A=https://xsz-av.com/videos/japanese D=https://xsz-av.com/ 
     D fragment histDelta A=2 D=1 
     D fragment navLen A=3 D=2 
     D fragment navIdx A=2 D=1 
-    D fragment titleHash A=d99071b778a5 D=104e4d532818 
-    D back2 path A=https://steamcommunity.com/app/883710 D=https://steamcommunity.com/ 
+    D back2 path A=https://xsz-av.com/videos/japanese D=https://xsz-av.com/ 
     D back2 histDelta A=2 D=1 
     D back2 navLen A=3 D=2 
     D back2 navIdx A=1 D=0 
-    D back2 titleHash A=d99071b778a5 D=104e4d532818 
 
-## 9b5039bebc https://bycheck.org/check/subscriptions/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:updateCurrentEntry get:currentEntry
-
-## 2440a05586 https://store.steampowered.com/app/3219030/Planet_Zoo_2
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
-   api: call:navigate get:currentEntry intercept:replace listen:currententrychange listen:navigate
-    B forward intercepted A=0 B=1 C_same_as_A=True
-    B fragment newErrors A=None B=["AbortError: The fetching process for the media resource was aborted by the user agent at the user's request."] C_same_as_A=True
-
-## e4b0a1101c https://wwin.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:activation get:currentEntry listen:navigate
-
-## 623c950810 https://www.qconcursos.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries listen:currententrychange listen:navigate
-
-## b3c76e598d https://www.eheya.net/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 24c9f4d51c https://www.maariv.co.il/news/military/article-1377683
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
-
-## 3508890603 https://www.omelete.com.br/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## c1a7b87539 https://oantagonista.com.br/
+   errors: {'D': 'InvalidSessionIdException: Message: ; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
    api: call:entries get:currentEntry listen:navigatesuccess
 
-## e169938fe1 https://www.correio24horas.com.br/bahia/acusado-de-matar-ex-ator-mirim-da-tv-globo-joao-rebello-em-t
-   errors: {'D': 'SessionNotCreatedException: Message: Could not create a session: The Safari instance is already paired with another WebDriver session.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n'}
+## ece957a601 https://www.decathlon.es/
+   api: call:entries get:activation get:currentEntry listen:navigate
+    D load textLen A=6511 D=4342 
+    D link textLen A=16350 D=11059 
+    D back textLen A=6839 D=4684 
+    D forward textLen A=16350 D=11059 
+    D reload textLen A=16350 D=11059 
+    D fragment textLen A=16350 D=11345 
+    D back2 textLen A=16350 D=11345 
+
+## d7d47c35e6 https://steamcommunity.com/app/1551980
+   api: 
+    D back textLen A=993 D=1349 
+
+## 7e80c3f43c https://eportal.incometax.gov.in/
+   api: 
+    D reload stuck A=False D=True 
+    D fragment histDelta A=1 D=0 
+    D fragment stuck A=False D=True 
+    D back2 path A=https://eportal.incometax.gov.in/iec/foservices/ D=about:blank 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=1 D=0 
+    D back2 navLen A=2 D=0 
+    D back2 navIdx A=0 D=None 
+    D back2 titleHash A=50804cdf53ba D=da39a3ee5e6b 
+
+## ebe5323ce1 https://www.chittorgarh.com/report/ipo-in-india-list-main-board-sme/82/mainboard/
    api: get:currentEntry listen:navigate listen:navigatesuccess
+    D load textLen A=11161 D=9414 
+    D back textLen A=11161 D=9414 
 
-## df8ecfd302 https://www.xnxx.com/todays-selection
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:activation
+## 288dd1f1dd https://udn.com/news/story/6810/9814953
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    D back newErrors A=None D=['TypeError'] 
+    D forward newErrors A=None D=['TypeError'] 
 
-## 675dbb6878 https://map.naver.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
+## 78f645202b https://weathernews.jp/news/202610/130231/
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    D back newErrors A=None D=['AxiosError'] 
+    D forward newErrors A=None D=['AxiosError'] 
 
-## 37bd2845ce https://plan-vivienda.mit.gob.ec/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: 
-
-## 0b07ae0e60 https://www.fastpeoplesearch.com/contact
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## 0d105a8f9e http://www.viaggiatreno.it/
+   errors: {'A': 'Error: Page.goto: net::ERR_BLOCKED_BY_CLIENT at http://www.viaggiatreno.it/\nCall log:\n  - navigating to "http://www.viaggiatreno.it/", waiting until "load"\n', 'A2': 'Error: Page.goto: net::ERR_BLOCKED_BY_CLIENT at http://www.viaggiatreno.it/\nCall log:\n  - navigating to "http://www.viaggiatreno.it/", waiting until "load"\n'}
    api: listen:currententrychange listen:navigate
 
-## ca0e880b10 https://www.brasil247.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:navigate listen:navigatesuccess
+## cf9c0b6492 https://www.e.leclerc/fp/raclette-grill-6-coupelles-elsay-3603313551541
+   api: listen:navigate
+    D link newErrors A=None D=['Script error.'] 
+    D back newErrors A=None D=['Script error.', 'TypeError'] 
+    D forward newErrors A=None D=['TypeError'] 
 
-## db306f9448 https://americansongwriter.com/born-78-years-ago-today-in-jamaica-the-disco-icon-who-sold-150-millio
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:currentEntry listen:currententrychange listen:navigatesuccess
+## 7c34350a0d https://www.showroomprive.com/vente.aspx
+   api: listen:currententrychange listen:navigate
+    D load textLen A=2521 D=1025 
+    D reload path A=https://www.showroomprive.com/politique_confidentialite.aspx D=https://www.showroomprive.com/ 
+    D reload histDelta A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D reload scrollY A=0 D=1727 
+    D reload textLen A=35564 D=1025 
+    D fragment path A=https://www.showroomprive.com/politique_confidentialite.aspx D=https://www.showroomprive.com/ 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment scrollY A=0 D=1727 
+    D fragment textLen A=35564 D=1025 
+    D back2 path A=https://www.showroomprive.com/politique_confidentialite.aspx D=https://www.showroomprive.com/ 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 scrollY A=0 D=1727 
+    D back2 textLen A=35564 D=1025 
 
-## dde685fb4d https://fr.xvideos.com/
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## ad15c0ae95 https://www.unieuro.it/volantino-piu-gusto-alle-tue-passioni
+   api: 
+    D link textLen A=1453 D=2364 
+    D link titleHash A=49fd3dc85cbd D=178d8b891e17 
+    D back textLen A=2348 D=4544 
+    D forward textLen A=1453 D=4559 
+    D forward titleHash A=49fd3dc85cbd D=178d8b891e17 
+    B fragment textLen A=2475 B=1197 C_same_as_A=True
+    D back2 textLen A=1197 D=2487 
+
+## cb7baf9280 https://www.xnxx-ru.com/
+   errors: {'D': 'WebDriverException: Message: A command failed due to an internal error: The remote session was terminated.\n'}
    api: get:activation
 
-## e0eb0574ec https://www.costcotravel.com/theme-parks
-   errors: {'B': 'InvalidSessionIdException: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n', 'C': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.costcotravel.com/theme-parks&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError@c', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+## 836bb15592 https://store.steampowered.com/
+   api: call:navigate get:currentEntry intercept:replace listen:currententrychange listen:navigate
+    D link intercepted A=1 D=0 
+    B fragment newErrors A=None B=["AbortError: The fetching process for the media resource was aborted by the user agent at the user's request."] C_same_as_A=True
+
+## eb7980b056 https://pumpbear.com/
+   api: call:entries call:updateCurrentEntry get:transition intercept:push intercept:traverse listen:navigate scroll:push scroll:traverse
+    B back newErrors A=None B=['Error: Loading chunk N failed after N retries.'] C_same_as_A=True
+    D reload histDelta A=1 D=2 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D fragment histDelta A=2 D=3 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 histDelta A=2 D=3 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+
+## 3a4035431e https://www.rogers.com/tv/plans
+   api: call:entries
+    D link textLen A=1959 D=1592 
+    D forward textLen A=1959 D=1592 
+
+## b240296710 https://caras.com.br/
+   api: get:currentEntry listen:navigate listen:navigatesuccess
+    D fragment scrollY A=6520 D=7256 
+    D fragment textLen A=10409 D=7889 
+    D back2 textLen A=10405 D=7889 
+
+## 1e6a3d2bf6 https://www.spectrum.net/page/spectrum-storm-center
    api: 
+    D back path A=about:blank D=https://www.spectrum.net/es/page/spectrum-storm-center 
+    D back sameDoc A=False D=True 
+    D back navLen A=0 D=1 
+    D back navIdx A=None D=0 
+    D back textLen A=0 D=3016 
+    D back titleHash A=da39a3ee5e6b D=7c5dc6bff5d9 
+    D forward sameDoc A=False D=True 
+
+## 2440a05586 https://store.steampowered.com/app/3219030/Planet_Zoo_2
+   api: call:navigate get:currentEntry intercept:replace listen:currententrychange listen:navigate
+    D load intercepted A=2 D=0 
+    D link intercepted A=1 D=0 
+    D back stuck A=False D=True 
+    D back intercepted A=1 D=0 
+    B forward intercepted A=0 B=1 C_same_as_A=True
+    B fragment newErrors A=None B=["AbortError: The fetching process for the media resource was aborted by the user agent at the user's request."] C_same_as_A=True
+    D back2 stuck A=False D=True 
+
+## e4b0a1101c https://wwin.com/
+   api: get:activation get:currentEntry listen:navigate
+    D back textLen A=29096 D=15590 
+    D forward textLen A=29080 D=15590 
+    D reload textLen A=29068 D=15590 
+    D fragment textLen A=29068 D=15590 
+    D back2 textLen A=29061 D=15590 
+
+## 24c9f4d51c https://www.maariv.co.il/news/military/article-1377683
+   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D back2 path A=https://www.maariv.co.il/ D=https://www.maariv.co.il/news/military/article-1377683 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 textLen A=12553 D=5347 
+    D back2 titleHash A=f5d41d77ac69 D=551381a1e078 
+    D back2 newErrors A=None D=['Script error.'] 
+
+## 675dbb6878 https://map.naver.com/
+   api: 
+    D load titleHash A=1a024a2caa52 D=da39a3ee5e6b 
+    D reload titleHash A=1a024a2caa52 D=da39a3ee5e6b 
+    D fragment path A=https://map.naver.com/p D=https://map.naver.com/p/ 
+    D fragment textLen A=1558 D=1008 
+    D fragment titleHash A=1a024a2caa52 D=da39a3ee5e6b 
+    D back2 textLen A=1558 D=1008 
+    D back2 titleHash A=1a024a2caa52 D=da39a3ee5e6b 
+
+## ca0e880b10 https://www.brasil247.com/
+   api: get:currentEntry listen:navigate listen:navigatesuccess
+    D link path A=https://www.brasil247.com/ D=https://www.brasil247.com/apoio/ 
+    D link sameDoc A=True D=False 
+    D link textLen A=16929 D=3102 
+    D link titleHash A=b7c240dedea4 D=14faa464d414 
+    D back sameDoc A=True D=False 
+    D forward histDelta A=2 D=1 
+    D forward navLen A=3 D=2 
+    D forward navIdx A=2 D=1 
+    D reload histDelta A=2 D=1 
+    D reload navLen A=3 D=2 
+    D reload navIdx A=2 D=1 
+    D fragment histDelta A=3 D=2 
+    D fragment navLen A=4 D=3 
+    D fragment navIdx A=3 D=2 
+    D back2 histDelta A=3 D=2 
+    D back2 navLen A=4 D=3 
+    D back2 navIdx A=2 D=1 
+
+## e0eb0574ec https://www.costcotravel.com/theme-parks
+   errors: {'B': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.costcotravel.com/theme-parks&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError@c', 'C': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.costcotravel.com/theme-parks&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError@c'}
+   api: 
+    D link path A=chrome-error://chromewebdata/ D=safari-resource:/ErrorPage.html 
+    D link navLen A=0 D=1 
+    D link navIdx A=None D=0 
+    D link titleHash A=1bdeb8dd3bd8 D=a0ec0e79da63 
+    D back path A=chrome-error://chromewebdata/ D=safari-resource:/ErrorPage.html 
+    D back navLen A=0 D=2 
+    D back navIdx A=None D=1 
+    D back titleHash A=1bdeb8dd3bd8 D=a0ec0e79da63 
+    D forward path A=chrome-error://chromewebdata/ D=safari-resource:/ErrorPage.html 
+    D forward navLen A=0 D=2 
+    D forward navIdx A=None D=0 
+    D forward titleHash A=1bdeb8dd3bd8 D=a0ec0e79da63 
+    D reload path A=chrome-error://chromewebdata/ D=safari-resource:/ErrorPage.html 
+    D reload navLen A=0 D=2 
+    D reload navIdx A=None D=0 
+    D reload titleHash A=1bdeb8dd3bd8 D=a0ec0e79da63 
+    D fragment path A=chrome-error://chromewebdata/ D=safari-resource:/ErrorPage.html 
+    D fragment navLen A=0 D=2 
+    D fragment navIdx A=None D=1 
+    D fragment titleHash A=1bdeb8dd3bd8 D=a0ec0e79da63 
+    D back2 path A=chrome-error://chromewebdata/ D= 
+    D back2 sameDoc A=False D=None 
+    D back2 histDelta A=1 D=-16 
+    D back2 navLen A=0 D=None 
+    D back2 scrollY A=0 D=None 
+    D back2 stuck A=False D=True 
+    D back2 titleHash A=1bdeb8dd3bd8 D=None 
 
 ## ceed5ac19c https://www.tacobell.com/food/featured/steak-double-dipping-burritos
-   errors: {'A': 'visit timed out after 240s', 'A2': 'visit timed out after 240s', 'B': 'WebDriverException: Message: Reached error page: about:neterror?e=netTimeout&u=https%3A//www.yum.com/wps/portal/yumbrands/Yumbrands/company/our-brands/taco-bell&c=UTF-8&captivePortalState=unknown&d=The%20server%20at%20www.yum.com%20is%20taking%20too%20long%20to%20respond.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.s', 'C': 'WebDriverException: Message: Reached error page: about:neterror?e=netTimeout&u=https%3A//www.yum.com/wps/portal/yumbrands/Yumbrands/company/our-brands/taco-bell&c=UTF-8&captivePortalState=unknown&d=The%20server%20at%20www.yum.com%20is%20taking%20too%20long%20to%20respond.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.s', 'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
+   errors: {'A': 'visit timed out after 240s', 'A2': 'visit timed out after 240s', 'B': 'WebDriverException: Message: Reached error page: about:neterror?e=netTimeout&u=https%3A//www.yum.<token>&c=UTF-8&captivePortalState=unknown&d=The%20server%20at%20www.yum.com%20is%20taking%20too%20long%20to%20respond.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.s', 'C': 'WebDriverException: Message: Reached error page: about:neterror?e=netTimeout&u=https%3A//www.yum.<token>&c=UTF-8&captivePortalState=unknown&d=The%20server%20at%20www.yum.com%20is%20taking%20too%20long%20to%20respond.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.s', 'D': 'visit timed out after 240s'}
    api: 
-
-## 7697a4b58d https://hotmart.com/en/signup
-   errors: {'D': "SessionNotCreatedException: Message: Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors\n"}
-   api: get:activation get:currentEntry

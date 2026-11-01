@@ -1,0 +1,1453 @@
+{
+ "id": "426377812b",
+ "page": "https://store.steampowered.com/app/3219030/Planet_Zoo_2",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:navigate": 1,
+    "committed:navigate": 1,
+    "currententrychange:replace": 1,
+    "finished:navigate": 1,
+    "get:currentEntry": 2,
+    "intercept:replace": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace:local": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4611,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 294
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "BindNavEvent@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "FixupNamePortion@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "@https://store.steampowered.com/app/3219030/Planet_Zoo_2:1430:19"
+     ],
+     "t": 294
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 294
+    },
+    {
+     "a": "[\"https://store.steampowered.com/app/3219030/Planet_Zoo_2/\",{\"history\":\"replace\",\"info\":\"local\"}]",
+     "k": "call",
+     "m": "navigate",
+     "s": [
+      "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "FixupNamePortion@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "@https://store.steampowered.com/app/3219030/Planet_Zoo_2:1430:19",
+      "l@https://store.akamai.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js"
+     ],
+     "t": 294
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": "local",
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 294,
+     "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+     "userInitiated": false
+    },
+    {
+     "k": "intercept",
+     "m": "replace",
+     "opts": {
+      "focusReset": null,
+      "handler": "function",
+      "precommit": "undefined",
+      "scroll": null
+     },
+     "s": [
+      "BindNavEvent/<@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "FixupNamePortion@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "@https://store.steampowered.com/app/3219030/Planet_Zoo_2:1430:19"
+     ],
+     "t": 294,
+     "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/"
+    },
+    {
+     "from": "https://store.steampowered.com/app/3219030/Planet_Zoo_2",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 294
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 295
+    },
+    {
+     "k": "committed",
+     "m": "navigate",
+     "t": 295
+    },
+    {
+     "k": "finished",
+     "m": "navigate",
+     "t": 295
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+      "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+     ],
+     "t": 436
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 828
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://store.steampowered.com/app/3219030/Planet_Zoo_2",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "34a70a29-5436-4789-a83d-a320fd8a21c9",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+    "urlHash": "9bbf6c8082fd"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8864,
+   "timeOrigin": 1793562685049,
+   "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9bbf6c8082fd",
+   "titleHash": "2827f865da78"
+  },
+  {
+   "step": "link",
+   "href": "https://store.steampowered.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:navigate": 1,
+    "committed:navigate": 1,
+    "currententrychange:replace": 1,
+    "finished:navigate": 1,
+    "get:currentEntry": 2,
+    "intercept:replace": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace:local": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4344,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 29
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "BindNavEvent@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+     ],
+     "t": 29
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 29
+    },
+    {
+     "a": "[\"https://store.steampowered.com/\",{\"history\":\"replace\",\"info\":\"local\"}]",
+     "k": "call",
+     "m": "navigate",
+     "s": [
+      "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "Init@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+     ],
+     "t": 29
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": "local",
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 29,
+     "url": "https://store.steampowered.com/",
+     "userInitiated": false
+    },
+    {
+     "k": "intercept",
+     "m": "replace",
+     "opts": {
+      "focusReset": null,
+      "handler": "function",
+      "precommit": "undefined",
+      "scroll": null
+     },
+     "s": [
+      "BindNavEvent/<@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+     ],
+     "t": 29,
+     "url": "https://store.steampowered.com/"
+    },
+    {
+     "from": "https://store.steampowered.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 29
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 30
+    },
+    {
+     "k": "committed",
+     "m": "navigate",
+     "t": 30
+    },
+    {
+     "k": "finished",
+     "m": "navigate",
+     "t": 30
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+      "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+     ],
+     "t": 97
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 217
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://store.steampowered.com/",
+     "entryIsCurrent": true,
+     "from": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "f6d53948-7f0e-4f2d-ae38-8fd630d07705",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://store.steampowered.com/",
+    "urlHash": "836bb1559232"
+   },
+   "prev": {
+    "counts": {
+     "call:navigate": 1,
+     "committed:navigate": 1,
+     "currententrychange:replace": 1,
+     "finished:navigate": 1,
+     "get:currentEntry": 2,
+     "intercept:replace": 1,
+     "listen:currententrychange": 1,
+     "listen:navigate": 1,
+     "navigate:push": 1,
+     "navigate:replace:local": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 294
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "BindNavEvent@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "FixupNamePortion@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "@https://store.steampowered.com/app/3219030/Planet_Zoo_2:1430:19"
+      ],
+      "t": 294
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 294
+     },
+     {
+      "a": "[\"https://store.steampowered.com/app/3219030/Planet_Zoo_2/\",{\"history\":\"replace\",\"info\":\"local\"}]",
+      "k": "call",
+      "m": "navigate",
+      "s": [
+       "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "FixupNamePortion@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "@https://store.steampowered.com/app/3219030/Planet_Zoo_2:1430:19",
+       "l@https://store.akamai.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js"
+      ],
+      "t": 294
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "info": "local",
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 294,
+      "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+      "userInitiated": false
+     },
+     {
+      "k": "intercept",
+      "m": "replace",
+      "opts": {
+       "handler": "function",
+       "precommit": "undefined"
+      },
+      "s": [
+       "BindNavEvent/<@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "FixupNamePortion@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "@https://store.steampowered.com/app/3219030/Planet_Zoo_2:1430:19"
+      ],
+      "t": 294,
+      "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/"
+     },
+     {
+      "from": "https://store.steampowered.com/app/3219030/Planet_Zoo_2",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 294
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 295
+     },
+     {
+      "k": "committed",
+      "m": "navigate",
+      "t": 295
+     },
+     {
+      "k": "finished",
+      "m": "navigate",
+      "t": 295
+     },
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+       "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+      ],
+      "t": 436
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 828
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": "A",
+      "t": 4978,
+      "url": "https://store.steampowered.com/",
+      "userInitiated": true
+     }
+    ],
+    "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5606,
+   "timeOrigin": 1793562690393,
+   "url": "https://store.steampowered.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "link2",
+   "href": "https://store.steampowered.com/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:navigate": 1,
+    "committed:navigate": 1,
+    "currententrychange:replace": 1,
+    "finished:navigate": 1,
+    "get:currentEntry": 2,
+    "intercept:replace": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace:local": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4344,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 21
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "BindNavEvent@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+     ],
+     "t": 21
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 21
+    },
+    {
+     "a": "[\"https://store.steampowered.com/\",{\"history\":\"replace\",\"info\":\"local\"}]",
+     "k": "call",
+     "m": "navigate",
+     "s": [
+      "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "Init@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+     ],
+     "t": 21
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": "local",
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 21,
+     "url": "https://store.steampowered.com/",
+     "userInitiated": false
+    },
+    {
+     "k": "intercept",
+     "m": "replace",
+     "opts": {
+      "focusReset": null,
+      "handler": "function",
+      "precommit": "undefined",
+      "scroll": null
+     },
+     "s": [
+      "BindNavEvent/<@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+      "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+      "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+     ],
+     "t": 21,
+     "url": "https://store.steampowered.com/"
+    },
+    {
+     "from": "https://store.steampowered.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 21
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 23
+    },
+    {
+     "k": "committed",
+     "m": "navigate",
+     "t": 23
+    },
+    {
+     "k": "finished",
+     "m": "navigate",
+     "t": 23
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+      "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+     ],
+     "t": 118
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 127
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://store.steampowered.com/",
+     "entryIsCurrent": true,
+     "from": "https://store.steampowered.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "6c56f52f-6509-42ac-8605-acbe62f0405f",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://store.steampowered.com/",
+    "urlHash": "836bb1559232"
+   },
+   "prev": {
+    "counts": {
+     "call:navigate": 1,
+     "committed:navigate": 1,
+     "currententrychange:replace": 1,
+     "finished:navigate": 1,
+     "get:currentEntry": 2,
+     "intercept:replace": 1,
+     "listen:currententrychange": 1,
+     "listen:navigate": 1,
+     "navigate:push": 1,
+     "navigate:replace:local": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 29
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "BindNavEvent@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+      ],
+      "t": 29
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 29
+     },
+     {
+      "a": "[\"https://store.steampowered.com/\",{\"history\":\"replace\",\"info\":\"local\"}]",
+      "k": "call",
+      "m": "navigate",
+      "s": [
+       "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "Init@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+      ],
+      "t": 29
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "info": "local",
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 29,
+      "url": "https://store.steampowered.com/",
+      "userInitiated": false
+     },
+     {
+      "k": "intercept",
+      "m": "replace",
+      "opts": {
+       "handler": "function",
+       "precommit": "undefined"
+      },
+      "s": [
+       "BindNavEvent/<@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+      ],
+      "t": 29,
+      "url": "https://store.steampowered.com/"
+     },
+     {
+      "from": "https://store.steampowered.com/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 29
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 30
+     },
+     {
+      "k": "committed",
+      "m": "navigate",
+      "t": 30
+     },
+     {
+      "k": "finished",
+      "m": "navigate",
+      "t": 30
+     },
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+       "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+      ],
+      "t": 97
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 217
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": "A",
+      "t": 3146,
+      "url": "https://store.steampowered.com/",
+      "userInitiated": true
+     }
+    ],
+    "url": "https://store.steampowered.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5824,
+   "timeOrigin": 1793562693914,
+   "url": "https://store.steampowered.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "docH": 4344,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+      "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+     ],
+     "t": 76
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 80
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://store.steampowered.com/",
+     "entryIsCurrent": true,
+     "from": "https://store.steampowered.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "f6d53948-7f0e-4f2d-ae38-8fd630d07705",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://store.steampowered.com/",
+    "urlHash": "836bb1559232"
+   },
+   "prev": {
+    "counts": {
+     "call:navigate": 1,
+     "committed:navigate": 1,
+     "currententrychange:replace": 1,
+     "finished:navigate": 1,
+     "get:currentEntry": 2,
+     "intercept:replace": 1,
+     "listen:currententrychange": 1,
+     "listen:navigate": 1,
+     "navigate:replace:local": 1,
+     "navigate:traverse": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 21
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "BindNavEvent@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+      ],
+      "t": 21
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 21
+     },
+     {
+      "a": "[\"https://store.steampowered.com/\",{\"history\":\"replace\",\"info\":\"local\"}]",
+      "k": "call",
+      "m": "navigate",
+      "s": [
+       "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "Init@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+      ],
+      "t": 21
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "info": "local",
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 21,
+      "url": "https://store.steampowered.com/",
+      "userInitiated": false
+     },
+     {
+      "k": "intercept",
+      "m": "replace",
+      "opts": {
+       "handler": "function",
+       "precommit": "undefined"
+      },
+      "s": [
+       "BindNavEvent/<@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "ReplaceHistoryURL@https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js",
+       "RemoveParamFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js",
+       "RemoveSNRFromURL@https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js"
+      ],
+      "t": 21,
+      "url": "https://store.steampowered.com/"
+     },
+     {
+      "from": "https://store.steampowered.com/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 21
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 23
+     },
+     {
+      "k": "committed",
+      "m": "navigate",
+      "t": 23
+     },
+     {
+      "k": "finished",
+      "m": "navigate",
+      "t": 23
+     },
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+       "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+      ],
+      "t": 118
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 127
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 3059,
+      "url": "https://store.steampowered.com/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://store.steampowered.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5654,
+   "timeOrigin": 1793562697223,
+   "url": "https://store.steampowered.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "docH": 4611,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 203
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+      "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+     ],
+     "t": 208
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+     "entryIsCurrent": true,
+     "from": "https://store.steampowered.com/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "34a70a29-5436-4789-a83d-a320fd8a21c9",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+    "urlHash": "9bbf6c8082fd"
+   },
+   "prev": {
+    "counts": {
+     "listen:currententrychange": 1,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+       "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+      ],
+      "t": 76
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 80
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2682,
+      "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://store.steampowered.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8510,
+   "timeOrigin": 1793562700208,
+   "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9bbf6c8082fd",
+   "titleHash": "2827f865da78"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "listen:currententrychange": 1,
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 4344,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+      "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+     ],
+     "t": 76
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 80
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2682,
+     "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5815
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://store.steampowered.com/",
+     "entryIsCurrent": true,
+     "from": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "f6d53948-7f0e-4f2d-ae38-8fd630d07705",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://store.steampowered.com/",
+    "urlHash": "836bb1559232"
+   },
+   "prev": {
+    "counts": {
+     "listen:currententrychange": 1,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+       "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+      ],
+      "t": 76
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 80
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2682,
+      "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://store.steampowered.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6008,
+   "timeOrigin": 1793562697223,
+   "url": "https://store.steampowered.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "docH": 4344,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+      "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+     ],
+     "t": 266
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 408
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://store.steampowered.com/",
+     "entryIsCurrent": true,
+     "from": "https://store.steampowered.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "f6d53948-7f0e-4f2d-ae38-8fd630d07705",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://store.steampowered.com/",
+    "urlHash": "836bb1559232"
+   },
+   "prev": {
+    "counts": {
+     "listen:currententrychange": 1,
+     "navigate:traverse": 1,
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+       "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+      ],
+      "t": 76
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 80
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2682,
+      "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 5815
+     }
+    ],
+    "url": "https://store.steampowered.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5696,
+   "timeOrigin": 1793562705967,
+   "url": "https://store.steampowered.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "fragment",
+   "href": "https://store.steampowered.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "A#tab_newreleases_content_trigger",
+   "counts": {
+    "listen:currententrychange": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 4394,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+      "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+     ],
+     "t": 266
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 408
+    },
+    {
+     "e": "AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.",
+     "k": "rejection",
+     "t": 3023
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://store.steampowered.com/",
+     "entryIsCurrent": true,
+     "from": "https://store.steampowered.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "f6d53948-7f0e-4f2d-ae38-8fd630d07705",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://store.steampowered.com/",
+    "urlHash": "836bb1559232"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 2183,
+   "textLen": 6050,
+   "timeOrigin": 1793562705967,
+   "url": "https://store.steampowered.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Error reporter does not know how to parse generated stack:"
+    },
+    {
+     "k": "console-warn",
+     "e": ""
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The fetching process for the media resource was aborted by the user agent at the user's request."
+    }
+   ],
+   "urlHash": "836bb1559232",
+   "titleHash": "c248673bcb9a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "docH": 4611,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+      "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+      "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+     ],
+     "t": 125
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 160
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+     "entryIsCurrent": true,
+     "from": "https://store.steampowered.com/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "34a70a29-5436-4789-a83d-a320fd8a21c9",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+    "urlHash": "9bbf6c8082fd"
+   },
+   "prev": {
+    "counts": {
+     "listen:currententrychange": 1,
+     "navigate:traverse": 1,
+     "pageshow": 1,
+     "rejection": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "dQ@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "aae</<@https://store.akamai.steamstatic.com/public/javascript/applications/store/main.js",
+       "Pc@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js",
+       "yl@https://store.akamai.steamstatic.com/public/javascript/applications/store/libraries.js"
+      ],
+      "t": 266
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 408
+     },
+     {
+      "e": "AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.",
+      "k": "rejection",
+      "t": 3023
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 5968,
+      "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://store.steampowered.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8498,
+   "timeOrigin": 1793562712217,
+   "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9bbf6c8082fd",
+   "titleHash": "2827f865da78"
+  }
+ ],
+ "plan": {
+  "link": "https://store.steampowered.com/",
+  "link2": "https://store.steampowered.com/",
+  "fragment": "https://store.steampowered.com/"
+ },
+ "consent": null,
+ "elapsed": 30.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

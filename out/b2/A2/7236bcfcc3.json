@@ -1,0 +1,768 @@
+{
+ "id": "7236bcfcc3",
+ "page": "https://www.mayoclinic.org/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.mayoclinic.org/",
+   "readyState": "complete",
+   "timeOrigin": 1793563132766,
+   "marker": null,
+   "histLen": 32,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 5102,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 2977,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.mayoclinic.org/",
+    "key": "7afeb9a2-22c0-407b-911b-7e7898fc239d",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.mayoclinic.org/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "7236bcfcc34b"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 175
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.mayoclinic.org/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 175,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.mayoclinic.org/",
+     "t": 175
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 175
+    },
+    {
+     "k": "rejection",
+     "e": "[object SecurityPolicyViolationEvent]",
+     "t": 291
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 314
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "rejection": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-warning",
+     "e": "[LaunchDarkly] The waitForInitialization function was called without a timeout specified. In a future version a default timeout will be applied."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "pageerror",
+     "e": "SecurityPolicyViolationEvent"
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "[LaunchDarkly] undefined"
+    }
+   ],
+   "urlHash": "7236bcfcc34b",
+   "titleHash": "73b4b4408b01"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.mayoclinic.org/",
+   "readyState": "complete",
+   "timeOrigin": 1793563137347.3,
+   "marker": null,
+   "histLen": 32,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 3026,
+   "docH": 5128,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 2977,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.mayoclinic.org/",
+    "key": "7afeb9a2-22c0-407b-911b-7e7898fc239d",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.mayoclinic.org/",
+     "from": "https://www.mayoclinic.org/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "7236bcfcc34b"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 75
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.mayoclinic.org/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 75,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.mayoclinic.org/",
+     "t": 75
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 75
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 106
+    },
+    {
+     "k": "rejection",
+     "e": "[object SecurityPolicyViolationEvent]",
+     "t": 135
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-warning",
+     "e": "[LaunchDarkly] The waitForInitialization function was called without a timeout specified. In a future version a default timeout will be applied."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "pageerror",
+     "e": "SecurityPolicyViolationEvent"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://2va6odwvtooyw2xhtiba-po2eyz-c7952895c-clientnsv4-s.akamaihd.net/eum/results.txt' violates the following Content Security Policy directive: \"default-src airgap://test 'self' data: blob: localhost transcend-cdn.com *.transcend-cdn.com unpkg.com *.unpkg.com doublethedonation.com "
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://<term>_s-194-236-191-75_ts-1793563138-clienttons-s.akamaihd.net/eum/results.txt' violates the following Content Security Policy directive: \"default-src airgap://test 'self' data: blob: localhost transcend-cdn.com *.transcend-cdn.com unpkg.com *.unpkg.com doublethedonati"
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '.hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "The source list for the Content Security Policy directive 'default-src' contains an invalid source: '*..hcn.health'. It will be ignored."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "7236bcfcc34b",
+   "titleHash": "73b4b4408b01"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "url": "https://www.mayoclinic.org/",
+   "readyState": "complete",
+   "timeOrigin": 1793563137347.3,
+   "marker": "m6",
+   "histLen": 33,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 3026,
+   "docH": 5128,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 2977,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.mayoclinic.org/",
+    "key": "3d1d6ff2-360f-45f8-a4e6-356ae14032cb",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.mayoclinic.org/",
+     "from": "https://www.mayoclinic.org/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "dc9b8d97c971"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 75
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.mayoclinic.org/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 75,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.mayoclinic.org/",
+     "t": 75
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 75
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 106
+    },
+    {
+     "k": "rejection",
+     "e": "[object SecurityPolicyViolationEvent]",
+     "t": 135
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.mayoclinic.org/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2711,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.mayoclinic.org/",
+     "t": 2711
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.mayoclinic.org/",
+     "t": 2711
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/#navqa-frag",
+     "t": 2711
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 2711
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.mayoclinic.org/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2711,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.mayoclinic.org/",
+     "t": 2712
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2712
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.mayoclinic.org/",
+     "t": 2712
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "rejection": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigateerror": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "dc9b8d97c971",
+   "titleHash": "73b4b4408b01"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.mayoclinic.org/",
+   "readyState": "complete",
+   "timeOrigin": 1793563137347.3,
+   "marker": "m7",
+   "histLen": 33,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 3026,
+   "docH": 5128,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 2977,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.mayoclinic.org/",
+    "key": "7afeb9a2-22c0-407b-911b-7e7898fc239d",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.mayoclinic.org/",
+     "from": "https://www.mayoclinic.org/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "7236bcfcc34b"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 75
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.mayoclinic.org/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 75,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.mayoclinic.org/",
+     "t": 75
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 75
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 106
+    },
+    {
+     "k": "rejection",
+     "e": "[object SecurityPolicyViolationEvent]",
+     "t": 135
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.mayoclinic.org/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2711,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.mayoclinic.org/",
+     "t": 2711
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.mayoclinic.org/",
+     "t": 2711
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/#navqa-frag",
+     "t": 2711
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 2711
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.mayoclinic.org/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2711,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.mayoclinic.org/",
+     "t": 2712
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2712
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.mayoclinic.org/",
+     "t": 2712
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.mayoclinic.org/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5342,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.mayoclinic.org/",
+     "t": 5342
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5342
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.mayoclinic.org/",
+     "t": 5342
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.mayoclinic.org/",
+     "t": 5344
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "rejection": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigateerror": 1,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[LaunchDarkly] undefined"
+    }
+   ],
+   "urlHash": "7236bcfcc34b",
+   "titleHash": "73b4b4408b01"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.6,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

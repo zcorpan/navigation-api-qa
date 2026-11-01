@@ -79,7 +79,10 @@ def main():
                 be.quit()
             print(f'{s:2} {out[s]["browser"]:28} {json.dumps(out[s]["result"])[:1500]}', flush=True)
         name = os.path.basename(path).replace('.html', '').replace('?', '-').replace('&', '-').replace('=', '')
-        json.dump(out, open(os.path.join('tests/results', name + '.json'), 'w'), indent=1)
+        f = os.path.join('tests/results', name + '.json')
+        merged = json.load(open(f)) if os.path.exists(f) else {}
+        merged.update(out)
+        json.dump(merged, open(f, 'w'), indent=1)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,1186 @@
+{
+ "id": "5b74cb603e",
+ "page": "https://247sports.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7937,
+   "histLen": 19,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 320,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 320,
+     "url": "https://247sports.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://247sports.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 321
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 355
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1588
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1889
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 1889
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "8a7c793b-8826-4ecf-9c04-ac09643b365c",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/",
+    "urlHash": "5b74cb603e44"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7908,
+   "timeOrigin": 1793554648689,
+   "url": "https://247sports.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793554655415_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793554655415_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793554655419_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793554655419_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "5b74cb603e44",
+   "titleHash": "55de2411533c"
+  },
+  {
+   "step": "link",
+   "href": "https://247sports.com/League/NCAA-FB/Teams/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 9039,
+   "histLen": 20,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 168,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 168,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 168
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 192
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16899",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133103",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 494
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16938",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133103",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 494
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 636
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 636
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 925
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "85ea7b57-10a4-45a4-b600-1d371c56e333",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "8d39dd092165"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13373,
+   "timeOrigin": 1793554657070,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    }
+   ],
+   "urlHash": "8d39dd092165",
+   "titleHash": "b970d5fdbc0a"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 7937,
+   "histLen": 20,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://247sports.com/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16899",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133103",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 341
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16938",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133103",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 341
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 629
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 629
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2732
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "8a7c793b-8826-4ecf-9c04-ac09643b365c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/",
+    "urlHash": "5b74cb603e44"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7905,
+   "timeOrigin": 1793554660687,
+   "url": "https://247sports.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "5b74cb603e44",
+   "titleHash": "55de2411533c"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:canGoBack": 1,
+    "get:canGoForward": 1,
+    "get:currentEntry": 4,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 9128,
+   "histLen": 20,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 356
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16899",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133103",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 468
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16938",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133103",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 468
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 728
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 728
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2715
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://247sports.com/League/NCAA-FB/Teams/:52:79",
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2715
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2715
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 2715
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2715
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2715
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2715
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "85ea7b57-10a4-45a4-b600-1d371c56e333",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "8d39dd092165"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13373,
+   "timeOrigin": 1793554666010,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 502."
+    }
+   ],
+   "urlHash": "8d39dd092165",
+   "titleHash": "b970d5fdbc0a"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 9039,
+   "histLen": 20,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16893",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133087",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 507
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16932",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133087",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 507
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1210
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1468
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 1468
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "85ea7b57-10a4-45a4-b600-1d371c56e333",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "8d39dd092165"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13373,
+   "timeOrigin": 1793554669011,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getBoundingClientRect\", (intermediate value).document.documentElement is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "The \"hotkeyaction\" event has been deprecated. This check will be removed July 1st, 2024"
+    },
+    {
+     "k": "console-warn",
+     "e": "The \"resource.playback.lts.clearOutOfBoundsLtsBuffer\" setting is deprecated and has no effect. The player now always seeks to the trailing edge when the LTS window moves past the paused position. This check will be removed July 1st, 2026"
+    }
+   ],
+   "urlHash": "8d39dd092165",
+   "titleHash": "b970d5fdbc0a"
+  },
+  {
+   "step": "fragment",
+   "href": "https://247sports.com/League/NCAA-FB/Teams/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 9039,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16893",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133087",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 507
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16932",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133087",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 507
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1210
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1468
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 1468
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 4058,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/",
+     "userInitiated": true
+    },
+    {
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4058
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4059,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4059
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4059
+    },
+    {
+     "k": "hashchange",
+     "t": 4067,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": false,
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "3122f402-3d17-4f39-bf10-91d47c4b1f1c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "b29036f5788e"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 486,
+   "textLen": 13301,
+   "timeOrigin": 1793554669011,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    }
+   ],
+   "urlHash": "b29036f5788e",
+   "titleHash": "b970d5fdbc0a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 9039,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16893",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133087",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 507
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "n.start@https://keymono.net/m2kq9uno0u_m3.js:1:16932",
+      "t.start/e</<@https://keymono.net/m2kq9uno0u_m3.js:1:133087",
+      "d@https://s3media.247sports.<token>.js:2:13591"
+     ],
+     "t": 507
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1210
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1468
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://247sports.com/League/NCAA-FB/Teams/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 1468
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 4058,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/",
+     "userInitiated": true
+    },
+    {
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4058
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4059,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4059
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4059
+    },
+    {
+     "k": "hashchange",
+     "t": 4067,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6700,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6701
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6701
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6701
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6701,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6703,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "85ea7b57-10a4-45a4-b600-1d371c56e333",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "8d39dd092165"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13373,
+   "timeOrigin": 1793554669011,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8d39dd092165",
+   "titleHash": "b970d5fdbc0a"
+  }
+ ],
+ "plan": {
+  "link": "https://247sports.com/League/NCAA-FB/Teams/",
+  "fragment": "https://247sports.com/League/NCAA-FB/Teams/"
+ },
+ "consent": "text:Accept All",
+ "elapsed": 29.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

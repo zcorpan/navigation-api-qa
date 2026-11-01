@@ -1,0 +1,239 @@
+{
+ "id": "9a84b457d8",
+ "page": "https://www.hornbach.nl/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "ASIDE#usercentrics-cmp-ui",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5048,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 285
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 847,
+   "timeOrigin": 1793562688084,
+   "url": "https://www.hornbach.nl/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9a84b457d8ad",
+   "titleHash": "d69e8135af51"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5048,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 207
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 847,
+   "timeOrigin": 1793562695154,
+   "url": "https://www.hornbach.nl/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9a84b457d8ad",
+   "titleHash": "d69e8135af51"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 5048,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 207
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2787,
+     "url": "https://www.hornbach.nl/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2787,
+     "url": "https://www.hornbach.nl/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 847,
+   "timeOrigin": 1793562695154,
+   "url": "https://www.hornbach.nl/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1617e1c49afa",
+   "titleHash": "d69e8135af51"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 5048,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 207
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2787,
+     "url": "https://www.hornbach.nl/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2787,
+     "url": "https://www.hornbach.nl/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5360,
+     "url": "https://www.hornbach.nl/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5361,
+     "url": "https://www.hornbach.nl/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 847,
+   "timeOrigin": 1793562695154,
+   "url": "https://www.hornbach.nl/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9a84b457d8ad",
+   "titleHash": "d69e8135af51"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:ACCEPTEREN",
+ "elapsed": 15.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

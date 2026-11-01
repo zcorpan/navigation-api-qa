@@ -1,0 +1,641 @@
+{
+ "id": "e216654123",
+ "page": "https://onedio.com/",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 23,
+   "url": "https://onedio.com/",
+   "log": [],
+   "docH": 19183,
+   "marker": null,
+   "timeOrigin": 1793563137604,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 19844,
+   "nav": {
+    "url": "https://onedio.com/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "c48b52fd-642d-4f2d-9e8f-10b04893b7a1",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://onedio.com/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e21665412309"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e21665412309",
+   "titleHash": "126b54ee5c73"
+  },
+  {
+   "step": "link",
+   "href": "https://onedio.com/test",
+   "click": "js",
+   "settle": 5.0,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 24,
+   "url": "https://onedio.com/test",
+   "log": [],
+   "docH": 10449,
+   "marker": null,
+   "timeOrigin": 1793563146150,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://onedio.com/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://onedio.com/test",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 457,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 12719,
+   "nav": {
+    "url": "https://onedio.com/test",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "346e0376-8034-4db1-84f3-27b072399c1b",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://onedio.com/test",
+     "from": "https://onedio.com/",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "84062c34d2be"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 24,
+   "url": "https://onedio.com/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://onedio.com/test",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 457,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 6405,
+     "persisted": true
+    }
+   ],
+   "docH": 19183,
+   "marker": "m0",
+   "timeOrigin": 1793563137604,
+   "scrollX": 0,
+   "counts": {
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://onedio.com/test",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://onedio.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 403,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 19844,
+   "nav": {
+    "url": "https://onedio.com/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "c48b52fd-642d-4f2d-9e8f-10b04893b7a1",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://onedio.com/",
+     "from": "https://onedio.com/test",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e21665412309"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e21665412309",
+   "titleHash": "126b54ee5c73"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 24,
+   "url": "https://onedio.com/test",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://onedio.com/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 403,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3439,
+     "persisted": true
+    }
+   ],
+   "docH": 10449,
+   "marker": "m1",
+   "timeOrigin": 1793563146150,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://onedio.com/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://onedio.com/test",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 457,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 6405,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://onedio.com/test",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 8635,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1,
+     "navigate:push": 1
+    }
+   },
+   "textLen": 12719,
+   "nav": {
+    "url": "https://onedio.com/test",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "346e0376-8034-4db1-84f3-27b072399c1b",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://onedio.com/test",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "84062c34d2be"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 24,
+   "url": "https://onedio.com/test",
+   "log": [],
+   "docH": 10296,
+   "marker": null,
+   "timeOrigin": 1793563157007,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://onedio.com/test",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://onedio.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 403,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3439,
+      "persisted": true
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 12681,
+   "nav": {
+    "url": "https://onedio.com/test",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "346e0376-8034-4db1-84f3-27b072399c1b",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://onedio.com/test",
+     "from": "https://onedio.com/test",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "84062c34d2be"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 24,
+   "url": "https://onedio.com/test",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://onedio.com/test",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 509,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 510,
+     "m": "replace",
+     "from": "https://onedio.com/test"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 510
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 510
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://onedio.com/test",
+     "t": 511
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 540
+    },
+    {
+     "k": "hashchange",
+     "url": "https://onedio.com/test",
+     "t": 553
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 608
+    }
+   ],
+   "docH": 10450,
+   "marker": "m4",
+   "timeOrigin": 1793563157007,
+   "scrollX": 0,
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "navigate:replace": 1,
+    "get:canGoBack": 2,
+    "navigatesuccess": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "textLen": 12957,
+   "nav": {
+    "url": "https://onedio.com/test",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "346e0376-8034-4db1-84f3-27b072399c1b",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://onedio.com/test",
+     "from": "https://onedio.com/test",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "a342ee80529b"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a342ee80529b",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 24,
+   "url": "https://onedio.com/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://onedio.com/test",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 457,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 6405,
+     "persisted": true
+    },
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://onedio.com/test",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 8635,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 18395,
+     "persisted": true
+    }
+   ],
+   "docH": 19183,
+   "marker": "m2",
+   "timeOrigin": 1793563137604,
+   "scrollX": 0,
+   "counts": {
+    "pageshow": 2,
+    "navigate:traverse": 1,
+    "navigate:push": 1
+   },
+   "prev": {
+    "url": "https://onedio.com/test",
+    "log": [
+     {
+      "hashChange": true,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://onedio.com/test",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 509,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 510,
+      "m": "replace",
+      "from": "https://onedio.com/test"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 510
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 510
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "url": "https://onedio.com/test",
+      "t": 511
+     },
+     {
+      "k": "get",
+      "m": "canGoBack",
+      "t": 540
+     },
+     {
+      "k": "hashchange",
+      "url": "https://onedio.com/test",
+      "t": 553
+     },
+     {
+      "k": "get",
+      "m": "canGoBack",
+      "t": 608
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://onedio.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 3412,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "currententrychange:replace": 1,
+     "get:currentEntry": 1,
+     "navigate:replace": 1,
+     "get:canGoBack": 2,
+     "navigatesuccess": 1,
+     "popstate": 1,
+     "hashchange": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 19844,
+   "nav": {
+    "url": "https://onedio.com/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "c48b52fd-642d-4f2d-9e8f-10b04893b7a1",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://onedio.com/",
+     "from": "https://onedio.com/test",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e21665412309"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e21665412309",
+   "titleHash": "126b54ee5c73"
+  }
+ ],
+ "plan": {
+  "link": "https://onedio.com/test",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 28.5,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

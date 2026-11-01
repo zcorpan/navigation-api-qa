@@ -1,0 +1,226 @@
+{
+ "id": "83345e9dd2",
+ "page": "https://jp.gotchamall.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 17,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 22
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793555025842,
+   "url": "https://jp.gotchamall.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "83345e9dd22b",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 17,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 18
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 22
+     }
+    ],
+    "url": "https://jp.gotchamall.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793555029960,
+   "url": "https://jp.gotchamall.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "83345e9dd22b",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 18
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2570,
+     "url": "https://jp.gotchamall.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2570,
+     "url": "https://jp.gotchamall.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793555029960,
+   "url": "https://jp.gotchamall.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0924a16cd268",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 18
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2570,
+     "url": "https://jp.gotchamall.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2570,
+     "url": "https://jp.gotchamall.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5116,
+     "url": "https://jp.gotchamall.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5116,
+     "url": "https://jp.gotchamall.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793555029960,
+   "url": "https://jp.gotchamall.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "83345e9dd22b",
+   "titleHash": "da39a3ee5e6b"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 11.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

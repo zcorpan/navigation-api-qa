@@ -1,0 +1,675 @@
+{
+ "id": "e11b551a11",
+ "page": "https://serieously.ouest-france.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 1,
+   "url": "https://serieously.ouest-france.<token>",
+   "log": [],
+   "docH": 10343,
+   "marker": null,
+   "timeOrigin": 1793565379704,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 9747,
+   "nav": {
+    "url": "https://serieously.ouest-france.<token>",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "dca06183-b458-495d-9b38-25230678bc79",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://serieously.ouest-france.<token>",
+     "from": null,
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e11b551a1174"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e11b551a1174",
+   "titleHash": "11b8c252fba7"
+  },
+  {
+   "step": "link",
+   "href": "https://serieously.ouest-france.fr/quiz/",
+   "click": "js",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 2,
+   "url": "https://serieously.ouest-france.fr/quiz/",
+   "log": [],
+   "docH": 8682,
+   "marker": null,
+   "timeOrigin": 1793565388383,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://serieously.ouest-france.<token>",
+    "log": [
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 568
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://serieously.ouest-france.fr/quiz/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 594,
+      "m": "push",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "error": 1,
+     "navigate:push": 1
+    }
+   },
+   "textLen": 8155,
+   "nav": {
+    "url": "https://serieously.ouest-france.fr/quiz/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "f56e0b63-dd1d-405b-8cc5-f167fa119ee9",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://serieously.ouest-france.fr/quiz/",
+     "from": "https://serieously.ouest-france.<token>",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "ebc09d06afbd"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "ebc09d06afbd",
+   "titleHash": "e819973b9d47"
+  },
+  {
+   "step": "back",
+   "settle": 3.0,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 2,
+   "url": "https://serieously.ouest-france.<token>",
+   "log": [
+    {
+     "k": "error",
+     "f": null,
+     "e": "Script error.",
+     "l": 0,
+     "t": 568
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://serieously.ouest-france.fr/quiz/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 594,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3473,
+     "persisted": true
+    }
+   ],
+   "docH": 10343,
+   "marker": "m0",
+   "timeOrigin": 1793565379704,
+   "scrollX": 0,
+   "counts": {
+    "error": 1,
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://serieously.ouest-france.fr/quiz/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://serieously.ouest-france.<token>",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 160,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 9747,
+   "nav": {
+    "url": "https://serieously.ouest-france.<token>",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "dca06183-b458-495d-9b38-25230678bc79",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://serieously.ouest-france.<token>",
+     "from": "https://serieously.ouest-france.fr/quiz/",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e11b551a1174"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e11b551a1174",
+   "titleHash": "11b8c252fba7"
+  },
+  {
+   "step": "forward",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 2,
+   "url": "https://serieously.ouest-france.fr/quiz/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://serieously.ouest-france.<token>",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 160,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 4050,
+     "persisted": true
+    },
+    {
+     "k": "rejection",
+     "e": "TypeError: Load failed",
+     "t": 4064
+    },
+    {
+     "k": "rejection",
+     "e": "NotReadableError: The I/O read operation failed.",
+     "t": 4438
+    },
+    {
+     "k": "rejection",
+     "e": "NotReadableError: The I/O read operation failed.",
+     "t": 4438
+    },
+    {
+     "k": "rejection",
+     "e": "NotReadableError: The I/O read operation failed.",
+     "t": 4438
+    },
+    {
+     "k": "rejection",
+     "e": "NotReadableError: The I/O read operation failed.",
+     "t": 4438
+    },
+    {
+     "k": "rejection",
+     "e": "NotReadableError: The I/O read operation failed.",
+     "t": 4438
+    },
+    {
+     "k": "rejection",
+     "e": "NotReadableError: The I/O read operation failed.",
+     "t": 4438
+    },
+    {
+     "k": "rejection",
+     "e": "NotReadableError: The I/O read operation failed.",
+     "t": 4475
+    }
+   ],
+   "docH": 8682,
+   "marker": "m1",
+   "timeOrigin": 1793565388383,
+   "scrollX": 0,
+   "counts": {
+    "pageshow": 1,
+    "rejection": 8,
+    "navigate:traverse": 1
+   },
+   "prev": {
+    "url": "https://serieously.ouest-france.<token>",
+    "log": [
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 568
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://serieously.ouest-france.fr/quiz/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 594,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3473,
+      "persisted": true
+     },
+     {
+      "k": "rejection",
+      "e": "NotReadableError: The I/O read operation failed.",
+      "t": 6926
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://serieously.ouest-france.fr/quiz/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 6962,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "rejection": 1,
+     "pageshow": 1,
+     "navigate:push": 1,
+     "error": 1
+    }
+   },
+   "textLen": 8155,
+   "nav": {
+    "url": "https://serieously.ouest-france.<token>",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "dca06183-b458-495d-9b38-25230678bc79",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://serieously.ouest-france.<token>",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e11b551a1174"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "ebc09d06afbd",
+   "titleHash": "e819973b9d47"
+  },
+  {
+   "step": "reload",
+   "settle": 2.8,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 2,
+   "url": "https://serieously.ouest-france.<token>",
+   "log": [],
+   "docH": 10390,
+   "marker": null,
+   "timeOrigin": 1793565397426,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://serieously.ouest-france.fr/quiz/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://serieously.ouest-france.<token>",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 160,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 4050,
+      "persisted": true
+     },
+     {
+      "k": "rejection",
+      "e": "TypeError: Load failed",
+      "t": 4064
+     },
+     {
+      "k": "rejection",
+      "e": "NotReadableError: The I/O read operation failed.",
+      "t": 4438
+     },
+     {
+      "k": "rejection",
+      "e": "NotReadableError: The I/O read operation failed.",
+      "t": 4438
+     },
+     {
+      "k": "rejection",
+      "e": "NotReadableError: The I/O read operation failed.",
+      "t": 4438
+     },
+     {
+      "k": "rejection",
+      "e": "NotReadableError: The I/O read operation failed.",
+      "t": 4438
+     },
+     {
+      "k": "rejection",
+      "e": "NotReadableError: The I/O read operation failed.",
+      "t": 4438
+     },
+     {
+      "k": "rejection",
+      "e": "NotReadableError: The I/O read operation failed.",
+      "t": 4438
+     },
+     {
+      "k": "rejection",
+      "e": "NotReadableError: The I/O read operation failed.",
+      "t": 4475
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "rejection": 8,
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 10102,
+   "nav": {
+    "url": "https://serieously.ouest-france.<token>",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "dca06183-b458-495d-9b38-25230678bc79",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://serieously.ouest-france.<token>",
+     "from": "https://serieously.ouest-france.<token>",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e11b551a1174"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e11b551a1174",
+   "titleHash": "11b8c252fba7"
+  },
+  {
+   "step": "fragment",
+   "href": "https://serieously.ouest-france.<token>",
+   "click": "js",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 1910,
+   "active": "BODY",
+   "histLen": 3,
+   "url": "https://serieously.ouest-france.<token>",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://serieously.ouest-france.<token>",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 701,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 719,
+     "m": "push",
+     "from": "https://serieously.ouest-france.<token>"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 720
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 720
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://serieously.ouest-france.<token>",
+     "t": 721
+    },
+    {
+     "k": "hashchange",
+     "url": "https://serieously.ouest-france.<token>",
+     "t": 847
+    }
+   ],
+   "docH": 10390,
+   "marker": "m4",
+   "timeOrigin": 1793565397426,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 10102,
+   "nav": {
+    "url": "https://serieously.ouest-france.<token>",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "f56e0b63-dd1d-405b-8cc5-f167fa119ee9",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://serieously.ouest-france.<token>",
+     "from": "https://serieously.ouest-france.<token>",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "9724ed7c9424"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9724ed7c9424",
+   "titleHash": "11b8c252fba7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 1910,
+   "active": "BODY",
+   "histLen": 3,
+   "url": "https://serieously.ouest-france.<token>",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://serieously.ouest-france.<token>",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 701,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 719,
+     "m": "push",
+     "from": "https://serieously.ouest-france.<token>"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 720
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 720
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://serieously.ouest-france.<token>",
+     "t": 721
+    },
+    {
+     "k": "hashchange",
+     "url": "https://serieously.ouest-france.<token>",
+     "t": 847
+    },
+    {
+     "k": "currententrychange",
+     "t": 3786,
+     "m": "push",
+     "from": "https://serieously.ouest-france.<token>"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://serieously.ouest-france.<token>",
+     "t": 3786
+    }
+   ],
+   "docH": 10390,
+   "marker": "m5",
+   "timeOrigin": 1793565397426,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 2,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 2
+   },
+   "prev": null,
+   "textLen": 10102,
+   "nav": {
+    "url": "https://serieously.ouest-france.<token>",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "f56e0b63-dd1d-405b-8cc5-f167fa119ee9",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://serieously.ouest-france.<token>",
+     "from": "https://serieously.ouest-france.<token>",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "9724ed7c9424"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9724ed7c9424",
+   "titleHash": "11b8c252fba7"
+  }
+ ],
+ "plan": {
+  "link": "https://serieously.ouest-france.fr/quiz/",
+  "fragment": "https://serieously.ouest-france.<token>"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 27.9,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

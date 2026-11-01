@@ -1,0 +1,598 @@
+{
+ "id": "c668f43873",
+ "page": "https://www.si.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 9,
+   "url": "https://www.si.<token>",
+   "log": [],
+   "docH": 16344,
+   "marker": null,
+   "timeOrigin": 1793564385353,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 14939,
+   "nav": {
+    "url": "https://www.si.<token>",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "44400cf1-3d27-44d6-a232-79c26d1717c4",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.si.<token>",
+     "from": "https://www.si.<token>",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "c668f4387389"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "c668f4387389",
+   "titleHash": "a815087fd4db"
+  },
+  {
+   "step": "link",
+   "href": "https://www.si.com/fannation",
+   "click": "js",
+   "settle": 3.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 10,
+   "url": "https://www.si.com/fannation",
+   "log": [],
+   "docH": 6809,
+   "marker": null,
+   "timeOrigin": 1793564388222,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.si.<token>",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.si.com/fannation",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 275,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 6828,
+   "nav": {
+    "url": "https://www.si.com/fannation",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "537dcbf1-f768-4014-b7fe-b6f991ec6b20",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "from": "https://www.si.<token>",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0e1055479ede"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "0e1055479ede",
+   "titleHash": "f96e6690c227"
+  },
+  {
+   "step": "back",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 10,
+   "url": "https://www.si.<token>",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://www.si.com/fannation",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 275,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3980,
+     "persisted": true
+    }
+   ],
+   "docH": 16344,
+   "marker": "m0",
+   "timeOrigin": 1793564385353,
+   "scrollX": 0,
+   "counts": {
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.si.com/fannation",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.si.<token>",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 152,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 14939,
+   "nav": {
+    "url": "https://www.si.<token>",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "44400cf1-3d27-44d6-a232-79c26d1717c4",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.si.<token>",
+     "from": "https://www.si.com/fannation",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "c668f4387389"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "c668f4387389",
+   "titleHash": "a815087fd4db"
+  },
+  {
+   "step": "forward",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 10,
+   "url": "https://www.si.com/fannation",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://www.si.<token>",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 152,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3305,
+     "persisted": true
+    }
+   ],
+   "docH": 6809,
+   "marker": "m1",
+   "timeOrigin": 1793564388222,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.si.<token>",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.si.com/fannation",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 275,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3980,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.si.com/fannation",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 6951,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1,
+     "navigate:push": 1
+    }
+   },
+   "textLen": 6828,
+   "nav": {
+    "url": "https://www.si.com/fannation",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "537dcbf1-f768-4014-b7fe-b6f991ec6b20",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0e1055479ede"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "0e1055479ede",
+   "titleHash": "f96e6690c227"
+  },
+  {
+   "step": "reload",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 10,
+   "url": "https://www.si.com/fannation",
+   "log": [],
+   "docH": 6809,
+   "marker": null,
+   "timeOrigin": 1793564397717,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.si.com/fannation",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.si.<token>",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 152,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3305,
+      "persisted": true
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 6828,
+   "nav": {
+    "url": "https://www.si.com/fannation",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "537dcbf1-f768-4014-b7fe-b6f991ec6b20",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "from": "https://www.si.com/fannation",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0e1055479ede"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "0e1055479ede",
+   "titleHash": "f96e6690c227"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 11,
+   "url": "https://www.si.com/fannation",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.si.com/fannation",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 474,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 482
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 482
+    },
+    {
+     "k": "currententrychange",
+     "t": 482,
+     "m": "push",
+     "from": "https://www.si.com/fannation"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.si.com/fannation",
+     "t": 483
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.si.com/fannation",
+     "t": 499
+    }
+   ],
+   "docH": 6809,
+   "marker": "m4",
+   "timeOrigin": 1793564397717,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "navigatesuccess": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 6828,
+   "nav": {
+    "url": "https://www.si.com/fannation",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "a8fa9b99-c00d-44ff-846a-dc8559f6422f",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "from": "https://www.si.com/fannation",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "05bfff8f21e3"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "05bfff8f21e3",
+   "titleHash": "f96e6690c227"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 11,
+   "url": "https://www.si.com/fannation",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.si.com/fannation",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 474,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 482
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 482
+    },
+    {
+     "k": "currententrychange",
+     "t": 482,
+     "m": "push",
+     "from": "https://www.si.com/fannation"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.si.com/fannation",
+     "t": 483
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.si.com/fannation",
+     "t": 499
+    },
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.si.com/fannation",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 3499,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3505
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3505
+    },
+    {
+     "k": "currententrychange",
+     "t": 3505,
+     "m": "traverse",
+     "from": "https://www.si.com/fannation"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.si.com/fannation",
+     "t": 3505
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.si.com/fannation",
+     "t": 3519
+    }
+   ],
+   "docH": 6809,
+   "marker": "m5",
+   "timeOrigin": 1793564397717,
+   "scrollX": 0,
+   "counts": {
+    "get:currentEntry": 2,
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 2,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 6828,
+   "nav": {
+    "url": "https://www.si.com/fannation",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "537dcbf1-f768-4014-b7fe-b6f991ec6b20",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "from": "https://www.si.com/fannation",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0e1055479ede"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0e1055479ede",
+   "titleHash": "f96e6690c227"
+  }
+ ],
+ "plan": {
+  "link": "https://www.si.com/fannation",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 28.9,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

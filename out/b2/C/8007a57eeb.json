@@ -1,0 +1,624 @@
+{
+ "id": "8007a57eeb",
+ "page": "https://pomorska.pl/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 20288,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: window.pp_gemius_cmd is not a function",
+     "f": "https://pomorska.pl/",
+     "k": "error",
+     "l": 452,
+     "t": 316
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1629
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 17633,
+   "timeOrigin": 1793567143267,
+   "url": "https://pomorska.pl/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: window.pp_gemius_cmd is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Header Bidding Protective mode is using!"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: dfp-interstitialdesktop.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567149301_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567149301_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567149338_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793567149338_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR - (ox_esp) Call to OX failedSyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "Deprecated property or method 'AbstractLoader.IMAGE'. See docs for info."
+    },
+    {
+     "k": "console-warn",
+     "e": "Deprecated property or method 'AbstractLoader.IMAGE'. See docs for info."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (frame-ancestors) at <unknown> because it violates the following directive: \u201cframe-ancestors 'self'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "8007a57eeb69",
+   "titleHash": "3e25d3b3f988"
+  },
+  {
+   "step": "link",
+   "href": "https://pomorska.pl/wiadomosci",
+   "click": "native",
+   "settle": 2.5,
+   "active": "IFRAME#<token>",
+   "counts": {
+    "error": 1,
+    "history:pushState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 20288,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: window.pp_gemius_cmd is not a function",
+     "f": "https://pomorska.pl/",
+     "k": "error",
+     "l": 452,
+     "t": 316
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1629
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8349,
+     "url": "https://pomorska.pl/"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 17633,
+   "timeOrigin": 1793567143267,
+   "url": "https://pomorska.pl/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5c26c2d8cb3a",
+   "titleHash": "3e25d3b3f988"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "hashchange": 1,
+    "history:pushState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 20288,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: window.pp_gemius_cmd is not a function",
+     "f": "https://pomorska.pl/",
+     "k": "error",
+     "l": 452,
+     "t": 316
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1629
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8349,
+     "url": "https://pomorska.pl/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11033,
+     "url": "https://pomorska.pl/"
+    },
+    {
+     "k": "hashchange",
+     "t": 11037,
+     "url": "https://pomorska.pl/"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 17877,
+   "timeOrigin": 1793567143267,
+   "url": "https://pomorska.pl/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8007a57eeb69",
+   "titleHash": "3e25d3b3f988"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/wiadomosci?__cf_chl_rt_tk=mnHBNs0655hDIcTzW7Zo.MprQKfkqMF.9fN9DngjqBQ-1793567157-<ip>-7lr.KUzGGNx1YgRaK7kY.QdAQDV..50SnOipwsTG0mk"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 72,
+     "url": "/wiadomosci"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 251
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 259,
+   "timeOrigin": 1793567157223.36,
+   "url": "https://pomorska.pl/wiadomosci",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    }
+   ],
+   "urlHash": "5661ed78eb75",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/wiadomosci?__cf_chl_rt_tk=3m5w6erelkEmeMJ1b8TwGBrm79QuwZM.KF6T7QeMgKQ-1793567159-<ip>-s7Q9VJePYyM1G1FcPIXqFyBXvEQqhM32z4UIqEMHIFE"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 62,
+     "url": "/wiadomosci"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 100
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 259,
+   "timeOrigin": 1793567159782.22,
+   "url": "https://pomorska.pl/wiadomosci",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    }
+   ],
+   "urlHash": "5661ed78eb75",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/wiadomosci?__cf_chl_rt_tk=3m5w6erelkEmeMJ1b8TwGBrm79QuwZM.KF6T7QeMgKQ-1793567159-<ip>-s7Q9VJePYyM1G1FcPIXqFyBXvEQqhM32z4UIqEMHIFE"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 62,
+     "url": "/wiadomosci"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 100
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2675,
+     "url": "https://pomorska.pl/wiadomosci"
+    },
+    {
+     "k": "hashchange",
+     "t": 2675,
+     "url": "https://pomorska.pl/wiadomosci"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 259,
+   "timeOrigin": 1793567159782.22,
+   "url": "https://pomorska.pl/wiadomosci",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "47ab95d40587",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/wiadomosci?__cf_chl_rt_tk=3m5w6erelkEmeMJ1b8TwGBrm79QuwZM.KF6T7QeMgKQ-1793567159-<ip>-s7Q9VJePYyM1G1FcPIXqFyBXvEQqhM32z4UIqEMHIFE"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 62,
+     "url": "/wiadomosci"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 100
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2675,
+     "url": "https://pomorska.pl/wiadomosci"
+    },
+    {
+     "k": "hashchange",
+     "t": 2675,
+     "url": "https://pomorska.pl/wiadomosci"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5247,
+     "url": "https://pomorska.pl/wiadomosci"
+    },
+    {
+     "k": "hashchange",
+     "t": 5248,
+     "url": "https://pomorska.pl/wiadomosci"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 259,
+   "timeOrigin": 1793567159782.22,
+   "url": "https://pomorska.pl/wiadomosci",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5661ed78eb75",
+   "titleHash": "5ffa9751f584"
+  }
+ ],
+ "plan": {
+  "link": "https://pomorska.pl/wiadomosci",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 24.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

@@ -1,56 +1,29 @@
 {
- "A": {
-  "browser": "Chrome Canary 159.0.8136.0",
+ "D": {
+  "browser": "Safari TP 27.0",
   "result": {
+   "idx": 1,
+   "histLen": 2,
+   "url": "#dummy",
    "events": [
     {
-     "type": "push",
      "cancelable": true,
-     "canIntercept": true,
      "userInitiated": false,
+     "type": "push",
+     "canIntercept": true,
      "sameDocument": true
     },
     "navigatesuccess",
     {
-     "type": "traverse",
-     "cancelable": true,
-     "canIntercept": true,
-     "userInitiated": true,
      "sameDocument": true,
+     "cancelable": true,
+     "userInitiated": false,
+     "type": "traverse",
+     "canIntercept": true,
      "action": "preventDefault"
     },
     "navigateerror:AbortError"
-   ],
-   "url": "#dummy",
-   "idx": 1,
-   "histLen": 3
-  }
- },
- "B": {
-  "browser": "Firefox Nightly 161.0a1",
-  "result": {
-   "events": [
-    {
-     "canIntercept": true,
-     "cancelable": true,
-     "sameDocument": true,
-     "type": "push",
-     "userInitiated": false
-    },
-    "navigatesuccess",
-    {
-     "action": "preventDefault",
-     "canIntercept": true,
-     "cancelable": true,
-     "sameDocument": true,
-     "type": "traverse",
-     "userInitiated": false
-    },
-    "navigateerror:AbortError"
-   ],
-   "histLen": 2,
-   "idx": 1,
-   "url": "#dummy"
+   ]
   }
  }
 }

@@ -1,0 +1,1859 @@
+{
+ "id": "e216654123",
+ "page": "https://onedio.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 2,
+    "error": 2,
+    "get:currentEntry": 1,
+    "history:replaceState": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 19221,
+   "histLen": 12,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 218,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 218,
+     "url": "https://onedio.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 218
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 218
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 218,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 218,
+     "url": "https://onedio.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 218
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 219
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 399
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://onedio.com/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 399
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 788
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://onedio.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 3126
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://onedio.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 3127
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://onedio.com/:70:45",
+      "Di@https://jsc.idealmedia.io/site/1031473.js:249:4045",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:19969",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:20652"
+     ],
+     "t": 3168
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/ line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 4896
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/ line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 4897
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://onedio.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "30276572-15a9-4e48-a634-03ed3d2fdc95",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://onedio.com/",
+    "urlHash": "e21665412309"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19972,
+   "timeOrigin": 1793553519945,
+   "url": "https://onedio.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' immediately after loading, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Turnstile already has been loaded. Was Turnstile imported multiple times?"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' immediately after loading, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553520751_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553520751_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553520752_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553520752_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' after 1 second, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' after 1 second, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "JS code is not integrated correctly, place script - \"jsc.idealmedia.io/site/1031473.js\" in the head of your website"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "e21665412309",
+   "titleHash": "126b54ee5c73"
+  },
+  {
+   "step": "link",
+   "href": "https://onedio.com/test",
+   "click": "native",
+   "settle": 2.8,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:replace": 2,
+    "error": 2,
+    "get:currentEntry": 3,
+    "history:replaceState": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 10455,
+   "histLen": 13,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 78
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 78
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 127,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 127,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 127
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 128
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 128
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 128,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 128,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 128
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 129
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 129
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "Di@https://jsc.idealmedia.io/site/1031473.js:249:4045",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:19969",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:20652"
+     ],
+     "t": 1244
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1853
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://onedio.com/test:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 3377
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 4001
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 4001
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://onedio.com/test",
+     "entryIsCurrent": true,
+     "from": "https://onedio.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "c039e461-3578-4bb9-9297-2dfada9e7d6a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://onedio.com/test",
+    "urlHash": "84062c34d2be"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13249,
+   "timeOrigin": 1793553527730,
+   "url": "https://onedio.com/test",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:replace": 2,
+    "error": 2,
+    "get:currentEntry": 3,
+    "history:replaceState": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 19221,
+   "histLen": 13,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 287
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://onedio.com/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 287
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 508,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 508,
+     "url": "https://onedio.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 508
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 508
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 508
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 509,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 509,
+     "url": "https://onedio.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 509
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 509
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 509
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1868
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://onedio.com/:70:45",
+      "Di@https://jsc.idealmedia.io/site/1031473.js:249:4045",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:19969",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:20652"
+     ],
+     "t": 3052
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://onedio.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 3090
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/ line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3433
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/ line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3433
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://onedio.com/",
+     "entryIsCurrent": true,
+     "from": "https://onedio.com/test",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "30276572-15a9-4e48-a634-03ed3d2fdc95",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://onedio.com/",
+    "urlHash": "e21665412309"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19968,
+   "timeOrigin": 1793553532493,
+   "url": "https://onedio.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' immediately after loading, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Turnstile already has been loaded. Was Turnstile imported multiple times?"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' immediately after loading, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' after 1 second, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Unable to find onload callback 'onloadTurnstileCallback' after 1 second, expected 'function', got 'undefined'."
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "JS code is not integrated correctly, place script - \"jsc.idealmedia.io/site/1031473.js\" in the head of your website"
+    }
+   ],
+   "urlHash": "e21665412309",
+   "titleHash": "126b54ee5c73"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:replace": 2,
+    "error": 2,
+    "get:currentEntry": 3,
+    "history:replaceState": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 10301,
+   "histLen": 13,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 111
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 112
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 191,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 191,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 191
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 191
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 191
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 194,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 194,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 194
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 204
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 209
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "Di@https://jsc.idealmedia.io/site/1031473.js:249:4045",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:19969",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:20652"
+     ],
+     "t": 575
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1251
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://onedio.com/test:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 3076
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3149
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3149
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://onedio.com/test",
+     "entryIsCurrent": true,
+     "from": "https://onedio.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "c039e461-3578-4bb9-9297-2dfada9e7d6a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://onedio.com/test",
+    "urlHash": "84062c34d2be"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13273,
+   "timeOrigin": 1793553537029,
+   "url": "https://onedio.com/test",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    }
+   ],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:replace": 2,
+    "error": 2,
+    "get:currentEntry": 1,
+    "history:replaceState": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 10422,
+   "histLen": 13,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 170,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 170,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 170
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 170
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 170,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 170,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 170
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 172
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 478
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 478
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "Di@https://jsc.idealmedia.io/site/1031473.js:249:4045",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:19969",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:20652"
+     ],
+     "t": 781
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1364
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://onedio.com/test:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 3107
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3116
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3116
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://onedio.com/test",
+     "entryIsCurrent": true,
+     "from": "https://onedio.com/test",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "c039e461-3578-4bb9-9297-2dfada9e7d6a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://onedio.com/test",
+    "urlHash": "84062c34d2be"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13274,
+   "timeOrigin": 1793553540881,
+   "url": "https://onedio.com/test",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cAWSALBCORS\u201d rejected because it has the \u201cSameSite=None\u201d attribute but is missing the \u201csecure\u201d attribute."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://yandex.com/ads/prebid/3025919 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status cod"
+    },
+    {
+     "k": "console-warn",
+     "e": "cookieSegments API is deprecated and will be removed in future versions."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://dmp.adform.net/audiencetag/cookiesegments"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    }
+   ],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "error": 2,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10422,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 170,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 170,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 170
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 170
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 170,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 170,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 170
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 172
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 478
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 478
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "Di@https://jsc.idealmedia.io/site/1031473.js:249:4045",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:19969",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:20652"
+     ],
+     "t": 781
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1364
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://onedio.com/test:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 3107
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3116
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3116
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3945,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3946
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3946,
+     "url": "https://onedio.com/test"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3949
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3949
+    },
+    {
+     "k": "hashchange",
+     "t": 3953,
+     "url": "https://onedio.com/test"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://onedio.com/test",
+     "entryIsCurrent": false,
+     "from": "https://onedio.com/test",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "445cb212-e0d9-4ae3-9516-5a32bbaddea6",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://onedio.com/test",
+    "urlHash": "a342ee80529b"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13274,
+   "timeOrigin": 1793553540881,
+   "url": "https://onedio.com/test",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a342ee80529b",
+   "titleHash": "6566d607032e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "error": 2,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 10422,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 170,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 170,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 170
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 170
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 170,
+     "url": "/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 170,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 170
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 172
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 478
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 478
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://onedio.com/test:70:45",
+      "Di@https://jsc.idealmedia.io/site/1031473.js:249:4045",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:19969",
+      "@https://jsc.idealmedia.io/site/1031473.js:253:20652"
+     ],
+     "t": 781
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1364
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://onedio.com/test:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 3107
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3116
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "f": "https://onedio.com/test line 1051 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3116
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3945,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3946
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3946,
+     "url": "https://onedio.com/test"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3949
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3949
+    },
+    {
+     "k": "hashchange",
+     "t": 3953,
+     "url": "https://onedio.com/test"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6524,
+     "url": "https://onedio.com/test",
+     "userInitiated": false
+    },
+    {
+     "from": "https://onedio.com/test",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6524
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6524
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6524
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6524,
+     "url": "https://onedio.com/test"
+    },
+    {
+     "k": "hashchange",
+     "t": 6529,
+     "url": "https://onedio.com/test"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://onedio.com/test",
+     "entryIsCurrent": true,
+     "from": "https://onedio.com/test",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "c039e461-3578-4bb9-9297-2dfada9e7d6a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://onedio.com/test",
+    "urlHash": "84062c34d2be"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13270,
+   "timeOrigin": 1793553540881,
+   "url": "https://onedio.com/test",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "84062c34d2be",
+   "titleHash": "6566d607032e"
+  }
+ ],
+ "plan": {
+  "link": "https://onedio.com/test",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 30.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

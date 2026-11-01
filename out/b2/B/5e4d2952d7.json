@@ -1,0 +1,381 @@
+{
+ "id": "5e4d2952d7",
+ "page": "https://www.msn.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 1321,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 245
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.msn.com/sv-se",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "13d7adc9-1456-45af-bb0e-7898610cc625",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.msn.com/sv-se",
+    "urlHash": "f18a870ef608"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1166,
+   "timeOrigin": 1793563627545,
+   "url": "https://www.msn.com/sv-se",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Firefox calls the Storage Access API on behalf of the site. See https://bugzilla.mozilla.org/show_bug.cgi for details."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cMC1\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cMS0\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "f18a870ef608",
+   "titleHash": "db79f3e99ebd"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 888,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 150
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.msn.com/sv-se",
+     "entryIsCurrent": true,
+     "from": "https://www.msn.com/sv-se",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "13d7adc9-1456-45af-bb0e-7898610cc625",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.msn.com/sv-se",
+    "urlHash": "f18a870ef608"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1166,
+   "timeOrigin": 1793563632049,
+   "url": "https://www.msn.com/sv-se",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Firefox calls the Storage Access API on behalf of the site. See https://bugzilla.mozilla.org/show_bug.cgi for details."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cMC1\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cMS0\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "f18a870ef608",
+   "titleHash": "db79f3e99ebd"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 1321,
+   "histLen": 24,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 150
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2706,
+     "url": "https://www.msn.com/sv-se",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.msn.com/sv-se",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2706
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2706,
+     "url": "https://www.msn.com/sv-se"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2706
+    },
+    {
+     "k": "hashchange",
+     "t": 2706,
+     "url": "https://www.msn.com/sv-se"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.msn.com/sv-se",
+     "entryIsCurrent": false,
+     "from": "https://www.msn.com/sv-se",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "347a5792-e44e-457e-ae93-06e583845734",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.msn.com/sv-se",
+    "urlHash": "a22d0a355f25"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1166,
+   "timeOrigin": 1793563632049,
+   "url": "https://www.msn.com/sv-se",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a22d0a355f25",
+   "titleHash": "db79f3e99ebd"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 1321,
+   "histLen": 24,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 150
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2706,
+     "url": "https://www.msn.com/sv-se",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.msn.com/sv-se",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2706
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2706,
+     "url": "https://www.msn.com/sv-se"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2706
+    },
+    {
+     "k": "hashchange",
+     "t": 2706,
+     "url": "https://www.msn.com/sv-se"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5285,
+     "url": "https://www.msn.com/sv-se",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.msn.com/sv-se",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5285
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5285
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5285,
+     "url": "https://www.msn.com/sv-se"
+    },
+    {
+     "k": "hashchange",
+     "t": 5285,
+     "url": "https://www.msn.com/sv-se"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.msn.com/sv-se",
+     "entryIsCurrent": true,
+     "from": "https://www.msn.com/sv-se",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "13d7adc9-1456-45af-bb0e-7898610cc625",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.msn.com/sv-se",
+    "urlHash": "f18a870ef608"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1166,
+   "timeOrigin": 1793563632049,
+   "url": "https://www.msn.com/sv-se",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f18a870ef608",
+   "titleHash": "db79f3e99ebd"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

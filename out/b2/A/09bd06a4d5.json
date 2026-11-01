@@ -1,0 +1,711 @@
+{
+ "id": "09bd06a4d5",
+ "page": "https://www.nutaku.net/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.nutaku.net/",
+   "readyState": "complete",
+   "timeOrigin": 1793563137901.4,
+   "marker": null,
+   "histLen": 12,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 840,
+   "active": "DIV",
+   "textLen": 2612,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.nutaku.net/",
+    "key": "eafab1ba-468f-41cb-a89a-caa3e6d6f218",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.nutaku.net/",
+     "from": "https://www.nutaku.net/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "09bd06a4d555"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 198
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Provider's accounts list is empty."
+    }
+   ],
+   "urlHash": "09bd06a4d555",
+   "titleHash": "5c0383654779"
+  },
+  {
+   "step": "link",
+   "href": "https://www.nutaku.net/age/terms/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.nutaku.net/age/terms/",
+   "readyState": "complete",
+   "timeOrigin": 1793563142751.1,
+   "marker": null,
+   "histLen": 13,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 13153,
+   "active": "BODY",
+   "textLen": 45035,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.nutaku.net/age/terms/",
+    "key": "45170dc6-99d5-4044-bf58-484bbf11fdd9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.nutaku.net/age/terms/",
+     "from": "https://www.nutaku.net/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "bd4c0ea380fb"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 387
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason"
+    },
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    },
+    {
+     "k": "console-error",
+     "e": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason"
+    }
+   ],
+   "urlHash": "bd4c0ea380fb",
+   "titleHash": "08db907579fc"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.nutaku.net/home/",
+   "click": "native",
+   "settle": 3.6,
+   "url": "https://www.nutaku.net/home/",
+   "readyState": "complete",
+   "timeOrigin": 1793563148032.3,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4186,
+   "active": "BODY",
+   "textLen": 5490,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.nutaku.net/home/",
+    "key": "e91c9a09-e85e-4a1f-ba65-bab528dade7a",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.nutaku.net/home/",
+     "from": "https://www.nutaku.net/age/terms/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "7f6c663c5caf"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1539
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    }
+   ],
+   "urlHash": "7f6c663c5caf",
+   "titleHash": "6dfac931cfc6"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.nutaku.net/age/terms/",
+   "readyState": "complete",
+   "timeOrigin": 1793563151759.6,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 13153,
+   "active": "BODY",
+   "textLen": 45035,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.nutaku.net/age/terms/",
+    "key": "45170dc6-99d5-4044-bf58-484bbf11fdd9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.nutaku.net/age/terms/",
+     "from": "https://www.nutaku.net/home/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "bd4c0ea380fb"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 10
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "bd4c0ea380fb",
+   "titleHash": "08db907579fc"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "url": "https://www.nutaku.net/",
+   "readyState": "complete",
+   "timeOrigin": 1793563154376.9,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 40,
+   "docH": 840,
+   "active": "DIV",
+   "textLen": 2612,
+   "nav": {
+    "len": 3,
+    "idx": 0,
+    "url": "https://www.nutaku.net/",
+    "key": "eafab1ba-468f-41cb-a89a-caa3e6d6f218",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.nutaku.net/",
+     "from": "https://www.nutaku.net/age/terms/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "09bd06a4d555"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 87
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    },
+    {
+     "k": "console-error",
+     "e": "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token."
+    }
+   ],
+   "urlHash": "09bd06a4d555",
+   "titleHash": "5c0383654779"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://www.nutaku.net/age/terms/",
+   "readyState": "complete",
+   "timeOrigin": 1793563157097.6,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 13153,
+   "active": "BODY",
+   "textLen": 45035,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.nutaku.net/age/terms/",
+    "key": "45170dc6-99d5-4044-bf58-484bbf11fdd9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.nutaku.net/age/terms/",
+     "from": "https://www.nutaku.net/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "bd4c0ea380fb"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 10
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "bd4c0ea380fb",
+   "titleHash": "08db907579fc"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.nutaku.net/age/terms/",
+   "readyState": "complete",
+   "timeOrigin": 1793563159709.2,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 13153,
+   "active": "BODY",
+   "textLen": 45035,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.nutaku.net/age/terms/",
+    "key": "45170dc6-99d5-4044-bf58-484bbf11fdd9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.nutaku.net/age/terms/",
+     "from": "https://www.nutaku.net/age/terms/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "bd4c0ea380fb"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 10
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.nutaku.net/age/terms/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 10
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "bd4c0ea380fb",
+   "titleHash": "08db907579fc"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "url": "https://www.nutaku.net/age/terms/",
+   "readyState": "complete",
+   "timeOrigin": 1793563163776.1,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 13153,
+   "active": "BODY",
+   "textLen": 45035,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.nutaku.net/age/terms/",
+    "key": "70dc51e4-ab60-410f-8c6d-b9f7153cf36f",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.nutaku.net/age/terms/",
+     "from": "https://www.nutaku.net/age/terms/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "d898f0b071ab"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 98
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.nutaku.net/age/terms/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1290,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.nutaku.net/age/terms/",
+     "t": 1290
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.nutaku.net/age/terms/",
+     "t": 1290
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1290
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.nutaku.net/age/terms/",
+     "t": 1290
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": {
+    "url": "https://www.nutaku.net/age/terms/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 10
+     },
+     {
+      "k": "navigate",
+      "m": "reload",
+      "url": "https://www.nutaku.net/age/terms/",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 3217,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:reload": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "d898f0b071ab",
+   "titleHash": "08db907579fc"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.nutaku.net/age/terms/",
+   "readyState": "complete",
+   "timeOrigin": 1793563163776.1,
+   "marker": "m7",
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 13153,
+   "active": "BODY",
+   "textLen": 45035,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.nutaku.net/age/terms/",
+    "key": "45170dc6-99d5-4044-bf58-484bbf11fdd9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.nutaku.net/age/terms/",
+     "from": "https://www.nutaku.net/age/terms/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "bd4c0ea380fb"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 98
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.nutaku.net/age/terms/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1290,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.nutaku.net/age/terms/",
+     "t": 1290
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.nutaku.net/age/terms/",
+     "t": 1290
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1290
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.nutaku.net/age/terms/",
+     "t": 1290
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.nutaku.net/age/terms/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3908,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.nutaku.net/age/terms/",
+     "t": 3908
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3908
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.nutaku.net/age/terms/",
+     "t": 3908
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.nutaku.net/age/terms/",
+     "t": 3908
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "bd4c0ea380fb",
+   "titleHash": "08db907579fc"
+  }
+ ],
+ "plan": {
+  "link": "https://www.nutaku.net/age/terms/",
+  "link2": "https://www.nutaku.net/home/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept All Cookies",
+ "consentLate": 3,
+ "elapsed": 39.3,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

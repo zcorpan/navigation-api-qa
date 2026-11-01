@@ -1,0 +1,620 @@
+{
+ "id": "1538d41423",
+ "page": "https://www.bikedekho.com/compare",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 4073,
+   "histLen": 23,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 592
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 630,
+     "url": null
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4426,
+   "timeOrigin": 1793564055722,
+   "url": "https://www.bikedekho.com/compare",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "1538d4142396",
+   "titleHash": "0ccf0b461470"
+  },
+  {
+   "step": "link",
+   "href": "https://www.bikedekho.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6910,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 592
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 630,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4698,
+     "url": "/"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9209,
+   "timeOrigin": 1793564055722,
+   "url": "https://www.bikedekho.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "7a6c86b94216",
+   "titleHash": "0ccf0b461470"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.bikedekho.com/compare",
+   "click": "native",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3923,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 592
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 630,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4698,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 9415,
+     "url": "/compare"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4426,
+   "timeOrigin": 1793564055722,
+   "url": "https://www.bikedekho.com/compare",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: PubAdsService.clear([]).\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "1538d4142396",
+   "titleHash": "da6569e912dd"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 7017,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 592
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 630,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4698,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 9415,
+     "url": "/compare"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12114,
+     "url": "https://www.bikedekho.com/"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8364,
+   "timeOrigin": 1793564055722,
+   "url": "https://www.bikedekho.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: PubAdsService.clear([]).\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "7a6c86b94216",
+   "titleHash": "0ccf0b461470"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3923,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 592
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 630,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4698,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 9415,
+     "url": "/compare"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12114,
+     "url": "https://www.bikedekho.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 14707,
+     "url": "https://www.bikedekho.com/compare"
+    }
+   ],
+   "marker": "m3",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4426,
+   "timeOrigin": 1793564055722,
+   "url": "https://www.bikedekho.com/compare",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: PubAdsService.clear([]).\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 194756227688327."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Removed parameters from custom data due to potential violations. Go to Events Manager to learn more."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - You are sending a non-standard event 'PwaPageView'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/' for more information."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "1538d4142396",
+   "titleHash": "da6569e912dd"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 3
+   },
+   "docH": 7017,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 592
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 630,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4698,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 9415,
+     "url": "/compare"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12114,
+     "url": "https://www.bikedekho.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 14707,
+     "url": "https://www.bikedekho.com/compare"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 17288,
+     "url": "https://www.bikedekho.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8364,
+   "timeOrigin": 1793564055722,
+   "url": "https://www.bikedekho.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: PubAdsService.clear([]).\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "7a6c86b94216",
+   "titleHash": "0ccf0b461470"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 7017,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 490
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8364,
+   "timeOrigin": 1793564076320,
+   "url": "https://www.bikedekho.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "7a6c86b94216",
+   "titleHash": "da6569e912dd"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 7017,
+   "histLen": 25,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 490
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3084,
+     "url": "https://www.bikedekho.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3088,
+     "url": "https://www.bikedekho.com/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8359,
+   "timeOrigin": 1793564076320,
+   "url": "https://www.bikedekho.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Timer \u201cadLoaded\u201d doesn\u2019t exist."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: PubAdsService.clear([]).\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "f2e83c31583f",
+   "titleHash": "da6569e912dd"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 7017,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 490
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3084,
+     "url": "https://www.bikedekho.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3088,
+     "url": "https://www.bikedekho.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5669,
+     "url": "https://www.bikedekho.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5677,
+     "url": "https://www.bikedekho.com/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8364,
+   "timeOrigin": 1793564076320,
+   "url": "https://www.bikedekho.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "7a6c86b94216",
+   "titleHash": "da6569e912dd"
+  }
+ ],
+ "plan": {
+  "link": "https://www.bikedekho.com/",
+  "link2": "https://www.bikedekho.com/compare",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "consentLate": 1,
+ "elapsed": 29.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

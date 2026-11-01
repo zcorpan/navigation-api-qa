@@ -1,0 +1,823 @@
+{
+ "id": "e0b44a8c9b",
+ "page": "https://beacons.ai/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 8125,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 135,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 343
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3141,
+   "timeOrigin": 1793561884375,
+   "url": "https://beacons.ai/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e0b44a8c9be4",
+   "titleHash": "315fa39342d5"
+  },
+  {
+   "step": "link",
+   "href": "https://beacons.ai/i/managers",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6314,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 135,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 343
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7039,
+     "url": "/i/managers"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2714,
+   "timeOrigin": 1793561884375,
+   "url": "https://beacons.ai/i/managers",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "ae2517547c0f",
+   "titleHash": "efc30698bb11"
+  },
+  {
+   "step": "link2",
+   "href": "https://beacons.ai/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 8125,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 84
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 87,
+     "url": null
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3144,
+   "timeOrigin": 1793561894231,
+   "url": "https://beacons.ai/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e0b44a8c9be4",
+   "titleHash": "315fa39342d5"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6314,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 50,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 93
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2717,
+   "timeOrigin": 1793561896895,
+   "url": "https://beacons.ai/i/managers",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.beacons.ai/scripts/trafficSource.min.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://events.framer.com/script from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.CXlwZAmB.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/cookie-notice.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092 from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/react.Cp09IrxX.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/framer.c1QlotmQ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://public.profitwell.com/js/profitwell.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/cdn-cgi/challenge-platform/scripts/jsd/main.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.DP6UHn8C.mjs from being executed because it violates the following directive: \u201csc"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inl"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://framer.com/edit/init.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://app.framerstatic.com/chunk-CS7BPPVU.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    }
+   ],
+   "urlHash": "ae2517547c0f",
+   "titleHash": "efc30698bb11"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 8125,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 50,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 93
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2746,
+     "url": "https://beacons.ai/"
+    }
+   ],
+   "marker": "m3",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3147,
+   "timeOrigin": 1793561896895,
+   "url": "https://beacons.ai/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.BaGh_d1d.mjs from being executed because it violates the following directive: \u201csc"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/react.Cp09IrxX.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/motion.4Y7rh_ro.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/framer.c1QlotmQ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.RSo4GI-C.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/react.Cp09IrxX.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/framer.c1QlotmQ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.DJTS_jIf.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' '"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/react.Cp09IrxX.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/framer.c1QlotmQ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.BrPK-9SX.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.RHDKFHSJ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.DyP99045.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.ImzatR50.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.CQkeYMYK.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/react.Cp09IrxX.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/motion.4Y7rh_ro.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/framer.c1QlotmQ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.7ifK_bIE.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.RHDKFHSJ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.NR9u4wna.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/framer.c1QlotmQ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.CU-hkusz.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/framer.c1QlotmQ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.ImzatR50.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.B3Q-4izi.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/react.Cp09IrxX.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/motion.4Y7rh_ro.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/framer.c1QlotmQ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.CtiFIVoc.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsa"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/react.Cp09IrxX.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/_framerusercontent/sites/3ib9eDyMcFLHyTDizRq40n/framer.c1QlotmQ.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.wX8lA0tU.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-e"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.DEu_cthK.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsaf"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.2ET2Ut08.mjs from being executed because it violates the following directive: \u201csc"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.Bi-D_2cA.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'u"
+    }
+   ],
+   "urlHash": "e0b44a8c9be4",
+   "titleHash": "315fa39342d5"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6314,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 50,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 93
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2746,
+     "url": "https://beacons.ai/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5383,
+     "url": "https://beacons.ai/i/managers"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2717,
+   "timeOrigin": 1793561896895,
+   "url": "https://beacons.ai/i/managers",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "ae2517547c0f",
+   "titleHash": "efc30698bb11"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6314,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 100,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 212
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2717,
+   "timeOrigin": 1793561904948,
+   "url": "https://beacons.ai/i/managers",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.beacons.ai/scripts/trafficSource.min.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://events.framer.com/script from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.CXlwZAmB.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/cookie-notice.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092 from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://public.profitwell.com/js/profitwell.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.ai/cdn-cgi/challenge-platform/scripts/jsd/main.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.js from being executed because it violates the following directive: \u201cscript-src 'unsafe-inl"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://framer.com/edit/init.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://app.framerstatic.com/chunk-CS7BPPVU.mjs from being executed because it violates the following directive: \u201cscript-src 'unsafe-inline' 'unsafe-eval'\u201d"
+    }
+   ],
+   "urlHash": "ae2517547c0f",
+   "titleHash": "efc30698bb11"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6314,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 100,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 212
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2860,
+     "url": "https://beacons.ai/i/managers"
+    },
+    {
+     "k": "hashchange",
+     "t": 2861,
+     "url": "https://beacons.ai/i/managers"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2861,
+     "url": null
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2717,
+   "timeOrigin": 1793561904948,
+   "url": "https://beacons.ai/i/managers",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0be1bfb95e3a",
+   "titleHash": "efc30698bb11"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6314,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 100,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 212
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2860,
+     "url": "https://beacons.ai/i/managers"
+    },
+    {
+     "k": "hashchange",
+     "t": 2861,
+     "url": "https://beacons.ai/i/managers"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2861,
+     "url": null
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5493,
+     "url": "https://beacons.ai/i/managers"
+    },
+    {
+     "k": "hashchange",
+     "t": 5494,
+     "url": "https://beacons.ai/i/managers"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2717,
+   "timeOrigin": 1793561904948,
+   "url": "https://beacons.ai/i/managers",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://beacons.<token>.2ET2Ut08.mjs from being executed because it violates the following directive: \u201csc"
+    }
+   ],
+   "urlHash": "ae2517547c0f",
+   "titleHash": "efc30698bb11"
+  }
+ ],
+ "plan": {
+  "link": "https://beacons.ai/i/managers",
+  "link2": "https://beacons.ai/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept all cookies",
+ "elapsed": 28.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

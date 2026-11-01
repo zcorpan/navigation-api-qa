@@ -1,0 +1,1556 @@
+{
+ "id": "530d911298",
+ "page": "https://www.idokep.hu/szmog",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.idokep.hu/szmog",
+   "readyState": "complete",
+   "timeOrigin": 1793553070727.3,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3369,
+   "active": "BODY",
+   "textLen": 1015,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.idokep.hu/szmog",
+    "key": "cd30be9f-be77-449c-b855-707ffb011958",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.idokep.hu/szmog",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "530d91129815"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 1055
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1133
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 1133
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1472
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at new Pi (https://jsc.native.azerion.com/site/1031649.js:233:4040)",
+      "at https://jsc.native.azerion.com/site/1031649.js:237:19451"
+     ],
+     "t": 5749
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:671916)",
+      "at s (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219)"
+     ],
+     "t": 5763
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7580
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at https://js.ad-score.com/score.min.js",
+      "at X2.<computed>.<computed> [as run] (https://js.ad-score.com/score.min.js"
+     ],
+     "t": 7580,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 7580
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 7580
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7580
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7580
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://js.ad-score.com/score.min.js",
+      "at X2.<computed>.<computed> [as run] (https://js.ad-score.com/score.min.js"
+     ],
+     "t": 7580
+    }
+   ],
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 4,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "listen:navigate": 3,
+    "call:entries": 1,
+    "get:canGoBack": 1,
+    "get:canGoForward": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Identifier 'adsDebug' has already been declared"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warning",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR - (ox_esp) Call to OX failedSyntaxError: Failed to execute 'json' on 'Response': Unexpected end of JSON input"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "530d91129815",
+   "titleHash": "234ff8fb45a6"
+  },
+  {
+   "step": "link",
+   "href": "https://www.idokep.hu/idojaras/Budapest",
+   "click": "native",
+   "settle": 3.1,
+   "url": "https://www.idokep.hu/idojaras/Budapest",
+   "readyState": "complete",
+   "timeOrigin": 1793553079811.3,
+   "marker": null,
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7128,
+   "active": "BODY",
+   "textLen": 4027,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.idokep.hu/idojaras/Budapest",
+    "key": "85beae16-0435-46b4-b4cb-8865e0ad4809",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.idokep.hu/idojaras/Budapest",
+     "from": "https://www.idokep.hu/szmog",
+     "entryIsCurrent": true
+    },
+    "urlHash": "59d1db3c7daf"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 29
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 30
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 140
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at new Pi (https://jsc.native.azerion.com/site/1031649.js:233:4040)",
+      "at https://jsc.native.azerion.com/site/1031649.js:237:19451"
+     ],
+     "t": 625
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:671916)",
+      "at s (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219)"
+     ],
+     "t": 900
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1763
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "error": 1,
+    "listen:navigate": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warning",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "pageerror",
+     "e": "Identifier 'adsDebug' has already been declared"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    }
+   ],
+   "urlHash": "59d1db3c7daf",
+   "titleHash": "6c9fe5f51044"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "url": "https://www.idokep.hu/szmog",
+   "readyState": "complete",
+   "timeOrigin": 1793553082988.6,
+   "marker": null,
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3369,
+   "active": "BODY",
+   "textLen": 1015,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.idokep.hu/szmog",
+    "key": "cd30be9f-be77-449c-b855-707ffb011958",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.idokep.hu/szmog",
+     "from": "https://www.idokep.hu/idojaras/Budapest",
+     "entryIsCurrent": true
+    },
+    "urlHash": "530d91129815"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 26
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 26
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 51
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 68
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at new Pi (https://jsc.native.azerion.com/site/1031649.js:233:4040)",
+      "at https://jsc.native.azerion.com/site/1031649.js:237:19451"
+     ],
+     "t": 626
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:671916)",
+      "at s (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219)"
+     ],
+     "t": 632
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "error": 1,
+    "pageshow": 1,
+    "listen:navigate": 2
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warning",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "pageerror",
+     "e": "Identifier 'adsDebug' has already been declared"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    }
+   ],
+   "urlHash": "530d91129815",
+   "titleHash": "234ff8fb45a6"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "url": "https://www.idokep.hu/idojaras/Budapest",
+   "readyState": "complete",
+   "timeOrigin": 1793553085787.4,
+   "marker": null,
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7128,
+   "active": "BODY",
+   "textLen": 4027,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.idokep.hu/idojaras/Budapest",
+    "key": "85beae16-0435-46b4-b4cb-8865e0ad4809",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.idokep.hu/idojaras/Budapest",
+     "from": "https://www.idokep.hu/szmog",
+     "entryIsCurrent": true
+    },
+    "urlHash": "59d1db3c7daf"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 27
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 27
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 30
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 214
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at new Pi (https://jsc.native.azerion.com/site/1031649.js:233:4040)",
+      "at https://jsc.native.azerion.com/site/1031649.js:237:19451"
+     ],
+     "t": 626
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:671916)",
+      "at s (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219)"
+     ],
+     "t": 630
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "error": 1,
+    "pageshow": 1,
+    "listen:navigate": 2
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warning",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "pageerror",
+     "e": "Identifier 'adsDebug' has already been declared"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 ()"
+    }
+   ],
+   "urlHash": "59d1db3c7daf",
+   "titleHash": "6c9fe5f51044"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "url": "https://www.idokep.hu/idojaras/Budapest",
+   "readyState": "complete",
+   "timeOrigin": 1793553088479.5,
+   "marker": null,
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7128,
+   "active": "BODY",
+   "textLen": 4027,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.idokep.hu/idojaras/Budapest",
+    "key": "85beae16-0435-46b4-b4cb-8865e0ad4809",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.idokep.hu/idojaras/Budapest",
+     "from": "https://www.idokep.hu/idojaras/Budapest",
+     "entryIsCurrent": true
+    },
+    "urlHash": "59d1db3c7daf"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 24
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 24
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 28
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 101
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at new Pi (https://jsc.native.azerion.com/site/1031649.js:233:4040)",
+      "at https://jsc.native.azerion.com/site/1031649.js:237:19451"
+     ],
+     "t": 625
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:671916)",
+      "at s (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219)"
+     ],
+     "t": 633
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "error": 1,
+    "pageshow": 1,
+    "listen:navigate": 2
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warning",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "pageerror",
+     "e": "Identifier 'adsDebug' has already been declared"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    }
+   ],
+   "urlHash": "59d1db3c7daf",
+   "titleHash": "6c9fe5f51044"
+  },
+  {
+   "step": "fragment",
+   "href": "https://www.idokep.hu/idojaras/Budapest",
+   "click": "native",
+   "settle": 3.0,
+   "url": "https://www.idokep.hu/idojaras/Budapest",
+   "readyState": "complete",
+   "timeOrigin": 1793553088479.5,
+   "marker": "m4",
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 1143,
+   "docH": 7128,
+   "active": "A#a-ik-cur-weather-nav-idokep",
+   "textLen": 4027,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.idokep.hu/idojaras/Budapest",
+    "key": "85beae16-0435-46b4-b4cb-8865e0ad4809",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.idokep.hu/idojaras/Budapest",
+     "from": "https://www.idokep.hu/idojaras/Budapest",
+     "entryIsCurrent": true
+    },
+    "urlHash": "59d1db3c7daf"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 24
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 24
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 28
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 101
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at new Pi (https://jsc.native.azerion.com/site/1031649.js:233:4040)",
+      "at https://jsc.native.azerion.com/site/1031649.js:237:19451"
+     ],
+     "t": 625
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:671916)",
+      "at s (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219)"
+     ],
+     "t": 633
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "error": 1,
+    "pageshow": 1,
+    "listen:navigate": 2
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 431 (Request Header Fields Too Large)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 (Request-URI Too Long)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 (Request-URI Too Long)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 (Request-URI Too Long)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 (Request-URI Too Long)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 (Request-URI Too Long)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 (Request-URI Too Long)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 (Request-URI Too Long)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 414 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    }
+   ],
+   "urlHash": "59d1db3c7daf",
+   "titleHash": "6c9fe5f51044"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "url": "https://www.idokep.hu/szmog",
+   "readyState": "complete",
+   "timeOrigin": 1793553094946.8,
+   "marker": null,
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3369,
+   "active": "BODY",
+   "textLen": 1015,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.idokep.hu/szmog",
+    "key": "cd30be9f-be77-449c-b855-707ffb011958",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.idokep.hu/szmog",
+     "from": "https://www.idokep.hu/idojaras/Budapest",
+     "entryIsCurrent": true
+    },
+    "urlHash": "530d91129815"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 28
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 28
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 29
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 47
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at new Pi (https://jsc.native.azerion.com/site/1031649.js:233:4040)",
+      "at https://jsc.native.azerion.com/site/1031649.js:237:19451"
+     ],
+     "t": 627
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:671916)",
+      "at s (https://rumcdn.geoedge.be/f8c186d1-07c9-42b6-958f-15bc49025307/grumi.js:7:219)"
+     ],
+     "t": 631
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "error": 1,
+    "pageshow": 1,
+    "listen:navigate": 2
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_TOO_MANY_REDIRECTS"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_TOO_MANY_REDIRECTS"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_TOO_MANY_REDIRECTS"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Identifier 'adsDebug' has already been declared"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "3 is not a valid value for publisherSpecialPurposesIds"
+    },
+    {
+     "k": "console-warning",
+     "e": " is not a valid value for uspDnsText"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Invalid GPT fixed size specification: []"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    }
+   ],
+   "urlHash": "530d91129815",
+   "titleHash": "234ff8fb45a6"
+  }
+ ],
+ "plan": {
+  "link": "https://www.idokep.hu/idojaras/Budapest",
+  "fragment": "https://www.idokep.hu/idojaras/Budapest"
+ },
+ "consent": ".qc-cmp2-summary-buttons button[mode=\"primary\"]",
+ "elapsed": 27.1,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

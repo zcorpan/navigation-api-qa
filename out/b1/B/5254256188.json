@@ -1,0 +1,638 @@
+{
+ "id": "5254256188",
+ "page": "https://tv2.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 86
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 100,
+     "url": "https://tv2.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 100,
+     "url": "https://tv2.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tv2.<token>",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 100
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 100
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 296
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://tv2.<token>:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 296
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://tv2.<token>",
+     "entryIsCurrent": true,
+     "from": "https://tv2.<token>",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "90d6c214-d95d-43f3-83bb-9ba6e092c190",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tv2.<token>",
+    "urlHash": "8c64200befa9"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 147,
+   "timeOrigin": 1793554600407,
+   "url": "https://tv2.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Triggering Page Refresh"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "8c64200befa9",
+   "titleHash": "a3e6573cc714"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 244,
+     "url": "https://tv2.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 244,
+     "url": "https://tv2.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tv2.<token>",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 245
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 245
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 256
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 462
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://tv2.<token>:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 462
+    },
+    {
+     "e": "TypeError: can't access property \"trackSessionEnd\", this.tracker is null",
+     "f": "https://scripts.tv2a.dk/nativeplayer-addon-adobe.f5ebb6.js",
+     "k": "error",
+     "l": 1,
+     "t": 1594
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://tv2.<token>",
+     "entryIsCurrent": true,
+     "from": "https://tv2.<token>",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "90d6c214-d95d-43f3-83bb-9ba6e092c190",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tv2.<token>",
+    "urlHash": "8c64200befa9"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -2
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793554603166,
+   "url": "https://tv2.<token>",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "MediaSDK: [18:36:43 GMT+0100 (Central European Standard Time).554] [Media] Error configuring MediaSDK : Valid appmeasurement instance is required"
+    },
+    {
+     "k": "console-error",
+     "e": "MediaSDK: [18:36:43 GMT+0100 (Central European Standard Time).555] [Media] MediaSDK should be configured before calling getInstance"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"trackSessionEnd\", this.tracker is null"
+    }
+   ],
+   "urlHash": "8c64200befa9",
+   "titleHash": "a3e6573cc714"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 244,
+     "url": "https://tv2.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 244,
+     "url": "https://tv2.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tv2.<token>",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 245
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 245
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 256
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 462
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://tv2.<token>:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 462
+    },
+    {
+     "e": "TypeError: can't access property \"trackSessionEnd\", this.tracker is null",
+     "f": "https://scripts.tv2a.dk/nativeplayer-addon-adobe.f5ebb6.js",
+     "k": "error",
+     "l": 1,
+     "t": 1594
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2823,
+     "url": "https://tv2.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tv2.<token>",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2823
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2823,
+     "url": "https://tv2.<token>"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2824
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2824
+    },
+    {
+     "k": "hashchange",
+     "t": 2824,
+     "url": "https://tv2.<token>"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://tv2.<token>",
+     "entryIsCurrent": false,
+     "from": "https://tv2.<token>",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "8881aa12-5706-47e0-bed6-a2a47164e268",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tv2.<token>",
+    "urlHash": "f5a35e345e6f"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793554603166,
+   "url": "https://tv2.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f5a35e345e6f",
+   "titleHash": "a3e6573cc714"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "currententrychange:traverse": 1,
+    "error": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 244,
+     "url": "https://tv2.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 244,
+     "url": "https://tv2.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tv2.<token>",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 245
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 245
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 256
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 462
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://tv2.<token>:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 462
+    },
+    {
+     "e": "TypeError: can't access property \"trackSessionEnd\", this.tracker is null",
+     "f": "https://scripts.tv2a.dk/nativeplayer-addon-adobe.f5ebb6.js",
+     "k": "error",
+     "l": 1,
+     "t": 1594
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2823,
+     "url": "https://tv2.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tv2.<token>",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2823
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2823,
+     "url": "https://tv2.<token>"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2824
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2824
+    },
+    {
+     "k": "hashchange",
+     "t": 2824,
+     "url": "https://tv2.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5388,
+     "url": "https://tv2.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tv2.<token>",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5389
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5389
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5389
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5389,
+     "url": "https://tv2.<token>"
+    },
+    {
+     "k": "hashchange",
+     "t": 5390,
+     "url": "https://tv2.<token>"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://tv2.<token>",
+     "entryIsCurrent": true,
+     "from": "https://tv2.<token>",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "90d6c214-d95d-43f3-83bb-9ba6e092c190",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tv2.<token>",
+    "urlHash": "8c64200befa9"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793554603166,
+   "url": "https://tv2.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8c64200befa9",
+   "titleHash": "a3e6573cc714"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 15.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

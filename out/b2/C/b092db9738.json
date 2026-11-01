@@ -1,0 +1,678 @@
+{
+ "id": "b092db9738",
+ "page": "https://www.discogs.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9514,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 387
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7195,
+   "timeOrigin": 1793562604011,
+   "url": "https://www.discogs.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Ignored message from unexpected source for event: requestExtraParams."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://challenges.cloudflare.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.discogs.com\u2019)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 293946251492793."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "b092db97382f",
+   "titleHash": "340bfcd79b68"
+  },
+  {
+   "step": "link",
+   "href": "https://www.discogs.com/digs/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2,
+     "url": "/digs/?__cf_chl_rt_tk=j9Tli0S37uBs.ha6Z.g7LzGOq7aa_SRkjFi_dnf2zaE-1793562611-<ip>-Bps.GBC00D7V26BknjodZ3Cnfk_RrJRUb2FbKH72wXU"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 55,
+     "url": "/digs/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 95
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562611285.14,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    }
+   ],
+   "urlHash": "e93d963a4990",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "<token>?__cf_chl_rt_tk=rBc0dITkWHtQy80Nopsg3RySEcoijr3wOuABtZjBMYs-1793562614-<ip>-vyku8qiVl.YSj6wPWoB8VGKyN7Q74i1.fQRRk6G"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 57,
+     "url": "<token>"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 81
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562614282.36,
+   "url": "https://www.discogs.<token>",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    }
+   ],
+   "urlHash": "b092db97382f",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/digs/?__cf_chl_rt_tk=gF97cG2Qx.rrDiJquGvwuDXbiYAa37e6JuQ2N7f_i8M-1793562616-<ip>-Yg54KUcTDrbDEKjBYzuCbKLsbiXsjGwja5OuA1C7aDw"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 54,
+     "url": "/digs/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 87
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562616941.76,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    }
+   ],
+   "urlHash": "e93d963a4990",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2,
+     "url": "/digs/?__cf_chl_rt_tk=OnH5xMZ.FnWvEaPBB08jNes._.h_f4h682DH40czOBU-1793562619-<ip>-pj5UNbvX.LKTqZ_wB.wJGaoj8g5lhQr7e9r40EPG.Yc"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 55,
+     "url": "/digs/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 228
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562619603.94,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    }
+   ],
+   "urlHash": "e93d963a4990",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2,
+     "url": "/digs/?__cf_chl_rt_tk=OnH5xMZ.FnWvEaPBB08jNes._.h_f4h682DH40czOBU-1793562619-<ip>-pj5UNbvX.LKTqZ_wB.wJGaoj8g5lhQr7e9r40EPG.Yc"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 55,
+     "url": "/digs/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 228
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2776,
+     "url": "https://www.discogs.com/digs/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2776,
+     "url": "https://www.discogs.com/digs/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562619603.94,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "16b4f92a27f7",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2,
+     "url": "/digs/?__cf_chl_rt_tk=OnH5xMZ.FnWvEaPBB08jNes._.h_f4h682DH40czOBU-1793562619-<ip>-pj5UNbvX.LKTqZ_wB.wJGaoj8g5lhQr7e9r40EPG.Yc"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 55,
+     "url": "/digs/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 228
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2776,
+     "url": "https://www.discogs.com/digs/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2776,
+     "url": "https://www.discogs.com/digs/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5345,
+     "url": "https://www.discogs.com/digs/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5346,
+     "url": "https://www.discogs.com/digs/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562619603.94,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e93d963a4990",
+   "titleHash": "5ffa9751f584"
+  }
+ ],
+ "plan": {
+  "link": "https://www.discogs.com/digs/",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 23.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

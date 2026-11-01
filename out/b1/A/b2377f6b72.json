@@ -1,0 +1,1149 @@
+{
+ "id": "b2377f6b72",
+ "page": "https://www.marca.<token>.html",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.marca.<token>.html",
+   "readyState": "complete",
+   "timeOrigin": 1793554244031.5,
+   "marker": null,
+   "histLen": 2,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 5162,
+   "active": "DIV#ue-initial-modal",
+   "textLen": 8628,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.marca.<token>.html",
+    "key": "7fa5bc31-0a15-4fc2-aa7c-c40d1f334672",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.marca.<token>.html",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "b2377f6b72d8"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 515
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 516
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1126
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: <token>.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-warning",
+     "e": "Permutive was not initialized. Can't find permutive tag on the page"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-warning",
+     "e": "@import rules are not allowed here. See https://github.com/WICG/construct-stylesheets/issues/119"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    }
+   ],
+   "urlHash": "b2377f6b72d8",
+   "titleHash": "0e619492b86a"
+  },
+  {
+   "step": "link",
+   "href": "https://www.marca.com/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.marca.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554250058.5,
+   "marker": null,
+   "histLen": 3,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 10591,
+   "active": "DIV#ue-initial-modal",
+   "textLen": 19947,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.marca.com/",
+    "key": "4e59e04c-a682-428b-8a3d-3ee70d9159e9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.<token>.html",
+     "entryIsCurrent": true
+    },
+    "urlHash": "58e85e529301"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 50
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 50
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.marca.com/",
+     "t": 338
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.marca.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 338,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.marca.com/",
+     "t": 338
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 338
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 338
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 574
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_re_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_c990x50_320x53d_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_rf_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_rg_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_ri_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-warning",
+     "e": "Permutive was not initialized. Can't find permutive tag on the page"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    }
+   ],
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "url": "https://www.marca.<token>.html",
+   "readyState": "complete",
+   "timeOrigin": 1793554252690.2,
+   "marker": null,
+   "histLen": 3,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 5162,
+   "active": "DIV#ue-initial-modal",
+   "textLen": 8628,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.marca.<token>.html",
+    "key": "7fa5bc31-0a15-4fc2-aa7c-c40d1f334672",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.marca.<token>.html",
+     "from": "https://www.marca.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "b2377f6b72d8"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 166
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 494
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://adtcdn.unidadeditorial.es') does not match the recipient window's origin ('https://www.marca.com')."
+    },
+    {
+     "k": "console-warning",
+     "e": "@import rules are not allowed here. See https://github.com/WICG/construct-stylesheets/issues/119"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-warning",
+     "e": "Permutive was not initialized. Can't find permutive tag on the page"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    }
+   ],
+   "urlHash": "b2377f6b72d8",
+   "titleHash": "0e619492b86a"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "url": "https://www.marca.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554255337.5,
+   "marker": null,
+   "histLen": 3,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 10591,
+   "active": "DIV#ue-initial-modal",
+   "textLen": 19947,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.marca.com/",
+    "key": "4e59e04c-a682-428b-8a3d-3ee70d9159e9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.<token>.html",
+     "entryIsCurrent": true
+    },
+    "urlHash": "58e85e529301"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 110
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 110
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.marca.com/",
+     "t": 234
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.marca.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 234,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.marca.com/",
+     "t": 234
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 234
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 234
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 466
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-warning",
+     "e": "Permutive was not initialized. Can't find permutive tag on the page"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    }
+   ],
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.marca.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554257999.8,
+   "marker": null,
+   "histLen": 3,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 10591,
+   "active": "DIV#ue-initial-modal",
+   "textLen": 19947,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.marca.com/",
+    "key": "4e59e04c-a682-428b-8a3d-3ee70d9159e9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "58e85e529301"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 174
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 174
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.marca.com/",
+     "t": 332
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.marca.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 332,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.marca.com/",
+     "t": 332
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 332
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 332
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 483
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-warning",
+     "e": "Permutive was not initialized. No consent to run on the page"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    }
+   ],
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.marca.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554257999.8,
+   "marker": "m4",
+   "histLen": 4,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 10591,
+   "active": "DIV#ue-initial-modal",
+   "textLen": 19947,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.marca.com/",
+    "key": "a994522b-e35b-42fb-8659-85b5a8630747",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.com/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "0206694ff691"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 174
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 174
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.marca.com/",
+     "t": 332
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.marca.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 332,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.marca.com/",
+     "t": 332
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 332
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 332
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 483
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.marca.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3116,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.marca.com/",
+     "t": 3116
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.marca.com/",
+     "t": 3116
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3116
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3116
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.marca.com/",
+     "t": 3116
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0206694ff691",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.marca.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554263779.9,
+   "marker": null,
+   "histLen": 4,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 10591,
+   "active": "DIV#ue-initial-modal",
+   "textLen": 19947,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.marca.com/",
+    "key": "4e59e04c-a682-428b-8a3d-3ee70d9159e9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "58e85e529301"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 266
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 266
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.marca.com/",
+     "t": 529
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.marca.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 529,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.marca.com/",
+     "t": 529
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 529
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 529
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1177
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-warning",
+     "e": "Permutive was not initialized. Can't find permutive tag on the page"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+    }
+   ],
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  }
+ ],
+ "plan": {
+  "link": "https://www.marca.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 22.4,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

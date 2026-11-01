@@ -1,0 +1,986 @@
+{
+ "id": "b238182396",
+ "page": "https://elevenlabs.io/app/sign-up",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 235,
+     "url": "/app/sign-up"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1085
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 277,
+   "timeOrigin": 1793563321350,
+   "url": "https://elevenlabs.io/app/sign-up",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[2026-11-01T20:02:01.694Z]  @firebase/firestore: Firestore (11.2.0): You are overriding the original host. If you did not intend to override your settings, use {merge: true}."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/ads/ga-audiences"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-7956-7d26-b117-b6ced048a9bb\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.claydar.com/releases/latest/radar.min.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://tracking-api.g2.com/attribution_tracking/conversions/1010273.js from being executed because it violates the following directive: \u201cscript-src 'sel"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://bzrcdn.openai.com/sdk/oaiq.min.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptch"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://d34r8q7sht0t9k.cloudfront.net/tag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcap"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://prod-assets.sequelvideo.com/uploads/toolkit/sequel.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://static.reo.dev/5664905910de775/reo.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hca"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/16975718486/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/16670681864/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/11264110897/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/tracker/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/bp/cxBh6jQhPR/settings because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/tracker/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/bp/cxBh6jQhPR/settings because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://alb.reddit.com/rp because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.co"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://ipv4.pdscrb.com/ because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-accelera"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/auth/token because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/auth/token because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://static.reo.dev/5664905910de775/177.reo.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://tracking-api.g2.com/attribution_tracking/conversions/assign because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazo"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzrcdn.openai.com/pixel-config/v1/8v8bwoAWLc3o3bKrk7To7G.json because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.ama"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzrcdn.openai.com/pixel-config/v1/RBpC9wP9b93rkDj2tduRxf.json because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.ama"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://data.sequel.io/api/analytics/website/pageView because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://data.sequel.io/api/analytics/website/pageView because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.clarity.ms/tag/uet/187158512 from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://<ip>/is because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://verifi.pdscrb.com/tag"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_tt_enable_cookie\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/2d8b62e0588b227f1b83fd50ee058ff2 because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazona"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/2d8b62e0588b227f1b83fd50ee058ff2 because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazona"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://scripts.clarity.ms/0.8.72/clarity.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcap"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://c.clarity.ms/c.gif because it violates the following directive: \u201cimg-src 'self' data: blob: https://*.stripe.com https://www.googletagmanager.com http://imgsct.cookiebot.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://c.bing.com/c.gif because it violates the following directive: \u201cimg-s"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://c.bing.com/c.gif because it violates the following directive: \u201cimg-s"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://k.clarity.ms/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-acce"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://c.clarity.ms/c.gif because it violates the following directive: \u201cimg-src 'self' data: "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://a.usbrowserspeed.com/cs because it violates the following directive: \u201cconnect-src 'self"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.sitelytics.tech/pixels/f45a6d9b-425e-4049-8741-930097da341f/p.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snip"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://c-mtag.mountain.com/mtag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://pxs.mountain.com/v1/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzr.openai.com/v1/sdk/events because it violates the following directive: \u201cconnect-src 'self' data: h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzr.openai.com/v1/sdk/events because it violates the following directive: \u201cconnect-src 'self' data: h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://pxdrop.lijit.com/1/e/t.dhj"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://ce.lijit.com/merge bec"
+    }
+   ],
+   "urlHash": "b238182396c9",
+   "titleHash": "6fc479f7cc88"
+  },
+  {
+   "step": "link",
+   "href": "https://elevenlabs.io/",
+   "click": "native",
+   "settle": 2.8,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 10691,
+   "histLen": 35,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 243
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 547,
+     "url": "/"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 16
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563329375,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to fetch RSC payload for https://elevenlabs.io/. Falling back to browser navigation. Error: can't infer type of chunk from URL 30881"
+    },
+    {
+     "k": "console-error",
+     "e": "Error during data sending or redirect: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-85ff-769f-bdc1-af8424a79dd7\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "link2",
+   "href": "https://elevenlabs.io/v4",
+   "click": "native",
+   "settle": 2.9,
+   "active": "IFRAME",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9434,
+   "histLen": 36,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 243
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 547,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 3027,
+     "url": "/v4"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11152,
+   "timeOrigin": 1793563329375,
+   "url": "https://elevenlabs.io/v4",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "c45c2a0f45d0",
+   "titleHash": "11fe1f44037e"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10691,
+   "histLen": 36,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 243
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 547,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 3027,
+     "url": "/v4"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5735,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5778,
+     "url": "/"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563329375,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 36,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 62
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 106,
+     "url": "/app/sign-up"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 277,
+   "timeOrigin": 1793563337992,
+   "url": "https://elevenlabs.io/app/sign-up",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[2026-11-01T20:02:18.230Z]  @firebase/firestore: Firestore (11.2.0): You are overriding the original host. If you did not intend to override your settings, use {merge: true}."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-a631-7eb5-840f-e32223450bb8\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/11264110897/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/16670681864/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/16975718486/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.claydar.com/releases/latest/radar.min.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://tracking-api.g2.com/attribution_tracking/conversions/1010273.js from being executed because it violates the following directive: \u201cscript-src 'sel"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://bzrcdn.openai.com/sdk/oaiq.min.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptch"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://d34r8q7sht0t9k.cloudfront.net/tag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcap"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://prod-assets.sequelvideo.com/uploads/toolkit/sequel.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://static.reo.dev/5664905910de775/reo.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hca"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://data.sequel.io/api/analytics/website/pageView because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://data.sequel.io/api/analytics/website/pageView because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://alb.reddit.com/rp because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.co"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/tracker/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/bp/cxBh6jQhPR/settings because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/tracker/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzrcdn.openai.com/pixel-config/v1/8v8bwoAWLc3o3bKrk7To7G.json because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.ama"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzrcdn.openai.com/pixel-config/v1/RBpC9wP9b93rkDj2tduRxf.json because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.ama"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/bp/cxBh6jQhPR/settings because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://ipv4.pdscrb.com/ because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-accelera"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.sitelytics.tech/pixels/f45a6d9b-425e-4049-8741-930097da341f/p.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snip"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.clarity.ms/tag/uet/187158512 from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://verifi.pdscrb.com/tag"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://<ip>/is because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://scripts.clarity.ms/0.8.72/clarity.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcap"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://k.clarity.ms/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-acce"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://c-mtag.mountain.com/mtag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://pxdrop.lijit.com/1/e/t.dhj"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://ce.lijit.com/merge bec"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://pxs.mountain.com/v1/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzr.openai.com/v1/sdk/events because it violates the following directive: \u201cconnect-src 'self' data: h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzr.openai.com/v1/sdk/events because it violates the following directive: \u201cconnect-src 'self' data: h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://k.clarity.ms/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-acce"
+    }
+   ],
+   "urlHash": "b238182396c9",
+   "titleHash": "6fc479f7cc88"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 10691,
+   "histLen": 36,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 98
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 128,
+     "url": "/"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 14
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563340782,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-b098-7f94-8b79-d5804e09424a\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 10691,
+   "histLen": 36,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 479
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 549,
+     "url": "/"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563343508,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-bd55-7285-8b2f-c4b1db192b72\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10691,
+   "histLen": 36,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 479
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 549,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3060,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3074,
+     "url": "https://elevenlabs.io/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563343508,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d4a8e8922170",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 10691,
+   "histLen": 36,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 479
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 549,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3060,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3074,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5637,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5642,
+     "url": "/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5680,
+     "url": "https://elevenlabs.io/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563343508,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  }
+ ],
+ "plan": {
+  "link": "https://elevenlabs.io/",
+  "link2": "https://elevenlabs.io/v4",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#CybotCookiebotDialogBodyButtonAccept",
+ "elapsed": 30.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

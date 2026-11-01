@@ -1,0 +1,665 @@
+{
+ "id": "2c624b6c3c",
+ "page": "https://www.pixiv.net/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 4,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2526,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2526,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2526
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2529
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2689
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.pixiv.net/en/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 2689
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2849
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.pixiv.net/en/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "2673ee49-d925-4870-af0c-67cf7712cac4",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.pixiv.net/en/",
+    "urlHash": "be4ea6c22d31"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 257,
+   "timeOrigin": 1793554211562,
+   "url": "https://www.pixiv.net/en/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.getTargetingKeys is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "be4ea6c22d31",
+   "titleHash": "504be0834b69"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2,
+     "url": "/en/?__cf_chl_rt_tk=oF5XTLS.ePOfA.6goPs8T9zNoSKSjQ9YGwmV6AM1O6o-1793554220-<ip>-YxghXxaYkc66K9MBIprKZMv3bRQbRSGky4xUifucsTs"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 76,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 76,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 76
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 76
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1847
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.pixiv.net/en/",
+     "entryIsCurrent": true,
+     "from": "https://www.pixiv.net/en/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "2673ee49-d925-4870-af0c-67cf7712cac4",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.pixiv.net/en/",
+    "urlHash": "be4ea6c22d31"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 261,
+   "timeOrigin": 1793554220090.38,
+   "url": "https://www.pixiv.net/en/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    }
+   ],
+   "urlHash": "be4ea6c22d31",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2,
+     "url": "/en/?__cf_chl_rt_tk=oF5XTLS.ePOfA.6goPs8T9zNoSKSjQ9YGwmV6AM1O6o-1793554220-<ip>-YxghXxaYkc66K9MBIprKZMv3bRQbRSGky4xUifucsTs"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 76,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 76,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 76
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 76
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1847
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4421,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4421
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4421,
+     "url": "https://www.pixiv.net/en/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4421
+    },
+    {
+     "k": "hashchange",
+     "t": 4421,
+     "url": "https://www.pixiv.net/en/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.pixiv.net/en/",
+     "entryIsCurrent": false,
+     "from": "https://www.pixiv.net/en/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "fcefbffb-206a-4579-ab4b-19a43b4f7873",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.pixiv.net/en/",
+    "urlHash": "14c13c9e6f4c"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 261,
+   "timeOrigin": 1793554220090.38,
+   "url": "https://www.pixiv.net/en/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "14c13c9e6f4c",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2,
+     "url": "/en/?__cf_chl_rt_tk=oF5XTLS.ePOfA.6goPs8T9zNoSKSjQ9YGwmV6AM1O6o-1793554220-<ip>-YxghXxaYkc66K9MBIprKZMv3bRQbRSGky4xUifucsTs"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 76,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 76,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 76
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 76
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1847
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4421,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4421
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4421,
+     "url": "https://www.pixiv.net/en/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4421
+    },
+    {
+     "k": "hashchange",
+     "t": 4421,
+     "url": "https://www.pixiv.net/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6979,
+     "url": "https://www.pixiv.net/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.pixiv.net/en/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6980
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6980
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6980,
+     "url": "https://www.pixiv.net/en/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6980,
+     "url": "https://www.pixiv.net/en/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.pixiv.net/en/",
+     "entryIsCurrent": true,
+     "from": "https://www.pixiv.net/en/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "2673ee49-d925-4870-af0c-67cf7712cac4",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.pixiv.net/en/",
+    "urlHash": "be4ea6c22d31"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 261,
+   "timeOrigin": 1793554220090.38,
+   "url": "https://www.pixiv.net/en/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "be4ea6c22d31",
+   "titleHash": "5ffa9751f584"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 18.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

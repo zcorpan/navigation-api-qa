@@ -1,0 +1,2384 @@
+{
+ "id": "5a74c53e54",
+ "page": "https://www.livescore.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.livescore.com/en/",
+   "readyState": "complete",
+   "timeOrigin": 1793554355828.9,
+   "marker": null,
+   "histLen": 2,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2803,
+   "active": "BODY",
+   "textLen": 2550,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.livescore.com/en/",
+    "key": "8faa8a27-24da-4602-b46a-ecded208ad2a",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.livescore.com/en/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "734bd1a4ae1b"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/",
+     "t": 109
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 109,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/",
+     "t": 109
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 109
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 271
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:709303)",
+      "at s (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219)"
+     ],
+     "t": 317
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4685
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 4685
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "listen:navigate": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR - (ox_esp) Call to OX failedSyntaxError: Failed to execute 'json' on 'Response': Unexpected end of JSON input"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    }
+   ],
+   "urlHash": "734bd1a4ae1b",
+   "titleHash": "7be34720c53e"
+  },
+  {
+   "step": "link",
+   "href": "https://www.livescore.com/en/news/",
+   "click": "native",
+   "settle": 2.7,
+   "url": "https://www.livescore.com/en/news/",
+   "readyState": "complete",
+   "timeOrigin": 1793554355828.9,
+   "marker": "m0",
+   "histLen": 3,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3246,
+   "active": "A",
+   "textLen": 4088,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.livescore.com/en/news/",
+    "key": "56193bca-268e-4dbf-872a-38c861f06871",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.livescore.com/en/",
+     "from": null,
+     "entryIsCurrent": false
+    },
+    "urlHash": "854128083d1a"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/",
+     "t": 109
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 109,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/",
+     "t": 109
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 109
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 271
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:709303)",
+      "at s (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219)"
+     ],
+     "t": 317
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4685
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 4685
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/en/news/",
+     "t": 9918
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9918,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.livescore.com/en/",
+     "t": 9919
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9922
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9922
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "listen:navigate": 1,
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "history:pushState": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.livescore.com/en/",
+   "readyState": "complete",
+   "timeOrigin": 1793554355828.9,
+   "marker": "m1",
+   "histLen": 3,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3211,
+   "active": "A",
+   "textLen": 3222,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.livescore.com/en/",
+    "key": "8faa8a27-24da-4602-b46a-ecded208ad2a",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.livescore.com/en/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "734bd1a4ae1b"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/",
+     "t": 109
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 109,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/",
+     "t": 109
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 109
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 271
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:709303)",
+      "at s (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219)"
+     ],
+     "t": 317
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4685
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 4685
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/en/news/",
+     "t": 9918
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9918,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.livescore.com/en/",
+     "t": 9919
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9922
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9922
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12861,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 12862
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12862
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12862
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/",
+     "t": 12862
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/",
+     "t": 12891
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12891,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/",
+     "t": 12891
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12891
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12891
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "listen:navigate": 1,
+    "get:currentEntry": 4,
+    "listen:navigatesuccess": 1,
+    "history:pushState": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1,
+    "popstate": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_CONNECTION_RESET"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    }
+   ],
+   "urlHash": "734bd1a4ae1b",
+   "titleHash": "7be34720c53e"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "url": "https://www.livescore.com/en/news/",
+   "readyState": "complete",
+   "timeOrigin": 1793554355828.9,
+   "marker": "m2",
+   "histLen": 3,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3246,
+   "active": "A",
+   "textLen": 4088,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.livescore.com/en/news/",
+    "key": "56193bca-268e-4dbf-872a-38c861f06871",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.livescore.com/en/",
+     "from": null,
+     "entryIsCurrent": false
+    },
+    "urlHash": "854128083d1a"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/",
+     "t": 109
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 109,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/",
+     "t": 109
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 109
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 271
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:709303)",
+      "at s (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219)"
+     ],
+     "t": 317
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4685
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 4685
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/en/news/",
+     "t": 9918
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9918,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.livescore.com/en/",
+     "t": 9919
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9922
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9922
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12861,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 12862
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12862
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12862
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/",
+     "t": 12862
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/",
+     "t": 12891
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12891,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/",
+     "t": 12891
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12891
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12891
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 15595,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.livescore.com/en/",
+     "t": 15595
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 15595
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 15595
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 15595
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/news/",
+     "t": 15630
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 15630,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 15631
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 15631
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 15631
+    }
+   ],
+   "counts": {
+    "history:replaceState": 3,
+    "navigate:replace": 3,
+    "currententrychange:replace": 3,
+    "navigatesuccess": 6,
+    "pageshow": 1,
+    "listen:navigate": 1,
+    "get:currentEntry": 6,
+    "listen:navigatesuccess": 1,
+    "history:pushState": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigate:traverse": 2,
+    "currententrychange:traverse": 2,
+    "popstate": 2
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "url": "https://www.livescore.com/en/news/",
+   "readyState": "complete",
+   "timeOrigin": 1793554374327.5,
+   "marker": null,
+   "histLen": 3,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3246,
+   "active": "BODY",
+   "textLen": 4034,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.livescore.com/en/news/",
+    "key": "56193bca-268e-4dbf-872a-38c861f06871",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.livescore.com/en/news/",
+     "from": "https://www.livescore.com/en/news/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "854128083d1a"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/news/",
+     "t": 104
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 104,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 104
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 104
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:709303)",
+      "at s (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219)"
+     ],
+     "t": 157
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 282
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 282
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 284
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "listen:navigate": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}. Missing required property: targeting.LS_Sel.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.livescore.com/en/news/",
+   "readyState": "complete",
+   "timeOrigin": 1793554374327.5,
+   "marker": "m4",
+   "histLen": 4,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3246,
+   "active": "BODY",
+   "textLen": 4034,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.livescore.com/en/news/",
+    "key": "0b4527b5-a5a3-4c78-af10-9f69eee4be11",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.livescore.com/en/news/",
+     "from": "https://www.livescore.com/en/news/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "a201f2da02e6"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/news/",
+     "t": 104
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 104,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 104
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 104
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:709303)",
+      "at s (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219)"
+     ],
+     "t": 157
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 282
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 282
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 284
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2985,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 2985
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 2985
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/news/#navqa-frag",
+     "t": 2985
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 2986
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2986,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 2986
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2986
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2986
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 2988
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "listen:navigate": 1,
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigateerror": 1,
+    "hashchange": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Refused to execute script from 'https://ipds.adrta.com/i"
+    }
+   ],
+   "urlHash": "a201f2da02e6",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.livescore.com/en/news/",
+   "readyState": "complete",
+   "timeOrigin": 1793554374327.5,
+   "marker": "m5",
+   "histLen": 4,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3246,
+   "active": "BODY",
+   "textLen": 4034,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.livescore.com/en/news/",
+    "key": "56193bca-268e-4dbf-872a-38c861f06871",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.livescore.com/en/news/",
+     "from": "https://www.livescore.com/en/news/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "854128083d1a"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/news/",
+     "t": 104
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 104,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 104
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 104
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:709303)",
+      "at s (https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219)"
+     ],
+     "t": 157
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 282
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 282
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 284
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2985,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 2985
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 2985
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/news/#navqa-frag",
+     "t": 2985
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 2986
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2986,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 2986
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2986
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2986
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 2988
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5650,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 5651
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5651
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5651
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 5651
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 5663
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/news/",
+     "t": 5665
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5665,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/",
+     "t": 5665
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5665
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5665
+    }
+   ],
+   "counts": {
+    "history:replaceState": 3,
+    "navigate:replace": 3,
+    "currententrychange:replace": 3,
+    "navigatesuccess": 4,
+    "listen:navigate": 1,
+    "get:currentEntry": 4,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigateerror": 1,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}. Missing required property: targeting.LS_Sel.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  }
+ ],
+ "plan": {
+  "link": "https://www.livescore.com/en/news/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 26.9,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

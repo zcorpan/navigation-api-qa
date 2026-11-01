@@ -1,0 +1,601 @@
+{
+ "id": "068d6d84a4",
+ "page": "https://arenascan.com/manga/eleceed/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 2431,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "installNavWatcher@https://platform.pubadx.one/v2/tag.js:1912:28",
+      "@https://platform.pubadx.one/v2/tag.js:2076:5",
+      "@https://platform.pubadx.one/v2/tag.js:2078:3"
+     ],
+     "t": 138
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1160
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arenascan.com/manga/eleceed/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "00fb1173-fb84-43b5-9c38-a40a3b475a30",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arenascan.com/manga/eleceed/",
+    "urlHash": "068d6d84a4ce"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13362,
+   "timeOrigin": 1793561683443,
+   "url": "https://arenascan.com/manga/eleceed/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "068d6d84a4ce",
+   "titleHash": "197e893366d6"
+  },
+  {
+   "step": "link",
+   "href": "https://arenascan.com/",
+   "click": "native",
+   "settle": 3.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 42
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://nn125.com/link2",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "913d56d9-e2c3-438e-94c5-cf9f905e6ed7",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://nn125.com/link2",
+    "urlHash": "f723eaaad291"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793561693133,
+   "url": "https://nn125.com/link2",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-PdrlW0NQ2T5wM7GZoGV6Xg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    }
+   ],
+   "urlHash": "f723eaaad291",
+   "titleHash": "58cfcdca5ed5"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "history:pushState": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6776,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "installNavWatcher@https://platform.pubadx.one/v2/tag.js:1912:28",
+      "@https://platform.pubadx.one/v2/tag.js:2076:5",
+      "@https://platform.pubadx.one/v2/tag.js:2078:3"
+     ],
+     "t": 63
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 119
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 361,
+     "url": "https://arenascan.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 361,
+     "url": "https://arenascan.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://arenascan.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 361
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 361
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arenascan.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 3,
+    "key": "851d4995-d231-4fbd-9e22-a12bca378b73",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arenascan.com/",
+    "urlHash": "af9a80deaed5"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9690,
+   "timeOrigin": 1793561694696,
+   "url": "https://arenascan.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "af9a80deaed5",
+   "titleHash": "d24b9c640bcf"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "history:pushState": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6776,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "installNavWatcher@https://platform.pubadx.one/v2/tag.js:1912:28",
+      "@https://platform.pubadx.one/v2/tag.js:2076:5",
+      "@https://platform.pubadx.one/v2/tag.js:2078:3"
+     ],
+     "t": 63
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 119
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 361,
+     "url": "https://arenascan.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 361,
+     "url": "https://arenascan.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://arenascan.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 361
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 361
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://arenascan.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 3,
+    "key": "851d4995-d231-4fbd-9e22-a12bca378b73",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arenascan.com/",
+    "urlHash": "af9a80deaed5"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9690,
+   "timeOrigin": 1793561694696,
+   "url": "https://arenascan.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "af9a80deaed5",
+   "titleHash": "d24b9c640bcf"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "history:pushState": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6776,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "installNavWatcher@https://platform.pubadx.one/v2/tag.js:1912:28",
+      "@https://platform.pubadx.one/v2/tag.js:2076:5",
+      "@https://platform.pubadx.one/v2/tag.js:2078:3"
+     ],
+     "t": 163
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 608
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 1131,
+     "url": "https://arenascan.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1131,
+     "url": "https://arenascan.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://arenascan.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 1131
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1131
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arenascan.com/",
+     "entryIsCurrent": false,
+     "from": "https://arenascan.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 4,
+    "key": "6b6b48a6-fd6b-468a-808f-2e65ca413ab3",
+    "len": 5,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arenascan.com/",
+    "urlHash": "af9a80deaed5"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9690,
+   "timeOrigin": 1793561700199,
+   "url": "https://arenascan.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "af9a80deaed5",
+   "titleHash": "d24b9c640bcf"
+  },
+  {
+   "step": "fragment",
+   "href": "https://arenascan.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "history:pushState": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6776,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "installNavWatcher@https://platform.pubadx.one/v2/tag.js:1912:28",
+      "@https://platform.pubadx.one/v2/tag.js:2076:5",
+      "@https://platform.pubadx.one/v2/tag.js:2078:3"
+     ],
+     "t": 163
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 608
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 1131,
+     "url": "https://arenascan.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1131,
+     "url": "https://arenascan.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://arenascan.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 1131
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1131
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://arenascan.com/",
+     "entryIsCurrent": false,
+     "from": "https://arenascan.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 4,
+    "key": "6b6b48a6-fd6b-468a-808f-2e65ca413ab3",
+    "len": 5,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arenascan.com/",
+    "urlHash": "af9a80deaed5"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 5044,
+   "textLen": 9690,
+   "timeOrigin": 1793561700199,
+   "url": "https://arenascan.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "af9a80deaed5",
+   "titleHash": "d24b9c640bcf"
+  },
+  {
+   "step": "back2",
+   "settle": 3.3,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1848,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 123
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 767
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://welcome.unibet.se/se/pop/multiproduct/index.html",
+     "entryIsCurrent": true,
+     "from": "https://araplhn.org/18/10afaec35404ffd5edbad0131bb38ee6",
+     "type": "replace"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "e633462c-e300-435b-b594-c1269ae27666",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://welcome.unibet.se/se/pop/multiproduct/index.html",
+    "urlHash": "f351aeed81af"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6762,
+   "timeOrigin": 1793561707297,
+   "url": "https://welcome.unibet.se/se/pop/multiproduct/index.html",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-zhKwVjPILCuf0nX8vb0lIw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    }
+   ],
+   "urlHash": "f351aeed81af",
+   "titleHash": "c18cfe34eb2a"
+  }
+ ],
+ "plan": {
+  "link": "https://arenascan.com/",
+  "link2": null,
+  "fragment": "https://arenascan.com/"
+ },
+ "consent": null,
+ "elapsed": 27.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

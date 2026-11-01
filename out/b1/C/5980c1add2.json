@@ -1,0 +1,226 @@
+{
+ "id": "5980c1add2",
+ "page": "https://www.ixigo.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 817,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 213
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 419,
+   "timeOrigin": 1793554651539,
+   "url": "https://rocket.ixigo.com/gdpr/index.html",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1b6fb5593ef8",
+   "titleHash": "6659dc69b9cc"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 817,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 206
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 213
+     }
+    ],
+    "url": "https://rocket.ixigo.com/gdpr/index.html"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 419,
+   "timeOrigin": 1793554655904,
+   "url": "https://rocket.ixigo.com/gdpr/index.html",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "1b6fb5593ef8",
+   "titleHash": "6659dc69b9cc"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 817,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 206
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2759,
+     "url": "https://rocket.ixigo.com/gdpr/index.html"
+    },
+    {
+     "k": "hashchange",
+     "t": 2759,
+     "url": "https://rocket.ixigo.com/gdpr/index.html"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 419,
+   "timeOrigin": 1793554655904,
+   "url": "https://rocket.ixigo.com/gdpr/index.html",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1eb09659c896",
+   "titleHash": "6659dc69b9cc"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 817,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 206
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2759,
+     "url": "https://rocket.ixigo.com/gdpr/index.html"
+    },
+    {
+     "k": "hashchange",
+     "t": 2759,
+     "url": "https://rocket.ixigo.com/gdpr/index.html"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5321,
+     "url": "https://rocket.ixigo.com/gdpr/index.html"
+    },
+    {
+     "k": "hashchange",
+     "t": 5322,
+     "url": "https://rocket.ixigo.com/gdpr/index.html"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 419,
+   "timeOrigin": 1793554655904,
+   "url": "https://rocket.ixigo.com/gdpr/index.html",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1b6fb5593ef8",
+   "titleHash": "6659dc69b9cc"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

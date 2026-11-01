@@ -1,0 +1,666 @@
+{
+ "id": "bc3efce95c",
+ "page": "https://s.taobao.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "INPUT#q",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 1374,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "e": "[object Event]",
+     "k": "rejection",
+     "t": 1117
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3530
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3831,
+     "url": "/?"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3831,
+     "url": "https://s.taobao.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://s.taobao.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3831
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3831
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://s.taobao.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "bac2e011-e411-46d5-9c27-44f9075dbea3",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://s.taobao.com/",
+    "urlHash": "0ddf489dfaa8"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 3
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 134,
+   "timeOrigin": 1793563640037,
+   "url": "https://s.taobao.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "MessageChannel\u6ca1\u6709\u521d\u59cb\u5316\uff0c\u8bf7\u5148\u8c03\u7528initInstance"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: Event { isTrusted }"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.woff2 (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.woff2. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"global-iconfont\" style:normal weight:400 width:100 src index:0): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"NextIcon\" style:normal weight:400 width:100 src index:1): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.woff (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"global-iconfont\" style:normal weight:400 width:100 src index:1): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.woff"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.woff. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"NextIcon\" style:normal weight:400 width:100 src index:2): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.woff"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.ttf (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"global-iconfont\" style:normal weight:400 width:100 src index:2): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.ttf"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.ttf. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"NextIcon\" style:normal weight:400 width:100 src index:3): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.ttf"
+    },
+    {
+     "k": "console-error",
+     "e": "queryCanUseAI error Object(6)"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to get language from mtop: Object(7)"
+    },
+    {
+     "k": "console-error",
+     "e": "Error fetching common config: Object(7)"
+    }
+   ],
+   "urlHash": "0ddf489dfaa8",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "INPUT#q",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 1374,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "e": "[object Event]",
+     "k": "rejection",
+     "t": 350
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2466
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3307,
+     "url": "/?"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "same": true,
+     "src": null,
+     "t": 3307,
+     "url": "https://s.taobao.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://s.taobao.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3307
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3307
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://s.taobao.com/",
+     "entryIsCurrent": true,
+     "from": "https://s.taobao.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "bac2e011-e411-46d5-9c27-44f9075dbea3",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://s.taobao.com/",
+    "urlHash": "0ddf489dfaa8"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 145,
+   "timeOrigin": 1793563648144,
+   "url": "https://s.taobao.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "MessageChannel\u6ca1\u6709\u521d\u59cb\u5316\uff0c\u8bf7\u5148\u8c03\u7528initInstance"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: Event { isTrusted }"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.woff2 (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"global-iconfont\" style:normal weight:400 width:100 src index:0): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.woff (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"global-iconfont\" style:normal weight:400 width:100 src index:1): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.woff"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.ttf (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"global-iconfont\" style:normal weight:400 width:100 src index:2): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/a/font_4480420_nu0sa7g3x9d.ttf"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.woff2. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"NextIcon\" style:normal weight:400 width:100 src index:1): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.woff. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"NextIcon\" style:normal weight:400 width:100 src index:2): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.woff"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.ttf. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"NextIcon\" style:normal weight:400 width:100 src index:3): bad URI or cross-site access not allowed source: https://at.alicdn.com/t/font_3405578_tnqhrc4g0zi.ttf"
+    },
+    {
+     "k": "console-error",
+     "e": "Error fetching common config: Object(7)"
+    }
+   ],
+   "urlHash": "0ddf489dfaa8",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "INPUT#q",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1,
+    "rejection": 1
+   },
+   "docH": 1374,
+   "histLen": 26,
+   "histState": "null",
+   "log": [
+    {
+     "e": "[object Event]",
+     "k": "rejection",
+     "t": 350
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2466
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3307,
+     "url": "/?"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3307,
+     "url": "https://s.taobao.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://s.taobao.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3307
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3307
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5038,
+     "url": "https://s.taobao.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://s.taobao.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5039
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5039,
+     "url": "https://s.taobao.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5040
+    },
+    {
+     "k": "hashchange",
+     "t": 5047,
+     "url": "https://s.taobao.com/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://s.taobao.com/",
+     "entryIsCurrent": false,
+     "from": "https://s.taobao.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "2554f67d-d3b8-47f9-871c-8ef268033359",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://s.taobao.com/",
+    "urlHash": "a89890997ed2"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 145,
+   "timeOrigin": 1793563648144,
+   "url": "https://s.taobao.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a89890997ed2",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "INPUT#q",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2,
+    "rejection": 1
+   },
+   "docH": 1374,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "e": "[object Event]",
+     "k": "rejection",
+     "t": 350
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2466
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3307,
+     "url": "/?"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3307,
+     "url": "https://s.taobao.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://s.taobao.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3307
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3307
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5038,
+     "url": "https://s.taobao.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://s.taobao.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5039
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5039,
+     "url": "https://s.taobao.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5040
+    },
+    {
+     "k": "hashchange",
+     "t": 5047,
+     "url": "https://s.taobao.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7587,
+     "url": "https://s.taobao.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://s.taobao.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7588
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7588
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7588,
+     "url": "https://s.taobao.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 7592,
+     "url": "https://s.taobao.com/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://s.taobao.com/",
+     "entryIsCurrent": true,
+     "from": "https://s.taobao.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "bac2e011-e411-46d5-9c27-44f9075dbea3",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://s.taobao.com/",
+    "urlHash": "0ddf489dfaa8"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 145,
+   "timeOrigin": 1793563648144,
+   "url": "https://s.taobao.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0ddf489dfaa8",
+   "titleHash": "da39a3ee5e6b"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 18.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

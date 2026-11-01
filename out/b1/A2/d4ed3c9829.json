@@ -1,0 +1,930 @@
+{
+ "id": "d4ed3c9829",
+ "page": "https://www.target.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.target.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554338077.6,
+   "marker": null,
+   "histLen": 5,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6323,
+   "active": "IFRAME#px-captcha-modal",
+   "textLen": 2299,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.target.com/",
+    "key": "7f836d2d-75b0-4a6f-91ee-b84e59e1d6f2",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.target.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "d4ed3c982953"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 303
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.target.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 303,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.target.com/",
+     "t": 304
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 304
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Context._installNavigationListener (https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:19435)",
+      "at Context._installNavigationListener (https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:3403)"
+     ],
+     "t": 480
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 618
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 618
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.target.com/tg4t/:647:426)",
+      "at jt (https://www.target.com/tg4t/:647:757)"
+     ],
+     "t": 1001,
+     "len": 1
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Ct._start (https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "at e._start (https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js"
+     ],
+     "t": 1097
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1680
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "listen:navigatesuccess": 2,
+    "get:currentEntry": 1,
+    "call:entries": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "d4ed3c982953",
+   "titleHash": "1435583de606"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.target.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554344801,
+   "marker": null,
+   "histLen": 5,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6373,
+   "active": "IFRAME#px-captcha-modal",
+   "textLen": 2292,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.target.com/",
+    "key": "7f836d2d-75b0-4a6f-91ee-b84e59e1d6f2",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.target.com/",
+     "from": "https://www.target.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "d4ed3c982953"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 72
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.target.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 72,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.target.com/",
+     "t": 72
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 72
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Context._installNavigationListener (https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:19435)",
+      "at Context._installNavigationListener (https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:3403)"
+     ],
+     "t": 187
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 311
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 311
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.target.com/tg4t/:647:426)",
+      "at jt (https://www.target.com/tg4t/:647:757)"
+     ],
+     "t": 359,
+     "len": 1
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Ct._start (https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "at e._start (https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js"
+     ],
+     "t": 941
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1084
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "listen:navigatesuccess": 2,
+    "get:currentEntry": 1,
+    "call:entries": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 435 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "d4ed3c982953",
+   "titleHash": "1435583de606"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.target.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554344801,
+   "marker": "m4",
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6373,
+   "active": "IFRAME#px-captcha-modal",
+   "textLen": 2293,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.target.com/",
+    "key": "2832935c-0f13-4413-b2ec-38d11f338c25",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.target.com/",
+     "from": "https://www.target.com/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "803a8ab71c16"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 72
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.target.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 72,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.target.com/",
+     "t": 72
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 72
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Context._installNavigationListener (https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:19435)",
+      "at Context._installNavigationListener (https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:3403)"
+     ],
+     "t": 187
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 311
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 311
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.target.com/tg4t/:647:426)",
+      "at jt (https://www.target.com/tg4t/:647:757)"
+     ],
+     "t": 359,
+     "len": 1
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Ct._start (https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "at e._start (https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js"
+     ],
+     "t": 941
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1084
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.target.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3674,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.target.com/",
+     "t": 3674
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.target.com/",
+     "t": 3675
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/#navqa-frag",
+     "t": 3675
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 3675
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.target.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3675,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.target.com/",
+     "t": 3675
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3676
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3676
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.target.com/",
+     "t": 3676
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "listen:navigatesuccess": 2,
+    "get:currentEntry": 2,
+    "call:entries": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigateerror": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "803a8ab71c16",
+   "titleHash": "1435583de606"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.target.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554344801,
+   "marker": "m5",
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6373,
+   "active": "IFRAME#px-captcha-modal",
+   "textLen": 2293,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.target.com/",
+    "key": "7f836d2d-75b0-4a6f-91ee-b84e59e1d6f2",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.target.com/",
+     "from": "https://www.target.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "d4ed3c982953"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 72
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.target.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 72,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.target.com/",
+     "t": 72
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 72
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Context._installNavigationListener (https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:19435)",
+      "at Context._installNavigationListener (https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:3403)"
+     ],
+     "t": 187
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 311
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 311
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.target.com/tg4t/:647:426)",
+      "at jt (https://www.target.com/tg4t/:647:757)"
+     ],
+     "t": 359,
+     "len": 1
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Ct._start (https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "at e._start (https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js"
+     ],
+     "t": 941
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1084
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.target.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3674,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.target.com/",
+     "t": 3674
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.target.com/",
+     "t": 3675
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/#navqa-frag",
+     "t": 3675
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 3675
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.target.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3675,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.target.com/",
+     "t": 3675
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3676
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3676
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.target.com/",
+     "t": 3676
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.target.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6259,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.target.com/",
+     "t": 6259
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6260
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6260
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.target.com/",
+     "t": 6260
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.target.com/",
+     "t": 6260
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 3,
+    "listen:navigatesuccess": 2,
+    "get:currentEntry": 3,
+    "call:entries": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigateerror": 1,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d4ed3c982953",
+   "titleHash": "1435583de606"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 16.6,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

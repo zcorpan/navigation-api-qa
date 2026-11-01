@@ -1,0 +1,231 @@
+{
+ "id": "83b3e42f56",
+ "page": "https://pm.eyefinity.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "INPUT#practiceLocationId",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 888,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1214
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 188,
+   "timeOrigin": 1793554262491,
+   "url": "https://pm.eyefinity.com/Login",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f40dbc76a801",
+   "titleHash": "114c518ec000"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "INPUT#practiceLocationId",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 888,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 731
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 188,
+   "timeOrigin": 1793554268632,
+   "url": "https://pm.eyefinity.com/Login",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f40dbc76a801",
+   "titleHash": "114c518ec000"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "INPUT#practiceLocationId",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 888,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 731
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3283,
+     "url": "https://pm.eyefinity.com/Login"
+    },
+    {
+     "k": "hashchange",
+     "t": 3283,
+     "url": "https://pm.eyefinity.com/Login"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 188,
+   "timeOrigin": 1793554268632,
+   "url": "https://pm.eyefinity.com/Login",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "ba0818ba1f0c",
+   "titleHash": "114c518ec000"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "INPUT#practiceLocationId",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 888,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 731
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3283,
+     "url": "https://pm.eyefinity.com/Login"
+    },
+    {
+     "k": "hashchange",
+     "t": 3283,
+     "url": "https://pm.eyefinity.com/Login"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5843,
+     "url": "https://pm.eyefinity.com/Login"
+    },
+    {
+     "k": "hashchange",
+     "t": 5843,
+     "url": "https://pm.eyefinity.com/Login"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 188,
+   "timeOrigin": 1793554268632,
+   "url": "https://pm.eyefinity.com/Login",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f40dbc76a801",
+   "titleHash": "114c518ec000"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 15.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

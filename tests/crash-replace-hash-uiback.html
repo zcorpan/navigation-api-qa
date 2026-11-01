@@ -1,0 +1,30 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Firefox content crash: back after a prevented fragment push re-issued as navigate() replace</title>
+<!--
+Self-driving. Open crash-start.html (it navigates here). Here: reload once, then set location.hash;
+the navigate handler cancels the push and re-issues it as navigation.navigate(url, {state, history: "replace"});
+then history.back(). Reduced from vdenergy.dpsconsulting.es.
+-->
+<p id=log></p>
+<script>
+const log = m => { document.getElementById('log').textContent += m + ' | '; };
+navigation.addEventListener('navigate', e => {
+  if (e.navigationType === 'push' && e.hashChange) {
+    e.preventDefault();
+    navigation.navigate(e.destination.url, { state: { url: e.destination.url }, history: 'replace' });
+  }
+});
+onload = () => {
+  const phase = sessionStorage.getItem('phase');
+  if (!phase) { sessionStorage.setItem('phase', 'reloaded'); setTimeout(() => location.reload(), 500); return; }
+  if (phase === 'reloaded') {
+    sessionStorage.setItem('phase', 'done');
+    setTimeout(() => {
+      navigation.currentEntry.url; sessionStorage.getItem('x'); window.__marker = 'm';
+      location.hash = 'frag';
+      setTimeout(() => { navigation.currentEntry.url; sessionStorage.getItem('x'); window.__marker = 'm'; log('ready for back'); document.title = 'ready'; }, 1500);
+    }, 1000);
+  }
+};
+</script>

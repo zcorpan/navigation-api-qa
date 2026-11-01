@@ -1,0 +1,987 @@
+{
+ "id": "be1b78a519",
+ "page": "https://www.meta.com/ai-glasses/meta-glasses/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+   "readyState": "complete",
+   "timeOrigin": 1793554337182.2,
+   "marker": null,
+   "histLen": 31,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "H2",
+   "textLen": 6152,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+    "key": "af2cf460-894f-422c-b066-4d09bd1ffb74",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "dc62f600565e"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 214
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 214,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 214
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.C [as subscribeEventListenerToClientNavigation] (https://static.xx.fbcdn.net/rsrc.<token>",
+      "at s (https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:759)"
+     ],
+     "t": 219
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.C [as subscribeEventListenerToClientNavigation] (https://static.xx.fbcdn.net/rsrc.<token>",
+      "at s (https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:488)"
+     ],
+     "t": 219
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://static.xx.fbcdn.net/rsrc.<token>",
+      "at Q (https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/mR6LA8E7mEx.js:70:2927)"
+     ],
+     "t": 225
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 228
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3316
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "listen:navigatesuccess": 2,
+    "listen:navigate": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://connect.facebook.net/en_US/fbevents.js' violates the following Content Security Policy directive: \"script-src 'self' 'nonce-F91sgnWR' *.fbcdn.net *.oculus.com www.meta.com/3ds2/ddc/ www.meta.com/3ds2/challenge_complete/ 'wasm-unsafe-eval' gw.conversionsapigateway.com\". No"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://tags.tiqcdn.com/utag/facebook/realitylabs/prod/utag.js' violates the following Content Security Policy directive: \"script-src 'self' 'nonce-MKHlX6Sx' blob: https://*.fbthirdpartypixel.com https://*.fbcdn.net\". Note that 'script-src-elem' was not explicitly set, so 'script"
+    },
+    {
+     "k": "pageerror",
+     "e": "There was an error on loading https://tags.tiqcdn.com/utag/facebook/realitylabs/prod/utag.js"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://tags.tiqcdn.com/utag/facebook/realitylabs/rbm-prod/utag.js' violates the following Content Security Policy directive: \"script-src 'self' 'nonce-bY6CcU9l' blob: https://*.fbthirdpartypixel.com https://*.fbcdn.net\". Note that 'script-src-elem' was not explicitly set, so 'sc"
+    },
+    {
+     "k": "pageerror",
+     "e": "There was an error on loading https://tags.tiqcdn.com/utag/facebook/realitylabs/rbm-prod/utag.js"
+    }
+   ],
+   "urlHash": "dc62f600565e",
+   "titleHash": "0e7d80692db7"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+   "readyState": "complete",
+   "timeOrigin": 1793554345512.2,
+   "marker": null,
+   "histLen": 31,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "H2",
+   "textLen": 6152,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+    "key": "af2cf460-894f-422c-b066-4d09bd1ffb74",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "dc62f600565e"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 93
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 93,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 93
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.C [as subscribeEventListenerToClientNavigation] (https://static.xx.fbcdn.net/rsrc.<token>",
+      "at s (https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:759)"
+     ],
+     "t": 96
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.C [as subscribeEventListenerToClientNavigation] (https://static.xx.fbcdn.net/rsrc.<token>",
+      "at s (https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:488)"
+     ],
+     "t": 96
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://static.xx.fbcdn.net/rsrc.<token>",
+      "at Q (https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/mR6LA8E7mEx.js:70:2927)"
+     ],
+     "t": 99
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 101
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1488
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "listen:navigatesuccess": 2,
+    "listen:navigate": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://connect.facebook.net/en_US/fbevents.js' violates the following Content Security Policy directive: \"script-src 'self' 'nonce-Bkl4fbjm' *.fbcdn.net *.oculus.com www.meta.com/3ds2/ddc/ www.meta.com/3ds2/challenge_complete/ 'wasm-unsafe-eval' gw.conversionsapigateway.com\". No"
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://tags.tiqcdn.com/utag/facebook/realitylabs/rbm-prod/utag.js' violates the following Content Security Policy directive: \"script-src 'self' 'nonce-gJcqhaAw' blob: https://*.fbthirdpartypixel.com https://*.fbcdn.net\". Note that 'script-src-elem' was not explicitly set, so 'sc"
+    },
+    {
+     "k": "pageerror",
+     "e": "There was an error on loading https://tags.tiqcdn.com/utag/facebook/realitylabs/rbm-prod/utag.js"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://tags.tiqcdn.com/utag/facebook/realitylabs/prod/utag.js' violates the following Content Security Policy directive: \"script-src 'self' 'nonce-NBBhUKoM' blob: https://*.fbthirdpartypixel.com https://*.fbcdn.net\". Note that 'script-src-elem' was not explicitly set, so 'script"
+    },
+    {
+     "k": "pageerror",
+     "e": "There was an error on loading https://tags.tiqcdn.com/utag/facebook/realitylabs/prod/utag.js"
+    }
+   ],
+   "urlHash": "dc62f600565e",
+   "titleHash": "0e7d80692db7"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+   "readyState": "complete",
+   "timeOrigin": 1793554345512.2,
+   "marker": "m4",
+   "histLen": 32,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "H2",
+   "textLen": 6152,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+    "key": "5757b078-9fb7-4786-a409-62871cf18b31",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "9513b48b3045"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 93
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 93,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 93
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.C [as subscribeEventListenerToClientNavigation] (https://static.xx.fbcdn.net/rsrc.<token>",
+      "at s (https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:759)"
+     ],
+     "t": 96
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.C [as subscribeEventListenerToClientNavigation] (https://static.xx.fbcdn.net/rsrc.<token>",
+      "at s (https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:488)"
+     ],
+     "t": 96
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://static.xx.fbcdn.net/rsrc.<token>",
+      "at Q (https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/mR6LA8E7mEx.js:70:2927)"
+     ],
+     "t": 99
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 101
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1488
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 4120,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4121
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4121
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/se/en/ai-glasses/meta-glasses/#navqa-frag",
+     "t": 4126
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 4126
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 4126,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4126
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4126
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4138
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/se/en/ai-glasses/meta-glasses/#navqa-frag",
+     "t": 4368
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 4368,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4368
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4368
+    }
+   ],
+   "counts": {
+    "history:replaceState": 3,
+    "navigate:replace": 3,
+    "currententrychange:replace": 3,
+    "listen:navigatesuccess": 2,
+    "listen:navigate": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigateerror": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9513b48b3045",
+   "titleHash": "0e7d80692db7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+   "readyState": "complete",
+   "timeOrigin": 1793554345512.2,
+   "marker": "m5",
+   "histLen": 32,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "H2",
+   "textLen": 6152,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+    "key": "af2cf460-894f-422c-b066-4d09bd1ffb74",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "dc62f600565e"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 93
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 93,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 93
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.C [as subscribeEventListenerToClientNavigation] (https://static.xx.fbcdn.net/rsrc.<token>",
+      "at s (https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:235:759)"
+     ],
+     "t": 96
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.C [as subscribeEventListenerToClientNavigation] (https://static.xx.fbcdn.net/rsrc.<token>",
+      "at s (https://static.xx.fbcdn.net/rsrc.php/v4iw2y4/y7/l/en_GB-j/gf8-FAAj8xY.js:232:488)"
+     ],
+     "t": 96
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://static.xx.fbcdn.net/rsrc.<token>",
+      "at Q (https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/mR6LA8E7mEx.js:70:2927)"
+     ],
+     "t": 99
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 101
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1488
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 4120,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4121
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4121
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/se/en/ai-glasses/meta-glasses/#navqa-frag",
+     "t": 4126
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 4126
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 4126,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4126
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4126
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4138
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/se/en/ai-glasses/meta-glasses/#navqa-frag",
+     "t": 4368
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 4368,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 4368
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4368
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6752,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 6752
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6752
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 6753
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.meta.com/se/en/ai-glasses/meta-glasses/",
+     "t": 6772
+    }
+   ],
+   "counts": {
+    "history:replaceState": 3,
+    "navigate:replace": 3,
+    "currententrychange:replace": 3,
+    "listen:navigatesuccess": 2,
+    "listen:navigate": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigateerror": 1,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "dc62f600565e",
+   "titleHash": "0e7d80692db7"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 18.2,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

@@ -1,0 +1,923 @@
+{
+ "id": "552e49b337",
+ "page": "https://www.currys.co.uk/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "error": 2,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 5711,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 217
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 217
+    },
+    {
+     "e": "SyntaxError: expected expression, got '='",
+     "f": "https://www.currys.co.uk/",
+     "k": "error",
+     "l": 7192,
+     "t": 225
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 246
+    },
+    {
+     "e": "Script error.",
+     "f": "https://sgtm.currys.co.uk/gtag/js",
+     "k": "error",
+     "l": 0,
+     "t": 512
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1203
+    },
+    {
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data",
+     "k": "rejection",
+     "t": 5527
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.currys.co.uk/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "24a37da8-29ea-45d7-8f08-50a5f07952a0",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.currys.co.uk/",
+    "urlHash": "552e49b3376a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8971,
+   "timeOrigin": 1793563977032,
+   "url": "https://www.currys.co.uk/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: expected expression, got '='"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccom.adobe.alloy.getTld\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cweird_get_top_level_domain\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cweird_get_top_level_domain\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cweird_get_top_level_domain\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cweird_get_top_level_domain\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"event_callback\", k is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "\ud83d\ude80 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cs_tld1793563982610\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__oaiq_domain_probe\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__oaiq_domain_probe\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_uetsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_uetsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Cannot load Tag Resources more than once..."
+    },
+    {
+     "k": "console-warn",
+     "e": "Cannot load Tag Data more than once..."
+    },
+    {
+     "k": "console-warn",
+     "e": "Cannot load Tag Script more than once..."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_3VD8P50ZM5\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_uetsid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_uetvid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csmc-tlc-checker\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_tt_enable_cookie\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_tt_enable_cookie\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cttcsid_C4T0I2FPECQ6U88F4HCG\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cs_root-domain\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_uetvid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_hp2_hld4808774329293091\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_hp2_hld4808774329293091\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_hp2_hld8521755341949903\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_hp2_hld8521755341949903\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://ups.analytics.yahoo.com/ups/58728/cms was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    }
+   ],
+   "urlHash": "552e49b3376a",
+   "titleHash": "c3a463e5543d"
+  },
+  {
+   "step": "link",
+   "href": "https://www.currys.co.uk/store-finder",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1021,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 17
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 30
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.currys.co.uk/store-finder",
+     "entryIsCurrent": true,
+     "from": "https://www.currys.co.uk/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "c9e722be-6c35-4856-8eb6-e6258caa52e4",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.currys.co.uk/store-finder",
+    "urlHash": "365184a1771c"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -2
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 689,
+   "timeOrigin": 1793563985431,
+   "url": "https://www.currys.co.uk/store-finder",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "365184a1771c",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1021,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 6
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.currys.co.uk/",
+     "entryIsCurrent": true,
+     "from": "https://www.currys.co.uk/store-finder",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "24a37da8-29ea-45d7-8f08-50a5f07952a0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.currys.co.uk/",
+    "urlHash": "552e49b3376a"
+   },
+   "prev": {
+    "counts": {
+     "listen:navigate": 1,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+      ],
+      "t": 17
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 30
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2344,
+      "url": "https://www.currys.co.uk/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://www.currys.co.uk/store-finder"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 689,
+   "timeOrigin": 1793563987809,
+   "url": "https://www.currys.co.uk/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "552e49b3376a",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1021,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 7
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 9
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.currys.co.uk/store-finder",
+     "entryIsCurrent": true,
+     "from": "https://www.currys.co.uk/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "c9e722be-6c35-4856-8eb6-e6258caa52e4",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.currys.co.uk/store-finder",
+    "urlHash": "365184a1771c"
+   },
+   "prev": {
+    "counts": {
+     "listen:navigate": 1,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+      ],
+      "t": 6
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 6
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2560,
+      "url": "https://www.currys.co.uk/store-finder",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://www.currys.co.uk/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 689,
+   "timeOrigin": 1793563990388,
+   "url": "https://www.currys.co.uk/store-finder",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "365184a1771c",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1021,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 45
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 47
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.currys.co.uk/store-finder",
+     "entryIsCurrent": true,
+     "from": "https://www.currys.co.uk/store-finder",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "c9e722be-6c35-4856-8eb6-e6258caa52e4",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.currys.co.uk/store-finder",
+    "urlHash": "365184a1771c"
+   },
+   "prev": {
+    "counts": {
+     "listen:navigate": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+       "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+      ],
+      "t": 7
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 9
+     }
+    ],
+    "url": "https://www.currys.co.uk/store-finder"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 689,
+   "timeOrigin": 1793563992997,
+   "url": "https://www.currys.co.uk/store-finder",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "365184a1771c",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 1021,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 45
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 47
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2610,
+     "url": "https://www.currys.co.uk/store-finder",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.currys.co.uk/store-finder",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2610
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2610,
+     "url": "https://www.currys.co.uk/store-finder"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2610
+    },
+    {
+     "k": "hashchange",
+     "t": 2610,
+     "url": "https://www.currys.co.uk/store-finder"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.currys.co.uk/store-finder",
+     "entryIsCurrent": false,
+     "from": "https://www.currys.co.uk/store-finder",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "8050e5f7-95c9-4c9a-8415-0f978f7d575e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.currys.co.uk/store-finder",
+    "urlHash": "63097ad6dcd3"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 689,
+   "timeOrigin": 1793563992997,
+   "url": "https://www.currys.co.uk/store-finder",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "63097ad6dcd3",
+   "titleHash": "6c58da82f9cd"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 1021,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 45
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 47
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2610,
+     "url": "https://www.currys.co.uk/store-finder",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.currys.co.uk/store-finder",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2610
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2610,
+     "url": "https://www.currys.co.uk/store-finder"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2610
+    },
+    {
+     "k": "hashchange",
+     "t": 2610,
+     "url": "https://www.currys.co.uk/store-finder"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5172,
+     "url": "https://www.currys.co.uk/store-finder",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.currys.co.uk/store-finder",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5172
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5172
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5172,
+     "url": "https://www.currys.co.uk/store-finder"
+    },
+    {
+     "k": "hashchange",
+     "t": 5173,
+     "url": "https://www.currys.co.uk/store-finder"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.currys.co.uk/store-finder",
+     "entryIsCurrent": true,
+     "from": "https://www.currys.co.uk/store-finder",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "c9e722be-6c35-4856-8eb6-e6258caa52e4",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.currys.co.uk/store-finder",
+    "urlHash": "365184a1771c"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 689,
+   "timeOrigin": 1793563992997,
+   "url": "https://www.currys.co.uk/store-finder",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "365184a1771c",
+   "titleHash": "6c58da82f9cd"
+  }
+ ],
+ "plan": {
+  "link": "https://www.currys.co.uk/store-finder",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 23.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

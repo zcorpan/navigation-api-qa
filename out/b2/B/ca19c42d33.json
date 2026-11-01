@@ -1,0 +1,792 @@
+{
+ "id": "ca19c42d33",
+ "page": "https://newspulsenow.net/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 8197,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 108
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newspulsenow.net/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "723e2a56-f7b5-46d0-ad31-7fdfcccff1c7",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newspulsenow.net/",
+    "urlHash": "ca19c42d33d4"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2622,
+   "timeOrigin": 1793563773346,
+   "url": "https://newspulsenow.net/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "ca19c42d33d4",
+   "titleHash": "08bcae1b3402"
+  },
+  {
+   "step": "link",
+   "href": "https://newspulsenow.<token>",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 6320,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 41
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newspulsenow.<token>",
+     "entryIsCurrent": true,
+     "from": "https://newspulsenow.net/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "5e04711a-399d-433a-bb38-6bd551eb173f",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newspulsenow.<token>",
+    "urlHash": "e97cd0b208d5"
+   },
+   "prev": {
+    "counts": {
+     "navigate:push": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 108
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": "A",
+      "t": 4231,
+      "url": "https://newspulsenow.<token>",
+      "userInitiated": true
+     }
+    ],
+    "url": "https://newspulsenow.net/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4891,
+   "timeOrigin": 1793563777751,
+   "url": "https://newspulsenow.<token>",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e97cd0b208d5",
+   "titleHash": "c3ecd9d58d41"
+  },
+  {
+   "step": "link2",
+   "href": "https://newspulsenow.net/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 8197,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 12
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newspulsenow.net/",
+     "entryIsCurrent": true,
+     "from": "https://newspulsenow.<token>",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 3,
+    "key": "cae7c05f-9f58-4f03-948a-feb69c845515",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newspulsenow.net/",
+    "urlHash": "ca19c42d33d4"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2622,
+   "timeOrigin": 1793563780494,
+   "url": "https://newspulsenow.net/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "ca19c42d33d4",
+   "titleHash": "08bcae1b3402"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6320,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 120
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 120
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newspulsenow.<token>",
+     "entryIsCurrent": true,
+     "from": "https://newspulsenow.net/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 2,
+    "key": "01b4f969-73a3-4536-9a3a-f516edab8188",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newspulsenow.<token>",
+    "urlHash": "cb92d2b52963"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 5520,
+   "textLen": 4891,
+   "timeOrigin": 1793563783120,
+   "url": "https://newspulsenow.<token>",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "cb92d2b52963",
+   "titleHash": "c3ecd9d58d41"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6320,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 120
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 120
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2567,
+     "url": "https://newspulsenow.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://newspulsenow.<token>",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 2567
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2567
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2567
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2567,
+     "url": "https://newspulsenow.<token>"
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://newspulsenow.<token>",
+     "entryIsCurrent": false,
+     "from": "https://newspulsenow.net/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "5e04711a-399d-433a-bb38-6bd551eb173f",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newspulsenow.<token>",
+    "urlHash": "e97cd0b208d5"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 5520,
+   "textLen": 4891,
+   "timeOrigin": 1793563783120,
+   "url": "https://newspulsenow.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e97cd0b208d5",
+   "titleHash": "c3ecd9d58d41"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:traverse": 2,
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "navigate:traverse": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6320,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 120
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 120
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2567,
+     "url": "https://newspulsenow.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://newspulsenow.<token>",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 2567
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2567
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2567
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2567,
+     "url": "https://newspulsenow.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5119,
+     "url": "https://newspulsenow.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://newspulsenow.<token>",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5120
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5120
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5120
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5120,
+     "url": "https://newspulsenow.<token>"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://newspulsenow.<token>",
+     "entryIsCurrent": true,
+     "from": "https://newspulsenow.net/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 2,
+    "key": "01b4f969-73a3-4536-9a3a-f516edab8188",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newspulsenow.<token>",
+    "urlHash": "cb92d2b52963"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 5520,
+   "textLen": 4891,
+   "timeOrigin": 1793563783120,
+   "url": "https://newspulsenow.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "cb92d2b52963",
+   "titleHash": "c3ecd9d58d41"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 6381,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 84
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://newspulsenow.<token>",
+     "entryIsCurrent": true,
+     "from": "https://newspulsenow.<token>",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 2,
+    "key": "01b4f969-73a3-4536-9a3a-f516edab8188",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newspulsenow.<token>",
+    "urlHash": "cb92d2b52963"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4891,
+   "timeOrigin": 1793563790837,
+   "url": "https://newspulsenow.<token>",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "cb92d2b52963",
+   "titleHash": "c3ecd9d58d41"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6381,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 84
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2670,
+     "url": "https://newspulsenow.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://newspulsenow.<token>",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2670
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2670,
+     "url": "https://newspulsenow.<token>"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2670
+    },
+    {
+     "k": "hashchange",
+     "t": 2671,
+     "url": "https://newspulsenow.<token>"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://newspulsenow.<token>",
+     "entryIsCurrent": false,
+     "from": "https://newspulsenow.<token>",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 3,
+    "key": "0f007e86-6dde-4a30-a994-bed866f9a90e",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newspulsenow.<token>",
+    "urlHash": "60703ed46c3d"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4891,
+   "timeOrigin": 1793563790837,
+   "url": "https://newspulsenow.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "60703ed46c3d",
+   "titleHash": "c3ecd9d58d41"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6381,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 84
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2670,
+     "url": "https://newspulsenow.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://newspulsenow.<token>",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2670
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2670,
+     "url": "https://newspulsenow.<token>"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2670
+    },
+    {
+     "k": "hashchange",
+     "t": 2671,
+     "url": "https://newspulsenow.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5237,
+     "url": "https://newspulsenow.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://newspulsenow.<token>",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5237
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5237
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5237,
+     "url": "https://newspulsenow.<token>"
+    },
+    {
+     "k": "hashchange",
+     "t": 5238,
+     "url": "https://newspulsenow.<token>"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://newspulsenow.<token>",
+     "entryIsCurrent": true,
+     "from": "https://newspulsenow.<token>",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 2,
+    "key": "01b4f969-73a3-4536-9a3a-f516edab8188",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://newspulsenow.<token>",
+    "urlHash": "cb92d2b52963"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4891,
+   "timeOrigin": 1793563790837,
+   "url": "https://newspulsenow.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "cb92d2b52963",
+   "titleHash": "c3ecd9d58d41"
+  }
+ ],
+ "plan": {
+  "link": "https://newspulsenow.<token>",
+  "link2": "https://newspulsenow.net/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 25.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

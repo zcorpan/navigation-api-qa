@@ -1,0 +1,3131 @@
+{
+ "id": "c150244e48",
+ "page": "https://www.smh.com.au/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.smh.com.au/",
+   "readyState": "complete",
+   "timeOrigin": 1793563911342.9,
+   "marker": null,
+   "histLen": 27,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 14637,
+   "active": "BODY",
+   "textLen": 16557,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.smh.com.au/",
+    "key": "19284797-d7c6-48f2-9e39-3124c19a79fb",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.smh.com.au/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "c150244e4857"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1532
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1532,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1533
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1594
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 1594
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1595
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1612
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1717
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 1717
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2786
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "CryptoJS is not defined"
+    },
+    {
+     "k": "console-error",
+     "e": "CryptoJS is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setCentering is deprecated, use googletag.setConfig({centering: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "c150244e4857",
+   "titleHash": "4444563bfa27"
+  },
+  {
+   "step": "link",
+   "href": "https://www.smh.com.au/sydney-news",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.smh.com.au/sydney-news",
+   "readyState": "complete",
+   "timeOrigin": 1793563911342.9,
+   "marker": "m0",
+   "histLen": 28,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4121,
+   "active": "DIV#page_announcer",
+   "textLen": 4476,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.smh.com.au/sydney-news",
+    "key": "a0727579-d214-4cca-8aed-605873b09d1f",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.smh.com.au/",
+     "from": null,
+     "entryIsCurrent": false
+    },
+    "urlHash": "b178e1ae393e"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1532
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1532,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1533
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1594
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 1594
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1595
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1612
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1717
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 1717
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2786
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/sydney-news",
+     "t": 6945
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6945,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/",
+     "t": 6945
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 6948
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 6948
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6948,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 6949
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6949
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6949
+    }
+   ],
+   "counts": {
+    "history:replaceState": 3,
+    "navigate:replace": 3,
+    "currententrychange:replace": 3,
+    "navigateerror": 2,
+    "navigatesuccess": 2,
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "history:pushState": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.smh.com.au/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.smh.com.au/",
+   "readyState": "complete",
+   "timeOrigin": 1793563911342.9,
+   "marker": "m1",
+   "histLen": 29,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 14637,
+   "active": "DIV#page_announcer",
+   "textLen": 16571,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.smh.com.au/",
+    "key": "6d68d831-69e6-420d-a34d-6213d88de34c",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.smh.com.au/",
+     "from": null,
+     "entryIsCurrent": false
+    },
+    "urlHash": "c150244e4857"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1532
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1532,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1533
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1594
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 1594
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1595
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1612
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1717
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 1717
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2786
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/sydney-news",
+     "t": 6945
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6945,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/",
+     "t": 6945
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 6948
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 6948
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6948,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 6949
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6949
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6949
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/",
+     "t": 9594
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 9594
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 9596
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 9596
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9596,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 9597
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9597
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9597
+    }
+   ],
+   "counts": {
+    "history:replaceState": 4,
+    "navigate:replace": 4,
+    "currententrychange:replace": 4,
+    "navigateerror": 3,
+    "navigatesuccess": 3,
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "history:pushState": 2,
+    "navigate:push": 2,
+    "currententrychange:push": 2
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "c150244e4857",
+   "titleHash": "4444563bfa27"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.smh.com.au/sydney-news",
+   "readyState": "complete",
+   "timeOrigin": 1793563911342.9,
+   "marker": "m2",
+   "histLen": 29,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4121,
+   "active": "DIV#page_announcer",
+   "textLen": 4476,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.smh.com.au/sydney-news",
+    "key": "a0727579-d214-4cca-8aed-605873b09d1f",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.smh.com.au/",
+     "from": null,
+     "entryIsCurrent": false
+    },
+    "urlHash": "b178e1ae393e"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1532
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1532,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1533
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1594
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 1594
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1595
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1612
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1717
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 1717
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2786
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/sydney-news",
+     "t": 6945
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6945,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/",
+     "t": 6945
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 6948
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 6948
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6948,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 6949
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6949
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6949
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/",
+     "t": 9594
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 9594
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 9596
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 9596
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9596,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 9597
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9597
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9597
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12233,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.smh.com.au/",
+     "t": 12234
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12234
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12234
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 12234
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 12236
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12236,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 12236
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12238
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12238
+    }
+   ],
+   "counts": {
+    "history:replaceState": 5,
+    "navigate:replace": 5,
+    "currententrychange:replace": 5,
+    "navigateerror": 3,
+    "navigatesuccess": 5,
+    "get:currentEntry": 5,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "history:pushState": 2,
+    "navigate:push": 2,
+    "currententrychange:push": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1,
+    "popstate": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "url": "https://www.smh.com.au/",
+   "readyState": "complete",
+   "timeOrigin": 1793563911342.9,
+   "marker": "m3",
+   "histLen": 29,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 14637,
+   "active": "DIV#page_announcer",
+   "textLen": 16571,
+   "nav": {
+    "len": 3,
+    "idx": 0,
+    "url": "https://www.smh.com.au/",
+    "key": "19284797-d7c6-48f2-9e39-3124c19a79fb",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.smh.com.au/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "c150244e4857"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1532
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1532,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1533
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1594
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 1594
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1595
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1612
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1717
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 1717
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2786
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/sydney-news",
+     "t": 6945
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6945,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/",
+     "t": 6945
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 6948
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 6948
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6948,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 6949
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6949
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6949
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/",
+     "t": 9594
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 9594
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 9596
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 9596
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9596,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 9597
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9597
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9597
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12233,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.smh.com.au/",
+     "t": 12234
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12234
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12234
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 12234
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 12236
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12236,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 12236
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12238
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12238
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 14877,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 14877
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 14877
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 14877
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.smh.com.au/",
+     "t": 14877
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 14878
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 14878,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 14878
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 14880
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 14880
+    }
+   ],
+   "counts": {
+    "history:replaceState": 6,
+    "navigate:replace": 6,
+    "currententrychange:replace": 6,
+    "navigateerror": 3,
+    "navigatesuccess": 7,
+    "get:currentEntry": 7,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "history:pushState": 2,
+    "navigate:push": 2,
+    "currententrychange:push": 2,
+    "navigate:traverse": 2,
+    "currententrychange:traverse": 2,
+    "popstate": 2
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "c150244e4857",
+   "titleHash": "4444563bfa27"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://www.smh.com.au/sydney-news",
+   "readyState": "complete",
+   "timeOrigin": 1793563911342.9,
+   "marker": "m4",
+   "histLen": 29,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4121,
+   "active": "DIV#page_announcer",
+   "textLen": 4476,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.smh.com.au/sydney-news",
+    "key": "a0727579-d214-4cca-8aed-605873b09d1f",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.smh.com.au/",
+     "from": null,
+     "entryIsCurrent": false
+    },
+    "urlHash": "b178e1ae393e"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1532
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1532,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1533
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 1594
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 1594
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 1595
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1612
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1717
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 1717
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2786
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/sydney-news",
+     "t": 6945
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6945,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/",
+     "t": 6945
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 6948
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 6948
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6948,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 6949
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6949
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6949
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "/",
+     "t": 9594
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9594,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 9594
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 9596
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 9596
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 9596,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 9597
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9597
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9597
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12233,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.smh.com.au/",
+     "t": 12234
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12234
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12234
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 12234
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 12236
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 12236,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 12236
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12238
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12238
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 14877,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 14877
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 14877
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 14877
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.smh.com.au/",
+     "t": 14877
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/",
+     "t": 14878
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 14878,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/",
+     "t": 14878
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 14880
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 14880
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 17530,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.smh.com.au/",
+     "t": 17531
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 17531
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 17531
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 17531
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 17532
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 17532,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 17532
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 17534
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 17534
+    }
+   ],
+   "counts": {
+    "history:replaceState": 7,
+    "navigate:replace": 7,
+    "currententrychange:replace": 7,
+    "navigateerror": 3,
+    "navigatesuccess": 9,
+    "get:currentEntry": 9,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1,
+    "history:pushState": 2,
+    "navigate:push": 2,
+    "currententrychange:push": 2,
+    "navigate:traverse": 3,
+    "currententrychange:traverse": 3,
+    "popstate": 3
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "url": "https://www.smh.com.au/sydney-news",
+   "readyState": "complete",
+   "timeOrigin": 1793563931572.6,
+   "marker": null,
+   "histLen": 29,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4121,
+   "active": "BODY",
+   "textLen": 4462,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.smh.com.au/sydney-news",
+    "key": "a0727579-d214-4cca-8aed-605873b09d1f",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.smh.com.au/sydney-news",
+     "from": "https://www.smh.com.au/sydney-news",
+     "entryIsCurrent": true
+    },
+    "urlHash": "b178e1ae393e"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 463
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 463
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 488
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 488,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 488
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 511
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 511
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 511,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 511
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 516
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 516
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 849
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "CryptoJS is not defined"
+    },
+    {
+     "k": "console-error",
+     "e": "CryptoJS is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setCentering is deprecated, use googletag.setConfig({centering: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://buy-au.piano.io') does not match the recipient window's origin ('https://www.smh.com.au')."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.smh.com.au/sydney-news",
+   "readyState": "complete",
+   "timeOrigin": 1793563931572.6,
+   "marker": "m6",
+   "histLen": 29,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4121,
+   "active": "BODY",
+   "textLen": 4462,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.smh.com.au/sydney-news",
+    "key": "fc6ac97d-499d-4669-ad67-85fd6f8ab15b",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.smh.com.au/sydney-news",
+     "from": "https://www.smh.com.au/sydney-news",
+     "entryIsCurrent": false
+    },
+    "urlHash": "78b6c96ef0d0"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 463
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 463
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 488
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 488,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 488
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 511
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 511
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 511,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 511
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 516
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 516
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 849
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3476,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 3477
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 3477
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3478
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3478
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 3481
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "78b6c96ef0d0",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.smh.com.au/sydney-news",
+   "readyState": "complete",
+   "timeOrigin": 1793563931572.6,
+   "marker": "m7",
+   "histLen": 29,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4121,
+   "active": "BODY",
+   "textLen": 4462,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.smh.com.au/sydney-news",
+    "key": "a0727579-d214-4cca-8aed-605873b09d1f",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.smh.com.au/sydney-news",
+     "from": "https://www.smh.com.au/sydney-news",
+     "entryIsCurrent": true
+    },
+    "urlHash": "b178e1ae393e"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 463
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 463
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 488
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 488,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 488
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 511
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 511
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 511,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 511
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 516
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 516
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 849
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3476,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 3477
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 3477
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3478
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3478
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 3481
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.smh.com.au/sydney-news",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6087,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.smh.com.au/sydney-news",
+     "t": 6087
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6087
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6087
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 6087
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.smh.com.au/sydney-news",
+     "t": 6090
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 4,
+    "listen:navigatesuccess": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  }
+ ],
+ "plan": {
+  "link": "https://www.smh.com.au/sydney-news",
+  "link2": "https://www.smh.com.au/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 29.3,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

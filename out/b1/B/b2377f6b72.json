@@ -1,0 +1,951 @@
+{
+ "id": "b2377f6b72",
+ "page": "https://www.marca.<token>.html",
+ "steps": [
+  {
+   "step": "load",
+   "active": "DIV#ue-initial-modal",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5187,
+   "histLen": 25,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 412
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.marca.<token>.html:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 412
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 758
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.marca.<token>.html",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "8c35d994-9d62-4abc-9a77-acb3570105a0",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marca.<token>.html",
+    "urlHash": "b2377f6b72d8"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8628,
+   "timeOrigin": 1793554994519,
+   "url": "https://www.marca.<token>.html",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cuser_consent_policy\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cuser_consent_policy\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfbm_279395918757488\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfbsr_279395918757488\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "b2377f6b72d8",
+   "titleHash": "0e619492b86a"
+  },
+  {
+   "step": "link",
+   "href": "https://www.marca.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10620,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 163
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.marca.com/:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 163
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 258,
+     "url": "https://www.marca.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "same": true,
+     "src": null,
+     "t": 258,
+     "url": "https://www.marca.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.marca.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 258
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 258
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 258
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 320
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.marca.<token>.html",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cb2c9079-42e8-4700-b8d2-4150f7863b78",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marca.com/",
+    "urlHash": "58e85e529301"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18455,
+   "timeOrigin": 1793554999536,
+   "url": "https://www.marca.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "DIV#ue-initial-modal",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5187,
+   "histLen": 26,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 56
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.marca.<token>.html:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 56
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 242
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.marca.<token>.html",
+     "entryIsCurrent": true,
+     "from": "https://www.marca.com/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "8c35d994-9d62-4abc-9a77-acb3570105a0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marca.<token>.html",
+    "urlHash": "b2377f6b72d8"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8628,
+   "timeOrigin": 1793555002487,
+   "url": "https://www.marca.<token>.html",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "b2377f6b72d8",
+   "titleHash": "0e619492b86a"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "DIV#ue-initial-modal",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10620,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 447
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.marca.com/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 447
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 558,
+     "url": "https://www.marca.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "same": true,
+     "src": null,
+     "t": 558,
+     "url": "https://www.marca.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.marca.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 558
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 559
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 559
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 687
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.marca.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cb2c9079-42e8-4700-b8d2-4150f7863b78",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marca.com/",
+    "urlHash": "58e85e529301"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 4717
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19810,
+   "timeOrigin": 1793555005333,
+   "url": "https://www.marca.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_re_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_c990x50_320x53d_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_rf_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_rg_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_ri_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    }
+   ],
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "DIV#ue-initial-modal",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10620,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 291
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.marca.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 291
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 381,
+     "url": "https://www.marca.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "same": true,
+     "src": null,
+     "t": 381,
+     "url": "https://www.marca.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.marca.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 381
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 381
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 381
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 458
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.marca.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cb2c9079-42e8-4700-b8d2-4150f7863b78",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marca.com/",
+    "urlHash": "58e85e529301"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 21
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19800,
+   "timeOrigin": 1793555007940,
+   "url": "https://www.marca.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_re_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_c990x50_320x53d_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_rf_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_rg_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_ri_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cuser_consent_policy\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cuser_consent_policy\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "DIV#ue-initial-modal",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "get:currentEntry": 3,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10620,
+   "histLen": 27,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 291
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.marca.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 291
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 381,
+     "url": "https://www.marca.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 381,
+     "url": "https://www.marca.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.marca.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 381
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 381
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 381
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 458
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3039,
+     "url": "https://www.marca.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.marca.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3039
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3039,
+     "url": "https://www.marca.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3039
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3039
+    },
+    {
+     "k": "hashchange",
+     "t": 3039,
+     "url": "https://www.marca.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "entryIsCurrent": false,
+     "from": "https://www.marca.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "d1b00387-51f6-42f5-a2fb-caea89c529af",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marca.com/",
+    "urlHash": "0206694ff691"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19800,
+   "timeOrigin": 1793555007940,
+   "url": "https://www.marca.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfbm_279395918757488\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfbsr_279395918757488\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Permutive was not initialized. No consent to run on the page"
+    }
+   ],
+   "urlHash": "0206694ff691",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "DIV#ue-initial-modal",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10714,
+   "histLen": 27,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 400
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.marca.com/:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 400
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 509,
+     "url": "https://www.marca.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "same": true,
+     "src": null,
+     "t": 509,
+     "url": "https://www.marca.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.marca.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 509
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 509
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 509
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 577
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.marca.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "cb2c9079-42e8-4700-b8d2-4150f7863b78",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marca.com/",
+    "urlHash": "58e85e529301"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19855,
+   "timeOrigin": 1793555013604,
+   "url": "https://www.marca.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_re_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_c990x50_320x53d_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_rf_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_rg_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-portada_ri_8c257d307923b2499acef663.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "euconsent-v2 not found"
+    }
+   ],
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  }
+ ],
+ "plan": {
+  "link": "https://www.marca.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 21.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

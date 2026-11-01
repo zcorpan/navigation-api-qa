@@ -1,0 +1,278 @@
+{
+ "id": "4c26395d3a",
+ "page": "https://www.tomshardware.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "IFRAME#sp_message_iframe_1505747",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 515,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1168
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 8
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16368,
+   "timeOrigin": 1793555448197,
+   "url": "https://www.tomshardware.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": " FTE  No archive filter present"
+    },
+    {
+     "k": "console-error",
+     "e": " BORDEAUX  There is no slot for ad \"skin\""
+    },
+    {
+     "k": "console-error",
+     "e": " BORDEAUX  There is no slot for ad \"overlay\""
+    },
+    {
+     "k": "console-warn",
+     "e": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+    }
+   ],
+   "urlHash": "4c26395d3ab7",
+   "titleHash": "236109d809bf"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "IFRAME#sp_message_iframe_1505747",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 830
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16368,
+   "timeOrigin": 1793555453515,
+   "url": "https://www.tomshardware.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": " FTE  No archive filter present"
+    },
+    {
+     "k": "console-warn",
+     "e": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+    },
+    {
+     "k": "console-error",
+     "e": " BORDEAUX  There is no slot for ad \"skin\""
+    },
+    {
+     "k": "console-error",
+     "e": " BORDEAUX  There is no slot for ad \"overlay\""
+    }
+   ],
+   "urlHash": "4c26395d3ab7",
+   "titleHash": "236109d809bf"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "IFRAME#sp_message_iframe_1505747",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 25,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 830
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3408,
+     "url": "https://www.tomshardware.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3409,
+     "url": "https://www.tomshardware.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16368,
+   "timeOrigin": 1793555453515,
+   "url": "https://www.tomshardware.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f2836cb160d2",
+   "titleHash": "236109d809bf"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME#sp_message_iframe_1505747",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 830
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3408,
+     "url": "https://www.tomshardware.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3409,
+     "url": "https://www.tomshardware.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5981,
+     "url": "https://www.tomshardware.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5981,
+     "url": "https://www.tomshardware.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16368,
+   "timeOrigin": 1793555453515,
+   "url": "https://www.tomshardware.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4c26395d3ab7",
+   "titleHash": "236109d809bf"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 13.9,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

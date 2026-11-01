@@ -1,0 +1,1355 @@
+{
+ "id": "b705b330b0",
+ "page": "https://arsiv.mackolik.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3033,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 455
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 455
+    },
+    {
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined",
+     "f": "https://arsiv.mackolik.com/Default.aspx",
+     "k": "error",
+     "l": 2027,
+     "t": 830
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Pi@https://jsc.idealmedia.io/site/1031476.js:232:4045",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:19877",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20560",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20565"
+     ],
+     "t": 929
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1848
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arsiv.mackolik.com/Default.aspx",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "9ef429c3-45db-48dd-9075-da17cb05f2bc",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arsiv.mackolik.com/Default.aspx",
+    "urlHash": "1f2b0891cbb1"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4344,
+   "timeOrigin": 1793562892877,
+   "url": "https://arsiv.mackolik.com/Default.aspx",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/adad1dff-a778-440b-8821-9573f0aa29ca from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/d4c517eb-b95e-45de-9d77-f80c5ba72e6f from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.woff. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 200."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Open Sans\" style:normal weight:700 width:100 src index:1): bad URI or cross-site access not allowed source: https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.woff"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.ttf. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 200."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Open Sans\" style:normal weight:700 width:100 src index:2): bad URI or cross-site access not allowed source: https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.ttf"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.woff. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 200."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.woff. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 200."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Open Sans\" style:normal weight:700 width:100 src index:1): bad URI or cross-site access not allowed source: https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.woff"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Open Sans\" style:normal weight:700 width:100 src index:1): bad URI or cross-site access not allowed source: https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.woff"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.ttf. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 200."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.ttf. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 200."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Open Sans\" style:normal weight:700 width:100 src index:2): bad URI or cross-site access not allowed source: https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.ttf"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Open Sans\" style:normal weight:700 width:100 src index:2): bad URI or cross-site access not allowed source: https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.ttf"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.woff. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 200."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Open Sans\" style:normal weight:700 width:100 src index:1): bad URI or cross-site access not allowed source: https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.woff"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.ttf. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 200."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Open Sans\" style:normal weight:700 width:100 src index:2): bad URI or cross-site access not allowed source: https://cm.mackolik.com/css5/trivia/fonts/OpenSans-Bold-webfont.ttf"
+    },
+    {
+     "k": "console-error",
+     "e": "VIDEOJS: ERROR: Unable to find plugin: gemiusPlugin"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either t"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "1f2b0891cbb1",
+   "titleHash": "7657a3142910"
+  },
+  {
+   "step": "link",
+   "href": "https://arsiv.mackolik.com/default.aspx",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3033,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 16
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 16
+    },
+    {
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined",
+     "f": "https://arsiv.mackolik.com/default.aspx",
+     "k": "error",
+     "l": 2027,
+     "t": 223
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Pi@https://jsc.idealmedia.io/site/1031476.js:232:4045",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:19877",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20560",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20565"
+     ],
+     "t": 240
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 766
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arsiv.mackolik.com/default.aspx",
+     "entryIsCurrent": true,
+     "from": "https://arsiv.mackolik.com/Default.aspx",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cef36470-edda-4edf-894e-21c7011cba0b",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arsiv.mackolik.com/default.aspx",
+    "urlHash": "78cf3ed73971"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3787,
+   "timeOrigin": 1793562906136,
+   "url": "https://arsiv.mackolik.com/default.aspx",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/a494307b-e344-4800-91b0-e1b48b989c5e from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/ed921f68-9e5a-41f9-96a6-bf1192a79013 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "console-error",
+     "e": "VIDEOJS: ERROR: Unable to find plugin: gemiusPlugin"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    }
+   ],
+   "urlHash": "78cf3ed73971",
+   "titleHash": "7657a3142910"
+  },
+  {
+   "step": "link2",
+   "href": "https://arsiv.mackolik.com/Canli-Sonuclar",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 20424,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 44
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 44
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Pi@https://jsc.idealmedia.io/site/1031476.js:232:4045",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:19877",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20560",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20565"
+     ],
+     "t": 380
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6231
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arsiv.mackolik.com/Canli-Sonuclar",
+     "entryIsCurrent": true,
+     "from": "https://arsiv.mackolik.com/default.aspx",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "cd0deb02-7aff-407a-b7dc-a1ee0e6b189c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arsiv.mackolik.com/Canli-Sonuclar",
+    "urlHash": "a699c7e88e7f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 53630,
+   "timeOrigin": 1793562912743,
+   "url": "https://arsiv.mackolik.com/Canli-Sonuclar",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cm.mackolik.com/js5/jquery.cookie.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cm.mackolik.com/js5/poll-forum.js was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at http://static.eplayer.performgroup.com/flash/js/swfobject.js from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at http://static.eplayer.performgroup.com/flash/js/performgroup.js from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cm.mackolik.com/js5/poll-forum.js was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://cm.mackolik.com/js5/jquery.cookie.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/883788ca-39f2-4086-9a90-ee3e552b6cd4 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/d223cac9-3ae8-4f97-a4f8-b4e367f058d8 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "console-error",
+     "e": "VIDEOJS: ERROR: Unable to find plugin: gemiusPlugin"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "a699c7e88e7f",
+   "titleHash": "fc677623ff3e"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3033,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 16
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 16
+    },
+    {
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined",
+     "f": "https://arsiv.mackolik.com/default.aspx",
+     "k": "error",
+     "l": 2027,
+     "t": 210
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Pi@https://jsc.idealmedia.io/site/1031476.js:232:4045",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:19877",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20560",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20565"
+     ],
+     "t": 238
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 557
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arsiv.mackolik.com/default.aspx",
+     "entryIsCurrent": true,
+     "from": "https://arsiv.mackolik.com/Canli-Sonuclar",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "cef36470-edda-4edf-894e-21c7011cba0b",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arsiv.mackolik.com/default.aspx",
+    "urlHash": "78cf3ed73971"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3787,
+   "timeOrigin": 1793562922007,
+   "url": "https://arsiv.mackolik.com/default.aspx",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/c7cd7bbb-9235-48e7-859b-4c703c8f91b1 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/df28c113-1d6f-4508-a54f-224d496576d3 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "console-error",
+     "e": "VIDEOJS: ERROR: Unable to find plugin: gemiusPlugin"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    }
+   ],
+   "urlHash": "78cf3ed73971",
+   "titleHash": "7657a3142910"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3033,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 14
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 14
+    },
+    {
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined",
+     "f": "https://arsiv.mackolik.com/Default.aspx",
+     "k": "error",
+     "l": 2027,
+     "t": 226
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Pi@https://jsc.idealmedia.io/site/1031476.js:232:4045",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:19877",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20560",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20565"
+     ],
+     "t": 242
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1093
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arsiv.mackolik.com/Default.aspx",
+     "entryIsCurrent": true,
+     "from": "https://arsiv.mackolik.com/default.aspx",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "9ef429c3-45db-48dd-9075-da17cb05f2bc",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arsiv.mackolik.com/Default.aspx",
+    "urlHash": "1f2b0891cbb1"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -6
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3787,
+   "timeOrigin": 1793562925150,
+   "url": "https://arsiv.mackolik.com/Default.aspx",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/74d31b3f-9cb5-45a3-90d5-64de56da7bc5 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/e0f84cca-f1a6-4cbd-92e9-326673ccb609 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "console-error",
+     "e": "VIDEOJS: ERROR: Unable to find plugin: gemiusPlugin"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    }
+   ],
+   "urlHash": "1f2b0891cbb1",
+   "titleHash": "7657a3142910"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3033,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 22
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 22
+    },
+    {
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined",
+     "f": "https://arsiv.mackolik.com/default.aspx",
+     "k": "error",
+     "l": 2027,
+     "t": 227
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Pi@https://jsc.idealmedia.io/site/1031476.js:232:4045",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:19877",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20560",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20565"
+     ],
+     "t": 243
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 903
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arsiv.mackolik.com/default.aspx",
+     "entryIsCurrent": true,
+     "from": "https://arsiv.mackolik.com/Default.aspx",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "cef36470-edda-4edf-894e-21c7011cba0b",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arsiv.mackolik.com/default.aspx",
+    "urlHash": "78cf3ed73971"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3787,
+   "timeOrigin": 1793562928839,
+   "url": "https://arsiv.mackolik.com/default.aspx",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/44aa66d7-c14a-4683-99b4-2ac96b39116c from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/082f7fdd-b935-4077-b504-7316564e4aa8 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "console-error",
+     "e": "VIDEOJS: ERROR: Unable to find plugin: gemiusPlugin"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    }
+   ],
+   "urlHash": "78cf3ed73971",
+   "titleHash": "7657a3142910"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3033,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 151
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 151
+    },
+    {
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined",
+     "f": "https://arsiv.mackolik.com/default.aspx",
+     "k": "error",
+     "l": 2027,
+     "t": 415
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Pi@https://jsc.idealmedia.io/site/1031476.js:232:4045",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:19877",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20560",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20565"
+     ],
+     "t": 450
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1474
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://arsiv.mackolik.com/default.aspx",
+     "entryIsCurrent": true,
+     "from": "https://arsiv.mackolik.com/default.aspx",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "cef36470-edda-4edf-894e-21c7011cba0b",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arsiv.mackolik.com/default.aspx",
+    "urlHash": "78cf3ed73971"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3787,
+   "timeOrigin": 1793562932339,
+   "url": "https://arsiv.mackolik.com/default.aspx",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/fe8da26e-1ff0-4d0e-96e7-d3785a432a50 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a worker script (worker-src) at blob:https://arsiv.mackolik.com/323e06e3-6633-4ad6-93ce-6b353ecf0b24 from being executed because it violates the following directive: \u201cscript-src https: 'unsafe-inline' 'unsafe-eval'\u201d"
+    },
+    {
+     "k": "console-error",
+     "e": "VIDEOJS: ERROR: Unable to find plugin: gemiusPlugin"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://bs.yandex.ru/prebid/5042712 (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    }
+   ],
+   "urlHash": "78cf3ed73971",
+   "titleHash": "7657a3142910"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "error": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3033,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 151
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 151
+    },
+    {
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined",
+     "f": "https://arsiv.mackolik.com/default.aspx",
+     "k": "error",
+     "l": 2027,
+     "t": 415
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Pi@https://jsc.idealmedia.io/site/1031476.js:232:4045",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:19877",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20560",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20565"
+     ],
+     "t": 450
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1474
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4075,
+     "url": "https://arsiv.mackolik.com/default.aspx",
+     "userInitiated": false
+    },
+    {
+     "from": "https://arsiv.mackolik.com/default.aspx",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4075
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4075,
+     "url": "https://arsiv.mackolik.com/default.aspx"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4075
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4075
+    },
+    {
+     "k": "hashchange",
+     "t": 4075,
+     "url": "https://arsiv.mackolik.com/default.aspx"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://arsiv.mackolik.com/default.aspx",
+     "entryIsCurrent": false,
+     "from": "https://arsiv.mackolik.com/default.aspx",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "f3ccb1ae-2fc0-456c-b672-a2c29a4c2933",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arsiv.mackolik.com/default.aspx",
+    "urlHash": "82e3fe21e79f"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3787,
+   "timeOrigin": 1793562932339,
+   "url": "https://arsiv.mackolik.com/default.aspx",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "82e3fe21e79f",
+   "titleHash": "7657a3142910"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "error": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3033,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 151
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 151
+    },
+    {
+     "e": "TypeError: can't access property \"getScores\", Mackolik.HomeScores is undefined",
+     "f": "https://arsiv.mackolik.com/default.aspx",
+     "k": "error",
+     "l": 2027,
+     "t": 415
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Pi@https://jsc.idealmedia.io/site/1031476.js:232:4045",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:19877",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20560",
+      "@https://jsc.idealmedia.io/site/1031476.js:236:20565"
+     ],
+     "t": 450
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1474
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4075,
+     "url": "https://arsiv.mackolik.com/default.aspx",
+     "userInitiated": false
+    },
+    {
+     "from": "https://arsiv.mackolik.com/default.aspx",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4075
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4075,
+     "url": "https://arsiv.mackolik.com/default.aspx"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4075
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4075
+    },
+    {
+     "k": "hashchange",
+     "t": 4075,
+     "url": "https://arsiv.mackolik.com/default.aspx"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6651,
+     "url": "https://arsiv.mackolik.com/default.aspx",
+     "userInitiated": false
+    },
+    {
+     "from": "https://arsiv.mackolik.com/default.aspx",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6652
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6652
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6652
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6652,
+     "url": "https://arsiv.mackolik.com/default.aspx"
+    },
+    {
+     "k": "hashchange",
+     "t": 6652,
+     "url": "https://arsiv.mackolik.com/default.aspx"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://arsiv.mackolik.com/default.aspx",
+     "entryIsCurrent": true,
+     "from": "https://arsiv.mackolik.com/default.aspx",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "cef36470-edda-4edf-894e-21c7011cba0b",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://arsiv.mackolik.com/default.aspx",
+    "urlHash": "78cf3ed73971"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3787,
+   "timeOrigin": 1793562932339,
+   "url": "https://arsiv.mackolik.com/default.aspx",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "78cf3ed73971",
+   "titleHash": "7657a3142910"
+  }
+ ],
+ "plan": {
+  "link": "https://arsiv.mackolik.com/default.aspx",
+  "link2": "https://arsiv.mackolik.com/Canli-Sonuclar",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "consentLate": 1,
+ "elapsed": 49.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

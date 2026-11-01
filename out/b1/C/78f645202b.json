@@ -1,0 +1,650 @@
+{
+ "id": "78f645202b",
+ "page": "https://weathernews.jp/news/202610/130231/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 3,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3398,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 107,
+     "url": "https://weathernews.jp/news/202610/130231/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 123,
+     "url": "https://weathernews.jp/news/202610/130231/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 124,
+     "url": "https://weathernews.jp/news/202610/130231/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 588
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2047,
+   "timeOrigin": 1793555012543,
+   "url": "https://weathernews.jp/news/202610/130231/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "78f645202bf1",
+   "titleHash": "f4cacca54b18"
+  },
+  {
+   "step": "link",
+   "href": "https://weathernews.jp/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY#body",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3157,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 168
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1902,
+   "timeOrigin": 1793555019846,
+   "url": "https://weathernews.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "use_default is deprecated. Please use useDefault instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "use_default is deprecated. Please use useDefault instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "use_default is deprecated. Please use useDefault instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "init_ads is deprecated. Please use initAds instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "8142a6eb2db7",
+   "titleHash": "964420a631a1"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3398,
+   "histLen": 22,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 61,
+     "url": "https://weathernews.jp/news/202610/130231/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 62,
+     "url": "https://weathernews.jp/news/202610/130231/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 224
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2047,
+   "timeOrigin": 1793555023120,
+   "url": "https://weathernews.jp/news/202610/130231/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "78f645202bf1",
+   "titleHash": "f4cacca54b18"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY#body",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3157,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 84
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1902,
+   "timeOrigin": 1793555025907,
+   "url": "https://weathernews.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "use_default is deprecated. Please use useDefault instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "use_default is deprecated. Please use useDefault instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "use_default is deprecated. Please use useDefault instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "init_ads is deprecated. Please use initAds instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "8142a6eb2db7",
+   "titleHash": "964420a631a1"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY#body",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3157,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 278
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1902,
+   "timeOrigin": 1793555028566,
+   "url": "https://weathernews.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "use_default is deprecated. Please use useDefault instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "use_default is deprecated. Please use useDefault instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "use_default is deprecated. Please use useDefault instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "gpt_conf is deprecated. Please use gptConf instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "init_ads is deprecated. Please use initAds instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "8142a6eb2db7",
+   "titleHash": "964420a631a1"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY#body",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3157,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 278
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2854,
+     "url": "https://weathernews.jp/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2857,
+     "url": "https://weathernews.jp/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1902,
+   "timeOrigin": 1793555028566,
+   "url": "https://weathernews.jp/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Interstitial /284705699/MWS/Top_interstitial not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "c419e5a90dad",
+   "titleHash": "964420a631a1"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY#body",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3507,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 278
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2854,
+     "url": "https://weathernews.jp/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2857,
+     "url": "https://weathernews.jp/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5430,
+     "url": "https://weathernews.jp/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5434,
+     "url": "https://weathernews.jp/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1902,
+   "timeOrigin": 1793555028566,
+   "url": "https://weathernews.jp/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Interstitial /284705699/MWS/Top_interstitial not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_a1_f_____\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_a1_f_____\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_a1_f_____\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "8142a6eb2db7",
+   "titleHash": "964420a631a1"
+  }
+ ],
+ "plan": {
+  "link": "https://weathernews.jp/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 24.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

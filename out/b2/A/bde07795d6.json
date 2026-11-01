@@ -1,0 +1,754 @@
+{
+ "id": "bde07795d6",
+ "page": "https://www.depop.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.depop.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793561638406.2,
+   "marker": null,
+   "histLen": 7,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3455,
+   "active": "DIV",
+   "textLen": 1772,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.depop.com/",
+    "key": "55a5f75f-3056-4418-b21c-ccb06aa0b208",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.depop.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "bde07795d6db"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 386
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 386
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 386
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.depop.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 387,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.depop.com/",
+     "t": 387
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 396
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 396
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 407
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 739
+    }
+   ],
+   "counts": {
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Executing inline script violates the following Content Security Policy directive 'script-src 'self' 'nonce-ZDczOWVhMDYtOTBhZC00NzRkLTk5NzAtNWVkZjQ4Y2ZmMTc4' 'strict-dynamic' https: 'unsafe-inline''. Note that 'unsafe-inline' is ignored if either a hash or nonce value is present in the source list. T"
+    },
+    {
+     "k": "console-error",
+     "e": "Executing inline script violates the following Content Security Policy directive 'script-src 'self' 'nonce-ZDczOWVhMDYtOTBhZC00NzRkLTk5NzAtNWVkZjQ4Y2ZmMTc4' 'strict-dynamic' https: 'unsafe-inline''. Note that 'unsafe-inline' is ignored if either a hash or nonce value is present in the source list. T"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://webapi.depop.com/presentation/api/v1/events/' from origin 'https://www.depop.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://webapi.depop.com/presentation/api/v1/events/' from origin 'https://www.depop.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://webapi.depop.com/presentation/api/v1/events/referral-event/' from origin 'https://www.depop.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to fetch"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Refused to execute script from 'https://www.depop.com/vwdj/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://webapi.depop.com/presentation/api/v1/consent/reconciliation/' from origin 'https://www.depop.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://webapi.depop.com/presentation/api/v1/consent/reconciliation/' from origin 'https://www.depop.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://webapi.depop.com/presentation/api/v1/consent/reconciliation/' from origin 'https://www.depop.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    }
+   ],
+   "urlHash": "bde07795d6db",
+   "titleHash": "f4b3e8afd5e5"
+  },
+  {
+   "step": "link",
+   "href": "https://www.depop.com/likes/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.depop.com/likes/",
+   "readyState": "complete",
+   "timeOrigin": 1793561643856.3,
+   "marker": null,
+   "histLen": 8,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 322,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.depop.com/likes/",
+    "key": "ac499f17-7254-4dbe-9f49-7bdac9a3ebbd",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.depop.com/likes/",
+     "from": "https://www.depop.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "94056686c810"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://webapi.depop.com/presentation/api/v1/events/' from origin 'https://www.depop.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "94056686c810",
+   "titleHash": "8871263f45c7"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.depop.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793561646406,
+   "marker": null,
+   "histLen": 8,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 322,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.depop.com/",
+    "key": "55a5f75f-3056-4418-b21c-ccb06aa0b208",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.depop.com/",
+     "from": "https://www.depop.com/likes/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "bde07795d6db"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.depop.com/likes/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 4
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.depop.com/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2525,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "bde07795d6db",
+   "titleHash": "8871263f45c7"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://www.depop.com/likes/",
+   "readyState": "complete",
+   "timeOrigin": 1793561649019.9,
+   "marker": null,
+   "histLen": 8,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 322,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.depop.com/likes/",
+    "key": "ac499f17-7254-4dbe-9f49-7bdac9a3ebbd",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.depop.com/likes/",
+     "from": "https://www.depop.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "94056686c810"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.depop.com/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 2
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.depop.com/likes/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2595,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "94056686c810",
+   "titleHash": "8871263f45c7"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.depop.com/likes/",
+   "readyState": "complete",
+   "timeOrigin": 1793561651622.1,
+   "marker": null,
+   "histLen": 8,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 322,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.depop.com/likes/",
+    "key": "ac499f17-7254-4dbe-9f49-7bdac9a3ebbd",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.depop.com/likes/",
+     "from": "https://www.depop.com/likes/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "94056686c810"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.depop.com/likes/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 2
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "94056686c810",
+   "titleHash": "8871263f45c7"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.depop.com/likes/",
+   "readyState": "complete",
+   "timeOrigin": 1793561651622.1,
+   "marker": "m6",
+   "histLen": 9,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 322,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.depop.com/likes/",
+    "key": "4023079d-2436-4e64-81a6-44f3e67ff39b",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.depop.com/likes/",
+     "from": "https://www.depop.com/likes/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "4dd64dc15b94"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.depop.com/likes/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2595,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.depop.com/likes/",
+     "t": 2595
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.depop.com/likes/",
+     "t": 2595
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2595
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.depop.com/likes/",
+     "t": 2595
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4dd64dc15b94",
+   "titleHash": "8871263f45c7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "url": "https://www.depop.com/likes/",
+   "readyState": "complete",
+   "timeOrigin": 1793561651622.1,
+   "marker": "m7",
+   "histLen": 9,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 322,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.depop.com/likes/",
+    "key": "ac499f17-7254-4dbe-9f49-7bdac9a3ebbd",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.depop.com/likes/",
+     "from": "https://www.depop.com/likes/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "94056686c810"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.depop.com/likes/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2595,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.depop.com/likes/",
+     "t": 2595
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.depop.com/likes/",
+     "t": 2595
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2595
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.depop.com/likes/",
+     "t": 2595
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.depop.com/likes/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5160,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.depop.com/likes/",
+     "t": 5160
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5160
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.depop.com/likes/",
+     "t": 5160
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.depop.com/likes/",
+     "t": 5160
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "94056686c810",
+   "titleHash": "8871263f45c7"
+  }
+ ],
+ "plan": {
+  "link": "https://www.depop.com/likes/",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 21.0,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

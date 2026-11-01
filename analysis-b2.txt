@@ -1,0 +1,358 @@
+125 ('B', 'textLen', False)
+100 ('B', 'navLen', False)
+85 ('B', 'histDelta', False)
+84 ('B', 'navIdx', False)
+80 ('B', 'scrollY', False)
+73 ('B', 'titleHash', False)
+59 ('B', 'path', False)
+19 ('D', 'titleHash', None)
+19 ('D', 'navLen', None)
+19 ('D', 'navIdx', None)
+18 ('D', 'textLen', None)
+17 ('B', 'histDelta', True)
+15 ('B', 'newErrors', True)
+14 ('B', 'sameDoc', True)
+14 ('D', 'histDelta', None)
+13 ('B', 'sameDoc', False)
+12 ('D', 'path', None)
+11 ('B', 'textLen', True)
+11 ('B', 'titleHash', True)
+10 ('B', 'path', True)
+8 ('D', 'sameDoc', None)
+5 ('D', 'scrollY', None)
+3 ('D', 'newErrors', None)
+3 ('B', 'navIdx', True)
+3 ('D', 'stuck', None)
+3 ('B', 'path', None)
+3 ('B', 'navLen', None)
+3 ('B', 'navIdx', None)
+3 ('B', 'titleHash', None)
+2 ('B', 'stuck', True)
+1 ('B', 'sameDoc', None)
+1 ('B', 'navErrors', True)
+1 ('B', 'stuck', False)
+
+## 186562ee71 https://www.rogers.com/
+   api: 
+    B link textLen A=1959 B=2804 C_same_as_A=True
+    B link2 path A=https://www.rogers.com/business/promotions/small-business-month B=https://www.rogers.com/business C_same_as_A=True
+    B link2 sameDoc A=False B=True C_same_as_A=True
+    B link2 titleHash A=251f61a2f8ce B=dbba31e140a6 C_same_as_A=True
+    B back sameDoc A=False B=True C_same_as_A=True
+
+## 19d26f38f3 https://bigpara.hurriyet.com.<token>
+   api: get:currentEntry listen:navigate listen:navigatesuccess
+    B reload stuck A=False B=True C_same_as_A=True
+    B fragment stuck A=False B=True C_same_as_A=True
+    B back2 path A=https://bigpara.hurriyet.com.tr/ B=https://bigpara.hurriyet.com.<token> C_same_as_A=True
+    B back2 sameDoc A=True B=False C_same_as_A=True
+    B back2 textLen A=15100 B=4683 C_same_as_A=True
+    B back2 titleHash A=0d2c675eb86e B=74e171f1e2b8 C_same_as_A=True
+    B back2 newErrors A=None B=['Script error.'] C_same_as_A=True
+
+## 9cdb420d14 https://www.letras.mus.br/blog/frases-netinho/
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    B link path A=https://www.letras.mus.br/ B=https://www.letras.mus.br/blog/frases-netinho/ C_same_as_A=True
+    B link sameDoc A=False B=True C_same_as_A=True
+    B link titleHash A=63e304d353c0 B=b2c90cfc2aaa C_same_as_A=True
+    B back path A=https://www.letras.mus.br/ B=https://www.letras.mus.br/blog/frases-netinho/ C_same_as_A=True
+    B back sameDoc A=False B=True C_same_as_A=True
+    B back histDelta A=2 B=1 C_same_as_A=True
+    B back textLen A=3109 B=5587 C_same_as_A=True
+    B back titleHash A=63e304d353c0 B=b2c90cfc2aaa C_same_as_A=True
+    B fragment histDelta A=2 B=3 C_same_as_A=True
+    B back2 histDelta A=2 B=3 C_same_as_A=True
+
+## f64388d0c4 https://www.unieuro.it/
+   api: 
+    B load textLen A=1197 B=2475 C_same_as_A=True
+
+## a1d17f6dd4 https://www.on.com/en-us/shop/womens/training
+   api: listen:navigate
+    B load titleHash A=5391e5d462b6 B=fe9e1e1229d3 C_same_as_A=True
+
+## d8305d6f33 https://www.ebanking.piraeusbank.gr/sites/idiwtes/el
+   api: get:currentEntry listen:navigate
+    B back sameDoc A=False B=True C_same_as_A=True
+    B back3 sameDoc A=False B=True C_same_as_A=True
+    B forward sameDoc A=False B=True C_same_as_A=True
+
+## b0e976c5a3 https://video.unext.jp/genre/variety
+   api: call:entries get:currentEntry listen:currententrychange
+    D reload textLen A=8416 D=2617 
+    D fragment newErrors A=None D=['ResizeObserver loop completed with undel'] 
+
+## 2a0e2f747a https://ecuabet.com/registro
+   api: listen:currententrychange listen:navigatesuccess
+    B forward newErrors A=None B=['Error: An error occurred. See URL for more information.'] C_same_as_A=True
+
+## 078fcdbe20 https://www.roblox.com/
+   api: listen:currententrychange
+    B reload navIdx A=None B=0 C_same_as_A=True
+    B fragment navIdx A=None B=1 C_same_as_A=True
+    B back2 navIdx A=None B=0 C_same_as_A=True
+
+## 9e4e32762c https://gentosha-go.com/articles/-/82491
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    D link path A=https://gentosha-go.com/articles/-/82491 D=https://gentosha-go.com/ 
+    D link sameDoc A=True D=False 
+    D link stuck A=False D=True 
+    D link textLen A=5128 D=2655 
+    D link titleHash A=cfcae283346d D=c16cec2202a8 
+    D back path A=https://gentosha-go.com/articles/-/82491 D=https://gentosha-go.com/ 
+    D back sameDoc A=True D=False 
+    D back histDelta A=1 D=2 
+    D back navLen A=2 D=3 
+    D back navIdx A=0 D=1 
+    D back stuck A=False D=True 
+    D back textLen A=5128 D=2655 
+    D back titleHash A=cfcae283346d D=c16cec2202a8 
+    D forward navIdx A=2 D=1 
+    D forward stuck A=False D=True 
+    D reload navIdx A=2 D=1 
+    D fragment histDelta A=3 D=2 
+    D fragment navLen A=4 D=3 
+    D fragment navIdx A=3 D=2 
+    D back2 histDelta A=3 D=2 
+    D back2 navLen A=4 D=3 
+    D back2 navIdx A=2 D=1 
+
+## 0f4b1f1e38 https://www.si.com/
+   api: get:currentEntry listen:currententrychange listen:navigate listen:navigatesuccess
+    B load newErrors A=None B=['Script error.'] C_same_as_A=True
+
+## c215a5689e https://theobjective.com/
+   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
+    B reload path A=https://theobjective.com/ B=https://theobjective.<token> C_same_as_A=True
+    B reload histDelta A=0 B=2 C_same_as_A=True
+    B reload textLen A=26787 B=10483 C_same_as_A=True
+    B reload titleHash A=6ad9cd6e8d35 B=0804caf3293b C_same_as_A=True
+    B fragment path A=https://theobjective.com/ B=https://theobjective.<token> C_same_as_A=True
+    B fragment histDelta A=1 B=2 C_same_as_A=True
+    B fragment textLen A=27822 B=10483 C_same_as_A=True
+    B fragment titleHash A=6ad9cd6e8d35 B=0804caf3293b C_same_as_A=True
+    B back2 path A=https://theobjective.com/ B=https://theobjective.<token> C_same_as_A=True
+    B back2 histDelta A=1 B=2 C_same_as_A=True
+    B back2 textLen A=27822 B=11519 C_same_as_A=True
+    B back2 titleHash A=6ad9cd6e8d35 B=0804caf3293b C_same_as_A=True
+
+## 3395cbb798 https://www.noon.com/uae-en/welcome-new-user/
+   errors: {'C': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.noon.com/uae-en/&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError@chrome://remo'}
+   api: call:entries
+    B reload path A=chrome-error://chromewebdata/ B=https://www.noon.com/uae-en/ C_same_as_A=None
+    B reload navLen A=0 B=3 C_same_as_A=None
+    B reload navIdx A=None B=1 C_same_as_A=None
+    B reload titleHash A=6bb9de6b5d99 B=1647b9db6c01 C_same_as_A=None
+    B fragment path A=chrome-error://chromewebdata/ B=https://www.noon.com/uae-en/ C_same_as_A=None
+    B fragment navLen A=0 B=3 C_same_as_A=None
+    B fragment navIdx A=None B=2 C_same_as_A=None
+    B fragment titleHash A=6bb9de6b5d99 B=1647b9db6c01 C_same_as_A=None
+    B back2 path A=https://www.noon.com/uae-en/welcome-new-user/ B=https://www.noon.com/uae-en/ C_same_as_A=None
+    B back2 sameDoc A=False B=True C_same_as_A=None
+    B back2 navLen A=1 B=3 C_same_as_A=None
+    B back2 navIdx A=0 B=1 C_same_as_A=None
+    B back2 titleHash A=1b23255e8f48 B=1647b9db6c01 C_same_as_A=None
+
+## d14287be58 https://www.india.gov.in/
+   errors: {'A': 'Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.india.gov.in/\nCall log:\n  - navigating to "https://www.india.gov.in/", waiting until "load"\n', 'A2': 'Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.india.gov.in/\nCall log:\n  - navigating to "https://www.india.gov.in/", waiting until "load"\n', 'B': 'WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.india.gov.in/&c=UTF-8&captivePortalState=unknown&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.india.gov.in.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError@chrome://remote/content/shar', 'C': 'WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.india.gov.in/&c=UTF-8&captivePortalState=unknown&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.india.gov.in.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError@chrome://remote/content/shar'}
+   api: 
+
+## 7ac5c3287a https://next.gazeta.pl/next/7,161716,33079953,ai-przelomowe-technologie-i-polski-biznes-swieto-polsk
+   api: get:currentEntry listen:navigatesuccess
+    D link newErrors A=None D=['NotReadableError'] 
+    D link2 path A=https://next.gazeta.pl/next/0,0.html D=https://next.gazeta.pl/pieniadz/0,147306.html 
+    D link2 sameDoc A=True D=False 
+    D link2 textLen A=11290 D=16419 
+    D link2 titleHash A=29a018ef5555 D=97c6dc28f11e 
+    D back sameDoc A=True D=False 
+    D back3 newErrors A=None D=['NotReadableError'] 
+
+## 2c8711fbb7 https://www.dn.<token>
+   api: get:currentEntry listen:navigate listen:navigatesuccess
+    B load newErrors A=None B=['ResizeObserver loop completed with undelivered notifications.'] C_same_as_A=True
+    B link newErrors A=None B=['ResizeObserver loop completed with undelivered notifications.'] C_same_as_A=True
+    B back newErrors A=None B=['ResizeObserver loop completed with undelivered notifications.'] C_same_as_A=True
+    B reload newErrors A=None B=['ResizeObserver loop completed with undelivered notifications.'] C_same_as_A=True
+
+## a7c5a9168f https://www.tokyo-sports.co.jp/articles/-/406628
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    B load newErrors A=None B=['TypeError: Failed to update the ServiceWorker for scope URL because the registration has been changed since the update was scheduled.'] C_same_as_A=True
+
+## 5ae461588a https://chatgpt.com/
+   api: get:activation get:currentEntry listen:currententrychange
+    D load textLen A=462 D=0 
+    D load titleHash A=9e999a6cc9e3 D=5ffa9751f584 
+    D reload path A=https://chatgpt.com/images D=https://chatgpt.com/ 
+    D reload histDelta A=2 D=0 
+    D reload navLen A=3 D=1 
+    D reload navIdx A=1 D=0 
+    D reload textLen A=640 D=0 
+    D reload titleHash A=bb1edcc2c791 D=5ffa9751f584 
+    D fragment path A=https://chatgpt.com/auth/login D=https://chatgpt.com/ 
+    D fragment sameDoc A=False D=True 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment textLen A=231 D=0 
+    D fragment titleHash A=495265260f5b D=5ffa9751f584 
+    D back2 path A=https://chatgpt.com/images D=https://chatgpt.com/ 
+    D back2 sameDoc A=False D=True 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+
+## fab0c293a6 https://gentosha-go.com/
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    B back path A=https://gentosha-go.com/ B=https://gentosha-go.com/category/ggo-articles C_same_as_A=True
+    B back sameDoc A=True B=False C_same_as_A=True
+    B back textLen A=2609 B=3832 C_same_as_A=True
+    B back titleHash A=c16cec2202a8 B=c3a3c9da3001 C_same_as_A=True
+    B forward sameDoc A=False B=True C_same_as_A=True
+    B forward histDelta A=2 B=1 C_same_as_A=True
+    B reload histDelta A=2 B=1 C_same_as_A=True
+    B fragment histDelta A=3 B=2 C_same_as_A=True
+    B back2 histDelta A=3 B=2 C_same_as_A=True
+
+## 5837798f12 https://www.climatempo.com.<token>
+   api: call:entries get:activation get:currentEntry listen:navigate listen:navigatesuccess
+    B reload newErrors A=None B=['Script error.'] C_same_as_A=True
+
+## 8e5f728a98 https://chatgpt.com/
+   api: get:activation get:currentEntry listen:currententrychange
+    D back2 navLen A=3 D=1 
+    D back2 navIdx A=1 D=0 
+
+## 249bc01123 https://www.dior.com/zh_hk
+   api: listen:currententrychange listen:navigate
+    B fragment navErrors A=None B=['navigateerror AbortError'] C_same_as_A=True
+
+## 821c0b0e17 https://business.facebook.com/business/help/227638664476590
+   api: listen:navigate listen:navigatesuccess
+    D load textLen A=716 D=2209 
+    D reload path A=https://business.facebook.com/business D=https://business.facebook.com/business/help/227638664476590 
+    D reload histDelta A=2 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D reload scrollY A=4474 D=0 
+    D reload textLen A=5854 D=1888 
+    D reload titleHash A=2504f96d955d D=18b2b2d34a07 
+    D fragment path A=https://business.facebook.com/business D=https://business.facebook.com/business/help/227638664476590 
+    D fragment histDelta A=2 D=1 
+    D fragment navLen A=3 D=2 
+    D fragment navIdx A=2 D=1 
+    D fragment scrollY A=4474 D=0 
+    D fragment textLen A=5854 D=1888 
+    D fragment titleHash A=2504f96d955d D=18b2b2d34a07 
+    D back2 path A=https://business.facebook.com/business D=https://business.facebook.com/business/help/227638664476590 
+    D back2 histDelta A=2 D=1 
+    D back2 navLen A=3 D=2 
+    D back2 navIdx A=1 D=0 
+    D back2 scrollY A=4474 D=0 
+    D back2 textLen A=5854 D=1888 
+    D back2 titleHash A=2504f96d955d D=18b2b2d34a07 
+
+## bf4d211503 https://www.delish.com/cooking/recipe-ideas/a73946367/pumpkin-churros-recipe/
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    B load textLen A=5402 B=6941 C_same_as_A=True
+
+## 442c578078 https://eba.gov.tr/
+   api: listen:navigate
+    D fragment histDelta A=1 D=0 
+    D fragment navLen A=2 D=1 
+    D fragment navIdx A=1 D=0 
+    D fragment scrollY A=115 D=946 
+    D back2 path A=https://eba.gov.tr/ D=about:blank 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=1 D=0 
+    D back2 navLen A=2 D=0 
+    D back2 navIdx A=0 D=None 
+    D back2 scrollY A=115 D=0 
+    D back2 textLen A=3792 D=0 
+    D back2 titleHash A=ba9c4d0561b7 D=da39a3ee5e6b 
+
+## 35509b319f https://edenrobe.com/collections/winter-collection
+   api: listen:navigate
+    B load newErrors A=None B=['ReferenceError: StampedFn is not defined'] C_same_as_A=True
+
+## 3888765b24 https://thesleepcompany.in/
+   api: call:entries listen:navigate
+    B reload newErrors A=None B=['Error: Request listener already exists for zoid_allow_delegate_pop_in_chat_widget on domain * for wildcard window', 'Script error.'] C_same_as_A=True
+
+## b238182396 https://elevenlabs.io/app/sign-up
+   api: call:entries get:activation get:currentEntry listen:currententrychange
+    B back3 newErrors A=None B=['Error: Minified React error #N; visit URL for the full message or use the non-minified dev environment for full errors and additional helpful warnings.'] C_same_as_A=True
+
+## ceaf994f3e https://www.mtn.co.za/
+   api: call:entries
+    D link textLen A=0 D=3826 
+    D link titleHash A=77703ff7948c D=39197c9fa034 
+    D back path A=https://www.mtn.co.za/home/ D=https://www.mtn.co.za/shop/deals/plans/data-only/uncapped-home-internet 
+    D back histDelta A=1 D=2 
+    D back navLen A=2 D=3 
+    D back navIdx A=0 D=1 
+    D back titleHash A=10ebccc13d01 D=39197c9fa034 
+    D forward histDelta A=1 D=2 
+    D forward navLen A=2 D=3 
+    D forward textLen A=0 D=3826 
+    D forward titleHash A=77703ff7948c D=39197c9fa034 
+    D reload histDelta A=1 D=2 
+    D reload navLen A=2 D=3 
+
+## cef4733f49 https://wiadomosci.gazeta.pl/polityka/7,198012,33080902,nawrocki-wypowiada-sie-o-zamieszaniu-wokol-s
+   api: call:entries get:currentEntry listen:navigatesuccess
+    D link path A=https://wiadomosci.gazeta.pl/polityka/7,198012,33080902,nawrocki-wypowiada-sie-o-zamieszaniu-wokol-slubowania-berka.html D=https://wiadomosci.gazeta.pl/wiadomosci/0,0.html 
+    D link sameDoc A=True D=False 
+    D link textLen A=9541 D=19413 
+    D link titleHash A=5bac5c6e0560 D=7e0adf950b21 
+    D forward navLen A=1 D=3 
+    D forward navIdx A=0 D=1 
+    D reload navLen A=1 D=3 
+    D reload navIdx A=0 D=1 
+    D fragment navLen A=2 D=3 
+    D fragment navIdx A=1 D=2 
+    D back2 navLen A=2 D=3 
+    D back2 navIdx A=0 D=1 
+
+## 8b2cb5777e https://extra.globo.<token>.ghtml
+   api: get:currentEntry listen:navigatesuccess
+    B link newErrors A=None B=['TypeError: googletag.pubads is not a function'] C_same_as_A=True
+
+## d2e568659b https://www.mtn.co.za/shop/deals/plans/data-only/uncapped-home-internet
+   api: call:entries
+    D reload textLen A=0 D=787 
+    D reload titleHash A=77703ff7948c D=39197c9fa034 
+    D fragment textLen A=0 D=3266 
+    D fragment titleHash A=77703ff7948c D=39197c9fa034 
+    D back2 textLen A=4828 D=3826 
+
+## 40a46f2ab7 https://kuruma-news.jp/
+   api: call:entries get:canGoBack get:canGoForward get:currentEntry listen:navigate listen:navigatesuccess
+    B link2 path A=https://kuruma-news.jp/post/1130802 B=https://kuruma-news.jp/ C_same_as_A=True
+    B link2 sameDoc A=True B=False C_same_as_A=True
+    B link2 histDelta A=2 B=3 C_same_as_A=True
+    B link2 titleHash A=25f5b060cd18 B=3b1e89906fda C_same_as_A=True
+    B link2 newErrors A=None B=['SyntaxError: missing } after function body'] C_same_as_A=True
+    B back sameDoc A=True B=False C_same_as_A=True
+    B back histDelta A=2 B=3 C_same_as_A=True
+    B back newErrors A=None B=['SyntaxError: missing } after function body'] C_same_as_A=True
+    B back3 path A=https://kuruma-news.jp/ B=https://kuruma-news.jp/post/1130802 C_same_as_A=True
+    B back3 sameDoc A=False B=True C_same_as_A=True
+    B back3 histDelta A=2 B=3 C_same_as_A=True
+    B back3 titleHash A=3b1e89906fda B=25f5b060cd18 C_same_as_A=True
+    B forward sameDoc A=False B=True C_same_as_A=True
+    B forward histDelta A=2 B=3 C_same_as_A=True
+    B reload histDelta A=2 B=3 C_same_as_A=True
+    B fragment histDelta A=2 B=3 C_same_as_A=True
+    B back2 histDelta A=2 B=3 C_same_as_A=True
+
+## ea3691b2e4 https://www.premierinn.com/
+   errors: {'B': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.premierinn.com/gb/en/home.html&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError', 'C': 'WebDriverException: Message: Reached error page: about:neterror?e=netReset&u=https%3A//www.premierinn.com/gb/en/home.html&c=UTF-8&captivePortalState=unknown&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.&a=\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:14:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\nUnknownError'}
+   api: listen:currententrychange listen:navigate
+
+## 207c359543 https://substack.com/
+   api: call:entries listen:navigate
+    D link titleHash A=97e51b908dbe D=00f8a2c270aa 
+    B back textLen A=2948 B=187 C_same_as_A=True
+    D back titleHash A=97e51b908dbe D=00f8a2c270aa 
+    B forward textLen A=2948 B=540 C_same_as_A=True
+    D forward titleHash A=97e51b908dbe D=00f8a2c270aa 

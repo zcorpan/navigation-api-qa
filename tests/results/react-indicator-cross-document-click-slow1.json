@@ -1,4 +1,17 @@
 {
+ "D": {
+  "browser": "Safari TP 27.0",
+  "result": {
+   "url": "/tests/react-indicator-cross-document-click.html",
+   "leftPage": false,
+   "events": [
+    "navigate:replace:react-transition:cross",
+    "navigateerror:AbortError",
+    "navigate:push:cross",
+    "navigate:replace:react-transition:cross"
+   ]
+  }
+ },
  "A": {
   "browser": "Chrome Canary 159.0.8136.0",
   "result": {

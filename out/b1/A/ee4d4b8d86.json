@@ -1,0 +1,779 @@
+{
+ "id": "ee4d4b8d86",
+ "page": "https://www.jiji.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.jiji.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793553205396.3,
+   "marker": null,
+   "histLen": 29,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6929,
+   "active": "BODY",
+   "textLen": 5149,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.jiji.com/",
+    "key": "b1661a2f-5eab-40e0-957a-89534d0a1467",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.jiji.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "ee4d4b8d8610"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 482
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 482
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:287551)",
+      "at s (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:219)"
+     ],
+     "t": 995
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3618
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Chrome currently does not support the Push API in incognito mode (https://crbug.com/41124656). There is deliberately no way to feature-detect this, since incognito mode needs to be undetectable by websites."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "ee4d4b8d8610",
+   "titleHash": "bb87479f16d5"
+  },
+  {
+   "step": "link",
+   "href": "https://www.jiji.com/jc/forecast",
+   "click": "native",
+   "settle": 6.2,
+   "url": "https://www.jiji.com/jc/forecast",
+   "readyState": "complete",
+   "timeOrigin": 1793553213673.8,
+   "marker": null,
+   "histLen": 30,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6449,
+   "active": "BODY",
+   "textLen": 3616,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.jiji.com/jc/forecast",
+    "key": "25872775-f9a0-407d-9b69-28481b7348d4",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.jiji.com/jc/forecast",
+     "from": "https://www.jiji.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "cf9bdefea388"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 820
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 820
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:287551)",
+      "at s (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:219)"
+     ],
+     "t": 848
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4590
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    }
+   ],
+   "urlHash": "cf9bdefea388",
+   "titleHash": "f32e0c473fd5"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "url": "https://www.jiji.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793553219936.1,
+   "marker": null,
+   "histLen": 30,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6929,
+   "active": "BODY",
+   "textLen": 5149,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.jiji.com/",
+    "key": "b1661a2f-5eab-40e0-957a-89534d0a1467",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.jiji.com/",
+     "from": "https://www.jiji.com/jc/forecast",
+     "entryIsCurrent": true
+    },
+    "urlHash": "ee4d4b8d8610"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 58
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 58
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:287551)",
+      "at s (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:219)"
+     ],
+     "t": 133
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 299
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "ee4d4b8d8610",
+   "titleHash": "bb87479f16d5"
+  },
+  {
+   "step": "forward",
+   "settle": 3.7,
+   "url": "https://www.jiji.com/jc/forecast",
+   "readyState": "complete",
+   "timeOrigin": 1793553222658.6,
+   "marker": null,
+   "histLen": 30,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6449,
+   "active": "BODY",
+   "textLen": 3616,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.jiji.com/jc/forecast",
+    "key": "25872775-f9a0-407d-9b69-28481b7348d4",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.jiji.com/jc/forecast",
+     "from": "https://www.jiji.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "cf9bdefea388"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 46
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 46
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:287551)",
+      "at s (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:219)"
+     ],
+     "t": 91
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2426
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    }
+   ],
+   "urlHash": "cf9bdefea388",
+   "titleHash": "f32e0c473fd5"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.jiji.com/jc/forecast",
+   "readyState": "complete",
+   "timeOrigin": 1793553226438.5,
+   "marker": null,
+   "histLen": 30,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6449,
+   "active": "BODY",
+   "textLen": 3617,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.jiji.com/jc/forecast",
+    "key": "25872775-f9a0-407d-9b69-28481b7348d4",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.jiji.com/jc/forecast",
+     "from": "https://www.jiji.com/jc/forecast",
+     "entryIsCurrent": true
+    },
+    "urlHash": "cf9bdefea388"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 55
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 55
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:287551)",
+      "at s (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:219)"
+     ],
+     "t": 69
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1666
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.set is deprecated, use Slot.setConfig({adsenseAttributes: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.isInitialLoadDisabled is deprecated, use googletag.getConfig('disableInitialLoad') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    }
+   ],
+   "urlHash": "cf9bdefea388",
+   "titleHash": "f32e0c473fd5"
+  },
+  {
+   "step": "fragment",
+   "href": "https://www.jiji.com/jc/forecast",
+   "click": "native",
+   "settle": 2.6,
+   "url": "https://www.jiji.com/jc/forecast",
+   "readyState": "complete",
+   "timeOrigin": 1793553226438.5,
+   "marker": "m4",
+   "histLen": 31,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6449,
+   "active": "BODY",
+   "textLen": 3617,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.jiji.com/jc/forecast",
+    "key": "308360cd-b9a9-4934-8933-400a1a5e3280",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.jiji.com/jc/forecast",
+     "from": "https://www.jiji.com/jc/forecast",
+     "entryIsCurrent": false
+    },
+    "urlHash": "9f78e2bea69f"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 55
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 55
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:287551)",
+      "at s (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:219)"
+     ],
+     "t": 69
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1666
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.jiji.com/jc/forecast",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": "A",
+     "t": 4346,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.jiji.com/jc/forecast",
+     "t": 4346
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4346
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4346
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.jiji.com/jc/forecast",
+     "t": 4346
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.jiji.com/jc/forecast",
+     "t": 4369
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "listen:navigate": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9f78e2bea69f",
+   "titleHash": "f32e0c473fd5"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.jiji.com/jc/forecast",
+   "readyState": "complete",
+   "timeOrigin": 1793553226438.5,
+   "marker": "m5",
+   "histLen": 31,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 5164,
+   "docH": 6449,
+   "active": "BODY",
+   "textLen": 3617,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.jiji.com/jc/forecast",
+    "key": "25872775-f9a0-407d-9b69-28481b7348d4",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.jiji.com/jc/forecast",
+     "from": "https://www.jiji.com/jc/forecast",
+     "entryIsCurrent": true
+    },
+    "urlHash": "cf9bdefea388"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 55
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135)",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31295)"
+     ],
+     "t": 55
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:287551)",
+      "at s (https://rumcdn.geoedge.be/1a395032-0379-4d74-bb25-9dcc57ce14c9/grumi.js:7:219)"
+     ],
+     "t": 69
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1666
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.jiji.com/jc/forecast",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": "A",
+     "t": 4346,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.jiji.com/jc/forecast",
+     "t": 4346
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4346
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4346
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.jiji.com/jc/forecast",
+     "t": 4346
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.jiji.com/jc/forecast",
+     "t": 4369
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.jiji.com/jc/forecast",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6998,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.jiji.com/jc/forecast",
+     "t": 6999
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6999
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6999
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.jiji.com/jc/forecast",
+     "t": 6999
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.jiji.com/jc/forecast",
+     "t": 6999
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "listen:navigate": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigatesuccess": 2,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "cf9bdefea388",
+   "titleHash": "f32e0c473fd5"
+  }
+ ],
+ "plan": {
+  "link": "https://www.jiji.com/jc/forecast",
+  "fragment": "https://www.jiji.com/jc/forecast"
+ },
+ "consent": null,
+ "elapsed": 30.7,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

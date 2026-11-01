@@ -1,0 +1,637 @@
+{
+ "id": "ccbabfb883",
+ "page": "https://collider.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 387
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 387
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 528
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://collider.<token>",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "77405326-c683-4a7d-a6d0-09069cde12d1",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://collider.<token>",
+    "urlHash": "ccbabfb8834e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8909,
+   "timeOrigin": 1793563801130,
+   "url": "https://collider.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Zone \"below the author\" is not mapped in the configs"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Child zone shouldn't be mapped in the configs. \"character count repeatable #1\" is a child of \"character count repeatable\""
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Zone \"rail\" is not mapped in the configs"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Zone \"rail short\" is not mapped in the configs"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Zone \"Instream-Popup\" is not mapped in the configs"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Child zone shouldn't be mapped in the configs. \"character count repeatable #2\" is a child of \"character count repeatable\""
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Element not found for zone: below the author"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. There is no auction for ad element ID: div-gpt-ad-1618340759083-0. "
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Element not found for zone: header side"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Element not found for zone: Instream-Popup"
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Unable to find base zone. Object(1)"
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: div-gpt-ad-1618340759083-0 has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: adsninja-ad-unit-stickyHeader-5fa2f54e0f475 has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. There is no auction for ad element ID: adsninja-ad-unit-outstream-60b5016e246ff. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. There is no auction for ad element ID: adsninja-ad-unit-instreamFeature-602e8996c5b08c. "
+    },
+    {
+     "k": "console-warn",
+     "e": "VIDEOJS: WARN: Calling addRemoteTextTrack without explicitly setting the \"manualCleanup\" parameter to `true` is deprecated and default to `false` in future version of video.js"
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: div-gpt-ad-1618340759083-0 has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: adsninja-ad-unit-stickyHeader-5fa2f54e0f475 has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. There is no auction for ad element ID: adsninja-ad-unit-instreamFeature-602e8996c5b08c. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: adsninja-ad-unit-outstream-60b5016e246ff has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: adsninja-ad-unit-second-652d25f10c2b14 has not been viewed. "
+    }
+   ],
+   "urlHash": "ccbabfb8834e",
+   "titleHash": "db4dc00c5c8a"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "IFRAME#sp_message_iframe_1416139",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 324
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 324
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 326
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://collider.<token>",
+     "entryIsCurrent": true,
+     "from": "https://collider.<token>",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "77405326-c683-4a7d-a6d0-09069cde12d1",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://collider.<token>",
+    "urlHash": "ccbabfb8834e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8938,
+   "timeOrigin": 1793563806262,
+   "url": "https://collider.<token>",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Zone \"below the author\" is not mapped in the configs"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Child zone shouldn't be mapped in the configs. \"character count repeatable #1\" is a child of \"character count repeatable\""
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Zone \"rail\" is not mapped in the configs"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Zone \"rail short\" is not mapped in the configs"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Zone \"Instream-Popup\" is not mapped in the configs"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Child zone shouldn't be mapped in the configs. \"character count repeatable #2\" is a child of \"character count repeatable\""
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Element not found for zone: below the author"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. There is no auction for ad element ID: div-gpt-ad-1618340759083-0. "
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Element not found for zone: header side"
+    },
+    {
+     "k": "console-warn",
+     "e": "ADS INJECTOR --- Element not found for zone: Instream-Popup"
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Unable to find base zone. Object(1)"
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: div-gpt-ad-1618340759083-0 has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: adsninja-ad-unit-stickyHeader-5fa2f54e0f475 has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. There is no auction for ad element ID: adsninja-ad-unit-outstream-60b5016e246ff. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. There is no auction for ad element ID: adsninja-ad-unit-instreamFeature-602e8996c5b08c. "
+    },
+    {
+     "k": "console-warn",
+     "e": "VIDEOJS: WARN: Calling addRemoteTextTrack without explicitly setting the \"manualCleanup\" parameter to `true` is deprecated and default to `false` in future version of video.js"
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: div-gpt-ad-1618340759083-0 has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: adsninja-ad-unit-stickyHeader-5fa2f54e0f475 has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. There is no auction for ad element ID: adsninja-ad-unit-instreamFeature-602e8996c5b08c. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: adsninja-ad-unit-outstream-60b5016e246ff has not been viewed. "
+    }
+   ],
+   "urlHash": "ccbabfb8834e",
+   "titleHash": "db4dc00c5c8a"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "IFRAME#sp_message_iframe_1416139",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 324
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 324
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 326
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2930,
+     "url": "https://collider.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://collider.<token>",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2931
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2931,
+     "url": "https://collider.<token>"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2931
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2931
+    },
+    {
+     "k": "hashchange",
+     "t": 2931,
+     "url": "https://collider.<token>"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://collider.<token>",
+     "entryIsCurrent": false,
+     "from": "https://collider.<token>",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "278e8506-4faa-4702-a243-3c568d4892c6",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://collider.<token>",
+    "urlHash": "82546afbd769"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8938,
+   "timeOrigin": 1793563806262,
+   "url": "https://collider.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Attempting to refresh ad. Ad unit with ad element ID: adsninja-ad-unit-second-652d25f10c2b14 has not been viewed. "
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsLoader error: AdError 303: No Ads VAST response after one or more Wrappers"
+    },
+    {
+     "k": "console-warn",
+     "e": "AdsNinja Defloat request rejected. Ad is not floating. Object(2)"
+    }
+   ],
+   "urlHash": "82546afbd769",
+   "titleHash": "db4dc00c5c8a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME#sp_message_iframe_1416139",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 324
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 324
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 326
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2930,
+     "url": "https://collider.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://collider.<token>",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2931
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2931,
+     "url": "https://collider.<token>"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2931
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2931
+    },
+    {
+     "k": "hashchange",
+     "t": 2931,
+     "url": "https://collider.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5518,
+     "url": "https://collider.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://collider.<token>",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5519
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5519
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5519
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5519,
+     "url": "https://collider.<token>"
+    },
+    {
+     "k": "hashchange",
+     "t": 5519,
+     "url": "https://collider.<token>"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://collider.<token>",
+     "entryIsCurrent": true,
+     "from": "https://collider.<token>",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "77405326-c683-4a7d-a6d0-09069cde12d1",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://collider.<token>",
+    "urlHash": "ccbabfb8834e"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8938,
+   "timeOrigin": 1793563806262,
+   "url": "https://collider.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "ccbabfb8834e",
+   "titleHash": "db4dc00c5c8a"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 13.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

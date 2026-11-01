@@ -1,0 +1,754 @@
+{
+ "id": "b240296710",
+ "page": "https://caras.com.br/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 9755,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 97
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://caras.com.br/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "307acbd2-14c9-4448-8940-ae05cd2da4a4",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://caras.com.br/",
+    "urlHash": "b240296710f9"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8897,
+   "timeOrigin": 1793553500048,
+   "url": "https://caras.com.br/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "b240296710f9",
+   "titleHash": "5a3605d1862f"
+  },
+  {
+   "step": "link",
+   "href": "https://caras.com.<token>.phtml",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 8981,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 98
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://caras.com.<token>.phtml",
+     "entryIsCurrent": true,
+     "from": "https://caras.com.br/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "8b94e8ba-3b90-4803-ba3a-8f1c46430d43",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://caras.com.<token>.phtml",
+    "urlHash": "f42fde2fc60d"
+   },
+   "prev": {
+    "counts": {
+     "navigate:push": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 97
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": "A",
+      "t": 4188,
+      "url": "https://caras.com.<token>.phtml",
+      "userInitiated": true
+     }
+    ],
+    "url": "https://caras.com.br/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7889,
+   "timeOrigin": 1793553504341,
+   "url": "https://caras.com.<token>.phtml",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f42fde2fc60d",
+   "titleHash": "87d3fe0c3513"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 9755,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 10
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://caras.com.br/",
+     "entryIsCurrent": true,
+     "from": "https://caras.com.<token>.phtml",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "307acbd2-14c9-4448-8940-ae05cd2da4a4",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://caras.com.br/",
+    "urlHash": "b240296710f9"
+   },
+   "prev": {
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 98
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2658,
+      "url": "https://caras.com.br/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://caras.com.<token>.phtml"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 8897,
+   "timeOrigin": 1793553507024,
+   "url": "https://caras.com.br/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "b240296710f9",
+   "titleHash": "5a3605d1862f"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 8981,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 98
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2658,
+     "url": "https://caras.com.br/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5236
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://caras.com.<token>.phtml",
+     "entryIsCurrent": true,
+     "from": "https://caras.com.br/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "8b94e8ba-3b90-4803-ba3a-8f1c46430d43",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://caras.com.<token>.phtml",
+    "urlHash": "f42fde2fc60d"
+   },
+   "prev": {
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 98
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2658,
+      "url": "https://caras.com.br/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://caras.com.<token>.phtml"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7889,
+   "timeOrigin": 1793553504341,
+   "url": "https://caras.com.<token>.phtml",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f42fde2fc60d",
+   "titleHash": "87d3fe0c3513"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 8981,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 86
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://caras.com.<token>.phtml",
+     "entryIsCurrent": true,
+     "from": "https://caras.com.<token>.phtml",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "8b94e8ba-3b90-4803-ba3a-8f1c46430d43",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://caras.com.<token>.phtml",
+    "urlHash": "f42fde2fc60d"
+   },
+   "prev": {
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 98
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2658,
+      "url": "https://caras.com.br/",
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 5236
+     }
+    ],
+    "url": "https://caras.com.<token>.phtml"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7889,
+   "timeOrigin": 1793553512174,
+   "url": "https://caras.com.<token>.phtml",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f42fde2fc60d",
+   "titleHash": "87d3fe0c3513"
+  },
+  {
+   "step": "fragment",
+   "href": "https://caras.com.<token>.phtml",
+   "click": "native",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 7354,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 86
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 2666,
+     "url": "https://caras.com.<token>.phtml",
+     "userInitiated": true
+    },
+    {
+     "from": "https://caras.com.<token>.phtml",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2666
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2666,
+     "url": "https://caras.com.<token>.phtml"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2666
+    },
+    {
+     "k": "hashchange",
+     "t": 2667,
+     "url": "https://caras.com.<token>.phtml"
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://caras.com.<token>.phtml:70:45",
+      "Pn@https://jsc.mgid.com/site/965071.js:537:4039",
+      "@https://jsc.mgid.com/site/965071.js:541:19730",
+      "@https://jsc.mgid.com/site/965071.js:541:20402"
+     ],
+     "t": 2699
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2842
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://caras.com.<token>.phtml:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 2842
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://caras.com.<token>.phtml",
+     "entryIsCurrent": false,
+     "from": "https://caras.com.<token>.phtml",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "b82d4714-d589-43fc-84e1-865f5b65dd78",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://caras.com.<token>.phtml",
+    "urlHash": "31b799fef7d7"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 6486,
+   "textLen": 10598,
+   "timeOrigin": 1793553512174,
+   "url": "https://caras.com.<token>.phtml",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553515110\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_W0FQK4C1NL\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_W0FQK4C1NL\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_KX6Z2LT35M\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_KX6Z2LT35M\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_W0FQK4C1NL\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_W0FQK4C1NL\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_KX6Z2LT35M\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_KX6Z2LT35M\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCCDCF\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cZCAMPAIGN_CSRF_TOKEN\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://tipb-zgpl.maillist-manage.com/ua/Optin \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cZCAMPAIGN_CSRF_TOKEN\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cZCAMPAIGN_CSRF_TOKEN\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cZCAMPAIGN_CSRF_TOKEN\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cZCAMPAIGN_CSRF_TOKEN\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "31b799fef7d7",
+   "titleHash": "87d3fe0c3513"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 2,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 7354,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 86
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 2666,
+     "url": "https://caras.com.<token>.phtml",
+     "userInitiated": true
+    },
+    {
+     "from": "https://caras.com.<token>.phtml",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2666
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2666,
+     "url": "https://caras.com.<token>.phtml"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2666
+    },
+    {
+     "k": "hashchange",
+     "t": 2667,
+     "url": "https://caras.com.<token>.phtml"
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://caras.com.<token>.phtml:70:45",
+      "Pn@https://jsc.mgid.com/site/965071.js:537:4039",
+      "@https://jsc.mgid.com/site/965071.js:541:19730",
+      "@https://jsc.mgid.com/site/965071.js:541:20402"
+     ],
+     "t": 2699
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2842
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://caras.com.<token>.phtml:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 2842
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5243,
+     "url": "https://caras.com.<token>.phtml",
+     "userInitiated": false
+    },
+    {
+     "from": "https://caras.com.<token>.phtml",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5243
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5243
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5243
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5243,
+     "url": "https://caras.com.<token>.phtml"
+    },
+    {
+     "k": "hashchange",
+     "t": 5245,
+     "url": "https://caras.com.<token>.phtml"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://caras.com.<token>.phtml",
+     "entryIsCurrent": true,
+     "from": "https://caras.com.<token>.phtml",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "8b94e8ba-3b90-4803-ba3a-8f1c46430d43",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://caras.com.<token>.phtml",
+    "urlHash": "f42fde2fc60d"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 573,
+   "textLen": 10594,
+   "timeOrigin": 1793553512174,
+   "url": "https://caras.com.<token>.phtml",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f42fde2fc60d",
+   "titleHash": "87d3fe0c3513"
+  }
+ ],
+ "plan": {
+  "link": "https://caras.com.<token>.phtml",
+  "fragment": "https://caras.com.<token>.phtml"
+ },
+ "consent": null,
+ "elapsed": 20.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

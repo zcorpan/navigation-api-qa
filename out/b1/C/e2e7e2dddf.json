@@ -1,0 +1,294 @@
+{
+ "id": "e2e7e2dddf",
+ "page": "https://www.fotogramas.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 8709,
+   "histLen": 27,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 218,
+     "url": "<token>"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 297
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10524,
+   "timeOrigin": 1793555058137,
+   "url": "https://www.fotogramas.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e2e7e2dddfe9",
+   "titleHash": "954404364596"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 8389,
+   "histLen": 27,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 204,
+     "url": "<token>"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 282
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10454,
+   "timeOrigin": 1793555062593,
+   "url": "https://www.fotogramas.<token>",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e2e7e2dddfe9",
+   "titleHash": "954404364596"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 8709,
+   "histLen": 28,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 204,
+     "url": "<token>"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 282
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2856,
+     "url": "https://www.fotogramas.<token>"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2856,
+     "url": "<token>#navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 2857,
+     "url": "https://www.fotogramas.<token>"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10524,
+   "timeOrigin": 1793555062593,
+   "url": "https://www.fotogramas.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3d8742276212",
+   "titleHash": "954404364596"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 8709,
+   "histLen": 28,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 204,
+     "url": "<token>"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 282
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2856,
+     "url": "https://www.fotogramas.<token>"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2856,
+     "url": "<token>#navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 2857,
+     "url": "https://www.fotogramas.<token>"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5414,
+     "url": "https://www.fotogramas.<token>"
+    },
+    {
+     "k": "hashchange",
+     "t": 5414,
+     "url": "https://www.fotogramas.<token>"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10524,
+   "timeOrigin": 1793555062593,
+   "url": "https://www.fotogramas.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e2e7e2dddfe9",
+   "titleHash": "954404364596"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

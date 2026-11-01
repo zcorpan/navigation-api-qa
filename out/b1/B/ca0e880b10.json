@@ -1,0 +1,1054 @@
+{
+ "id": "ca0e880b10",
+ "page": "https://www.brasil247.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 19204,
+   "histLen": 12,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 199,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 199,
+     "url": "https://www.brasil247.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.brasil247.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 199
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 199
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 299
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.brasil247.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 299
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.brasil247.com/:70:45",
+      "Kr/<@https://cdn.membrana.media/b24/ym.js:23:82184",
+      "Kr@https://cdn.membrana.media/b24/ym.js:23:82249",
+      "kc@https://cdn.membrana.media/b24/ym.js:23:180744"
+     ],
+     "t": 493
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1173
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1180
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.brasil247.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "e7ecd1d6-533d-4777-a226-696dcbf9e513",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.brasil247.com/",
+    "urlHash": "ca0e880b1073"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18246,
+   "timeOrigin": 1793555244071,
+   "url": "https://www.brasil247.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to fetch i18n data:  Error: HTTP request failed: 404 "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Home | Card 5"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Home | Lazy Injected 1"
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either t"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ctk_tc\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Interstitial /55115104/b247-multipage-codeless not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Interstitial /55115104/b247-multipage-codeless not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Interstitial /55115104/b247-multipage-codeless not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "ca0e880b1073",
+   "titleHash": "b7c240dedea4"
+  },
+  {
+   "step": "link",
+   "href": "https://www.brasil247.com/apoio/",
+   "click": "native",
+   "settle": 2.8,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4568,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 56,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 56,
+     "url": "https://www.brasil247.com/apoio/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.brasil247.com/apoio/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 56
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 56
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.brasil247.com/apoio/:70:45",
+      "Kr/<@https://cdn.membrana.media/b24/ym.js:23:82184",
+      "Kr@https://cdn.membrana.media/b24/ym.js:23:82249",
+      "kc@https://cdn.membrana.media/b24/ym.js:23:180744"
+     ],
+     "t": 127
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1038
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.brasil247.com/apoio/",
+     "entryIsCurrent": true,
+     "from": "https://www.brasil247.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "eb7f7f2b-9360-44b8-b394-9b186316fb4d",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.brasil247.com/apoio/",
+    "urlHash": "a0e64747ad58"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3101,
+   "timeOrigin": 1793555252813,
+   "url": "https://www.brasil247.com/apoio/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to fetch i18n data:  Error: HTTP request failed: 404 "
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ctk_tc\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "a0e64747ad58",
+   "titleHash": "14faa464d414"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 19187,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 39,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 39,
+     "url": "https://www.brasil247.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.brasil247.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 39
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 39
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 83
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.brasil247.com/",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 83
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.brasil247.com/",
+      "Kr/<@https://cdn.membrana.media/b24/ym.js:23:82184",
+      "Kr@https://cdn.membrana.media/b24/ym.js:23:82249",
+      "kc@https://cdn.membrana.media/b24/ym.js:23:180744"
+     ],
+     "t": 247
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1262
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.brasil247.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.brasil247.com/apoio/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "720839f5-0f88-42c7-b6a8-4e7c487b9f39",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.brasil247.com/",
+    "urlHash": "171a90e4571f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18082,
+   "timeOrigin": 1793555255644,
+   "url": "https://www.brasil247.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to fetch i18n data:  Error: HTTP request failed: 404 "
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ctk_tc\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.KqdBhPooDOk.2018.O/am=AAAAAKAB/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg="
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.KqdBhPooDOk.2018.O/ck=boq-subscribewithgoogle.SubscribewithgoogleClientUi"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.KqdBhPooDOk.2018.O/ck=boq-subscribewithgoogle.SubscribewithgoogleClientUi"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.KqdBhPooDOk.2018.O/ck=boq-subscribewithgoogle.SubscribewithgoogleClientUi"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.KqdBhPooDOk.2018.O/ck=boq-subscribewithgoogle.SubscribewithgoogleClientUi"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.KqdBhPooDOk.2018.O/ck=boq-subscribewithgoogle.SubscribewithgoogleClientUi"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.KqdBhPooDOk.2018.O/ck=boq-subscribewithgoogle.SubscribewithgoogleClientUi"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Home | Card 5"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Home | Lazy Injected 1"
+    }
+   ],
+   "urlHash": "171a90e4571f",
+   "titleHash": "b7c240dedea4"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 1,
+    "pageshow": 2
+   },
+   "docH": 4568,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 56,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 56,
+     "url": "https://www.brasil247.com/apoio/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.brasil247.com/apoio/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 56
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 56
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.brasil247.com/apoio/:70:45",
+      "Kr/<@https://cdn.membrana.media/b24/ym.js:23:82184",
+      "Kr@https://cdn.membrana.media/b24/ym.js:23:82249",
+      "kc@https://cdn.membrana.media/b24/ym.js:23:180744"
+     ],
+     "t": 127
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1038
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2372,
+     "url": "https://www.brasil247.com/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 6242
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://www.brasil247.com/apoio/",
+     "entryIsCurrent": true,
+     "from": "https://www.brasil247.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "eb7f7f2b-9360-44b8-b394-9b186316fb4d",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.brasil247.com/apoio/",
+    "urlHash": "a0e64747ad58"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3101,
+   "timeOrigin": 1793555252813,
+   "url": "https://www.brasil247.com/apoio/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to fetch i18n data:  Error: HTTP request failed: 404 "
+    }
+   ],
+   "urlHash": "a0e64747ad58",
+   "titleHash": "14faa464d414"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4568,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 83,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 83,
+     "url": "https://www.brasil247.com/apoio/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.brasil247.com/apoio/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 83
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 83
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.brasil247.com/apoio/:70:45",
+      "Kr/<@https://cdn.membrana.media/b24/ym.js:23:82184",
+      "Kr@https://cdn.membrana.media/b24/ym.js:23:82249",
+      "kc@https://cdn.membrana.media/b24/ym.js:23:180744"
+     ],
+     "t": 222
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 461
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.brasil247.com/apoio/",
+     "entryIsCurrent": true,
+     "from": "https://www.brasil247.com/apoio/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "eb7f7f2b-9360-44b8-b394-9b186316fb4d",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.brasil247.com/apoio/",
+    "urlHash": "a0e64747ad58"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3101,
+   "timeOrigin": 1793555262110,
+   "url": "https://www.brasil247.com/apoio/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to fetch i18n data:  Error: HTTP request failed: 404 "
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ctk_tc\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    }
+   ],
+   "urlHash": "a0e64747ad58",
+   "titleHash": "14faa464d414"
+  },
+  {
+   "step": "fragment",
+   "href": "https://www.brasil247.com/apoio/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4566,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 83,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 83,
+     "url": "https://www.brasil247.com/apoio/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.brasil247.com/apoio/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 83
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 83
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.brasil247.com/apoio/:70:45",
+      "Kr/<@https://cdn.membrana.media/b24/ym.js:23:82184",
+      "Kr@https://cdn.membrana.media/b24/ym.js:23:82249",
+      "kc@https://cdn.membrana.media/b24/ym.js:23:180744"
+     ],
+     "t": 222
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 461
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 3059,
+     "url": "https://www.brasil247.com/apoio/",
+     "userInitiated": true
+    },
+    {
+     "from": "https://www.brasil247.com/apoio/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3059
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3059,
+     "url": "https://www.brasil247.com/apoio/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3061
+    },
+    {
+     "k": "hashchange",
+     "t": 3064,
+     "url": "https://www.brasil247.com/apoio/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.brasil247.com/apoio/",
+     "entryIsCurrent": false,
+     "from": "https://www.brasil247.com/apoio/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 3,
+    "key": "58b65228-07b1-406e-a0d9-146ccc90cb1e",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.brasil247.com/apoio/",
+    "urlHash": "05044d286b82"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 955,
+   "textLen": 3101,
+   "timeOrigin": 1793555262110,
+   "url": "https://www.brasil247.com/apoio/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "05044d286b82",
+   "titleHash": "14faa464d414"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 5148,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 83,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 83,
+     "url": "https://www.brasil247.com/apoio/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.brasil247.com/apoio/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 83
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 83
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.brasil247.com/apoio/:70:45",
+      "Kr/<@https://cdn.membrana.media/b24/ym.js:23:82184",
+      "Kr@https://cdn.membrana.media/b24/ym.js:23:82249",
+      "kc@https://cdn.membrana.media/b24/ym.js:23:180744"
+     ],
+     "t": 222
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 461
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 3059,
+     "url": "https://www.brasil247.com/apoio/",
+     "userInitiated": true
+    },
+    {
+     "from": "https://www.brasil247.com/apoio/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3059
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3059,
+     "url": "https://www.brasil247.com/apoio/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3061
+    },
+    {
+     "k": "hashchange",
+     "t": 3064,
+     "url": "https://www.brasil247.com/apoio/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5631,
+     "url": "https://www.brasil247.com/apoio/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.brasil247.com/apoio/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5631
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5631
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5631,
+     "url": "https://www.brasil247.com/apoio/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5638,
+     "url": "https://www.brasil247.com/apoio/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.brasil247.com/apoio/",
+     "entryIsCurrent": true,
+     "from": "https://www.brasil247.com/apoio/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 2,
+    "key": "eb7f7f2b-9360-44b8-b394-9b186316fb4d",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.brasil247.com/apoio/",
+    "urlHash": "a0e64747ad58"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3101,
+   "timeOrigin": 1793555262110,
+   "url": "https://www.brasil247.com/apoio/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a0e64747ad58",
+   "titleHash": "14faa464d414"
+  }
+ ],
+ "plan": {
+  "link": "https://www.brasil247.com/apoio/",
+  "fragment": "https://www.brasil247.com/apoio/"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 26.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

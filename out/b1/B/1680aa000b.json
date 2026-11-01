@@ -1,0 +1,815 @@
+{
+ "id": "1680aa000b",
+ "page": "https://steamcommunity.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 9619,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1437
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://steamcommunity.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "6027b360-e94a-44c9-bb3d-045d447f03bf",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://steamcommunity.com/",
+    "urlHash": "1680aa000bdb"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5952,
+   "timeOrigin": 1793553430260,
+   "url": "https://steamcommunity.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1680aa000bdb",
+   "titleHash": "104e4d532818"
+  },
+  {
+   "step": "link",
+   "href": "https://steamcommunity.com/app/883710",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 6412,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 303
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://steamcommunity.com/app/883710",
+     "entryIsCurrent": true,
+     "from": "https://steamcommunity.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "124b9b4c-5155-4ad7-b705-302cd84173be",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://steamcommunity.com/app/883710",
+    "urlHash": "98390d540449"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "history:replaceState": 1,
+     "navigate:push": 1,
+     "navigate:replace": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1437
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": "A",
+      "t": 5559,
+      "url": "https://steamcommunity.com/app/883710",
+      "userInitiated": true
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 5559,
+      "url": "#scrollTop=0"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 5559,
+      "url": "https://steamcommunity.com/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://steamcommunity.com/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 5559
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 5559
+     }
+    ],
+    "url": "https://steamcommunity.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4997,
+   "timeOrigin": 1793553436300,
+   "url": "https://steamcommunity.com/app/883710",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "98390d540449",
+   "titleHash": "d99071b778a5"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 9619,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 67
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://steamcommunity.com/",
+     "entryIsCurrent": true,
+     "from": "https://steamcommunity.com/app/883710",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "6027b360-e94a-44c9-bb3d-045d447f03bf",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://steamcommunity.com/",
+    "urlHash": "b262f1005965"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "history:replaceState": 1,
+     "navigate:replace": 1,
+     "navigate:traverse": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 303
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 2860,
+      "url": "#scrollTop=0"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 2860,
+      "url": "https://steamcommunity.com/app/883710",
+      "userInitiated": false
+     },
+     {
+      "from": "https://steamcommunity.com/app/883710",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 2861
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 2861
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2861,
+      "url": "https://steamcommunity.com/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://steamcommunity.com/app/883710"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5598,
+   "timeOrigin": 1793553439433,
+   "url": "https://steamcommunity.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "b262f1005965",
+   "titleHash": "104e4d532818"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 1,
+    "pageshow": 2
+   },
+   "docH": 6412,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 303
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2860,
+     "url": "#scrollTop=0"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2860,
+     "url": "https://steamcommunity.com/app/883710",
+     "userInitiated": false
+    },
+    {
+     "from": "https://steamcommunity.com/app/883710",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2861
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2861
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2861,
+     "url": "https://steamcommunity.com/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5505
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://steamcommunity.com/app/883710",
+     "entryIsCurrent": true,
+     "from": "https://steamcommunity.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "124b9b4c-5155-4ad7-b705-302cd84173be",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://steamcommunity.com/app/883710",
+    "urlHash": "2c55a1108e79"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "history:replaceState": 1,
+     "navigate:replace": 1,
+     "navigate:traverse": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 303
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 2860,
+      "url": "#scrollTop=0"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 2860,
+      "url": "https://steamcommunity.com/app/883710",
+      "userInitiated": false
+     },
+     {
+      "from": "https://steamcommunity.com/app/883710",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 2861
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 2861
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2861,
+      "url": "https://steamcommunity.com/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://steamcommunity.com/app/883710"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5351,
+   "timeOrigin": 1793553436300,
+   "url": "https://steamcommunity.com/app/883710",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "2c55a1108e79",
+   "titleHash": "d99071b778a5"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 6412,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 508
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://steamcommunity.com/app/883710",
+     "entryIsCurrent": true,
+     "from": "https://steamcommunity.com/app/883710",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "124b9b4c-5155-4ad7-b705-302cd84173be",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://steamcommunity.com/app/883710",
+    "urlHash": "2c55a1108e79"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 2,
+     "history:replaceState": 2,
+     "navigate:replace": 2,
+     "navigate:traverse": 1,
+     "navigatesuccess": 2,
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 303
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 2860,
+      "url": "#scrollTop=0"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 2860,
+      "url": "https://steamcommunity.com/app/883710",
+      "userInitiated": false
+     },
+     {
+      "from": "https://steamcommunity.com/app/883710",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 2861
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 2861
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2861,
+      "url": "https://steamcommunity.com/",
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 5505
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 8064,
+      "url": "#scrollTop=0"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 8064,
+      "url": "https://steamcommunity.com/app/883710",
+      "userInitiated": false
+     },
+     {
+      "from": "https://steamcommunity.com/app/883710",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 8064
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 8064
+     }
+    ],
+    "url": "https://steamcommunity.com/app/883710"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4997,
+   "timeOrigin": 1793553444634,
+   "url": "https://steamcommunity.com/app/883710",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "2c55a1108e79",
+   "titleHash": "d99071b778a5"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6412,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 508
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3068,
+     "url": "https://steamcommunity.com/app/883710",
+     "userInitiated": false
+    },
+    {
+     "from": "https://steamcommunity.com/app/883710",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3069
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3069,
+     "url": "https://steamcommunity.com/app/883710"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3069
+    },
+    {
+     "k": "hashchange",
+     "t": 3072,
+     "url": "https://steamcommunity.com/app/883710"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://steamcommunity.com/app/883710",
+     "entryIsCurrent": false,
+     "from": "https://steamcommunity.com/app/883710",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "0b03747d-de78-4585-8260-6ea7d2368331",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://steamcommunity.com/app/883710",
+    "urlHash": "250cd24db30c"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5351,
+   "timeOrigin": 1793553444634,
+   "url": "https://steamcommunity.com/app/883710",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "250cd24db30c",
+   "titleHash": "d99071b778a5"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6412,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 508
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3068,
+     "url": "https://steamcommunity.com/app/883710",
+     "userInitiated": false
+    },
+    {
+     "from": "https://steamcommunity.com/app/883710",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3069
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3069,
+     "url": "https://steamcommunity.com/app/883710"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3069
+    },
+    {
+     "k": "hashchange",
+     "t": 3072,
+     "url": "https://steamcommunity.com/app/883710"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5617,
+     "url": "https://steamcommunity.com/app/883710",
+     "userInitiated": false
+    },
+    {
+     "from": "https://steamcommunity.com/app/883710",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5618
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5618
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5618,
+     "url": "https://steamcommunity.com/app/883710"
+    },
+    {
+     "k": "hashchange",
+     "t": 5619,
+     "url": "https://steamcommunity.com/app/883710"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://steamcommunity.com/app/883710",
+     "entryIsCurrent": true,
+     "from": "https://steamcommunity.com/app/883710",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "124b9b4c-5155-4ad7-b705-302cd84173be",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://steamcommunity.com/app/883710",
+    "urlHash": "2c55a1108e79"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5351,
+   "timeOrigin": 1793553444634,
+   "url": "https://steamcommunity.com/app/883710",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "2c55a1108e79",
+   "titleHash": "d99071b778a5"
+  }
+ ],
+ "plan": {
+  "link": "https://steamcommunity.com/app/883710",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 22.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

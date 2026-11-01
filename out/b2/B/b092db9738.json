@@ -1,0 +1,1206 @@
+{
+ "id": "b092db9738",
+ "page": "https://www.discogs.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 4,
+    "listen:navigate": 2,
+    "pageshow": 1
+   },
+   "docH": 9514,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js:1:31851"
+     ],
+     "t": 151
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Io/<@https://www.discogs.<token>.js:6:67744",
+      "Ju@https://www.discogs.<token>.js:17:98917",
+      "L1@https://www.discogs.<token>.js:17:114098",
+      "ta@https://www.discogs.<token>.js:17:113984"
+     ],
+     "t": 189
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 491
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4958
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4958
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4959
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4980
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.discogs.<token>",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "10b10de7-d660-415a-b711-c279085ac890",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.discogs.<token>",
+    "urlHash": "b092db97382f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7195,
+   "timeOrigin": 1793562602816,
+   "url": "https://www.discogs.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Cloudflare Turnstile] Ignored message from unexpected source for event: requestExtraParams."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 293946251492793."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "b092db97382f",
+   "titleHash": "340bfcd79b68"
+  },
+  {
+   "step": "link",
+   "href": "https://www.discogs.com/digs/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2,
+     "url": "/digs/?__cf_chl_rt_tk=SQ0ebjIX991gh3GYBEASWr6El4lOlwhd1HahOHJrNS8-1793562610-<ip>-twP9fKFnxUv57EGHY4amWo8ErVNssoB2cx7ZDrueFac"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 52,
+     "url": "/digs/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 52,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 52
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 52
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 164
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.discogs.com/digs/",
+     "entryIsCurrent": true,
+     "from": "https://www.discogs.<token>",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "e33e7a11-8437-487d-a96c-6e4339bb2f2c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.discogs.com/digs/",
+    "urlHash": "e93d963a4990"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562610218.64,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    }
+   ],
+   "urlHash": "e93d963a4990",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "<token>?__cf_chl_rt_tk=keV_IxCIluvZGM9eO1gN8sPi0SFdw.9TA3XMfXhRkC8-1793562613-<ip>-OX.dmKalwrngEKFawB4rmUtG8sDbcY19dhc56L1"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1,
+     "url": "https://www.discogs.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.<token>",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 57,
+     "url": "<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 57,
+     "url": "https://www.discogs.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.<token>",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 57
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 57
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 83
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.discogs.<token>",
+     "entryIsCurrent": true,
+     "from": "https://www.discogs.com/digs/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "10b10de7-d660-415a-b711-c279085ac890",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.discogs.<token>",
+    "urlHash": "b092db97382f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562613296.56,
+   "url": "https://www.discogs.<token>",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    }
+   ],
+   "urlHash": "b092db97382f",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/digs/?__cf_chl_rt_tk=39vIxhFLK9k7abkcAYpJepR3HmbyhtsdaNaf8V9eU18-1793562615-<ip>-O9EcFMuwDi5SPLuGVvJadV.05mt9MOU1AyuzEhFAInM"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 52,
+     "url": "/digs/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 52,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 52
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 52
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 82
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.discogs.com/digs/",
+     "entryIsCurrent": true,
+     "from": "https://www.discogs.<token>",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "e33e7a11-8437-487d-a96c-6e4339bb2f2c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.discogs.com/digs/",
+    "urlHash": "e93d963a4990"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562615966.78,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    }
+   ],
+   "urlHash": "e93d963a4990",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/digs/?__cf_chl_rt_tk=uU2gXxH6k9LyrEHPWtTGp8yqH1.TiDSafIR6omuMRAw-1793562618-<ip>-WMcMgyiqGi.ap9rYOGGfOf2kBtscBlj9YtgqgTQ.7qI"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 62,
+     "url": "/digs/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 62,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 62
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 62
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 217
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.discogs.com/digs/",
+     "entryIsCurrent": true,
+     "from": "https://www.discogs.com/digs/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "e33e7a11-8437-487d-a96c-6e4339bb2f2c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.discogs.com/digs/",
+    "urlHash": "e93d963a4990"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562618626.06,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    }
+   ],
+   "urlHash": "e93d963a4990",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/digs/?__cf_chl_rt_tk=uU2gXxH6k9LyrEHPWtTGp8yqH1.TiDSafIR6omuMRAw-1793562618-<ip>-WMcMgyiqGi.ap9rYOGGfOf2kBtscBlj9YtgqgTQ.7qI"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 62,
+     "url": "/digs/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 62,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 62
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 62
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 217
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2794,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2794
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2794,
+     "url": "https://www.discogs.com/digs/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2794
+    },
+    {
+     "k": "hashchange",
+     "t": 2794,
+     "url": "https://www.discogs.com/digs/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.discogs.com/digs/",
+     "entryIsCurrent": false,
+     "from": "https://www.discogs.com/digs/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "d70a43c5-587d-4b11-93d1-5b3f6f680667",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.discogs.com/digs/",
+    "urlHash": "16b4f92a27f7"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562618626.06,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "16b4f92a27f7",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/digs/?__cf_chl_rt_tk=uU2gXxH6k9LyrEHPWtTGp8yqH1.TiDSafIR6omuMRAw-1793562618-<ip>-WMcMgyiqGi.ap9rYOGGfOf2kBtscBlj9YtgqgTQ.7qI"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 62,
+     "url": "/digs/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 62,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 62
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 62
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 217
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2794,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2794
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2794,
+     "url": "https://www.discogs.com/digs/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2794
+    },
+    {
+     "k": "hashchange",
+     "t": 2794,
+     "url": "https://www.discogs.com/digs/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5350,
+     "url": "https://www.discogs.com/digs/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.discogs.com/digs/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5350
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5350
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5350,
+     "url": "https://www.discogs.com/digs/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5350,
+     "url": "https://www.discogs.com/digs/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.discogs.com/digs/",
+     "entryIsCurrent": true,
+     "from": "https://www.discogs.com/digs/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "e33e7a11-8437-487d-a96c-6e4339bb2f2c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.discogs.com/digs/",
+    "urlHash": "e93d963a4990"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 263,
+   "timeOrigin": 1793562618626.06,
+   "url": "https://www.discogs.com/digs/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e93d963a4990",
+   "titleHash": "5ffa9751f584"
+  }
+ ],
+ "plan": {
+  "link": "https://www.discogs.com/digs/",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 23.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

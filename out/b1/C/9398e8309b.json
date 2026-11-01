@@ -1,0 +1,226 @@
+{
+ "id": "9398e8309b",
+ "page": "https://www.officedepot.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 57
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 134,
+   "timeOrigin": 1793554283937,
+   "url": "https://www.officedepot.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9398e8309b23",
+   "titleHash": "377ca2d4e81a"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 40
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 57
+     }
+    ],
+    "url": "https://www.officedepot.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 134,
+   "timeOrigin": 1793554288554,
+   "url": "https://www.officedepot.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9398e8309b23",
+   "titleHash": "377ca2d4e81a"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 40
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2608,
+     "url": "https://www.officedepot.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2608,
+     "url": "https://www.officedepot.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 134,
+   "timeOrigin": 1793554288554,
+   "url": "https://www.officedepot.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "15f427ffcc92",
+   "titleHash": "377ca2d4e81a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 40
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2608,
+     "url": "https://www.officedepot.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2608,
+     "url": "https://www.officedepot.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5180,
+     "url": "https://www.officedepot.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5180,
+     "url": "https://www.officedepot.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 134,
+   "timeOrigin": 1793554288554,
+   "url": "https://www.officedepot.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9398e8309b23",
+   "titleHash": "377ca2d4e81a"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

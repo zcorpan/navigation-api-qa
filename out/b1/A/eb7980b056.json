@@ -1,0 +1,2275 @@
+{
+ "id": "eb7980b056",
+ "page": "https://pumpbear.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://pumpbear.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554633348.5,
+   "marker": null,
+   "histLen": 7,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4544,
+   "active": "BODY",
+   "textLen": 3322,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://pumpbear.com/",
+    "key": "7974646d-5ee1-4a0f-947e-ab9d5fe65b04",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://pumpbear.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "eb7980b05698"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.start (https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "at https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js"
+     ],
+     "t": 227
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://pumpbear.com/jjml/:759:426)",
+      "at jt (https://pumpbear.com/jjml/:759:757)"
+     ],
+     "t": 482,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+      "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1968)",
+      "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+     ],
+     "t": 496
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://pumpbear.com/",
+     "t": 496
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2108)",
+      "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+     ],
+     "t": 496
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://pumpbear.com/jjml/:759:426)",
+      "at jt (https://pumpbear.com/jjml/:759:757)"
+     ],
+     "t": 534,
+     "len": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 627
+    }
+   ],
+   "counts": {
+    "listen:navigate": 2,
+    "call:entries": 2,
+    "call:updateCurrentEntry": 1,
+    "currententrychange": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Executing inline script violates the following Content Security Policy directive 'script-src 'self' 'wasm-unsafe-eval' 'nonce-xj7nNaUAYSW+0Q7k1mIWI3NP' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com https://www.sandbox.paypal.com https://js.stripe.com https://www.google"
+    },
+    {
+     "k": "console-error",
+     "e": "Executing inline script violates the following Content Security Policy directive 'script-src 'self' 'wasm-unsafe-eval' 'nonce-xj7nNaUAYSW+0Q7k1mIWI3NP' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com https://www.sandbox.paypal.com https://js.stripe.com https://www.google"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events' violates the following Content Security Policy directive: \"connect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com https://*.google-analytics.com https://analytics.google.com https://*."
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://demo-1.conversionsapigateway.com/events' violates the following Content Security Policy directive: \"connect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com https://*.google-analytics.com https://analytics.google.com https://*.anal"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load https://demo-1.conversionsapigateway.com/events Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "[createFrame] Failed to load module for h0f41678f: TypeError: Failed to fetch dynamically imported module: https://pumpbear.com/assets/app/ui/public/mega-menu-keys.@NOi5AP.tsx"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "[createFrame] Failed to load module for hb2b1d6a5: TypeError: Failed to fetch dynamically imported module: https://pumpbear.com/assets/app/ui/public/drawer-team-filter.@y7kLeI.tsx"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "[createFrame] Failed to load module for h87997713: TypeError: Failed to fetch dynamically imported module: https://pumpbear.com/assets/app/ui/public/search-suggest.@I1cM63.tsx"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "[createFrame] Failed to load module for he51a3a37: TypeError: Failed to fetch dynamically imported module: https://pumpbear.com/assets/app/ui/public/card-quick-add.@bD_6ch.tsx"
+    }
+   ],
+   "urlHash": "eb7980b05698",
+   "titleHash": "febff36414ba"
+  },
+  {
+   "step": "link",
+   "href": "https://pumpbear.com/collections/personalized",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://pumpbear.com/collections/personalized",
+   "readyState": "complete",
+   "timeOrigin": 1793554633348.5,
+   "marker": "m0",
+   "histLen": 8,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 0,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://pumpbear.com/collections/personalized",
+    "key": "42403686-65b6-4daa-9b3d-c2d218963dab",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://pumpbear.com/",
+     "from": null,
+     "entryIsCurrent": false
+    },
+    "urlHash": "2f342f0ae815"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.start (https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "at https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js"
+     ],
+     "t": 227
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://pumpbear.com/jjml/:759:426)",
+      "at jt (https://pumpbear.com/jjml/:759:757)"
+     ],
+     "t": 482,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+      "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1968)",
+      "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+     ],
+     "t": 496
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://pumpbear.com/",
+     "t": 496
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2108)",
+      "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+     ],
+     "t": 496
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://pumpbear.com/jjml/:759:426)",
+      "at jt (https://pumpbear.com/jjml/:759:757)"
+     ],
+     "t": 534,
+     "len": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 627
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": false,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": "A",
+     "t": 4960,
+     "prevented": false
+    },
+    {
+     "k": "intercept",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+      "at y (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018)",
+      "at n.addEventListener.signal (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853)"
+     ],
+     "opts": {
+      "handler": "function",
+      "precommit": "undefined",
+      "focusReset": "after-transition",
+      "scroll": "after-transition"
+     },
+     "t": 4960
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://pumpbear.com/",
+     "t": 4961
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 4961
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/collections/personalized\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+      "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2882)"
+     ],
+     "t": 4961
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 4961
+    },
+    {
+     "k": "scroll",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as scroll] (<anonymous>:88:113)",
+      "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083)"
+     ],
+     "t": 4998
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4998
+    }
+   ],
+   "counts": {
+    "listen:navigate": 2,
+    "call:entries": 2,
+    "call:updateCurrentEntry": 2,
+    "currententrychange": 2,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "intercept:push": 1,
+    "currententrychange:push": 1,
+    "get:transition": 1,
+    "scroll:push": 1,
+    "navigatesuccess": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events' violates the following Content Security Policy directive: \"connect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com https://*.google-analytics.com https://analytics.google.com https://*."
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://demo-1.conversionsapigateway.com/events' violates the following Content Security Policy directive: \"connect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com https://*.google-analytics.com https://analytics.google.com https://*.anal"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load https://demo-1.conversionsapigateway.com/events Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Framing 'https://chat.massauto.work/' violates the following Content Security Policy directive: \"frame-src 'self' https://challenges.cloudflare.com blob:\". The request has been blocked.\n"
+    }
+   ],
+   "urlHash": "2f342f0ae815",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://pumpbear.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793554633348.5,
+   "marker": "m1",
+   "histLen": 8,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 0,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://pumpbear.com/",
+    "key": "7974646d-5ee1-4a0f-947e-ab9d5fe65b04",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://pumpbear.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "eb7980b05698"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.start (https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "at https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js"
+     ],
+     "t": 227
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://pumpbear.com/jjml/:759:426)",
+      "at jt (https://pumpbear.com/jjml/:759:757)"
+     ],
+     "t": 482,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+      "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1968)",
+      "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+     ],
+     "t": 496
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://pumpbear.com/",
+     "t": 496
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2108)",
+      "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+     ],
+     "t": 496
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://pumpbear.com/jjml/:759:426)",
+      "at jt (https://pumpbear.com/jjml/:759:757)"
+     ],
+     "t": 534,
+     "len": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 627
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": false,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": "A",
+     "t": 4960,
+     "prevented": false
+    },
+    {
+     "k": "intercept",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+      "at y (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018)",
+      "at n.addEventListener.signal (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853)"
+     ],
+     "opts": {
+      "handler": "function",
+      "precommit": "undefined",
+      "focusReset": "after-transition",
+      "scroll": "after-transition"
+     },
+     "t": 4960
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://pumpbear.com/",
+     "t": 4961
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 4961
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/collections/personalized\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+      "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2882)"
+     ],
+     "t": 4961
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 4961
+    },
+    {
+     "k": "scroll",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as scroll] (<anonymous>:88:113)",
+      "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083)"
+     ],
+     "t": 4998
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4998
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://pumpbear.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 7569,
+     "prevented": false
+    },
+    {
+     "k": "intercept",
+     "m": "traverse",
+     "url": "https://pumpbear.com/",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+      "at y (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018)",
+      "at n.addEventListener.signal (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853)"
+     ],
+     "opts": {
+      "handler": "function",
+      "precommit": "undefined",
+      "focusReset": "after-transition",
+      "scroll": "after-transition"
+     },
+     "t": 7569
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 7569
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 7569
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://pumpbear.com/",
+     "t": 7570
+    },
+    {
+     "k": "scroll",
+     "m": "traverse",
+     "url": "https://pumpbear.com/",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as scroll] (<anonymous>:88:113)",
+      "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083)"
+     ],
+     "t": 7583
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7583
+    }
+   ],
+   "counts": {
+    "listen:navigate": 2,
+    "call:entries": 2,
+    "call:updateCurrentEntry": 2,
+    "currententrychange": 2,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "intercept:push": 1,
+    "currententrychange:push": 1,
+    "get:transition": 2,
+    "scroll:push": 1,
+    "navigatesuccess": 2,
+    "navigate:traverse": 1,
+    "intercept:traverse": 1,
+    "currententrychange:traverse": 1,
+    "popstate": 1,
+    "scroll:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the stylesheet 'https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css' violates the following Content Security Policy directive: \"style-src 'unsafe-inline'\". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the stylesheet 'https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css' violates the following Content Security Policy directive: \"style-src 'unsafe-inline'\". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 'script"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 'script"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-el"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-el"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 'script"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 'script"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://a.klaviyo.com/onsite/track-analytics' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://a.klaviyo.com/onsite/track-analytics' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://a.klaviyo.com/onsite/track-analytics' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://a.klaviyo.com/onsite/track-analytics' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the stylesheet 'https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css' violates the following Content Security Policy directive: \"style-src 'unsafe-inline'\". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the stylesheet 'https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css' violates the following Content Security Policy directive: \"style-src 'unsafe-inline'\". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-s"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-s"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly se"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly se"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'sc"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'sc"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the stylesheet 'https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css' violates the following Content Security Policy directive: \"style-src 'unsafe-inline'\". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the stylesheet 'https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css' violates the following Content Security Policy directive: \"style-src 'unsafe-inline'\". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-s"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-s"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly se"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly se"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'sc"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'sc"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://www.facebook.com/tr/' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://www.facebook.com/tr/' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load https://www.facebook.com/tr/. Refused to connect because it violates the document's Content Security Policy."
+    }
+   ],
+   "urlHash": "eb7980b05698",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://pumpbear.com/collections/personalized",
+   "readyState": "complete",
+   "timeOrigin": 1793554633348.5,
+   "marker": "m2",
+   "histLen": 8,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 0,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://pumpbear.com/collections/personalized",
+    "key": "42403686-65b6-4daa-9b3d-c2d218963dab",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://pumpbear.com/",
+     "from": null,
+     "entryIsCurrent": false
+    },
+    "urlHash": "2f342f0ae815"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Object.start (https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "at https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js"
+     ],
+     "t": 227
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://pumpbear.com/jjml/:759:426)",
+      "at jt (https://pumpbear.com/jjml/:759:757)"
+     ],
+     "t": 482,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+      "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1968)",
+      "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+     ],
+     "t": 496
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://pumpbear.com/",
+     "t": 496
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2108)",
+      "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+     ],
+     "t": 496
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://pumpbear.com/jjml/:759:426)",
+      "at jt (https://pumpbear.com/jjml/:759:757)"
+     ],
+     "t": 534,
+     "len": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 627
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": false,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": "A",
+     "t": 4960,
+     "prevented": false
+    },
+    {
+     "k": "intercept",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+      "at y (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018)",
+      "at n.addEventListener.signal (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853)"
+     ],
+     "opts": {
+      "handler": "function",
+      "precommit": "undefined",
+      "focusReset": "after-transition",
+      "scroll": "after-transition"
+     },
+     "t": 4960
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://pumpbear.com/",
+     "t": 4961
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 4961
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/collections/personalized\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+      "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2882)"
+     ],
+     "t": 4961
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 4961
+    },
+    {
+     "k": "scroll",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as scroll] (<anonymous>:88:113)",
+      "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083)"
+     ],
+     "t": 4998
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4998
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://pumpbear.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 7569,
+     "prevented": false
+    },
+    {
+     "k": "intercept",
+     "m": "traverse",
+     "url": "https://pumpbear.com/",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+      "at y (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018)",
+      "at n.addEventListener.signal (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853)"
+     ],
+     "opts": {
+      "handler": "function",
+      "precommit": "undefined",
+      "focusReset": "after-transition",
+      "scroll": "after-transition"
+     },
+     "t": 7569
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 7569
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 7569
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://pumpbear.com/",
+     "t": 7570
+    },
+    {
+     "k": "scroll",
+     "m": "traverse",
+     "url": "https://pumpbear.com/",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as scroll] (<anonymous>:88:113)",
+      "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083)"
+     ],
+     "t": 7583
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7583
+    },
+    {
+     "k": "rejection",
+     "e": "Error: Loading chunk 4014 failed after 3 retries.",
+     "t": 10145
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 10153,
+     "prevented": false
+    },
+    {
+     "k": "intercept",
+     "m": "traverse",
+     "url": "https://pumpbear.com/collections/personalized",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+      "at y (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018)",
+      "at n.addEventListener.signal (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853)"
+     ],
+     "opts": {
+      "handler": "function",
+      "precommit": "undefined",
+      "focusReset": "after-transition",
+      "scroll": "after-transition"
+     },
+     "t": 10154
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://pumpbear.com/",
+     "t": 10154
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 10154
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://pumpbear.com/collections/personalized",
+     "t": 10154
+    },
+    {
+     "k": "scroll",
+     "m": "traverse",
+     "url": "https://pumpbear.com/collections/personalized",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at NE.<computed> [as scroll] (<anonymous>:88:113)",
+      "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083)"
+     ],
+     "t": 10173
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10173
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://pumpbear.com/jjml/:759:426)",
+      "at jt (https://pumpbear.com/jjml/:759:757)"
+     ],
+     "t": 11160,
+     "len": 2
+    }
+   ],
+   "counts": {
+    "listen:navigate": 2,
+    "call:entries": 3,
+    "call:updateCurrentEntry": 2,
+    "currententrychange": 2,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "intercept:push": 1,
+    "currententrychange:push": 1,
+    "get:transition": 3,
+    "scroll:push": 1,
+    "navigatesuccess": 3,
+    "navigate:traverse": 2,
+    "intercept:traverse": 2,
+    "currententrychange:traverse": 2,
+    "popstate": 2,
+    "scroll:traverse": 2,
+    "rejection": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Loading the stylesheet 'https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css' violates the following Content Security Policy directive: \"style-src 'unsafe-inline'\". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the stylesheet 'https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css' violates the following Content Security Policy directive: \"style-src 'unsafe-inline'\". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-s"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-s"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly se"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly se"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'sc"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'sc"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js' violates the following Content Security Policy directive: \"script-src 'nonce-g2B5mOPGF1ZzE19CRJRdnv' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the script 'https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js' violates the following Content Security Policy directive: \"script-src 'nonce-aunieD9kjNoH0Y3AsckQWC' 'unsafe-eval' https://challenges.cloudflare.com\". Note that 'script-src-elem' was not explicitly set, so 's"
+    },
+    {
+     "k": "pageerror",
+     "e": "Loading chunk 4014 failed after 3 retries."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events' violates the following Content Security Policy directive: \"connect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com https://*.google-analytics.com https://analytics.google.com https://*."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the image 'https://www.facebook.com/tr/"
+    },
+    {
+     "k": "console-error",
+     "e": "Loading the image 'https://www.facebook.com/tr/"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://demo-1.conversionsapigateway.com/events' violates the following Content Security Policy directive: \"connect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com https://*.google-analytics.com https://analytics.google.com https://*.anal"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://demo-1.conversionsapigateway.com/events' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'https://demo-1.conversionsapigateway.com/events' violates the following Content Security Policy directive: \"connect-src 'self' https://challenges.cloudflare.com\". The action has been blocked."
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load https://demo-1.conversionsapigateway.com/events Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "2f342f0ae815",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "url": "https://pumpbear.com/collections/personalized",
+   "readyState": "complete",
+   "timeOrigin": 1793554646947.095,
+   "marker": null,
+   "histLen": 8,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 260,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://pumpbear.com/collections/personalized",
+    "key": "9c8b520c-7b6d-4649-a743-2adc057d06f8",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://pumpbear.com/collections/personalized",
+     "from": "https://pumpbear.com/collections/personalized",
+     "entryIsCurrent": true
+    },
+    "urlHash": "2f342f0ae815"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/collections/personalized?__cf_chl_rt_tk=fxczAHZi0E198MwK3OABzS.RQtN9198ZQ.Qza1xEoJs-1793554646-<ip>-0Be5t7F89ZpChY5d.n.3VHiQ.F9utJnFYzw2r2A_6u4",
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/collections/personalized",
+     "t": 76
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 76,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 76
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 76
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 370
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://pumpbear.com/collections/personalized",
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at Object.start (https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+       "at https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js"
+      ],
+      "t": 227
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as entries] (<anonymous>:53:79)",
+       "at it (https://pumpbear.com/jjml/:759:426)",
+       "at jt (https://pumpbear.com/jjml/:759:757)"
+      ],
+      "t": 482,
+      "len": 1
+     },
+     {
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "a": "[{\"state\":{\"src\":\"https://pumpbear.com/\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+       "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1968)",
+       "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+      ],
+      "t": 496
+     },
+     {
+      "k": "currententrychange",
+      "m": null,
+      "from": "https://pumpbear.com/",
+      "t": 496
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at startNavigationListenerImpl (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2108)",
+       "at startNavigationListener (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776)"
+      ],
+      "t": 496
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as entries] (<anonymous>:53:79)",
+       "at it (https://pumpbear.com/jjml/:759:426)",
+       "at jt (https://pumpbear.com/jjml/:759:757)"
+      ],
+      "t": 534,
+      "len": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 627
+     },
+     {
+      "k": "navigate",
+      "m": "push",
+      "url": "https://pumpbear.com/collections/personalized",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": "A",
+      "t": 4960,
+      "prevented": false
+     },
+     {
+      "k": "intercept",
+      "m": "push",
+      "url": "https://pumpbear.com/collections/personalized",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+       "at y (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018)",
+       "at n.addEventListener.signal (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853)"
+      ],
+      "opts": {
+       "handler": "function",
+       "precommit": "undefined",
+       "focusReset": "after-transition",
+       "scroll": "after-transition"
+      },
+      "t": 4960
+     },
+     {
+      "k": "currententrychange",
+      "m": "push",
+      "from": "https://pumpbear.com/",
+      "t": 4961
+     },
+     {
+      "k": "get",
+      "m": "transition",
+      "t": 4961
+     },
+     {
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "a": "[{\"state\":{\"src\":\"https://pumpbear.com/collections/personalized\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+       "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2882)"
+      ],
+      "t": 4961
+     },
+     {
+      "k": "currententrychange",
+      "m": null,
+      "from": "https://pumpbear.com/collections/personalized",
+      "t": 4961
+     },
+     {
+      "k": "scroll",
+      "m": "push",
+      "url": "https://pumpbear.com/collections/personalized",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at NE.<computed> [as scroll] (<anonymous>:88:113)",
+       "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083)"
+      ],
+      "t": 4998
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 4998
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://pumpbear.com/",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 7569,
+      "prevented": false
+     },
+     {
+      "k": "intercept",
+      "m": "traverse",
+      "url": "https://pumpbear.com/",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+       "at y (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018)",
+       "at n.addEventListener.signal (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853)"
+      ],
+      "opts": {
+       "handler": "function",
+       "precommit": "undefined",
+       "focusReset": "after-transition",
+       "scroll": "after-transition"
+      },
+      "t": 7569
+     },
+     {
+      "k": "currententrychange",
+      "m": "traverse",
+      "from": "https://pumpbear.com/collections/personalized",
+      "t": 7569
+     },
+     {
+      "k": "get",
+      "m": "transition",
+      "t": 7569
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "url": "https://pumpbear.com/",
+      "t": 7570
+     },
+     {
+      "k": "scroll",
+      "m": "traverse",
+      "url": "https://pumpbear.com/",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at NE.<computed> [as scroll] (<anonymous>:88:113)",
+       "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083)"
+      ],
+      "t": 7583
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 7583
+     },
+     {
+      "k": "rejection",
+      "e": "Error: Loading chunk 4014 failed after 3 retries.",
+      "t": 10145
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://pumpbear.com/collections/personalized",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 10153,
+      "prevented": false
+     },
+     {
+      "k": "intercept",
+      "m": "traverse",
+      "url": "https://pumpbear.com/collections/personalized",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at NE.<computed> [as intercept] (<anonymous>:88:113)",
+       "at y (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018)",
+       "at n.addEventListener.signal (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853)"
+      ],
+      "opts": {
+       "handler": "function",
+       "precommit": "undefined",
+       "focusReset": "after-transition",
+       "scroll": "after-transition"
+      },
+      "t": 10154
+     },
+     {
+      "k": "currententrychange",
+      "m": "traverse",
+      "from": "https://pumpbear.com/",
+      "t": 10154
+     },
+     {
+      "k": "get",
+      "m": "transition",
+      "t": 10154
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "url": "https://pumpbear.com/collections/personalized",
+      "t": 10154
+     },
+     {
+      "k": "scroll",
+      "m": "traverse",
+      "url": "https://pumpbear.com/collections/personalized",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at NE.<computed> [as scroll] (<anonymous>:88:113)",
+       "at Object.handler (https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083)"
+      ],
+      "t": 10173
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 10173
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as entries] (<anonymous>:53:79)",
+       "at it (https://pumpbear.com/jjml/:759:426)",
+       "at jt (https://pumpbear.com/jjml/:759:757)"
+      ],
+      "t": 11160,
+      "len": 2
+     }
+    ],
+    "counts": {
+     "listen:navigate": 2,
+     "call:entries": 3,
+     "call:updateCurrentEntry": 2,
+     "currententrychange": 2,
+     "pageshow": 1,
+     "navigate:push": 1,
+     "intercept:push": 1,
+     "currententrychange:push": 1,
+     "get:transition": 3,
+     "scroll:push": 1,
+     "navigatesuccess": 3,
+     "navigate:traverse": 2,
+     "intercept:traverse": 2,
+     "currententrychange:traverse": 2,
+     "popstate": 2,
+     "scroll:traverse": 2,
+     "rejection": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size"
+    },
+    {
+     "k": "console-warning",
+     "e": "No available adapters."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "2f342f0ae815",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://pumpbear.com/collections/personalized",
+   "readyState": "complete",
+   "timeOrigin": 1793554646947.095,
+   "marker": "m4",
+   "histLen": 9,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 260,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://pumpbear.com/collections/personalized",
+    "key": "33da9df3-14d2-4a65-9349-648f857f90c5",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://pumpbear.com/collections/personalized",
+     "from": "https://pumpbear.com/collections/personalized",
+     "entryIsCurrent": false
+    },
+    "urlHash": "455745f0401d"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/collections/personalized?__cf_chl_rt_tk=fxczAHZi0E198MwK3OABzS.RQtN9198ZQ.Qza1xEoJs-1793554646-<ip>-0Be5t7F89ZpChY5d.n.3VHiQ.F9utJnFYzw2r2A_6u4",
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/collections/personalized",
+     "t": 76
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 76,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 76
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 76
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 370
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3001,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 3001
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://pumpbear.com/collections/personalized",
+     "t": 3001
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3001
+    },
+    {
+     "k": "hashchange",
+     "url": "https://pumpbear.com/collections/personalized",
+     "t": 3001
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "455745f0401d",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://pumpbear.com/collections/personalized",
+   "readyState": "complete",
+   "timeOrigin": 1793554646947.095,
+   "marker": "m5",
+   "histLen": 9,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 260,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://pumpbear.com/collections/personalized",
+    "key": "9c8b520c-7b6d-4649-a743-2adc057d06f8",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://pumpbear.com/collections/personalized",
+     "from": "https://pumpbear.com/collections/personalized",
+     "entryIsCurrent": true
+    },
+    "urlHash": "2f342f0ae815"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/collections/personalized?__cf_chl_rt_tk=fxczAHZi0E198MwK3OABzS.RQtN9198ZQ.Qza1xEoJs-1793554646-<ip>-0Be5t7F89ZpChY5d.n.3VHiQ.F9utJnFYzw2r2A_6u4",
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/collections/personalized",
+     "t": 76
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 76,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 76
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 76
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 370
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3001,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 3001
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://pumpbear.com/collections/personalized",
+     "t": 3001
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3001
+    },
+    {
+     "k": "hashchange",
+     "url": "https://pumpbear.com/collections/personalized",
+     "t": 3001
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://pumpbear.com/collections/personalized",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5620,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://pumpbear.com/collections/personalized",
+     "t": 5620
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5620
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://pumpbear.com/collections/personalized",
+     "t": 5620
+    },
+    {
+     "k": "hashchange",
+     "url": "https://pumpbear.com/collections/personalized",
+     "t": 5620
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "2f342f0ae815",
+   "titleHash": "5ffa9751f584"
+  }
+ ],
+ "plan": {
+  "link": "https://pumpbear.com/collections/personalized",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 21.8,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

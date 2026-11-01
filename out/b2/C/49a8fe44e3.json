@@ -1,0 +1,287 @@
+{
+ "id": "49a8fe44e3",
+ "page": "https://www.bet365.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 12
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 104,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 158,
+     "url": "#/HO/"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19878,
+   "timeOrigin": 1793562390972,
+   "url": "https://www.bet365.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a706674c20fa",
+   "titleHash": "de345ec5c9e8"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 144,
+     "url": "#/HO/"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:pushState": 1,
+     "history:replaceState": 1,
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 12
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 104
+     },
+     {
+      "k": "history",
+      "m": "pushState",
+      "t": 158,
+      "url": "#/HO/"
+     }
+    ],
+    "url": "https://www.bet365.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19878,
+   "timeOrigin": 1793562395209,
+   "url": "https://www.bet365.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "a706674c20fa",
+   "titleHash": "de345ec5c9e8"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 35,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 144,
+     "url": "#/HO/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2606,
+     "url": "https://www.bet365.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2607,
+     "url": "https://www.bet365.com/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6162,
+   "timeOrigin": 1793562395209,
+   "url": "https://www.bet365.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "You are trying to use a blocker on a POP navigation to a location that was not created by @remix-run/router. This will fail silently in production. This can happen if you are navigating outside the router via `window.history.pushState`/`window.location.hash` instead of using router navigation APIs. "
+    }
+   ],
+   "urlHash": "afe45ebca3ee",
+   "titleHash": "de345ec5c9e8"
+  },
+  {
+   "step": "back2",
+   "settle": 2.7,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 35,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 144,
+     "url": "#/HO/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2606,
+     "url": "https://www.bet365.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2607,
+     "url": "https://www.bet365.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5342,
+     "url": "https://www.bet365.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5344,
+     "url": "https://www.bet365.com/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 19878,
+   "timeOrigin": 1793562395209,
+   "url": "https://www.bet365.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a706674c20fa",
+   "titleHash": "de345ec5c9e8"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

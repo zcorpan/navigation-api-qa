@@ -1,0 +1,631 @@
+{
+ "id": "ce89ef6fd4",
+ "page": "https://sudoku.com/",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 9,
+   "url": "https://sudoku.com/",
+   "log": [],
+   "docH": 2153,
+   "marker": null,
+   "timeOrigin": 1793566362537,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 3409,
+   "nav": {
+    "url": "https://sudoku.com/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "05f8a21f-5175-45b0-adba-fb92c9c721b3",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://sudoku.com/",
+     "from": "https://sudoku.com/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "ce89ef6fd49d"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "ce89ef6fd49d",
+   "titleHash": "548033c141f0"
+  },
+  {
+   "step": "link",
+   "href": "https://sudoku.com/killer",
+   "click": "js",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 10,
+   "url": "https://sudoku.com/killer",
+   "log": [],
+   "docH": 2916,
+   "marker": null,
+   "timeOrigin": 1793566364807,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://sudoku.com/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://sudoku.com/killer",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 203,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "rejection",
+      "e": "TypeError: Load failed",
+      "t": 211
+     },
+     {
+      "k": "rejection",
+      "e": "TypeError: Load failed",
+      "t": 211
+     }
+    ],
+    "counts": {
+     "navigate:push": 1,
+     "rejection": 2
+    }
+   },
+   "textLen": 3819,
+   "nav": {
+    "url": "https://sudoku.com/killer",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "28bb0f7e-651a-4de5-bbad-0e0999bbfe7c",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "from": "https://sudoku.com/",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9de23868b84b"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9de23868b84b",
+   "titleHash": "2f796c278e4e"
+  },
+  {
+   "step": "back",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 10,
+   "url": "https://sudoku.com/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://sudoku.com/killer",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 203,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "rejection",
+     "e": "TypeError: Load failed",
+     "t": 211
+    },
+    {
+     "k": "rejection",
+     "e": "TypeError: Load failed",
+     "t": 211
+    },
+    {
+     "k": "pageshow",
+     "t": 2981,
+     "persisted": true
+    }
+   ],
+   "docH": 2263,
+   "marker": "m0",
+   "timeOrigin": 1793566362537,
+   "scrollX": 0,
+   "counts": {
+    "rejection": 2,
+    "pageshow": 1,
+    "navigate:push": 1
+   },
+   "prev": {
+    "url": "https://sudoku.com/killer",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://sudoku.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 83,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 3412,
+   "nav": {
+    "url": "https://sudoku.com/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "05f8a21f-5175-45b0-adba-fb92c9c721b3",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://sudoku.com/",
+     "from": "https://sudoku.com/killer",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "ce89ef6fd49d"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "ce89ef6fd49d",
+   "titleHash": "548033c141f0"
+  },
+  {
+   "step": "forward",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 10,
+   "url": "https://sudoku.com/killer",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://sudoku.com/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 83,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3050,
+     "persisted": true
+    }
+   ],
+   "docH": 2916,
+   "marker": "m1",
+   "timeOrigin": 1793566364807,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://sudoku.com/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://sudoku.com/killer",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 203,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "rejection",
+      "e": "TypeError: Load failed",
+      "t": 211
+     },
+     {
+      "k": "rejection",
+      "e": "TypeError: Load failed",
+      "t": 211
+     },
+     {
+      "k": "pageshow",
+      "t": 2981,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://sudoku.com/killer",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 5802,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "rejection": 2,
+     "pageshow": 1,
+     "navigate:push": 1
+    }
+   },
+   "textLen": 3819,
+   "nav": {
+    "url": "https://sudoku.com/killer",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "28bb0f7e-651a-4de5-bbad-0e0999bbfe7c",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9de23868b84b"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9de23868b84b",
+   "titleHash": "2f796c278e4e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.8,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 10,
+   "url": "https://sudoku.com/killer",
+   "log": [],
+   "docH": 2916,
+   "marker": null,
+   "timeOrigin": 1793566373176,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://sudoku.com/killer",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://sudoku.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 83,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3050,
+      "persisted": true
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 3819,
+   "nav": {
+    "url": "https://sudoku.com/killer",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "28bb0f7e-651a-4de5-bbad-0e0999bbfe7c",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "from": "https://sudoku.com/killer",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9de23868b84b"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "9de23868b84b",
+   "titleHash": "2f796c278e4e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 11,
+   "url": "https://sudoku.com/killer",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://sudoku.com/killer",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 402,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 415,
+     "m": "push",
+     "from": "https://sudoku.com/killer"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 415
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 416
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://sudoku.com/killer",
+     "t": 416
+    },
+    {
+     "k": "hashchange",
+     "url": "https://sudoku.com/killer",
+     "t": 434
+    }
+   ],
+   "docH": 2916,
+   "marker": "m4",
+   "timeOrigin": 1793566373176,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 3819,
+   "nav": {
+    "url": "https://sudoku.com/killer",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "ef33d5f5-ab9d-44a6-aa6c-7dab37665dc3",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "from": "https://sudoku.com/killer",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "8c509824399e"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8c509824399e",
+   "titleHash": "2f796c278e4e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#body",
+   "histLen": 11,
+   "url": "https://sudoku.com/killer",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://sudoku.com/killer",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 402,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 415,
+     "m": "push",
+     "from": "https://sudoku.com/killer"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 415
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 416
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://sudoku.com/killer",
+     "t": 416
+    },
+    {
+     "k": "hashchange",
+     "url": "https://sudoku.com/killer",
+     "t": 434
+    },
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://sudoku.com/killer",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 3171,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 3172,
+     "m": "traverse",
+     "from": "https://sudoku.com/killer"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3172
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3172
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://sudoku.com/killer",
+     "t": 3172
+    },
+    {
+     "k": "hashchange",
+     "url": "https://sudoku.com/killer",
+     "t": 3184
+    }
+   ],
+   "docH": 2916,
+   "marker": "m5",
+   "timeOrigin": 1793566373176,
+   "scrollX": 0,
+   "counts": {
+    "get:currentEntry": 2,
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 2,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 3819,
+   "nav": {
+    "url": "https://sudoku.com/killer",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "28bb0f7e-651a-4de5-bbad-0e0999bbfe7c",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "from": "https://sudoku.com/killer",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9de23868b84b"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9de23868b84b",
+   "titleHash": "2f796c278e4e"
+  }
+ ],
+ "plan": {
+  "link": "https://sudoku.com/killer",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#truste-consent-button",
+ "elapsed": 26.8,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

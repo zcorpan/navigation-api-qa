@@ -1,0 +1,864 @@
+{
+ "id": "8fd0003023",
+ "page": "https://www.wowhead.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BUTTON",
+   "counts": {
+    "get:canGoBack": 3,
+    "get:currentEntry": 2,
+    "listen:currententrychange": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 9545,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 308
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "WH.ScrollRestore<@https://wow.zamimg.com/js/global-core.js",
+      "@https://wow.zamimg.com/js/global-core.js"
+     ],
+     "t": 309
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "pi@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:49265",
+      "J4@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:102682",
+      "xblocker<@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:103411"
+     ],
+     "t": 513
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 558
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 558
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1369
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "n.start@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:16995",
+      "t.start/e</<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133334",
+      "t.start/e<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133305"
+     ],
+     "t": 1741
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "n.start@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:17034",
+      "t.start/e</<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133334",
+      "t.start/e<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133305"
+     ],
+     "t": 1741
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2184
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2184
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2222
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.wowhead.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "4d874aa4-ab01-4750-a613-702a634eebc0",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.wowhead.com/",
+    "urlHash": "8fd000302362"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11922,
+   "timeOrigin": 1793554229780,
+   "url": "https://www.wowhead.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu news before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu playerHousing before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu database before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu tools_live before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu guides before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu community before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu footerGuides_live before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu footerMists before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu footerGuides_tbc before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu footerGuides_D4 before async data finished loading."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "CW Missing a base prebid mapping for base \".htlad-mobile-300x250\""
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "8fd000302362",
+   "titleHash": "2d52628cea20"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "DIV",
+   "counts": {
+    "get:canGoBack": 3,
+    "get:currentEntry": 2,
+    "listen:currententrychange": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 9545,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 202
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "WH.ScrollRestore<@https://wow.zamimg.com/js/global-core.js",
+      "@https://wow.zamimg.com/js/global-core.js"
+     ],
+     "t": 202
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "pi@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:49265",
+      "J4@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:102682",
+      "xblocker<@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:103411"
+     ],
+     "t": 622
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 704
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 704
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "n.start@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:16989",
+      "t.start/e</<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133321",
+      "t.start/e<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133292"
+     ],
+     "t": 1741
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "n.start@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:17028",
+      "t.start/e</<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133321",
+      "t.start/e<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133292"
+     ],
+     "t": 1741
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2326
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2326
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2373
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4934
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.wowhead.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.wowhead.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "4d874aa4-ab01-4750-a613-702a634eebc0",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.wowhead.com/",
+    "urlHash": "8fd000302362"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 610,
+   "textLen": 11922,
+   "timeOrigin": 1793554238314,
+   "url": "https://www.wowhead.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu news before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu playerHousing before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu database before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu tools_live before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu guides before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu community before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu footerGuides_live before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu footerMists before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu footerGuides_tbc before async data finished loading."
+    },
+    {
+     "k": "console-error",
+     "e": "Attempted to load menu footerGuides_D4 before async data finished loading."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "CW Missing a base prebid mapping for base \".htlad-mobile-300x250\""
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ctudepayload\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "8fd000302362",
+   "titleHash": "1b1762e108f3"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "DIV",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:canGoBack": 3,
+    "get:currentEntry": 4,
+    "hashchange": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 9545,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 202
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "WH.ScrollRestore<@https://wow.zamimg.com/js/global-core.js",
+      "@https://wow.zamimg.com/js/global-core.js"
+     ],
+     "t": 202
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "pi@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:49265",
+      "J4@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:102682",
+      "xblocker<@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:103411"
+     ],
+     "t": 622
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 704
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 704
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "n.start@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:16989",
+      "t.start/e</<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133321",
+      "t.start/e<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133292"
+     ],
+     "t": 1741
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "n.start@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:17028",
+      "t.start/e</<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133321",
+      "t.start/e<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133292"
+     ],
+     "t": 1741
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2326
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2326
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2373
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4934
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7612,
+     "url": "https://www.wowhead.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.wowhead.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 7612
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7612
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7613,
+     "url": "https://www.wowhead.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7613
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7613
+    },
+    {
+     "k": "hashchange",
+     "t": 7613,
+     "url": "https://www.wowhead.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.wowhead.com/",
+     "entryIsCurrent": false,
+     "from": "https://www.wowhead.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "d8b5a0fe-6961-42ea-b686-38288a69a2da",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.wowhead.com/",
+    "urlHash": "515371182500"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11922,
+   "timeOrigin": 1793554238314,
+   "url": "https://www.wowhead.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "515371182500",
+   "titleHash": "1b1762e108f3"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "DIV",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:canGoBack": 3,
+    "get:currentEntry": 6,
+    "hashchange": 2,
+    "listen:currententrychange": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 9545,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 202
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "WH.ScrollRestore<@https://wow.zamimg.com/js/global-core.js",
+      "@https://wow.zamimg.com/js/global-core.js"
+     ],
+     "t": 202
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "pi@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:49265",
+      "J4@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:102682",
+      "xblocker<@https://tagan.adlightning.com/zam/b-2e7c324-eecb0a85.js:1:103411"
+     ],
+     "t": 622
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 704
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 704
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "n.start@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:16989",
+      "t.start/e</<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133321",
+      "t.start/e<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133292"
+     ],
+     "t": 1741
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.wowhead.com/:70:45",
+      "n.start@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:17028",
+      "t.start/e</<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133321",
+      "t.start/e<@https://offshoregeology.com/dist/90806d25b4547/70ab6725885aa641738c82148443bb9b9.module.js:1:133292"
+     ],
+     "t": 1741
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2326
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2326
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2373
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4934
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7612,
+     "url": "https://www.wowhead.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.wowhead.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 7612
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7612
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7613,
+     "url": "https://www.wowhead.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7613
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7613
+    },
+    {
+     "k": "hashchange",
+     "t": 7613,
+     "url": "https://www.wowhead.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10219,
+     "url": "https://www.wowhead.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.wowhead.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 10219
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10219
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10219
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10219
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10219,
+     "url": "https://www.wowhead.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 10220,
+     "url": "https://www.wowhead.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.wowhead.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.wowhead.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "4d874aa4-ab01-4750-a613-702a634eebc0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.wowhead.com/",
+    "urlHash": "8fd000302362"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11917,
+   "timeOrigin": 1793554238314,
+   "url": "https://www.wowhead.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8fd000302362",
+   "titleHash": "1b1762e108f3"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 21.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

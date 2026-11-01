@@ -1,0 +1,2308 @@
+{
+ "id": "b238182396",
+ "page": "https://elevenlabs.io/app/sign-up",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 8,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 31,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 247
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 247
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 247,
+     "url": "/app/sign-up"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 247,
+     "url": "https://elevenlabs.io/app/sign-up",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/app/sign-up",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 247
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 256
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 256
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 265
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1082
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1086
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1089
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1091
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1311
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5454
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5457
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5461
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 5462
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "setupNavigationAPI@https://cdn.claydar.com/releases/latest/radar.min.js:1:38992",
+      "start@https://cdn.claydar.com/releases/latest/radar.min.js:1:38467",
+      "startTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:40154",
+      "startPageTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:83007"
+     ],
+     "t": 5598
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://elevenlabs.io/app/sign-up",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "f5408e5a-8f02-4939-9030-295a7dc7187c",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://elevenlabs.io/app/sign-up",
+    "urlHash": "b238182396c9"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 277,
+   "timeOrigin": 1793563315905,
+   "url": "https://elevenlabs.io/app/sign-up",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[2026-11-01T20:01:56.278Z]  @firebase/firestore: Firestore (11.2.0): You are overriding the original host. If you did not intend to override your settings, use {merge: true}."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/ads/ga-audiences"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-650f-78d3-b404-cc5a44ca3724\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.claydar.com/releases/latest/radar.min.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://tracking-api.g2.com/attribution_tracking/conversions/1010273.js from being executed because it violates the following directive: \u201cscript-src 'sel"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://bzrcdn.openai.com/sdk/oaiq.min.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptch"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://d34r8q7sht0t9k.cloudfront.net/tag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcap"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://prod-assets.sequelvideo.com/uploads/toolkit/sequel.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://static.reo.dev/5664905910de775/reo.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hca"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/16975718486/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/16670681864/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/11264110897/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://ipv4.pdscrb.com/ because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-accelera"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/tracker/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/bp/cxBh6jQhPR/settings because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/tracker/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/bp/cxBh6jQhPR/settings because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://alb.reddit.com/rp because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.co"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzrcdn.openai.com/pixel-config/v1/8v8bwoAWLc3o3bKrk7To7G.json because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.ama"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzrcdn.openai.com/pixel-config/v1/RBpC9wP9b93rkDj2tduRxf.json because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.ama"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/auth/token because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/auth/token because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://static.reo.dev/5664905910de775/177.reo.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://data.sequel.io/api/analytics/website/pageView because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://data.sequel.io/api/analytics/website/pageView because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://tracking-api.g2.com/attribution_tracking/conversions/assign because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazo"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.clarity.ms/tag/uet/187158512 from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://<ip>/is because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-even"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_tt_enable_cookie\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://verifi.pdscrb.com/tag"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://scripts.clarity.ms/0.8.72/clarity.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcap"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://c.clarity.ms/c.gif because it violates the following directive: \u201cimg-src 'self' data: blob: https://*.stripe.com https://www.googletagmanager.com http://imgsct.cookiebot.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/b3bdc29792262248d8ce41fcd5fd0ef7 because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazona"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/b3bdc29792262248d8ce41fcd5fd0ef7 because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazona"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://c.clarity.ms/c.gif because it violates the following directive: \u201cimg-src 'self' data: blob: https://*.stripe.com https://www.googletagmanager.com http://imgsct.cookiebot.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://k.clarity.ms/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-acce"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://c.bing.com/c.gif because it violates the following directive: \u201cimg-s"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://c.clarity.ms/c.gif because it violates the following directive: \u201cimg-src 'self' data: "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://a.usbrowserspeed.com/cs because it violates the following directive: \u201cconnect-src 'self"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.sitelytics.tech/pixels/f45a6d9b-425e-4049-8741-930097da341f/p.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snip"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://c-mtag.mountain.com/mtag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://pxs.mountain.com/v1/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzr.openai.com/v1/sdk/events because it violates the following directive: \u201cconnect-src 'self' data: h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzr.openai.com/v1/sdk/events because it violates the following directive: \u201cconnect-src 'self' data: h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://pxdrop.lijit.com/1/e/t.dhj"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://ce.lijit.com/merge bec"
+    }
+   ],
+   "urlHash": "b238182396c9",
+   "titleHash": "6fc479f7cc88"
+  },
+  {
+   "step": "link",
+   "href": "https://elevenlabs.io/",
+   "click": "native",
+   "settle": 2.7,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10691,
+   "histLen": 32,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 552
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1044
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1044
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1044,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1044,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1050
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1139
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1139
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1202
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1478
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1549
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1623
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "setupNavigationAPI@https://cdn.claydar.com/releases/latest/radar.min.js:1:38992",
+      "start@https://cdn.claydar.com/releases/latest/radar.min.js:1:38467",
+      "startTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:40154",
+      "startPageTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:83007"
+     ],
+     "t": 1805
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://elevenlabs.io/",
+     "entryIsCurrent": true,
+     "from": "https://elevenlabs.io/app/sign-up",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "56c08857-0a8c-4193-b18c-ea3306513a1c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://elevenlabs.io/",
+    "urlHash": "baff5960f9e8"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 46
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563324151,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to fetch RSC payload for https://elevenlabs.io/. Falling back to browser navigation. Error: can't infer type of chunk from URL 30881"
+    },
+    {
+     "k": "console-error",
+     "e": "Error during data sending or redirect: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-73f2-7ba1-8c63-757267903860\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "link2",
+   "href": "https://elevenlabs.io/v4",
+   "click": "native",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "call:entries": 4,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 9434,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 552
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1044
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1044
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1044,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1044,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1050
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1139
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1139
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1202
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1478
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1549
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1623
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "setupNavigationAPI@https://cdn.claydar.com/releases/latest/radar.min.js:1:38992",
+      "start@https://cdn.claydar.com/releases/latest/radar.min.js:1:38467",
+      "startTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:40154",
+      "startPageTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:83007"
+     ],
+     "t": 1805
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 3220,
+     "url": "/v4"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3220,
+     "url": "https://elevenlabs.io/v4",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3220
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3521
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4533
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://elevenlabs.io/",
+     "entryIsCurrent": false,
+     "from": "https://elevenlabs.io/app/sign-up",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "1a74c98b-a1ff-471a-8736-083d6d4cf364",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://elevenlabs.io/v4",
+    "urlHash": "c45c2a0f45d0"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11152,
+   "timeOrigin": 1793563324151,
+   "url": "https://elevenlabs.io/v4",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "c45c2a0f45d0",
+   "titleHash": "11fe1f44037e"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 5,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:pushState": 1,
+    "history:replaceState": 2,
+    "listen:currententrychange": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10691,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 552
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1044
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1044
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1044,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1044,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1050
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1139
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1139
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1202
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1478
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1549
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1623
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "setupNavigationAPI@https://cdn.claydar.com/releases/latest/radar.min.js:1:38992",
+      "start@https://cdn.claydar.com/releases/latest/radar.min.js:1:38467",
+      "startTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:40154",
+      "startPageTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:83007"
+     ],
+     "t": 1805
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 3220,
+     "url": "/v4"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3220,
+     "url": "https://elevenlabs.io/v4",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3220
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3521
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4533
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6185,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/v4",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6185
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6187
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6187,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 6226,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6226,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 6226
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6363
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 7390
+    }
+   ],
+   "marker": "m2",
+   "nav": {
+    "activation": {
+     "entry": "https://elevenlabs.io/",
+     "entryIsCurrent": true,
+     "from": "https://elevenlabs.io/app/sign-up",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "56c08857-0a8c-4193-b18c-ea3306513a1c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://elevenlabs.io/",
+    "urlHash": "baff5960f9e8"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563324151,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 63
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 114
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 114
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 114,
+     "url": "/app/sign-up"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 114,
+     "url": "https://elevenlabs.io/app/sign-up",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/app/sign-up",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 114
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://elevenlabs.io/app_assets/_next/static/chunks/18z81zc2avcb_.js",
+     "k": "error",
+     "l": 31,
+     "t": 120
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 135
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 135
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 140
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 216
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 234
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 249
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "setupNavigationAPI@https://cdn.claydar.com/releases/latest/radar.min.js:1:38992",
+      "start@https://cdn.claydar.com/releases/latest/radar.min.js:1:38467",
+      "startTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:40154",
+      "startPageTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:83007"
+     ],
+     "t": 297
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://elevenlabs.io/app/sign-up",
+     "entryIsCurrent": true,
+     "from": "https://elevenlabs.io/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "f5408e5a-8f02-4939-9030-295a7dc7187c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://elevenlabs.io/app/sign-up",
+    "urlHash": "b238182396c9"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 277,
+   "timeOrigin": 1793563333259,
+   "url": "https://elevenlabs.io/app/sign-up",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[2026-11-01T20:02:13.562Z]  @firebase/firestore: Firestore (11.2.0): You are overriding the original host. If you did not intend to override your settings, use {merge: true}."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-9400-7fc4-9894-e73004223a60\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.claydar.com/releases/latest/radar.min.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://tracking-api.g2.com/attribution_tracking/conversions/1010273.js from being executed because it violates the following directive: \u201cscript-src 'sel"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://bzrcdn.openai.com/sdk/oaiq.min.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptch"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://d34r8q7sht0t9k.cloudfront.net/tag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcap"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://prod-assets.sequelvideo.com/uploads/toolkit/sequel.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://static.reo.dev/5664905910de775/reo.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hca"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://data.sequel.io/api/analytics/website/pageView because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://data.sequel.io/api/analytics/website/pageView because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://alb.reddit.com/rp because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.co"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/tracker/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/bp/cxBh6jQhPR/settings because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/tracker/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.claydar.com/bp/cxBh6jQhPR/settings because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzrcdn.openai.com/pixel-config/v1/8v8bwoAWLc3o3bKrk7To7G.json because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.ama"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzrcdn.openai.com/pixel-config/v1/RBpC9wP9b93rkDj2tduRxf.json because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.ama"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://ipv4.pdscrb.com/ because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-accelera"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://cdn.sitelytics.tech/pixels/f45a6d9b-425e-4049-8741-930097da341f/p.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snip"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.clarity.ms/tag/uet/187158512 from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/16670681864/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/16975718486/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/11264110897/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.reo.dev/api/v1/ghost/event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://api.sitelytics.tech/pixel/core/api/send-event because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://verifi.pdscrb.com/tag"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://<ip>/is because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-even"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://scripts.clarity.ms/0.8.72/clarity.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcap"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://k.clarity.ms/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-acce"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://pxdrop.lijit.com/1/e/t.dhj"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (img-src) at https://ce.lijit.com/merge bec"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https://*.hcaptcha.com https://hcaptcha.com https://checko"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://c-mtag.mountain.com/mtag.js from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' https://snippet.meticulous.ai https:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzr.openai.com/v1/sdk/events because it violates the following directive: \u201cconnect-src 'self' data: h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://bzr.openai.com/v1/sdk/events because it violates the following directive: \u201cconnect-src 'self' data: h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://pxs.mountain.com/v1/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block the loading of a resource (connect-src) at https://k.clarity.ms/collect because it violates the following directive: \u201cconnect-src 'self' data: https://cognito-identity.us-west-2.amazonaws.com https://user-events-v3.s3-acce"
+    }
+   ],
+   "urlHash": "b238182396c9",
+   "titleHash": "6fc479f7cc88"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10691,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 307
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 493
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 493
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 493,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 493,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 493
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 530
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 530
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 698
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1092
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1158
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1191
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "setupNavigationAPI@https://cdn.claydar.com/releases/latest/radar.min.js:1:38992",
+      "start@https://cdn.claydar.com/releases/latest/radar.min.js:1:38467",
+      "startTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:40154",
+      "startPageTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:83007"
+     ],
+     "t": 1260
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://elevenlabs.io/",
+     "entryIsCurrent": true,
+     "from": "https://elevenlabs.io/app/sign-up",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "56c08857-0a8c-4193-b18c-ea3306513a1c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://elevenlabs.io/",
+    "urlHash": "baff5960f9e8"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 37
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563336128,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-9fed-7bcd-8c4b-a317015186d1\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10691,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 393
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 495
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 495,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 495,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 531
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 531
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 551
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 682
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 707
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 726
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "setupNavigationAPI@https://cdn.claydar.com/releases/latest/radar.min.js:1:38992",
+      "start@https://cdn.claydar.com/releases/latest/radar.min.js:1:38467",
+      "startTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:40154",
+      "startPageTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:83007"
+     ],
+     "t": 760
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://elevenlabs.io/",
+     "entryIsCurrent": true,
+     "from": "https://elevenlabs.io/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "56c08857-0a8c-4193-b18c-ea3306513a1c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://elevenlabs.io/",
+    "urlHash": "baff5960f9e8"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 13
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563339057,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdmn_chk_01a198b4-abbb-7fdc-9077-521975bd6c41\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10691,
+   "histLen": 33,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 393
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 495
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 495,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 495,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 531
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 531
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 551
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 682
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 707
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 726
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "setupNavigationAPI@https://cdn.claydar.com/releases/latest/radar.min.js:1:38992",
+      "start@https://cdn.claydar.com/releases/latest/radar.min.js:1:38467",
+      "startTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:40154",
+      "startPageTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:83007"
+     ],
+     "t": 760
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2970,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2970
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2970,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2988
+    },
+    {
+     "k": "hashchange",
+     "t": 2992,
+     "url": "https://elevenlabs.io/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://elevenlabs.io/",
+     "entryIsCurrent": false,
+     "from": "https://elevenlabs.io/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "19911e1e-3617-42f1-845e-6ab1dd513e19",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://elevenlabs.io/",
+    "urlHash": "d4a8e8922170"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563339057,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d4a8e8922170",
+   "titleHash": "a2ede2579339"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "listen:currententrychange": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 10691,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 393
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 495
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 495,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 495,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 495
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 531
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 531
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 551
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 682
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 707
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 726
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "setupNavigationAPI@https://cdn.claydar.com/releases/latest/radar.min.js:1:38992",
+      "start@https://cdn.claydar.com/releases/latest/radar.min.js:1:38467",
+      "startTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:40154",
+      "startPageTracking@https://cdn.claydar.com/releases/latest/radar.min.js:1:83007"
+     ],
+     "t": 760
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2970,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2970
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2970,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2988
+    },
+    {
+     "k": "hashchange",
+     "t": 2992,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5560,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5561
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5561
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5561,
+     "url": "https://elevenlabs.io/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5566,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5566,
+     "url": "https://elevenlabs.io/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://elevenlabs.io/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5566
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5594
+    },
+    {
+     "k": "hashchange",
+     "t": 5606,
+     "url": "https://elevenlabs.io/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://elevenlabs.io/",
+     "entryIsCurrent": true,
+     "from": "https://elevenlabs.io/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "56c08857-0a8c-4193-b18c-ea3306513a1c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://elevenlabs.io/",
+    "urlHash": "baff5960f9e8"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9324,
+   "timeOrigin": 1793563339057,
+   "url": "https://elevenlabs.io/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "baff5960f9e8",
+   "titleHash": "a2ede2579339"
+  }
+ ],
+ "plan": {
+  "link": "https://elevenlabs.io/",
+  "link2": "https://elevenlabs.io/v4",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#CybotCookiebotDialogBodyButtonAccept",
+ "elapsed": 31.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

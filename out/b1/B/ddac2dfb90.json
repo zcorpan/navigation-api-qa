@@ -1,0 +1,1115 @@
+{
+ "id": "ddac2dfb90",
+ "page": "https://mobile.free.fr/souscription",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 3601,
+   "histLen": 28,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 400,
+     "url": "/souscription?mode=1&hasToggledFreeboxSubscriber=true&forfait=1&shop=sim-only"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 400,
+     "url": "https://mobile.free.fr/souscription",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/souscription",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 400
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 400
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 459,
+     "url": "/souscription/options"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 459,
+     "url": "https://mobile.free.fr/souscription/options",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/souscription",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 459
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 459
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 786
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://mobile.free.fr/souscription",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "64d7f621-7bd8-46b4-9d99-362bc624476a",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://mobile.free.fr/souscription/options",
+    "urlHash": "658b892235e4"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18922,
+   "timeOrigin": 1793555016248,
+   "url": "https://mobile.free.fr/souscription/options",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m1.openfpcdn.io/fingerprintjs/v4.6.2/npm-monitoring because it violates the following directive: \u201cdefault-src data: blob: 'self' 'unsafe-inline' 'unsafe-eval' https://www.mobile.free.fr https://mo"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ib.adnxs.com/setuid because it violates the following directive: \u201cdefault-src data: blob: 'self' 'unsafe-inline' 'unsafe-eval' htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6 because it violates the following directive: \u201cdefault-src data: blob: 'self' 'unsafe-inline' 'unsafe-eval' https://www.mobile.free.fr https://mobile.free"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://rt.udmserve.net/udm/fetch.pix because it violates the following directive: \u201cdefault-src data: blob: 'self' 'unsafe-inline' 'unsafe-eval' https://www.mo"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://pixel.rubiconproject.com/tap.php because it violates the following directive: \u201cdefault-src data: blob: 'self' 'unsafe-inlin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 1578495858936044."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "658b892235e4",
+   "titleHash": "71d74cc354c5"
+  },
+  {
+   "step": "link",
+   "href": "https://mobile.free.fr/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6337,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 276,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 276,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 276
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 276
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 315,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 315,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 315
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 315
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 567
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://mobile.free.fr/",
+     "entryIsCurrent": true,
+     "from": "https://mobile.free.fr/souscription/options",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cc822182-051b-4df0-8d94-b5fed112602a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://mobile.free.fr/",
+    "urlHash": "b470e16dde95"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 29904,
+   "timeOrigin": 1793555024060,
+   "url": "https://mobile.free.fr/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "b470e16dde95",
+   "titleHash": "5da2ef11d6e4"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 3601,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 90,
+     "url": "/souscription/options"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 90,
+     "url": "https://mobile.free.fr/souscription/options",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/souscription/options",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 90
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 90
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 126,
+     "url": "/souscription/options"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 126,
+     "url": "https://mobile.free.fr/souscription/options",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/souscription/options",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 127
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 127
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 186
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://mobile.free.fr/souscription/options",
+     "entryIsCurrent": true,
+     "from": "https://mobile.free.fr/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "64d7f621-7bd8-46b4-9d99-362bc624476a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://mobile.free.fr/souscription/options",
+    "urlHash": "658b892235e4"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18909,
+   "timeOrigin": 1793555027313,
+   "url": "https://mobile.free.fr/souscription/options",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://sync.taboola.com/sg/rtbhouse-network/1/rtb-h because it violates the following directive: \u201cdefault-src data: blob: 'self' 'unsafe-inline' 'unsafe"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 1578495858936044."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ih.adscale.de/adscale-ih/tpui because it violates the following directive: \u201cdefault-src dat"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://eb2.3lift.com/xuid because it violates the following directive: \u201cdefault-src data: blob: 'self' 'unsafe-inline' 'unsafe-eval' http"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://sync.outbrain.com/cookie-sync because it violates the following directive: \u201cdefault-src data: blob: 'self' 'unsafe-inline' "
+    }
+   ],
+   "urlHash": "658b892235e4",
+   "titleHash": "71d74cc354c5"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 2
+   },
+   "docH": 6337,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 276,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 276,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 276
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 276
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 315,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 315,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 315
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 315
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 567
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 3148,
+     "url": "https://mobile.free.fr/souscription/options",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 6136
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://mobile.free.fr/",
+     "entryIsCurrent": true,
+     "from": "https://mobile.free.fr/souscription/options",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cc822182-051b-4df0-8d94-b5fed112602a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://mobile.free.fr/",
+    "urlHash": "b470e16dde95"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 29904,
+   "timeOrigin": 1793555024060,
+   "url": "https://mobile.free.fr/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "b470e16dde95",
+   "titleHash": "5da2ef11d6e4"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6337,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 358,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 358,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 358
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 358
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 392,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 392,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 392
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 392
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 822
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://mobile.free.fr/",
+     "entryIsCurrent": true,
+     "from": "https://mobile.free.fr/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cc822182-051b-4df0-8d94-b5fed112602a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://mobile.free.fr/",
+    "urlHash": "b470e16dde95"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 29904,
+   "timeOrigin": 1793555032871,
+   "url": "https://mobile.free.fr/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "b470e16dde95",
+   "titleHash": "5da2ef11d6e4"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "hashchange": 1,
+    "history:replaceState": 3,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigateerror": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6337,
+   "histLen": 30,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 358,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 358,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 358
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 358
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 392,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 392,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 392
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 392
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 822
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3413,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3414
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3414,
+     "url": "https://mobile.free.fr/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3414,
+     "url": "/#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 3414
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3414,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3414
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3415
+    },
+    {
+     "k": "hashchange",
+     "t": 3416,
+     "url": "https://mobile.free.fr/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://mobile.free.fr/",
+     "entryIsCurrent": false,
+     "from": "https://mobile.free.fr/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "36ec50f6-ed69-47fd-8691-44d1eaa6bce3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://mobile.free.fr/",
+    "urlHash": "98f58c2a6b4a"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 29904,
+   "timeOrigin": 1793555032871,
+   "url": "https://mobile.free.fr/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "98f58c2a6b4a",
+   "titleHash": "5da2ef11d6e4"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 3,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigate:traverse": 1,
+    "navigateerror": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6337,
+   "histLen": 30,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 358,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 358,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 358
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 358
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 392,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 392,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 392
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 392
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 822
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3413,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3414
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3414,
+     "url": "https://mobile.free.fr/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3414,
+     "url": "/#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 3414
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3414,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3414
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3415
+    },
+    {
+     "k": "hashchange",
+     "t": 3416,
+     "url": "https://mobile.free.fr/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5994,
+     "url": "https://mobile.free.fr/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://mobile.free.fr/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5994
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5994
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5995,
+     "url": "https://mobile.free.fr/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5997,
+     "url": "https://mobile.free.fr/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://mobile.free.fr/",
+     "entryIsCurrent": true,
+     "from": "https://mobile.free.fr/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "cc822182-051b-4df0-8d94-b5fed112602a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://mobile.free.fr/",
+    "urlHash": "b470e16dde95"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 29904,
+   "timeOrigin": 1793555032871,
+   "url": "https://mobile.free.fr/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "b470e16dde95",
+   "titleHash": "5da2ef11d6e4"
+  }
+ ],
+ "plan": {
+  "link": "https://mobile.free.fr/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 25.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -1,0 +1,269 @@
+{
+ "id": "bde07795d6",
+ "page": "https://www.depop.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3605,
+   "histLen": 9,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 263
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 296,
+     "url": "/"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1684,
+   "timeOrigin": 1793562180513,
+   "url": "https://www.depop.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked an inline script (script-src-elem) from being executed because it violates the following directive: \u201cscript-src 'self' 'nonce-MDhiYjA4N2ItMzhkZC00Y2RlLWJjN2EtMzYxZWUzNGZjMzNi' 'strict-dynamic' https: 'unsafe-inline'\u201d. Consider using a hash ('sha25"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked an inline script (script-src-elem) from being executed because it violates the following directive: \u201cscript-src 'self' 'nonce-MDhiYjA4N2ItMzhkZC00Y2RlLWJjN2EtMzYxZWUzNGZjMzNi' 'strict-dynamic' https: 'unsafe-inline'\u201d. Consider using a hash ('sha25"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'nonce-MDhiYjA4N2ItMzhkZC00Y2RlLWJjN2EtMzYxZWUzNGZjMzNi' 'strict-dynamic' https: 'unsafe-inline'\u201d (Missing 'unsafe-eval')"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://www.depop.com/vwdj/ was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    }
+   ],
+   "urlHash": "bde07795d6db",
+   "titleHash": "f4b3e8afd5e5"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 9,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 359
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 6
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 322,
+   "timeOrigin": 1793562185350,
+   "url": "https://www.depop.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "bde07795d6db",
+   "titleHash": "8871263f45c7"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 359
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2914,
+     "url": "https://www.depop.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2914,
+     "url": "https://www.depop.com/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 322,
+   "timeOrigin": 1793562185350,
+   "url": "https://www.depop.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e0cb97ccea45",
+   "titleHash": "8871263f45c7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 10,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 359
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2914,
+     "url": "https://www.depop.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2914,
+     "url": "https://www.depop.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5499,
+     "url": "https://www.depop.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5499,
+     "url": "https://www.depop.com/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 322,
+   "timeOrigin": 1793562185350,
+   "url": "https://www.depop.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "bde07795d6db",
+   "titleHash": "8871263f45c7"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 13.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

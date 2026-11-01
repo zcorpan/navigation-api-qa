@@ -1,0 +1,581 @@
+{
+ "id": "5a22ea8041",
+ "page": "https://www.mos.jp/",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#page-top",
+   "histLen": 16,
+   "url": "https://www.mos.jp/",
+   "log": [],
+   "docH": 6957,
+   "marker": null,
+   "timeOrigin": 1793567065753,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 2238,
+   "nav": {
+    "url": "https://www.mos.jp/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "cbc6e0e4-49dc-4f29-a43c-23a6c8ef921a",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.mos.jp/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5a22ea804122"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5a22ea804122",
+   "titleHash": "8ebb79c4098f"
+  },
+  {
+   "step": "link",
+   "href": "https://www.mos.jp/menu/",
+   "click": "js",
+   "settle": 5.5,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#page-menu",
+   "histLen": 17,
+   "url": "https://www.mos.jp/menu/",
+   "log": [],
+   "docH": 4552,
+   "marker": null,
+   "timeOrigin": 1793567075454,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.mos.jp/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.mos.jp/menu/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 200,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 1697,
+   "nav": {
+    "url": "https://www.mos.jp/menu/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "066a7ff8-9854-4bbe-8ac2-699db45e9862",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.mos.jp/menu/",
+     "from": "https://www.mos.jp/",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f75ac5b8fe80"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f75ac5b8fe80",
+   "titleHash": "08104e232abc"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 1627,
+   "active": "BODY#page-top",
+   "histLen": 17,
+   "url": "https://www.mos.jp/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://www.mos.jp/menu/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 200,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 5880,
+     "persisted": true
+    }
+   ],
+   "docH": 6957,
+   "marker": "m0",
+   "timeOrigin": 1793567065753,
+   "scrollX": 0,
+   "counts": {
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.mos.jp/menu/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.mos.jp/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 112,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 2238,
+   "nav": {
+    "url": "https://www.mos.jp/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "cbc6e0e4-49dc-4f29-a43c-23a6c8ef921a",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.mos.jp/",
+     "from": "https://www.mos.jp/menu/",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5a22ea804122"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "5a22ea804122",
+   "titleHash": "8ebb79c4098f"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#page-menu",
+   "histLen": 17,
+   "url": "https://www.mos.jp/menu/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://www.mos.jp/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 112,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3093,
+     "persisted": true
+    }
+   ],
+   "docH": 4552,
+   "marker": "m1",
+   "timeOrigin": 1793567075454,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.mos.jp/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.mos.jp/menu/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 200,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 5880,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.mos.jp/menu/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 8718,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1,
+     "navigate:push": 1
+    }
+   },
+   "textLen": 1697,
+   "nav": {
+    "url": "https://www.mos.jp/menu/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "066a7ff8-9854-4bbe-8ac2-699db45e9862",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.mos.jp/menu/",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f75ac5b8fe80"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f75ac5b8fe80",
+   "titleHash": "08104e232abc"
+  },
+  {
+   "step": "reload",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#page-menu",
+   "histLen": 17,
+   "url": "https://www.mos.jp/menu/",
+   "log": [],
+   "docH": 4552,
+   "marker": null,
+   "timeOrigin": 1793567086554,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.mos.jp/menu/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.mos.jp/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 112,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3093,
+      "persisted": true
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 1697,
+   "nav": {
+    "url": "https://www.mos.jp/menu/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "066a7ff8-9854-4bbe-8ac2-699db45e9862",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.mos.jp/menu/",
+     "from": "https://www.mos.jp/menu/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f75ac5b8fe80"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f75ac5b8fe80",
+   "titleHash": "08104e232abc"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#page-menu",
+   "histLen": 18,
+   "url": "https://www.mos.jp/menu/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.mos.jp/menu/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 287,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 288,
+     "m": "push",
+     "from": "https://www.mos.jp/menu/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 288
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.mos.jp/menu/",
+     "t": 288
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.mos.jp/menu/",
+     "t": 369
+    }
+   ],
+   "docH": 4552,
+   "marker": "m4",
+   "timeOrigin": 1793567086554,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "navigatesuccess": 1,
+    "navigate:push": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 1697,
+   "nav": {
+    "url": "https://www.mos.jp/menu/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "5293b6c7-b1a4-4c65-a7ce-8edcf1a6b621",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.mos.jp/menu/",
+     "from": "https://www.mos.jp/menu/",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "e9f50c470cb1"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e9f50c470cb1",
+   "titleHash": "08104e232abc"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY#page-menu",
+   "histLen": 18,
+   "url": "https://www.mos.jp/menu/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.mos.jp/menu/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 287,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 288,
+     "m": "push",
+     "from": "https://www.mos.jp/menu/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 288
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.mos.jp/menu/",
+     "t": 288
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.mos.jp/menu/",
+     "t": 369
+    },
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.mos.jp/menu/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 3103,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 3103,
+     "m": "traverse",
+     "from": "https://www.mos.jp/menu/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3103
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.mos.jp/menu/",
+     "t": 3103
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.mos.jp/menu/",
+     "t": 3132
+    }
+   ],
+   "docH": 4552,
+   "marker": "m5",
+   "timeOrigin": 1793567086554,
+   "scrollX": 0,
+   "counts": {
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 2,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 1697,
+   "nav": {
+    "url": "https://www.mos.jp/menu/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "066a7ff8-9854-4bbe-8ac2-699db45e9862",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.mos.jp/menu/",
+     "from": "https://www.mos.jp/menu/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f75ac5b8fe80"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f75ac5b8fe80",
+   "titleHash": "08104e232abc"
+  }
+ ],
+ "plan": {
+  "link": "https://www.mos.jp/menu/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 32.7,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

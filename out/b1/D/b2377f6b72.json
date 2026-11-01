@@ -1,0 +1,743 @@
+{
+ "id": "b2377f6b72",
+ "page": "https://www.marca.<token>.html",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "DIV#ue-initial-modal",
+   "histLen": 23,
+   "url": "https://www.marca.<token>.html",
+   "log": [],
+   "docH": 5162,
+   "marker": null,
+   "timeOrigin": 1793566749606,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 8556,
+   "nav": {
+    "url": "https://www.marca.<token>.html",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "e1b8223d-280c-4d5c-abfa-e0a0db587d02",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.marca.<token>.html",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "b2377f6b72d8"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "b2377f6b72d8",
+   "titleHash": "0e619492b86a"
+  },
+  {
+   "step": "link",
+   "href": "https://www.marca.com/",
+   "click": "js",
+   "settle": 3.7,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "DIV#ue-initial-modal",
+   "histLen": 24,
+   "url": "https://www.marca.com/",
+   "log": [],
+   "docH": 10345,
+   "marker": null,
+   "timeOrigin": 1793566754776,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.marca.<token>.html",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.marca.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 48,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 19285,
+   "nav": {
+    "url": "https://www.marca.com/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bd1e88c6-0926-4bcb-968f-8952363574cf",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.<token>.html",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "58e85e529301"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "DIV#ue-initial-modal",
+   "histLen": 24,
+   "url": "https://www.marca.<token>.html",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://www.marca.com/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 48,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3856,
+     "persisted": true
+    },
+    {
+     "k": "error",
+     "f": "https://www.marca.<token>.html",
+     "e": "TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
+     "l": 2,
+     "t": 4111
+    }
+   ],
+   "docH": 5162,
+   "marker": "m0",
+   "timeOrigin": 1793566749606,
+   "scrollX": 0,
+   "counts": {
+    "error": 1,
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.marca.com/",
+    "log": [
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "https://www.marca.com/",
+      "t": 32
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.marca.com/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 32,
+      "m": "replace",
+      "form": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 32,
+      "m": "replace",
+      "from": "https://www.marca.com/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 32
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 32
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.marca.<token>.html",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 32,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "history:replaceState": 1,
+     "get:currentEntry": 1,
+     "currententrychange:replace": 1,
+     "navigatesuccess": 1,
+     "navigate:replace": 1
+    }
+   },
+   "textLen": 8556,
+   "nav": {
+    "url": "https://www.marca.<token>.html",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "e1b8223d-280c-4d5c-abfa-e0a0db587d02",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.marca.<token>.html",
+     "from": "https://www.marca.com/",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "b2377f6b72d8"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "b2377f6b72d8",
+   "titleHash": "0e619492b86a"
+  },
+  {
+   "step": "forward",
+   "settle": 4.0,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "DIV#ue-initial-modal",
+   "histLen": 24,
+   "url": "https://www.marca.com/",
+   "log": [],
+   "docH": 10345,
+   "marker": null,
+   "timeOrigin": 1793566761752,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.marca.com/",
+    "log": [
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "https://www.marca.com/",
+      "t": 32
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.marca.com/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 32,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 32,
+      "m": "replace",
+      "from": "https://www.marca.com/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 32
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 32
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.marca.<token>.html",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 32,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3096,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.marca.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 3236,
+      "m": "reload",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "https://www.marca.com/",
+      "t": 3251
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.marca.com/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 3252,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 3252,
+      "m": "replace",
+      "from": "https://www.marca.com/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 3252
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 3253
+     }
+    ],
+    "counts": {
+     "currententrychange:replace": 2,
+     "get:currentEntry": 2,
+     "navigate:replace": 2,
+     "navigate:traverse": 1,
+     "history:replaceState": 2,
+     "navigatesuccess": 2,
+     "pageshow": 1,
+     "navigate:reload": 1
+    }
+   },
+   "textLen": 19287,
+   "nav": {
+    "url": "https://www.marca.com/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bd1e88c6-0926-4bcb-968f-8952363574cf",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.com/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "58e85e529301"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "DIV#ue-initial-modal",
+   "histLen": 24,
+   "url": "https://www.marca.com/",
+   "log": [],
+   "docH": 10345,
+   "marker": null,
+   "timeOrigin": 1793566765219,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.marca.com/",
+    "log": [
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "https://www.marca.com/",
+      "t": 26
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.marca.com/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 26,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 26,
+      "m": "replace",
+      "from": "https://www.marca.com/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 26
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 27
+     }
+    ],
+    "counts": {
+     "history:replaceState": 1,
+     "get:currentEntry": 1,
+     "currententrychange:replace": 1,
+     "navigatesuccess": 1,
+     "navigate:replace": 1
+    }
+   },
+   "textLen": 19287,
+   "nav": {
+    "url": "https://www.marca.com/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bd1e88c6-0926-4bcb-968f-8952363574cf",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.com/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "58e85e529301"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "DIV#ue-initial-modal",
+   "histLen": 25,
+   "url": "https://www.marca.com/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.marca.com/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 43,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 48,
+     "m": "push",
+     "from": "https://www.marca.com/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 48
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 49
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.marca.com/",
+     "t": 49
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.marca.com/",
+     "t": 50
+    }
+   ],
+   "docH": 10345,
+   "marker": "m4",
+   "timeOrigin": 1793566765219,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 19287,
+   "nav": {
+    "url": "https://www.marca.com/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "2c0a83bc-04da-4692-8892-5e669e9575de",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.com/",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "0206694ff691"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "0206694ff691",
+   "titleHash": "c49c765a837a"
+  },
+  {
+   "step": "back2",
+   "settle": 4.0,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "DIV#ue-initial-modal",
+   "histLen": 25,
+   "url": "https://www.marca.com/",
+   "log": [],
+   "docH": 10345,
+   "marker": null,
+   "timeOrigin": 1793566770667,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.marca.com/",
+    "log": [
+     {
+      "hashChange": true,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.marca.com/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 43,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 48,
+      "m": "push",
+      "from": "https://www.marca.com/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 48
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 49
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "url": "https://www.marca.com/",
+      "t": 49
+     },
+     {
+      "k": "hashchange",
+      "url": "https://www.marca.com/",
+      "t": 50
+     },
+     {
+      "hashChange": true,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.marca.com/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 2809,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 2810,
+      "m": "traverse",
+      "from": "https://www.marca.com/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 2810
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 2810
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "url": "https://www.marca.com/",
+      "t": 2810
+     },
+     {
+      "k": "hashchange",
+      "url": "https://www.marca.com/",
+      "t": 2810
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.marca.com/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 2810,
+      "m": "reload",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "get:currentEntry": 2,
+     "navigate:push": 1,
+     "currententrychange:traverse": 1,
+     "navigatesuccess": 2,
+     "currententrychange:push": 1,
+     "popstate": 2,
+     "hashchange": 2,
+     "navigate:reload": 1
+    }
+   },
+   "textLen": 19285,
+   "nav": {
+    "url": "https://www.marca.com/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "bd1e88c6-0926-4bcb-968f-8952363574cf",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.marca.com/",
+     "from": "https://www.marca.com/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "58e85e529301"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "shotError": "Message: \n",
+   "urlHash": "58e85e529301",
+   "titleHash": "c49c765a837a"
+  }
+ ],
+ "plan": {
+  "link": "https://www.marca.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 25.0,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

@@ -1,0 +1,964 @@
+{
+ "id": "ea52c55532",
+ "page": "https://esaj.tjsp.jus.br/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 4,
+    "history:replaceState": 4,
+    "navigate:replace": 4,
+    "navigateerror": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1730,
+     "url": "/esaj"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1730,
+     "url": "https://esaj.tjsp.jus.br/esaj",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1730
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1731
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1944
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3246,
+     "url": "https://esaj.tjsp.jus.br/esaj"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3246,
+     "url": "https://esaj.tjsp.jus.br/esaj",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3246
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3246,
+     "url": "https://esaj.tjsp.jus.br/esaj"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 3247
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3247,
+     "url": "https://esaj.tjsp.jus.br/esaj",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3247
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3247
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3255,
+     "url": "/esaj"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3255,
+     "url": "https://esaj.tjsp.jus.br/esaj",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3255
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3255
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://esaj.tjsp.jus.br/esaj",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "6daf38b5-9af9-4f70-b17a-e0a5e993aa8d",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://esaj.tjsp.jus.br/esaj",
+    "urlHash": "0abffe85b727"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2684,
+   "timeOrigin": 1793562463431,
+   "url": "https://esaj.tjsp.jus.br/esaj",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad"
+    },
+    {
+     "k": "console-error",
+     "e": "[Elastic APM] RUM agent isn't correctly configured. serviceName \"/env/__NEXT_PUBLIC_ELASTIC_APM_SERVICE_NAME__\" contains invalid characters! (allowed: a-z, A-Z, 0-9, _, -, <space>)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Elastic APM] RUM agent is inactive"
+    }
+   ],
+   "urlHash": "0abffe85b727",
+   "titleHash": "34fe1a326db8"
+  },
+  {
+   "step": "link",
+   "href": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 899,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1595
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "entryIsCurrent": true,
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "24ba82cd-c0ba-478f-8f65-6b6bde36a52e",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+    "urlHash": "49ccabb89c97"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562470687,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    }
+   ],
+   "urlHash": "49ccabb89c97",
+   "titleHash": "64e223a5fb99"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 4,
+    "history:replaceState": 4,
+    "navigate:replace": 4,
+    "navigateerror": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 25
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 30,
+     "url": "/esaj"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 30,
+     "url": "https://esaj.tjsp.jus.br/esaj",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 31
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 31
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1231,
+     "url": "https://esaj.tjsp.jus.br/esaj"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1231,
+     "url": "https://esaj.tjsp.jus.br/esaj",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1231
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1231,
+     "url": "https://esaj.tjsp.jus.br/esaj"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 1231
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1231,
+     "url": "https://esaj.tjsp.jus.br/esaj",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1231
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1231
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1232,
+     "url": "/esaj"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1232,
+     "url": "https://esaj.tjsp.jus.br/esaj",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1232
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1232
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://esaj.tjsp.jus.br/esaj",
+     "entryIsCurrent": true,
+     "from": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "6daf38b5-9af9-4f70-b17a-e0a5e993aa8d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://esaj.tjsp.jus.br/esaj",
+    "urlHash": "0abffe85b727"
+   },
+   "prev": {
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1595
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 4579,
+      "url": "https://esaj.tjsp.jus.br/esaj",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2684,
+   "timeOrigin": 1793562475546,
+   "url": "https://esaj.tjsp.jus.br/esaj",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad"
+    },
+    {
+     "k": "console-error",
+     "e": "[Elastic APM] RUM agent isn't correctly configured. serviceName \"/env/__NEXT_PUBLIC_ELASTIC_APM_SERVICE_NAME__\" contains invalid characters! (allowed: a-z, A-Z, 0-9, _, -, <space>)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Elastic APM] RUM agent is inactive"
+    }
+   ],
+   "urlHash": "0abffe85b727",
+   "titleHash": "34fe1a326db8"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 899,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 76
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "entryIsCurrent": true,
+     "from": "https://esaj.tjsp.jus.br/esaj",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "24ba82cd-c0ba-478f-8f65-6b6bde36a52e",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+    "urlHash": "49ccabb89c97"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562478141,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    }
+   ],
+   "urlHash": "49ccabb89c97",
+   "titleHash": "64e223a5fb99"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 899,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3838
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "entryIsCurrent": true,
+     "from": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "24ba82cd-c0ba-478f-8f65-6b6bde36a52e",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+    "urlHash": "49ccabb89c97"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562481028,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    }
+   ],
+   "urlHash": "49ccabb89c97",
+   "titleHash": "64e223a5fb99"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 899,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3838
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6414,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 6414
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6414,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6425
+    },
+    {
+     "k": "hashchange",
+     "t": 6426,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "entryIsCurrent": false,
+     "from": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "6828752f-038d-49cf-a3ea-592f5ea2c66c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+    "urlHash": "88d67f158ebb"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562481028,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "88d67f158ebb",
+   "titleHash": "64e223a5fb99"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 899,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3838
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6414,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 6414
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6414,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6425
+    },
+    {
+     "k": "hashchange",
+     "t": 6426,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9000,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "userInitiated": false
+    },
+    {
+     "from": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 9000
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9000
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9000,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    },
+    {
+     "k": "hashchange",
+     "t": 9013,
+     "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "entryIsCurrent": true,
+     "from": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "24ba82cd-c0ba-478f-8f65-6b6bde36a52e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+    "urlHash": "49ccabb89c97"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 803,
+   "timeOrigin": 1793562481028,
+   "url": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "49ccabb89c97",
+   "titleHash": "64e223a5fb99"
+  }
+ ],
+ "plan": {
+  "link": "https://esaj.tjsp.jus.br/portal-cto-frontend/transparencia/consulta",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 29.9,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -1,0 +1,513 @@
+{
+ "id": "207c359543",
+ "page": "https://substack.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3383,
+   "histLen": 13,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 234
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 19
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1753,
+   "timeOrigin": 1793561792945,
+   "url": "https://substack.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "207c35954338",
+   "titleHash": "00f8a2c270aa"
+  },
+  {
+   "step": "link",
+   "href": "https://substack.com/explore",
+   "click": "native",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2435,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 234
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 2113,
+     "url": "/explore"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1219,
+   "timeOrigin": 1793561792945,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "link2",
+   "href": "https://substack.com/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3383,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 234
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 2113,
+     "url": "/explore"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4736,
+     "url": "/"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1753,
+   "timeOrigin": 1793561792945,
+   "url": "https://substack.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "207c35954338",
+   "titleHash": "00f8a2c270aa"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4543,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 234
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 2113,
+     "url": "/explore"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4736,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7387,
+     "url": "https://substack.com/explore"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2948,
+   "timeOrigin": 1793561792945,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3383,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 234
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 2113,
+     "url": "/explore"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4736,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7387,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10014,
+     "url": "https://substack.com/"
+    }
+   ],
+   "marker": "m3",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1753,
+   "timeOrigin": 1793561792945,
+   "url": "https://substack.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "207c35954338",
+   "titleHash": "00f8a2c270aa"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 3
+   },
+   "docH": 4543,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 234
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 2113,
+     "url": "/explore"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4736,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7387,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10014,
+     "url": "https://substack.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12595,
+     "url": "https://substack.com/explore"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2948,
+   "timeOrigin": 1793561792945,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 336
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 323,
+   "timeOrigin": 1793561808578,
+   "url": "https://substack.com/explore",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 336
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2909,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "k": "hashchange",
+     "t": 2910,
+     "url": "https://substack.com/explore"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 323,
+   "timeOrigin": 1793561808578,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f7c7b7912625",
+   "titleHash": "97e51b908dbe"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 336
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2909,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "k": "hashchange",
+     "t": 2910,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5519,
+     "url": "https://substack.com/explore"
+    },
+    {
+     "k": "hashchange",
+     "t": 5524,
+     "url": "https://substack.com/explore"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 323,
+   "timeOrigin": 1793561808578,
+   "url": "https://substack.com/explore",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "43fca8e503c1",
+   "titleHash": "97e51b908dbe"
+  }
+ ],
+ "plan": {
+  "link": "https://substack.com/explore",
+  "link2": "https://substack.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept",
+ "elapsed": 29.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

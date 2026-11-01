@@ -1,0 +1,1743 @@
+{
+ "id": "8b2cb5777e",
+ "page": "https://extra.globo.<token>.ghtml",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 6,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5212,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2831,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2831,
+     "url": "https://extra.globo.<token>.ghtml",
+     "userInitiated": false
+    },
+    {
+     "from": "https://extra.globo.<token>.ghtml",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2831
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2832
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.<token>.ghtml line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3018
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.<token>.ghtml line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3019
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.<token>.ghtml line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3019
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.<token>.ghtml line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 3019
+    },
+    {
+     "e": "Error: Player API loaded twice! Aborting.",
+     "f": "https://s3.glbimg.<token>.min.js",
+     "k": "error",
+     "l": 1,
+     "t": 3254
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3405
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 3405
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 3563
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4694
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://extra.globo.<token>.ghtml",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "3129b47e-64f5-4db8-8c32-8ca5b1adf7ce",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://extra.globo.<token>.ghtml",
+    "urlHash": "8b2cb5777eae"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1770,
+   "timeOrigin": 1793562107230,
+   "url": "https://extra.globo.<token>.ghtml",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-mab.globo.com/mab/bastian-advwblt-r5:extra:desktop:multicontent:ep/chooseAndIncrement. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-mab.globo.com/mab/bastian-advwblt-r5:extra:desktop:multicontent:dinamico/chooseAndIncrement. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-error",
+     "e": "NOVO PAYWALL | [PAYWALL] {\"timestamp\":\"2026-11-01T19:41:51.461Z\",\"level\":\"ERROR\",\"brand\":\"revistas\",\"product\":\"unknown\",\"env\":\"production\",\"correlationId\":\"00e7d9c6-a7f2-41c2-b923-89c9e1b56458\",\"message\":\"PaywallFactory: failed to create paywall\",\"error\":{}}   "
+    },
+    {
+     "k": "console-error",
+     "e": "NOVO PAYWALL | [PAYWALL] Failed to start paywall: Error: Product extra not found for brand revistas   "
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Product extra not found for brand revistas"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562111518_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562111518_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562111519_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562111519_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either t"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://ib.adnxs.com/getuidj"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "8b2cb5777eae",
+   "titleHash": "78020c2dc476"
+  },
+  {
+   "step": "link",
+   "href": "https://extra.globo.com/rio/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "DIV",
+   "counts": {
+    "error": 8,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4202,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://s3.glbimg.com/cdn/libs/element-tracker/1.2.1/element-tracker.min.js",
+     "k": "error",
+     "l": 0,
+     "t": 2075
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.com/rio/ line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 2242
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.com/rio/ line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 2244
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.com/rio/ line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 2244
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.com/rio/ line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 2244
+    },
+    {
+     "e": "Error: Player API loaded twice! Aborting.",
+     "f": "https://p.glbimg.com/api/stable/api.min.js",
+     "k": "error",
+     "l": 1,
+     "t": 2381
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2535
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 2535
+    },
+    {
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null",
+     "f": "https://extra.globo.com/rio/",
+     "k": "error",
+     "l": 938,
+     "t": 2977
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2977
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 5527
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://extra.globo.com/rio/",
+     "entryIsCurrent": true,
+     "from": "https://extra.globo.<token>.ghtml",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "66b1f39b-aa88-4faa-81b1-37b2632dffb3",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://extra.globo.com/rio/",
+    "urlHash": "354d61e9af9f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5053,
+   "timeOrigin": 1793562116974,
+   "url": "https://extra.globo.com/rio/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[mc-template::tracker] HORIZON TRACKING:  TypeError: can't access property \"then\", this.horizon is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: jQuery is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Player API loaded twice! Aborting."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"mab\" of undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"mab\" of undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Unrecognized property encountered when calling setConfig: setConfig.lazyLoad.enabled\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Unrecognized property encountered when calling setConfig: setConfig.lazyLoad.mobileScalingFactor\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "video integration - didn't find enough sponsored items for integrated widget replacement"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    }
+   ],
+   "urlHash": "354d61e9af9f",
+   "titleHash": "24b83fb6a564"
+  },
+  {
+   "step": "link2",
+   "href": "https://extra.globo.<token>.ghtml",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 2,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5043,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 186,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 186,
+     "url": "https://extra.globo.<token>.ghtml",
+     "userInitiated": false
+    },
+    {
+     "from": "https://extra.globo.<token>.ghtml",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 186
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 186
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 320
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 321
+    },
+    {
+     "e": "Error: Player API loaded twice! Aborting.",
+     "f": "https://s3.glbimg.<token>.min.js",
+     "k": "error",
+     "l": 1,
+     "t": 956
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1456
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2113
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://extra.globo.<token>.ghtml",
+     "entryIsCurrent": true,
+     "from": "https://extra.globo.com/rio/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "10285090-239a-42b5-b403-4ed75229bc8a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://extra.globo.<token>.ghtml",
+    "urlHash": "f979694c7138"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1171,
+   "timeOrigin": 1793562125763,
+   "url": "https://extra.globo.<token>.ghtml",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "NOVO PAYWALL | [PAYWALL] {\"timestamp\":\"2026-11-01T19:42:06.849Z\",\"level\":\"ERROR\",\"brand\":\"revistas\",\"product\":\"unknown\",\"env\":\"production\",\"correlationId\":\"d20ed566-a732-4d72-8cc1-2f66e88fa537\",\"message\":\"PaywallFactory: failed to create paywall\",\"error\":{}}   "
+    },
+    {
+     "k": "console-error",
+     "e": "NOVO PAYWALL | [PAYWALL] Failed to start paywall: Error: Product extra not found for brand revistas   "
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Product extra not found for brand revistas"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: [global-webdeps] Unknown dependency(ies): cadun"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-mab.globo.com/mab/bastian-advwblt-r5:extra:desktop:multicontent:ep/chooseAndIncrement. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-mab.globo.com/mab/bastian-advwblt-r5:extra:desktop:multicontent:dinamico/chooseAndIncrement. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "f979694c7138",
+   "titleHash": "fa1cc3b25d18"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 4,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4214,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://s3.glbimg.com/cdn/libs/element-tracker/1.2.1/element-tracker.min.js",
+     "k": "error",
+     "l": 0,
+     "t": 152
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 286
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 286
+    },
+    {
+     "e": "Error: Player API loaded twice! Aborting.",
+     "f": "https://p.glbimg.com/api/stable/api.min.js",
+     "k": "error",
+     "l": 1,
+     "t": 314
+    },
+    {
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null",
+     "f": "https://extra.globo.com/rio/",
+     "k": "error",
+     "l": 938,
+     "t": 1177
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1179
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 3760
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://extra.globo.com/rio/",
+     "entryIsCurrent": true,
+     "from": "https://extra.globo.<token>.ghtml",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "66b1f39b-aa88-4faa-81b1-37b2632dffb3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://extra.globo.com/rio/",
+    "urlHash": "354d61e9af9f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 372,
+   "textLen": 4208,
+   "timeOrigin": 1793562131536,
+   "url": "https://extra.globo.com/rio/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[mc-template::tracker] HORIZON TRACKING:  TypeError: can't access property \"then\", this.horizon is undefined"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: jQuery is not defined"
+    },
+    {
+     "k": "console-warn",
+     "e": "Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"mab\" of undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"mab\" of undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Unrecognized property encountered when calling setConfig: setConfig.lazyLoad.enabled\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Unrecognized property encountered when calling setConfig: setConfig.lazyLoad.mobileScalingFactor\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "video integration - didn't find enough sponsored items for integrated widget replacement"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    }
+   ],
+   "urlHash": "354d61e9af9f",
+   "titleHash": "24b83fb6a564"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 6,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5212,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 92,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 92,
+     "url": "https://extra.globo.<token>.ghtml",
+     "userInitiated": false
+    },
+    {
+     "from": "https://extra.globo.<token>.ghtml",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 92
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 92
+    },
+    {
+     "e": "Error: Player API loaded twice! Aborting.",
+     "f": "https://s3.glbimg.<token>.min.js",
+     "k": "error",
+     "l": 1,
+     "t": 177
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.<token>.ghtml line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 197
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.<token>.ghtml line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 198
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.<token>.ghtml line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 198
+    },
+    {
+     "e": "TypeError: googletag.pubads is not a function",
+     "f": "https://extra.globo.<token>.ghtml line 1022 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 198
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 291
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 291
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 648
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 768
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://extra.globo.<token>.ghtml",
+     "entryIsCurrent": true,
+     "from": "https://extra.globo.com/rio/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "3129b47e-64f5-4db8-8c32-8ca5b1adf7ce",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://extra.globo.<token>.ghtml",
+    "urlHash": "8b2cb5777eae"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1770,
+   "timeOrigin": 1793562135586,
+   "url": "https://extra.globo.<token>.ghtml",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: googletag.pubads is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "NOVO PAYWALL | [PAYWALL] {\"timestamp\":\"2026-11-01T19:42:15.996Z\",\"level\":\"ERROR\",\"brand\":\"revistas\",\"product\":\"unknown\",\"env\":\"production\",\"correlationId\":\"4715456c-50bd-43ac-92da-77f24d47064b\",\"message\":\"PaywallFactory: failed to create paywall\",\"error\":{}}   "
+    },
+    {
+     "k": "console-error",
+     "e": "NOVO PAYWALL | [PAYWALL] Failed to start paywall: Error: Product extra not found for brand revistas   "
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Product extra not found for brand revistas"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-mab.globo.com/mab/bastian-advwblt-r5:extra:desktop:multicontent:ep/chooseAndIncrement. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-mab.globo.com/mab/bastian-advwblt-r5:extra:desktop:multicontent:dinamico/chooseAndIncrement. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "8b2cb5777eae",
+   "titleHash": "78020c2dc476"
+  },
+  {
+   "step": "forward",
+   "settle": 2.7,
+   "active": "BODY",
+   "counts": {
+    "error": 3,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4214,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://s3.glbimg.com/cdn/libs/element-tracker/1.2.1/element-tracker.min.js",
+     "k": "error",
+     "l": 0,
+     "t": 276
+    },
+    {
+     "e": "Error: Player API loaded twice! Aborting.",
+     "f": "https://p.glbimg.com/api/stable/api.min.js",
+     "k": "error",
+     "l": 1,
+     "t": 428
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 438
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 438
+    },
+    {
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null",
+     "f": "https://extra.globo.com/rio/",
+     "k": "error",
+     "l": 938,
+     "t": 1053
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1054
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://extra.globo.com/rio/",
+     "entryIsCurrent": true,
+     "from": "https://extra.globo.<token>.ghtml",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "66b1f39b-aa88-4faa-81b1-37b2632dffb3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://extra.globo.com/rio/",
+    "urlHash": "354d61e9af9f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 372,
+   "textLen": 4208,
+   "timeOrigin": 1793562139167,
+   "url": "https://extra.globo.com/rio/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[mc-template::tracker] HORIZON TRACKING:  TypeError: can't access property \"then\", this.horizon is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: jQuery is not defined"
+    },
+    {
+     "k": "console-warn",
+     "e": "Player API loaded twice! Aborting."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"mab\" of undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"mab\" of undefined"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Unrecognized property encountered when calling setConfig: setConfig.lazyLoad.enabled\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Unrecognized property encountered when calling setConfig: setConfig.lazyLoad.mobileScalingFactor\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "video integration - didn't find enough sponsored items for integrated widget replacement"
+    }
+   ],
+   "urlHash": "354d61e9af9f",
+   "titleHash": "24b83fb6a564"
+  },
+  {
+   "step": "reload",
+   "settle": 2.9,
+   "active": "BODY",
+   "counts": {
+    "error": 4,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4202,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://s3.glbimg.com/cdn/libs/element-tracker/1.2.1/element-tracker.min.js",
+     "k": "error",
+     "l": 0,
+     "t": 3081
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3495
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 3495
+    },
+    {
+     "e": "Error: Player API loaded twice! Aborting.",
+     "f": "https://p.glbimg.com/api/stable/api.min.js",
+     "k": "error",
+     "l": 1,
+     "t": 3782
+    },
+    {
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null",
+     "f": "https://extra.globo.com/rio/",
+     "k": "error",
+     "l": 938,
+     "t": 6189
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6189
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 6639
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://extra.globo.com/rio/",
+     "entryIsCurrent": true,
+     "from": "https://extra.globo.com/rio/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "66b1f39b-aa88-4faa-81b1-37b2632dffb3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://extra.globo.com/rio/",
+    "urlHash": "354d61e9af9f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4580,
+   "timeOrigin": 1793562143761,
+   "url": "https://extra.globo.com/rio/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: jQuery is not defined"
+    },
+    {
+     "k": "console-warn",
+     "e": "Player API loaded twice! Aborting."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Player API loaded twice! Aborting."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"mab\" of undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"mab\" of undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Unrecognized property encountered when calling setConfig: setConfig.lazyLoad.enabled\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Unrecognized property encountered when calling setConfig: setConfig.lazyLoad.mobileScalingFactor\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.app/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "video integration - didn't find enough sponsored items for integrated widget replacement"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    }
+   ],
+   "urlHash": "354d61e9af9f",
+   "titleHash": "24b83fb6a564"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "error": 4,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4202,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://s3.glbimg.com/cdn/libs/element-tracker/1.2.1/element-tracker.min.js",
+     "k": "error",
+     "l": 0,
+     "t": 3081
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3495
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 3495
+    },
+    {
+     "e": "Error: Player API loaded twice! Aborting.",
+     "f": "https://p.glbimg.com/api/stable/api.min.js",
+     "k": "error",
+     "l": 1,
+     "t": 3782
+    },
+    {
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null",
+     "f": "https://extra.globo.com/rio/",
+     "k": "error",
+     "l": 938,
+     "t": 6189
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6189
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 6639
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9684,
+     "url": "https://extra.globo.com/rio/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://extra.globo.com/rio/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 9684
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9684,
+     "url": "https://extra.globo.com/rio/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9746
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9746
+    },
+    {
+     "k": "hashchange",
+     "t": 9748,
+     "url": "https://extra.globo.com/rio/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://extra.globo.com/rio/",
+     "entryIsCurrent": false,
+     "from": "https://extra.globo.com/rio/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "8be44249-8007-4611-9f39-66813171a7fe",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://extra.globo.com/rio/",
+    "urlHash": "60a61431766c"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4580,
+   "timeOrigin": 1793562143761,
+   "url": "https://extra.globo.com/rio/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "60a61431766c",
+   "titleHash": "24b83fb6a564"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "error": 4,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 4202,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "e": "Script error.",
+     "f": "https://s3.glbimg.com/cdn/libs/element-tracker/1.2.1/element-tracker.min.js",
+     "k": "error",
+     "l": 0,
+     "t": 3081
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3495
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 3495
+    },
+    {
+     "e": "Error: Player API loaded twice! Aborting.",
+     "f": "https://p.glbimg.com/api/stable/api.min.js",
+     "k": "error",
+     "l": 1,
+     "t": 3782
+    },
+    {
+     "e": "TypeError: can't access property \"appendChild\", document.querySelector(...) is null",
+     "f": "https://extra.globo.com/rio/",
+     "k": "error",
+     "l": 938,
+     "t": 6189
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6189
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 6639
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9684,
+     "url": "https://extra.globo.com/rio/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://extra.globo.com/rio/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 9684
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9684,
+     "url": "https://extra.globo.com/rio/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9746
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9746
+    },
+    {
+     "k": "hashchange",
+     "t": 9748,
+     "url": "https://extra.globo.com/rio/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 12431,
+     "url": "https://extra.globo.com/rio/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://extra.globo.com/rio/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 12432
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 12432
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 12432
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12432,
+     "url": "https://extra.globo.com/rio/"
+    },
+    {
+     "k": "hashchange",
+     "t": 12446,
+     "url": "https://extra.globo.com/rio/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://extra.globo.com/rio/",
+     "entryIsCurrent": true,
+     "from": "https://extra.globo.com/rio/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "66b1f39b-aa88-4faa-81b1-37b2632dffb3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://extra.globo.com/rio/",
+    "urlHash": "354d61e9af9f"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4580,
+   "timeOrigin": 1793562143761,
+   "url": "https://extra.globo.com/rio/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "354d61e9af9f",
+   "titleHash": "24b83fb6a564"
+  }
+ ],
+ "plan": {
+  "link": "https://extra.globo.com/rio/",
+  "link2": "https://extra.globo.<token>.ghtml",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "consentLate": 1,
+ "elapsed": 52.9,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

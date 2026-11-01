@@ -1,0 +1,424 @@
+{
+ "id": "4b4bbecf92",
+ "page": "https://www.ubereats.com/uber-one",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2609,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 718
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4963,
+   "timeOrigin": 1793562157872,
+   "url": "https://www.ubereats.com/se/uber-one",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked an inline script (script-src-elem) from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://t"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api-js.mixpanel.com/decide/ (Reason: CORS header \u2018Access-Con"
+    }
+   ],
+   "urlHash": "6f41917b7d69",
+   "titleHash": "01df407ac178"
+  },
+  {
+   "step": "link",
+   "href": "https://www.ubereats.com/se",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3016,
+   "histLen": 7,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 718
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4858,
+     "url": "/se"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5153,
+     "url": "/se?mod=feedLocationRequestModal&modctx=%257B%2522mode%2522%253A%2522REQUEST%2522%257D&ps=1"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1994,
+   "timeOrigin": 1793562157872,
+   "url": "https://www.ubereats.com/se",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "76e8c73cc341",
+   "titleHash": "bb4251fd8ae8"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 2609,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 718
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4858,
+     "url": "/se"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5153,
+     "url": "/se?mod=feedLocationRequestModal&modctx=%257B%2522mode%2522%253A%2522REQUEST%2522%257D&ps=1"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7960,
+     "url": "https://www.ubereats.com/se/uber-one"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4963,
+   "timeOrigin": 1793562157872,
+   "url": "https://www.ubereats.com/se/uber-one",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "6f41917b7d69",
+   "titleHash": "01df407ac178"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3016,
+   "histLen": 7,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 718
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4858,
+     "url": "/se"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5153,
+     "url": "/se?mod=feedLocationRequestModal&modctx=%257B%2522mode%2522%253A%2522REQUEST%2522%257D&ps=1"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7960,
+     "url": "https://www.ubereats.com/se/uber-one"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10569,
+     "url": "https://www.ubereats.com/se"
+    }
+   ],
+   "marker": "m3",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 1860,
+   "textLen": 2046,
+   "timeOrigin": 1793562157872,
+   "url": "https://www.ubereats.com/se",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "76e8c73cc341",
+   "titleHash": "bb4251fd8ae8"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3016,
+   "histLen": 7,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 474
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1994,
+   "timeOrigin": 1793562171727,
+   "url": "https://www.ubereats.com/se",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked an inline script (script-src-elem) from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://t"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api-js.mixpanel.com/decide/ (Reason: CORS header \u2018Access-Con"
+    }
+   ],
+   "urlHash": "76e8c73cc341",
+   "titleHash": "bb4251fd8ae8"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3016,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 474
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3066,
+     "url": "https://www.ubereats.com/se"
+    },
+    {
+     "k": "hashchange",
+     "t": 3082,
+     "url": "https://www.ubereats.com/se"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1994,
+   "timeOrigin": 1793562171727,
+   "url": "https://www.ubereats.com/se",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "7e1fd0edabc8",
+   "titleHash": "bb4251fd8ae8"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3016,
+   "histLen": 8,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 474
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3066,
+     "url": "https://www.ubereats.com/se"
+    },
+    {
+     "k": "hashchange",
+     "t": 3082,
+     "url": "https://www.ubereats.com/se"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5660,
+     "url": "https://www.ubereats.com/se"
+    },
+    {
+     "k": "hashchange",
+     "t": 5694,
+     "url": "https://www.ubereats.com/se"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1994,
+   "timeOrigin": 1793562171727,
+   "url": "https://www.ubereats.com/se",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "76e8c73cc341",
+   "titleHash": "bb4251fd8ae8"
+  }
+ ],
+ "plan": {
+  "link": "https://www.ubereats.com/se",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 22.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

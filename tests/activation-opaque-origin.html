@@ -1,0 +1,29 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>navigation.activation in opaque-origin documents</title>
+<!--
+Spec: the activation getter returns null when the Navigation object has entries and events disabled
+(e.g. the document's origin is opaque). Gecko returns a NavigationActivation whose non-nullable
+entry is null there; reading it crashes the content process. Variants: ?case=sandbox (sandboxed
+iframe, opaque origin), ?case=sandbox-nav (the sandboxed iframe navigates itself once first),
+?case=srcdoc-sandbox.
+-->
+<script>
+const q = new URLSearchParams(location.search);
+const c = q.get('case') || 'sandbox';
+window.__result = { pending: true };
+addEventListener('message', e => { window.__result = e.data; });
+const probe = `<script>
+  let r = {};
+  try { r.activation = String(navigation.activation); r.type = navigation.activation && navigation.activation.navigationType; } catch (e) { r.activationError = String(e); }
+  try { r.entries = navigation.entries().length; r.currentEntry = String(navigation.currentEntry); } catch (e) { r.entriesError = String(e); }
+  try { const a = navigation.activation; r.entry = a ? String(a.entry) : 'no activation'; } catch (e) { r.entryError = String(e); }
+  parent.postMessage(r, '*');
+<\/script>`;
+const f = document.createElement('iframe');
+f.setAttribute('sandbox', 'allow-scripts');
+if (c === 'srcdoc-sandbox') f.srcdoc = probe;
+else f.src = 'data:text/html,' + encodeURIComponent(probe);
+document.documentElement.append(f);
+setTimeout(() => { if (window.__result.pending) window.__result = { noMessage: true }; }, 3000);
+</script>

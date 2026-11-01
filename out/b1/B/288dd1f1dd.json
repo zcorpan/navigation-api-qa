@@ -1,0 +1,1129 @@
+{
+ "id": "288dd1f1dd",
+ "page": "https://udn.com/news/story/6810/9814953",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "error": 2,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 11226,
+   "histLen": 28,
+   "histState": "null",
+   "log": [
+    {
+     "e": "TypeError: can't access property \"split\", _ga is undefined",
+     "f": "https://udn.com/news/story/6810/9814953",
+     "k": "error",
+     "l": 241,
+     "t": 119
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 418
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://udn.com/news/story/6810/9814953",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 418
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://udn.com/news/story/6810/9814953",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 597
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1274
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4190
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://udn.com/news/story/6810/9814953",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "32d3bc95-0cbf-4895-a524-462972b147f5",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://udn.com/news/story/6810/9814953",
+    "urlHash": "288dd1f1ddf5"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5139,
+   "timeOrigin": 1793553660100,
+   "url": "https://udn.com/news/story/6810/9814953",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"split\", _ga is undefined"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Desktop Below Article Feed-Global | Card 5"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Desktop Below Article Feed-Global | Card 5"
+    },
+    {
+     "k": "console-warn",
+     "e": "Taboola Push Option modes \"tbla-cookie-match\" for placement-TBLA Cookie Match, not present in Publisher Config modes."
+    },
+    {
+     "k": "console-warn",
+     "e": "Mode 'tbla-cookie-match' for Placement 'TBLA Cookie Match' doesn't exist in configuration https://udn.com/news/story/6810/9814953"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: TBLA Cookie Match"
+    },
+    {
+     "k": "console-warn",
+     "e": "Mode 'tbla-cookie-match' for Placement 'TBLA Cookie Match' doesn't exist in configuration https://udn.com/news/story/6810/9814953"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: TBLA Cookie Match"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-error",
+     "e": "Error checking user privilege: Error: Server responded with status: 400"
+    },
+    {
+     "k": "console-error",
+     "e": "TypeError: can't access property \"outerHTML\", document.querySelector(...) is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either t"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "288dd1f1ddf5",
+   "titleHash": "dafa95daee66"
+  },
+  {
+   "step": "link",
+   "href": "https://udn.com/news/index",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7441,
+   "histLen": 29,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 171
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://udn.com/news/index:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 171
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 403
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2699
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "entryIsCurrent": true,
+     "from": "https://udn.com/news/story/6810/9814953",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "3102fad6-9184-432f-8227-9dee4fb5b07d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://udn.com/news/index",
+    "urlHash": "d9e10a191dd2"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4728,
+   "timeOrigin": 1793553671174,
+   "url": "https://udn.com/news/index",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: PubAdsService.setTargeting('tag', null).\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Taboola Push Option modes \"tbla-cookie-match\" for placement-TBLA Cookie Match, not present in Publisher Config modes."
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.rubicon': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.bridgewell': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.openx': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.criteo': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.taboola': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid taboola WARNING: Activity control: storageControl denied 'accessDevice' for 'bidder.taboola': Storage key \"t_gid\" (for cookie storage) is not disclosed by \"bidder.taboola\" @ https://accessrequest.taboola.com/iab-tcf-v2-disclosure.json"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid criteo WARNING: Activity control: bidderSettings.*.storageAllowed denied 'accessDevice' for 'bidder.criteo'"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid criteo WARNING: Skipping GZIP compression for criteo as debug mode is enabled"
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "Mode 'tbla-cookie-match' for Placement 'TBLA Cookie Match' doesn't exist in configuration https://udn.com/"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: TBLA Cookie Match"
+    },
+    {
+     "k": "console-warn",
+     "e": "response is missing recommendation on all placements: \"NO_ITEMS\""
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "d9e10a191dd2",
+   "titleHash": "fa8d65e9bba7"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "error": 1,
+    "get:canGoBack": 1,
+    "get:canGoForward": 1,
+    "get:currentEntry": 4,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10614,
+   "histLen": 29,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 160
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://udn.com/news/story/6810/9814953",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 160
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 439
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 953
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2347
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://udn.com/news/story/6810/9814953",
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2347
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2347
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 2347
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2347
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2347
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://udn.com/news/story/6810/9814953",
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2347
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://udn.com/news/story/6810/9814953",
+     "entryIsCurrent": true,
+     "from": "https://udn.com/news/index",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "32d3bc95-0cbf-4895-a524-462972b147f5",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://udn.com/news/story/6810/9814953",
+    "urlHash": "288dd1f1ddf5"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4995,
+   "timeOrigin": 1793553676534,
+   "url": "https://udn.com/news/story/6810/9814953",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-error",
+     "e": "TypeError: can't access property \"outerHTML\", document.querySelector(...) is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Desktop Below Article Feed-Global | Card 5"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Desktop Below Article Feed-Global | Card 5"
+    },
+    {
+     "k": "console-warn",
+     "e": "Taboola Push Option modes \"tbla-cookie-match\" for placement-TBLA Cookie Match, not present in Publisher Config modes."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "Mode 'tbla-cookie-match' for Placement 'TBLA Cookie Match' doesn't exist in configuration https://udn.com/news/story/6810/9814953"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: TBLA Cookie Match"
+    },
+    {
+     "k": "console-warn",
+     "e": "Mode 'tbla-cookie-match' for Placement 'TBLA Cookie Match' doesn't exist in configuration https://udn.com/news/story/6810/9814953"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: TBLA Cookie Match"
+    }
+   ],
+   "urlHash": "288dd1f1ddf5",
+   "titleHash": "dafa95daee66"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7441,
+   "histLen": 29,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 190
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://udn.com/news/index:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 191
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 396
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 471
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "entryIsCurrent": true,
+     "from": "https://udn.com/news/story/6810/9814953",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "3102fad6-9184-432f-8227-9dee4fb5b07d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://udn.com/news/index",
+    "urlHash": "d9e10a191dd2"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4728,
+   "timeOrigin": 1793553679596,
+   "url": "https://udn.com/news/index",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getBoundingClientRect\", (intermediate value).document.documentElement is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: PubAdsService.setTargeting('tag', null).\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Taboola Push Option modes \"tbla-cookie-match\" for placement-TBLA Cookie Match, not present in Publisher Config modes."
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.rubicon': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.bridgewell': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.openx': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.criteo': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.taboola': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid criteo WARNING: Activity control: bidderSettings.*.storageAllowed denied 'accessDevice' for 'bidder.criteo'"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid criteo WARNING: Skipping GZIP compression for criteo as debug mode is enabled"
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "Mode 'tbla-cookie-match' for Placement 'TBLA Cookie Match' doesn't exist in configuration https://udn.com/"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: TBLA Cookie Match"
+    },
+    {
+     "k": "console-warn",
+     "e": "response is missing recommendation on all placements: \"NO_ITEMS\""
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    }
+   ],
+   "urlHash": "d9e10a191dd2",
+   "titleHash": "fa8d65e9bba7"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7441,
+   "histLen": 29,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 666
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://udn.com/news/index:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 666
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 901
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1615
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "entryIsCurrent": true,
+     "from": "https://udn.com/news/index",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "3102fad6-9184-432f-8227-9dee4fb5b07d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://udn.com/news/index",
+    "urlHash": "d9e10a191dd2"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4728,
+   "timeOrigin": 1793553682755,
+   "url": "https://udn.com/news/index",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.rubicon': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.bridgewell': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.openx': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.criteo': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid WARNING: Activity control: enableTIDs config denied 'transmitTid' for 'bidder.taboola': TIDs are disabled"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid criteo WARNING: Activity control: bidderSettings.*.storageAllowed denied 'accessDevice' for 'bidder.criteo'"
+    },
+    {
+     "k": "console-warn",
+     "e": "Prebid criteo WARNING: Skipping GZIP compression for criteo as debug mode is enabled"
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "Taboola Push Option modes \"tbla-cookie-match\" for placement-TBLA Cookie Match, not present in Publisher Config modes."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: PubAdsService.setTargeting('tag', null).\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Mode 'tbla-cookie-match' for Placement 'TBLA Cookie Match' doesn't exist in configuration https://udn.com/"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: TBLA Cookie Match"
+    },
+    {
+     "k": "console-warn",
+     "e": "response is missing recommendation on all placements: \"NO_ITEMS\""
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    }
+   ],
+   "urlHash": "d9e10a191dd2",
+   "titleHash": "fa8d65e9bba7"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "error": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 7441,
+   "histLen": 30,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 666
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://udn.com/news/index:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 666
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 901
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1615
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4184,
+     "url": "https://udn.com/news/index",
+     "userInitiated": false
+    },
+    {
+     "from": "https://udn.com/news/index",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4184
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4184,
+     "url": "https://udn.com/news/index"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4187
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4187
+    },
+    {
+     "k": "hashchange",
+     "t": 4188,
+     "url": "https://udn.com/news/index"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "entryIsCurrent": false,
+     "from": "https://udn.com/news/index",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "8f0c3cc9-780f-492c-a10c-daad548d547b",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://udn.com/news/index",
+    "urlHash": "5b6c693c165f"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4728,
+   "timeOrigin": 1793553682755,
+   "url": "https://udn.com/news/index",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5b6c693c165f",
+   "titleHash": "fa8d65e9bba7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "error": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 7441,
+   "histLen": 30,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 666
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://udn.com/news/index:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 666
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 901
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1615
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4184,
+     "url": "https://udn.com/news/index",
+     "userInitiated": false
+    },
+    {
+     "from": "https://udn.com/news/index",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4184
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4184,
+     "url": "https://udn.com/news/index"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4187
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4187
+    },
+    {
+     "k": "hashchange",
+     "t": 4188,
+     "url": "https://udn.com/news/index"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7017,
+     "url": "https://udn.com/news/index",
+     "userInitiated": false
+    },
+    {
+     "from": "https://udn.com/news/index",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7017
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7017
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7017
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7018,
+     "url": "https://udn.com/news/index"
+    },
+    {
+     "k": "hashchange",
+     "t": 7033,
+     "url": "https://udn.com/news/index"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "entryIsCurrent": true,
+     "from": "https://udn.com/news/index",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "3102fad6-9184-432f-8227-9dee4fb5b07d",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://udn.com/news/index",
+    "urlHash": "d9e10a191dd2"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4728,
+   "timeOrigin": 1793553682755,
+   "url": "https://udn.com/news/index",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d9e10a191dd2",
+   "titleHash": "fa8d65e9bba7"
+  }
+ ],
+ "plan": {
+  "link": "https://udn.com/news/index",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 32.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -1,0 +1,1044 @@
+{
+ "id": "5a74c53e54",
+ "page": "https://www.livescore.com/",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 26,
+   "url": "https://www.livescore.com/en/",
+   "log": [],
+   "docH": 2807,
+   "marker": null,
+   "timeOrigin": 1793564762744,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 2399,
+   "nav": {
+    "url": "https://www.livescore.com/en/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "bd443fad-f016-403f-b7dc-074e0427e72e",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.livescore.com/en/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "734bd1a4ae1b"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "734bd1a4ae1b",
+   "titleHash": "7be34720c53e"
+  },
+  {
+   "step": "link",
+   "href": "https://www.livescore.com/en/news/",
+   "click": "js",
+   "settle": 2.8,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 27,
+   "url": "https://www.livescore.com/en/news/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 1723,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 1726,
+     "m": "push",
+     "from": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1748
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1748
+    }
+   ],
+   "docH": 2365,
+   "marker": "m0",
+   "timeOrigin": 1793564762744,
+   "scrollX": 0,
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1
+   },
+   "prev": null,
+   "textLen": 1549,
+   "nav": {
+    "url": "https://www.livescore.com/en/news/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bd820beb-db00-4b67-9e36-6d9a44b5dc6d",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.livescore.com/en/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": false
+    },
+    "urlHash": "854128083d1a"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "back",
+   "settle": 2.9,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 27,
+   "url": "https://www.livescore.com/en/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 1723,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 1726,
+     "m": "push",
+     "from": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1748
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1748
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 4116,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 4119,
+     "m": "traverse",
+     "from": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4119
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4119
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/",
+     "t": 4119
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 4455,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 4455,
+     "m": "replace",
+     "from": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4456
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4456
+    }
+   ],
+   "docH": 3215,
+   "marker": "m1",
+   "timeOrigin": 1793564762744,
+   "scrollX": 0,
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 3,
+    "navigate:replace": 1,
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 3,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 2473,
+   "nav": {
+    "url": "https://www.livescore.com/en/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "bd443fad-f016-403f-b7dc-074e0427e72e",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.livescore.com/en/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "734bd1a4ae1b"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "734bd1a4ae1b",
+   "titleHash": "7be34720c53e"
+  },
+  {
+   "step": "forward",
+   "settle": 2.8,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 27,
+   "url": "https://www.livescore.com/en/news/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 1723,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 1726,
+     "m": "push",
+     "from": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1748
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1748
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 4116,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 4119,
+     "m": "traverse",
+     "from": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4119
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4119
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/",
+     "t": 4119
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 4455,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 4455,
+     "m": "replace",
+     "from": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4456
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4456
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 7011,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 7012,
+     "m": "traverse",
+     "from": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7012
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7012
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 7012
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 7255,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 7255,
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7257
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7257
+    }
+   ],
+   "docH": 2365,
+   "marker": "m2",
+   "timeOrigin": 1793564762744,
+   "scrollX": 0,
+   "counts": {
+    "currententrychange:replace": 2,
+    "get:currentEntry": 5,
+    "navigate:replace": 2,
+    "navigate:push": 1,
+    "currententrychange:traverse": 2,
+    "navigatesuccess": 5,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigate:traverse": 2
+   },
+   "prev": null,
+   "textLen": 1549,
+   "nav": {
+    "url": "https://www.livescore.com/en/news/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bd820beb-db00-4b67-9e36-6d9a44b5dc6d",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.livescore.com/en/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": false
+    },
+    "urlHash": "854128083d1a"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "reload",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 27,
+   "url": "https://www.livescore.com/en/news/",
+   "log": [],
+   "docH": 2365,
+   "marker": null,
+   "timeOrigin": 1793564780149,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.livescore.com/en/news/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.livescore.com/en/news/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 1723,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 1726,
+      "m": "push",
+      "from": "https://www.livescore.com/en/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 1748
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 1748
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.livescore.com/en/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 4116,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 4119,
+      "m": "traverse",
+      "from": "https://www.livescore.com/en/news/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 4119
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 4119
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "url": "https://www.livescore.com/en/",
+      "t": 4119
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.livescore.com/en/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 4455,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 4455,
+      "m": "replace",
+      "from": "https://www.livescore.com/en/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 4456
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 4456
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.livescore.com/en/news/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 7011,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 7012,
+      "m": "traverse",
+      "from": "https://www.livescore.com/en/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 7012
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 7012
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "url": "https://www.livescore.com/en/news/",
+      "t": 7012
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.livescore.com/en/news/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 7255,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 7255,
+      "m": "replace",
+      "from": "https://www.livescore.com/en/news/"
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 7257
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 7257
+     }
+    ],
+    "counts": {
+     "currententrychange:replace": 2,
+     "get:currentEntry": 5,
+     "navigate:replace": 2,
+     "navigate:push": 1,
+     "currententrychange:traverse": 2,
+     "navigatesuccess": 5,
+     "currententrychange:push": 1,
+     "popstate": 2,
+     "navigate:traverse": 2
+    }
+   },
+   "textLen": 1495,
+   "nav": {
+    "url": "https://www.livescore.com/en/news/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bd820beb-db00-4b67-9e36-6d9a44b5dc6d",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.livescore.com/en/news/",
+     "from": "https://www.livescore.com/en/news/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "854128083d1a"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.8,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 27,
+   "url": "https://www.livescore.com/en/news/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 70,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 70,
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 70
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 70
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 71
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/news/#navqa-frag",
+     "t": 71
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 71,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 71,
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 71
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 71
+    }
+   ],
+   "docH": 2365,
+   "marker": "m4",
+   "timeOrigin": 1793564780149,
+   "scrollX": 0,
+   "counts": {
+    "currententrychange:replace": 2,
+    "get:currentEntry": 2,
+    "navigate:replace": 2,
+    "history:replaceState": 1,
+    "navigatesuccess": 2,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "textLen": 1497,
+   "nav": {
+    "url": "https://www.livescore.com/en/news/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bd820beb-db00-4b67-9e36-6d9a44b5dc6d",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.livescore.com/en/news/",
+     "from": "https://www.livescore.com/en/news/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "a201f2da02e6"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a201f2da02e6",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 27,
+   "url": "https://www.livescore.com/en/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 70,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 70,
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 70
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 70
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 71
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/news/#navqa-frag",
+     "t": 71
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/news/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 71,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 71,
+     "m": "replace",
+     "from": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 71
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 71
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.livescore.com/en/news/",
+     "t": 71
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 3938,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 3941,
+     "m": "traverse",
+     "from": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3941
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3941
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.livescore.com/en/",
+     "t": 3941
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/en/",
+     "t": 4347
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.livescore.com/en/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 4347,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 4348,
+     "m": "replace",
+     "from": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4350
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4350
+    }
+   ],
+   "docH": 3215,
+   "marker": "m5",
+   "timeOrigin": 1793564780149,
+   "scrollX": 0,
+   "counts": {
+    "currententrychange:replace": 3,
+    "get:currentEntry": 4,
+    "navigate:replace": 3,
+    "history:replaceState": 2,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 4,
+    "popstate": 2,
+    "hashchange": 1,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 2473,
+   "nav": {
+    "url": "https://www.livescore.com/en/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "bd443fad-f016-403f-b7dc-074e0427e72e",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.livescore.com/en/news/",
+     "from": "https://www.livescore.com/en/news/",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "734bd1a4ae1b"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "734bd1a4ae1b",
+   "titleHash": "7be34720c53e"
+  }
+ ],
+ "plan": {
+  "link": "https://www.livescore.com/en/news/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 26.7,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

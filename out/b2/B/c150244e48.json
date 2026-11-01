@@ -1,0 +1,3146 @@
+{
+ "id": "c150244e48",
+ "page": "https://www.smh.com.au/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 14633,
+   "histLen": 27,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 768
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 768
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 780,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 780,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 780
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 841,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 841
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 841,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 841
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 871
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 871
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1866
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.smh.com.au/",
+     "entryIsCurrent": true,
+     "from": "https://www.smh.com.au/afx_prid/2026.10.20.1/auth/ptc/",
+     "type": "replace"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "692e3759-da40-4a84-9bb4-9d5171d77d83",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.smh.com.au/",
+    "urlHash": "c150244e4857"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16557,
+   "timeOrigin": 1793564059309,
+   "url": "https://www.smh.com.au/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "ChunkLoadError: Loading chunk 45 failed.\n(error: https://www.smh.com.au/hashed-assets/Homepage.5b14db3696d9b6d6a177.chunk.js)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setCentering is deprecated, use googletag.setConfig({centering: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "CryptoJS is not defined"
+    },
+    {
+     "k": "console-error",
+     "e": "CryptoJS is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793564060293\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCCDCF\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "c150244e4857",
+   "titleHash": "4444563bfa27"
+  },
+  {
+   "step": "link",
+   "href": "https://www.smh.com.au/sydney-news",
+   "click": "native",
+   "settle": 2.5,
+   "active": "DIV#page_announcer",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "get:currentEntry": 3,
+    "history:pushState": 1,
+    "history:replaceState": 3,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigateerror": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 4126,
+   "histLen": 28,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 768
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 768
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 780,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 780,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 780
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 841,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 841
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 841,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 841
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 871
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 871
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1866
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5967,
+     "url": "/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5967,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5968
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 5970
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5970
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5975
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5975
+    }
+   ],
+   "marker": "m0",
+   "nav": {
+    "activation": {
+     "entry": "https://www.smh.com.au/",
+     "entryIsCurrent": false,
+     "from": "https://www.smh.com.au/afx_prid/2026.10.20.1/auth/ptc/",
+     "type": "replace"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "8002810e-2e4a-44cd-b8c5-f4a52850a460",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.smh.com.au/sydney-news",
+    "urlHash": "b178e1ae393e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4476,
+   "timeOrigin": 1793564059309,
+   "url": "https://www.smh.com.au/sydney-news",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.smh.com.au/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "DIV#page_announcer",
+   "counts": {
+    "currententrychange:push": 2,
+    "currententrychange:replace": 4,
+    "get:currentEntry": 4,
+    "history:pushState": 2,
+    "history:replaceState": 4,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 2,
+    "navigate:replace": 4,
+    "navigateerror": 3,
+    "navigatesuccess": 3,
+    "pageshow": 1
+   },
+   "docH": 14633,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 768
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 768
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 780,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 780,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 780
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 841,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 841
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 841,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 841
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 871
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 871
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1866
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5967,
+     "url": "/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5967,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5968
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 5970
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5970
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5975
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5975
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8623,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8623,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8624
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 8629,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 8629
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8629,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 8629
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8637
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8637
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://www.smh.com.au/",
+     "entryIsCurrent": false,
+     "from": "https://www.smh.com.au/afx_prid/2026.10.20.1/auth/ptc/",
+     "type": "replace"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "db7d92ee-6060-4470-96bf-f5184092a8f0",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.smh.com.au/",
+    "urlHash": "c150244e4857"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16557,
+   "timeOrigin": 1793564059309,
+   "url": "https://www.smh.com.au/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "c150244e4857",
+   "titleHash": "4444563bfa27"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "DIV#page_announcer",
+   "counts": {
+    "currententrychange:push": 2,
+    "currententrychange:replace": 5,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 6,
+    "history:pushState": 2,
+    "history:replaceState": 5,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 2,
+    "navigate:replace": 5,
+    "navigate:traverse": 1,
+    "navigateerror": 3,
+    "navigatesuccess": 5,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4126,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 768
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 768
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 780,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 780,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 780
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 841,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 841
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 841,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 841
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 871
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 871
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1866
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5967,
+     "url": "/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5967,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5968
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 5970
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5970
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5975
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5975
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8623,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8623,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8624
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 8629,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 8629
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8629,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 8629
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8637
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8637
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11285,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 11286
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11286
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 11286
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11287,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11288,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11288,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 11288
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11290
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 11290
+    }
+   ],
+   "marker": "m2",
+   "nav": {
+    "activation": {
+     "entry": "https://www.smh.com.au/",
+     "entryIsCurrent": false,
+     "from": "https://www.smh.com.au/afx_prid/2026.10.20.1/auth/ptc/",
+     "type": "replace"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "8002810e-2e4a-44cd-b8c5-f4a52850a460",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.smh.com.au/sydney-news",
+    "urlHash": "b178e1ae393e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4476,
+   "timeOrigin": 1793564059309,
+   "url": "https://www.smh.com.au/sydney-news",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "DIV#page_announcer",
+   "counts": {
+    "currententrychange:push": 2,
+    "currententrychange:replace": 6,
+    "currententrychange:traverse": 2,
+    "get:currentEntry": 8,
+    "history:pushState": 2,
+    "history:replaceState": 6,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 2,
+    "navigate:replace": 6,
+    "navigate:traverse": 2,
+    "navigateerror": 3,
+    "navigatesuccess": 7,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 14633,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 768
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 768
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 780,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 780,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 780
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 841,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 841
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 841,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 841
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 871
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 871
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1866
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5967,
+     "url": "/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5967,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5968
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 5970
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5970
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5975
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5975
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8623,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8623,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8624
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 8629,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 8629
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8629,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 8629
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8637
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8637
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11285,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 11286
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11286
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 11286
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11287,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11288,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11288,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 11288
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11290
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 11290
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 13867,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 13868
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 13868
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13868
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 13868,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 13869,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 13869,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 13869
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 13871
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13871
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://www.smh.com.au/",
+     "entryIsCurrent": true,
+     "from": "https://www.smh.com.au/afx_prid/2026.10.20.1/auth/ptc/",
+     "type": "replace"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "692e3759-da40-4a84-9bb4-9d5171d77d83",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.smh.com.au/",
+    "urlHash": "c150244e4857"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16557,
+   "timeOrigin": 1793564059309,
+   "url": "https://www.smh.com.au/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "c150244e4857",
+   "titleHash": "4444563bfa27"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "DIV#page_announcer",
+   "counts": {
+    "currententrychange:push": 2,
+    "currententrychange:replace": 7,
+    "currententrychange:traverse": 3,
+    "get:currentEntry": 10,
+    "history:pushState": 2,
+    "history:replaceState": 7,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 2,
+    "navigate:replace": 7,
+    "navigate:traverse": 3,
+    "navigateerror": 3,
+    "navigatesuccess": 9,
+    "pageshow": 1,
+    "popstate": 3
+   },
+   "docH": 4126,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 768
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 768
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 780,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 780,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 780
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 841,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 841
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 841,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 841
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 871
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 871
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1866
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5967,
+     "url": "/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5967,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5968
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 5970
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5970,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5970
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5975
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5975
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8623,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8623,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8624
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 8629,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 8629
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8629,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 8629
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8637
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8637
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11285,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 11286
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11286
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 11286
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11287,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11288,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11288,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 11288
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11290
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 11290
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 13867,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 13868
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 13868
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13868
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 13868,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 13869,
+     "url": "https://www.smh.com.au/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 13869,
+     "url": "https://www.smh.com.au/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 13869
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 13871
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13871
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 16460,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 16461
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 16461
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 16461
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 16462,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 16463,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 16463,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 16463
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 16466
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 16466
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.smh.com.au/",
+     "entryIsCurrent": false,
+     "from": "https://www.smh.com.au/afx_prid/2026.10.20.1/auth/ptc/",
+     "type": "replace"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "8002810e-2e4a-44cd-b8c5-f4a52850a460",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.smh.com.au/sydney-news",
+    "urlHash": "b178e1ae393e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4476,
+   "timeOrigin": 1793564059309,
+   "url": "https://www.smh.com.au/sydney-news",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "get:currentEntry": 1,
+    "history:replaceState": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4126,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1521,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1521,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1521
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1544,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 1544
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1544,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1544
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1550
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1598
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 1598
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1825
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.smh.com.au/sydney-news",
+     "entryIsCurrent": true,
+     "from": "https://www.smh.com.au/sydney-news",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "8002810e-2e4a-44cd-b8c5-f4a52850a460",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.smh.com.au/sydney-news",
+    "urlHash": "b178e1ae393e"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4476,
+   "timeOrigin": 1793564078460,
+   "url": "https://www.smh.com.au/sydney-news",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setCentering is deprecated, use googletag.setConfig({centering: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "CryptoJS is not defined"
+    },
+    {
+     "k": "console-error",
+     "e": "CryptoJS is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793564080160\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4126,
+   "histLen": 29,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1521,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1521,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1521
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1544,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 1544
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1544,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1544
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1550
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1598
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 1598
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1825
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4408,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4409
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4409,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4411
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4411
+    },
+    {
+     "k": "hashchange",
+     "t": 4417,
+     "url": "https://www.smh.com.au/sydney-news"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.smh.com.au/sydney-news",
+     "entryIsCurrent": false,
+     "from": "https://www.smh.com.au/sydney-news",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "71304b01-e8b5-4596-849a-5a32076deb6a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.smh.com.au/sydney-news",
+    "urlHash": "78b6c96ef0d0"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4476,
+   "timeOrigin": 1793564078460,
+   "url": "https://www.smh.com.au/sydney-news",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "78b6c96ef0d0",
+   "titleHash": "10726671cbc9"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigateerror": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 4126,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1521,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1521,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1521
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1544,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 1544
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1544,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1544
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1550
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1598
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 1598
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1825
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4408,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4409
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4409,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4411
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4411
+    },
+    {
+     "k": "hashchange",
+     "t": 4417,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7044,
+     "url": "https://www.smh.com.au/sydney-news",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.smh.com.au/sydney-news",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7045
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7045
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7045
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7045,
+     "url": "https://www.smh.com.au/sydney-news"
+    },
+    {
+     "k": "hashchange",
+     "t": 7051,
+     "url": "https://www.smh.com.au/sydney-news"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.smh.com.au/sydney-news",
+     "entryIsCurrent": true,
+     "from": "https://www.smh.com.au/sydney-news",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "8002810e-2e4a-44cd-b8c5-f4a52850a460",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.smh.com.au/sydney-news",
+    "urlHash": "b178e1ae393e"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4476,
+   "timeOrigin": 1793564078460,
+   "url": "https://www.smh.com.au/sydney-news",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "b178e1ae393e",
+   "titleHash": "10726671cbc9"
+  }
+ ],
+ "plan": {
+  "link": "https://www.smh.com.au/sydney-news",
+  "link2": "https://www.smh.com.au/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 31.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

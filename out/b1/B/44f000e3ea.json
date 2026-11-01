@@ -1,0 +1,421 @@
+{
+ "id": "44f000e3ea",
+ "page": "https://ca.pinterest.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4656,
+   "histLen": 28,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 425,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 425,
+     "url": "https://ca.pinterest.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://ca.pinterest.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 426
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 429
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 443
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://ca.pinterest.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "e2ef95b2-a78a-4b82-90bf-131d8c6fe425",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://ca.pinterest.com/",
+    "urlHash": "44f000e3ea33"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1951,
+   "timeOrigin": 1793554420822,
+   "url": "https://ca.pinterest.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cADRUM\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cADRUM\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "44f000e3ea33",
+   "titleHash": "a45a7994973a"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 4656,
+   "histLen": 28,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3131
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://ca.pinterest.com/",
+     "entryIsCurrent": true,
+     "from": "https://ca.pinterest.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "e2ef95b2-a78a-4b82-90bf-131d8c6fe425",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://ca.pinterest.com/",
+    "urlHash": "44f000e3ea33"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1972,
+   "timeOrigin": 1793554425597,
+   "url": "https://ca.pinterest.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: Object { message }"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "44f000e3ea33",
+   "titleHash": "a45a7994973a"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4656,
+   "histLen": 29,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3131
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5703,
+     "url": "https://ca.pinterest.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://ca.pinterest.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5703
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5703,
+     "url": "https://ca.pinterest.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5704
+    },
+    {
+     "k": "hashchange",
+     "t": 5718,
+     "url": "https://ca.pinterest.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://ca.pinterest.com/",
+     "entryIsCurrent": false,
+     "from": "https://ca.pinterest.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "6c9a2895-83b2-4d22-be84-3625b1f0e99b",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://ca.pinterest.com/",
+    "urlHash": "85dc19536838"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1951,
+   "timeOrigin": 1793554425597,
+   "url": "https://ca.pinterest.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "85dc19536838",
+   "titleHash": "a45a7994973a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 4656,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3131
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5703,
+     "url": "https://ca.pinterest.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://ca.pinterest.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 5703
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5703,
+     "url": "https://ca.pinterest.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5704
+    },
+    {
+     "k": "hashchange",
+     "t": 5718,
+     "url": "https://ca.pinterest.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8285,
+     "url": "https://ca.pinterest.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://ca.pinterest.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 8285
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8285
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 8285,
+     "url": "https://ca.pinterest.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 8306,
+     "url": "https://ca.pinterest.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://ca.pinterest.com/",
+     "entryIsCurrent": true,
+     "from": "https://ca.pinterest.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "e2ef95b2-a78a-4b82-90bf-131d8c6fe425",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://ca.pinterest.com/",
+    "urlHash": "44f000e3ea33"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1951,
+   "timeOrigin": 1793554425597,
+   "url": "https://ca.pinterest.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "44f000e3ea33",
+   "titleHash": "a45a7994973a"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 16.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

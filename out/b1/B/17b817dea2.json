@@ -1,0 +1,556 @@
+{
+ "id": "17b817dea2",
+ "page": "https://www.nutaku.net/notice/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 1286,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 142
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.nutaku.net/notice/",
+     "entryIsCurrent": true,
+     "from": "https://www.nutaku.net/notice/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "86322041-ac34-456a-8185-302b5e56839b",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.nutaku.net/notice/",
+    "urlHash": "17b817dea2e1"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2946,
+   "timeOrigin": 1793555223348,
+   "url": "https://www.nutaku.net/notice/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "The database \"moe_database\" can't be downgraded from version 4 to version 2."
+    }
+   ],
+   "urlHash": "17b817dea2e1",
+   "titleHash": "9c104115cece"
+  },
+  {
+   "step": "link",
+   "href": "https://www.nutaku.net/home/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 4187,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1131
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.nutaku.net/home/",
+     "entryIsCurrent": true,
+     "from": "https://www.nutaku.net/notice/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "bdcdabe9-9b25-4ebb-90e2-a5c2a5962ca6",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.nutaku.net/home/",
+    "urlHash": "7f6c663c5caf"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5431,
+   "timeOrigin": 1793555225498,
+   "url": "https://www.nutaku.net/home/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "7f6c663c5caf",
+   "titleHash": "6dfac931cfc6"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 1286,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 82
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.nutaku.net/notice/",
+     "entryIsCurrent": true,
+     "from": "https://www.nutaku.net/home/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "86322041-ac34-456a-8185-302b5e56839b",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.nutaku.net/notice/",
+    "urlHash": "17b817dea2e1"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2946,
+   "timeOrigin": 1793555230345,
+   "url": "https://www.nutaku.net/notice/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "17b817dea2e1",
+   "titleHash": "9c104115cece"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 4187,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1131
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 3721,
+     "url": "https://www.nutaku.net/notice/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 6380
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://www.nutaku.net/home/",
+     "entryIsCurrent": true,
+     "from": "https://www.nutaku.net/notice/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "bdcdabe9-9b25-4ebb-90e2-a5c2a5962ca6",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.nutaku.net/home/",
+    "urlHash": "7f6c663c5caf"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5431,
+   "timeOrigin": 1793555225498,
+   "url": "https://www.nutaku.net/home/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "7f6c663c5caf",
+   "titleHash": "6dfac931cfc6"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 4633,
+   "histLen": 10,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 903
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.nutaku.net/home/",
+     "entryIsCurrent": true,
+     "from": "https://www.nutaku.net/home/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "bdcdabe9-9b25-4ebb-90e2-a5c2a5962ca6",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.nutaku.net/home/",
+    "urlHash": "7f6c663c5caf"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6780,
+   "timeOrigin": 1793555235588,
+   "url": "https://www.nutaku.net/home/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "7f6c663c5caf",
+   "titleHash": "6dfac931cfc6"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4633,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 903
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3498,
+     "url": "https://www.nutaku.net/home/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.nutaku.net/home/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3498
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3498,
+     "url": "https://www.nutaku.net/home/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3501
+    },
+    {
+     "k": "hashchange",
+     "t": 3501,
+     "url": "https://www.nutaku.net/home/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.nutaku.net/home/",
+     "entryIsCurrent": false,
+     "from": "https://www.nutaku.net/home/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "f5b3b698-0900-408f-8f84-3434f5af6b50",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.nutaku.net/home/",
+    "urlHash": "8beb3f9bc970"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6780,
+   "timeOrigin": 1793555235588,
+   "url": "https://www.nutaku.net/home/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8beb3f9bc970",
+   "titleHash": "6dfac931cfc6"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 4633,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 903
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3498,
+     "url": "https://www.nutaku.net/home/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.nutaku.net/home/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3498
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3498,
+     "url": "https://www.nutaku.net/home/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3501
+    },
+    {
+     "k": "hashchange",
+     "t": 3501,
+     "url": "https://www.nutaku.net/home/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6090,
+     "url": "https://www.nutaku.net/home/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.nutaku.net/home/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6090
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6090
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6090,
+     "url": "https://www.nutaku.net/home/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6093,
+     "url": "https://www.nutaku.net/home/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.nutaku.net/home/",
+     "entryIsCurrent": true,
+     "from": "https://www.nutaku.net/home/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "bdcdabe9-9b25-4ebb-90e2-a5c2a5962ca6",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.nutaku.net/home/",
+    "urlHash": "7f6c663c5caf"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6780,
+   "timeOrigin": 1793555235588,
+   "url": "https://www.nutaku.net/home/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "7f6c663c5caf",
+   "titleHash": "6dfac931cfc6"
+  }
+ ],
+ "plan": {
+  "link": "https://www.nutaku.net/home/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept All Cookies",
+ "elapsed": 28.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

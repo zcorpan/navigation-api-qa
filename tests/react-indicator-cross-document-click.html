@@ -34,14 +34,15 @@ function startIndicator() {
   setTimeout(start, 100);
 }
 const q = new URLSearchParams(location.search);
-document.getElementById('link').href = q.get('slow') ? '/slow?ms=2000' : 'page2.html';
+document.getElementById('link').href = q.get('slow') ? '/slow?ms=' + (q.get('ms') || 2000) : 'page2.html';
 const events = [];
 navigation.addEventListener('navigate', e => events.push('navigate:' + e.navigationType + (e.info ? ':' + e.info : '') + (e.destination.sameDocument ? ':same' : ':cross')));
 navigation.addEventListener('navigateerror', e => events.push('navigateerror:' + e.error.name));
 addEventListener('pagehide', () => sessionStorage.setItem('__result', JSON.stringify({ leftPage: true, events })));
 sessionStorage.removeItem('__result');
 startIndicator();
-window.__plan = ['wait 400', 'click #link', 'wait 4000'];
+window.__plan = q.get('how') === 'location' ? ['wait 5500'] : ['wait 400', (q.get('js') ? 'jsclick' : 'click') + ' #link', 'wait 4000'];
+if (q.get('how') === 'location') setTimeout(() => { location.href = document.getElementById('link').href; }, 1500);
 window.__result = { pending: true };
-setTimeout(() => { window.__result = { leftPage: false, url: location.pathname, events }; }, 400 + 3800);
+setTimeout(() => { window.__result = { leftPage: false, url: location.pathname, events }; }, q.get('how') === 'location' ? 5000 : 400 + 3800);
 </script>

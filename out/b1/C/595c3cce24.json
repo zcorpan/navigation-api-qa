@@ -1,0 +1,470 @@
+{
+ "id": "595c3cce24",
+ "page": "https://www.google.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 131,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 161,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 249
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 183,
+   "timeOrigin": 1793553548142,
+   "url": "https://www.google.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-AZyqenKmghpJxE-XphU6Fg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    }
+   ],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "link",
+   "href": "https://www.google.com/setprefs",
+   "click": "native",
+   "settle": 2.5,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 232,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 254,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 367
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:replaceState": 2,
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 131,
+      "url": "/"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 161,
+      "url": "/"
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 249
+     }
+    ],
+    "url": "https://www.google.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 183,
+   "timeOrigin": 1793553555238,
+   "url": "https://www.google.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-2pZ_vFUnjSzV0YveWClZ9Q' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    }
+   ],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 2
+   },
+   "docH": 8,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 10169
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793553548126,
+   "url": "about:blank",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3c4fd307aff9",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 2
+   },
+   "docH": 800,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 232,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 254,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 367
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5478
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:replaceState": 2,
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 232,
+      "url": "/"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 254,
+      "url": "/"
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 367
+     }
+    ],
+    "url": "https://www.google.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 183,
+   "timeOrigin": 1793553555238,
+   "url": "https://www.google.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-2pZ_vFUnjSzV0YveWClZ9Q' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    }
+   ],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 160
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:replaceState": 2,
+     "no-navigation": 1,
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 232,
+      "url": "/"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 254,
+      "url": "/"
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 367
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 5478
+     }
+    ],
+    "url": "https://www.google.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 183,
+   "timeOrigin": 1793553563426,
+   "url": "https://www.google.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-cW-mugl8k-WDvG1Q5xuwTA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    }
+   ],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 160
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2703,
+     "url": "https://www.google.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2709,
+     "url": "https://www.google.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 183,
+   "timeOrigin": 1793553563426,
+   "url": "https://www.google.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9dd36d818fcb",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 160
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2703,
+     "url": "https://www.google.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2709,
+     "url": "https://www.google.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5258,
+     "url": "https://www.google.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5258,
+     "url": "https://www.google.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 183,
+   "timeOrigin": 1793553563426,
+   "url": "https://www.google.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  }
+ ],
+ "plan": {
+  "link": "https://www.google.com/setprefs",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#L2AGLb",
+ "elapsed": 23.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

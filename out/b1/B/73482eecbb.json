@@ -1,0 +1,1161 @@
+{
+ "id": "73482eecbb",
+ "page": "https://www.mobile.de/consent/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10607,
+   "histLen": 14,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 296
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 296
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 296,
+     "url": "/consent/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 296,
+     "url": "https://www.mobile.de/consent/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/consent/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 296
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 299
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 299
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 309
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 481
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.mobile.de/consent/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "07b2c256-0481-4137-8863-174b11fae504",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.mobile.de/consent/",
+    "urlHash": "73482eecbb20"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 29577,
+   "timeOrigin": 1793554291195,
+   "url": "https://www.mobile.de/consent/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "73482eecbb20",
+   "titleHash": "f54aa8385e48"
+  },
+  {
+   "step": "link",
+   "href": "https://www.mobile.de/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:activation": 2,
+    "get:currentEntry": 3,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7004,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 274
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 274
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 274,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 274,
+     "url": "https://www.mobile.de/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 275
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://static.classistatic.de/consumer-webapp-next/_next/static/chunks/17t6qhrejht4e.js",
+     "k": "error",
+     "l": 1,
+     "t": 276
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 302
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 302
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 314
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 418
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.mobile.de/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 419
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 559
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.mobile.de/",
+     "entryIsCurrent": true,
+     "from": "https://www.mobile.de/consent/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "b5dbdf8d-bc2a-4ba5-b441-49fa67cddd62",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.mobile.de/",
+    "urlHash": "f870e9e308c2"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16129,
+   "timeOrigin": 1793554296039,
+   "url": "https://www.mobile.de/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    }
+   ],
+   "urlHash": "f870e9e308c2",
+   "titleHash": "e4e662501fab"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10607,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 146
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 146
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 146,
+     "url": "/consent/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 146,
+     "url": "https://www.mobile.de/consent/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/consent/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 146
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 154
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 154
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 161
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 192
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.mobile.de/consent/",
+     "entryIsCurrent": true,
+     "from": "https://www.mobile.de/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "07b2c256-0481-4137-8863-174b11fae504",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.mobile.de/consent/",
+    "urlHash": "73482eecbb20"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 29577,
+   "timeOrigin": 1793554299378,
+   "url": "https://www.mobile.de/consent/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "73482eecbb20",
+   "titleHash": "f54aa8385e48"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:activation": 2,
+    "get:currentEntry": 3,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7004,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 164
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 198
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 198
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 199,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 199,
+     "url": "https://www.mobile.de/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 199
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://static.classistatic.de/consumer-webapp-next/_next/static/chunks/17t6qhrejht4e.js",
+     "k": "error",
+     "l": 1,
+     "t": 199
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 236
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 236
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 246
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 318
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.mobile.de/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 318
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.mobile.de/",
+     "entryIsCurrent": true,
+     "from": "https://www.mobile.de/consent/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "b5dbdf8d-bc2a-4ba5-b441-49fa67cddd62",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.mobile.de/",
+    "urlHash": "f870e9e308c2"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16142,
+   "timeOrigin": 1793554302367,
+   "url": "https://www.mobile.de/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "f870e9e308c2",
+   "titleHash": "e4e662501fab"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:activation": 2,
+    "get:currentEntry": 3,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7004,
+   "histLen": 15,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 367
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 367
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 367,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 367,
+     "url": "https://www.mobile.de/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 367
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://static.classistatic.de/consumer-webapp-next/_next/static/chunks/17t6qhrejht4e.js",
+     "k": "error",
+     "l": 1,
+     "t": 368
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 403
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 403
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 414
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 610
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.mobile.de/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 610
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 626
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.mobile.de/",
+     "entryIsCurrent": true,
+     "from": "https://www.mobile.de/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "b5dbdf8d-bc2a-4ba5-b441-49fa67cddd62",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.mobile.de/",
+    "urlHash": "f870e9e308c2"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16129,
+   "timeOrigin": 1793554305490,
+   "url": "https://www.mobile.de/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "f870e9e308c2",
+   "titleHash": "e4e662501fab"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "error": 1,
+    "get:activation": 2,
+    "get:currentEntry": 4,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 7004,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 367
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 367
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 367,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 367,
+     "url": "https://www.mobile.de/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 367
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://static.classistatic.de/consumer-webapp-next/_next/static/chunks/17t6qhrejht4e.js",
+     "k": "error",
+     "l": 1,
+     "t": 368
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 403
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 403
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 414
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 610
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.mobile.de/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 610
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 626
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3197,
+     "url": "https://www.mobile.de/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3197
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3197,
+     "url": "https://www.mobile.de/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3198
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3198
+    },
+    {
+     "k": "hashchange",
+     "t": 3198,
+     "url": "https://www.mobile.de/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.mobile.de/",
+     "entryIsCurrent": false,
+     "from": "https://www.mobile.de/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "d1dac1e0-3037-4f9e-9e67-29ab245c6ac9",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.mobile.de/",
+    "urlHash": "d170624544e9"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16129,
+   "timeOrigin": 1793554305490,
+   "url": "https://www.mobile.de/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d170624544e9",
+   "titleHash": "e4e662501fab"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "error": 1,
+    "get:activation": 2,
+    "get:currentEntry": 6,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 7004,
+   "histLen": 16,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 367
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 367
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 367,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 367,
+     "url": "https://www.mobile.de/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 367
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://static.classistatic.de/consumer-webapp-next/_next/static/chunks/17t6qhrejht4e.js",
+     "k": "error",
+     "l": 1,
+     "t": 368
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 403
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 403
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 414
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 610
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.mobile.de/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 610
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 626
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3197,
+     "url": "https://www.mobile.de/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3197
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3197,
+     "url": "https://www.mobile.de/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3198
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3198
+    },
+    {
+     "k": "hashchange",
+     "t": 3198,
+     "url": "https://www.mobile.de/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5766,
+     "url": "https://www.mobile.de/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5766
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5766
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5766
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5766,
+     "url": "https://www.mobile.de/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5770,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5770,
+     "url": "https://www.mobile.de/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.mobile.de/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5770
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5771
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5771
+    },
+    {
+     "k": "hashchange",
+     "t": 5772,
+     "url": "https://www.mobile.de/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.mobile.de/",
+     "entryIsCurrent": true,
+     "from": "https://www.mobile.de/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "b5dbdf8d-bc2a-4ba5-b441-49fa67cddd62",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.mobile.de/",
+    "urlHash": "f870e9e308c2"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16129,
+   "timeOrigin": 1793554305490,
+   "url": "https://www.mobile.de/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f870e9e308c2",
+   "titleHash": "e4e662501fab"
+  }
+ ],
+ "plan": {
+  "link": "https://www.mobile.de/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 23.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

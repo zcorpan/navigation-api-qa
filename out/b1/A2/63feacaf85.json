@@ -1,0 +1,514 @@
+{
+ "id": "63feacaf85",
+ "page": "https://chronicguru.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://chronicguru.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793555630777.9,
+   "marker": null,
+   "histLen": 5,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6705,
+   "active": "H2#cg-gate-title",
+   "textLen": 7016,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://chronicguru.com/",
+    "key": "89dc52d9-09e2-4e07-8c94-8715712fb919",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://chronicguru.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "63feacaf857f"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 503
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"cgv2\":1}}]",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+      "at z (https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js",
+      "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js"
+     ],
+     "t": 504
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://chronicguru.com/",
+     "t": 504
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js",
+      "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js"
+     ],
+     "t": 504
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 855
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "call:updateCurrentEntry": 1,
+    "currententrychange": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Scripts that have a dependency on [wc-settings, wc-blocks-checkout] must be loaded in the footer, klaviyo-klaviyo-checkout-block-editor-script was registered to load in the header, but has been switched to load in the footer instead. See https://github.com/woocommerce/woocommerce-gutenberg-products-"
+    },
+    {
+     "k": "console-warning",
+     "e": "Scripts that have a dependency on [wc-settings, wc-blocks-checkout] must be loaded in the footer, klaviyo-klaviyo-checkout-block-view-script was registered to load in the header, but has been switched to load in the footer instead. See https://github.com/woocommerce/woocommerce-gutenberg-products-bl"
+    }
+   ],
+   "urlHash": "63feacaf857f",
+   "titleHash": "da353d43e580"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "url": "https://chronicguru.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793555637447,
+   "marker": null,
+   "histLen": 5,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6705,
+   "active": "H2#cg-gate-title",
+   "textLen": 7016,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://chronicguru.com/",
+    "key": "89dc52d9-09e2-4e07-8c94-8715712fb919",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://chronicguru.com/",
+     "from": "https://chronicguru.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "63feacaf857f"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 19
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js",
+      "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js"
+     ],
+     "t": 19
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 76
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://chronicguru.com/",
+    "log": [
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 503
+     },
+     {
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "a": "[{\"state\":{\"cgv2\":1}}]",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as updateCurrentEntry] (<anonymous>:53:79)",
+       "at z (https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js",
+       "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js"
+      ],
+      "t": 504
+     },
+     {
+      "k": "currententrychange",
+      "m": null,
+      "from": "https://chronicguru.com/",
+      "t": 504
+     },
+     {
+      "k": "listen",
+      "m": "currententrychange",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js",
+       "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js"
+      ],
+      "t": 504
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 855
+     }
+    ],
+    "counts": {
+     "get:currentEntry": 1,
+     "call:updateCurrentEntry": 1,
+     "currententrychange": 1,
+     "listen:currententrychange": 1,
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Scripts that have a dependency on [wc-settings, wc-blocks-checkout] must be loaded in the footer, klaviyo-klaviyo-checkout-block-editor-script was registered to load in the header, but has been switched to load in the footer instead. See https://github.com/woocommerce/woocommerce-gutenberg-products-"
+    },
+    {
+     "k": "console-warning",
+     "e": "Scripts that have a dependency on [wc-settings, wc-blocks-checkout] must be loaded in the footer, klaviyo-klaviyo-checkout-block-view-script was registered to load in the header, but has been switched to load in the footer instead. See https://github.com/woocommerce/woocommerce-gutenberg-products-bl"
+    }
+   ],
+   "urlHash": "63feacaf857f",
+   "titleHash": "da353d43e580"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "url": "https://chronicguru.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793555637447,
+   "marker": "m4",
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6705,
+   "active": "H2#cg-gate-title",
+   "textLen": 7016,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://chronicguru.com/",
+    "key": "f1a6e649-9a23-4390-a1d7-f7f16f89b685",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://chronicguru.com/",
+     "from": "https://chronicguru.com/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "d3d28120ec6a"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 19
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js",
+      "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js"
+     ],
+     "t": 19
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 76
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://chronicguru.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2805,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://chronicguru.com/",
+     "t": 2806
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2806
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://chronicguru.com/",
+     "t": 2806
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2807
+    },
+    {
+     "k": "hashchange",
+     "url": "https://chronicguru.com/",
+     "t": 2807
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:currententrychange": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d3d28120ec6a",
+   "titleHash": "da353d43e580"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://chronicguru.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793555637447,
+   "marker": "m5",
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6705,
+   "active": "H2#cg-gate-title",
+   "textLen": 7016,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://chronicguru.com/",
+    "key": "89dc52d9-09e2-4e07-8c94-8715712fb919",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://chronicguru.com/",
+     "from": "https://chronicguru.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "63feacaf857f"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 19
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js",
+      "at https://chronicguru.com/wp-content/themes/chronicguru/assets/js/v2/v2-app.min.js"
+     ],
+     "t": 19
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 76
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://chronicguru.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2805,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://chronicguru.com/",
+     "t": 2806
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2806
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://chronicguru.com/",
+     "t": 2806
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2807
+    },
+    {
+     "k": "hashchange",
+     "url": "https://chronicguru.com/",
+     "t": 2807
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://chronicguru.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5552,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://chronicguru.com/",
+     "t": 5553
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5553
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5554
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://chronicguru.com/",
+     "t": 5554
+    },
+    {
+     "k": "hashchange",
+     "url": "https://chronicguru.com/",
+     "t": 5555
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 3,
+    "listen:currententrychange": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "63feacaf857f",
+   "titleHash": "da353d43e580"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 16.0,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

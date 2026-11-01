@@ -1,0 +1,696 @@
+{
+ "id": "b91e92c3a5",
+ "page": "https://edu.web.nhk/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 1379,
+   "histLen": 4,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 588
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 598
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 598
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 598,
+     "url": "/school/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 598,
+     "url": "https://edu.web.nhk/school/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://edu.web.nhk/school/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 598
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 603
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 603
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 607
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://edu.web.nhk/school/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "e39874c6-5b7a-4f71-9abb-2891602af9ba",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://edu.web.nhk/school/",
+    "urlHash": "c19fc1012907"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 580,
+   "timeOrigin": 1793562540330,
+   "url": "https://edu.web.nhk/school/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "c19fc1012907",
+   "titleHash": "c7c03998ae8e"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 1379,
+   "histLen": 4,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 337
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 347
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 347
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 347,
+     "url": "/school/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 347,
+     "url": "https://edu.web.nhk/school/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://edu.web.nhk/school/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 347
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 351
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 351
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 353
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://edu.web.nhk/school/",
+     "entryIsCurrent": true,
+     "from": "https://edu.web.nhk/school/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "e39874c6-5b7a-4f71-9abb-2891602af9ba",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://edu.web.nhk/school/",
+    "urlHash": "c19fc1012907"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "get:activation": 2,
+     "get:currentEntry": 2,
+     "history:replaceState": 1,
+     "navigate:replace": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 588
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 598
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 598
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 598,
+      "url": "/school/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 598,
+      "url": "https://edu.web.nhk/school/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://edu.web.nhk/school/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 598
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 603
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 603
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 607
+     }
+    ],
+    "url": "https://edu.web.nhk/school/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 580,
+   "timeOrigin": 1793562545124,
+   "url": "https://edu.web.nhk/school/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "c19fc1012907",
+   "titleHash": "c7c03998ae8e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 1379,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 337
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 347
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 347
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 347,
+     "url": "/school/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 347,
+     "url": "https://edu.web.nhk/school/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://edu.web.nhk/school/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 347
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 351
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 351
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 353
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2900,
+     "url": "https://edu.web.nhk/school/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://edu.web.nhk/school/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2900
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2900,
+     "url": "https://edu.web.nhk/school/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2900
+    },
+    {
+     "k": "hashchange",
+     "t": 2900,
+     "url": "https://edu.web.nhk/school/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://edu.web.nhk/school/",
+     "entryIsCurrent": false,
+     "from": "https://edu.web.nhk/school/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "7d7a62a2-a4db-4511-b66b-3141540662f3",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://edu.web.nhk/school/",
+    "urlHash": "2f53b4a23fb1"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 580,
+   "timeOrigin": 1793562545124,
+   "url": "https://edu.web.nhk/school/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "2f53b4a23fb1",
+   "titleHash": "c7c03998ae8e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 1379,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 337
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 347
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 347
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 347,
+     "url": "/school/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 347,
+     "url": "https://edu.web.nhk/school/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://edu.web.nhk/school/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 347
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 351
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 351
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 353
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2900,
+     "url": "https://edu.web.nhk/school/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://edu.web.nhk/school/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2900
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2900,
+     "url": "https://edu.web.nhk/school/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2900
+    },
+    {
+     "k": "hashchange",
+     "t": 2900,
+     "url": "https://edu.web.nhk/school/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5528,
+     "url": "https://edu.web.nhk/school/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://edu.web.nhk/school/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5533
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5533
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5533,
+     "url": "https://edu.web.nhk/school/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5541,
+     "url": "/school/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5541,
+     "url": "https://edu.web.nhk/school/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://edu.web.nhk/school/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5542
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5543
+    },
+    {
+     "k": "hashchange",
+     "t": 5545,
+     "url": "https://edu.web.nhk/school/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://edu.web.nhk/school/",
+     "entryIsCurrent": true,
+     "from": "https://edu.web.nhk/school/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "e39874c6-5b7a-4f71-9abb-2891602af9ba",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://edu.web.nhk/school/",
+    "urlHash": "c19fc1012907"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 580,
+   "timeOrigin": 1793562545124,
+   "url": "https://edu.web.nhk/school/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "c19fc1012907",
+   "titleHash": "c7c03998ae8e"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 13.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

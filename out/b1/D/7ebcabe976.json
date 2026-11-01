@@ -1,0 +1,614 @@
+{
+ "id": "7ebcabe976",
+ "page": "https://www.tokyo-sports.co.jp/",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 13,
+   "url": "https://www.tokyo-sports.co.jp/",
+   "log": [],
+   "docH": 11307,
+   "marker": null,
+   "timeOrigin": 1793563539839,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 7765,
+   "nav": {
+    "url": "https://www.tokyo-sports.co.jp/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "d252fd7f-733b-498e-a334-6f1ad5b6f493",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.tokyo-sports.co.jp/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "7ebcabe97617"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "7ebcabe97617",
+   "titleHash": "d4567ef0acbf"
+  },
+  {
+   "step": "link",
+   "href": "https://www.tokyo-sports.co.jp/list/entame",
+   "click": "js",
+   "settle": 4.4,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 14,
+   "url": "https://www.tokyo-sports.co.jp/list/entame",
+   "log": [],
+   "docH": 7876,
+   "marker": null,
+   "timeOrigin": 1793563551024,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.tokyo-sports.co.jp/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.tokyo-sports.co.jp/list/entame",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 769,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 4528,
+   "nav": {
+    "url": "https://www.tokyo-sports.co.jp/list/entame",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bf7738eb-3ccc-4eee-9c56-f11472374cb8",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.tokyo-sports.co.jp/list/entame",
+     "from": "https://www.tokyo-sports.co.jp/",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "6748009b8553"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "6748009b8553",
+   "titleHash": "ee683b850f04"
+  },
+  {
+   "step": "back",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 14,
+   "url": "https://www.tokyo-sports.co.jp/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 769,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 7630,
+     "persisted": true
+    },
+    {
+     "k": "error",
+     "f": "https://www.tokyo-sports.co.jp/",
+     "e": "TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
+     "l": 2,
+     "t": 8007
+    }
+   ],
+   "docH": 11307,
+   "marker": "m0",
+   "timeOrigin": 1793563539839,
+   "scrollX": 0,
+   "counts": {
+    "error": 1,
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.tokyo-sports.co.jp/list/entame",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.tokyo-sports.co.jp/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 1637,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 7765,
+   "nav": {
+    "url": "https://www.tokyo-sports.co.jp/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "d252fd7f-733b-498e-a334-6f1ad5b6f493",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.tokyo-sports.co.jp/",
+     "from": "https://www.tokyo-sports.co.jp/list/entame",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "7ebcabe97617"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "7ebcabe97617",
+   "titleHash": "d4567ef0acbf"
+  },
+  {
+   "step": "forward",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "DIV",
+   "histLen": 14,
+   "url": "https://www.tokyo-sports.co.jp/list/entame",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://www.tokyo-sports.co.jp/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 1637,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 4817,
+     "persisted": true
+    }
+   ],
+   "docH": 7876,
+   "marker": "m1",
+   "timeOrigin": 1793563551024,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.tokyo-sports.co.jp/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.tokyo-sports.co.jp/list/entame",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 769,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 7630,
+      "persisted": true
+     },
+     {
+      "k": "error",
+      "f": "https://www.tokyo-sports.co.jp/",
+      "e": "TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
+      "l": 2,
+      "t": 8007
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.tokyo-sports.co.jp/list/entame",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 10050,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1,
+     "navigate:push": 1,
+     "error": 1
+    }
+   },
+   "textLen": 4588,
+   "nav": {
+    "url": "https://www.tokyo-sports.co.jp/list/entame",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bf7738eb-3ccc-4eee-9c56-f11472374cb8",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.tokyo-sports.co.jp/list/entame",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "6748009b8553"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "6748009b8553",
+   "titleHash": "ee683b850f04"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "DIV",
+   "histLen": 14,
+   "url": "https://www.tokyo-sports.co.jp/list/entame",
+   "log": [],
+   "docH": 7480,
+   "marker": null,
+   "timeOrigin": 1793563563036,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.tokyo-sports.co.jp/list/entame",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.tokyo-sports.co.jp/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 1637,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 4817,
+      "persisted": true
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 4596,
+   "nav": {
+    "url": "https://www.tokyo-sports.co.jp/list/entame",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "bf7738eb-3ccc-4eee-9c56-f11472374cb8",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.tokyo-sports.co.jp/list/entame",
+     "from": "https://www.tokyo-sports.co.jp/list/entame",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "6748009b8553"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "6748009b8553",
+   "titleHash": "ee683b850f04"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "DIV",
+   "histLen": 15,
+   "url": "https://www.tokyo-sports.co.jp/list/entame",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 338,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 341,
+     "m": "push",
+     "from": "https://www.tokyo-sports.co.jp/list/entame"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 341
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 342
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "t": 342
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "t": 342
+    }
+   ],
+   "docH": 7480,
+   "marker": "m4",
+   "timeOrigin": 1793563563036,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 4596,
+   "nav": {
+    "url": "https://www.tokyo-sports.co.jp/list/entame",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "0a7946ed-7277-451d-a04e-2feece188b8e",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.tokyo-sports.co.jp/list/entame",
+     "from": "https://www.tokyo-sports.co.jp/list/entame",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "623afc70f715"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "623afc70f715",
+   "titleHash": "ee683b850f04"
+  },
+  {
+   "step": "back2",
+   "settle": 2.9,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "DIV",
+   "histLen": 15,
+   "url": "https://www.tokyo-sports.co.jp/list/entame",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 338,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 341,
+     "m": "push",
+     "from": "https://www.tokyo-sports.co.jp/list/entame"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 341
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 342
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "t": 342
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "t": 342
+    },
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 3374,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 3375,
+     "m": "traverse",
+     "from": "https://www.tokyo-sports.co.jp/list/entame"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3375
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3375
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "t": 3375
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.tokyo-sports.co.jp/list/entame",
+     "t": 3376
+    }
+   ],
+   "docH": 7480,
+   "marker": "m5",
+   "timeOrigin": 1793563563036,
+   "scrollX": 0,
+   "counts": {
+    "get:currentEntry": 2,
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 2,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 4596,
+   "nav": {
+    "url": "https://www.tokyo-sports.co.jp/list/entame",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "bf7738eb-3ccc-4eee-9c56-f11472374cb8",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.tokyo-sports.co.jp/list/entame",
+     "from": "https://www.tokyo-sports.co.jp/list/entame",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "6748009b8553"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "6748009b8553",
+   "titleHash": "ee683b850f04"
+  }
+ ],
+ "plan": {
+  "link": "https://www.tokyo-sports.co.jp/list/entame",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 34.0,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

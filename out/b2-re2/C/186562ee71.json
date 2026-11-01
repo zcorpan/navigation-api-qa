@@ -1,0 +1,954 @@
+{
+ "id": "186562ee71",
+ "page": "https://www.rogers.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9431,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 664,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 665,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 666
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5903,
+   "timeOrigin": 1793568003434,
+   "url": "https://www.rogers.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cPIM-SESSION-ID\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "LAUNCH ERROR: Rule: GA4 TypeError: can't access property \"indexOf\", y is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cs_ac\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cMC_AUDIENCES\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cat_rogerscommunicaitonp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "186562ee718b",
+   "titleHash": "171ac0154f09"
+  },
+  {
+   "step": "link",
+   "href": "https://www.rogers.com/business",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5081,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 917
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1111,
+     "url": "/business?icid=R_COR_JOR_VQDWTJ"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1959,
+   "timeOrigin": 1793568008556,
+   "url": "https://www.rogers.com/business",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://ads.reddit.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.google.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://m.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cs_ac\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cat_rogerscommunicaitonp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn2\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn3\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid_r\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_screload\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "d1131ad87e56",
+   "titleHash": "dbba31e140a6"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.rogers.com/business/promotions/small-business-month",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5319,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 331,
+     "url": "/business/promotions/small-business-month?icid=SMB_INT__LQNNLM"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2378
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3519,
+   "timeOrigin": 1793568012230,
+   "url": "https://www.rogers.com/business/promotions/small-business-month",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "ERROR TypeError: \"\" is not a non-null object"
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR TypeError: \"\" is not a non-null object"
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR TypeError: \"\" is not a non-null object"
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR TypeError: \"\" is not a non-null object"
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR TypeError: \"\" is not a non-null object"
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cs_ac\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn2\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn3\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid_r\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cat_rogerscommunicaitonp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_screload\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://ads.reddit.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.google.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://m.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    }
+   ],
+   "urlHash": "8494c5daf432",
+   "titleHash": "251f61a2f8ce"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5935,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 317,
+     "url": "/business?icid=R_COR_JOR_VQDWTJ"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1306
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2804,
+   "timeOrigin": 1793568017289,
+   "url": "https://www.rogers.com/business",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cs_ac\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn2\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn3\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid_r\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cat_rogerscommunicaitonp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_screload\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://ads.reddit.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.google.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://m.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    }
+   ],
+   "urlHash": "d1131ad87e56",
+   "titleHash": "dbba31e140a6"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9431,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 462,
+     "url": "/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 463,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 465
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5903,
+   "timeOrigin": 1793568021180,
+   "url": "https://www.rogers.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://ads.reddit.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cs_ac\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cMC_AUDIENCES\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cat_rogerscommunicaitonp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.google.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://m.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    }
+   ],
+   "urlHash": "186562ee718b",
+   "titleHash": "171ac0154f09"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5081,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 638,
+     "url": "/business?icid=R_COR_JOR_VQDWTJ"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1280
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1959,
+   "timeOrigin": 1793568024304,
+   "url": "https://www.rogers.com/business",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cs_ac\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn2\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn3\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid_r\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cat_rogerscommunicaitonp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_screload\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://ads.reddit.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.google.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://m.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    }
+   ],
+   "urlHash": "d1131ad87e56",
+   "titleHash": "dbba31e140a6"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5935,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 711,
+     "url": "/business?icid=R_COR_JOR_VQDWTJ"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 7011
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2804,
+   "timeOrigin": 1793568028303,
+   "url": "https://www.rogers.com/business",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cs_ac\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn2\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_schn3\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_scid_r\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cat_rogerscommunicaitonp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_screload\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://ads.reddit.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.google.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://www.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://m.youtube.com\u2019) does not match the recipient window\u2019s origin (\u2018https://www.rogers.com\u2019)."
+    }
+   ],
+   "urlHash": "d1131ad87e56",
+   "titleHash": "dbba31e140a6"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 5935,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 711,
+     "url": "/business?icid=R_COR_JOR_VQDWTJ"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 7011
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9587,
+     "url": "https://www.rogers.com/business"
+    },
+    {
+     "k": "hashchange",
+     "t": 9600,
+     "url": "https://www.rogers.com/business"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 9784,
+     "url": "/business?icid=R_COR_JOR_VQDWTJ#navqa-frag"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2804,
+   "timeOrigin": 1793568028303,
+   "url": "https://www.rogers.com/business",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "32ec2a2cc93f",
+   "titleHash": "dbba31e140a6"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 3,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 5935,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 711,
+     "url": "/business?icid=R_COR_JOR_VQDWTJ"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 7011
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9587,
+     "url": "https://www.rogers.com/business"
+    },
+    {
+     "k": "hashchange",
+     "t": 9600,
+     "url": "https://www.rogers.com/business"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 9784,
+     "url": "/business?icid=R_COR_JOR_VQDWTJ#navqa-frag"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12209,
+     "url": "https://www.rogers.com/business"
+    },
+    {
+     "k": "hashchange",
+     "t": 12224,
+     "url": "https://www.rogers.com/business"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 12405,
+     "url": "/business?icid=R_COR_JOR_VQDWTJ"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2804,
+   "timeOrigin": 1793568028303,
+   "url": "https://www.rogers.com/business",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d1131ad87e56",
+   "titleHash": "dbba31e140a6"
+  }
+ ],
+ "plan": {
+  "link": "https://www.rogers.com/business",
+  "link2": "https://www.rogers.com/business/promotions/small-business-month",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 39.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

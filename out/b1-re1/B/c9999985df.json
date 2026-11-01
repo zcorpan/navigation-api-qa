@@ -1,0 +1,680 @@
+{
+ "id": "c9999985df",
+ "page": "https://www.kupi.cz/letak/billa-velky-letak-293",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 8985,
+   "histLen": 11,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 326
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 326
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 331
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 388
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.kupi.cz/letak/billa-velky-letak-293",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "1382b76b-a21e-4c3a-93e5-699250bb26ff",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.kupi.cz/letak/billa-velky-letak-293",
+    "urlHash": "c9999985df9a"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1720,
+   "timeOrigin": 1793561746081,
+   "url": "https://www.kupi.cz/letak/billa-velky-letak-293",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[247 log] ERROR [1203] (Resource): Could not load hls.js SDK. Attempting to play a stream of type application/vnd.apple.mpegurl default Object(2)"
+    }
+   ],
+   "urlHash": "c9999985df9a",
+   "titleHash": "2d71615969a8"
+  },
+  {
+   "step": "link",
+   "href": "https://www.kupi.cz/",
+   "click": "native",
+   "settle": 3.1,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 3,
+    "history:replaceState": 3,
+    "navigate:replace": 3,
+    "navigateerror": 2,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 806,
+   "histLen": 12,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 340,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 340,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 340
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 341,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 341
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 341,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 341
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 341,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 342
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 342,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 342
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 343
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 814
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "replace"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "6e5eb9ed-6f90-4b94-b133-439d27e06717",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+    "urlHash": "97dc81fc10c5"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793561752432,
+   "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ciad\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "The loading of \u201chttps://www.kupi.cz/\u201d in a frame is denied by \u201cX-Frame-Options\u201c directive set to \u201csameorigin\u201c."
+    }
+   ],
+   "urlHash": "97dc81fc10c5",
+   "titleHash": "115f611f26ac"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 8985,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 82
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 95
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 95
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 176
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.kupi.cz/letak/billa-velky-letak-293",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "1382b76b-a21e-4c3a-93e5-699250bb26ff",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.kupi.cz/letak/billa-velky-letak-293",
+    "urlHash": "c9999985df9a"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1720,
+   "timeOrigin": 1793561754643,
+   "url": "https://www.kupi.cz/letak/billa-velky-letak-293",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "c9999985df9a",
+   "titleHash": "2d71615969a8"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 12,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 39
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "6e5eb9ed-6f90-4b94-b133-439d27e06717",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+    "urlHash": "97dc81fc10c5"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793561757407,
+   "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "97dc81fc10c5",
+   "titleHash": "115f611f26ac"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 12,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 314
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "entryIsCurrent": true,
+     "from": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "6e5eb9ed-6f90-4b94-b133-439d27e06717",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+    "urlHash": "97dc81fc10c5"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 39
+     }
+    ],
+    "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793561760061,
+   "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "97dc81fc10c5",
+   "titleHash": "115f611f26ac"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 314
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2884,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2884
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2884,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2884
+    },
+    {
+     "k": "hashchange",
+     "t": 2884,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "entryIsCurrent": false,
+     "from": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "1c638291-469d-4a3c-b17a-9f431bf923d2",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+    "urlHash": "90736b5313ca"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793561760061,
+   "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "90736b5313ca",
+   "titleHash": "115f611f26ac"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 13,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 314
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2884,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2884
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2884,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2884
+    },
+    {
+     "k": "hashchange",
+     "t": 2884,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5448,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5448
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5448
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5449,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5449,
+     "url": "https://www.seznam.cz/nastaveni-souhlasu/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "entryIsCurrent": true,
+     "from": "https://www.seznam.cz/nastaveni-souhlasu/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "6e5eb9ed-6f90-4b94-b133-439d27e06717",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+    "urlHash": "97dc81fc10c5"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793561760061,
+   "url": "https://www.seznam.cz/nastaveni-souhlasu/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "97dc81fc10c5",
+   "titleHash": "115f611f26ac"
+  }
+ ],
+ "plan": {
+  "link": "https://www.kupi.cz/",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 22.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

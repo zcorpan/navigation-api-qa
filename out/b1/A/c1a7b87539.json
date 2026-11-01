@@ -1,0 +1,1430 @@
+{
+ "id": "c1a7b87539",
+ "page": "https://oantagonista.com.br/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://oantagonista.com.br/",
+   "readyState": "complete",
+   "timeOrigin": 1793553090725.5,
+   "marker": null,
+   "histLen": 16,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6672,
+   "active": "BODY",
+   "textLen": 10798,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://oantagonista.com.br/",
+    "key": "29fcaae8-f47c-4146-b1a9-a261e838c171",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://oantagonista.com.br/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "c1a7b87539bf"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 126
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 126
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+     "f": "https://oantagonista.com.br/app/themes/nautilus/public/js/app.js",
+     "l": 1,
+     "t": 497
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 674,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 678,
+     "len": 1
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of null (reading 'style')",
+     "f": "https://oantagonista.com.br/",
+     "l": 2596,
+     "t": 733
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of null (reading 'querySelectorAll')",
+     "f": "https://oantagonista.com.br/app/themes/nautilus/public/js/home.js",
+     "l": 1,
+     "t": 734
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 1028
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 1029
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1161
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "error": 5,
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled and not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters"
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'style')"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'querySelectorAll')"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "console-warning",
+     "e": "Live n\u00e3o ativada: Dia n\u00e3o est\u00e1 inclu\u00eddo em live_days"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 552637742366794 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 1178464592861102 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-warning",
+     "e": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either t"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to script at 'https://www.gstatic.com/mysidia/8be3d52a9ea300037ab0bb6760f29c1c.js' from origin 'https://0595a5773b17d346c2187c82e1d3bdea.safeframe.googlesyndication.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is pr"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    }
+   ],
+   "urlHash": "c1a7b87539bf",
+   "titleHash": "76173bd9cc69"
+  },
+  {
+   "step": "link",
+   "href": "https://oantagonista.com.br/ultimas-noticias/",
+   "click": "native",
+   "settle": 2.6,
+   "url": "https://oantagonista.com.br/ultimas-noticias/",
+   "readyState": "complete",
+   "timeOrigin": 1793553099152.3,
+   "marker": null,
+   "histLen": 17,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4314,
+   "active": "BODY",
+   "textLen": 6455,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://oantagonista.com.br/ultimas-noticias/",
+    "key": "cf899f0d-690f-4b7d-95c5-ffddb486c0c2",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://oantagonista.com.br/ultimas-noticias/",
+     "from": "https://oantagonista.com.br/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "170acc7b77ce"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 48
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 49
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 82,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 85,
+     "len": 2
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+     "f": "https://oantagonista.com.br/app/themes/nautilus/public/js/app.js",
+     "l": 1,
+     "t": 193
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of null (reading 'style')",
+     "f": "https://oantagonista.com.br/ultimas-noticias/",
+     "l": 1481,
+     "t": 200
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 421
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 695
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 695
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 715
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 2,
+    "error": 5,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'style')"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 552637742366794 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 1178464592861102 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "pageerror",
+     "e": "t.select2 is not a function"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "170acc7b77ce",
+   "titleHash": "76173bd9cc69"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "url": "https://oantagonista.com.br/",
+   "readyState": "complete",
+   "timeOrigin": 1793553101864.8,
+   "marker": null,
+   "histLen": 17,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6702,
+   "active": "BODY",
+   "textLen": 10776,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://oantagonista.com.br/",
+    "key": "29fcaae8-f47c-4146-b1a9-a261e838c171",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://oantagonista.com.br/",
+     "from": "https://oantagonista.com.br/ultimas-noticias/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "c1a7b87539bf"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 26
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 27
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+     "f": "https://oantagonista.com.br/app/themes/nautilus/public/js/app.js",
+     "l": 1,
+     "t": 27
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of null (reading 'style')",
+     "f": "https://oantagonista.com.br/",
+     "l": 2596,
+     "t": 29
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of null (reading 'querySelectorAll')",
+     "f": "https://oantagonista.com.br/app/themes/nautilus/public/js/home.js",
+     "l": 1,
+     "t": 29
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 121
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 121
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 177,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 180,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 245
+    }
+   ],
+   "counts": {
+    "error": 5,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled and not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'style')"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'querySelectorAll')"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 552637742366794 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 1178464592861102 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-warning",
+     "e": "Live n\u00e3o ativada: Dia n\u00e3o est\u00e1 inclu\u00eddo em live_days"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "c1a7b87539bf",
+   "titleHash": "76173bd9cc69"
+  },
+  {
+   "step": "forward",
+   "settle": 2.7,
+   "url": "https://oantagonista.com.br/ultimas-noticias/",
+   "readyState": "complete",
+   "timeOrigin": 1793553104531.1,
+   "marker": null,
+   "histLen": 17,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4300,
+   "active": "BODY",
+   "textLen": 6433,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://oantagonista.com.br/ultimas-noticias/",
+    "key": "cf899f0d-690f-4b7d-95c5-ffddb486c0c2",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://oantagonista.com.br/ultimas-noticias/",
+     "from": "https://oantagonista.com.br/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "170acc7b77ce"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 18
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 19
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+     "f": "https://oantagonista.com.br/app/themes/nautilus/public/js/app.js",
+     "l": 1,
+     "t": 19
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of null (reading 'style')",
+     "f": "https://oantagonista.com.br/ultimas-noticias/",
+     "l": 1481,
+     "t": 19
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 57
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 57
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 86,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 88,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 221
+    }
+   ],
+   "counts": {
+    "error": 4,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'style')"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 552637742366794 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 1178464592861102 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hbopenbid.pubmatic.com/translator' from origin 'https://oantagonista.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    }
+   ],
+   "urlHash": "170acc7b77ce",
+   "titleHash": "76173bd9cc69"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://oantagonista.com.br/ultimas-noticias/",
+   "readyState": "complete",
+   "timeOrigin": 1793553107302.5,
+   "marker": null,
+   "histLen": 17,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4314,
+   "active": "BODY",
+   "textLen": 6455,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://oantagonista.com.br/ultimas-noticias/",
+    "key": "cf899f0d-690f-4b7d-95c5-ffddb486c0c2",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://oantagonista.com.br/ultimas-noticias/",
+     "from": "https://oantagonista.com.br/ultimas-noticias/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "170acc7b77ce"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 21
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 21
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 46,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 48,
+     "len": 2
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+     "f": "https://oantagonista.com.br/app/themes/nautilus/public/js/app.js",
+     "l": 1,
+     "t": 88
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of null (reading 'style')",
+     "f": "https://oantagonista.com.br/ultimas-noticias/",
+     "l": 1481,
+     "t": 108
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 170
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 568
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 568
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 2,
+    "error": 4,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'style')"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 552637742366794 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 1178464592861102 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of null (reading 'appendChild')"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    }
+   ],
+   "urlHash": "170acc7b77ce",
+   "titleHash": "76173bd9cc69"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://oantagonista.com.br/ultimas-noticias/",
+   "readyState": "complete",
+   "timeOrigin": 1793553107302.5,
+   "marker": "m4",
+   "histLen": 18,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4314,
+   "active": "BODY",
+   "textLen": 6455,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://oantagonista.com.br/ultimas-noticias/",
+    "key": "dbd6f61b-92ad-4c56-b1f6-d50c778ae455",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://oantagonista.com.br/ultimas-noticias/",
+     "from": "https://oantagonista.com.br/ultimas-noticias/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "882ad4b533b5"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 21
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 21
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 46,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 48,
+     "len": 2
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+     "f": "https://oantagonista.com.br/app/themes/nautilus/public/js/app.js",
+     "l": 1,
+     "t": 88
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of null (reading 'style')",
+     "f": "https://oantagonista.com.br/ultimas-noticias/",
+     "l": 1481,
+     "t": 108
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 170
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 568
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 568
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://oantagonista.com.br/ultimas-noticias/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2801,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://oantagonista.com.br/ultimas-noticias/",
+     "t": 2801
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://oantagonista.com.br/ultimas-noticias/",
+     "t": 2801
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2819
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2819
+    },
+    {
+     "k": "hashchange",
+     "url": "https://oantagonista.com.br/ultimas-noticias/",
+     "t": 2820
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "call:entries": 2,
+    "error": 4,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 552637742366794 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 1178464592861102 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    }
+   ],
+   "urlHash": "882ad4b533b5",
+   "titleHash": "76173bd9cc69"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "url": "https://oantagonista.com.br/ultimas-noticias/",
+   "readyState": "complete",
+   "timeOrigin": 1793553107302.5,
+   "marker": "m5",
+   "histLen": 18,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 4314,
+   "active": "BODY",
+   "textLen": 6455,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://oantagonista.com.br/ultimas-noticias/",
+    "key": "cf899f0d-690f-4b7d-95c5-ffddb486c0c2",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://oantagonista.com.br/ultimas-noticias/",
+     "from": "https://oantagonista.com.br/ultimas-noticias/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "170acc7b77ce"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 21
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 21
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 46,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 48,
+     "len": 2
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+     "f": "https://oantagonista.com.br/app/themes/nautilus/public/js/app.js",
+     "l": 1,
+     "t": 88
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of null (reading 'style')",
+     "f": "https://oantagonista.com.br/ultimas-noticias/",
+     "l": 1481,
+     "t": 108
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 170
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 568
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 568
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://oantagonista.com.br/ultimas-noticias/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2801,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://oantagonista.com.br/ultimas-noticias/",
+     "t": 2801
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://oantagonista.com.br/ultimas-noticias/",
+     "t": 2801
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2819
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2819
+    },
+    {
+     "k": "hashchange",
+     "url": "https://oantagonista.com.br/ultimas-noticias/",
+     "t": 2820
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://oantagonista.com.br/ultimas-noticias/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5441,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://oantagonista.com.br/ultimas-noticias/",
+     "t": 5441
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5441
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5441
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://oantagonista.com.br/ultimas-noticias/",
+     "t": 5441
+    },
+    {
+     "k": "hashchange",
+     "url": "https://oantagonista.com.br/ultimas-noticias/",
+     "t": 5463
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "call:entries": 2,
+    "error": 4,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 552637742366794 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta pixel] 1178464592861102 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."
+    }
+   ],
+   "urlHash": "170acc7b77ce",
+   "titleHash": "76173bd9cc69"
+  }
+ ],
+ "plan": {
+  "link": "https://oantagonista.com.br/ultimas-noticias/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 24.7,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

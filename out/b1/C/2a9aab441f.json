@@ -1,0 +1,834 @@
+{
+ "id": "2a9aab441f",
+ "page": "https://baseball.fantasysports.yahoo.com/b1",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY#yui_3_18_1_1_1793554675138_75",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2884,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 652
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4170,
+   "timeOrigin": 1793554674438,
+   "url": "https://baseball.fantasysports.yahoo.com/b1",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58746/sync"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58782/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.ta"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58692/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com a"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58699/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com abou"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58952/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com about:/"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://7032837eb56658113f0d7a7386c9802d.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://7032837eb56658113f0d7a7386c9802d.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.loader.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://7032837eb56658113f0d7a7386c9802d.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.animation.js was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://7032837eb56658113f0d7a7386c9802d.safeframe.googlesyndication.com/safeframe/1-0-45/html/styles/style.css\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://7032837eb56658113f0d7a7386c9802d.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.loader.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "SecurityError: Permission denied to access property \"addEventListener\" on cross-origin object"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://7032837eb56658113f0d7a7386c9802d.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.animation.js was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: Banner is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://7032837eb56658113f0d7a7386c9802d.safeframe.googlesyndication.com/safeframe/1-0-45/html/styles/style.css\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "SecurityError: Permission denied to access property \"addEventListener\" on cross-origin object"
+    }
+   ],
+   "urlHash": "2a9aab441fc7",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "link",
+   "href": "https://baseball.fantasysports.yahoo.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY#yui_3_18_1_1_1793554683074_75",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2724,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1063
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554682603,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Didomi - Failed to decode TCF consent string from cookies: <token>"
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cA1S\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "beb643a3294d",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY#yui_3_18_1_1_1793554686525_75",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2745,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 626
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554686496,
+   "url": "https://baseball.fantasysports.yahoo.com/b1",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58746/sync"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58782/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.ta"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58692/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com a"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58699/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com abou"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58952/cms because it violates the following directive: \u201cimg-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com about:/"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://01f4a79ab663a24d9b2ad6636668f824.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://01f4a79ab663a24d9b2ad6636668f824.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.loader.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://01f4a79ab663a24d9b2ad6636668f824.safeframe.googlesyndication.com/safeframe/1-0-45/html/js/banner.animation.js was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://01f4a79ab663a24d9b2ad6636668f824.safeframe.googlesyndication.com/safeframe/1-0-45/html/styles/style.css\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: Banner is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "SecurityError: Permission denied to access property \"addEventListener\" on cross-origin object"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "2a9aab441fc7",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY#yui_3_18_1_1_1793554689742_75",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2724,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 284
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554689711,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "SecurityError: Permission denied to access property \"addEventListener\" on cross-origin object"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Failed to execute \u2018postMessage\u2019 on \u2018DOMWindow\u2019: The target origin provided (\u2018https://ep2.adtrafficquality.google\u2019) does not match the recipient window\u2019s origin (\u2018https://baseball.fantasysports.yahoo.com\u2019)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://ep2.adtrafficquality.google/sodar/sodar2/257/runner.html. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 200."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The character encoding of the document was not declared, so the encoding was guessed from content. The character encoding needs to be declared in the Content-Type HTTP header, using a meta tag, or using a byte order mark."
+    },
+    {
+     "k": "pageerror",
+     "e": "The character encoding of the document was not declared, so the encoding was guessed from content. The character encoding needs to be declared in the Content-Type HTTP header, using a meta tag, or using a byte order mark."
+    },
+    {
+     "k": "pageerror",
+     "e": "The character encoding of the document was not declared, so the encoding was guessed from content. The character encoding needs to be declared in the Content-Type HTTP header, using a meta tag, or using a byte order mark."
+    },
+    {
+     "k": "pageerror",
+     "e": "The character encoding of the document was not declared, so the encoding was guessed from content. The character encoding needs to be declared in the Content-Type HTTP header, using a meta tag, or using a byte order mark."
+    },
+    {
+     "k": "pageerror",
+     "e": "The character encoding of the document was not declared, so the encoding was guessed from content. The character encoding needs to be declared in the Content-Type HTTP header, using a meta tag, or using a byte order mark."
+    },
+    {
+     "k": "pageerror",
+     "e": "The character encoding of the document was not declared, so the encoding was guessed from content. The character encoding needs to be declared in the Content-Type HTTP header, using a meta tag, or using a byte order mark."
+    }
+   ],
+   "urlHash": "beb643a3294d",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY#yui_3_18_1_1_1793554693083_75",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2884,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4960
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554692592,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Invalid X-Frame-Options header was found when loading \u201chttps://guce.yahoo.com/banners/pok-pre \u201cinvalid\u201d is not a valid directive."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__gads\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pbd.yahoo.com/ay/v3/impression-event"
+    }
+   ],
+   "urlHash": "beb643a3294d",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY#yui_3_18_1_1_1793554693083_75",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 2884,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4960
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7533,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 7534,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554692592,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3d5f06b02e13",
+   "titleHash": "46c8e684c83e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY#yui_3_18_1_1_1793554693083_75",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 2884,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4960
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7533,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 7534,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10119,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 10121,
+     "url": "https://baseball.fantasysports.yahoo.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4417,
+   "timeOrigin": 1793554692592,
+   "url": "https://baseball.fantasysports.yahoo.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "beb643a3294d",
+   "titleHash": "46c8e684c83e"
+  }
+ ],
+ "plan": {
+  "link": "https://baseball.fantasysports.yahoo.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 31.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

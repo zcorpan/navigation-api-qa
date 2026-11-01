@@ -1,0 +1,630 @@
+{
+ "id": "288dd1f1dd",
+ "page": "https://udn.com/news/story/6810/9814953",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 10,
+   "url": "https://udn.com/news/story/6810/9814953",
+   "log": [],
+   "docH": 11212,
+   "marker": null,
+   "timeOrigin": 1793563499922,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 4863,
+   "nav": {
+    "url": "https://udn.com/news/story/6810/9814953",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "881281fc-eb46-4a5c-9aca-f59a0b47f854",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://udn.com/news/story/6810/9814953",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "288dd1f1ddf5"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "288dd1f1ddf5",
+   "titleHash": "dafa95daee66"
+  },
+  {
+   "step": "link",
+   "href": "https://udn.com/news/index",
+   "click": "js",
+   "settle": 9.1,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 11,
+   "url": "https://udn.com/news/index",
+   "log": [],
+   "docH": 7436,
+   "marker": null,
+   "timeOrigin": 1793563513818,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://udn.com/news/story/6810/9814953",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://udn.com/news/index",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 500,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 4567,
+   "nav": {
+    "url": "https://udn.com/news/index",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "7bf3f762-7779-473a-be67-9aa449d97e98",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "from": "https://udn.com/news/story/6810/9814953",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "d9e10a191dd2"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "d9e10a191dd2",
+   "titleHash": "fa8d65e9bba7"
+  },
+  {
+   "step": "back",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 11,
+   "url": "https://udn.com/news/story/6810/9814953",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://udn.com/news/index",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 500,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 10841,
+     "persisted": true
+    },
+    {
+     "k": "error",
+     "f": "https://udn.com/news/story/6810/9814953",
+     "e": "TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
+     "l": 2,
+     "t": 11839
+    }
+   ],
+   "docH": 11212,
+   "marker": "m0",
+   "timeOrigin": 1793563499922,
+   "scrollX": 0,
+   "counts": {
+    "error": 1,
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://udn.com/news/index",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://udn.com/news/story/6810/9814953",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 270,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 4863,
+   "nav": {
+    "url": "https://udn.com/news/story/6810/9814953",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "881281fc-eb46-4a5c-9aca-f59a0b47f854",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://udn.com/news/story/6810/9814953",
+     "from": "https://udn.com/news/index",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "288dd1f1ddf5"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "288dd1f1ddf5",
+   "titleHash": "dafa95daee66"
+  },
+  {
+   "step": "forward",
+   "settle": 2.9,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 11,
+   "url": "https://udn.com/news/index",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://udn.com/news/story/6810/9814953",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 270,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3241,
+     "persisted": true
+    },
+    {
+     "k": "error",
+     "f": "https://udn.com/news/index",
+     "e": "TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
+     "l": 2,
+     "t": 3558
+    }
+   ],
+   "docH": 7436,
+   "marker": "m1",
+   "timeOrigin": 1793563513818,
+   "scrollX": 0,
+   "counts": {
+    "error": 1,
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://udn.com/news/story/6810/9814953",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://udn.com/news/index",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 500,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 10841,
+      "persisted": true
+     },
+     {
+      "k": "error",
+      "f": "https://udn.com/news/story/6810/9814953",
+      "e": "TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
+      "l": 2,
+      "t": 11839
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://udn.com/news/index",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 12712,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1,
+     "navigate:push": 1,
+     "error": 1
+    }
+   },
+   "textLen": 4567,
+   "nav": {
+    "url": "https://udn.com/news/index",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "7bf3f762-7779-473a-be67-9aa449d97e98",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "d9e10a191dd2"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "d9e10a191dd2",
+   "titleHash": "fa8d65e9bba7"
+  },
+  {
+   "step": "reload",
+   "settle": 2.9,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 11,
+   "url": "https://udn.com/news/index",
+   "log": [],
+   "docH": 7436,
+   "marker": null,
+   "timeOrigin": 1793563529247,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://udn.com/news/index",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://udn.com/news/story/6810/9814953",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 270,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3241,
+      "persisted": true
+     },
+     {
+      "k": "error",
+      "f": "https://udn.com/news/index",
+      "e": "TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
+      "l": 2,
+      "t": 3558
+     }
+    ],
+    "counts": {
+     "error": 1,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 4567,
+   "nav": {
+    "url": "https://udn.com/news/index",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "7bf3f762-7779-473a-be67-9aa449d97e98",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "from": "https://udn.com/news/index",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "d9e10a191dd2"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "d9e10a191dd2",
+   "titleHash": "fa8d65e9bba7"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 12,
+   "url": "https://udn.com/news/index",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://udn.com/news/index",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 119,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 120,
+     "m": "push",
+     "from": "https://udn.com/news/index"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 120
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 120
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://udn.com/news/index",
+     "t": 120
+    },
+    {
+     "k": "hashchange",
+     "url": "https://udn.com/news/index",
+     "t": 132
+    }
+   ],
+   "docH": 7436,
+   "marker": "m4",
+   "timeOrigin": 1793563529247,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 4567,
+   "nav": {
+    "url": "https://udn.com/news/index",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "d347fd56-2041-488c-8466-4d21cb92164b",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "from": "https://udn.com/news/index",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "5b6c693c165f"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5b6c693c165f",
+   "titleHash": "fa8d65e9bba7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 12,
+   "url": "https://udn.com/news/index",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://udn.com/news/index",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 119,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 120,
+     "m": "push",
+     "from": "https://udn.com/news/index"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 120
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 120
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://udn.com/news/index",
+     "t": 120
+    },
+    {
+     "k": "hashchange",
+     "url": "https://udn.com/news/index",
+     "t": 132
+    },
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://udn.com/news/index",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 3296,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 3297,
+     "m": "traverse",
+     "from": "https://udn.com/news/index"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3297
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3298
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://udn.com/news/index",
+     "t": 3298
+    },
+    {
+     "k": "hashchange",
+     "url": "https://udn.com/news/index",
+     "t": 3366
+    }
+   ],
+   "docH": 7436,
+   "marker": "m5",
+   "timeOrigin": 1793563529247,
+   "scrollX": 0,
+   "counts": {
+    "get:currentEntry": 2,
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 2,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 4567,
+   "nav": {
+    "url": "https://udn.com/news/index",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "7bf3f762-7779-473a-be67-9aa449d97e98",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://udn.com/news/index",
+     "from": "https://udn.com/news/index",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "d9e10a191dd2"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d9e10a191dd2",
+   "titleHash": "fa8d65e9bba7"
+  }
+ ],
+ "plan": {
+  "link": "https://udn.com/news/index",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 39.9,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

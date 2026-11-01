@@ -1,0 +1,36 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>intercept({scroll: "manual"}) on a same-URL replace navigation keeps the scroll position</title>
+<!--
+React DOM 19's default transition indicator calls navigation.navigate(currentEntry.url,
+{history: "replace", info: "react-transition"}) and intercepts it with scroll: "manual" and
+focusReset: "manual". Variants: ?history=push, ?scroll=after-transition (expected to scroll),
+?url=other (different URL), ?handler=sync (handler resolves immediately).
+-->
+<style>body { height: 5000px; }</style>
+<script>
+const q = new URLSearchParams(location.search);
+window.__result = { pending: true };
+const scrolls = [];
+addEventListener('scroll', () => scrolls.push(Math.round(scrollY)));
+navigation.addEventListener('navigate', e => {
+  if (e.info === 'test') e.intercept({
+    handler: () => new Promise(r => setTimeout(r, q.get('handler') === 'sync' ? 0 : 500)),
+    scroll: q.get('scroll') || 'manual', focusReset: 'manual',
+  });
+});
+onload = () => setTimeout(() => {
+  scrollTo(0, 600);
+  setTimeout(() => {
+    const before = Math.round(scrollY);
+    scrolls.length = 0;
+    const url = q.get('url') === 'other' ? location.pathname + '?other' : navigation.currentEntry.url;
+    const r = navigation.navigate(url, { info: 'test', history: q.get('history') || 'replace' });
+    let during;
+    setTimeout(() => { during = Math.round(scrollY); }, 200);
+    r.finished.then(() => setTimeout(() => {
+      window.__result = { before, during, after: Math.round(scrollY), scrollEvents: scrolls };
+    }, 200), e => { window.__result = { error: String(e) }; });
+  }, 300);
+}, 100);
+</script>

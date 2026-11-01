@@ -1,0 +1,270 @@
+{
+ "id": "a8b9ffd77c",
+ "page": "https://auth.uber.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "INPUT#PHONE_NUMBER_or_EMAIL_ADDRESS",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 137,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 341
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 190,
+   "timeOrigin": 1793562331528,
+   "url": "https://auth.uber.com/v2/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RW8X87VCC6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_RW8X87VCC6\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "0888ab3dee47",
+   "titleHash": "18d802fa8f6b"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "INPUT#PHONE_NUMBER_or_EMAIL_ADDRESS",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 26,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 213
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 190,
+   "timeOrigin": 1793562336492,
+   "url": "https://auth.uber.com/v2/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "0888ab3dee47",
+   "titleHash": "18d802fa8f6b"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "INPUT#PHONE_NUMBER_or_EMAIL_ADDRESS",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 27,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 213
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2776,
+     "url": "https://auth.uber.com/v2/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2780,
+     "url": "https://auth.uber.com/v2/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 190,
+   "timeOrigin": 1793562336492,
+   "url": "https://auth.uber.com/v2/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f581a4235628",
+   "titleHash": "18d802fa8f6b"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "INPUT#PHONE_NUMBER_or_EMAIL_ADDRESS",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 27,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 213
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2776,
+     "url": "https://auth.uber.com/v2/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2780,
+     "url": "https://auth.uber.com/v2/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5333,
+     "url": "https://auth.uber.com/v2/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5343,
+     "url": "https://auth.uber.com/v2/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 190,
+   "timeOrigin": 1793562336492,
+   "url": "https://auth.uber.com/v2/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0888ab3dee47",
+   "titleHash": "18d802fa8f6b"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 13.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

@@ -1,0 +1,1452 @@
+{
+ "id": "b6469724c9",
+ "page": "https://www.wrangler.in/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.wrangler.in/",
+   "readyState": "complete",
+   "timeOrigin": 1793555678508.7,
+   "marker": null,
+   "histLen": 5,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 1028,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.wrangler.in/",
+    "key": "afbfb8b1-dbb2-4fb7-aa37-31f791f0a21f",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.wrangler.in/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "b6469724c93c"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/:1194:37"
+     ],
+     "t": 52
+    },
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/:2687:31"
+     ],
+     "t": 53
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://www.wrangler.in/:2764:14"
+     ],
+     "t": 53
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": null,
+     "t": 244
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.wrangler.in/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 244,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.wrangler.in/",
+     "t": 245
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 247
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 249
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 3466,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 3513,
+     "len": 1
+    }
+   ],
+   "counts": {
+    "listen:onnavigate": 2,
+    "listen:navigate": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "call:entries": 2
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required ^git)"
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-error",
+     "e": "Warning: You are importing createRoot from \"react-dom\" which is not supported. You should instead import it from \"react-dom/client\"."
+    },
+    {
+     "k": "console-error",
+     "e": "[SW] Service worker registration failed SecurityError: Failed to register a ServiceWorker for scope ('https://www.wrangler.in/') with script ('https://www.wrangler.in/webpushr-sw.js'): The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Cannot access service worker file. Please confirm you have service worker file at  /webpushr-sw.js"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Unable to parse JSON-LD tag. Malformed JSON found: '{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":\"https://www.wrangler.in/\",\"name\":wrangler}]}'."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    }
+   ],
+   "urlHash": "b6469724c93c",
+   "titleHash": "a7ab9488c00e"
+  },
+  {
+   "step": "link",
+   "href": "https://www.wrangler.in/ss26",
+   "click": "native",
+   "settle": 2.6,
+   "url": "https://www.wrangler.in/ss26",
+   "readyState": "complete",
+   "timeOrigin": 1793555684316.7,
+   "marker": null,
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 839,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.wrangler.in/ss26",
+    "key": "2bc83730-e9b9-4ca5-a5eb-b8e32c14c6c1",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.wrangler.in/ss26",
+     "from": "https://www.wrangler.in/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "cbd597a00633"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:1194:37"
+     ],
+     "t": 6
+    },
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:2687:31"
+     ],
+     "t": 6
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://www.wrangler.in/ss26:2764:14"
+     ],
+     "t": 6
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": null,
+     "t": 45
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.wrangler.in/ss26",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 45,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.wrangler.in/ss26",
+     "t": 46
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 47
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 100
+    }
+   ],
+   "counts": {
+    "listen:onnavigate": 2,
+    "listen:navigate": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.wrangler.in/",
+    "log": [
+     {
+      "k": "listen",
+      "m": "onnavigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+       "at https://www.wrangler.in/:1194:37"
+      ],
+      "t": 52
+     },
+     {
+      "k": "listen",
+      "m": "onnavigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+       "at https://www.wrangler.in/:2687:31"
+      ],
+      "t": 53
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at https://www.wrangler.in/:2764:14"
+      ],
+      "t": 53
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 244
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.wrangler.in/",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 244,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.wrangler.in/",
+      "t": 245
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 247
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 249
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as entries] (<anonymous>:53:79)",
+       "at it (https://www.googletagmanager.com/gtag/js",
+       "at jt (https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 3466,
+      "len": 1
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as entries] (<anonymous>:53:79)",
+       "at it (https://www.googletagmanager.com/gtag/js",
+       "at jt (https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 3513,
+      "len": 1
+     },
+     {
+      "k": "navigate",
+      "m": "push",
+      "url": "https://www.wrangler.in/ss26",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": "A",
+      "t": 4469,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "listen:onnavigate": 2,
+     "listen:navigate": 1,
+     "history:replaceState": 1,
+     "navigate:replace": 1,
+     "currententrychange:replace": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1,
+     "call:entries": 2,
+     "navigate:push": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required ^git)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-error",
+     "e": "Warning: You are importing createRoot from \"react-dom\" which is not supported. You should instead import it from \"react-dom/client\"."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed parsing 'srcset' attribute value since it has an unknown descriptor."
+    },
+    {
+     "k": "console-warning",
+     "e": "Dropped srcset candidate \"out\""
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed parsing 'srcset' attribute value since it has an unknown descriptor."
+    },
+    {
+     "k": "console-warning",
+     "e": "Dropped srcset candidate \"out\""
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-error",
+     "e": "[SW] Service worker registration failed SecurityError: Failed to register a ServiceWorker for scope ('https://www.wrangler.in/') with script ('https://www.wrangler.in/webpushr-sw.js'): The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Cannot access service worker file. Please confirm you have service worker file at  /webpushr-sw.js"
+    }
+   ],
+   "urlHash": "cbd597a00633",
+   "titleHash": "fc98eeb5821c"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "url": "https://www.wrangler.in/",
+   "readyState": "complete",
+   "timeOrigin": 1793555686928.7,
+   "marker": null,
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 1028,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.wrangler.in/",
+    "key": "afbfb8b1-dbb2-4fb7-aa37-31f791f0a21f",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.wrangler.in/",
+     "from": "https://www.wrangler.in/ss26",
+     "entryIsCurrent": true
+    },
+    "urlHash": "b6469724c93c"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/:1194:37"
+     ],
+     "t": 3
+    },
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/:2687:31"
+     ],
+     "t": 4
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://www.wrangler.in/:2764:14"
+     ],
+     "t": 4
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 67
+    }
+   ],
+   "counts": {
+    "listen:onnavigate": 2,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.wrangler.in/ss26",
+    "log": [
+     {
+      "k": "listen",
+      "m": "onnavigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+       "at https://www.wrangler.in/ss26:1194:37"
+      ],
+      "t": 6
+     },
+     {
+      "k": "listen",
+      "m": "onnavigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+       "at https://www.wrangler.in/ss26:2687:31"
+      ],
+      "t": 6
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at https://www.wrangler.in/ss26:2764:14"
+      ],
+      "t": 6
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 45
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.wrangler.in/ss26",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 45,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.wrangler.in/ss26",
+      "t": 46
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 47
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 100
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.wrangler.in/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 1497,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "listen:onnavigate": 2,
+     "listen:navigate": 1,
+     "history:replaceState": 1,
+     "navigate:replace": 1,
+     "currententrychange:replace": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required ^git)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-error",
+     "e": "Warning: You are importing createRoot from \"react-dom\" which is not supported. You should instead import it from \"react-dom/client\"."
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-error",
+     "e": "[SW] Service worker registration failed SecurityError: Failed to register a ServiceWorker for scope ('https://www.wrangler.in/') with script ('https://www.wrangler.in/webpushr-sw.js'): The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Cannot access service worker file. Please confirm you have service worker file at  /webpushr-sw.js"
+    }
+   ],
+   "urlHash": "b6469724c93c",
+   "titleHash": "a7ab9488c00e"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "url": "https://www.wrangler.in/ss26",
+   "readyState": "complete",
+   "timeOrigin": 1793555689638,
+   "marker": null,
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 839,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.wrangler.in/ss26",
+    "key": "2bc83730-e9b9-4ca5-a5eb-b8e32c14c6c1",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.wrangler.in/ss26",
+     "from": "https://www.wrangler.in/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "cbd597a00633"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:1194:37"
+     ],
+     "t": 3
+    },
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:2687:31"
+     ],
+     "t": 3
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://www.wrangler.in/ss26:2764:14"
+     ],
+     "t": 3
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 61
+    }
+   ],
+   "counts": {
+    "listen:onnavigate": 2,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.wrangler.in/",
+    "log": [
+     {
+      "k": "listen",
+      "m": "onnavigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+       "at https://www.wrangler.in/:1194:37"
+      ],
+      "t": 3
+     },
+     {
+      "k": "listen",
+      "m": "onnavigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+       "at https://www.wrangler.in/:2687:31"
+      ],
+      "t": 4
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at https://www.wrangler.in/:2764:14"
+      ],
+      "t": 4
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 67
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.wrangler.in/ss26",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2703,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "listen:onnavigate": 2,
+     "listen:navigate": 1,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required ^git)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-error",
+     "e": "Warning: You are importing createRoot from \"react-dom\" which is not supported. You should instead import it from \"react-dom/client\"."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed parsing 'srcset' attribute value since it has an unknown descriptor."
+    },
+    {
+     "k": "console-warning",
+     "e": "Dropped srcset candidate \"out\""
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed parsing 'srcset' attribute value since it has an unknown descriptor."
+    },
+    {
+     "k": "console-warning",
+     "e": "Dropped srcset candidate \"out\""
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-error",
+     "e": "[SW] Service worker registration failed SecurityError: Failed to register a ServiceWorker for scope ('https://www.wrangler.in/') with script ('https://www.wrangler.in/webpushr-sw.js'): The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Cannot access service worker file. Please confirm you have service worker file at  /webpushr-sw.js"
+    }
+   ],
+   "urlHash": "cbd597a00633",
+   "titleHash": "fc98eeb5821c"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.wrangler.in/ss26",
+   "readyState": "complete",
+   "timeOrigin": 1793555692279.3,
+   "marker": null,
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 839,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.wrangler.in/ss26",
+    "key": "2bc83730-e9b9-4ca5-a5eb-b8e32c14c6c1",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.wrangler.in/ss26",
+     "from": "https://www.wrangler.in/ss26",
+     "entryIsCurrent": true
+    },
+    "urlHash": "cbd597a00633"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:1194:37"
+     ],
+     "t": 5
+    },
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:2687:31"
+     ],
+     "t": 5
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://www.wrangler.in/ss26:2764:14"
+     ],
+     "t": 5
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 43
+    }
+   ],
+   "counts": {
+    "listen:onnavigate": 2,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.wrangler.in/ss26",
+    "log": [
+     {
+      "k": "listen",
+      "m": "onnavigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+       "at https://www.wrangler.in/ss26:1194:37"
+      ],
+      "t": 3
+     },
+     {
+      "k": "listen",
+      "m": "onnavigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+       "at https://www.wrangler.in/ss26:2687:31"
+      ],
+      "t": 3
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.addEventListener (<anonymous>:71:45)",
+       "at https://www.wrangler.in/ss26:2764:14"
+      ],
+      "t": 3
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 61
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at stack (<anonymous>:25:15)",
+       "at N.<computed> [as entries] (<anonymous>:53:79)",
+       "at it (https://www.googletagmanager.com/gtag/js",
+       "at jt (https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 3054,
+      "len": 2
+     }
+    ],
+    "counts": {
+     "listen:onnavigate": 2,
+     "listen:navigate": 1,
+     "pageshow": 1,
+     "call:entries": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required ^git)"
+    },
+    {
+     "k": "console-warning",
+     "e": "Unsatisfied version 1.0.0 from checkout of shared singleton module mfe-shared (required =yotta-prod-v3)"
+    },
+    {
+     "k": "console-error",
+     "e": "Warning: You are importing createRoot from \"react-dom\" which is not supported. You should instead import it from \"react-dom/client\"."
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed parsing 'srcset' attribute value since it has an unknown descriptor."
+    },
+    {
+     "k": "console-warning",
+     "e": "Dropped srcset candidate \"out\""
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed parsing 'srcset' attribute value since it has an unknown descriptor."
+    },
+    {
+     "k": "console-warning",
+     "e": "Dropped srcset candidate \"out\""
+    },
+    {
+     "k": "console-error",
+     "e": "The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-error",
+     "e": "[SW] Service worker registration failed SecurityError: Failed to register a ServiceWorker for scope ('https://www.wrangler.in/') with script ('https://www.wrangler.in/webpushr-sw.js'): The script has an unsupported MIME type ('text/html')."
+    },
+    {
+     "k": "console-warning",
+     "e": "Cannot access service worker file. Please confirm you have service worker file at  /webpushr-sw.js"
+    }
+   ],
+   "urlHash": "cbd597a00633",
+   "titleHash": "fc98eeb5821c"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "url": "https://www.wrangler.in/ss26",
+   "readyState": "complete",
+   "timeOrigin": 1793555692279.3,
+   "marker": "m4",
+   "histLen": 7,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 846,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.wrangler.in/ss26",
+    "key": "e6b5e2c9-c124-4cf3-a8b4-11c33ea982a3",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.wrangler.in/ss26",
+     "from": "https://www.wrangler.in/ss26",
+     "entryIsCurrent": false
+    },
+    "urlHash": "fc6d085e672c"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:1194:37"
+     ],
+     "t": 5
+    },
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:2687:31"
+     ],
+     "t": 5
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://www.wrangler.in/ss26:2764:14"
+     ],
+     "t": 5
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 43
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.wrangler.in/ss26",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2643,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.wrangler.in/ss26",
+     "t": 2643
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.wrangler.in/ss26",
+     "t": 2643
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2644
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.wrangler.in/ss26",
+     "t": 2646
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 3066,
+     "len": 3
+    }
+   ],
+   "counts": {
+    "listen:onnavigate": 2,
+    "listen:navigate": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1,
+    "call:entries": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed parsing 'srcset' attribute value since it has an unknown descriptor."
+    },
+    {
+     "k": "console-warning",
+     "e": "Dropped srcset candidate \"out\""
+    },
+    {
+     "k": "console-warning",
+     "e": "Failed parsing 'srcset' attribute value since it has an unknown descriptor."
+    },
+    {
+     "k": "console-warning",
+     "e": "Dropped srcset candidate \"out\""
+    }
+   ],
+   "urlHash": "fc6d085e672c",
+   "titleHash": "fc98eeb5821c"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "url": "https://www.wrangler.in/ss26",
+   "readyState": "complete",
+   "timeOrigin": 1793555692279.3,
+   "marker": "m5",
+   "histLen": 7,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 846,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.wrangler.in/ss26",
+    "key": "2bc83730-e9b9-4ca5-a5eb-b8e32c14c6c1",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.wrangler.in/ss26",
+     "from": "https://www.wrangler.in/ss26",
+     "entryIsCurrent": true
+    },
+    "urlHash": "cbd597a00633"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:1194:37"
+     ],
+     "t": 5
+    },
+    {
+     "k": "listen",
+     "m": "onnavigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at Navigation.set [as onnavigate] (<anonymous>:76:95)",
+      "at https://www.wrangler.in/ss26:2687:31"
+     ],
+     "t": 5
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://www.wrangler.in/ss26:2764:14"
+     ],
+     "t": 5
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 43
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.wrangler.in/ss26",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2643,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.wrangler.in/ss26",
+     "t": 2643
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.wrangler.in/ss26",
+     "t": 2643
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2644
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.wrangler.in/ss26",
+     "t": 2646
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 3066,
+     "len": 3
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.wrangler.in/ss26",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5271,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.wrangler.in/ss26",
+     "t": 5272
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5272
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.wrangler.in/ss26",
+     "t": 5272
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.wrangler.in/ss26",
+     "t": 5279
+    }
+   ],
+   "counts": {
+    "listen:onnavigate": 2,
+    "listen:navigate": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "call:entries": 1,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "cbd597a00633",
+   "titleHash": "fc98eeb5821c"
+  }
+ ],
+ "plan": {
+  "link": "https://www.wrangler.in/ss26",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 22.5,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

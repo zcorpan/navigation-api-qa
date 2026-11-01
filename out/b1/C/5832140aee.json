@@ -1,0 +1,542 @@
+{
+ "id": "5832140aee",
+ "page": "https://www.gofundme.com/create/fundraiser",
+ "steps": [
+  {
+   "step": "load",
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 880,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 351,
+     "url": "/create/fundraiser/category"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 551
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 494,
+   "timeOrigin": 1793553711222,
+   "url": "https://www.gofundme.com/create/fundraiser/category",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: avar: A required mapping (for -1, 0 or 1) is missing (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: Table discarded (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: STAT: Invalid table minorVersion for format 4 axis values: 1 (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: Table discarded (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "console-warn",
+     "e": "Coralogix Browser SDK - browser doesnt support TBT events"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid previewUrl detected. Please check that you have entered it correctly."
+    },
+    {
+     "k": "console-warn",
+     "e": "External identity type of CustomerId not set on the user"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cmptest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cmptest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cmptest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cmptest\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "83830524d130",
+   "titleHash": "6f0e653d18e1"
+  },
+  {
+   "step": "link",
+   "href": "https://www.gofundme.com/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 7525,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 351,
+     "url": "/create/fundraiser/category"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 551
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5533,
+     "url": "/"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2640,
+   "timeOrigin": 1793553711222,
+   "url": "https://www.gofundme.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f9463e31fa01",
+   "titleHash": "89c96a40f6f1"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 880,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 351,
+     "url": "/create/fundraiser/category"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 551
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5533,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 8087,
+     "url": "https://www.gofundme.com/create/fundraiser/category"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 8999,
+     "url": "/create/fundraiser/category"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 513,
+   "timeOrigin": 1793553711222,
+   "url": "https://www.gofundme.com/create/fundraiser/category",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: not well-formed\nLocation: https://api.gofundme.com/geolocation\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "83830524d130",
+   "titleHash": "6f0e653d18e1"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 3,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 7527,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 351,
+     "url": "/create/fundraiser/category"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 551
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5533,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 8087,
+     "url": "https://www.gofundme.com/create/fundraiser/category"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 8999,
+     "url": "/create/fundraiser/category"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10884,
+     "url": "https://www.gofundme.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11045,
+     "url": "/"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3034,
+   "timeOrigin": 1793553711222,
+   "url": "https://www.gofundme.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f9463e31fa01",
+   "titleHash": "89c96a40f6f1"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 7527,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 874,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1298
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2977,
+   "timeOrigin": 1793553725491,
+   "url": "https://www.gofundme.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: avar: A required mapping (for -1, 0 or 1) is missing (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: Table discarded (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: STAT: Invalid table minorVersion for format 4 axis values: 1 (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: Table discarded (font-family: \"GoFundMe Sans\" style:normal weight:30..200 width:100 src index:0) source: https://cdn.gofundme.com/fonts/GoFundMeSans-Variable.woff2"
+    },
+    {
+     "k": "console-warn",
+     "e": "Coralogix Browser SDK - browser doesnt support TBT events"
+    },
+    {
+     "k": "console-warn",
+     "e": "Invalid previewUrl detected. Please check that you have entered it correctly."
+    },
+    {
+     "k": "console-warn",
+     "e": "External identity type of CustomerId not set on the user"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: not well-formed\nLocation: https://api.gofundme.com/geolocation\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "f9463e31fa01",
+   "titleHash": "89c96a40f6f1"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 7527,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 874,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1298
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3867,
+     "url": "https://www.gofundme.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3867,
+     "url": "/#navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 3867,
+     "url": "https://www.gofundme.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2977,
+   "timeOrigin": 1793553725491,
+   "url": "https://www.gofundme.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "341496d04b35",
+   "titleHash": "89c96a40f6f1"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 7527,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 874,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1298
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3867,
+     "url": "https://www.gofundme.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3867,
+     "url": "/#navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 3867,
+     "url": "https://www.gofundme.com/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6427,
+     "url": "https://www.gofundme.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6427,
+     "url": "https://www.gofundme.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2977,
+   "timeOrigin": 1793553725491,
+   "url": "https://www.gofundme.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f9463e31fa01",
+   "titleHash": "89c96a40f6f1"
+  }
+ ],
+ "plan": {
+  "link": "https://www.gofundme.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 23.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

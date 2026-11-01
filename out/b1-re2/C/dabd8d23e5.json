@@ -1,0 +1,601 @@
+{
+ "id": "dabd8d23e5",
+ "page": "https://help.steampowered.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 1374,
+   "histLen": 17,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1297
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 495,
+   "timeOrigin": 1793562787981,
+   "url": "https://help.steampowered.com/en/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "286db5ff5e22",
+   "titleHash": "43c4eac7c069"
+  },
+  {
+   "step": "link",
+   "href": "https://help.steampowered.com/en/wizard/HelpWithGame/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 892,
+   "histLen": 18,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5431,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 574,
+   "timeOrigin": 1793562787981,
+   "url": "https://help.steampowered.com/en/wizard/HelpWithGame/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "eb7acb5ebaa7",
+   "titleHash": "4e754daeaa00"
+  },
+  {
+   "step": "link2",
+   "href": "https://help.steampowered.com/en/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 1374,
+   "histLen": 19,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5431,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8375,
+     "url": "https://help.steampowered.com/en/"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 495,
+   "timeOrigin": 1793562787981,
+   "url": "https://help.steampowered.com/en/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "286db5ff5e22",
+   "titleHash": "43c4eac7c069"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 892,
+   "histLen": 19,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5431,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8375,
+     "url": "https://help.steampowered.com/en/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11343,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11343,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 574,
+   "timeOrigin": 1793562787981,
+   "url": "https://help.steampowered.com/en/wizard/HelpWithGame/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "eb7acb5ebaa7",
+   "titleHash": "4e754daeaa00"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 1374,
+   "histLen": 19,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5431,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8375,
+     "url": "https://help.steampowered.com/en/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11343,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11343,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 13953,
+     "url": "https://help.steampowered.com/en/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 13955,
+     "url": "https://help.steampowered.com/en/"
+    }
+   ],
+   "marker": "m3",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 495,
+   "timeOrigin": 1793562787981,
+   "url": "https://help.steampowered.com/en/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "286db5ff5e22",
+   "titleHash": "43c4eac7c069"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 3,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 3
+   },
+   "docH": 892,
+   "histLen": 19,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 5431,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8375,
+     "url": "https://help.steampowered.com/en/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11343,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 11343,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 13953,
+     "url": "https://help.steampowered.com/en/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 13955,
+     "url": "https://help.steampowered.com/en/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 16529,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 16529,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 574,
+   "timeOrigin": 1793562787981,
+   "url": "https://help.steampowered.com/en/wizard/HelpWithGame/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "eb7acb5ebaa7",
+   "titleHash": "4e754daeaa00"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 892,
+   "histLen": 19,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 565
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:pushState": 2,
+     "history:replaceState": 3,
+     "no-navigation": 1,
+     "pageshow": 1,
+     "popstate": 3
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1297
+     },
+     {
+      "k": "history",
+      "m": "pushState",
+      "t": 5431,
+      "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+     },
+     {
+      "k": "history",
+      "m": "pushState",
+      "t": 8375,
+      "url": "https://help.steampowered.com/en/"
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 11343,
+      "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 11343,
+      "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 13953,
+      "url": "https://help.steampowered.com/en/"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 13955,
+      "url": "https://help.steampowered.com/en/"
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 16529,
+      "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 16529,
+      "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+     }
+    ],
+    "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 574,
+   "timeOrigin": 1793562807926,
+   "url": "https://help.steampowered.com/en/wizard/HelpWithGame/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "eb7acb5ebaa7",
+   "titleHash": "4e754daeaa00"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 1374,
+   "histLen": 19,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 565
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3141,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3142,
+     "url": "https://help.steampowered.com/en/wizard/navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 3142,
+     "url": "https://help.steampowered.com/en/wizard/navqa-frag"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 495,
+   "timeOrigin": 1793562807926,
+   "url": "https://help.steampowered.com/en/wizard/navqa-frag",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "209fbb839319",
+   "titleHash": "43c4eac7c069"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 892,
+   "histLen": 19,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 565
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3141,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3142,
+     "url": "https://help.steampowered.com/en/wizard/navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 3142,
+     "url": "https://help.steampowered.com/en/wizard/navqa-frag"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5752,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5754,
+     "url": "https://help.steampowered.com/en/wizard/HelpWithGame/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 574,
+   "timeOrigin": 1793562807926,
+   "url": "https://help.steampowered.com/en/wizard/HelpWithGame/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "eb7acb5ebaa7",
+   "titleHash": "4e754daeaa00"
+  }
+ ],
+ "plan": {
+  "link": "https://help.steampowered.com/en/wizard/HelpWithGame/",
+  "link2": "https://help.steampowered.com/en/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 28.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

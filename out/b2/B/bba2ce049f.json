@@ -1,0 +1,1409 @@
+{
+ "id": "bba2ce049f",
+ "page": "https://faberlic.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6543,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 343
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 888,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 888,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 888
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 922
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://faberlic.com/ru/en/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "8f8ed94a-1423-4d1b-8a1e-4bca233f7e3f",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://faberlic.com/ru/en",
+    "urlHash": "0f182c1d1829"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2379,
+   "timeOrigin": 1793563433347,
+   "url": "https://faberlic.com/ru/en",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdomaintest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "NG05604"
+    }
+   ],
+   "urlHash": "0f182c1d1829",
+   "titleHash": "63ae939e80f4"
+  },
+  {
+   "step": "link",
+   "href": "https://faberlic.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6543,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 94
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 257,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 257,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 258
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 282
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://faberlic.com/ru/en/",
+     "entryIsCurrent": true,
+     "from": "https://faberlic.com/ru/en",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "9014cd2c-9a50-42e4-ac65-98abb5ad2b0c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://faberlic.com/ru/en",
+    "urlHash": "0f182c1d1829"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "history:replaceState": 1,
+     "navigate:push": 1,
+     "navigate:replace": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 343
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 888,
+      "url": "/ru/en"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 888,
+      "url": "https://faberlic.com/ru/en",
+      "userInitiated": false
+     },
+     {
+      "from": "https://faberlic.com/ru/en/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 888
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 922
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 7263,
+      "url": "https://faberlic.com/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://faberlic.com/ru/en"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2379,
+   "timeOrigin": 1793563441031,
+   "url": "https://faberlic.com/ru/en",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdomaintest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "NG05604"
+    }
+   ],
+   "urlHash": "0f182c1d1829",
+   "titleHash": "63ae939e80f4"
+  },
+  {
+   "step": "link2",
+   "href": "https://faberlic.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6543,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 100
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 263,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 263,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 263
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 287
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://faberlic.com/ru/en/",
+     "entryIsCurrent": true,
+     "from": "https://faberlic.com/ru/en",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "77e73a85-2c3c-4e8d-be1c-14dd37a73011",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://faberlic.com/ru/en",
+    "urlHash": "0f182c1d1829"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "history:replaceState": 1,
+     "navigate:push": 1,
+     "navigate:replace": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 94
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 257,
+      "url": "/ru/en"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 257,
+      "url": "https://faberlic.com/ru/en",
+      "userInitiated": false
+     },
+     {
+      "from": "https://faberlic.com/ru/en/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 258
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 282
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2695,
+      "url": "https://faberlic.com/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://faberlic.com/ru/en"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2379,
+   "timeOrigin": 1793563444009,
+   "url": "https://faberlic.com/ru/en",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdomaintest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "NG05604"
+    }
+   ],
+   "urlHash": "0f182c1d1829",
+   "titleHash": "63ae939e80f4"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6543,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 87
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 251,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 251,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 251
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 272
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://faberlic.com/ru/en",
+     "entryIsCurrent": true,
+     "from": "https://faberlic.com/ru/en",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "9014cd2c-9a50-42e4-ac65-98abb5ad2b0c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://faberlic.com/ru/en",
+    "urlHash": "0f182c1d1829"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "history:replaceState": 1,
+     "navigate:replace": 1,
+     "navigate:traverse": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 100
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 263,
+      "url": "/ru/en"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 263,
+      "url": "https://faberlic.com/ru/en",
+      "userInitiated": false
+     },
+     {
+      "from": "https://faberlic.com/ru/en/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 263
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 287
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2692,
+      "url": "https://faberlic.com/ru/en",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://faberlic.com/ru/en"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2379,
+   "timeOrigin": 1793563446963,
+   "url": "https://faberlic.com/ru/en",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdomaintest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "NG05604"
+    }
+   ],
+   "urlHash": "0f182c1d1829",
+   "titleHash": "63ae939e80f4"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6543,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 114
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 268,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 268,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 269
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 294
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://faberlic.com/ru/en",
+     "entryIsCurrent": true,
+     "from": "https://faberlic.com/ru/en",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "8f8ed94a-1423-4d1b-8a1e-4bca233f7e3f",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://faberlic.com/ru/en",
+    "urlHash": "0f182c1d1829"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "history:replaceState": 1,
+     "navigate:replace": 1,
+     "navigate:traverse": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 87
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 251,
+      "url": "/ru/en"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 251,
+      "url": "https://faberlic.com/ru/en",
+      "userInitiated": false
+     },
+     {
+      "from": "https://faberlic.com/ru/en",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 251
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 272
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2682,
+      "url": "https://faberlic.com/ru/en",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://faberlic.com/ru/en"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2379,
+   "timeOrigin": 1793563449714,
+   "url": "https://faberlic.com/ru/en",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdomaintest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "NG05604"
+    }
+   ],
+   "urlHash": "0f182c1d1829",
+   "titleHash": "63ae939e80f4"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6543,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 94
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 275,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 275,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 275
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 298
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://faberlic.com/ru/en",
+     "entryIsCurrent": true,
+     "from": "https://faberlic.com/ru/en",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "9014cd2c-9a50-42e4-ac65-98abb5ad2b0c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://faberlic.com/ru/en",
+    "urlHash": "0f182c1d1829"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "history:replaceState": 1,
+     "navigate:replace": 1,
+     "navigate:traverse": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 114
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 268,
+      "url": "/ru/en"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 268,
+      "url": "https://faberlic.com/ru/en",
+      "userInitiated": false
+     },
+     {
+      "from": "https://faberlic.com/ru/en",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 269
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 294
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2718,
+      "url": "https://faberlic.com/ru/en",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://faberlic.com/ru/en"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2379,
+   "timeOrigin": 1793563452439,
+   "url": "https://faberlic.com/ru/en",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdomaintest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "NG05604"
+    }
+   ],
+   "urlHash": "0f182c1d1829",
+   "titleHash": "63ae939e80f4"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6543,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 391
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 638,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 638,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 638
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 661
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://faberlic.com/ru/en",
+     "entryIsCurrent": true,
+     "from": "https://faberlic.com/ru/en",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "9014cd2c-9a50-42e4-ac65-98abb5ad2b0c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://faberlic.com/ru/en",
+    "urlHash": "0f182c1d1829"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:replace": 1,
+     "history:replaceState": 1,
+     "navigate:replace": 1,
+     "navigatesuccess": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 94
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 275,
+      "url": "/ru/en"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 275,
+      "url": "https://faberlic.com/ru/en",
+      "userInitiated": false
+     },
+     {
+      "from": "https://faberlic.com/ru/en",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 275
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 298
+     }
+    ],
+    "url": "https://faberlic.com/ru/en"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2379,
+   "timeOrigin": 1793563455122,
+   "url": "https://faberlic.com/ru/en",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdomaintest\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "NG05604"
+    }
+   ],
+   "urlHash": "0f182c1d1829",
+   "titleHash": "63ae939e80f4"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6543,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 391
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 638,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 638,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 638
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 661
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2984,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2984
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2984,
+     "url": "https://faberlic.com/ru/en"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2987
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2987,
+     "url": "/ru/en#navqa-frag"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2987,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2987
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2999
+    },
+    {
+     "k": "hashchange",
+     "t": 3000,
+     "url": "https://faberlic.com/ru/en"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://faberlic.com/ru/en",
+     "entryIsCurrent": false,
+     "from": "https://faberlic.com/ru/en",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "d5853218-4093-4596-9fd9-5864561ece31",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://faberlic.com/ru/en",
+    "urlHash": "a2be8ec7523f"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2379,
+   "timeOrigin": 1793563455122,
+   "url": "https://faberlic.com/ru/en",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a2be8ec7523f",
+   "titleHash": "63ae939e80f4"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 3,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigate:traverse": 1,
+    "navigatesuccess": 5,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6543,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 391
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 638,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 638,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 638
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 661
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2984,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2984
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2984,
+     "url": "https://faberlic.com/ru/en"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2987
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2987,
+     "url": "/ru/en#navqa-frag"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2987,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2987
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2999
+    },
+    {
+     "k": "hashchange",
+     "t": 3000,
+     "url": "https://faberlic.com/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5602,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5603
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5603
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5603,
+     "url": "https://faberlic.com/ru/en"
+    },
+    {
+     "k": "hashchange",
+     "t": 5612,
+     "url": "https://faberlic.com/ru/en"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5616,
+     "url": "/ru/en"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5616,
+     "url": "https://faberlic.com/ru/en",
+     "userInitiated": false
+    },
+    {
+     "from": "https://faberlic.com/ru/en",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5616
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5621
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://faberlic.com/ru/en",
+     "entryIsCurrent": true,
+     "from": "https://faberlic.com/ru/en",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "9014cd2c-9a50-42e4-ac65-98abb5ad2b0c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://faberlic.com/ru/en",
+    "urlHash": "0f182c1d1829"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2379,
+   "timeOrigin": 1793563455122,
+   "url": "https://faberlic.com/ru/en",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0f182c1d1829",
+   "titleHash": "63ae939e80f4"
+  }
+ ],
+ "plan": {
+  "link": "https://faberlic.com/",
+  "link2": "https://faberlic.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:OK",
+ "elapsed": 30.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -1,0 +1,653 @@
+{
+ "id": "e274c6885c",
+ "page": "https://beta.xfreehd.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://beta.xfreehd.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793555128552.6,
+   "marker": null,
+   "histLen": 17,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3583,
+   "active": "BODY",
+   "textLen": 2716,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://beta.xfreehd.com/",
+    "key": "91b62902-02cc-4115-8fbb-b7579e7a8f99",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://beta.xfreehd.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "e274c6885ce7"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 284
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 284
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 900
+    }
+   ],
+   "counts": {
+    "error": 2,
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-share-video\"."
+    },
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-post-comment\"."
+    }
+   ],
+   "urlHash": "e274c6885ce7",
+   "titleHash": "473d90e9b8f3"
+  },
+  {
+   "step": "link",
+   "href": "https://beta.xfreehd.com/rssfeed",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://beta.xfreehd.com/rssfeed",
+   "readyState": "complete",
+   "timeOrigin": 1793555136456.9,
+   "marker": null,
+   "histLen": 18,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2490,
+   "active": "BODY",
+   "textLen": 2412,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://beta.xfreehd.com/rssfeed",
+    "key": "4e8ed194-e316-4378-a660-2bc23d8326fe",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://beta.xfreehd.com/rssfeed",
+     "from": "https://beta.xfreehd.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5c53bda1f353"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 117
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 335
+    }
+   ],
+   "counts": {
+    "error": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://beta.xfreehd.com/",
+    "log": [
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 284
+     },
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 284
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 900
+     },
+     {
+      "k": "navigate",
+      "m": "push",
+      "url": "https://beta.xfreehd.com/rssfeed",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": "A",
+      "t": 7620,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "error": 2,
+     "pageshow": 1,
+     "navigate:push": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-share-video\"."
+    }
+   ],
+   "urlHash": "5c53bda1f353",
+   "titleHash": "2878328d3f69"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://beta.xfreehd.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793555139075.3,
+   "marker": null,
+   "histLen": 18,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3583,
+   "active": "BODY",
+   "textLen": 2882,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://beta.xfreehd.com/",
+    "key": "91b62902-02cc-4115-8fbb-b7579e7a8f99",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://beta.xfreehd.com/",
+     "from": "https://beta.xfreehd.com/rssfeed",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e274c6885ce7"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 67
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 67
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 172
+    }
+   ],
+   "counts": {
+    "error": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://beta.xfreehd.com/rssfeed",
+    "log": [
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 117
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 335
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://beta.xfreehd.com/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2479,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "error": 1,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-share-video\"."
+    },
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-post-comment\"."
+    }
+   ],
+   "urlHash": "e274c6885ce7",
+   "titleHash": "473d90e9b8f3"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://beta.xfreehd.com/rssfeed",
+   "readyState": "complete",
+   "timeOrigin": 1793555141958.7,
+   "marker": null,
+   "histLen": 18,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2490,
+   "active": "BODY",
+   "textLen": 2402,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://beta.xfreehd.com/rssfeed",
+    "key": "4e8ed194-e316-4378-a660-2bc23d8326fe",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://beta.xfreehd.com/rssfeed",
+     "from": "https://beta.xfreehd.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5c53bda1f353"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 22
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 62
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 62
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "error": 2
+   },
+   "prev": {
+    "url": "https://beta.xfreehd.com/",
+    "log": [
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 67
+     },
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 67
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 172
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://beta.xfreehd.com/rssfeed",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2640,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "error": 2,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-share-video\"."
+    },
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-post-comment\"."
+    }
+   ],
+   "urlHash": "5c53bda1f353",
+   "titleHash": "2878328d3f69"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://beta.xfreehd.com/rssfeed",
+   "readyState": "complete",
+   "timeOrigin": 1793555144698.3,
+   "marker": null,
+   "histLen": 18,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2490,
+   "active": "BODY",
+   "textLen": 2402,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://beta.xfreehd.com/rssfeed",
+    "key": "4e8ed194-e316-4378-a660-2bc23d8326fe",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://beta.xfreehd.com/rssfeed",
+     "from": "https://beta.xfreehd.com/rssfeed",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5c53bda1f353"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 14
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 215
+    }
+   ],
+   "counts": {
+    "error": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://beta.xfreehd.com/rssfeed",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 22
+     },
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 62
+     },
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 62
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "error": 2
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-share-video\"."
+    }
+   ],
+   "urlHash": "5c53bda1f353",
+   "titleHash": "2878328d3f69"
+  },
+  {
+   "step": "fragment",
+   "href": "https://beta.xfreehd.com/rssfeed",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://beta.xfreehd.com/rssfeed",
+   "readyState": "complete",
+   "timeOrigin": 1793555144698.3,
+   "marker": "m4",
+   "histLen": 18,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2490,
+   "active": "A",
+   "textLen": 2615,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://beta.xfreehd.com/rssfeed",
+    "key": "4e8ed194-e316-4378-a660-2bc23d8326fe",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://beta.xfreehd.com/rssfeed",
+     "from": "https://beta.xfreehd.com/rssfeed",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5c53bda1f353"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 14
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 215
+    }
+   ],
+   "counts": {
+    "error": 1,
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5c53bda1f353",
+   "titleHash": "2878328d3f69"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://beta.xfreehd.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793555150300,
+   "marker": null,
+   "histLen": 18,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3583,
+   "active": "BODY",
+   "textLen": 2847,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://beta.xfreehd.com/",
+    "key": "91b62902-02cc-4115-8fbb-b7579e7a8f99",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://beta.xfreehd.com/",
+     "from": "https://beta.xfreehd.com/rssfeed",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e274c6885ce7"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 74
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 74
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 128
+    }
+   ],
+   "counts": {
+    "error": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://beta.xfreehd.com/rssfeed",
+    "log": [
+     {
+      "k": "error",
+      "e": "Script error.",
+      "l": 0,
+      "t": 14
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 215
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://beta.xfreehd.com/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 5470,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "error": 1,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-share-video\"."
+    },
+    {
+     "k": "pageerror",
+     "e": "[Cloudflare Turnstile] Unable to find a container for \"#ts-post-comment\"."
+    }
+   ],
+   "urlHash": "e274c6885ce7",
+   "titleHash": "473d90e9b8f3"
+  }
+ ],
+ "plan": {
+  "link": "https://beta.xfreehd.com/rssfeed",
+  "fragment": "https://beta.xfreehd.com/rssfeed"
+ },
+ "consent": "text:Accept",
+ "elapsed": 24.6,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

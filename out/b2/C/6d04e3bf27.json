@@ -1,0 +1,616 @@
+{
+ "id": "6d04e3bf27",
+ "page": "https://www.microsoft.com/en-us/store/b/business",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9635,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1447
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18906,
+   "timeOrigin": 1793564161163,
+   "url": "https://www.microsoft.com/en-us/store/b/business",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Firefox calls the Storage Access API on behalf of the site. See https://bugzilla.mozilla.org/show_bug.cgi for details."
+    },
+    {
+     "k": "console-warn",
+     "e": "dynamic-price is already defined."
+    },
+    {
+     "k": "console-warn",
+     "e": "dynamic-user-info is already defined."
+    }
+   ],
+   "urlHash": "6d04e3bf2762",
+   "titleHash": "77e62802a3d7"
+  },
+  {
+   "step": "link",
+   "href": "https://www.microsoft.com/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3318,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: can't access property \"querySelectorAllDeep\", reimagineTelemetry.utils is undefined",
+     "f": "https://www.microsoft.com/msonecloudapi/assets/reimaginesharedbody.js",
+     "k": "error",
+     "l": 6,
+     "t": 377
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 717
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3053,
+   "timeOrigin": 1793564169656,
+   "url": "https://www.microsoft.com/sv-se",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Unable to parse JSON-LD tag. Malformed JSON found: '\n      <!--/* XSS-ALLOWLIST: server-generated JSON-LD from FAQSchemaService (no author free-text HTML); raw output required for valid JSON. */-->\n      {\"@type\":\"FAQPage\",\"@context\":\"https://schema.org\",\"mainEntity\":[{\"@type\":\"Questi"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Firefox calls the Storage Access API on behalf of the site. See https://bugzilla.mozilla.org/show_bug.cgi for details."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Segoe UI Variable Text\" style:normal weight:300..700 width:100 src index:1): status=2147746065 source: https://www.microsoft.com/echo/etc.<token>.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Segoe UI Variable Display\" style:normal weight:300..700 width:100 src index:1): status=2147746065 source: https://www.microsoft.com/echo/etc.<token>.wof"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Segoe UI Variable Text\" style:normal weight:300..700 width:100 src index:2): status=2147746065 source: https://www.microsoft.com/echo/etc.<token>.ttf"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to initialize ReimagineTelemetry: ReferenceError: ReimagineDynamicSearchResultTelemetry is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"querySelectorAllDeep\", reimagineTelemetry.utils is undefined"
+    },
+    {
+     "k": "console-warn",
+     "e": "MeControl: Invalid AAD auth configuration"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Segoe UI Variable Display\" style:normal weight:300..700 width:100 src index:2): status=2147746065 source: https://www.microsoft.com/echo/etc.<token>.ttf"
+    }
+   ],
+   "urlHash": "7eb86610c7a3",
+   "titleHash": "6e5ee89e7fda"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.microsoft.com/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3318,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: can't access property \"querySelectorAllDeep\", reimagineTelemetry.utils is undefined",
+     "f": "https://www.microsoft.com/msonecloudapi/assets/reimaginesharedbody.js",
+     "k": "error",
+     "l": 6,
+     "t": 211
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 432
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3053,
+   "timeOrigin": 1793564173104,
+   "url": "https://www.microsoft.com/sv-se",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Firefox calls the Storage Access API on behalf of the site. See https://bugzilla.mozilla.org/show_bug.cgi for details."
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Segoe UI Variable Text\" style:normal weight:300..700 width:100 src index:1): status=2147746065 source: https://www.microsoft.com/echo/etc.<token>.woff2"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Segoe UI Variable Display\" style:normal weight:300..700 width:100 src index:1): status=2147746065 source: https://www.microsoft.com/echo/etc.<token>.wof"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to initialize ReimagineTelemetry: ReferenceError: ReimagineDynamicSearchResultTelemetry is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"querySelectorAllDeep\", reimagineTelemetry.utils is undefined"
+    },
+    {
+     "k": "console-warn",
+     "e": "MeControl: Invalid AAD auth configuration"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Segoe UI Variable Text\" style:normal weight:300..700 width:100 src index:2): status=2147746065 source: https://www.microsoft.com/echo/etc.<token>.ttf"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: download failed (font-family: \"Segoe UI Variable Display\" style:normal weight:300..700 width:100 src index:2): status=2147746065 source: https://www.microsoft.com/echo/etc.<token>.ttf"
+    }
+   ],
+   "urlHash": "7eb86610c7a3",
+   "titleHash": "6e5ee89e7fda"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BUTTON",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9579,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 850
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 20
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18952,
+   "timeOrigin": 1793564176153,
+   "url": "https://www.microsoft.com/en-us/store/b/business",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Firefox calls the Storage Access API on behalf of the site. See https://bugzilla.mozilla.org/show_bug.cgi for details."
+    },
+    {
+     "k": "console-warn",
+     "e": "dynamic-price is already defined."
+    },
+    {
+     "k": "console-warn",
+     "e": "dynamic-user-info is already defined."
+    }
+   ],
+   "urlHash": "6d04e3bf2762",
+   "titleHash": "77e62802a3d7"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 2
+   },
+   "docH": 8,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 18829
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793564161151,
+   "url": "about:blank",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3c4fd307aff9",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BUTTON",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9579,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 5800
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18887,
+   "timeOrigin": 1793564182555,
+   "url": "https://www.microsoft.com/en-us/store/b/business",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Firefox calls the Storage Access API on behalf of the site. See https://bugzilla.mozilla.org/show_bug.cgi for details."
+    },
+    {
+     "k": "console-warn",
+     "e": "dynamic-price is already defined."
+    },
+    {
+     "k": "console-warn",
+     "e": "dynamic-user-info is already defined."
+    },
+    {
+     "k": "console-error",
+     "e": "Error initializing chat via API: Error: AEM Component API not available after 10 attempts"
+    }
+   ],
+   "urlHash": "6d04e3bf2762",
+   "titleHash": "77e62802a3d7"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BUTTON",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9579,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1442
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 18952,
+   "timeOrigin": 1793564191324,
+   "url": "https://www.microsoft.com/en-us/store/b/business",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Firefox calls the Storage Access API on behalf of the site. See https://bugzilla.mozilla.org/show_bug.cgi for details."
+    },
+    {
+     "k": "console-warn",
+     "e": "dynamic-price is already defined."
+    },
+    {
+     "k": "console-warn",
+     "e": "dynamic-user-info is already defined."
+    }
+   ],
+   "urlHash": "6d04e3bf2762",
+   "titleHash": "77e62802a3d7"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BUTTON",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 9579,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1442
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4013,
+     "url": "https://www.microsoft.com/en-us/store/b/business"
+    },
+    {
+     "k": "hashchange",
+     "t": 4014,
+     "url": "https://www.microsoft.com/en-us/store/b/business"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 8676,
+   "textLen": 19169,
+   "timeOrigin": 1793564191324,
+   "url": "https://www.microsoft.com/en-us/store/b/business",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a1d0f9964c2c",
+   "titleHash": "77e62802a3d7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BUTTON",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 9579,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1442
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4013,
+     "url": "https://www.microsoft.com/en-us/store/b/business"
+    },
+    {
+     "k": "hashchange",
+     "t": 4014,
+     "url": "https://www.microsoft.com/en-us/store/b/business"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6606,
+     "url": "https://www.microsoft.com/en-us/store/b/business"
+    },
+    {
+     "k": "hashchange",
+     "t": 6606,
+     "url": "https://www.microsoft.com/en-us/store/b/business"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 8676,
+   "textLen": 18887,
+   "timeOrigin": 1793564191324,
+   "url": "https://www.microsoft.com/en-us/store/b/business",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "6d04e3bf2762",
+   "titleHash": "77e62802a3d7"
+  }
+ ],
+ "plan": {
+  "link": "https://www.microsoft.com/",
+  "link2": "https://www.microsoft.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept",
+ "elapsed": 39.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

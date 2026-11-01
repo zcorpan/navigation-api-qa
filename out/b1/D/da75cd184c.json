@@ -1,0 +1,598 @@
+{
+ "id": "da75cd184c",
+ "page": "https://diamond.jp/",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 12,
+   "url": "https://diamond.jp/",
+   "log": [],
+   "docH": 7446,
+   "marker": null,
+   "timeOrigin": 1793564039447,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 4732,
+   "nav": {
+    "url": "https://diamond.jp/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "63310ca5-db50-461f-9eb4-6f67ad9266b3",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://diamond.jp/",
+     "from": null,
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "da75cd184c8d"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "da75cd184c8d",
+   "titleHash": "5a420ee2e8ec"
+  },
+  {
+   "step": "link",
+   "href": "https://diamond.jp/list/latest",
+   "click": "js",
+   "settle": 3.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 13,
+   "url": "https://diamond.jp/list/latest",
+   "log": [],
+   "docH": 4287,
+   "marker": null,
+   "timeOrigin": 1793564047000,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://diamond.jp/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://diamond.jp/list/latest",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 578,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 2338,
+   "nav": {
+    "url": "https://diamond.jp/list/latest",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "fb394943-0550-45df-a981-cff1f01cf8b1",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://diamond.jp/list/latest",
+     "from": "https://diamond.jp/",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "10a803505924"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "10a803505924",
+   "titleHash": "d59e1848432e"
+  },
+  {
+   "step": "back",
+   "settle": 2.8,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 13,
+   "url": "https://diamond.jp/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://diamond.jp/list/latest",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 578,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 4298,
+     "persisted": true
+    }
+   ],
+   "docH": 7446,
+   "marker": "m0",
+   "timeOrigin": 1793564039447,
+   "scrollX": 0,
+   "counts": {
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://diamond.jp/list/latest",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://diamond.jp/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 106,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 4732,
+   "nav": {
+    "url": "https://diamond.jp/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "63310ca5-db50-461f-9eb4-6f67ad9266b3",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://diamond.jp/",
+     "from": "https://diamond.jp/list/latest",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "da75cd184c8d"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "da75cd184c8d",
+   "titleHash": "5a420ee2e8ec"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 13,
+   "url": "https://diamond.jp/list/latest",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://diamond.jp/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 106,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3281,
+     "persisted": true
+    }
+   ],
+   "docH": 4287,
+   "marker": "m1",
+   "timeOrigin": 1793564047000,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://diamond.jp/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://diamond.jp/list/latest",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 578,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 4298,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://diamond.jp/list/latest",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 7369,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1,
+     "navigate:push": 1
+    }
+   },
+   "textLen": 2338,
+   "nav": {
+    "url": "https://diamond.jp/list/latest",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "fb394943-0550-45df-a981-cff1f01cf8b1",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://diamond.jp/list/latest",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "10a803505924"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "10a803505924",
+   "titleHash": "d59e1848432e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 13,
+   "url": "https://diamond.jp/list/latest",
+   "log": [],
+   "docH": 4287,
+   "marker": null,
+   "timeOrigin": 1793564056428,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://diamond.jp/list/latest",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://diamond.jp/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 106,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3281,
+      "persisted": true
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 2338,
+   "nav": {
+    "url": "https://diamond.jp/list/latest",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "fb394943-0550-45df-a981-cff1f01cf8b1",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://diamond.jp/list/latest",
+     "from": "https://diamond.jp/list/latest",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "10a803505924"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "10a803505924",
+   "titleHash": "d59e1848432e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.8,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 14,
+   "url": "https://diamond.jp/list/latest",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://diamond.jp/list/latest",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 132,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 133,
+     "m": "push",
+     "from": "https://diamond.jp/list/latest"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 133
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 133
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://diamond.jp/list/latest",
+     "t": 134
+    },
+    {
+     "k": "hashchange",
+     "url": "https://diamond.jp/list/latest",
+     "t": 144
+    }
+   ],
+   "docH": 4287,
+   "marker": "m4",
+   "timeOrigin": 1793564056428,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 2338,
+   "nav": {
+    "url": "https://diamond.jp/list/latest",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "981f9d70-9942-4a44-91f6-e193d9365378",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://diamond.jp/list/latest",
+     "from": "https://diamond.jp/list/latest",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "ba8a6ebed82c"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "ba8a6ebed82c",
+   "titleHash": "d59e1848432e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 14,
+   "url": "https://diamond.jp/list/latest",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://diamond.jp/list/latest",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 132,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 133,
+     "m": "push",
+     "from": "https://diamond.jp/list/latest"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 133
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 133
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://diamond.jp/list/latest",
+     "t": 134
+    },
+    {
+     "k": "hashchange",
+     "url": "https://diamond.jp/list/latest",
+     "t": 144
+    },
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://diamond.jp/list/latest",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 3245,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 3246,
+     "m": "traverse",
+     "from": "https://diamond.jp/list/latest"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3246
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3246
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://diamond.jp/list/latest",
+     "t": 3246
+    },
+    {
+     "k": "hashchange",
+     "url": "https://diamond.jp/list/latest",
+     "t": 3250
+    }
+   ],
+   "docH": 4287,
+   "marker": "m5",
+   "timeOrigin": 1793564056428,
+   "scrollX": 0,
+   "counts": {
+    "get:currentEntry": 2,
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 2,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 2338,
+   "nav": {
+    "url": "https://diamond.jp/list/latest",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "fb394943-0550-45df-a981-cff1f01cf8b1",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://diamond.jp/list/latest",
+     "from": "https://diamond.jp/list/latest",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "10a803505924"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "10a803505924",
+   "titleHash": "d59e1848432e"
+  }
+ ],
+ "plan": {
+  "link": "https://diamond.jp/list/latest",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 26.3,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

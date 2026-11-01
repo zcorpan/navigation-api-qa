@@ -1,0 +1,570 @@
+{
+ "id": "5d797ef7a9",
+ "page": "https://www.maersk.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 6575,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 654
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.maersk.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "add24b6e-3d3b-4e34-ad83-a23ce8c10638",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.maersk.com/",
+    "urlHash": "5d797ef7a936"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3853,
+   "timeOrigin": 1793566867972,
+   "url": "https://www.maersk.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5d797ef7a936",
+   "titleHash": "d1b48863e4c6"
+  },
+  {
+   "step": "link",
+   "href": "https://www.maersk.com/search",
+   "click": "native",
+   "settle": 2.6,
+   "active": "MC-C-ASK-MAERSK-IGN",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 6575,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 654
+    }
+   ],
+   "marker": "m0",
+   "nav": {
+    "activation": {
+     "entry": "https://www.maersk.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "add24b6e-3d3b-4e34-ad83-a23ce8c10638",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.maersk.com/",
+    "urlHash": "5d797ef7a936"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4535,
+   "timeOrigin": 1793566867972,
+   "url": "https://www.maersk.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5d797ef7a936",
+   "titleHash": "d1b48863e4c6"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 2
+   },
+   "docH": 8,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 9729
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": null,
+    "key": null,
+    "len": 0,
+    "sameDoc": null,
+    "transition": null,
+    "url": null,
+    "urlHash": null
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793566867958,
+   "url": "about:blank",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://track.accountinsight.cloud/track/84 from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://*.maersk.com https://*.maersk.com.cn https://"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://ad.doubleclick.net/activity;src=13117769;type=maersk;cat=allpages;rcb=1;ord=8275597056899;npa=0;auiddc=296011577.1793566876;u1=%2F;u2=en;u4=undefined;u9=undefined;u10=N;u11=CMS;u12=Maersk%20%7C%20"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://ib.adnxs.com/pixie/up because it violates the following directive: \u201cconnect-src 'self' data: gap: https://*.maersk.com https://*.maersk.com.cn https://*.mae"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://capi-automation.s3.us-east-2.amazonaws.com/public/client_js/capiParamBuilder/clientParamBuilder.bundle.js from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' 'un"
+    }
+   ],
+   "urlHash": "3c4fd307aff9",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 6567,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 165
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.maersk.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "add24b6e-3d3b-4e34-ad83-a23ce8c10638",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.maersk.com/",
+    "urlHash": "5d797ef7a936"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 5398,
+   "textLen": 3862,
+   "timeOrigin": 1793566880246,
+   "url": "https://www.maersk.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://track.accountinsight.cloud/track/84 from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://*.maersk.com https://*.maersk.com.cn https://"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://ad.doubleclick.net/activity;src=13117769;type=maersk;cat=allpages;rcb=12;ord=8992169268019;npa=0;auiddc=296011577.1793566876;u1=%2F;u2=en;u4=undefined;u9=undefined;u10=N;u11=undefined;u12=Maersk%2"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://ib.adnxs.com/pixie/up because it violates the following directive: \u201cconnect-src 'self' data: gap: https://*.maersk.com https://*.maersk.com.cn https://*.mae"
+    }
+   ],
+   "urlHash": "5d797ef7a936",
+   "titleHash": "d1b48863e4c6"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 6567,
+   "histLen": 15,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 487
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.maersk.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.maersk.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "add24b6e-3d3b-4e34-ad83-a23ce8c10638",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.maersk.com/",
+    "urlHash": "5d797ef7a936"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3853,
+   "timeOrigin": 1793566883105,
+   "url": "https://www.maersk.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "5d797ef7a936",
+   "titleHash": "d1b48863e4c6"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6567,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 487
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "same": true,
+     "src": null,
+     "t": 3172,
+     "url": "https://www.maersk.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.maersk.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3172
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3172,
+     "url": "https://www.maersk.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3172
+    },
+    {
+     "k": "hashchange",
+     "t": 3172,
+     "url": "https://www.maersk.com/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.maersk.com/",
+     "entryIsCurrent": false,
+     "from": "https://www.maersk.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "1393297e-208f-444f-87bb-4acdbe552279",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.maersk.com/",
+    "urlHash": "92153f1897c2"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3862,
+   "timeOrigin": 1793566883105,
+   "url": "https://www.maersk.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://track.accountinsight.cloud/track/84 from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://*.maersk.com https://*.maersk.com.cn https://"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://ad.doubleclick.net/activity;src=13117769;type=maersk;cat=allpages;rcb=3;ord=970353318812;npa=0;auiddc=296011577.1793566876;u1=%2F;u2=en;u4=undefined;u9=undefined;u10=N;u11=undefined;u12=Maersk%20%"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://ib.adnxs.com/pixie/up because it violates the following directive: \u201cconnect-src 'self' data: gap: https://*.maersk.com https://*.maersk.com.cn https://*.mae"
+    }
+   ],
+   "urlHash": "92153f1897c2",
+   "titleHash": "d1b48863e4c6"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6567,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 487
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3172,
+     "url": "https://www.maersk.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.maersk.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3172
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3172,
+     "url": "https://www.maersk.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3172
+    },
+    {
+     "k": "hashchange",
+     "t": 3172,
+     "url": "https://www.maersk.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "same": true,
+     "src": null,
+     "t": 5804,
+     "url": "https://www.maersk.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.maersk.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5805
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5805
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5805,
+     "url": "https://www.maersk.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5810,
+     "url": "https://www.maersk.com/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.maersk.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.maersk.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "add24b6e-3d3b-4e34-ad83-a23ce8c10638",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.maersk.com/",
+    "urlHash": "5d797ef7a936"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3867,
+   "timeOrigin": 1793566883105,
+   "url": "https://www.maersk.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://capi-automation.s3.us-east-2.amazonaws.com/public/client_js/capiParamBuilder/clientParamBuilder.bundle.js from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' 'un"
+    }
+   ],
+   "urlHash": "5d797ef7a936",
+   "titleHash": "d1b48863e4c6"
+  }
+ ],
+ "plan": {
+  "link": "https://www.maersk.com/search",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "consentLate": 1,
+ "elapsed": 23.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

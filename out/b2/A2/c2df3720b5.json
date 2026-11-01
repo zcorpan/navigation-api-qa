@@ -1,0 +1,718 @@
+{
+ "id": "c2df3720b5",
+ "page": "https://meat.bluesystem.me/search.php",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://meat.bluesystem.me/search.php",
+   "readyState": "complete",
+   "timeOrigin": 1793563816934.9,
+   "marker": null,
+   "histLen": 18,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1492,
+   "active": "BODY",
+   "textLen": 9694,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://meat.bluesystem.me/search.php",
+    "key": "c5f975b3-9472-4a2e-9f82-28f445629274",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://meat.bluesystem.me/search.php",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "c2df3720b54c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 335
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "c2df3720b54c",
+   "titleHash": "3a949b4c5462"
+  },
+  {
+   "step": "link",
+   "href": "https://meat.bluesystem.me/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://meat.bluesystem.me/",
+   "readyState": "complete",
+   "timeOrigin": 1793563821818.3,
+   "marker": null,
+   "histLen": 19,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2641,
+   "active": "INPUT",
+   "textLen": 13739,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://meat.bluesystem.me/",
+    "key": "c27c1c46-b88d-439b-95a5-2900546fc5a1",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://meat.bluesystem.me/",
+     "from": "https://meat.bluesystem.me/search.php",
+     "entryIsCurrent": true
+    },
+    "urlHash": "77fcd958f14d"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 115
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://meat.bluesystem.me/search.php",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 335
+     },
+     {
+      "k": "navigate",
+      "m": "push",
+      "url": "https://meat.bluesystem.me/",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": "A",
+      "t": 4487,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:push": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "77fcd958f14d",
+   "titleHash": "bfa1d938353e"
+  },
+  {
+   "step": "link2",
+   "href": "https://meat.bluesystem.me/add.php",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://meat.bluesystem.me/add.php",
+   "readyState": "complete",
+   "timeOrigin": 1793563824484.5,
+   "marker": null,
+   "histLen": 20,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1862,
+   "active": "BODY",
+   "textLen": 18626,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://meat.bluesystem.me/add.php",
+    "key": "26ce1e60-0daa-4c1c-aeed-619c2c11d993",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://meat.bluesystem.me/add.php",
+     "from": "https://meat.bluesystem.me/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "7bf20a32244e"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 141
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://meat.bluesystem.me/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 115
+     },
+     {
+      "k": "navigate",
+      "m": "push",
+      "url": "https://meat.bluesystem.me/add.php",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": "A",
+      "t": 2595,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:push": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "7bf20a32244e",
+   "titleHash": "02e011bee204"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://meat.bluesystem.me/",
+   "readyState": "complete",
+   "timeOrigin": 1793563827127.4,
+   "marker": null,
+   "histLen": 20,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2641,
+   "active": "INPUT",
+   "textLen": 13747,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://meat.bluesystem.me/",
+    "key": "c27c1c46-b88d-439b-95a5-2900546fc5a1",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://meat.bluesystem.me/",
+     "from": "https://meat.bluesystem.me/add.php",
+     "entryIsCurrent": true
+    },
+    "urlHash": "77fcd958f14d"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 111
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://meat.bluesystem.me/add.php",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 141
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://meat.bluesystem.me/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2559,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "77fcd958f14d",
+   "titleHash": "bfa1d938353e"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "url": "https://meat.bluesystem.me/search.php",
+   "readyState": "complete",
+   "timeOrigin": 1793563829847.8,
+   "marker": null,
+   "histLen": 20,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1492,
+   "active": "BODY",
+   "textLen": 9765,
+   "nav": {
+    "len": 3,
+    "idx": 0,
+    "url": "https://meat.bluesystem.me/search.php",
+    "key": "c5f975b3-9472-4a2e-9f82-28f445629274",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://meat.bluesystem.me/search.php",
+     "from": "https://meat.bluesystem.me/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "c2df3720b54c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 267
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://meat.bluesystem.me/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 111
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://meat.bluesystem.me/search.php",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2602,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "c2df3720b54c",
+   "titleHash": "3a949b4c5462"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://meat.bluesystem.me/",
+   "readyState": "complete",
+   "timeOrigin": 1793563832569.7,
+   "marker": null,
+   "histLen": 20,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2641,
+   "active": "INPUT",
+   "textLen": 13741,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://meat.bluesystem.me/",
+    "key": "c27c1c46-b88d-439b-95a5-2900546fc5a1",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://meat.bluesystem.me/",
+     "from": "https://meat.bluesystem.me/search.php",
+     "entryIsCurrent": true
+    },
+    "urlHash": "77fcd958f14d"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 113
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://meat.bluesystem.me/search.php",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 267
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://meat.bluesystem.me/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2611,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "77fcd958f14d",
+   "titleHash": "bfa1d938353e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://meat.bluesystem.me/",
+   "readyState": "complete",
+   "timeOrigin": 1793563835280.4,
+   "marker": null,
+   "histLen": 20,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2641,
+   "active": "INPUT",
+   "textLen": 13738,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://meat.bluesystem.me/",
+    "key": "c27c1c46-b88d-439b-95a5-2900546fc5a1",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://meat.bluesystem.me/",
+     "from": "https://meat.bluesystem.me/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "77fcd958f14d"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 81
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://meat.bluesystem.me/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 113
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "77fcd958f14d",
+   "titleHash": "bfa1d938353e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://meat.bluesystem.me/",
+   "readyState": "complete",
+   "timeOrigin": 1793563835280.4,
+   "marker": "m6",
+   "histLen": 20,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2641,
+   "active": "INPUT",
+   "textLen": 13738,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://meat.bluesystem.me/",
+    "key": "0205a44c-fdce-4fb5-9e53-3ce47a22bcaa",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://meat.bluesystem.me/",
+     "from": "https://meat.bluesystem.me/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "2e26586c3528"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 81
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://meat.bluesystem.me/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2708,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://meat.bluesystem.me/",
+     "t": 2709
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://meat.bluesystem.me/",
+     "t": 2709
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2709
+    },
+    {
+     "k": "hashchange",
+     "url": "https://meat.bluesystem.me/",
+     "t": 2709
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "2e26586c3528",
+   "titleHash": "bfa1d938353e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://meat.bluesystem.me/",
+   "readyState": "complete",
+   "timeOrigin": 1793563835280.4,
+   "marker": "m7",
+   "histLen": 20,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2641,
+   "active": "INPUT",
+   "textLen": 13738,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://meat.bluesystem.me/",
+    "key": "c27c1c46-b88d-439b-95a5-2900546fc5a1",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://meat.bluesystem.me/",
+     "from": "https://meat.bluesystem.me/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "77fcd958f14d"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 81
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://meat.bluesystem.me/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2708,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://meat.bluesystem.me/",
+     "t": 2709
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://meat.bluesystem.me/",
+     "t": 2709
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2709
+    },
+    {
+     "k": "hashchange",
+     "url": "https://meat.bluesystem.me/",
+     "t": 2709
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://meat.bluesystem.me/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5312,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://meat.bluesystem.me/",
+     "t": 5313
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5313
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://meat.bluesystem.me/",
+     "t": 5313
+    },
+    {
+     "k": "hashchange",
+     "url": "https://meat.bluesystem.me/",
+     "t": 5313
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "77fcd958f14d",
+   "titleHash": "bfa1d938353e"
+  }
+ ],
+ "plan": {
+  "link": "https://meat.bluesystem.me/",
+  "link2": "https://meat.bluesystem.me/add.php",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 26.4,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

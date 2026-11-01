@@ -1,0 +1,449 @@
+{
+ "id": "e0eb0574ec",
+ "page": "https://www.costcotravel.com/theme-parks",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.costcotravel.com/theme-parks",
+   "readyState": "complete",
+   "timeOrigin": 1793553675604.1,
+   "marker": null,
+   "histLen": 32,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 5582,
+   "active": "BODY",
+   "textLen": 2561,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.costcotravel.com/theme-parks",
+    "key": "d41f4ccc-8ac7-410e-934f-c25d61ba0a36",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.costcotravel.com/theme-parks",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "e0eb0574ecd2"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "https://www.costcotravel.com/theme-parks",
+     "t": 737
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.costcotravel.com/theme-parks",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 737,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.costcotravel.com/theme-parks",
+     "t": 737
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 737
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of undefined (reading 'initialize')",
+     "f": "https://www.costcotravel.com/jsLanding.act",
+     "l": 187590,
+     "t": 885
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1005
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of undefined (reading 'top')",
+     "f": "https://www.costcotravel.com/jsLanding.act",
+     "l": 194509,
+     "t": 1351
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "error": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "The following item cannot be handled by the data layer because it does not have a valid format: {\"0\":\"consent\",\"1\":\"default\",\"2\":{\"ad_storage\":\"granted\",\"ad_user_data\":\"granted\",\"ad_personalization\":\"granted\",\"analytics_storage\":\"granted\",\"functionality_storage\":\"granted\",\"personalization_storage\":\""
+    },
+    {
+     "k": "console-warning",
+     "e": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    },
+    {
+     "k": "console-error",
+     "e": "Setting the document's base URI to 'about:blank' violates the following Content Security Policy directive: \"base-uri 'self'\". The action has been blocked."
+    },
+    {
+     "k": "console-warning",
+     "e": "No matched device version."
+    },
+    {
+     "k": "console-error",
+     "e": "The following item cannot be handled by the data layer because it does not have a valid format: {\"0\":\"event\",\"1\":\"optimize.callback\",\"2\":{}}"
+    },
+    {
+     "k": "console-warning",
+     "e": "jQuery.Deferred exception: Cannot read properties of undefined (reading 'initialize') TypeError: Cannot read properties of undefined (reading 'initialize')\n    at Object.activate (https://www.costcotravel.com/jsLanding.act\n    "
+    },
+    {
+     "k": "console-error",
+     "e": "{\"lineno\":187590,\"colno\":10,\"message\":{},\"source\":\"https://www.costcotravel.com/jsLanding.act\"}"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of undefined (reading 'initialize')"
+    },
+    {
+     "k": "console-error",
+     "e": "{\"lineno\":194509,\"colno\":43,\"message\":{},\"source\":\"https://www.costcotravel.com/jsLanding.act\"}"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of undefined (reading 'top')"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "e0eb0574ecd2",
+   "titleHash": "15a2dbb69e83"
+  },
+  {
+   "step": "link",
+   "href": "https://www.costcotravel.com/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793553682280.7,
+   "marker": null,
+   "histLen": 33,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 179,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 12
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "88e810ee833d",
+   "titleHash": "1bdeb8dd3bd8"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793553684869.3,
+   "marker": null,
+   "histLen": 33,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 190,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "88e810ee833d",
+   "titleHash": "1bdeb8dd3bd8"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793553687452.8,
+   "marker": null,
+   "histLen": 33,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 179,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "88e810ee833d",
+   "titleHash": "1bdeb8dd3bd8"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793553690042.7,
+   "marker": null,
+   "histLen": 33,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 179,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "88e810ee833d",
+   "titleHash": "1bdeb8dd3bd8"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793553690042.7,
+   "marker": "m4",
+   "histLen": 34,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 179,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "chrome-error://chromewebdata/",
+     "t": 2643
+    },
+    {
+     "k": "hashchange",
+     "url": "chrome-error://chromewebdata/",
+     "t": 2643
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "16b1b993f298",
+   "titleHash": "1bdeb8dd3bd8"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793553695345.3,
+   "marker": null,
+   "histLen": 33,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 190,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "88e810ee833d",
+   "titleHash": "1bdeb8dd3bd8"
+  }
+ ],
+ "plan": {
+  "link": "https://www.costcotravel.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 22.3,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

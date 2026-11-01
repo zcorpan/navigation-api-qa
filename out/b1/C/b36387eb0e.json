@@ -1,0 +1,312 @@
+{
+ "id": "b36387eb0e",
+ "page": "https://www.dola.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "DIV",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 31,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 532,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 726
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 385,
+   "timeOrigin": 1793555454838,
+   "url": "https://www.dola.com/chat/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9a8aec46e24f",
+   "titleHash": "1a6067a34440"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "DIV",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 31,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 757
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:replaceState": 1,
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 532
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 726
+     }
+    ],
+    "url": "https://www.dola.com/chat/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 576,
+   "timeOrigin": 1793555463431,
+   "url": "https://www.dola.com/chat/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Firefox can\u2019t establish a connection to the server at wss://wss-normal-i18n.dola.com/ws/v2"
+    },
+    {
+     "k": "pageerror",
+     "e": "The connection to wss://wss-normal-i18n.dola.com/ws/v2"
+    }
+   ],
+   "urlHash": "9a8aec46e24f",
+   "titleHash": "1a6067a34440"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 32,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 757
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3352,
+     "url": "https://www.dola.com/chat/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3373,
+     "url": "https://www.dola.com/chat/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 576,
+   "timeOrigin": 1793555463431,
+   "url": "https://www.dola.com/chat/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "47dec076bf94",
+   "titleHash": "1a6067a34440"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "DIV",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 32,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 788
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "hashchange": 2,
+     "no-navigation": 1,
+     "pageshow": 1,
+     "popstate": 2,
+     "rejection": 5
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 757
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 3352,
+      "url": "https://www.dola.com/chat/"
+     },
+     {
+      "k": "hashchange",
+      "t": 3373,
+      "url": "https://www.dola.com/chat/"
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 6138,
+      "url": "https://www.dola.com/chat/"
+     },
+     {
+      "k": "hashchange",
+      "t": 6169,
+      "url": "https://www.dola.com/chat/"
+     },
+     {
+      "e": "ChunkLoadError: Loading chunk yb2 failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.e9a4694d37.js)",
+      "k": "rejection",
+      "t": 6286
+     },
+     {
+      "e": "ChunkLoadError: Loading chunk cd failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.18b3fea7e0.js)",
+      "k": "rejection",
+      "t": 6293
+     },
+     {
+      "e": "ChunkLoadError: Loading chunk cd failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.18b3fea7e0.js)",
+      "k": "rejection",
+      "t": 6293
+     },
+     {
+      "e": "ChunkLoadError: Loading chunk cd failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.18b3fea7e0.js)",
+      "k": "rejection",
+      "t": 6293
+     },
+     {
+      "e": "ChunkLoadError: Loading chunk cd failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.18b3fea7e0.js)",
+      "k": "rejection",
+      "t": 6293
+     }
+    ],
+    "url": "https://www.dola.com/chat/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 587,
+   "timeOrigin": 1793555470280,
+   "url": "https://www.dola.com/chat/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "ChunkLoadError: Loading chunk yb2 failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.e9a4694d37.js)"
+    },
+    {
+     "k": "pageerror",
+     "e": "ChunkLoadError: Loading chunk cd failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.18b3fea7e0.js)"
+    },
+    {
+     "k": "pageerror",
+     "e": "ChunkLoadError: Loading chunk cd failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.18b3fea7e0.js)"
+    },
+    {
+     "k": "pageerror",
+     "e": "ChunkLoadError: Loading chunk cd failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.18b3fea7e0.js)"
+    },
+    {
+     "k": "pageerror",
+     "e": "ChunkLoadError: Loading chunk cd failed.\n(error: https://sf-flow-web-cdn.ciciai.<token>.18b3fea7e0.js)"
+    }
+   ],
+   "urlHash": "9a8aec46e24f",
+   "titleHash": "1a6067a34440"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept All",
+ "elapsed": 18.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

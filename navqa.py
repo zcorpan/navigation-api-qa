@@ -35,10 +35,15 @@ CC_HOST = re.compile(r'\b(google|bing|yahoo|amazon|facebook)\.(?:co\.)?(?!com\b|
 IP = re.compile(r'\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b')
 
 
+TOKEN = re.compile(r'[A-Za-z0-9+/_-]{60,}={0,2}')
+IPHOST = re.compile(r'\b\d{1,3}-\d{1,3}-\d{1,3}-\d{1,3}\b')
+
+
 def scrub(s):
     if not isinstance(s, str):
         return s
-    return IP.sub('<ip>', CC_HOST.sub(r'\1.<cc>', URL_QUERY.sub(r'\1', s)))
+    s = IP.sub('<ip>', CC_HOST.sub(r'\1.<cc>', URL_QUERY.sub(r'\1', s)))
+    return IPHOST.sub('<ip>', TOKEN.sub('<token>', s))
 
 
 def scrub_deep(v):
@@ -66,7 +71,7 @@ STATE_JS = r"""() => {
         nav = { len: n.entries().length, idx: ce ? ce.index : null, url: ce ? ce.url : null, key: ce ? ce.key : null,
                 sameDoc: ce ? ce.sameDocument : null, canGoBack: n.canGoBack, canGoForward: n.canGoForward,
                 transition: n.transition ? { type: n.transition.navigationType, from: n.transition.from && n.transition.from.url } : null,
-                activation: n.activation ? { type: n.activation.navigationType, entry: n.activation.entry && n.activation.entry.url,
+                activation: n.activation && self.origin !== 'null' ? { type: n.activation.navigationType, entry: n.activation.entry && n.activation.entry.url,
                   from: n.activation.from && n.activation.from.url, entryIsCurrent: !!(ce && n.activation.entry && n.activation.entry.key === ce.key) } : null };
       } catch (e) { nav = { error: String(e) }; }
     }
@@ -121,6 +126,11 @@ PICK_JS = r"""([kind, pref]) => {
   if (!a) a = all.find(vis);
   if (!a) { for (const l of all.filter(shown).slice(0, 40)) if (reach(l)) { a = l; break; } }
   if (!a) return null;
+  if (!window.__navqaClickHook) {
+    window.__navqaClickHook = true;
+    document.addEventListener('click', e => { if (e.target && e.target.closest && e.target.closest('[data-navqa-pick]')) window.__navqaClicked = true; }, true);
+  }
+  window.__navqaClicked = false;
   a.setAttribute('data-navqa-pick', '1');
   return a.href;
 }"""
@@ -331,6 +341,20 @@ class Safari(Selenium):
     def version(self):
         return 'Safari TP ' + str(self.v)
 
+    def back(self):
+        # After script clicks, safaridriver's back skips every entry added without a user gesture;
+        # Chrome's CDP back and Firefox's WebDriver back aren't browser UI traversals either.
+        self.d.execute_script('history.back()')
+
+    def forward(self):
+        self.d.execute_script('history.forward()')
+
+    def click(self):
+        # safaridriver's element click often never reaches the page on real sites (no click event
+        # is dispatched), so Safari visits use a script click.
+        self.d.execute_script("document.querySelector('[data-navqa-pick]').click()")
+        return 'js'
+
 
 BACKENDS = {'A': Chrome, 'A2': Chrome, 'B': Firefox, 'C': Firefox, 'D': Safari}
 
@@ -374,6 +398,8 @@ def state(be, marker):
 
 STEPS = [('load', None), ('link', 'link'), ('link2', 'link'), ('back', None), ('back3', None), ('forward', None), ('reload', None),
          ('fragment', 'fragment'), ('back2', None)]
+if os.environ.get('NAVQA_STEPS') == 'v1':
+    STEPS = [s for s in STEPS if s[0] not in ('link2', 'back3')]
 
 
 def visit(be, pid, url, plan, shotdir):
@@ -399,6 +425,12 @@ def visit(be, pid, url, plan, shotdir):
             continue
         if name != 'load':
             if pick:
+                try:
+                    if be.call(CONSENT_JS):
+                        rec['consentLate'] = rec.get('consentLate', 0) + 1
+                        settle(be, min_wait=1)
+                except Exception:
+                    pass
                 try:
                     href = be.call(PICK_JS, [pick, (plan or {}).get(name)])
                 except Exception as e:

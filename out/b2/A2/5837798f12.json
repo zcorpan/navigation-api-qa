@@ -1,0 +1,1390 @@
+{
+ "id": "5837798f12",
+ "page": "https://www.climatempo.com.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.climatempo.com.<token>",
+   "readyState": "complete",
+   "timeOrigin": 1793562117665,
+   "marker": null,
+   "histLen": 13,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6240,
+   "active": "BODY",
+   "textLen": 5374,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.climatempo.com.<token>",
+    "key": "5ec06a64-7540-4467-b9db-249711b2353c",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.climatempo.com.<token>",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "5837798f1252"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 55
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 117
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 117
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "<token>",
+     "t": 117
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.climatempo.com.<token>",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 117,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.climatempo.com.<token>",
+     "t": 117
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 120
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 120
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 125
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 261,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 301,
+     "len": 1
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 376
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 444
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 444
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 5995
+    },
+    {
+     "k": "error",
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": "https://www.climatempo.com.<token>",
+     "l": 0,
+     "t": 6585
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:activation": 2,
+    "get:currentEntry": 3,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "call:entries": 2,
+    "error": 3,
+    "listen:navigatesuccess": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Identifier 'script' has already been declared"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "TypeError: window.biddersBack is not a function\n    at <anonymous>:3:202\n    at https://c.amazon-adsystem.com/aax2/apstag.js:5:84891\n    at o (https://c.amazon-adsystem.com/aax2/apstag.js:5:38136)\n    at c (https://c.amazon-adsystem.com/aax2/apstag.js:5:65687)\n    at https://c.amazon-adsystem.com/aa"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "Placements With no Content: Below Article Thumbnails | Card 5"
+    },
+    {
+     "k": "console-warning",
+     "e": "Placements With no Content: Below Article Thumbnails | Card 5"
+    },
+    {
+     "k": "pageerror",
+     "e": "TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_CONNECTION_RESET"
+    }
+   ],
+   "urlHash": "5837798f1252",
+   "titleHash": "f170f3d536bf"
+  },
+  {
+   "step": "link",
+   "href": "https://www.climatempo.com.br/",
+   "click": "native",
+   "settle": 2.6,
+   "url": "https://www.climatempo.com.br/",
+   "readyState": "complete",
+   "timeOrigin": 1793562124840,
+   "marker": null,
+   "histLen": 14,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7730,
+   "active": "BODY",
+   "textLen": 10735,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.climatempo.com.br/",
+    "key": "bb664b19-eb7f-4424-8f8e-1e8ab5247fab",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.climatempo.com.br/",
+     "from": "https://www.climatempo.com.<token>",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9488cdfe378f"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 345
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 473
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 473
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 586,
+     "len": 2
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 1220
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "error": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "{name: SlotValidationError, message: There was an issue with the configuration for this\u2026luid\"]}\n- 'sizes' must have at least 1 valid item}"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "pageerror",
+     "e": "TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    }
+   ],
+   "urlHash": "9488cdfe378f",
+   "titleHash": "99c2c5ec38de"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.climatempo.com.br/planos",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.climatempo.com.br/planos",
+   "readyState": "complete",
+   "timeOrigin": 1793562130238.7,
+   "marker": null,
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2229,
+   "active": "BODY",
+   "textLen": 4476,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.climatempo.com.br/planos",
+    "key": "df10600b-c5bc-4c42-ace0-dd46454300b8",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.climatempo.com.br/planos",
+     "from": "https://www.climatempo.com.br/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "97c32321f6f3"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 76
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 120
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 120
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 223,
+     "len": 3
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED"
+    },
+    {
+     "k": "console-error",
+     "e": "Mixed Content: The page at 'https://www.climatempo.com.br/' was loaded over HTTPS, but requested an insecure frame 'http://d5p.de17a.com/getuid/pubmatic;c"
+    }
+   ],
+   "urlHash": "97c32321f6f3",
+   "titleHash": "611fea73f115"
+  },
+  {
+   "step": "back",
+   "settle": 2.7,
+   "url": "https://www.climatempo.com.br/",
+   "readyState": "complete",
+   "timeOrigin": 1793562133246.2,
+   "marker": null,
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7740,
+   "active": "BODY",
+   "textLen": 10516,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.climatempo.com.br/",
+    "key": "bb664b19-eb7f-4424-8f8e-1e8ab5247fab",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.climatempo.com.br/",
+     "from": "https://www.climatempo.com.br/planos",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9488cdfe378f"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 14
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 89
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 89
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 188,
+     "len": 3
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 1023
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "error": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "{name: SlotValidationError, message: There was an issue with the configuration for this\u2026luid\"]}\n- 'sizes' must have at least 1 valid item}"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "pageerror",
+     "e": "TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "9488cdfe378f",
+   "titleHash": "99c2c5ec38de"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "url": "https://www.climatempo.com.<token>",
+   "readyState": "complete",
+   "timeOrigin": 1793562136003.9,
+   "marker": null,
+   "histLen": 15,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6242,
+   "active": "BODY",
+   "textLen": 4932,
+   "nav": {
+    "len": 3,
+    "idx": 0,
+    "url": "https://www.climatempo.com.<token>",
+    "key": "5ec06a64-7540-4467-b9db-249711b2353c",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.climatempo.com.<token>",
+     "from": "https://www.climatempo.com.br/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "5837798f1252"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 15
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 33
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 33
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "<token>",
+     "t": 33
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.climatempo.com.<token>",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 33,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.climatempo.com.<token>",
+     "t": 33
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 35
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 35
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 38
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 85
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 85
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 121
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 155,
+     "len": 3
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 271
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:activation": 2,
+    "get:currentEntry": 3,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "listen:navigatesuccess": 1,
+    "error": 2,
+    "call:entries": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Geolocation permission has been blocked as the user has ignored the permission prompt several times. This can be reset in Page Info which can be accessed by clicking the tune icon next to the URL. See https://www.chromestatus.com/feature/6443143280984064 for more information."
+    },
+    {
+     "k": "pageerror",
+     "e": "Identifier 'script' has already been declared"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Placements With no Content: Below Article Thumbnails | Card 5"
+    },
+    {
+     "k": "pageerror",
+     "e": "TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-error",
+     "e": "TypeError: window.biddersBack is not a function\n    at <anonymous>:3:202\n    at https://c.amazon-adsystem.com/aax2/apstag.js:5:84891\n    at o (https://c.amazon-adsystem.com/aax2/apstag.js:5:38136)\n    at c (https://c.amazon-adsystem.com/aax2/apstag.js:5:65687)\n    at https://c.amazon-adsystem.com/aa"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "5837798f1252",
+   "titleHash": "f170f3d536bf"
+  },
+  {
+   "step": "forward",
+   "settle": 2.9,
+   "url": "https://www.climatempo.com.br/",
+   "readyState": "complete",
+   "timeOrigin": 1793562138679,
+   "marker": null,
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7740,
+   "active": "BODY",
+   "textLen": 10632,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.climatempo.com.br/",
+    "key": "bb664b19-eb7f-4424-8f8e-1e8ab5247fab",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.climatempo.com.br/",
+     "from": "https://www.climatempo.com.<token>",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9488cdfe378f"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 14
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 86
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 86
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 185,
+     "len": 3
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 839
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "error": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Geolocation permission has been blocked as the user has ignored the permission prompt several times. This can be reset in Page Info which can be accessed by clicking the tune icon next to the URL. See https://www.chromestatus.com/feature/6443143280984064 for more information."
+    },
+    {
+     "k": "console-error",
+     "e": "Error fetching location data: GeolocationPositionError"
+    },
+    {
+     "k": "console-warning",
+     "e": "Geolocation permission has been blocked as the user has ignored the permission prompt several times. This can be reset in Page Info which can be accessed by clicking the tune icon next to the URL. See https://www.chromestatus.com/feature/6443143280984064 for more information."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "{name: SlotValidationError, message: There was an issue with the configuration for this\u2026luid\"]}\n- 'sizes' must have at least 1 valid item}"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "pageerror",
+     "e": "TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "9488cdfe378f",
+   "titleHash": "99c2c5ec38de"
+  },
+  {
+   "step": "reload",
+   "settle": 2.7,
+   "url": "https://www.climatempo.com.br/",
+   "readyState": "complete",
+   "timeOrigin": 1793562141735.6,
+   "marker": null,
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7723,
+   "active": "BODY",
+   "textLen": 10556,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.climatempo.com.br/",
+    "key": "bb664b19-eb7f-4424-8f8e-1e8ab5247fab",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.climatempo.com.br/",
+     "from": "https://www.climatempo.com.br/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9488cdfe378f"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 40
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 60
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 60
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 136,
+     "len": 3
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 894
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "error": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "{name: SlotValidationError, message: There was an issue with the configuration for this\u2026luid\"]}\n- 'sizes' must have at least 1 valid item}"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "Geolocation permission has been blocked as the user has ignored the permission prompt several times. This can be reset in Page Info which can be accessed by clicking the tune icon next to the URL. See https://www.chromestatus.com/feature/6443143280984064 for more information."
+    },
+    {
+     "k": "console-error",
+     "e": "Error fetching location data: GeolocationPositionError"
+    },
+    {
+     "k": "console-warning",
+     "e": "Geolocation permission has been blocked as the user has ignored the permission prompt several times. This can be reset in Page Info which can be accessed by clicking the tune icon next to the URL. See https://www.chromestatus.com/feature/6443143280984064 for more information."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "pageerror",
+     "e": "TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "9488cdfe378f",
+   "titleHash": "99c2c5ec38de"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "url": "https://www.climatempo.com.br/",
+   "readyState": "complete",
+   "timeOrigin": 1793562141735.6,
+   "marker": "m6",
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7723,
+   "active": "BODY",
+   "textLen": 10556,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.climatempo.com.br/",
+    "key": "787e2878-9bed-4454-90dc-d15c9bd6a4ef",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.climatempo.com.br/",
+     "from": "https://www.climatempo.com.br/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "1892a3e007d1"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 40
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 60
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 60
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 136,
+     "len": 3
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 894
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.climatempo.com.br/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2823,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.climatempo.com.br/",
+     "t": 2824
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.climatempo.com.br/",
+     "t": 2824
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2824
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2824
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.climatempo.com.br/",
+     "t": 2824
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "error": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    }
+   ],
+   "urlHash": "1892a3e007d1",
+   "titleHash": "99c2c5ec38de"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.climatempo.com.br/",
+   "readyState": "complete",
+   "timeOrigin": 1793562141735.6,
+   "marker": "m7",
+   "histLen": 15,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7723,
+   "active": "BODY",
+   "textLen": 10556,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.climatempo.com.br/",
+    "key": "bb664b19-eb7f-4424-8f8e-1e8ab5247fab",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.climatempo.com.br/",
+     "from": "https://www.climatempo.com.br/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "9488cdfe378f"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 40
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 60
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Kia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at jE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at R.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "at WX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 60
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 136,
+     "len": 3
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 894
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.climatempo.com.br/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2823,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.climatempo.com.br/",
+     "t": 2824
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.climatempo.com.br/",
+     "t": 2824
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2824
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2824
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.climatempo.com.br/",
+     "t": 2824
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.climatempo.com.br/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5522,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.climatempo.com.br/",
+     "t": 5523
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5523
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5523
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.climatempo.com.br/",
+     "t": 5523
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.climatempo.com.br/",
+     "t": 5523
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "error": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9488cdfe378f",
+   "titleHash": "99c2c5ec38de"
+  }
+ ],
+ "plan": {
+  "link": "https://www.climatempo.com.br/",
+  "link2": "https://www.climatempo.com.br/planos",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "consentLate": 1,
+ "elapsed": 32.3,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

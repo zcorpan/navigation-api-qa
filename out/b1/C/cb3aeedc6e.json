@@ -1,0 +1,436 @@
+{
+ "id": "cb3aeedc6e",
+ "page": "https://www.rugbyrama.fr/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 18857,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 644
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 26513,
+   "timeOrigin": 1793554833496,
+   "url": "https://www.rugbyrama.fr/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "cb3aeedc6e54",
+   "titleHash": "7c0d111f8a49"
+  },
+  {
+   "step": "link",
+   "href": "https://www.rugbyrama.fr/en-direct/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 11030,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 131
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13839,
+   "timeOrigin": 1793554841132,
+   "url": "https://www.rugbyrama.fr/en-direct/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "1732f8a98ac7",
+   "titleHash": "7f145fa9f226"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 18854,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 215
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 26589,
+   "timeOrigin": 1793554844284,
+   "url": "https://www.rugbyrama.fr/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api-v6.prod.first-id.fr/info. (Reason: CORS request did not succeed). Status code: (null)."
+    }
+   ],
+   "urlHash": "cb3aeedc6e54",
+   "titleHash": "7c0d111f8a49"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 2
+   },
+   "docH": 11030,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 131
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5527
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13839,
+   "timeOrigin": 1793554841132,
+   "url": "https://www.rugbyrama.fr/en-direct/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api-v6.prod.first-id.fr/info. (Reason: CORS request did not succeed). Status code: (null)."
+    }
+   ],
+   "urlHash": "1732f8a98ac7",
+   "titleHash": "7f145fa9f226"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 11030,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 326
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13839,
+   "timeOrigin": 1793554849692,
+   "url": "https://www.rugbyrama.fr/en-direct/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "1732f8a98ac7",
+   "titleHash": "7f145fa9f226"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 11030,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 326
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2922,
+     "url": "https://www.rugbyrama.fr/en-direct/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2924,
+     "url": "https://www.rugbyrama.fr/en-direct/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13839,
+   "timeOrigin": 1793554849692,
+   "url": "https://www.rugbyrama.fr/en-direct/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api-v6.prod.first-id.fr/info. (Reason: CORS request did not succeed). Status code: (null)."
+    }
+   ],
+   "urlHash": "3bace39a1fee",
+   "titleHash": "7f145fa9f226"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 11030,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 326
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2922,
+     "url": "https://www.rugbyrama.fr/en-direct/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2924,
+     "url": "https://www.rugbyrama.fr/en-direct/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5508,
+     "url": "https://www.rugbyrama.fr/en-direct/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5512,
+     "url": "https://www.rugbyrama.fr/en-direct/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13839,
+   "timeOrigin": 1793554849692,
+   "url": "https://www.rugbyrama.fr/en-direct/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Utiq]: Method \"getUtiqConsentStatus\" is currently unavailable, because of current SDK internal state."
+    }
+   ],
+   "urlHash": "1732f8a98ac7",
+   "titleHash": "7f145fa9f226"
+  }
+ ],
+ "plan": {
+  "link": "https://www.rugbyrama.fr/en-direct/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 24.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

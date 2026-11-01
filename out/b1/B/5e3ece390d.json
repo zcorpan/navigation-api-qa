@@ -1,0 +1,1376 @@
+{
+ "id": "5e3ece390d",
+ "page": "https://olhardigital.com.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 8601,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.<token>:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 1149
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1285
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.<token>:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 1285
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1951
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.<token>:70:45",
+      "Nn@https://jsc.mgid.com/site/806238.js:291:4107",
+      "@https://jsc.mgid.com/site/806238.js:295:18838",
+      "@https://jsc.mgid.com/site/806238.js:295:19510"
+     ],
+     "t": 4433
+    },
+    {
+     "e": "Script error.",
+     "f": "https://dmp.im-apps.net/secure-signal/provider.js",
+     "k": "error",
+     "l": 0,
+     "t": 6210
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://olhardigital.com.<token>",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "ce454c9f-a453-4a0a-bbf4-43cee8d3bb3d",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://olhardigital.com.<token>",
+    "urlHash": "5e3ece390d4e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7662,
+   "timeOrigin": 1793553581153,
+   "url": "https://olhardigital.com.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid PixelID: a non-numeric string."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Unrecognized property encountered when calling setConfig: googletag.setConfig.interstitial\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCCDCF\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://ib.adnxs.com/getuidj. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 400."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_SW8K6Q5YC4\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_SW8K6Q5YC4\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_HJ7RH9NLX7\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_HJ7RH9NLX7\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.app/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://ib.adnxs.com/getuidj (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 400."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "One Tap n\u00e3o exibido: undefined tap_outside"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCCDCF\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201clotame_domain_check\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "SyntaxError: redeclaration of let t"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cconnectId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: vignette: no interstitial API"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "console-warn",
+     "e": "COPY THE FOLLOWING INSIDE studioExitsTmp in atd-main.js:\nEnabler.exit(\"frame1_background_clicked\");\nEnabler.exit(\"frame2_background_clicked\");\nEnabler.exit(\"frame3_background_clicked\");\nEnabler.exit(\"frame3_cta_clicked\");\n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553589243\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553589244_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553589244_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553589245_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553589245_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.app/v1.0/state\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "5e3ece390d4e",
+   "titleHash": "848d50cd3be3"
+  },
+  {
+   "step": "link",
+   "href": "https://olhardigital.com.br/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "IFRAME#google_ads_iframe_/1040097/olhardigital/interstitial_0",
+   "counts": {
+    "currententrychange:push": 1,
+    "error": 1,
+    "get:currentEntry": 2,
+    "history:pushState": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 8601,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.<token>:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 1149
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1285
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.<token>:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 1285
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1951
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.<token>:70:45",
+      "Nn@https://jsc.mgid.com/site/806238.js:291:4107",
+      "@https://jsc.mgid.com/site/806238.js:295:18838",
+      "@https://jsc.mgid.com/site/806238.js:295:19510"
+     ],
+     "t": 4433
+    },
+    {
+     "e": "Script error.",
+     "f": "https://dmp.im-apps.net/secure-signal/provider.js",
+     "k": "error",
+     "l": 0,
+     "t": 6210
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8870,
+     "url": "https://olhardigital.com.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8870,
+     "url": "https://olhardigital.com.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://olhardigital.com.<token>",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8870
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8878
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8878
+    }
+   ],
+   "marker": "m0",
+   "nav": {
+    "activation": {
+     "entry": "https://olhardigital.com.<token>",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "64a96851-38d8-409e-92f3-dd33e2db0e9e",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://olhardigital.com.<token>",
+    "urlHash": "49a64a5607d3"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7662,
+   "timeOrigin": 1793553581153,
+   "url": "https://olhardigital.com.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "49a64a5607d3",
+   "titleHash": "848d50cd3be3"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "error": 1,
+    "get:currentEntry": 3,
+    "hashchange": 1,
+    "history:pushState": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 8601,
+   "histLen": 19,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.<token>:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 1149
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1285
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.<token>:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 1285
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1951
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.<token>:70:45",
+      "Nn@https://jsc.mgid.com/site/806238.js:291:4107",
+      "@https://jsc.mgid.com/site/806238.js:295:18838",
+      "@https://jsc.mgid.com/site/806238.js:295:19510"
+     ],
+     "t": 4433
+    },
+    {
+     "e": "Script error.",
+     "f": "https://dmp.im-apps.net/secure-signal/provider.js",
+     "k": "error",
+     "l": 0,
+     "t": 6210
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 8870,
+     "url": "https://olhardigital.com.<token>"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 8870,
+     "url": "https://olhardigital.com.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://olhardigital.com.<token>",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 8870
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 8878
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 8878
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 11540,
+     "url": "https://olhardigital.com.<token>",
+     "userInitiated": false
+    },
+    {
+     "from": "https://olhardigital.com.<token>",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 11540
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 11540
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 11540
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 11540,
+     "url": "https://olhardigital.com.<token>"
+    },
+    {
+     "k": "hashchange",
+     "t": 11544,
+     "url": "https://olhardigital.com.<token>"
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://olhardigital.com.<token>",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "ce454c9f-a453-4a0a-bbf4-43cee8d3bb3d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://olhardigital.com.<token>",
+    "urlHash": "5e3ece390d4e"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7662,
+   "timeOrigin": 1793553581153,
+   "url": "https://olhardigital.com.<token>",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5e3ece390d4e",
+   "titleHash": "848d50cd3be3"
+  },
+  {
+   "step": "forward",
+   "settle": 3.6,
+   "active": "IFRAME",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10021,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1297
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 1297
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2304
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:713243",
+      "s@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:386"
+     ],
+     "t": 2745
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://olhardigital.com.br/",
+     "entryIsCurrent": true,
+     "from": "https://olhardigital.com.<token>",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "30c93300-38c8-4c1c-b069-246de7f68a8e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://olhardigital.com.br/",
+    "urlHash": "e22c9f3c201b"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16204,
+   "timeOrigin": 1793553595429,
+   "url": "https://olhardigital.com.br/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_SW8K6Q5YC4\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_SW8K6Q5YC4\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_HJ7RH9NLX7\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_HJ7RH9NLX7\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://ib.adnxs.com/getuidj. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 400."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid PixelID: a non-numeric string."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.app/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553597229\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://stats.hbagency.ai/app/statistics"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "e22c9f3c201b",
+   "titleHash": "1e0a73d5f280"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 10021,
+   "histLen": 20,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 125
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:713243",
+      "s@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:386"
+     ],
+     "t": 306
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 323
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 323
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2343
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://olhardigital.com.br/",
+     "entryIsCurrent": true,
+     "from": "https://olhardigital.com.br/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "30c93300-38c8-4c1c-b069-246de7f68a8e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://olhardigital.com.br/",
+    "urlHash": "e22c9f3c201b"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16204,
+   "timeOrigin": 1793553599057,
+   "url": "https://olhardigital.com.br/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://stats.hbagency.ai/app/statistics"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid PixelID: a non-numeric string."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553599421\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_SW8K6Q5YC4\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_SW8K6Q5YC4\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_HJ7RH9NLX7\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_HJ7RH9NLX7\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://ib.adnxs.com/getuidj. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 400."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_YJ7JGFR9PJ\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://stats.hbagency.ai/app/statistics"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://stats.hbagency.ai/app/statistics"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://stats.hbagency.ai/app/statistics"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://token.rubiconproject.com/khaos.json (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 500."
+    }
+   ],
+   "urlHash": "e22c9f3c201b",
+   "titleHash": "1e0a73d5f280"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 10021,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 125
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:713243",
+      "s@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:386"
+     ],
+     "t": 306
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 323
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 323
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2343
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4935,
+     "url": "https://olhardigital.com.br/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://olhardigital.com.br/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4936
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4936,
+     "url": "https://olhardigital.com.br/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4943
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4943
+    },
+    {
+     "k": "hashchange",
+     "t": 4945,
+     "url": "https://olhardigital.com.br/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://olhardigital.com.br/",
+     "entryIsCurrent": false,
+     "from": "https://olhardigital.com.br/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 3,
+    "key": "b600f756-397c-41b0-88bf-e5ace0995ad9",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://olhardigital.com.br/",
+    "urlHash": "57bd60cacd10"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16204,
+   "timeOrigin": 1793553599057,
+   "url": "https://olhardigital.com.br/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-YEC\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "57bd60cacd10",
+   "titleHash": "1e0a73d5f280"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 10021,
+   "histLen": 21,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 125
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:713243",
+      "s@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/3a11ce98-9f2a-4882-8147-a95ccbd0662e/grumi.js:7:386"
+     ],
+     "t": 306
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 323
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://olhardigital.com.br/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 323
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2343
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4935,
+     "url": "https://olhardigital.com.br/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://olhardigital.com.br/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4936
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4936,
+     "url": "https://olhardigital.com.br/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4943
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4943
+    },
+    {
+     "k": "hashchange",
+     "t": 4945,
+     "url": "https://olhardigital.com.br/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7593,
+     "url": "https://olhardigital.com.br/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://olhardigital.com.br/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7594
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7594
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7594
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7594,
+     "url": "https://olhardigital.com.br/"
+    },
+    {
+     "k": "hashchange",
+     "t": 7597,
+     "url": "https://olhardigital.com.br/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://olhardigital.com.br/",
+     "entryIsCurrent": true,
+     "from": "https://olhardigital.com.br/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 2,
+    "key": "30c93300-38c8-4c1c-b069-246de7f68a8e",
+    "len": 4,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://olhardigital.com.br/",
+    "urlHash": "e22c9f3c201b"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16204,
+   "timeOrigin": 1793553599057,
+   "url": "https://olhardigital.com.br/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e22c9f3c201b",
+   "titleHash": "1e0a73d5f280"
+  }
+ ],
+ "plan": {
+  "link": "https://olhardigital.com.br/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 28.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

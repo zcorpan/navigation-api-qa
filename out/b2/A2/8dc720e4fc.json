@@ -1,0 +1,1908 @@
+{
+ "id": "8dc720e4fc",
+ "page": "https://president.jp/articles/-/120324",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://president.jp/articles/-/120324",
+   "readyState": "complete",
+   "timeOrigin": 1793562959472.8,
+   "marker": null,
+   "histLen": 19,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6828,
+   "active": "BODY",
+   "textLen": 3497,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://president.jp/articles/-/120324",
+    "key": "fc928c97-a6e9-4c4e-bd64-bbce02809408",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://president.jp/articles/-/120324",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "8dc720e4fcf4"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 663
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 663
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1036
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1087,
+     "len": 1
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232)",
+      "at s (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219)",
+      "at r (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:385)",
+      "at createInstance (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402)"
+     ],
+     "t": 1472
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3860
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "get:activation": 1,
+    "call:entries": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {\"page:total_page_num\":3}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "8dc720e4fcf4",
+   "titleHash": "ccb1e626f5f2"
+  },
+  {
+   "step": "link",
+   "href": "https://president.jp/",
+   "click": "native",
+   "settle": 4.1,
+   "url": "https://president.jp/",
+   "readyState": "complete",
+   "timeOrigin": 1793562971309.8,
+   "marker": null,
+   "histLen": 20,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7780,
+   "active": "BODY",
+   "textLen": 6565,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://president.jp/",
+    "key": "db4a3615-5c6e-48ed-8c65-957a93ac176d",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://president.jp/",
+     "from": "https://president.jp/articles/-/120324",
+     "entryIsCurrent": true
+    },
+    "urlHash": "11a0794b159a"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232)",
+      "at s (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219)",
+      "at r (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:385)",
+      "at createInstance (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402)"
+     ],
+     "t": 582
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 593
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 593
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 665
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 675,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2819
+    }
+   ],
+   "counts": {
+    "listen:navigate": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "get:activation": 1,
+    "call:entries": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Mixed Content: The page at 'https://president.jp/' was loaded over HTTPS, but requested an insecure frame 'http://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    }
+   ],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "link2",
+   "href": "https://president.jp/list/ranking",
+   "click": "native",
+   "settle": 2.8,
+   "url": "https://president.jp/list/ranking",
+   "readyState": "complete",
+   "timeOrigin": 1793562976116.3,
+   "marker": null,
+   "histLen": 21,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6716,
+   "active": "BODY",
+   "textLen": 2336,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://president.jp/list/ranking",
+    "key": "d88631e4-0c83-4fd4-9efc-d9a600b2b02c",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://president.jp/list/ranking",
+     "from": "https://president.jp/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "4a5b52f11297"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 402
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 402
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 531,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 546
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232)",
+      "at s (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219)",
+      "at r (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:385)",
+      "at createInstance (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402)"
+     ],
+     "t": 865
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1018
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2299
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at https://js.ad-score.com/score.min.js",
+      "at X2.<computed>.<computed> [as run] (https://js.ad-score.com/score.min.js",
+      "at https://js.ad-score.com/score.min.js",
+      "at q (https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2299,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2299
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 2299
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2299
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2299
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at https://js.ad-score.com/score.min.js",
+      "at X2.<computed>.<computed> [as run] (https://js.ad-score.com/score.min.js",
+      "at https://js.ad-score.com/score.min.js",
+      "at q (https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2300
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2368
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at https://js.ad-score.com/score.min.js",
+      "at X2.<computed>.<computed> [as run] (https://js.ad-score.com/score.min.js",
+      "at https://js.ad-score.com/score.min.js",
+      "at q (https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2368,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2368
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 2368
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2368
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2368
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at https://js.ad-score.com/score.min.js",
+      "at X2.<computed>.<computed> [as run] (https://js.ad-score.com/score.min.js",
+      "at https://js.ad-score.com/score.min.js",
+      "at q (https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2368
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2459
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at https://js.ad-score.com/score.min.js",
+      "at X2.<computed>.<computed> [as run] (https://js.ad-score.com/score.min.js",
+      "at https://js.ad-score.com/score.min.js",
+      "at q (https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2459,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2459
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 2459
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2459
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2459
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at https://js.ad-score.com/score.min.js",
+      "at X2.<computed>.<computed> [as run] (https://js.ad-score.com/score.min.js",
+      "at https://js.ad-score.com/score.min.js",
+      "at q (https://js.ad-score.com/score.min.js"
+     ],
+     "t": 2459
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 10,
+    "listen:navigatesuccess": 1,
+    "call:entries": 4,
+    "get:activation": 1,
+    "listen:navigate": 4,
+    "pageshow": 1,
+    "get:canGoBack": 3,
+    "get:canGoForward": 3
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    }
+   ],
+   "urlHash": "4a5b52f11297",
+   "titleHash": "460013cd18c6"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "url": "https://president.jp/",
+   "readyState": "complete",
+   "timeOrigin": 1793562979331.8,
+   "marker": null,
+   "histLen": 21,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7780,
+   "active": "BODY",
+   "textLen": 6571,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://president.jp/",
+    "key": "db4a3615-5c6e-48ed-8c65-957a93ac176d",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://president.jp/",
+     "from": "https://president.jp/list/ranking",
+     "entryIsCurrent": true
+    },
+    "urlHash": "11a0794b159a"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 52
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 52
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 125,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 164
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232)",
+      "at s (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219)",
+      "at r (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:385)",
+      "at createInstance (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402)"
+     ],
+     "t": 308
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 756
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "get:activation": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    }
+   ],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "back3",
+   "settle": 3.8,
+   "url": "https://president.jp/articles/-/120324",
+   "readyState": "complete",
+   "timeOrigin": 1793562982423.5,
+   "marker": null,
+   "histLen": 21,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7829,
+   "active": "BODY",
+   "textLen": 4200,
+   "nav": {
+    "len": 3,
+    "idx": 0,
+    "url": "https://president.jp/articles/-/120324",
+    "key": "fc928c97-a6e9-4c4e-bd64-bbce02809408",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://president.jp/articles/-/120324",
+     "from": "https://president.jp/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "8dc720e4fcf4"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 46
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 46
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 199,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 209
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232)",
+      "at s (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219)",
+      "at r (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:385)",
+      "at createInstance (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402)"
+     ],
+     "t": 807
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2715
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "get:activation": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {\"page:total_page_num\":3}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Framing 'https://news.google.com/' violates the following report-only Content Security Policy directive: \"frame-ancestors 'self'\". The violation has been logged, but no further action has been taken.\n"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    }
+   ],
+   "urlHash": "8dc720e4fcf4",
+   "titleHash": "ccb1e626f5f2"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "url": "https://president.jp/",
+   "readyState": "complete",
+   "timeOrigin": 1793562986675.1,
+   "marker": null,
+   "histLen": 21,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 7780,
+   "active": "BODY",
+   "textLen": 6556,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://president.jp/",
+    "key": "db4a3615-5c6e-48ed-8c65-957a93ac176d",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://president.jp/",
+     "from": "https://president.jp/articles/-/120324",
+     "entryIsCurrent": true
+    },
+    "urlHash": "11a0794b159a"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 54
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 54
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 125,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 161
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232)",
+      "at s (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219)",
+      "at r (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:385)",
+      "at createInstance (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402)"
+     ],
+     "t": 283
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 502
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "get:activation": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Framing 'https://news.google.com/' violates the following report-only Content Security Policy directive: \"frame-ancestors 'self'\". The violation has been logged, but no further action has been taken.\n"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://hb.adingo.jp/prebid/' from origin 'https://president.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    }
+   ],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://president.jp/",
+   "readyState": "complete",
+   "timeOrigin": 1793562989807.9,
+   "marker": null,
+   "histLen": 21,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6722,
+   "active": "BODY",
+   "textLen": 5773,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://president.jp/",
+    "key": "db4a3615-5c6e-48ed-8c65-957a93ac176d",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://president.jp/",
+     "from": "https://president.jp/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "11a0794b159a"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 408
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 408
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 447,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 454
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232)",
+      "at s (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219)",
+      "at r (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:385)",
+      "at createInstance (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402)"
+     ],
+     "t": 850
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1476
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "get:activation": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    }
+   ],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "url": "https://president.jp/",
+   "readyState": "complete",
+   "timeOrigin": 1793562989807.9,
+   "marker": "m6",
+   "histLen": 21,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6722,
+   "active": "BODY",
+   "textLen": 5773,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://president.jp/",
+    "key": "4b595243-a902-452a-8490-f7d48f08dd76",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://president.jp/",
+     "from": "https://president.jp/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "321207861747"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 408
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 408
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 447,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 454
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232)",
+      "at s (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219)",
+      "at r (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:385)",
+      "at createInstance (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402)"
+     ],
+     "t": 850
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1476
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://president.jp/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 4155,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://president.jp/",
+     "t": 4155
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://president.jp/",
+     "t": 4155
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4171
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4171
+    },
+    {
+     "k": "hashchange",
+     "url": "https://president.jp/",
+     "t": 4171
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "get:activation": 1,
+    "listen:navigate": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 451 ()"
+    }
+   ],
+   "urlHash": "321207861747",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://president.jp/",
+   "readyState": "complete",
+   "timeOrigin": 1793562989807.9,
+   "marker": "m7",
+   "histLen": 21,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6722,
+   "active": "BODY",
+   "textLen": 5773,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://president.jp/",
+    "key": "db4a3615-5c6e-48ed-8c65-957a93ac176d",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://president.jp/",
+     "from": "https://president.jp/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "11a0794b159a"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 408
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at wja (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at Q.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "at FX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 408
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 447,
+     "len": 3
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 454
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at 48../app/adNetwork/adNetworkManager.js (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232)",
+      "at s (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219)",
+      "at r (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:385)",
+      "at createInstance (https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402)"
+     ],
+     "t": 850
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1476
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://president.jp/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 4155,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://president.jp/",
+     "t": 4155
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://president.jp/",
+     "t": 4155
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4171
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4171
+    },
+    {
+     "k": "hashchange",
+     "url": "https://president.jp/",
+     "t": 4171
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://president.jp/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6863,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://president.jp/",
+     "t": 6864
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6864
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6864
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://president.jp/",
+     "t": 6864
+    },
+    {
+     "k": "hashchange",
+     "url": "https://president.jp/",
+     "t": 6881
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "call:entries": 1,
+    "get:activation": 1,
+    "listen:navigate": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  }
+ ],
+ "plan": {
+  "link": "https://president.jp/",
+  "link2": "https://president.jp/list/ranking",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 40.2,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

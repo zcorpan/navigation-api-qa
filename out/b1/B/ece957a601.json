@@ -1,0 +1,1611 @@
+{
+ "id": "ece957a601",
+ "page": "https://www.decathlon.es/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7734,
+   "histLen": 23,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 147
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 178
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 178
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 179,
+     "url": "/es"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 179,
+     "url": "https://www.decathlon.es/es",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 179
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 190
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 190
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 222
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 4354
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 4371
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.decathlon.es/es:70:45",
+      "50584/a/start/<@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12034",
+      "start@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12132",
+      "@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:7052"
+     ],
+     "t": 4608
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.decathlon.es/es",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "707919a3-5bef-4a1a-91f2-73b5480325ad",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.decathlon.es/es",
+    "urlHash": "d19f42a5af25"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6511,
+   "timeOrigin": 1793554142313,
+   "url": "https://www.decathlon.es/es",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://ssm.codes/smart-tag/beyup-customers.js from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://9000388.spxl.socy.es/pixelco/js/ADSA_323_323_643/ from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.dec"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/ads/ga-audiences"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/956337647/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/829312882/"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 181456612272369."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[iAdvize deprecation warning]\n\"idzCustomData\" is deprecated.\nPlease use \"iAdvize.set(\"customData\", { ... })\" instead\n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://www.clarity.ms/tag/uet/5489320 from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_tt_enable_cookie\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/956337647/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/829312882/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://fpc.decathlon.es/visitor-uid-cookie because it violates the following directive: \u201cconnect-src 'self' https://insights.v3.decathlon.net https://insights.decathlon.net ht"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://rt.udmserve.net/udm/fetch.pix because it violates the following directive: \u201cimg-src 'self' blob: data: https://*.booking.decathlon.net https://players."
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: An error occured."
+    }
+   ],
+   "urlHash": "d19f42a5af25",
+   "titleHash": "ca54d27599e2"
+  },
+  {
+   "step": "link",
+   "href": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 12976,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 113
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 166
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 166,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 166,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 166
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 177
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 177
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 215
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 367
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 383
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:70:45",
+      "50584/a/start/<@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12034",
+      "start@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12132",
+      "@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:7052"
+     ],
+     "t": 1171
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "entryIsCurrent": true,
+     "from": "https://www.decathlon.es/es",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "9aabead8-34da-4b88-a139-f009e37595f3",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+    "urlHash": "02d031ad51fc"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16350,
+   "timeOrigin": 1793554149883,
+   "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://ssm.codes/smart-tag/beyup-customers.js from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.net "
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 181456612272369."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/829312882/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/829312882/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/956337647/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://9000388.spxl.socy.<token> from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/956337647/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://pixel.rubiconproject.com/tap.php because it violates the following directive: \u201cimg-src 'self' blob: data: https://*.booking"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://www.clarity.ms/tag/uet/5489320 from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.n"
+    },
+    {
+     "k": "console-warn",
+     "e": "[iAdvize deprecation warning]\n\"idzCustomData\" is deprecated.\nPlease use \"iAdvize.set(\"customData\", { ... })\" instead\n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://fpc.decathlon.es/visitor-uid-cookie because it violates the following directive: \u201cconnect-src 'self' https://insights.v3.decathlon.net https://insights.decathlon.net ht"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: An error occured."
+    }
+   ],
+   "urlHash": "02d031ad51fc",
+   "titleHash": "609b40ac7295"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 8994,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 74
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 102
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 102
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 102,
+     "url": "/es"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 102,
+     "url": "https://www.decathlon.es/es",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 102
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 110
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 110
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 136
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 251
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 266
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.decathlon.es/es:70:45",
+      "50584/a/start/<@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12034",
+      "start@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12132",
+      "@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:7052"
+     ],
+     "t": 542
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.decathlon.es/es",
+     "entryIsCurrent": true,
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "707919a3-5bef-4a1a-91f2-73b5480325ad",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.decathlon.es/es",
+    "urlHash": "d19f42a5af25"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6839,
+   "timeOrigin": 1793554153000,
+   "url": "https://www.decathlon.es/es",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 181456612272369."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://ssm.codes/smart-tag/beyup-customers.js from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://9000388.spxl.socy.es/pixelco/js/ADSA_323_323_643/ from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.dec"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://www.clarity.ms/tag/uet/5489320 from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/829312882/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/956337647/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://sync.teads.tv/um because it violates the following directive: \u201cimg-src 'self' blob: data: https://*.booking.decathlon.net https://players.bright"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/829312882/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://fpc.decathlon.es/visitor-uid-cookie because it violates the following directive: \u201cconnect-src 'self' https://insights.v3.decathlon.net https://insights.decathlon.net ht"
+    },
+    {
+     "k": "console-warn",
+     "e": "[iAdvize deprecation warning]\n\"idzCustomData\" is deprecated.\nPlease use \"iAdvize.set(\"customData\", { ... })\" instead\n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://dsum-sec.casalemedia.com/rum because it violates the following directive: \u201cimg-src 'self' blob: data: https://*.booking.decat"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://sync.taboola.com/sg/rtbhouse-network/1/rtb-h because it violates the following directive: \u201cimg-src 'self' blob: data: https://*.booking.decathlon"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: An error occured."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/956337647/"
+    }
+   ],
+   "urlHash": "d19f42a5af25",
+   "titleHash": "ca54d27599e2"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 12976,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 202
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 202
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 202,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 202,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 202
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 212
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 212
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 245
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 395
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 417
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 689
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:70:45",
+      "50584/a/start/<@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12034",
+      "start@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12132",
+      "@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:7052"
+     ],
+     "t": 884
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "entryIsCurrent": true,
+     "from": "https://www.decathlon.es/es",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "9aabead8-34da-4b88-a139-f009e37595f3",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+    "urlHash": "02d031ad51fc"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16350,
+   "timeOrigin": 1793554156132,
+   "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 181456612272369."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://ssm.codes/smart-tag/beyup-customers.js from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://9000388.spxl.socy.<token> from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://www.clarity.ms/tag/uet/5489320 from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/829312882/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/956337647/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/829312882/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/956337647/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://fpc.decathlon.es/visitor-uid-cookie because it violates the following directive: \u201cconnect-src 'self' https://insights.v3.decathlon.net https://insights.decathlon.net ht"
+    },
+    {
+     "k": "console-warn",
+     "e": "[iAdvize deprecation warning]\n\"idzCustomData\" is deprecated.\nPlease use \"iAdvize.set(\"customData\", { ... })\" instead\n"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: An error occured."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://ih.adscale.de/adscale-ih/tpui because it violates the following directive: \u201cimg-src 'self' "
+    }
+   ],
+   "urlHash": "02d031ad51fc",
+   "titleHash": "609b40ac7295"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 12973,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 186
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 249
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 249
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 249,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 249,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 249
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 262
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 263
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 311
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 956
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 972
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:70:45",
+      "50584/a/start/<@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12034",
+      "start@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12132",
+      "@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:7052"
+     ],
+     "t": 1274
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "entryIsCurrent": true,
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "9aabead8-34da-4b88-a139-f009e37595f3",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+    "urlHash": "02d031ad51fc"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16338,
+   "timeOrigin": 1793554159860,
+   "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://ssm.codes/smart-tag/beyup-customers.js from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://9000388.spxl.socy.<token> from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://www.clarity.ms/tag/uet/5489320 from being executed because it violates the following directive: \u201cscript-src 'self' 'unsafe-inline' https://prod.transcript.decathlon.net https://*.booking.decathlon.n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/829312882/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/pagead/1p-user-list/956337647/"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 181456612272369."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/829312882/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://www.google.<cc>/pagead/1p-conversion/956337647/"
+    },
+    {
+     "k": "console-warn",
+     "e": "[iAdvize deprecation warning]\n\"idzCustomData\" is deprecated.\nPlease use \"iAdvize.set(\"customData\", { ... })\" instead\n"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://fpc.decathlon.es/visitor-uid-cookie because it violates the following directive: \u201cconnect-src 'self' https://insights.v3.decathlon.net https://insights.decathlon.net ht"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: An error occured."
+    }
+   ],
+   "urlHash": "02d031ad51fc",
+   "titleHash": "609b40ac7295"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 3,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 12973,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 186
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 249
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 249
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 249,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 249,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 249
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 262
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 263
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 311
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 956
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 972
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:70:45",
+      "50584/a/start/<@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12034",
+      "start@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12132",
+      "@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:7052"
+     ],
+     "t": 1274
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2814,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2814
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2814,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2825
+    },
+    {
+     "k": "hashchange",
+     "t": 2876,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3220,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3220,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3220
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3246
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3255,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3255,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3255
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3255
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "entryIsCurrent": false,
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "56409110-3ecf-4268-8943-bc9a22087065",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+    "urlHash": "02d031ad51fc"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16338,
+   "timeOrigin": 1793554159860,
+   "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "02d031ad51fc",
+   "titleHash": "609b40ac7295"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 4,
+    "currententrychange:traverse": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 4,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:replace": 4,
+    "navigate:traverse": 1,
+    "navigatesuccess": 6,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 12973,
+   "histLen": 25,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 186
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 249
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 249
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 249,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 249,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 249
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 262
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 263
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 311
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 956
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:52:79",
+      "it@https://www.googletagmanager.com/gtag/destination",
+      "jt@https://www.googletagmanager.com/gtag/destination",
+      "NG@https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 972
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano:70:45",
+      "50584/a/start/<@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12034",
+      "start@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12132",
+      "@https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:7052"
+     ],
+     "t": 1274
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2814,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2814
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2814,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2825
+    },
+    {
+     "k": "hashchange",
+     "t": 2876,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3220,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3220,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3220
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3246
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3255,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3255,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3255
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3255
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5450,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5453
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5453
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5453,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5459,
+     "url": "/es/productos-segunda-mano/bicicletas-segunda-mano"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5459,
+     "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5459
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5462
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "entryIsCurrent": true,
+     "from": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "9aabead8-34da-4b88-a139-f009e37595f3",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+    "urlHash": "02d031ad51fc"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16338,
+   "timeOrigin": 1793554159860,
+   "url": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://region1.analytics.google.com/g/collect"
+    }
+   ],
+   "urlHash": "02d031ad51fc",
+   "titleHash": "609b40ac7295"
+  }
+ ],
+ "plan": {
+  "link": "https://www.decathlon.es/es/productos-segunda-mano/bicicletas-segunda-mano",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 26.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

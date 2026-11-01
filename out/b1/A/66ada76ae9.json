@@ -1,0 +1,741 @@
+{
+ "id": "66ada76ae9",
+ "page": "https://www.goindigo.in/hotels",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.goindigo.in/hotels",
+   "readyState": "complete",
+   "timeOrigin": 1793554289379.7,
+   "marker": null,
+   "histLen": 27,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3359,
+   "active": "BODY",
+   "textLen": 4266,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.goindigo.in/hotels",
+    "key": "30e3d138-baea-472f-95dd-0221def43fc8",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.goindigo.in/hotels",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "66ada76ae9f9"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/hotels?linkNav=Hotel_Deals_HotelBAU_Dec25|v1|3",
+     "t": 1380
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.goindigo.in/hotels",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1380,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.goindigo.in/hotels",
+     "t": 1380
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1381
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2369
+    },
+    {
+     "k": "error",
+     "e": "Uncaught ReferenceError: jQuery is not defined",
+     "f": "https://www.goindigo.in/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+     "l": 2,
+     "t": 3659
+    },
+    {
+     "k": "error",
+     "e": "Uncaught ReferenceError: _g is not defined",
+     "f": "https://www.goindigo.in/etc.clientlibs/foundation/clientlibs/jquery.min.dd9b395c741ce2784096e26619e14910.js",
+     "l": 1,
+     "t": 3681
+    },
+    {
+     "k": "error",
+     "e": "Uncaught TypeError: Cannot read properties of undefined (reading 'patchText')",
+     "f": "https://www.goindigo.in/etc.clientlibs/foundation/clientlibs/shared.min.e9d9a3990d7779c2e8e3361187f3d36b.js",
+     "l": 22,
+     "t": 3710
+    },
+    {
+     "k": "error",
+     "e": "Uncaught ReferenceError: CQ is not defined",
+     "f": "https://www.goindigo.in/etc.clientlibs/foundation/clientlibs/main.min.be53d5d2acc50492007c4929cbe3ee9e.js",
+     "l": 6,
+     "t": 3711
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "error": 4
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[UserDataManager] No user data provided, using anonymous user"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "pageerror",
+     "e": "jQuery is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "_g is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cannot read properties of undefined (reading 'patchText')"
+    },
+    {
+     "k": "pageerror",
+     "e": "CQ is not defined"
+    },
+    {
+     "k": "console-error",
+     "e": "Executing inline event handler violates the following Content Security Policy directive 'script-src https://*.go-mpulse.net 'nonce-7e3b43e0e110a0fd040216371d1e2624' 'nonce-7e3b43e0e110a0fd040216371d1e2624' 'nonce-7e3b43e0e110a0fd040216371d1e2624' 'self' 'nonce-dyTCsHurrDy3mFveHAJ8ow==' 'strict-dynam"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_addon is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_agentic_workflows is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_fare_summary is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_flight_status_result is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_flight_status_search is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_hotel_booking is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_itinerary is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_passenger_edit is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_plan_B is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_post_booking is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_refund is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_retrieve_pnr is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_scratch_card is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_seat_selection is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_split_pnr is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_srp is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_trip_summary is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_visa_service is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_web_checkin is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_booking_widget is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_loyalty_dashboard is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_user_profile is not defined"
+    },
+    {
+     "k": "console-error",
+     "e": "Refused to execute script from 'https://www.goindigo.in/errors/404.html' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://api-prod-skyplus.goindigo.in/login/v2/token/validate' from origin 'https://www.goindigo.in' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    }
+   ],
+   "urlHash": "66ada76ae9f9",
+   "titleHash": "bbf1268c49f4"
+  },
+  {
+   "step": "link",
+   "href": "https://www.goindigo.in/hotels",
+   "click": "native",
+   "settle": 2.8,
+   "url": "https://www.goindigo.in/hotels",
+   "readyState": "complete",
+   "timeOrigin": 1793554297045.8,
+   "marker": null,
+   "histLen": 28,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3359,
+   "active": "BODY",
+   "textLen": 4266,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.goindigo.in/hotels",
+    "key": "7d5997d0-5d72-4ca0-a7c5-33fdfb7cd6da",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.goindigo.in/hotels",
+     "from": "https://www.goindigo.in/hotels",
+     "entryIsCurrent": true
+    },
+    "urlHash": "2549f42768e4"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/hotels",
+     "t": 157
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.goindigo.in/hotels",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 157,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.goindigo.in/hotels",
+     "t": 157
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 157
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1172
+    },
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 2278
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "error": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[UserDataManager] No user data provided, using anonymous user"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Refused to execute script from 'https://www.goindigo.in/errors/404.html' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+    },
+    {
+     "k": "console-error",
+     "e": "Executing inline event handler violates the following Content Security Policy directive 'script-src https://*.go-mpulse.net 'nonce-cafb6506ca3afdbca39f6e3dba0dd251' 'nonce-cafb6506ca3afdbca39f6e3dba0dd251' 'nonce-cafb6506ca3afdbca39f6e3dba0dd251' 'self' 'nonce-701wl7eev1s9xfASXGhaEA==' 'strict-dynam"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_addon is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_agentic_workflows is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_fare_summary is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_flight_status_result is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_flight_status_search is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_hotel_booking is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_itinerary is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_passenger_edit is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_plan_B is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_post_booking is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_refund is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_retrieve_pnr is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_scratch_card is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_seat_selection is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_split_pnr is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_srp is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_trip_summary is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_visa_service is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_web_checkin is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_booking_widget is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_login is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_loyalty_dashboard is not defined"
+    },
+    {
+     "k": "console-warning",
+     "e": "Initialization of sharing external failed: ReferenceError: mf_user_profile is not defined"
+    },
+    {
+     "k": "console-error",
+     "e": "ReferenceError: mf_login is not defined\n    at https://www.goindigo.in/etc.clientlibs/skyplus6ev2/clientlibs/clientlib-site.min.3f7e120fef4a93d0f382cc6dae2911fa.js:2:441845\n    at new Promise (<anonymous>)\n    at 6462 (https://www.goindigo.in/etc.clientlibs/skyplus6ev2/clientlibs/clientlib-site.min."
+    },
+    {
+     "k": "pageerror",
+     "e": "mf_login is not defined\nwhile loading \"./AuthenticationApp\" from 6462"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR"
+    }
+   ],
+   "urlHash": "2549f42768e4",
+   "titleHash": "bbf1268c49f4"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793554299952.9,
+   "marker": null,
+   "histLen": 28,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 220,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 13
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "88e810ee833d",
+   "titleHash": "6361a8123fb2"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793554302596.5,
+   "marker": null,
+   "histLen": 28,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 180,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "88e810ee833d",
+   "titleHash": "6361a8123fb2"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793554305213,
+   "marker": null,
+   "histLen": 28,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 180,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "88e810ee833d",
+   "titleHash": "6361a8123fb2"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793554305213,
+   "marker": "m4",
+   "histLen": 29,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 180,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "chrome-error://chromewebdata/",
+     "t": 2564
+    },
+    {
+     "k": "hashchange",
+     "url": "chrome-error://chromewebdata/",
+     "t": 2564
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "16b1b993f298",
+   "titleHash": "6361a8123fb2"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "chrome-error://chromewebdata/",
+   "readyState": "complete",
+   "timeOrigin": 1793554310397.4,
+   "marker": null,
+   "histLen": 28,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 220,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "88e810ee833d",
+   "titleHash": "6361a8123fb2"
+  }
+ ],
+ "plan": {
+  "link": "https://www.goindigo.in/hotels",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 23.7,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

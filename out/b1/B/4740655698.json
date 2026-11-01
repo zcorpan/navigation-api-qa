@@ -1,0 +1,1157 @@
+{
+ "id": "4740655698",
+ "page": "https://cheezburger.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 28652,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 389
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.<token>:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 389
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.<token>:70:45",
+      "n.start@https://chargecracker.<token>:1:16913",
+      "t.start/e</<@https://chargecracker.<token>:1:133242",
+      "t.start/e<@https://chargecracker.<token>:1:133213"
+     ],
+     "t": 674
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.<token>:70:45",
+      "n.start@https://chargecracker.<token>:1:16952",
+      "t.start/e</<@https://chargecracker.<token>:1:133242",
+      "t.start/e<@https://chargecracker.<token>:1:133213"
+     ],
+     "t": 674
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 736
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.<token>:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:319711",
+      "s@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:386"
+     ],
+     "t": 6793
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://cheezburger.<token>",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "aef2fe32-1916-48b9-89ea-45a5f1bd40e7",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cheezburger.<token>",
+    "urlHash": "474065569832"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6010,
+   "timeOrigin": 1793553859263,
+   "url": "https://cheezburger.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553864675_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553864675_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553864678_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553864678_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    },
+    {
+     "k": "pageerror",
+     "e": "Blocked loading mixed active content \u201chttp://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553866212_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553866212_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553866212_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553866212_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "474065569832",
+   "titleHash": "38746ffb2de7"
+  },
+  {
+   "step": "link",
+   "href": "https://cheezburger.com/",
+   "click": "native",
+   "settle": 3.3,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 12620,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 225
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 225
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16913",
+      "t.start/e</<@https://chargecracker.<token>:1:133242",
+      "t.start/e<@https://chargecracker.<token>:1:133213"
+     ],
+     "t": 1499
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16952",
+      "t.start/e</<@https://chargecracker.<token>:1:133242",
+      "t.start/e<@https://chargecracker.<token>:1:133213"
+     ],
+     "t": 1499
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1537
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:319711",
+      "s@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:386"
+     ],
+     "t": 4844
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://cheezburger.com/",
+     "entryIsCurrent": true,
+     "from": "https://cheezburger.<token>",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "77cd04b3-8e98-4e94-930a-99e580dbe008",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cheezburger.com/",
+    "urlHash": "1b4ad9ca9c0f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3899,
+   "timeOrigin": 1793553867586,
+   "url": "https://cheezburger.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    },
+    {
+     "k": "console-warn",
+     "e": "Confiant: No sites are configured for video scanning"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553873437_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553873437_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553873442_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553873442_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    }
+   ],
+   "urlHash": "1b4ad9ca9c0f",
+   "titleHash": "0de9f8dcbee7"
+  },
+  {
+   "step": "back",
+   "settle": 2.8,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 28652,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 373
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.<token>:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 373
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.<token>:70:45",
+      "n.start@https://chargecracker.<token>:1:16913",
+      "t.start/e</<@https://chargecracker.<token>:1:133242",
+      "t.start/e<@https://chargecracker.<token>:1:133213"
+     ],
+     "t": 659
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.<token>:70:45",
+      "n.start@https://chargecracker.<token>:1:16952",
+      "t.start/e</<@https://chargecracker.<token>:1:133242",
+      "t.start/e<@https://chargecracker.<token>:1:133213"
+     ],
+     "t": 659
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1637
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.<token>:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:319711",
+      "s@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:386"
+     ],
+     "t": 4051
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://cheezburger.<token>",
+     "entryIsCurrent": true,
+     "from": "https://cheezburger.com/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "aef2fe32-1916-48b9-89ea-45a5f1bd40e7",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cheezburger.<token>",
+    "urlHash": "474065569832"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6010,
+   "timeOrigin": 1793553874831,
+   "url": "https://cheezburger.<token>",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553877755_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553877755_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553877757_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553877757_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    }
+   ],
+   "urlHash": "474065569832",
+   "titleHash": "38746ffb2de7"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 12620,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 321
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 321
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16913",
+      "t.start/e</<@https://chargecracker.<token>:1:133242",
+      "t.start/e<@https://chargecracker.<token>:1:133213"
+     ],
+     "t": 432
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16952",
+      "t.start/e</<@https://chargecracker.<token>:1:133242",
+      "t.start/e<@https://chargecracker.<token>:1:133213"
+     ],
+     "t": 432
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:319711",
+      "s@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:386"
+     ],
+     "t": 1483
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2334
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://cheezburger.com/",
+     "entryIsCurrent": true,
+     "from": "https://cheezburger.<token>",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "77cd04b3-8e98-4e94-930a-99e580dbe008",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cheezburger.com/",
+    "urlHash": "1b4ad9ca9c0f"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3899,
+   "timeOrigin": 1793553879555,
+   "url": "https://cheezburger.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553881631_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553881631_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553881632_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553881632_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    }
+   ],
+   "urlHash": "1b4ad9ca9c0f",
+   "titleHash": "0de9f8dcbee7"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 12620,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 394
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 394
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16915",
+      "t.start/e</<@https://chargecracker.<token>:1:133241",
+      "t.start/e<@https://chargecracker.<token>:1:133212"
+     ],
+     "t": 454
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16954",
+      "t.start/e</<@https://chargecracker.<token>:1:133241",
+      "t.start/e<@https://chargecracker.<token>:1:133212"
+     ],
+     "t": 454
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1413
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:319711",
+      "s@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:386"
+     ],
+     "t": 1846
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://cheezburger.com/",
+     "entryIsCurrent": true,
+     "from": "https://cheezburger.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "77cd04b3-8e98-4e94-930a-99e580dbe008",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cheezburger.com/",
+    "urlHash": "1b4ad9ca9c0f"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3899,
+   "timeOrigin": 1793553884582,
+   "url": "https://cheezburger.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope"
+    }
+   ],
+   "urlHash": "1b4ad9ca9c0f",
+   "titleHash": "0de9f8dcbee7"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 12620,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 394
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 394
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16915",
+      "t.start/e</<@https://chargecracker.<token>:1:133241",
+      "t.start/e<@https://chargecracker.<token>:1:133212"
+     ],
+     "t": 454
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16954",
+      "t.start/e</<@https://chargecracker.<token>:1:133241",
+      "t.start/e<@https://chargecracker.<token>:1:133212"
+     ],
+     "t": 454
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1413
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:319711",
+      "s@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:386"
+     ],
+     "t": 1846
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3985,
+     "url": "https://cheezburger.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://cheezburger.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3985
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3985,
+     "url": "https://cheezburger.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3985
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3985
+    },
+    {
+     "k": "hashchange",
+     "t": 3986,
+     "url": "https://cheezburger.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://cheezburger.com/",
+     "entryIsCurrent": false,
+     "from": "https://cheezburger.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "d72dced8-b52a-4807-ae7e-c356fc0b67bf",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cheezburger.com/",
+    "urlHash": "69d38c880d3a"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3899,
+   "timeOrigin": 1793553884582,
+   "url": "https://cheezburger.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "69d38c880d3a",
+   "titleHash": "0de9f8dcbee7"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 12620,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 394
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 394
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16915",
+      "t.start/e</<@https://chargecracker.<token>:1:133241",
+      "t.start/e<@https://chargecracker.<token>:1:133212"
+     ],
+     "t": 454
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "n.start@https://chargecracker.<token>:1:16954",
+      "t.start/e</<@https://chargecracker.<token>:1:133241",
+      "t.start/e<@https://chargecracker.<token>:1:133212"
+     ],
+     "t": 454
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1413
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://cheezburger.com/:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:319711",
+      "s@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/f4515342-914a-4660-8983-02fa32e96219/grumi.js:7:386"
+     ],
+     "t": 1846
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3985,
+     "url": "https://cheezburger.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://cheezburger.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3985
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3985,
+     "url": "https://cheezburger.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3985
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3985
+    },
+    {
+     "k": "hashchange",
+     "t": 3986,
+     "url": "https://cheezburger.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6572,
+     "url": "https://cheezburger.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://cheezburger.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6573
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6573
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6573
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6573,
+     "url": "https://cheezburger.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6573,
+     "url": "https://cheezburger.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://cheezburger.com/",
+     "entryIsCurrent": true,
+     "from": "https://cheezburger.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "77cd04b3-8e98-4e94-930a-99e580dbe008",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://cheezburger.com/",
+    "urlHash": "1b4ad9ca9c0f"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3899,
+   "timeOrigin": 1793553884582,
+   "url": "https://cheezburger.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1b4ad9ca9c0f",
+   "titleHash": "0de9f8dcbee7"
+  }
+ ],
+ "plan": {
+  "link": "https://cheezburger.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 34.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

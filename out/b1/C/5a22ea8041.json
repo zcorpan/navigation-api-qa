@@ -1,0 +1,446 @@
+{
+ "id": "5a22ea8041",
+ "page": "https://www.mos.jp/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY#page-top",
+   "counts": {
+    "error": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6957,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "uncaught exception: [object Object]",
+     "f": null,
+     "k": "error",
+     "l": 0,
+     "t": 1929
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3523
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2231,
+   "timeOrigin": 1793555244651,
+   "url": "https://www.mos.jp/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 954433052643649."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: [object Object]"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: [object Object]"
+    }
+   ],
+   "urlHash": "5a22ea804122",
+   "titleHash": "8ebb79c4098f"
+  },
+  {
+   "step": "link",
+   "href": "https://www.mos.jp/menu/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY#page-menu",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 4552,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2413
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "error": 1,
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "e": "uncaught exception: [object Object]",
+      "k": "error",
+      "l": 0,
+      "t": 1929
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 3523
+     }
+    ],
+    "url": "https://www.mos.jp/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1682,
+   "timeOrigin": 1793555253208,
+   "url": "https://www.mos.jp/menu/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 954433052643649."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://apm.yahoo.<cc>/rt/"
+    }
+   ],
+   "urlHash": "f75ac5b8fe80",
+   "titleHash": "08104e232abc"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY#page-top",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6957,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1038
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 2413
+     }
+    ],
+    "url": "https://www.mos.jp/menu/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2231,
+   "timeOrigin": 1793555259065,
+   "url": "https://www.mos.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 954433052643649."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://apm.yahoo.<cc>/rt/"
+    }
+   ],
+   "urlHash": "5a22ea804122",
+   "titleHash": "8ebb79c4098f"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY#page-menu",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 4552,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 787
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1038
+     }
+    ],
+    "url": "https://www.mos.jp/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1682,
+   "timeOrigin": 1793555262702,
+   "url": "https://www.mos.jp/menu/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 954433052643649."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://apm.yahoo.<cc>/rt/"
+    }
+   ],
+   "urlHash": "f75ac5b8fe80",
+   "titleHash": "08104e232abc"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY#page-menu",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 4552,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3952
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 787
+     }
+    ],
+    "url": "https://www.mos.jp/menu/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1682,
+   "timeOrigin": 1793555266068,
+   "url": "https://www.mos.jp/menu/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 954433052643649."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://apm.yahoo.<cc>/rt/"
+    }
+   ],
+   "urlHash": "f75ac5b8fe80",
+   "titleHash": "08104e232abc"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY#page-menu",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4552,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3952
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6518,
+     "url": "https://www.mos.jp/menu/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6535,
+     "url": "https://www.mos.jp/menu/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1682,
+   "timeOrigin": 1793555266068,
+   "url": "https://www.mos.jp/menu/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e9f50c470cb1",
+   "titleHash": "08104e232abc"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY#page-menu",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 4552,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3952
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6518,
+     "url": "https://www.mos.jp/menu/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6535,
+     "url": "https://www.mos.jp/menu/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9091,
+     "url": "https://www.mos.jp/menu/"
+    },
+    {
+     "k": "hashchange",
+     "t": 9108,
+     "url": "https://www.mos.jp/menu/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1682,
+   "timeOrigin": 1793555266068,
+   "url": "https://www.mos.jp/menu/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f75ac5b8fe80",
+   "titleHash": "08104e232abc"
+  }
+ ],
+ "plan": {
+  "link": "https://www.mos.jp/menu/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 34.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

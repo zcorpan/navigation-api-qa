@@ -1,0 +1,4351 @@
+{
+ "id": "8dc720e4fc",
+ "page": "https://president.jp/articles/-/120324",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "error": 1,
+    "get:activation": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7857,
+   "histLen": 16,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1840
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 1840
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232",
+      "s@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402"
+     ],
+     "t": 1976
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 2009
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2248
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 2279
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4723
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://president.jp/articles/-/120324",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "00017170-212f-4d0b-9123-c62ec9207c0a",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://president.jp/articles/-/120324",
+    "urlHash": "8dc720e4fcf4"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4213,
+   "timeOrigin": 1793563123182,
+   "url": "https://president.jp/articles/-/120324",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://b92.yahoo.<cc>/js/s_retargeting.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {\"page:total_page_num\":3}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pctx\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pcid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 204."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 204."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 204."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 204."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 204."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 204."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_im_vid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_a1_f_____\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_a1_f_____\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_a1_f_____\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_a1_sync_____\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_a1_sync_____\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_a1_sync_____\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "8dc720e4fcf4",
+   "titleHash": "ccb1e626f5f2"
+  },
+  {
+   "step": "link",
+   "href": "https://president.jp/",
+   "click": "native",
+   "settle": 2.8,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:activation": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7786,
+   "histLen": 17,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1246
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 1246
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232",
+      "s@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402"
+     ],
+     "t": 1286
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1320
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1330
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2910
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://president.jp/",
+     "entryIsCurrent": true,
+     "from": "https://president.jp/articles/-/120324",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "7599cd78-2cbf-4a0f-98cc-7133eacb5608",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://president.jp/",
+    "urlHash": "11a0794b159a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6610,
+   "timeOrigin": 1793563135966,
+   "url": "https://president.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pctx\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pcid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Blocked loading mixed active content \u201chttp://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "link2",
+   "href": "https://president.jp/list/ranking",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 4,
+    "get:activation": 1,
+    "get:canGoBack": 3,
+    "get:canGoForward": 3,
+    "get:currentEntry": 10,
+    "listen:navigate": 4,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6717,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 708
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 708
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232",
+      "s@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402"
+     ],
+     "t": 867
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1038
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1073
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1610
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3104
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3104
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 3105
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 3105
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3105
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3105
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3105
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3186
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3186
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 3186
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 3186
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3186
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3186
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3186
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3286
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3287
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 3287
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 3287
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3287
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3287
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3287
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://president.jp/list/ranking",
+     "entryIsCurrent": true,
+     "from": "https://president.jp/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "cb2e54d0-d0d8-47cb-888b-217b5e05e091",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://president.jp/list/ranking",
+    "urlHash": "4a5b52f11297"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2336,
+   "timeOrigin": 1793563142345,
+   "url": "https://president.jp/list/ranking",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pctx\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pcid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "4a5b52f11297",
+   "titleHash": "460013cd18c6"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:activation": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7786,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 712
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 712
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232",
+      "s@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402"
+     ],
+     "t": 754
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 857
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 865
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2585
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://president.jp/",
+     "entryIsCurrent": true,
+     "from": "https://president.jp/list/ranking",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "7599cd78-2cbf-4a0f-98cc-7133eacb5608",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://president.jp/",
+    "urlHash": "11a0794b159a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6601,
+   "timeOrigin": 1793563148294,
+   "url": "https://president.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"getBoundingClientRect\", (intermediate value).document.documentElement is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pctx\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pcid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:activation": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7739,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 742
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 742
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232",
+      "s@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402"
+     ],
+     "t": 791
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 853
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 860
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3370
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://president.jp/articles/-/120324",
+     "entryIsCurrent": true,
+     "from": "https://president.jp/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "00017170-212f-4d0b-9123-c62ec9207c0a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://president.jp/articles/-/120324",
+    "urlHash": "8dc720e4fcf4"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4221,
+   "timeOrigin": 1793563153769,
+   "url": "https://president.jp/articles/-/120324",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {\"page:total_page_num\":3}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pctx\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pcid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "8dc720e4fcf4",
+   "titleHash": "ccb1e626f5f2"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:activation": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7786,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 666
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 666
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232",
+      "s@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402"
+     ],
+     "t": 697
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 730
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 737
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2309
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://president.jp/",
+     "entryIsCurrent": true,
+     "from": "https://president.jp/articles/-/120324",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "7599cd78-2cbf-4a0f-98cc-7133eacb5608",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://president.jp/",
+    "urlHash": "11a0794b159a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6603,
+   "timeOrigin": 1793563160300,
+   "url": "https://president.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://president.jp/articles/-/120324\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pctx\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pcid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:activation": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7786,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232",
+      "s@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402"
+     ],
+     "t": 1899
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1953
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 1953
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1969
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2033
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4731
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://president.jp/",
+     "entryIsCurrent": true,
+     "from": "https://president.jp/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "7599cd78-2cbf-4a0f-98cc-7133eacb5608",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://president.jp/",
+    "urlHash": "11a0794b159a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6581,
+   "timeOrigin": 1793563165504,
+   "url": "https://president.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://b92.yahoo.<cc>/js/s_retargeting.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pctx\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_pcid\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 204."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 204."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://hb.adingo.jp/prebid/ (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 204."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "get:activation": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 7786,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232",
+      "s@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402"
+     ],
+     "t": 1899
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1953
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 1953
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1969
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2033
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4731
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7307,
+     "url": "https://president.jp/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://president.jp/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 7308
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7308,
+     "url": "https://president.jp/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7318
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7318
+    },
+    {
+     "k": "hashchange",
+     "t": 7319,
+     "url": "https://president.jp/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://president.jp/",
+     "entryIsCurrent": false,
+     "from": "https://president.jp/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "2d823ff1-3672-43b1-a486-843d6ff7698e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://president.jp/",
+    "urlHash": "321207861747"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6575,
+   "timeOrigin": 1793563165504,
+   "url": "https://president.jp/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "321207861747",
+   "titleHash": "f24fa0e9dd40"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:activation": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 7786,
+   "histLen": 18,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:285232",
+      "s@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/1e55f8df-3eb3-449b-9333-3b100671f740/grumi.js:7:402"
+     ],
+     "t": 1899
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1953
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 1953
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 1969
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 3,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2033
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4731
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7307,
+     "url": "https://president.jp/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://president.jp/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 7308
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7308,
+     "url": "https://president.jp/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7318
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7318
+    },
+    {
+     "k": "hashchange",
+     "t": 7319,
+     "url": "https://president.jp/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9903,
+     "url": "https://president.jp/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://president.jp/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 9904
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9904
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 9904
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9904,
+     "url": "https://president.jp/"
+    },
+    {
+     "k": "hashchange",
+     "t": 9920,
+     "url": "https://president.jp/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://president.jp/",
+     "entryIsCurrent": true,
+     "from": "https://president.jp/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "7599cd78-2cbf-4a0f-98cc-7133eacb5608",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://president.jp/",
+    "urlHash": "11a0794b159a"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6575,
+   "timeOrigin": 1793563165504,
+   "url": "https://president.jp/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "11a0794b159a",
+   "titleHash": "f24fa0e9dd40"
+  }
+ ],
+ "plan": {
+  "link": "https://president.jp/",
+  "link2": "https://president.jp/list/ranking",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 56.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

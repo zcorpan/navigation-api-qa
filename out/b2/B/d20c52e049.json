@@ -1,0 +1,649 @@
+{
+ "id": "d20c52e049",
+ "page": "https://www.dateinasia.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1928,
+   "histLen": 25,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "CodeNova.Messages<@https://static.dateinasia.com/bundles/scripts.js",
+      "@https://static.dateinasia.com/bundles/scripts.js"
+     ],
+     "t": 243
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 342
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.dateinasia.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "ee613cc5-ea7f-49b1-88b0-8616a41a9258",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dateinasia.com/",
+    "urlHash": "d20c52e049a2"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1210,
+   "timeOrigin": 1793561922671,
+   "url": "https://www.dateinasia.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d20c52e049a2",
+   "titleHash": "b8de735d4871"
+  },
+  {
+   "step": "link",
+   "href": "https://www.dateinasia.com/search",
+   "click": "native",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 6661,
+   "histLen": 26,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "CodeNova.Messages<@https://static.dateinasia.com/bundles/scripts.js",
+      "@https://static.dateinasia.com/bundles/scripts.js"
+     ],
+     "t": 11
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 420
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.dateinasia.com/search",
+     "entryIsCurrent": true,
+     "from": "https://www.dateinasia.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "24960f74-c341-4cb4-8852-6ad614c16764",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dateinasia.com/search",
+    "urlHash": "64766b8d4572"
+   },
+   "prev": {
+    "counts": {
+     "listen:navigate": 1,
+     "navigate:push": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "CodeNova.Messages<@https://static.dateinasia.com/bundles/scripts.js",
+       "@https://static.dateinasia.com/bundles/scripts.js"
+      ],
+      "t": 243
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 342
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": "A",
+      "t": 4448,
+      "url": "https://www.dateinasia.com/search",
+      "userInitiated": true
+     }
+    ],
+    "url": "https://www.dateinasia.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4768,
+   "timeOrigin": 1793561927248,
+   "url": "https://www.dateinasia.com/search",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "64766b8d4572",
+   "titleHash": "f327f6b0eec3"
+  },
+  {
+   "step": "link2",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 1928,
+   "histLen": 26,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "CodeNova.Messages<@https://static.dateinasia.com/bundles/scripts.js",
+      "@https://static.dateinasia.com/bundles/scripts.js"
+     ],
+     "t": 6
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 14
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.dateinasia.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.dateinasia.com/search",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "ee613cc5-ea7f-49b1-88b0-8616a41a9258",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dateinasia.com/",
+    "urlHash": "d20c52e049a2"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1210,
+   "timeOrigin": 1793561930438,
+   "url": "https://www.dateinasia.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "d20c52e049a2",
+   "titleHash": "b8de735d4871"
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 6661,
+   "histLen": 26,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "CodeNova.Messages<@https://static.dateinasia.com/bundles/scripts.js",
+      "@https://static.dateinasia.com/bundles/scripts.js"
+     ],
+     "t": 10
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 359
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.dateinasia.com/search",
+     "entryIsCurrent": true,
+     "from": "https://www.dateinasia.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "24960f74-c341-4cb4-8852-6ad614c16764",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dateinasia.com/search",
+    "urlHash": "64766b8d4572"
+   },
+   "prev": {
+    "counts": {
+     "listen:navigate": 1,
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "CodeNova.Messages<@https://static.dateinasia.com/bundles/scripts.js",
+       "@https://static.dateinasia.com/bundles/scripts.js"
+      ],
+      "t": 6
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 14
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2661,
+      "url": "https://www.dateinasia.com/search",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://www.dateinasia.com/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 3122,
+   "textLen": 4768,
+   "timeOrigin": 1793561933108,
+   "url": "https://www.dateinasia.com/search",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "64766b8d4572",
+   "titleHash": "f327f6b0eec3"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 6661,
+   "histLen": 26,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "CodeNova.Messages<@https://static.dateinasia.com/bundles/scripts.js",
+      "@https://static.dateinasia.com/bundles/scripts.js"
+     ],
+     "t": 228
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 713
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.dateinasia.com/search",
+     "entryIsCurrent": true,
+     "from": "https://www.dateinasia.com/search",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "24960f74-c341-4cb4-8852-6ad614c16764",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dateinasia.com/search",
+    "urlHash": "64766b8d4572"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4749,
+   "timeOrigin": 1793561936103,
+   "url": "https://www.dateinasia.com/search",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "64766b8d4572",
+   "titleHash": "f327f6b0eec3"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "DIV",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6661,
+   "histLen": 27,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "CodeNova.Messages<@https://static.dateinasia.com/bundles/scripts.js",
+      "@https://static.dateinasia.com/bundles/scripts.js"
+     ],
+     "t": 228
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 713
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3299,
+     "url": "https://www.dateinasia.com/search",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dateinasia.com/search",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3299
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3299,
+     "url": "https://www.dateinasia.com/search"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3299
+    },
+    {
+     "k": "hashchange",
+     "t": 3299,
+     "url": "https://www.dateinasia.com/search"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.dateinasia.com/search",
+     "entryIsCurrent": false,
+     "from": "https://www.dateinasia.com/search",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "b6304e88-7629-4aa6-ae64-d1d5d4c8b30a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dateinasia.com/search",
+    "urlHash": "f41349934bb6"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4749,
+   "timeOrigin": 1793561936103,
+   "url": "https://www.dateinasia.com/search",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f41349934bb6",
+   "titleHash": "f327f6b0eec3"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "DIV",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6661,
+   "histLen": 27,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "CodeNova.Messages<@https://static.dateinasia.com/bundles/scripts.js",
+      "@https://static.dateinasia.com/bundles/scripts.js"
+     ],
+     "t": 228
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 713
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3299,
+     "url": "https://www.dateinasia.com/search",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dateinasia.com/search",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3299
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3299,
+     "url": "https://www.dateinasia.com/search"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3299
+    },
+    {
+     "k": "hashchange",
+     "t": 3299,
+     "url": "https://www.dateinasia.com/search"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5943,
+     "url": "https://www.dateinasia.com/search",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dateinasia.com/search",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5943
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5943
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5943,
+     "url": "https://www.dateinasia.com/search"
+    },
+    {
+     "k": "hashchange",
+     "t": 5944,
+     "url": "https://www.dateinasia.com/search"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.dateinasia.com/search",
+     "entryIsCurrent": true,
+     "from": "https://www.dateinasia.com/search",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "24960f74-c341-4cb4-8852-6ad614c16764",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dateinasia.com/search",
+    "urlHash": "64766b8d4572"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4749,
+   "timeOrigin": 1793561936103,
+   "url": "https://www.dateinasia.com/search",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "64766b8d4572",
+   "titleHash": "f327f6b0eec3"
+  }
+ ],
+ "plan": {
+  "link": "https://www.dateinasia.com/search",
+  "link2": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 22.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

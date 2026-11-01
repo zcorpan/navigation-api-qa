@@ -1,0 +1,1359 @@
+{
+ "id": "e169938fe1",
+ "page": "https://www.correio24horas.com.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7561,
+   "histLen": 12,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.<token>:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 444
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 696
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.<token>:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 696
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1460
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1906
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.correio24horas.com.<token>",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "a2b35c28-fbe6-4e2f-a574-63e9a86ca6c0",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.correio24horas.com.<token>",
+    "urlHash": "e169938fe195"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6955,
+   "timeOrigin": 1793553520085,
+   "url": "https://www.correio24horas.com.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: Slot.defineSizeMapping('Size mapping must be an array').\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553521701\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.X07TDQ2tfo0.2018.O/am=AACAAQ/d=1/rs=AOaEmlEyLaDf79gGcHkAVw12msl_inn4-g/m=base from being executed because it "
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCCDCF\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information."
+    },
+    {
+     "k": "pageerror",
+     "e": "document.requestStorageAccess() may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js:setOnSubscribeResponse]: This method has been deprecated, please switch usages to 'setOnPaymentResponse'"
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js]: You have registered multiple callbacks for the same response."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: already configured"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Article Thumbnails | Lazy Injected 1"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Article Thumbnails | Lazy Injected 1"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placement (\"Galerias 20\") container element (\"taboola-galerias-20\") doesn't exist on the page."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCCDCF\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553527044\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553527044_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553527044_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553527045_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553527045_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextd20s04h9datb\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextdi5maxtjldyk\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553527686\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "e169938fe195",
+   "titleHash": "48686e7cd161"
+  },
+  {
+   "step": "link",
+   "href": "https://www.correio24horas.com.br/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 12410,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 377
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 933
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 933
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1152
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2034
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "entryIsCurrent": true,
+     "from": "https://www.correio24horas.com.<token>",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4ce44766-e944-4457-b486-da099730c89c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.correio24horas.com.br/",
+    "urlHash": "6f4fc944fc5a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7859,
+   "timeOrigin": 1793553530308,
+   "url": "https://www.correio24horas.com.br/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.X07TDQ2tfo0.2018.O/am=AACAAQ/d=1/rs=AOaEmlEyLaDf79gGcHkAVw12msl_inn4-g/m=base from being executed because it "
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553531726\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js:setOnSubscribeResponse]: This method has been deprecated, please switch usages to 'setOnPaymentResponse'"
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js]: You have registered multiple callbacks for the same response."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: already configured"
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below HP Thumbnails | Lazy Injected 1"
+    },
+    {
+     "k": "console-warn",
+     "e": "Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information."
+    },
+    {
+     "k": "pageerror",
+     "e": "document.requestStorageAccess() may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextdx4ui1heqmt\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "6f4fc944fc5a",
+   "titleHash": "4d1be8c0e8c3"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 2,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7594,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "e": "TypeError: can't access property \"push\", googletag.cmd is undefined",
+     "f": "https://www.correio24horas.com.<token> line 987 > injectedScript",
+     "k": "error",
+     "l": 2,
+     "t": 104
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.<token>:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 347
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 522
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.<token>:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 522
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1287
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2042
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.correio24horas.com.<token>",
+     "entryIsCurrent": true,
+     "from": "https://www.correio24horas.com.br/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "a2b35c28-fbe6-4e2f-a574-63e9a86ca6c0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.correio24horas.com.<token>",
+    "urlHash": "e169938fe195"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7323,
+   "timeOrigin": 1793553535443,
+   "url": "https://www.correio24horas.com.<token>",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"push\", googletag.cmd is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid arguments: Slot.defineSizeMapping('Size mapping must be an array').\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553536629\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.X07TDQ2tfo0.2018.O/am=AACAAQ/d=1/rs=AOaEmlEyLaDf79gGcHkAVw12msl_inn4-g/m=base from being executed because it "
+    },
+    {
+     "k": "console-warn",
+     "e": "Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information."
+    },
+    {
+     "k": "pageerror",
+     "e": "document.requestStorageAccess() may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js:setOnSubscribeResponse]: This method has been deprecated, please switch usages to 'setOnPaymentResponse'"
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js]: You have registered multiple callbacks for the same response."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: already configured"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextd9za20loy6og\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Article Thumbnails | Lazy Injected 1"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Article Thumbnails | Lazy Injected 1"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placement (\"Galerias 20\") container element (\"taboola-galerias-20\") doesn't exist on the page."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553538913\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "e169938fe195",
+   "titleHash": "48686e7cd161"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 12443,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 38
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 311
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 312
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 494
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1018
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "entryIsCurrent": true,
+     "from": "https://www.correio24horas.com.<token>",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4ce44766-e944-4457-b486-da099730c89c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.correio24horas.com.br/",
+    "urlHash": "6f4fc944fc5a"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7928,
+   "timeOrigin": 1793553540759,
+   "url": "https://www.correio24horas.com.br/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553541119\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.X07TDQ2tfo0.2018.O/am=AACAAQ/d=1/rs=AOaEmlEyLaDf79gGcHkAVw12msl_inn4-g/m=base from being executed because it "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information."
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below HP Thumbnails | Lazy Injected 1"
+    },
+    {
+     "k": "pageerror",
+     "e": "document.requestStorageAccess() may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js:setOnSubscribeResponse]: This method has been deprecated, please switch usages to 'setOnPaymentResponse'"
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js]: You have registered multiple callbacks for the same response."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: already configured"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextdslk8hargkd8\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "6f4fc944fc5a",
+   "titleHash": "4d1be8c0e8c3"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 12405,
+   "histLen": 13,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 328
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 831
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 831
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1198
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1408
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "entryIsCurrent": true,
+     "from": "https://www.correio24horas.com.br/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4ce44766-e944-4457-b486-da099730c89c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.correio24horas.com.br/",
+    "urlHash": "6f4fc944fc5a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7860,
+   "timeOrigin": 1793553544392,
+   "url": "https://www.correio24horas.com.br/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.X07TDQ2tfo0.2018.O/am=AACAAQ/d=1/rs=AOaEmlEyLaDf79gGcHkAVw12msl_inn4-g/m=base from being executed because it "
+    },
+    {
+     "k": "console-warn",
+     "e": "Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information."
+    },
+    {
+     "k": "pageerror",
+     "e": "document.requestStorageAccess() may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_rdc1793553546245\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js:setOnSubscribeResponse]: This method has been deprecated, please switch usages to 'setOnPaymentResponse'"
+    },
+    {
+     "k": "console-warn",
+     "e": "[swg.js]: You have registered multiple callbacks for the same response."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: already configured"
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below HP Thumbnails | Lazy Injected 1"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cdv0qai26lg6v2y6kl7yyc36brextdtuhayxjajw\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_ga_9ENDM9X735\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cFCNEC\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "6f4fc944fc5a",
+   "titleHash": "4d1be8c0e8c3"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "error": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 12405,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 328
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 831
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 831
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1198
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1408
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3978,
+     "url": "https://www.correio24horas.com.br/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.correio24horas.com.br/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3978
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3979,
+     "url": "https://www.correio24horas.com.br/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3979
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3979
+    },
+    {
+     "k": "hashchange",
+     "t": 3979,
+     "url": "https://www.correio24horas.com.br/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "entryIsCurrent": false,
+     "from": "https://www.correio24horas.com.br/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "4883af14-271f-4551-8b4b-46d08474fd92",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.correio24horas.com.br/",
+    "urlHash": "b5ef909ce4cf"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7860,
+   "timeOrigin": 1793553544392,
+   "url": "https://www.correio24horas.com.br/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gcl_au\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553551766\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "b5ef909ce4cf",
+   "titleHash": "4d1be8c0e8c3"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "error": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 12405,
+   "histLen": 14,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 328
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 831
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.correio24horas.com.br/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js"
+     ],
+     "t": 831
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1198
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1408
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3978,
+     "url": "https://www.correio24horas.com.br/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.correio24horas.com.br/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3978
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3979,
+     "url": "https://www.correio24horas.com.br/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3979
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3979
+    },
+    {
+     "k": "hashchange",
+     "t": 3979,
+     "url": "https://www.correio24horas.com.br/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6548,
+     "url": "https://www.correio24horas.com.br/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.correio24horas.com.br/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6549
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6549
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6549
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6549,
+     "url": "https://www.correio24horas.com.br/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6556,
+     "url": "https://www.correio24horas.com.br/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "entryIsCurrent": true,
+     "from": "https://www.correio24horas.com.br/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "4ce44766-e944-4457-b486-da099730c89c",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.correio24horas.com.br/",
+    "urlHash": "6f4fc944fc5a"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7860,
+   "timeOrigin": 1793553544392,
+   "url": "https://www.correio24horas.com.br/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "6f4fc944fc5a",
+   "titleHash": "4d1be8c0e8c3"
+  }
+ ],
+ "plan": {
+  "link": "https://www.correio24horas.com.br/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 34.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -126,8 +126,14 @@ def compare(pages):
             flags.append(out)
             continue
         needs = {'link2': 'link', 'back': 'link', 'back3': 'link2', 'forward': 'back', 'back2': 'fragment'}
+        moved = {k: (not v.get('skipped')) and (v.get('path') != fa.get('load', {}).get('path') or v.get('histDelta', 0) > 0)
+                 for k, v in fa.items() if k in ('link', 'link2')}
         for step in fa:
             if step in needs and fa.get(needs[step], {}).get('skipped'):
+                continue
+            if step in ('back', 'forward') and not moved.get('link', True):
+                continue
+            if step == 'back3' and not moved.get('link2', True):
                 continue
             a, a2 = fa[step], fa2.get(step)
             if not a2 or a.get('skipped') or a2.get('skipped'):

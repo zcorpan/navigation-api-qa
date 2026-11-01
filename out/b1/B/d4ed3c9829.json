@@ -1,0 +1,834 @@
+{
+ "id": "d4ed3c9829",
+ "page": "https://www.target.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "IFRAME#px-captcha-modal",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 5962,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 384,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 384,
+     "url": "https://www.target.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.target.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 384
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 384
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "_installNavigationListener@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:19435",
+      "De</<@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:3404",
+      "_initialize@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:17636"
+     ],
+     "t": 620
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 845
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 845
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.target.com/:52:79",
+      "it@https://www.target.com/tg4t/:647:426",
+      "jt@https://www.target.com/tg4t/:647:757",
+      "NG@https://www.target.com/tg4t/:918:1"
+     ],
+     "t": 987
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "_start@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "_start@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "_setIsLoaded/e<@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js"
+     ],
+     "t": 1545
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 5893
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.target.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "476b90e2-ac4c-413e-9bdc-9fca30008cd1",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.target.com/",
+    "urlHash": "d4ed3c982953"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2407,
+   "timeOrigin": 1793554157857,
+   "url": "https://www.target.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c3YCzT93n\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c3YCzT93n\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "d4ed3c982953",
+   "titleHash": "1435583de606"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "IFRAME#px-captcha-modal",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6012,
+   "histLen": 29,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 172,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 173,
+     "url": "https://www.target.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.target.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 173
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 173
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "_installNavigationListener@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:19435",
+      "De</<@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:3404",
+      "_initialize@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:17636"
+     ],
+     "t": 294
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 420
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 420
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.target.com/:52:79",
+      "it@https://www.target.com/tg4t/:647:426",
+      "jt@https://www.target.com/tg4t/:647:757",
+      "NG@https://www.target.com/tg4t/:918:1"
+     ],
+     "t": 657
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "_start@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "_start@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "_setIsLoaded/e<@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js"
+     ],
+     "t": 707
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1390
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.target.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.target.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "476b90e2-ac4c-413e-9bdc-9fca30008cd1",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.target.com/",
+    "urlHash": "d4ed3c982953"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2303,
+   "timeOrigin": 1793554168984,
+   "url": "https://www.target.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c3YCzT93n\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c3YCzT93n\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "d4ed3c982953",
+   "titleHash": "1435583de606"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "IFRAME#px-captcha-modal",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "listen:currententrychange": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6012,
+   "histLen": 30,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 172,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 173,
+     "url": "https://www.target.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.target.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 173
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 173
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "_installNavigationListener@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:19435",
+      "De</<@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:3404",
+      "_initialize@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:17636"
+     ],
+     "t": 294
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 420
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 420
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.target.com/:52:79",
+      "it@https://www.target.com/tg4t/:647:426",
+      "jt@https://www.target.com/tg4t/:647:757",
+      "NG@https://www.target.com/tg4t/:918:1"
+     ],
+     "t": 657
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "_start@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "_start@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "_setIsLoaded/e<@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js"
+     ],
+     "t": 707
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1390
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3971,
+     "url": "https://www.target.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.target.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3971
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3971,
+     "url": "https://www.target.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3971,
+     "url": "/#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 3971
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3971,
+     "url": "https://www.target.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.target.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3971
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3972
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3972
+    },
+    {
+     "k": "hashchange",
+     "t": 3972,
+     "url": "https://www.target.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.target.com/",
+     "entryIsCurrent": false,
+     "from": "https://www.target.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "18a8d214-50b4-422b-b40a-c7664ea3a99c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.target.com/",
+    "urlHash": "803a8ab71c16"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2304,
+   "timeOrigin": 1793554168984,
+   "url": "https://www.target.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "803a8ab71c16",
+   "titleHash": "1435583de606"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "IFRAME#px-captcha-modal",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "listen:currententrychange": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigateerror": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6012,
+   "histLen": 30,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 172,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 173,
+     "url": "https://www.target.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.target.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 173
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 173
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "_installNavigationListener@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:19435",
+      "De</<@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:3404",
+      "_initialize@https://pub.doubleverify.com/dvtag/21728514/DV1026531/pub.js:2:17636"
+     ],
+     "t": 294
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 420
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 420
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.target.com/:52:79",
+      "it@https://www.target.com/tg4t/:647:426",
+      "jt@https://www.target.com/tg4t/:647:757",
+      "NG@https://www.target.com/tg4t/:918:1"
+     ],
+     "t": 657
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.target.com/:70:45",
+      "_start@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "_start@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js",
+      "_setIsLoaded/e<@https://assets.targetimg1.com/webui/scripts/pushly/pushly-sdk.prod.20261008-01.js"
+     ],
+     "t": 707
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1390
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3971,
+     "url": "https://www.target.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.target.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3971
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3971,
+     "url": "https://www.target.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3971,
+     "url": "/#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 3971
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3971,
+     "url": "https://www.target.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.target.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3971
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3972
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3972
+    },
+    {
+     "k": "hashchange",
+     "t": 3972,
+     "url": "https://www.target.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6550,
+     "url": "https://www.target.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.target.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6550
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6550
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6550
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6550,
+     "url": "https://www.target.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6552,
+     "url": "https://www.target.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.target.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.target.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "476b90e2-ac4c-413e-9bdc-9fca30008cd1",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.target.com/",
+    "urlHash": "d4ed3c982953"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2304,
+   "timeOrigin": 1793554168984,
+   "url": "https://www.target.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d4ed3c982953",
+   "titleHash": "1435583de606"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 21.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

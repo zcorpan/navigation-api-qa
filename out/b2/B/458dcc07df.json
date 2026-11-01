@@ -1,0 +1,1465 @@
+{
+ "id": "458dcc07df",
+ "page": "https://www.costco.com/o/-/warehouse-savings",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 27207,
+   "histLen": 22,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 401
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 401
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 401,
+     "url": "/o/-/warehouse-savings"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 401,
+     "url": "https://www.costco.com/o/-/warehouse-savings",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/o/-/warehouse-savings",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 401
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 415
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 415
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 946
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1377
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1377
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4809
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.costco.com/o/-/warehouse-savings",
+     "entryIsCurrent": true,
+     "from": "https://www.costco.com/o/-/warehouse-savings",
+     "type": "replace"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "48842c08-eab9-4807-b7d6-5aa436978527",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.costco.com/o/-/warehouse-savings",
+    "urlHash": "458dcc07df90"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 34623,
+   "timeOrigin": 1793563210607,
+   "url": "https://www.costco.com/o/-/warehouse-savings",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "IconButton (v1) is deprecated. Please use IconButtonV2 instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "[MarketingTypography] Markdown input too long (1639 chars), skipping tooltip preprocessing"
+    },
+    {
+     "k": "console-error",
+     "e": "Error fetching Criteo Data for Carousel on desktop:  Error: Failed to fetch data from https://d.us.criteo.com/delivery/retailmedia NetworkError when attempting to fe"
+    },
+    {
+     "k": "console-warn",
+     "e": "IconButton (v1) is deprecated. Please use IconButtonV2 instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "[MarketingTypography] Markdown input too long (1639 chars), skipping tooltip preprocessing"
+    },
+    {
+     "k": "console-error",
+     "e": "Error: Failed to fetch data from  https://ecom-api.costco.com/ebusiness/inventory/v1/location/distributioncenters Request timed out after 3000 ms"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "458dcc07df90",
+   "titleHash": "fb56a431accd"
+  },
+  {
+   "step": "link",
+   "href": "https://www.costco.com/p/-/4000440693",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4670,
+   "histLen": 23,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 293,
+     "url": "/p/-/4000440693"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 293,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 294
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 719
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 845
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 845
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4029
+    },
+    {
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": null,
+     "k": "error",
+     "l": 0,
+     "t": 4887
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.costco.com/p/-/4000440693",
+     "entryIsCurrent": true,
+     "from": "https://www.costco.com/o/-/warehouse-savings",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "3e7ef02f-e96c-4840-a5e1-83286db8667f",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.costco.com/p/-/4000440693",
+    "urlHash": "6bd0dcc43996"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4170,
+   "timeOrigin": 1793563216961,
+   "url": "https://www.costco.com/p/-/4000440693",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: [alloy] [DataCollector] An error occurred while executing the sendEvent command.\nCaused by: Network request failed.\nCaused by: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Failed to fetch data from https://www.costco.com/AjaxWarehouseUpdateCmd NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-warn",
+     "e": "IconButton (v1) is deprecated. Please use IconButtonV2 instead."
+    },
+    {
+     "k": "console-error",
+     "e": "Object(2)"
+    },
+    {
+     "k": "console-error",
+     "e": "Error: Failed to fetch data from  https://ecom-api.costco.com/ebusiness/inventory/v1/location/distributioncenters Request timed out after 3000 ms"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "6bd0dcc43996",
+   "titleHash": "109c461b11c6"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.costco.com/s",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2399,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 310
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 310
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 310,
+     "url": "/s?keyword=whilesupplieslast&COSTID=WSL_Homepage"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 310,
+     "url": "https://www.costco.com/s",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/s",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 311
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 312
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 386
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 386
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 933
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 933
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2896
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.costco.com/s",
+     "entryIsCurrent": true,
+     "from": "https://www.costco.com/p/-/4000440693",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "d91dd3fd-9bdc-46d8-b0aa-2722f712d6ab",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.costco.com/s",
+    "urlHash": "1a6c5498b7cf"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3000,
+   "timeOrigin": 1793563224067,
+   "url": "https://www.costco.com/s",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: [alloy] [DataCollector] An error occurred while executing the sendEvent command.\nCaused by: Network request failed.\nCaused by: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-warn",
+     "e": "IconButton (v1) is deprecated. Please use IconButtonV2 instead."
+    },
+    {
+     "k": "console-error",
+     "e": "Unable to setup logrocket-react plugin: TypeError: n is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "Skipping search run, loc: * | ul:  | whloc: "
+    },
+    {
+     "k": "console-warn",
+     "e": "Skipping search run, loc: * | ul:  | whloc: "
+    },
+    {
+     "k": "console-warn",
+     "e": "Skipping search run, awaiting initialization"
+    },
+    {
+     "k": "console-error",
+     "e": "GRS ERROR "
+    }
+   ],
+   "urlHash": "1a6c5498b7cf",
+   "titleHash": "b3f934529581"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4670,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 274,
+     "url": "/p/-/4000440693"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 274,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 275
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 690
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 840
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 840
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1912
+    },
+    {
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": null,
+     "k": "error",
+     "l": 0,
+     "t": 2573
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.costco.com/p/-/4000440693",
+     "entryIsCurrent": true,
+     "from": "https://www.costco.com/s",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "3e7ef02f-e96c-4840-a5e1-83286db8667f",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.costco.com/p/-/4000440693",
+    "urlHash": "6bd0dcc43996"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4170,
+   "timeOrigin": 1793563229901,
+   "url": "https://www.costco.com/p/-/4000440693",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "IconButton (v1) is deprecated. Please use IconButtonV2 instead."
+    },
+    {
+     "k": "console-error",
+     "e": "Object(2)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "6bd0dcc43996",
+   "titleHash": "109c461b11c6"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:activation": 2,
+    "get:currentEntry": 2,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 27207,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 404
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 404
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 404,
+     "url": "/o/-/warehouse-savings"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 404,
+     "url": "https://www.costco.com/o/-/warehouse-savings",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/o/-/warehouse-savings",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 404
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 424
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 424
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1070
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1585
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1585
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2026
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.costco.com/o/-/warehouse-savings",
+     "entryIsCurrent": true,
+     "from": "https://www.costco.com/p/-/4000440693",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "48842c08-eab9-4807-b7d6-5aa436978527",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.costco.com/o/-/warehouse-savings",
+    "urlHash": "458dcc07df90"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 34623,
+   "timeOrigin": 1793563234531,
+   "url": "https://www.costco.com/o/-/warehouse-savings",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "IconButton (v1) is deprecated. Please use IconButtonV2 instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "[MarketingTypography] Markdown input too long (1639 chars), skipping tooltip preprocessing"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "458dcc07df90",
+   "titleHash": "fb56a431accd"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4670,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1029,
+     "url": "/p/-/4000440693"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1029,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 1029
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1572
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 2588
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 2588
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3349
+    },
+    {
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": null,
+     "k": "error",
+     "l": 0,
+     "t": 3972
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.costco.com/p/-/4000440693",
+     "entryIsCurrent": true,
+     "from": "https://www.costco.com/o/-/warehouse-savings",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "3e7ef02f-e96c-4840-a5e1-83286db8667f",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.costco.com/p/-/4000440693",
+    "urlHash": "6bd0dcc43996"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4170,
+   "timeOrigin": 1793563239392,
+   "url": "https://www.costco.com/p/-/4000440693",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "IconButton (v1) is deprecated. Please use IconButtonV2 instead."
+    },
+    {
+     "k": "console-error",
+     "e": "Object(2)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "6bd0dcc43996",
+   "titleHash": "109c461b11c6"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4670,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 233,
+     "url": "/p/-/4000440693"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 233,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 234
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 619
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1848
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1848
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 5125
+    },
+    {
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": null,
+     "k": "error",
+     "l": 0,
+     "t": 5782
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.costco.com/p/-/4000440693",
+     "entryIsCurrent": true,
+     "from": "https://www.costco.com/p/-/4000440693",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "3e7ef02f-e96c-4840-a5e1-83286db8667f",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.costco.com/p/-/4000440693",
+    "urlHash": "6bd0dcc43996"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3772,
+   "timeOrigin": 1793563245524,
+   "url": "https://www.costco.com/p/-/4000440693",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "IconButton (v1) is deprecated. Please use IconButtonV2 instead."
+    },
+    {
+     "k": "console-error",
+     "e": "Object(2)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_tld_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Attempt 1 failed. There are 3 retries left."
+    }
+   ],
+   "urlHash": "6bd0dcc43996",
+   "titleHash": "109c461b11c6"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "error": 1,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4670,
+   "histLen": 24,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 233,
+     "url": "/p/-/4000440693"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 233,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 234
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 619
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1848
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1848
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 5125
+    },
+    {
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": null,
+     "k": "error",
+     "l": 0,
+     "t": 5782
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7801,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 7801
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7801,
+     "url": "https://www.costco.com/p/-/4000440693"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7802
+    },
+    {
+     "k": "hashchange",
+     "t": 7802,
+     "url": "https://www.costco.com/p/-/4000440693"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.costco.com/p/-/4000440693",
+     "entryIsCurrent": false,
+     "from": "https://www.costco.com/p/-/4000440693",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "9558baf5-2f3a-46ae-8c0b-b6974a35066a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.costco.com/p/-/4000440693",
+    "urlHash": "1b76b982f297"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4170,
+   "timeOrigin": 1793563245524,
+   "url": "https://www.costco.com/p/-/4000440693",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1b76b982f297",
+   "titleHash": "109c461b11c6"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "error": 1,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 4670,
+   "histLen": 24,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 233,
+     "url": "/p/-/4000440693"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 233,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 234
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 619
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1848
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/185a0521924/bf47427jhn/3c29ee56f402ef95_complete.js:275:204"
+     ],
+     "t": 1848
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 5125
+    },
+    {
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": null,
+     "k": "error",
+     "l": 0,
+     "t": 5782
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7801,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 7801
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7801,
+     "url": "https://www.costco.com/p/-/4000440693"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7802
+    },
+    {
+     "k": "hashchange",
+     "t": 7802,
+     "url": "https://www.costco.com/p/-/4000440693"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10384,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 10386
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10386
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10386,
+     "url": "https://www.costco.com/p/-/4000440693"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 10387,
+     "url": "/p/-/4000440693"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10387,
+     "url": "https://www.costco.com/p/-/4000440693",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.costco.com/p/-/4000440693",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 10388
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10388
+    },
+    {
+     "k": "hashchange",
+     "t": 10388,
+     "url": "https://www.costco.com/p/-/4000440693"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.costco.com/p/-/4000440693",
+     "entryIsCurrent": true,
+     "from": "https://www.costco.com/p/-/4000440693",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "3e7ef02f-e96c-4840-a5e1-83286db8667f",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.costco.com/p/-/4000440693",
+    "urlHash": "6bd0dcc43996"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4170,
+   "timeOrigin": 1793563245524,
+   "url": "https://www.costco.com/p/-/4000440693",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "6bd0dcc43996",
+   "titleHash": "109c461b11c6"
+  }
+ ],
+ "plan": {
+  "link": "https://www.costco.com/p/-/4000440693",
+  "link2": "https://www.costco.com/s",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 50.0,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

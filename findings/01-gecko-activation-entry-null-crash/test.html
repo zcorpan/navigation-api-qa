@@ -1,0 +1,29 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>navigation.activation.entry after traversing back into an opaque-origin document</title>
+<!--
+A sandboxed iframe (allow-scripts, so its documents have opaque origins) navigates from data: doc 1
+to data: doc 2, goes back, and doc 1 (recreated) reads navigation.activation and its entry. Spec:
+activation is null when entries and events are disabled (opaque origin). In Firefox Nightly 161
+reading activation.entry there crashed the content process when the top-level document did this
+(about:blank or data: reached by back).
+-->
+<script>
+window.__result = { pending: true };
+addEventListener('message', e => { window.__result = e.data; });
+const doc2 = 'data:text/html,' + encodeURIComponent('<script>setTimeout(() => history.back(), 300)<\/script>doc2');
+const doc1 = `<script>
+  if (window.name !== 'visited') { window.name = 'visited'; setTimeout(() => { location.href = ${JSON.stringify(doc2)}; }, 300); }
+  else {
+    let r = {};
+    try { r.activation = String(navigation.activation); r.type = navigation.activation && navigation.activation.navigationType; } catch (e) { r.activationError = String(e); }
+    try { const a = navigation.activation; r.entry = a ? String(a.entry) : 'no activation'; } catch (e) { r.entryError = String(e); }
+    parent.postMessage(r, '*');
+  }
+<\/script>doc1`;
+const f = document.createElement('iframe');
+f.setAttribute('sandbox', 'allow-scripts');
+f.src = 'data:text/html,' + encodeURIComponent(doc1);
+document.documentElement.append(f);
+setTimeout(() => { if (window.__result.pending) window.__result = { noMessage: true }; }, 4000);
+</script>

@@ -1,0 +1,1855 @@
+{
+ "id": "070174f0db",
+ "page": "https://www.lanacion.com.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.lanacion.com.<token>",
+   "readyState": "complete",
+   "timeOrigin": 1793566503671.7,
+   "marker": null,
+   "histLen": 10,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 8821,
+   "active": "BODY",
+   "textLen": 5360,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.lanacion.com.<token>",
+    "key": "fa921ddd-2237-4574-8b57-c907f45f0c9d",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.lanacion.com.<token>",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "070174f0dbc9"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 361
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at P.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at QX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 361
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 855,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 907,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 1013,
+     "len": 1
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 1057,
+     "len": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1376
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 7551
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 7551
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 7574
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 4,
+    "pageshow": 1,
+    "get:canGoBack": 3
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     },
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "at pn.setListener (https://cadmus2.script.ac/s/fs01/main.js:1:144137)",
+       "at g (https://cadmus2.script.ac/s/fs01/main.js:1:147905)",
+       "at https://cadmus2.script.ac/s/fs01/main.js:1:148728",
+       "at Object.LV (https://cadmus2.script.ac/s/fs01/main.js:1:149094)"
+      ],
+      "t": 261
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "listen:navigate": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "ClientInfo (GrpControl) => No se pudo obtener el GaId"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to XMLHttpRequest at 'https://ib.adnxs.com/getuidj' from origin 'https://www.lanacion.com.ar' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-error",
+     "e": "Provider's accounts list is empty."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Refused to execute script from 'https://capi.connatix.com/us/pixel"
+    },
+    {
+     "k": "console-error",
+     "e": "Refused to execute script from 'https://x.bidswitch.net/sync"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Mixed Content: The page at 'https://www.lanacion.com.ar/' was loaded over HTTPS, but requested an insecure frame 'http://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    }
+   ],
+   "urlHash": "070174f0dbc9",
+   "titleHash": "e654133b16ac"
+  },
+  {
+   "step": "link",
+   "href": "https://www.lanacion.com.ar/",
+   "click": "native",
+   "settle": 2.6,
+   "url": "https://www.lanacion.com.ar/",
+   "readyState": "complete",
+   "timeOrigin": 1793566512374.4,
+   "marker": null,
+   "histLen": 11,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1080,
+   "active": "BODY",
+   "textLen": 20444,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.lanacion.com.ar/",
+    "key": "4946320d-acab-40fe-8fcc-0b15201f3c68",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.lanacion.com.ar/",
+     "from": "https://www.lanacion.com.<token>",
+     "entryIsCurrent": true
+    },
+    "urlHash": "ad1f1a80ff37"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 104
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at P.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at QX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 104
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 271,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 351,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 688,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1037
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 3,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Mixed Content: The page at 'https://www.lanacion.com.ar/' was loaded over HTTPS, but requested an insecure frame 'http://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Mixed Content: The page at 'https://www.lanacion.com.ar/' was loaded over HTTPS, but requested an insecure frame 'http://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "console-error",
+     "e": "Mixed Content: The page at 'https://www.lanacion.com.ar/' was loaded over HTTPS, but requested an insecure frame 'http://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "ad1f1a80ff37",
+   "titleHash": "5fd4061c245a"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.lanacion.com.ar/clima/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.lanacion.com.ar/",
+   "readyState": "complete",
+   "timeOrigin": 1793566512374.4,
+   "marker": "m1",
+   "histLen": 12,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 25373,
+   "active": "IFRAME#<token>",
+   "textLen": 20444,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.lanacion.com.ar/",
+    "key": "16ddcc2c-91aa-4093-b262-aca86cabd68b",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.lanacion.com.ar/",
+     "from": "https://www.lanacion.com.<token>",
+     "entryIsCurrent": false
+    },
+    "urlHash": "a650d6e40196"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 104
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at P.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at QX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 104
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 271,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 351,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 688,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1037
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 2491
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.lanacion.com.ar/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2491,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.lanacion.com.ar/",
+     "t": 2491
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2514
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2514
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "call:entries": 3,
+    "pageshow": 1,
+    "history:pushState": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigatesuccess": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token."
+    }
+   ],
+   "urlHash": "a650d6e40196",
+   "titleHash": "5fd4061c245a"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.lanacion.com.ar/",
+   "readyState": "complete",
+   "timeOrigin": 1793566512374.4,
+   "marker": "m2",
+   "histLen": 12,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 25373,
+   "active": "IFRAME#<token>",
+   "textLen": 20444,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.lanacion.com.ar/",
+    "key": "4946320d-acab-40fe-8fcc-0b15201f3c68",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.lanacion.com.ar/",
+     "from": "https://www.lanacion.com.<token>",
+     "entryIsCurrent": true
+    },
+    "urlHash": "ad1f1a80ff37"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 104
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at P.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at QX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 104
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 271,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 351,
+     "len": 2
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 688,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1037
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 2491
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.lanacion.com.ar/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2491,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.lanacion.com.ar/",
+     "t": 2491
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2514
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2514
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.lanacion.com.ar/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5181,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.lanacion.com.ar/",
+     "t": 5181
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5181
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5181
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 5181
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 5191
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "call:entries": 3,
+    "pageshow": 1,
+    "history:pushState": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigatesuccess": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "ad1f1a80ff37",
+   "titleHash": "5fd4061c245a"
+  },
+  {
+   "step": "back3",
+   "settle": 2.7,
+   "url": "https://www.lanacion.com.<token>",
+   "readyState": "complete",
+   "timeOrigin": 1793566520413.7,
+   "marker": null,
+   "histLen": 12,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 8821,
+   "active": "BODY",
+   "textLen": 5360,
+   "nav": {
+    "len": 3,
+    "idx": 0,
+    "url": "https://www.lanacion.com.<token>",
+    "key": "fa921ddd-2237-4574-8b57-c907f45f0c9d",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.lanacion.com.<token>",
+     "from": "https://www.lanacion.com.ar/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "070174f0dbc9"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 145
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at P.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at QX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 145
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 395,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 443,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 459,
+     "len": 3
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 731
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2627
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2627
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 2651
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 3,
+    "pageshow": 1,
+    "get:canGoBack": 3
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Interstitial /133919216/ITT_Google_Experimental_50_50 not requested: Format already created on the page.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Refused to execute script from 'https://x.bidswitch.net/sync"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    }
+   ],
+   "urlHash": "070174f0dbc9",
+   "titleHash": "e654133b16ac"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "url": "https://www.lanacion.com.ar/",
+   "readyState": "complete",
+   "timeOrigin": 1793566523364.8,
+   "marker": null,
+   "histLen": 12,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 25373,
+   "active": "BODY",
+   "textLen": 20444,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.lanacion.com.ar/",
+    "key": "4946320d-acab-40fe-8fcc-0b15201f3c68",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.lanacion.com.ar/",
+     "from": "https://www.lanacion.com.<token>",
+     "entryIsCurrent": true
+    },
+    "urlHash": "ad1f1a80ff37"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 268
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at P.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at QX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 268
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 478,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 623,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 634,
+     "len": 3
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 992
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 3,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    },
+    {
+     "k": "console-error",
+     "e": "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token."
+    }
+   ],
+   "urlHash": "ad1f1a80ff37",
+   "titleHash": "5fd4061c245a"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.lanacion.com.ar/",
+   "readyState": "complete",
+   "timeOrigin": 1793566526062.3,
+   "marker": null,
+   "histLen": 12,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 25373,
+   "active": "BODY",
+   "textLen": 20444,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.lanacion.com.ar/",
+    "key": "4946320d-acab-40fe-8fcc-0b15201f3c68",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.lanacion.com.ar/",
+     "from": "https://www.lanacion.com.ar/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "ad1f1a80ff37"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 72
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at P.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at QX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 72
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 241,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 270,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 352,
+     "len": 3
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 940
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 1,
+    "call:entries": 3,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "console-warning",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warning",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-error",
+     "e": "Not signed in with the identity provider."
+    }
+   ],
+   "urlHash": "ad1f1a80ff37",
+   "titleHash": "5fd4061c245a"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.lanacion.com.ar/",
+   "readyState": "complete",
+   "timeOrigin": 1793566526062.3,
+   "marker": "m6",
+   "histLen": 12,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 25373,
+   "active": "BODY",
+   "textLen": 20444,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.lanacion.com.ar/",
+    "key": "52384905-7e2c-46b7-ace2-39d469d6868d",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.lanacion.com.ar/",
+     "from": "https://www.lanacion.com.ar/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "8e9648de252d"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 72
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at P.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at QX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 72
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 241,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 270,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 352,
+     "len": 3
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 940
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.lanacion.com.ar/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3565,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.lanacion.com.ar/",
+     "t": 3566
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 3566
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3574
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3574
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 3576
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 2,
+    "listen:navigatesuccess": 1,
+    "call:entries": 3,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8e9648de252d",
+   "titleHash": "5fd4061c245a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.lanacion.com.ar/",
+   "readyState": "complete",
+   "timeOrigin": 1793566526062.3,
+   "marker": "m7",
+   "histLen": 12,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 25373,
+   "active": "BODY",
+   "textLen": 20444,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.lanacion.com.ar/",
+    "key": "4946320d-acab-40fe-8fcc-0b15201f3c68",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.lanacion.com.ar/",
+     "from": "https://www.lanacion.com.ar/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "ad1f1a80ff37"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 72
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at P.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at QX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 72
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 241,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js",
+      "at NG (https://www.googletagmanager.com/gtag/js",
+      "at QG (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 270,
+     "len": 3
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at it (https://www.googletagmanager.com/gtag/destination",
+      "at jt (https://www.googletagmanager.com/gtag/destination",
+      "at NG (https://www.googletagmanager.com/gtag/destination",
+      "at QG (https://www.googletagmanager.com/gtag/destination"
+     ],
+     "t": 352,
+     "len": 3
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 940
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.lanacion.com.ar/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3565,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.lanacion.com.ar/",
+     "t": 3566
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 3566
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3574
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3574
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 3576
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.lanacion.com.ar/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 6207,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.lanacion.com.ar/",
+     "t": 6207
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6207
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6207
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 6207
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.lanacion.com.ar/",
+     "t": 6218
+    }
+   ],
+   "counts": {
+    "get:currentEntry": 3,
+    "listen:navigatesuccess": 1,
+    "call:entries": 3,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token."
+    }
+   ],
+   "urlHash": "ad1f1a80ff37",
+   "titleHash": "5fd4061c245a"
+  }
+ ],
+ "plan": {
+  "link": "https://www.lanacion.com.ar/",
+  "link2": "https://www.lanacion.com.ar/clima/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 31.4,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

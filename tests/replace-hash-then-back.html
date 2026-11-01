@@ -1,0 +1,35 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Cancel a fragment push, re-issue it as navigate() with history: "replace", then go back</title>
+<!--
+Reduced from a router on vdenergy.dpsconsulting.es (lib-*.js): on a "push" navigate event with
+hashChange, preventDefault() and navigation.navigate(e.destination.url, {state, history: "replace"}).
+Start page links here (so there is an entry to go back to); then location.hash changes and the
+browser goes back. ?mode=script uses history.back() instead of WebDriver back.
+-->
+<script>
+const q = new URLSearchParams(location.search);
+if (!q.get('step')) {
+  document.write('<a id=go href="?step=2&mode=' + (q.get('mode') || '') + '">next</a>');
+  window.__plan = ['click #go', 'wait 1000', 'jsclick #hash', 'wait 800', q.get('mode') === 'script' ? 'wait 0' : 'back', 'wait 2000'];
+} else {
+  navigation.addEventListener('navigate', e => {
+    if (e.navigationType === 'push' && e.hashChange) {
+      e.preventDefault();
+      navigation.navigate(e.destination.url, { state: { url: e.destination.url }, history: 'replace' });
+    }
+  });
+  document.write('<a id=hash href="#frag">hash</a>');
+  document.getElementById('hash').addEventListener('click', () => setTimeout(() => {
+    sessionStorage.setItem('__result', JSON.stringify({ beforeBack: { url: location.href.replace(/^.*\//, ''), len: navigation.entries().length, idx: navigation.currentEntry.index, histLen: history.length } }));
+    if (q.get('mode') === 'script') setTimeout(() => history.back(), 300);
+  }, 300));
+}
+addEventListener('pageshow', () => {
+  if (!q.get('step') && sessionStorage.getItem('__result')) {
+    const r = JSON.parse(sessionStorage.getItem('__result'));
+    r.afterBack = { url: location.href.replace(/^.*\//, ''), len: navigation.entries().length, idx: navigation.currentEntry.index };
+    sessionStorage.setItem('__result', JSON.stringify(r));
+  }
+});
+</script>

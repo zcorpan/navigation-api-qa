@@ -1,0 +1,1423 @@
+{
+ "id": "c668f43873",
+ "page": "https://www.si.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "active": "IFRAME",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 16622,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.si.<token>:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:1047715",
+      "s@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:386"
+     ],
+     "t": 1351
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1441
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.si.<token>:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 1442
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2833
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.si.<token>:70:45",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_setIsLoaded/e<@https://cdn.p-n.io/pushly-sdk.min.js"
+     ],
+     "t": 4123
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.si.<token>",
+     "entryIsCurrent": true,
+     "from": "https://www.si.<token>",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "44848862-2661-4a43-b8a3-028e7214cea1",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.si.<token>",
+    "urlHash": "c668f4387389"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 15307,
+   "timeOrigin": 1793553984226,
+   "url": "https://www.si.<token>",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "SecurityError: ServiceWorkerContainer.register: Non-same-origin scope URL"
+    },
+    {
+     "k": "pageerror",
+     "e": "NotFoundError: Node.removeChild: The node to be removed is not a child of this node"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553983853_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553983853_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553983854_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553983854_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553984003_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553984003_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "Personalize call failed. TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-error",
+     "e": "qrl s_S102tK1RUKk failed to load TypeError: error loading dynamically imported module: https://assets.minutemediacdn.com/vl-prod/build/q-BOZJAp28.js"
+    },
+    {
+     "k": "console-error",
+     "e": "QWIK ERROR error loading dynamically imported module: https://assets.minutemediacdn.com/vl-prod/build/q-BOZJAp28.js "
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553984240_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553984240_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "SecurityError: ServiceWorkerContainer.register: Non-same-origin scope URL"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553985638_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553985638_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553985639_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553985639_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_tt_enable_cookie\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553987864_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553987864_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "NotFoundError: Node.removeChild: The node to be removed is not a child of this node"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553988500_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553988500_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "c668f4387389",
+   "titleHash": "a815087fd4db"
+  },
+  {
+   "step": "link",
+   "href": "https://www.si.com/fannation",
+   "click": "native",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6886,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:1047715",
+      "s@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:386"
+     ],
+     "t": 503
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 519
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 519
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 560
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_setIsLoaded/e<@https://cdn.p-n.io/pushly-sdk.min.js"
+     ],
+     "t": 831
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "entryIsCurrent": true,
+     "from": "https://www.si.<token>",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "d435c727-7938-4103-bd4f-8c524f5773c7",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.si.com/fannation",
+    "urlHash": "0e1055479ede"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7005,
+   "timeOrigin": 1793553989026,
+   "url": "https://www.si.com/fannation",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "SecurityError: ServiceWorkerContainer.register: Non-same-origin scope URL"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553989676_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553989676_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553989677_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553989677_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "0e1055479ede",
+   "titleHash": "f96e6690c227"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 16622,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.si.<token>:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:1047715",
+      "s@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:386"
+     ],
+     "t": 468
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 486
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.si.<token>:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 486
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 588
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.si.<token>:70:45",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_setIsLoaded/e<@https://cdn.p-n.io/pushly-sdk.min.js"
+     ],
+     "t": 1365
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.si.<token>",
+     "entryIsCurrent": true,
+     "from": "https://www.si.com/fannation",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "44848862-2661-4a43-b8a3-028e7214cea1",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.si.<token>",
+    "urlHash": "c668f4387389"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 15307,
+   "timeOrigin": 1793553992370,
+   "url": "https://www.si.<token>",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "SecurityError: ServiceWorkerContainer.register: Non-same-origin scope URL"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553993650_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553993650_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "NotFoundError: Node.removeChild: The node to be removed is not a child of this node"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553994135_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553994135_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "c668f4387389",
+   "titleHash": "a815087fd4db"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6886,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 95
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:1047715",
+      "s@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:386"
+     ],
+     "t": 412
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 427
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 427
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_setIsLoaded/e<@https://cdn.p-n.io/pushly-sdk.min.js"
+     ],
+     "t": 915
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "entryIsCurrent": true,
+     "from": "https://www.si.<token>",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "d435c727-7938-4103-bd4f-8c524f5773c7",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.si.com/fannation",
+    "urlHash": "0e1055479ede"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7005,
+   "timeOrigin": 1793553995987,
+   "url": "https://www.si.com/fannation",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "SecurityError: ServiceWorkerContainer.register: Non-same-origin scope URL"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553996402_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553996402_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553996403_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793553996403_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "0e1055479ede",
+   "titleHash": "f96e6690c227"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 6886,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:1047715",
+      "s@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:386"
+     ],
+     "t": 971
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1063
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 1064
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1133
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_setIsLoaded/e<@https://cdn.p-n.io/pushly-sdk.min.js"
+     ],
+     "t": 1329
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "entryIsCurrent": true,
+     "from": "https://www.si.com/fannation",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "d435c727-7938-4103-bd4f-8c524f5773c7",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.si.com/fannation",
+    "urlHash": "0e1055479ede"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7005,
+   "timeOrigin": 1793553998752,
+   "url": "https://www.si.com/fannation",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "SecurityError: ServiceWorkerContainer.register: Non-same-origin scope URL"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "0e1055479ede",
+   "titleHash": "f96e6690c227"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6886,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:1047715",
+      "s@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:386"
+     ],
+     "t": 971
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1063
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 1064
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1133
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_setIsLoaded/e<@https://cdn.p-n.io/pushly-sdk.min.js"
+     ],
+     "t": 1329
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3743,
+     "url": "https://www.si.com/fannation",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.si.com/fannation",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3743
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3743,
+     "url": "https://www.si.com/fannation"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3753
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3753
+    },
+    {
+     "k": "hashchange",
+     "t": 3754,
+     "url": "https://www.si.com/fannation"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "entryIsCurrent": false,
+     "from": "https://www.si.com/fannation",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "8028cafc-0543-4cca-a350-64f948ee4fae",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.si.com/fannation",
+    "urlHash": "05bfff8f21e3"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7005,
+   "timeOrigin": 1793553998752,
+   "url": "https://www.si.com/fannation",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "05bfff8f21e3",
+   "titleHash": "f96e6690c227"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6886,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:1047715",
+      "s@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/a093ed45-543b-4934-9b9b-0c23fddd3d07/grumi.js:7:386"
+     ],
+     "t": 971
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 1063
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 1064
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1133
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "N.addEventListener@https://www.si.com/fannation:70:45",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_start@https://cdn.p-n.io/pushly-sdk.min.js",
+      "_setIsLoaded/e<@https://cdn.p-n.io/pushly-sdk.min.js"
+     ],
+     "t": 1329
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3743,
+     "url": "https://www.si.com/fannation",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.si.com/fannation",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3743
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3743,
+     "url": "https://www.si.com/fannation"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3753
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3753
+    },
+    {
+     "k": "hashchange",
+     "t": 3754,
+     "url": "https://www.si.com/fannation"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6362,
+     "url": "https://www.si.com/fannation",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.si.com/fannation",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6363
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6363
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6363
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6363,
+     "url": "https://www.si.com/fannation"
+    },
+    {
+     "k": "hashchange",
+     "t": 6365,
+     "url": "https://www.si.com/fannation"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.si.com/fannation",
+     "entryIsCurrent": true,
+     "from": "https://www.si.com/fannation",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "d435c727-7938-4103-bd4f-8c524f5773c7",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.si.com/fannation",
+    "urlHash": "0e1055479ede"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7005,
+   "timeOrigin": 1793553998752,
+   "url": "https://www.si.com/fannation",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0e1055479ede",
+   "titleHash": "f96e6690c227"
+  }
+ ],
+ "plan": {
+  "link": "https://www.si.com/fannation",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 29.9,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -1,0 +1,958 @@
+{
+ "id": "df949510ca",
+ "page": "https://vdenergy.dpsconsulting.es/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://vdenergy.dpsconsulting.es/login.html",
+   "readyState": "complete",
+   "timeOrigin": 1793561553265.9,
+   "marker": null,
+   "histLen": 16,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "INPUT#email-869feca3-b2f6-4083-b291-5f40bac2307c",
+   "textLen": 43,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://vdenergy.dpsconsulting.es/login.html",
+    "key": "71caf915-16aa-4e22-a958-35d87f4c4e95",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://vdenergy.dpsconsulting.es/login.html",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "660e665f63ff"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27532)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+      "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+     ],
+     "t": 247
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 247
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\"}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27911)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+      "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)"
+     ],
+     "t": 248
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 248
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 248
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\"}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28444)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30820)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+     ],
+     "t": 248
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 248
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28515)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30820)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+      "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)"
+     ],
+     "t": 248,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 248
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 248
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 248
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\"}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28444)",
+      "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)"
+     ],
+     "t": 248
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 248
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 248
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28461)",
+      "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)"
+     ],
+     "t": 248
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 248
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28515)",
+      "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+     ],
+     "t": 248,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 248
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 248
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 344
+    }
+   ],
+   "counts": {
+    "listen:navigate": 1,
+    "get:currentEntry": 8,
+    "call:updateCurrentEntry": 4,
+    "currententrychange": 4,
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+    },
+    {
+     "k": "console-error",
+     "e": "Refused to execute script from 'https://vdenergy.dpsconsulting.es/colors.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+    }
+   ],
+   "urlHash": "660e665f63ff",
+   "titleHash": "d527bf3db3dc"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://vdenergy.dpsconsulting.es/login.html",
+   "readyState": "complete",
+   "timeOrigin": 1793561558281.6,
+   "marker": null,
+   "histLen": 16,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "INPUT#email-633ab0ad-ab07-4dc6-a5a9-6ff07aa2e47c",
+   "textLen": 43,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://vdenergy.dpsconsulting.es/login.html",
+    "key": "71caf915-16aa-4e22-a958-35d87f4c4e95",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://vdenergy.dpsconsulting.es/login.html",
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "entryIsCurrent": true
+    },
+    "urlHash": "660e665f63ff"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27532)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+      "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+     ],
+     "t": 83
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 83
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27911)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+      "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)"
+     ],
+     "t": 83
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 83
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28444)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30820)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+     ],
+     "t": 84
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28515)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30820)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+      "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)"
+     ],
+     "t": 84,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28444)",
+      "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)"
+     ],
+     "t": 84
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 84
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28461)",
+      "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)"
+     ],
+     "t": 84
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28515)",
+      "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+     ],
+     "t": 84,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 86
+    }
+   ],
+   "counts": {
+    "listen:navigate": 1,
+    "get:currentEntry": 8,
+    "call:updateCurrentEntry": 4,
+    "currententrychange": 4,
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://vdenergy.dpsconsulting.es/login.html",
+    "log": [
+     {
+      "k": "listen",
+      "m": "navigate",
+      "s": [
+       "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27532)",
+       "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+       "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)",
+       "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+      ],
+      "t": 247
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 247
+     },
+     {
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\"}}]",
+      "s": [
+       "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+       "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27911)",
+       "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+       "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)"
+      ],
+      "t": 248
+     },
+     {
+      "k": "currententrychange",
+      "m": null,
+      "from": "https://vdenergy.dpsconsulting.es/login.html",
+      "t": 248
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 248
+     },
+     {
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\"}}]",
+      "s": [
+       "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+       "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28444)",
+       "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30820)",
+       "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+      ],
+      "t": 248
+     },
+     {
+      "k": "currententrychange",
+      "m": null,
+      "from": "https://vdenergy.dpsconsulting.es/login.html",
+      "t": 248
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28515)",
+       "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30820)",
+       "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+       "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)"
+      ],
+      "t": 248,
+      "len": 1
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 248
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 248
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 248
+     },
+     {
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\"}}]",
+      "s": [
+       "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+       "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28444)",
+       "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+       "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)"
+      ],
+      "t": 248
+     },
+     {
+      "k": "currententrychange",
+      "m": null,
+      "from": "https://vdenergy.dpsconsulting.es/login.html",
+      "t": 248
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 248
+     },
+     {
+      "k": "call",
+      "m": "updateCurrentEntry",
+      "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+      "s": [
+       "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+       "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28461)",
+       "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+       "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)"
+      ],
+      "t": 248
+     },
+     {
+      "k": "currententrychange",
+      "m": null,
+      "from": "https://vdenergy.dpsconsulting.es/login.html",
+      "t": 248
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28515)",
+       "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+       "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)",
+       "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+      ],
+      "t": 248,
+      "len": 1
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 248
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 248
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 344
+     }
+    ],
+    "counts": {
+     "listen:navigate": 1,
+     "get:currentEntry": 8,
+     "call:updateCurrentEntry": 4,
+     "currententrychange": 4,
+     "call:entries": 2,
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+    },
+    {
+     "k": "console-error",
+     "e": "Refused to execute script from 'https://vdenergy.dpsconsulting.es/colors.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+    }
+   ],
+   "urlHash": "660e665f63ff",
+   "titleHash": "d527bf3db3dc"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://vdenergy.dpsconsulting.es/login.html",
+   "readyState": "complete",
+   "timeOrigin": 1793561558281.6,
+   "marker": "m6",
+   "histLen": 16,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "INPUT#email-633ab0ad-ab07-4dc6-a5a9-6ff07aa2e47c",
+   "textLen": 43,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://vdenergy.dpsconsulting.es/login.html",
+    "key": "71caf915-16aa-4e22-a958-35d87f4c4e95",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://vdenergy.dpsconsulting.es/login.html",
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "entryIsCurrent": true
+    },
+    "urlHash": "b75df6522050"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27532)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+      "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+     ],
+     "t": 83
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 83
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27911)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+      "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)"
+     ],
+     "t": 83
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 83
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28444)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30820)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+     ],
+     "t": 84
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28515)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30820)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)",
+      "at ./src/js/helpers/common.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:101804)"
+     ],
+     "t": 84,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28444)",
+      "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)"
+     ],
+     "t": 84
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 84
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "a": "[{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":true}}]",
+     "s": [
+      "at o (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27430)",
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28461)",
+      "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)"
+     ],
+     "t": 84
+    },
+    {
+     "k": "currententrychange",
+     "m": null,
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 84
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at d (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:28515)",
+      "at new c (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30729)",
+      "at ./node_modules/@dps-es/components-v2/components/breadcrumb.js (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:30840)",
+      "at l (https://vdenergy.dpsconsulting.es/js/login-840c902cbd5d8f3b.js:1:4951)"
+     ],
+     "t": 84,
+     "len": 1
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 84
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 86
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://vdenergy.dpsconsulting.es/login.html",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2754,
+     "prevented": true
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2754
+    },
+    {
+     "k": "call",
+     "m": "navigate",
+     "a": "[\"https://vdenergy.dpsconsulting.es/login.html\",{\"state\":{\"title\":\"Log In\",\"url\":\"https://vdenergy.dpsconsulting.es/login.html\",\"main\":tru",
+     "s": [
+      "at Navigation.<anonymous> (https://vdenergy.dpsconsulting.es/js/lib-e003100ca4c367ad.js:2:27825)",
+      "at eval (eval at evaluate (:370:30), <anonymous>:1:23)",
+      "at UtilityScript.evaluate (<anonymous>:377:18)",
+      "at UtilityScript.<anonymous> (<anonymous>:1:44)"
+     ],
+     "t": 2754
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 2755
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vdenergy.dpsconsulting.es/login.html",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2755,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 2755
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 2755
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2755
+    },
+    {
+     "k": "committed",
+     "m": "navigate",
+     "t": 2755
+    },
+    {
+     "k": "finished",
+     "m": "navigate",
+     "t": 2755
+    },
+    {
+     "k": "hashchange",
+     "url": "https://vdenergy.dpsconsulting.es/login.html",
+     "t": 2755
+    }
+   ],
+   "counts": {
+    "listen:navigate": 1,
+    "get:currentEntry": 9,
+    "call:updateCurrentEntry": 4,
+    "currententrychange": 4,
+    "call:entries": 2,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "call:navigate": 1,
+    "navigateerror": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "committed:navigate": 1,
+    "finished:navigate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "b75df6522050",
+   "titleHash": "d527bf3db3dc"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "about:blank",
+   "readyState": "complete",
+   "timeOrigin": 1793561563734.2,
+   "marker": null,
+   "histLen": 16,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 0,
+   "nav": {
+    "len": 0,
+    "idx": null,
+    "url": null,
+    "key": null,
+    "sameDoc": null,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": null,
+    "urlHash": null
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3c4fd307aff9",
+   "titleHash": "da39a3ee5e6b"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 13.0,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A"
+}

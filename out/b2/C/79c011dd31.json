@@ -1,0 +1,234 @@
+{
+ "id": "79c011dd31",
+ "page": "https://www.olx.co.id/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 31,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 42
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 207,
+   "timeOrigin": 1793564088835,
+   "url": "https://www.olx.co.id/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "79c011dd31b3",
+   "titleHash": "7f2f6a15cf8d"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 31,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 23
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 42
+     }
+    ],
+    "url": "https://www.olx.co.id/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 207,
+   "timeOrigin": 1793564093277,
+   "url": "https://www.olx.co.id/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "79c011dd31b3",
+   "titleHash": "7f2f6a15cf8d"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 32,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 23
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2577,
+     "url": "https://www.olx.co.id/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2577,
+     "url": "https://www.olx.co.id/"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 207,
+   "timeOrigin": 1793564093277,
+   "url": "https://www.olx.co.id/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d6141c4844ba",
+   "titleHash": "7f2f6a15cf8d"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 32,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 23
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2577,
+     "url": "https://www.olx.co.id/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2577,
+     "url": "https://www.olx.co.id/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5140,
+     "url": "https://www.olx.co.id/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5140,
+     "url": "https://www.olx.co.id/"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 207,
+   "timeOrigin": 1793564093277,
+   "url": "https://www.olx.co.id/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "79c011dd31b3",
+   "titleHash": "7f2f6a15cf8d"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

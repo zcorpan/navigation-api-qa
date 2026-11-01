@@ -1,0 +1,638 @@
+{
+ "id": "308f2ef7de",
+ "page": "https://vercel.com/contact/sales",
+ "steps": [
+  {
+   "step": "load",
+   "active": "INPUT#name",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 1924,
+   "histLen": 32,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 274,
+     "url": "/contact/sales"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 297
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1742,
+   "timeOrigin": 1793563307479,
+   "url": "https://vercel.com/contact/sales",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "308f2ef7ded4",
+   "titleHash": "e11f9e5411c4"
+  },
+  {
+   "step": "link",
+   "href": "https://vercel.com/home",
+   "click": "native",
+   "settle": 2.5,
+   "active": "A#marketing-header-logo",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5412,
+   "histLen": 33,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 274,
+     "url": "/contact/sales"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4393,
+     "url": "/home"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 620,
+   "timeOrigin": 1793563307479,
+   "url": "https://vercel.com/home",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Hero shader unavailable. WebGPU adapter unavailable."
+    }
+   ],
+   "urlHash": "3c2a2644bb69",
+   "titleHash": "747ccf17ac38"
+  },
+  {
+   "step": "link2",
+   "href": "https://vercel.com/enterprise",
+   "click": "native",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6874,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 274,
+     "url": "/contact/sales"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4393,
+     "url": "/home"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7014,
+     "url": "/enterprise"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4392,
+   "timeOrigin": 1793563307479,
+   "url": "https://vercel.com/enterprise",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9a8ab681faf2",
+   "titleHash": "b4afff317fb1"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 5412,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 274,
+     "url": "/contact/sales"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4393,
+     "url": "/home"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7014,
+     "url": "/enterprise"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9606,
+     "url": "https://vercel.com/home"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 9617,
+     "url": "/home"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 620,
+   "timeOrigin": 1793563307479,
+   "url": "https://vercel.com/home",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Hero shader unavailable. WebGPU adapter unavailable."
+    }
+   ],
+   "urlHash": "3c2a2644bb69",
+   "titleHash": "747ccf17ac38"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "INPUT#name",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 3,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 1924,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 274,
+     "url": "/contact/sales"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4393,
+     "url": "/home"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7014,
+     "url": "/enterprise"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9606,
+     "url": "https://vercel.com/home"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 9617,
+     "url": "/home"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12199,
+     "url": "https://vercel.com/contact/sales"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 12206,
+     "url": "/contact/sales"
+    }
+   ],
+   "marker": "m3",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1742,
+   "timeOrigin": 1793563307479,
+   "url": "https://vercel.com/contact/sales",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "308f2ef7ded4",
+   "titleHash": "e11f9e5411c4"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 4,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 3
+   },
+   "docH": 5412,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 274,
+     "url": "/contact/sales"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 297
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4393,
+     "url": "/home"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7014,
+     "url": "/enterprise"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9606,
+     "url": "https://vercel.com/home"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 9617,
+     "url": "/home"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12199,
+     "url": "https://vercel.com/contact/sales"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 12206,
+     "url": "/contact/sales"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 14757,
+     "url": "https://vercel.com/home"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 14763,
+     "url": "/home"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 620,
+   "timeOrigin": 1793563307479,
+   "url": "https://vercel.com/home",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Hero shader unavailable. WebGPU adapter unavailable."
+    }
+   ],
+   "urlHash": "3c2a2644bb69",
+   "titleHash": "747ccf17ac38"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5176,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 337
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 393,
+     "url": "/home"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 4
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 620,
+   "timeOrigin": 1793563325261,
+   "url": "https://vercel.com/home",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Hero shader unavailable. WebGPU adapter unavailable."
+    }
+   ],
+   "urlHash": "3c2a2644bb69",
+   "titleHash": "747ccf17ac38"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 5176,
+   "histLen": 34,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 337
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 393,
+     "url": "/home"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2899,
+     "url": "https://vercel.com/home"
+    },
+    {
+     "k": "hashchange",
+     "t": 2899,
+     "url": "https://vercel.com/home"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 620,
+   "timeOrigin": 1793563325261,
+   "url": "https://vercel.com/home",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5984e9775dee",
+   "titleHash": "747ccf17ac38"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 5176,
+   "histLen": 34,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 337
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 393,
+     "url": "/home"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2899,
+     "url": "https://vercel.com/home"
+    },
+    {
+     "k": "hashchange",
+     "t": 2899,
+     "url": "https://vercel.com/home"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5467,
+     "url": "https://vercel.com/home"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5474,
+     "url": "/home"
+    },
+    {
+     "k": "hashchange",
+     "t": 5476,
+     "url": "https://vercel.com/home"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 620,
+   "timeOrigin": 1793563325261,
+   "url": "https://vercel.com/home",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3c2a2644bb69",
+   "titleHash": "747ccf17ac38"
+  }
+ ],
+ "plan": {
+  "link": "https://vercel.com/home",
+  "link2": "https://vercel.com/enterprise",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 25.9,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

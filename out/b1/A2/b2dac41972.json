@@ -1,0 +1,1897 @@
+{
+ "id": "b2dac41972",
+ "page": "https://www.deporvillage.com/catalogsearch/result",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.deporvillage.com/catalogsearch/result",
+   "readyState": "complete",
+   "timeOrigin": 1793554288838,
+   "marker": null,
+   "histLen": 34,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 1601,
+   "active": "BODY",
+   "textLen": 1543,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.deporvillage.com/catalogsearch/result",
+    "key": "1476a279-93df-4ac4-8bd1-0bc8595a38a5",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.deporvillage.com/catalogsearch/result",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "b2dac41972fd"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 160
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 274
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 274
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/catalogsearch/result?q=NYC%20MARATHON%20&brands=New%20Balance&sortBy=priceDesc",
+     "t": 274
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/catalogsearch/result",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 274,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/catalogsearch/result",
+     "t": 274
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 287
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 287
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 298
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 409,
+     "len": 1
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12034",
+      "at Object.start (https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12132)"
+     ],
+     "t": 674
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 718
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at Xia (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "at qE (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 718
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.addEventListener (<anonymous>:71:45)",
+      "at https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12034",
+      "at Object.start (https://static.iadvize.com/livechat/7.5.0/light-mode.chunk.js:1:12132)"
+     ],
+     "t": 1070
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at stack (<anonymous>:25:15)",
+      "at N.<computed> [as entries] (<anonymous>:53:79)",
+      "at it (https://www.googletagmanager.com/gtag/js",
+      "at jt (https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 4228,
+     "len": 1
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "get:activation": 2,
+    "get:currentEntry": 3,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "call:entries": 2,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://api.deporvillage.com/v1/api/customer/getorcreate' from origin 'https://www.deporvillage.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://api.deporvillage.com/v1/api/purchase/start' from origin 'https://www.deporvillage.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://server-side-gtm.deporvillage.com/g/collect"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://api.deporvillage.com/v1/api/search/results' from origin 'https://www.deporvillage.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://api.dlk.deporvillage.com/v1/dlk/clickstream-event' from origin 'https://www.deporvillage.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "pageerror",
+     "e": "Uncaught (in promise) null"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://api.deporvillage.com/v1/api/category/top-sellers/es/ES' from origin 'https://www.deporvillage.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://api.deporvillage.com/v1/api/category/top-sellers/es/ES' from origin 'https://www.deporvillage.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Access to fetch at 'https://api.deporvillage.com/v1/api/category/top-sellers/es/ES' from origin 'https://www.deporvillage.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 400 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-warning",
+     "e": "No available adapters."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "b2dac41972fd",
+   "titleHash": "1666907e2deb"
+  },
+  {
+   "step": "link",
+   "href": "https://www.deporvillage.com/stc/shipment",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.deporvillage.com/stc/shipment",
+   "readyState": "complete",
+   "timeOrigin": 1793554296017.985,
+   "marker": null,
+   "histLen": 35,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 616,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.deporvillage.com/stc/shipment",
+    "key": "1d67f686-47e5-4b8a-9c4c-455d48775128",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.deporvillage.com/stc/shipment",
+     "from": "https://www.deporvillage.com/catalogsearch/result",
+     "entryIsCurrent": true
+    },
+    "urlHash": "147fbedb5530"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment?__cf_chl_rt_tk=UhrzyN.AzCTcqqZ67yRiwl7y.rvj4m6Raqfnl3LW89o-1793554296-<ip>-bCnaLNqTrdtXuuxYEI0nxnJGLoSwWBtcAZoHqgH2d6o#shipment-costs",
+     "t": 1
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 1
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment#shipment-costs",
+     "t": 79
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 79,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 79
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 79
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 110
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-warning",
+     "e": "OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "No available adapters."
+    }
+   ],
+   "urlHash": "147fbedb5530",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.deporvillage.com/catalogsearch/result",
+   "readyState": "complete",
+   "timeOrigin": 1793554298638.17,
+   "marker": null,
+   "histLen": 35,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 616,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.deporvillage.com/catalogsearch/result",
+    "key": "2db62709-bd63-4094-a84c-a60fb4725a2e",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.deporvillage.com/catalogsearch/result",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "entryIsCurrent": true
+    },
+    "urlHash": "b2dac41972fd"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/catalogsearch/result?q=NYC%20MARATHON%20&brands=New%20Balance&sortBy=priceDesc&__cf_chl_rt_tk=Xrx7vzjA7DlerGJMh5KaWI4LvuMmCzarPxBiErDYNuE-1793554298-<ip>-MWNV9Bw21mGA9h1jiIXxPM27Xm0muw6X_HcL9RIXX.",
+     "t": 2
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/catalogsearch/result",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/catalogsearch/result",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/catalogsearch/result?q=NYC%20MARATHON%20&brands=New%20Balance&sortBy=priceDesc",
+     "t": 63
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/catalogsearch/result",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 63,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/catalogsearch/result",
+     "t": 63
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 63
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 95
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.deporvillage.com/stc/shipment",
+    "log": [
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/stc/shipment?__cf_chl_rt_tk=UhrzyN.AzCTcqqZ67yRiwl7y.rvj4m6Raqfnl3LW89o-1793554296-<ip>-bCnaLNqTrdtXuuxYEI0nxnJGLoSwWBtcAZoHqgH2d6o#shipment-costs",
+      "t": 1
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.deporvillage.com/stc/shipment",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 1,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.deporvillage.com/stc/shipment",
+      "t": 1
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 2
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/stc/shipment#shipment-costs",
+      "t": 79
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.deporvillage.com/stc/shipment",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 79,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.deporvillage.com/stc/shipment",
+      "t": 79
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 79
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 110
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.deporvillage.com/catalogsearch/result",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2581,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "history:replaceState": 2,
+     "navigate:replace": 2,
+     "currententrychange:replace": 2,
+     "navigatesuccess": 2,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-warning",
+     "e": "No available adapters."
+    }
+   ],
+   "urlHash": "b2dac41972fd",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://www.deporvillage.com/stc/shipment",
+   "readyState": "complete",
+   "timeOrigin": 1793554301304.395,
+   "marker": null,
+   "histLen": 35,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 616,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.deporvillage.com/stc/shipment",
+    "key": "1d67f686-47e5-4b8a-9c4c-455d48775128",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.deporvillage.com/stc/shipment",
+     "from": "https://www.deporvillage.com/catalogsearch/result",
+     "entryIsCurrent": true
+    },
+    "urlHash": "147fbedb5530"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment?__cf_chl_rt_tk=UhrzyN.AzCTcqqZ67yRiwl7y.rvj4m6Raqfnl3LW89o-1793554296-<ip>-bCnaLNqTrdtXuuxYEI0nxnJGLoSwWBtcAZoHqgH2d6o#shipment-costs",
+     "t": 2
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment#shipment-costs",
+     "t": 65
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 65,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 65
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 65
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 95
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.deporvillage.com/catalogsearch/result",
+    "log": [
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/catalogsearch/result?q=NYC%20MARATHON%20&brands=New%20Balance&sortBy=priceDesc&__cf_chl_rt_tk=Xrx7vzjA7DlerGJMh5KaWI4LvuMmCzarPxBiErDYNuE-1793554298-<ip>-MWNV9Bw21mGA9h1jiIXxPM27Xm0muw6X_HcL9RIXX.",
+      "t": 2
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.deporvillage.com/catalogsearch/result",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.deporvillage.com/catalogsearch/result",
+      "t": 2
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 2
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/catalogsearch/result?q=NYC%20MARATHON%20&brands=New%20Balance&sortBy=priceDesc",
+      "t": 63
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.deporvillage.com/catalogsearch/result",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 63,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.deporvillage.com/catalogsearch/result",
+      "t": 63
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 63
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 95
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.deporvillage.com/stc/shipment",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2611,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "history:replaceState": 2,
+     "navigate:replace": 2,
+     "currententrychange:replace": 2,
+     "navigatesuccess": 2,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "No available adapters."
+    },
+    {
+     "k": "console-warning",
+     "e": "OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy."
+    }
+   ],
+   "urlHash": "147fbedb5530",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "url": "https://www.deporvillage.com/stc/shipment",
+   "readyState": "complete",
+   "timeOrigin": 1793554303919.895,
+   "marker": null,
+   "histLen": 35,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 616,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.deporvillage.com/stc/shipment",
+    "key": "1d67f686-47e5-4b8a-9c4c-455d48775128",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.deporvillage.com/stc/shipment",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "entryIsCurrent": true
+    },
+    "urlHash": "147fbedb5530"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment?__cf_chl_rt_tk=skClwtZ6tvHSBtKr4e5jnJq0gDwdkALa3yeSKgFvVHI-1793554303-<ip>-KD6l0Wten5Bht2ajfnBYKVhPs9gsWPIpZG3RVlFyYHg#shipment-costs",
+     "t": 2
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment#shipment-costs",
+     "t": 59
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 59,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 59
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 59
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 85
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.deporvillage.com/stc/shipment",
+    "log": [
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/stc/shipment?__cf_chl_rt_tk=UhrzyN.AzCTcqqZ67yRiwl7y.rvj4m6Raqfnl3LW89o-1793554296-<ip>-bCnaLNqTrdtXuuxYEI0nxnJGLoSwWBtcAZoHqgH2d6o#shipment-costs",
+      "t": 2
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.deporvillage.com/stc/shipment",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.deporvillage.com/stc/shipment",
+      "t": 2
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 2
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/stc/shipment#shipment-costs",
+      "t": 65
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.deporvillage.com/stc/shipment",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 65,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.deporvillage.com/stc/shipment",
+      "t": 65
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 65
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 95
+     }
+    ],
+    "counts": {
+     "history:replaceState": 2,
+     "navigate:replace": 2,
+     "currententrychange:replace": 2,
+     "navigatesuccess": 2,
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstes"
+    },
+    {
+     "k": "console-error",
+     "e": "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy."
+    },
+    {
+     "k": "console-warning",
+     "e": "OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-warning",
+     "e": "%c%o font-size:0;color:transparent {}"
+    },
+    {
+     "k": "console-error",
+     "e": "Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set."
+    },
+    {
+     "k": "console-warning",
+     "e": "No available adapters."
+    }
+   ],
+   "urlHash": "147fbedb5530",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.deporvillage.com/stc/shipment",
+   "readyState": "complete",
+   "timeOrigin": 1793554303919.895,
+   "marker": "m4",
+   "histLen": 36,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 616,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.deporvillage.com/stc/shipment",
+    "key": "8504bf80-a1f9-4e76-9010-ab4743ddf6a9",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.deporvillage.com/stc/shipment",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "entryIsCurrent": false
+    },
+    "urlHash": "97b8de462019"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment?__cf_chl_rt_tk=skClwtZ6tvHSBtKr4e5jnJq0gDwdkALa3yeSKgFvVHI-1793554303-<ip>-KD6l0Wten5Bht2ajfnBYKVhPs9gsWPIpZG3RVlFyYHg#shipment-costs",
+     "t": 2
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment#shipment-costs",
+     "t": 59
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 59,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 59
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 59
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 85
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2713,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 2714
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "t": 2714
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2714
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "t": 2714
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep"
+    }
+   ],
+   "urlHash": "97b8de462019",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.deporvillage.com/stc/shipment",
+   "readyState": "complete",
+   "timeOrigin": 1793554303919.895,
+   "marker": "m5",
+   "histLen": 36,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 616,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.deporvillage.com/stc/shipment",
+    "key": "1d67f686-47e5-4b8a-9c4c-455d48775128",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.deporvillage.com/stc/shipment",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "entryIsCurrent": true
+    },
+    "urlHash": "147fbedb5530"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment?__cf_chl_rt_tk=skClwtZ6tvHSBtKr4e5jnJq0gDwdkALa3yeSKgFvVHI-1793554303-<ip>-KD6l0Wten5Bht2ajfnBYKVhPs9gsWPIpZG3RVlFyYHg#shipment-costs",
+     "t": 2
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/stc/shipment#shipment-costs",
+     "t": 59
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 59,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 59
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 59
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 85
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2713,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 2714
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "t": 2714
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2714
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "t": 2714
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5312,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.deporvillage.com/stc/shipment",
+     "t": 5312
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5312
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "t": 5312
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.deporvillage.com/stc/shipment",
+     "t": 5312
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep"
+    }
+   ],
+   "urlHash": "147fbedb5530",
+   "titleHash": "5ffa9751f584"
+  }
+ ],
+ "plan": {
+  "link": "https://www.deporvillage.com/stc/shipment",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 23.0,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A2"
+}

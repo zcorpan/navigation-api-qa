@@ -1,0 +1,388 @@
+{
+ "id": "0eacd631b6",
+ "page": "https://www.marriott.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 267
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.marriott.com/default.mi",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "7b025386-69ed-48e4-a40a-5a0779a5a723",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marriott.com/default.mi",
+    "urlHash": "98075ae4afa2"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -4
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793566948233,
+   "url": "https://www.marriott.com/default.mi",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cPIM-SESSION-ID\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "98075ae4afa2",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 202
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.marriott.com/default.mi",
+     "entryIsCurrent": true,
+     "from": "https://www.marriott.com/default.mi",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "7b025386-69ed-48e4-a40a-5a0779a5a723",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marriott.com/default.mi",
+    "urlHash": "98075ae4afa2"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793566952818,
+   "url": "https://www.marriott.com/default.mi",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "98075ae4afa2",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 202
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2744,
+     "url": "https://www.marriott.com/default.mi",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.marriott.com/default.mi",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2744
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2744,
+     "url": "https://www.marriott.com/default.mi"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2744
+    },
+    {
+     "k": "hashchange",
+     "t": 2744,
+     "url": "https://www.marriott.com/default.mi"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.marriott.com/default.mi",
+     "entryIsCurrent": false,
+     "from": "https://www.marriott.com/default.mi",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "58e5a1ec-8670-4b5f-9e61-f812d056650a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marriott.com/default.mi",
+    "urlHash": "4cf6d5f116d0"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -2
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793566952818,
+   "url": "https://www.marriott.com/default.mi",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4cf6d5f116d0",
+   "titleHash": "da39a3ee5e6b"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 202
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2744,
+     "url": "https://www.marriott.com/default.mi",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.marriott.com/default.mi",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2744
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2744,
+     "url": "https://www.marriott.com/default.mi"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2744
+    },
+    {
+     "k": "hashchange",
+     "t": 2744,
+     "url": "https://www.marriott.com/default.mi"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5316,
+     "url": "https://www.marriott.com/default.mi",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.marriott.com/default.mi",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5317
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5317
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5317,
+     "url": "https://www.marriott.com/default.mi"
+    },
+    {
+     "k": "hashchange",
+     "t": 5317,
+     "url": "https://www.marriott.com/default.mi"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.marriott.com/default.mi",
+     "entryIsCurrent": true,
+     "from": "https://www.marriott.com/default.mi",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "7b025386-69ed-48e4-a40a-5a0779a5a723",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.marriott.com/default.mi",
+    "urlHash": "98075ae4afa2"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793566952818,
+   "url": "https://www.marriott.com/default.mi",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "98075ae4afa2",
+   "titleHash": "da39a3ee5e6b"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 12.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

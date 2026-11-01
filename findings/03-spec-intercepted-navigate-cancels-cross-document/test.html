@@ -1,0 +1,48 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>React transition indicator active while the user clicks a cross-document link</title>
+<!--
+React DOM 19's default transition indicator (see react-transition-indicator.html). When the user
+clicks a cross-document link while it is active, the link's navigate event aborts the fake
+navigation; React's navigateerror handler restarts it 20ms later with navigation.navigate(), which
+the spec says stops the ongoing cross-document navigation ("intercept-stops-ongoing-cross-document-
+navigation" in WPT). ?slow=1 makes the link's response slow (2s) so the restart lands before commit.
+-->
+<a id=link href="slow-page.py">cross-document link</a>
+<script>
+function startIndicator() {
+  function onNavigate(e) {
+    e.canIntercept && "react-transition" === e.info && e.intercept({
+      handler: function () { return new Promise(function (r) { pending = r; }); },
+      focusReset: "manual", scroll: "manual"
+    });
+  }
+  function onDone() {
+    null !== pending && (pending(), pending = null);
+    cancelled || setTimeout(start, 20);
+  }
+  function start() {
+    if (!cancelled && !navigation.transition) {
+      var e = navigation.currentEntry;
+      e && null != e.url && navigation.navigate(e.url, { state: e.getState(), info: "react-transition", history: "replace" });
+    }
+  }
+  var cancelled = false, pending = null;
+  navigation.addEventListener("navigate", onNavigate);
+  navigation.addEventListener("navigatesuccess", onDone);
+  navigation.addEventListener("navigateerror", onDone);
+  setTimeout(start, 100);
+}
+const q = new URLSearchParams(location.search);
+document.getElementById('link').href = q.get('slow') ? '/slow?ms=' + (q.get('ms') || 2000) : 'page2.html';
+const events = [];
+navigation.addEventListener('navigate', e => events.push('navigate:' + e.navigationType + (e.info ? ':' + e.info : '') + (e.destination.sameDocument ? ':same' : ':cross')));
+navigation.addEventListener('navigateerror', e => events.push('navigateerror:' + e.error.name));
+addEventListener('pagehide', () => sessionStorage.setItem('__result', JSON.stringify({ leftPage: true, events })));
+sessionStorage.removeItem('__result');
+startIndicator();
+window.__plan = q.get('how') === 'location' ? ['wait 5500'] : ['wait 400', (q.get('js') ? 'jsclick' : 'click') + ' #link', 'wait 4000'];
+if (q.get('how') === 'location') setTimeout(() => { location.href = document.getElementById('link').href; }, 1500);
+window.__result = { pending: true };
+setTimeout(() => { window.__result = { leftPage: false, url: location.pathname, events }; }, q.get('how') === 'location' ? 5000 : 400 + 3800);
+</script>

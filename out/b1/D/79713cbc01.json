@@ -1,0 +1,699 @@
+{
+ "id": "79713cbc01",
+ "page": "https://www.franceinfo.fr/",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 23,
+   "url": "https://www.franceinfo.fr/",
+   "log": [],
+   "docH": 21000,
+   "marker": null,
+   "timeOrigin": 1793567128902,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 37618,
+   "nav": {
+    "url": "https://www.franceinfo.fr/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "74ca600f-a012-44ec-bb22-8e5e1073f49e",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.franceinfo.fr/",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "79713cbc019c"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "79713cbc019c",
+   "titleHash": "df3dfe9fb24c"
+  },
+  {
+   "step": "link",
+   "href": "https://www.franceinfo.fr/en-direct/",
+   "click": "js",
+   "settle": 2.8,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 24,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "log": [],
+   "docH": 8632,
+   "marker": null,
+   "timeOrigin": 1793567137431,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.franceinfo.fr/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 506,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 13089,
+   "nav": {
+    "url": "https://www.franceinfo.fr/en-direct/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "55625d19-6154-4004-a4a8-e32849482561",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.franceinfo.fr/en-direct/",
+     "from": "https://www.franceinfo.fr/",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f6ec0c561977"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f6ec0c561977",
+   "titleHash": "94eb6dcc01b4"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 24,
+   "url": "https://www.franceinfo.fr/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://www.franceinfo.fr/en-direct/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 506,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3957,
+     "persisted": true
+    }
+   ],
+   "docH": 21000,
+   "marker": "m0",
+   "timeOrigin": 1793567128902,
+   "scrollX": 0,
+   "counts": {
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.franceinfo.fr/en-direct/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.franceinfo.fr/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 73,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 37618,
+   "nav": {
+    "url": "https://www.franceinfo.fr/",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "74ca600f-a012-44ec-bb22-8e5e1073f49e",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.franceinfo.fr/",
+     "from": "https://www.franceinfo.fr/en-direct/",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "79713cbc019c"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "79713cbc019c",
+   "titleHash": "df3dfe9fb24c"
+  },
+  {
+   "step": "forward",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BUTTON",
+   "histLen": 24,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://www.franceinfo.fr/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 73,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3028,
+     "persisted": true
+    }
+   ],
+   "docH": 8632,
+   "marker": "m1",
+   "timeOrigin": 1793567137431,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.franceinfo.fr/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 506,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3957,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 6162,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1,
+     "navigate:push": 1
+    }
+   },
+   "textLen": 13089,
+   "nav": {
+    "url": "https://www.franceinfo.fr/en-direct/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "55625d19-6154-4004-a4a8-e32849482561",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.franceinfo.fr/en-direct/",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f6ec0c561977"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f6ec0c561977",
+   "titleHash": "94eb6dcc01b4"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "object",
+   "scrollY": 0,
+   "active": "BUTTON",
+   "histLen": 24,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "log": [],
+   "docH": 8632,
+   "marker": null,
+   "timeOrigin": 1793567146083,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.franceinfo.fr/en-direct/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.franceinfo.fr/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 73,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3028,
+      "persisted": true
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 13089,
+   "nav": {
+    "url": "https://www.franceinfo.fr/en-direct/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "55625d19-6154-4004-a4a8-e32849482561",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.franceinfo.fr/en-direct/",
+     "from": "https://www.franceinfo.fr/en-direct/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f6ec0c561977"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "f6ec0c561977",
+   "titleHash": "94eb6dcc01b4"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BUTTON",
+   "histLen": 26,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.franceinfo.fr/en-direct/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 241,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 244,
+     "m": "push",
+     "from": "https://www.franceinfo.fr/en-direct/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 244
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.franceinfo.fr/en-direct/",
+     "t": 244
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.franceinfo.fr/en-direct/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 266,
+     "m": "replace",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 266,
+     "m": "replace",
+     "from": "https://www.franceinfo.fr/en-direct/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 288
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.franceinfo.fr/en-direct/",
+     "t": 288
+    },
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.franceinfo.fr/en-direct/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 292,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 292,
+     "m": "push",
+     "from": "https://www.franceinfo.fr/en-direct/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 293
+    }
+   ],
+   "docH": 8632,
+   "marker": "m4",
+   "timeOrigin": 1793567146083,
+   "scrollX": 0,
+   "counts": {
+    "currententrychange:replace": 1,
+    "navigate:replace": 1,
+    "navigate:push": 2,
+    "navigatesuccess": 3,
+    "currententrychange:push": 2,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "textLen": 13089,
+   "nav": {
+    "url": "https://www.franceinfo.fr/en-direct/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 4,
+    "idx": 3,
+    "key": "501bec8d-1e9b-4b95-8580-2582d2cb8ef2",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.franceinfo.fr/en-direct/",
+     "from": "https://www.franceinfo.fr/en-direct/",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "114ee043459a"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "114ee043459a",
+   "titleHash": "94eb6dcc01b4"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 27,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "log": [],
+   "docH": 8632,
+   "marker": null,
+   "timeOrigin": 1793567152507,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.franceinfo.fr/en-direct/",
+    "log": [
+     {
+      "hashChange": true,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 241,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 244,
+      "m": "push",
+      "from": "https://www.franceinfo.fr/en-direct/"
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 244
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "t": 244
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 266,
+      "m": "replace",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 266,
+      "m": "replace",
+      "from": "https://www.franceinfo.fr/en-direct/"
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 288
+     },
+     {
+      "k": "hashchange",
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "t": 288
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 292,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 292,
+      "m": "push",
+      "from": "https://www.franceinfo.fr/en-direct/"
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 293
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "same": true,
+      "k": "navigate",
+      "download": null,
+      "t": 3021,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "currententrychange",
+      "t": 3022,
+      "m": "traverse",
+      "from": "https://www.franceinfo.fr/en-direct/"
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 3022
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "url": "https://www.franceinfo.fr/en-direct/",
+      "t": 3022
+     },
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": null,
+      "url": "https://www.franceinfo.fr/en-direct",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 3495,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "currententrychange:replace": 1,
+     "navigate:replace": 1,
+     "navigate:push": 3,
+     "currententrychange:traverse": 1,
+     "navigatesuccess": 4,
+     "currententrychange:push": 2,
+     "popstate": 2,
+     "hashchange": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 13089,
+   "nav": {
+    "url": "https://www.franceinfo.fr/en-direct/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 5,
+    "idx": 4,
+    "key": "a207d53a-7c67-4265-9f93-9f340c8e9aac",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.franceinfo.fr/en-direct/",
+     "from": "https://www.franceinfo.fr/en-direct/",
+     "type": "push",
+     "entryIsCurrent": false
+    },
+    "urlHash": "114ee043459a"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "114ee043459a",
+   "titleHash": "94eb6dcc01b4"
+  }
+ ],
+ "plan": {
+  "link": "https://www.franceinfo.fr/en-direct/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 25.8,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

@@ -1,0 +1,576 @@
+{
+ "id": "a08c23e39b",
+ "page": "https://ngl.link/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 4899,
+   "histLen": 19,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 391
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 392,
+     "url": null
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1644,
+   "timeOrigin": 1793562264354,
+   "url": "https://ngl.link/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a08c23e39b58",
+   "titleHash": "73171798f5bc"
+  },
+  {
+   "step": "link",
+   "href": "https://ngl.link/About",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 4444,
+   "histLen": 20,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 391
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 392,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4741,
+     "url": "/About"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2084,
+   "timeOrigin": 1793562264354,
+   "url": "https://ngl.link/About",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4384909a5d12",
+   "titleHash": "73171798f5bc"
+  },
+  {
+   "step": "link2",
+   "href": "https://ngl.link/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 4899,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 391
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 392,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4741,
+     "url": "/About"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7805,
+     "url": "/"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1644,
+   "timeOrigin": 1793562264354,
+   "url": "https://ngl.link/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a08c23e39b58",
+   "titleHash": "73171798f5bc"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4444,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 391
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 392,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4741,
+     "url": "/About"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7805,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10729,
+     "url": "https://ngl.link/About"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2084,
+   "timeOrigin": 1793562264354,
+   "url": "https://ngl.link/About",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4384909a5d12",
+   "titleHash": "73171798f5bc"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 4899,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 391
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 392,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4741,
+     "url": "/About"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7805,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10729,
+     "url": "https://ngl.link/About"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 13324,
+     "url": "https://ngl.link/"
+    }
+   ],
+   "marker": "m3",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1644,
+   "timeOrigin": 1793562264354,
+   "url": "https://ngl.link/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a08c23e39b58",
+   "titleHash": "73171798f5bc"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 2,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 3
+   },
+   "docH": 4444,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 391
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 392,
+     "url": null
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4741,
+     "url": "/About"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7805,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10729,
+     "url": "https://ngl.link/About"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 13324,
+     "url": "https://ngl.link/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 15908,
+     "url": "https://ngl.link/About"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2084,
+   "timeOrigin": 1793562264354,
+   "url": "https://ngl.link/About",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4384909a5d12",
+   "titleHash": "73171798f5bc"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 4444,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 110,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 245
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2084,
+   "timeOrigin": 1793562283102,
+   "url": "https://ngl.link/About",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "4384909a5d12",
+   "titleHash": "73171798f5bc"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4444,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 110,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 245
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2813,
+     "url": "https://ngl.link/About"
+    },
+    {
+     "k": "hashchange",
+     "t": 2813,
+     "url": "https://ngl.link/About"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2813,
+     "url": null
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2084,
+   "timeOrigin": 1793562283102,
+   "url": "https://ngl.link/About",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "568f65defd08",
+   "titleHash": "73171798f5bc"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 4444,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 110,
+     "url": null
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 245
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2813,
+     "url": "https://ngl.link/About"
+    },
+    {
+     "k": "hashchange",
+     "t": 2813,
+     "url": "https://ngl.link/About"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 2813,
+     "url": null
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5376,
+     "url": "https://ngl.link/About"
+    },
+    {
+     "k": "hashchange",
+     "t": 5376,
+     "url": "https://ngl.link/About"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2084,
+   "timeOrigin": 1793562283102,
+   "url": "https://ngl.link/About",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4384909a5d12",
+   "titleHash": "73171798f5bc"
+  }
+ ],
+ "plan": {
+  "link": "https://ngl.link/About",
+  "link2": "https://ngl.link/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 26.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

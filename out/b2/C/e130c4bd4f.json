@@ -1,0 +1,1534 @@
+{
+ "id": "e130c4bd4f",
+ "page": "https://developers.facebook.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6083,
+   "histLen": 4,
+   "histState": "string",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 501,
+     "url": "https://developers.facebook.com/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 775
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4471,
+   "timeOrigin": 1793562535953,
+   "url": "https://developers.facebook.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "ErrorUtils caught an error:\n\n<Surface> is used without AutoLogging initialization\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. Object(23)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://connect.facebook.net/en_US/fbevents.js from being executed because it violates the following directive: \u201cscript-src https://*.facebook.com https://*.fbcdn.net https://<ip>:* 'nonce-ZvnlT4bf' blob: 'self' "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fb"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics.twitter.com/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: http"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://t.co/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://dc.ads.linkedin.com/collect/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com https://facebook.com https://"
+    }
+   ],
+   "urlHash": "e130c4bd4f65",
+   "titleHash": "619ccc0c3e4d"
+  },
+  {
+   "step": "link",
+   "href": "https://developers.facebook.com/docs/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 8
+   },
+   "docH": 3003,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 599
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 600
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 1044
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 1045
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 1045
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 1046
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 1046
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 1046
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1232
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2288,
+   "timeOrigin": 1793562544440,
+   "url": "https://developers.facebook.com/docs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fb"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://dc.ads.linkedin.com/collect/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com https://facebook.com https://"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics.twitter.com/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: http"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://t.co/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/ads/ga-audiences"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Broken trigger flowlet chain!"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    }
+   ],
+   "urlHash": "6954f1fd83a6",
+   "titleHash": "01b6f0006ae6"
+  },
+  {
+   "step": "link2",
+   "href": "https://developers.facebook.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 6
+   },
+   "docH": 6083,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 397
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 409
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 410
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 410
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 411
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 412
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 554
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -7
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4471,
+   "timeOrigin": 1793562549321,
+   "url": "https://developers.facebook.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "ErrorUtils caught an error:\n\n<Surface> is used without AutoLogging initialization\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. Object(23)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/ads/ga-audiences"
+    },
+    {
+     "k": "console-error",
+     "e": "Broken trigger flowlet chain!"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fb"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://dc.ads.linkedin.com/collect/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com https://facebook.com https://"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics.twitter.com/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: http"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://t.co/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    }
+   ],
+   "urlHash": "ea29c484ed5b",
+   "titleHash": "619ccc0c3e4d"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 8
+   },
+   "docH": 3003,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 135
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 151
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 153
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 153
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 153
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 153
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 153
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 154
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 233
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2288,
+   "timeOrigin": 1793562553862,
+   "url": "https://developers.facebook.com/docs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Broken trigger flowlet chain!"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fb"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://dc.ads.linkedin.com/collect/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com https://facebook.com https://"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics.twitter.com/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: http"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://t.co/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    }
+   ],
+   "urlHash": "6954f1fd83a6",
+   "titleHash": "01b6f0006ae6"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 6
+   },
+   "docH": 6083,
+   "histLen": 6,
+   "histState": "string",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 403
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 404
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 405
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 405
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 406
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 406
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 421
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4471,
+   "timeOrigin": 1793562557727,
+   "url": "https://developers.facebook.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "ErrorUtils caught an error:\n\n<Surface> is used without AutoLogging initialization\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. Object(23)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/ads/ga-audiences"
+    },
+    {
+     "k": "console-error",
+     "e": "Broken trigger flowlet chain!"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fb"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://dc.ads.linkedin.com/collect/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com https://facebook.com https://"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics.twitter.com/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: http"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://t.co/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    }
+   ],
+   "urlHash": "e130c4bd4f65",
+   "titleHash": "619ccc0c3e4d"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 8
+   },
+   "docH": 3003,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 2
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 162
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 178
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 180
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 180
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 181
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 181
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 181
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 181
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 333
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2288,
+   "timeOrigin": 1793562561909,
+   "url": "https://developers.facebook.com/docs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Broken trigger flowlet chain!"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fb"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://dc.ads.linkedin.com/collect/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com https://facebook.com https://"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics.twitter.com/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: http"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://t.co/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    }
+   ],
+   "urlHash": "6954f1fd83a6",
+   "titleHash": "01b6f0006ae6"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 8
+   },
+   "docH": 3003,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 411
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 411
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 738
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 738
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 739
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 739
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 740
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 740
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 751
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2288,
+   "timeOrigin": 1793562565538,
+   "url": "https://developers.facebook.com/docs/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fb"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://dc.ads.linkedin.com/collect/ because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com https://facebook.com https://"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://analytics.twitter.com/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: http"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://t.co/i/adsct because it violates the following directive: \u201cimg-src https://*.fbcdn.net https://*.facebook.com data: https://*.fbsbx.com h"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.google.<cc>/ads/ga-audiences"
+    },
+    {
+     "k": "console-error",
+     "e": "Broken trigger flowlet chain!"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    }
+   ],
+   "urlHash": "6954f1fd83a6",
+   "titleHash": "01b6f0006ae6"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1,
+    "rejection": 14
+   },
+   "docH": 3003,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 411
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 411
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 738
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 738
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 739
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 739
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 740
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 740
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 751
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3332,
+     "url": "https://developers.facebook.com/docs/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3343,
+     "url": "https://developers.facebook.com/docs/"
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3344
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3344
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3344
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3345
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3345
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3345
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2288,
+   "timeOrigin": 1793562565538,
+   "url": "https://developers.facebook.com/docs/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-error",
+     "e": "Broken trigger flowlet chain!"
+    }
+   ],
+   "urlHash": "886942e7fa14",
+   "titleHash": "01b6f0006ae6"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2,
+    "rejection": 20
+   },
+   "docH": 3003,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 411
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 411
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 738
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 738
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 739
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 739
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 740
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 740
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 751
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3332,
+     "url": "https://developers.facebook.com/docs/"
+    },
+    {
+     "k": "hashchange",
+     "t": 3343,
+     "url": "https://developers.facebook.com/docs/"
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3344
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3344
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3344
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3345
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3345
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 3345
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5904,
+     "url": "https://developers.facebook.com/docs/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5920,
+     "url": "https://developers.facebook.com/docs/"
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 5921
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 5922
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 5922
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 5922
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 5922
+    },
+    {
+     "e": "TypeError: NetworkError when attempting to fetch resource.",
+     "k": "rejection",
+     "t": 5923
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2288,
+   "timeOrigin": 1793562565538,
+   "url": "https://developers.facebook.com/docs/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc-prod-25-s6uit34pua-wl.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net w"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://m2a0406a0524-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net "
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src https://*.facebook.com https://facebook.com https://*.fbcdn.net https://*.facebook.net wss:"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    }
+   ],
+   "urlHash": "6954f1fd83a6",
+   "titleHash": "01b6f0006ae6"
+  }
+ ],
+ "plan": {
+  "link": "https://developers.facebook.com/docs/",
+  "link2": "https://developers.facebook.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "button[data-cookiebanner=\"accept_button\"]",
+ "elapsed": 38.9,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

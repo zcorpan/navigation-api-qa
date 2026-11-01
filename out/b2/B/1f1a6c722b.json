@@ -1,0 +1,1654 @@
+{
+ "id": "1f1a6c722b",
+ "page": "https://www.google.com.hk/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 2,
+    "get:activation": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 59
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 130,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 130,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 130
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 133
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+     ],
+     "t": 133
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 156,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 156,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 156
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 156
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 229
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+      "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+     ],
+     "t": 230
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.google.com.hk/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "25668383-a509-42ca-85e2-cedcbb7d3850",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.google.com.hk/",
+    "urlHash": "1f1a6c722be3"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 188,
+   "timeOrigin": 1793561595804,
+   "url": "https://www.google.com.hk/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-zuwOCe9scDXYnxGuDl3eQg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-ENID\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "1f1a6c722be3",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "link",
+   "href": "https://www.google.com.hk/setprefs",
+   "click": "native",
+   "settle": 2.5,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 2,
+    "get:activation": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 38
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 190,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 190,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 190
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 194
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "rJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>",
+      "_.aJc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>",
+      "bJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>"
+     ],
+     "t": 195
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 209,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 209,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 209
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 209
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 349
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "rJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>",
+      "_.Acc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>",
+      "Kdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+      "_.zdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+     ],
+     "t": 402
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.google.com.hk/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "cecc5923-633d-48fe-838a-5fcdfe8ef74c",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.google.com.hk/",
+    "urlHash": "1f1a6c722be3"
+   },
+   "prev": {
+    "counts": {
+     "call:entries": 2,
+     "currententrychange:replace": 2,
+     "get:activation": 1,
+     "history:replaceState": 2,
+     "navigate:push": 1,
+     "navigate:replace": 2,
+     "navigatesuccess": 2,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 59
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 130,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 130,
+      "url": "https://www.google.com.hk/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.google.com.hk/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 130
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 133
+     },
+     {
+      "k": "call",
+      "len": 1,
+      "m": "entries",
+      "s": [
+       "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+       "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+       "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+      ],
+      "t": 133
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 156,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 156,
+      "url": "https://www.google.com.hk/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.google.com.hk/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 156
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 156
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 229
+     },
+     {
+      "k": "call",
+      "len": 1,
+      "m": "entries",
+      "s": [
+       "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+       "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+       "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+       "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+      ],
+      "t": 230
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": "A",
+      "t": 6850,
+      "url": "https://www.google.com.hk/setprefs",
+      "userInitiated": true
+     }
+    ],
+    "url": "https://www.google.com.hk/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 83,
+   "timeOrigin": 1793561602801,
+   "url": "https://www.google.com.hk/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-3Z96Uej2lYxQHulzIKNceA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-ENID\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "1f1a6c722be3",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.google.com.hk/setprefs",
+   "click": "native",
+   "settle": 2.6,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 2,
+    "get:activation": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 43
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 87,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 87,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 88
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 96
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+     ],
+     "t": 96
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 116,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 116,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 116
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 116
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 188
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+      "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+     ],
+     "t": 278
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.google.com.hk/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "29d1e029-0996-4ee7-93a1-a561d8990cff",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.google.com.hk/",
+    "urlHash": "1f1a6c722be3"
+   },
+   "prev": {
+    "counts": {
+     "call:entries": 2,
+     "currententrychange:replace": 2,
+     "get:activation": 1,
+     "history:replaceState": 2,
+     "navigate:push": 1,
+     "navigate:replace": 2,
+     "navigatesuccess": 2,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 38
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 190,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 190,
+      "url": "https://www.google.com.hk/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.google.com.hk/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 190
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 194
+     },
+     {
+      "k": "call",
+      "len": 2,
+      "m": "entries",
+      "s": [
+       "rJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>",
+       "_.aJc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>",
+       "bJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>"
+      ],
+      "t": 195
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 209,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 209,
+      "url": "https://www.google.com.hk/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.google.com.hk/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 209
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 209
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 349
+     },
+     {
+      "k": "call",
+      "len": 2,
+      "m": "entries",
+      "s": [
+       "rJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>",
+       "_.Acc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/am=<token>",
+       "Kdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+       "_.zdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.zh_TW.ZG5ps4awFos.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+      ],
+      "t": 402
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": "A",
+      "t": 2916,
+      "url": "https://www.google.com.hk/setprefs",
+      "userInitiated": true
+     }
+    ],
+    "url": "https://www.google.com.hk/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793561605873,
+   "url": "https://www.google.com.hk/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-NZEKmRdprg_RBZH-hktDQg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-ENID\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "1f1a6c722be3",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 2,
+    "get:activation": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 43
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 87,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 87,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 88
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 96
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+     ],
+     "t": 96
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 116,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 116,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 116
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 116
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 188
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+      "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+     ],
+     "t": 278
+    }
+   ],
+   "marker": "m2",
+   "nav": {
+    "activation": {
+     "entry": "https://www.google.com.hk/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "29d1e029-0996-4ee7-93a1-a561d8990cff",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.google.com.hk/",
+    "urlHash": "1f1a6c722be3"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793561605873,
+   "url": "https://www.google.com.hk/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1f1a6c722be3",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 2,
+    "get:activation": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 43
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 87,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 87,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 88
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 96
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+     ],
+     "t": 96
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 116,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 116,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 116
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 116
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 188
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+      "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+     ],
+     "t": 278
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://www.google.com.hk/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "29d1e029-0996-4ee7-93a1-a561d8990cff",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.google.com.hk/",
+    "urlHash": "1f1a6c722be3"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793561605873,
+   "url": "https://www.google.com.hk/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1f1a6c722be3",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:replace": 2,
+    "get:activation": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 43
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 87,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 87,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 88
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 96
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+     ],
+     "t": 96
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 116,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 116,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 116
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 116
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 188
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+      "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+     ],
+     "t": 278
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.google.com.hk/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "29d1e029-0996-4ee7-93a1-a561d8990cff",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.google.com.hk/",
+    "urlHash": "1f1a6c722be3"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793561605873,
+   "url": "https://www.google.com.hk/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1f1a6c722be3",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "call:entries": 2,
+    "get:activation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 37
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+     ],
+     "t": 134
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 182
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+      "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+     ],
+     "t": 235
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.google.com.hk/",
+     "entryIsCurrent": true,
+     "from": "https://www.google.com.hk/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "29d1e029-0996-4ee7-93a1-a561d8990cff",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.google.com.hk/",
+    "urlHash": "1f1a6c722be3"
+   },
+   "prev": {
+    "counts": {
+     "call:entries": 2,
+     "currententrychange:replace": 2,
+     "get:activation": 1,
+     "history:replaceState": 2,
+     "navigate:replace": 2,
+     "navigatesuccess": 2,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 43
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 87,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 87,
+      "url": "https://www.google.com.hk/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.google.com.hk/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 88
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 96
+     },
+     {
+      "k": "call",
+      "len": 2,
+      "m": "entries",
+      "s": [
+       "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+       "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+       "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+      ],
+      "t": 96
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 116,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 116,
+      "url": "https://www.google.com.hk/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.google.com.hk/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 116
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 116
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 188
+     },
+     {
+      "k": "call",
+      "len": 2,
+      "m": "entries",
+      "s": [
+       "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+       "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+       "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+       "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+      ],
+      "t": 278
+     }
+    ],
+    "url": "https://www.google.com.hk/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793561616570,
+   "url": "https://www.google.com.hk/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-KH2Mk9mw-b2T5dTiz9eqDw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. C"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__Secure-ENID\u201d has been rejected because it is in a cross-site context and its \u201cSameSite\u201d is \u201cLax\u201d or \u201cStrict\u201d."
+    }
+   ],
+   "urlHash": "1f1a6c722be3",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:push": 1,
+    "get:activation": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 37
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+     ],
+     "t": 134
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 182
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+      "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+     ],
+     "t": 235
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2803,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2804
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2805,
+     "url": "https://www.google.com.hk/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2806
+    },
+    {
+     "k": "hashchange",
+     "t": 2806,
+     "url": "https://www.google.com.hk/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.google.com.hk/",
+     "entryIsCurrent": false,
+     "from": "https://www.google.com.hk/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "253872df-0439-4e67-99eb-8d45fd9eb852",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.google.com.hk/",
+    "urlHash": "4d2c2cd811ed"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793561616570,
+   "url": "https://www.google.com.hk/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4d2c2cd811ed",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "TEXTAREA#ti6dpd",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:activation": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 37
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.$Ic.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "aJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>"
+     ],
+     "t": 134
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 182
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "qJc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "_.zcc.nv@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=<token>",
+      "Jdc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>",
+      "_.ydc@https://www.google.com.hk/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.CV65aSC5PLs.L.F4.O/am=<token>"
+     ],
+     "t": 235
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2803,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2804
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2805,
+     "url": "https://www.google.com.hk/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2806
+    },
+    {
+     "k": "hashchange",
+     "t": 2806,
+     "url": "https://www.google.com.hk/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5365,
+     "url": "https://www.google.com.hk/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.google.com.hk/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5366
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5366
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5366,
+     "url": "https://www.google.com.hk/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5368,
+     "url": "https://www.google.com.hk/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.google.com.hk/",
+     "entryIsCurrent": true,
+     "from": "https://www.google.com.hk/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "29d1e029-0996-4ee7-93a1-a561d8990cff",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.google.com.hk/",
+    "urlHash": "1f1a6c722be3"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 164,
+   "timeOrigin": 1793561616570,
+   "url": "https://www.google.com.hk/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "1f1a6c722be3",
+   "titleHash": "2b681c0a24ba"
+  }
+ ],
+ "plan": {
+  "link": "https://www.google.com.hk/setprefs",
+  "link2": "https://www.google.com.hk/setprefs",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#L2AGLb",
+ "elapsed": 28.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

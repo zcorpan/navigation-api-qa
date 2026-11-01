@@ -1,0 +1,1328 @@
+{
+ "id": "4132d04124",
+ "page": "https://www.globo.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "error": 2,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 2,
+    "rejection": 2
+   },
+   "docH": 11990,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 148
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 148
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 286
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 288
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 289
+    },
+    {
+     "e": "Script error.",
+     "f": "https://static.criteo.net/js/ld/publishertag.ids.js",
+     "k": "error",
+     "l": 0,
+     "t": 425
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/:70:45",
+      "_installNavigationListener@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:15849",
+      "ge</<@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:2188",
+      "_initialize@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:14051"
+     ],
+     "t": 479
+    },
+    {
+     "e": "TypeError: can't access property \"saveData\", e is undefined",
+     "f": "https://www.globo.com/",
+     "k": "error",
+     "l": 439,
+     "t": 642
+    },
+    {
+     "e": "[object Object]",
+     "k": "rejection",
+     "t": 11229
+    },
+    {
+     "e": "[object Object]",
+     "k": "rejection",
+     "t": 11229
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.globo.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "1304b5b8-6a2b-4602-bbdf-b02a1d714f83",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.globo.com/",
+    "urlHash": "4132d0412437"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "interactive",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13526,
+   "timeOrigin": 1793555432870,
+   "url": "https://www.globo.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either t"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"appendChild\", this.document.body is null"
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR - (ox_esp) Call to OX failedSyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793555434582_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793555434582_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793555434583_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793555434583_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"saveData\", e is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://ib.adnxs.com/getuidj (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 400."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Erro ao buscar signo no GHint: TypeError: null has no properties"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: Object { msg, timeout, url, status, type }"
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: Object { msg, timeout, url, status, type }"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c__mguid_\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "4132d0412437",
+   "titleHash": "cd4053a3f49b"
+  },
+  {
+   "step": "link",
+   "href": "https://www.globo.com/todos-os-sites/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6229,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 25
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 25
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 34
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 36
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 37
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "_installNavigationListener@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:15849",
+      "ge</<@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:2188",
+      "_initialize@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:14051"
+     ],
+     "t": 84
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 5666
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.globo.com/todos-os-sites/",
+     "entryIsCurrent": true,
+     "from": "https://www.globo.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "709e012b-356d-4854-ac8d-24780472381a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.globo.com/todos-os-sites/",
+    "urlHash": "3352ceb123bc"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "https://www.globo.com/login-callback.ghtml"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5543,
+   "timeOrigin": 1793555490039,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "3352ceb123bc",
+   "titleHash": "751bf0d8d17f"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "error": 1,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 11970,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "e": "TypeError: can't access property \"saveData\", e is undefined",
+     "f": "https://www.globo.com/",
+     "k": "error",
+     "l": 439,
+     "t": 19
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 119
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 121
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 122
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 139
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 139
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/:70:45",
+      "_installNavigationListener@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:15849",
+      "ge</<@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:2188",
+      "_initialize@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:14051"
+     ],
+     "t": 179
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1425
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.globo.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.globo.com/todos-os-sites/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "1304b5b8-6a2b-4602-bbdf-b02a1d714f83",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.globo.com/",
+    "urlHash": "4132d0412437"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 11170,
+   "textLen": 13077,
+   "timeOrigin": 1793555498697,
+   "url": "https://www.globo.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"saveData\", e is undefined"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Erro ao buscar signo no GHint: TypeError: null has no properties"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "4132d0412437",
+   "titleHash": "cd4053a3f49b"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6229,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 53
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 55
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 57
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 100
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 100
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "_installNavigationListener@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:15849",
+      "ge</<@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:2188",
+      "_initialize@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:14051"
+     ],
+     "t": 153
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 270
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.globo.com/todos-os-sites/",
+     "entryIsCurrent": true,
+     "from": "https://www.globo.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "709e012b-356d-4854-ac8d-24780472381a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.globo.com/todos-os-sites/",
+    "urlHash": "3352ceb123bc"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "https://www.globo.com/login-callback.ghtml"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5543,
+   "timeOrigin": 1793555502681,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "3352ceb123bc",
+   "titleHash": "751bf0d8d17f"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "get:currentEntry": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 6229,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 98
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 99
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 101
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 139
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 139
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "_installNavigationListener@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:15849",
+      "ge</<@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:2188",
+      "_initialize@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:14051"
+     ],
+     "t": 181
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 8145
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.globo.com/todos-os-sites/",
+     "entryIsCurrent": true,
+     "from": "https://www.globo.com/todos-os-sites/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "709e012b-356d-4854-ac8d-24780472381a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.globo.com/todos-os-sites/",
+    "urlHash": "3352ceb123bc"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 3
+     }
+    ],
+    "url": "https://www.globo.com/login-callback.ghtml"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5915,
+   "timeOrigin": 1793555505523,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.app/v1.0/state\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "3352ceb123bc",
+   "titleHash": "751bf0d8d17f"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6229,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 98
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 99
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 101
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 139
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 139
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "_installNavigationListener@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:15849",
+      "ge</<@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:2188",
+      "_initialize@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:14051"
+     ],
+     "t": 181
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 8145
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10701,
+     "url": "https://www.globo.com/todos-os-sites/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.globo.com/todos-os-sites/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 10701
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10701,
+     "url": "https://www.globo.com/todos-os-sites/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10704
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10704
+    },
+    {
+     "k": "hashchange",
+     "t": 10704,
+     "url": "https://www.globo.com/todos-os-sites/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.globo.com/todos-os-sites/",
+     "entryIsCurrent": false,
+     "from": "https://www.globo.com/todos-os-sites/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "7e6610b5-6267-4c7f-9fd5-0190540680b4",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.globo.com/todos-os-sites/",
+    "urlHash": "9971291ec1fd"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5915,
+   "timeOrigin": 1793555505523,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9971291ec1fd",
+   "titleHash": "751bf0d8d17f"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6229,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 98
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 99
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://www.globo.com/todos-os-sites/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 101
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 139
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245"
+     ],
+     "t": 139
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "N.addEventListener@https://www.globo.com/todos-os-sites/:70:45",
+      "_installNavigationListener@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:15849",
+      "ge</<@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:2188",
+      "_initialize@https://pub.dv.tech/dvtag/27566431/DV1036776/pub.js:2:14051"
+     ],
+     "t": 181
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 8145
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10701,
+     "url": "https://www.globo.com/todos-os-sites/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.globo.com/todos-os-sites/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 10701
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10701,
+     "url": "https://www.globo.com/todos-os-sites/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10704
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10704
+    },
+    {
+     "k": "hashchange",
+     "t": 10704,
+     "url": "https://www.globo.com/todos-os-sites/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 13268,
+     "url": "https://www.globo.com/todos-os-sites/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.globo.com/todos-os-sites/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 13269
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 13269
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13269
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 13269,
+     "url": "https://www.globo.com/todos-os-sites/"
+    },
+    {
+     "k": "hashchange",
+     "t": 13273,
+     "url": "https://www.globo.com/todos-os-sites/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.globo.com/todos-os-sites/",
+     "entryIsCurrent": true,
+     "from": "https://www.globo.com/todos-os-sites/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "709e012b-356d-4854-ac8d-24780472381a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.globo.com/todos-os-sites/",
+    "urlHash": "3352ceb123bc"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5915,
+   "timeOrigin": 1793555505523,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3352ceb123bc",
+   "titleHash": "751bf0d8d17f"
+  }
+ ],
+ "plan": {
+  "link": "https://www.globo.com/todos-os-sites/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 89.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

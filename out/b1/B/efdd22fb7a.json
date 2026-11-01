@@ -1,0 +1,700 @@
+{
+ "id": "efdd22fb7a",
+ "page": "https://kepco.jp/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "error": 2,
+    "pageshow": 1
+   },
+   "docH": 2368,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "N[m]@https://kepco.jp/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 1533
+    },
+    {
+     "e": "ReferenceError: date is not defined",
+     "f": "https://kepco.jp/assets/js/common.js",
+     "k": "error",
+     "l": 99,
+     "t": 2206
+    },
+    {
+     "e": "TypeError: $el.matchHeight is not a function",
+     "f": "https://kepco.jp/js/common/jquery.matchHeight-min.js",
+     "k": "error",
+     "l": 34,
+     "t": 3163
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3170
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://kepco.jp/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "e6601b39-02f0-4167-a8eb-8bb6b63fcba8",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://kepco.jp/",
+    "urlHash": "efdd22fb7acb"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 669,
+   "timeOrigin": 1793554743515,
+   "url": "https://kepco.jp/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: date is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: $el.matchHeight is not a function"
+    }
+   ],
+   "urlHash": "efdd22fb7acb",
+   "titleHash": "a3a38c9a1697"
+  },
+  {
+   "step": "link",
+   "href": "https://kepco.jp/gas/lp_gas/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 201,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "entryIsCurrent": true,
+     "from": "https://kepco.jp/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "ccf6a583-fead-4aef-b1cd-c27d9b7aeca8",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "urlHash": "5d595537e95f"
+   },
+   "prev": {
+    "counts": {
+     "call:entries": 1,
+     "error": 2,
+     "navigate:push": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "call",
+      "len": 1,
+      "m": "entries",
+      "s": [
+       "N[m]@https://kepco.jp/:52:79",
+       "it@https://www.googletagmanager.com/gtag/js",
+       "jt@https://www.googletagmanager.com/gtag/js",
+       "NG@https://www.googletagmanager.com/gtag/js"
+      ],
+      "t": 1533
+     },
+     {
+      "e": "ReferenceError: date is not defined",
+      "f": "https://kepco.jp/assets/js/common.js",
+      "k": "error",
+      "l": 99,
+      "t": 2206
+     },
+     {
+      "e": "TypeError: $el.matchHeight is not a function",
+      "f": "https://kepco.jp/js/common/jquery.matchHeight-min.js",
+      "k": "error",
+      "l": 34,
+      "t": 3163
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 3170
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 7294,
+      "url": "https://kepco.jp/gas/lp_gas/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://kepco.jp/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 202,
+   "timeOrigin": 1793554751227,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "5d595537e95f",
+   "titleHash": "1647b9db6c01"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "error": 2,
+    "pageshow": 1
+   },
+   "docH": 2280,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "N[m]@https://kepco.jp/:52:79",
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 129
+    },
+    {
+     "e": "ReferenceError: date is not defined",
+     "f": "https://kepco.jp/assets/js/common.js",
+     "k": "error",
+     "l": 99,
+     "t": 163
+    },
+    {
+     "e": "TypeError: $el.matchHeight is not a function",
+     "f": "https://kepco.jp/js/common/jquery.matchHeight-min.js",
+     "k": "error",
+     "l": 34,
+     "t": 300
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 303
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://kepco.jp/",
+     "entryIsCurrent": true,
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "e6601b39-02f0-4167-a8eb-8bb6b63fcba8",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://kepco.jp/",
+    "urlHash": "efdd22fb7acb"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 669,
+   "timeOrigin": 1793554753819,
+   "url": "https://kepco.jp/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: date is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: $el.matchHeight is not a function"
+    }
+   ],
+   "urlHash": "efdd22fb7acb",
+   "titleHash": "a3a38c9a1697"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 201,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2564,
+     "url": "https://kepco.jp/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5500
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "entryIsCurrent": true,
+     "from": "https://kepco.jp/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "ccf6a583-fead-4aef-b1cd-c27d9b7aeca8",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "urlHash": "5d595537e95f"
+   },
+   "prev": {
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 3
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2564,
+      "url": "https://kepco.jp/",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://kepco.jp/gas/lp_gas/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 202,
+   "timeOrigin": 1793554751227,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "5d595537e95f",
+   "titleHash": "1647b9db6c01"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 201,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "entryIsCurrent": true,
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "ccf6a583-fead-4aef-b1cd-c27d9b7aeca8",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "urlHash": "5d595537e95f"
+   },
+   "prev": {
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 3
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2564,
+      "url": "https://kepco.jp/",
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 5500
+     }
+    ],
+    "url": "https://kepco.jp/gas/lp_gas/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 202,
+   "timeOrigin": 1793554759315,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "5d595537e95f",
+   "titleHash": "1647b9db6c01"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 201,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2557,
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2557
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2557,
+     "url": "https://kepco.jp/gas/lp_gas/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2558
+    },
+    {
+     "k": "hashchange",
+     "t": 2558,
+     "url": "https://kepco.jp/gas/lp_gas/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "entryIsCurrent": false,
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "87690664-6c7c-415e-b28b-0dd78f31c7ed",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "urlHash": "3397d3b24910"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 202,
+   "timeOrigin": 1793554759315,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3397d3b24910",
+   "titleHash": "1647b9db6c01"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 201,
+   "histLen": 3,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2557,
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2557
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2557,
+     "url": "https://kepco.jp/gas/lp_gas/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2558
+    },
+    {
+     "k": "hashchange",
+     "t": 2558,
+     "url": "https://kepco.jp/gas/lp_gas/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5118,
+     "url": "https://kepco.jp/gas/lp_gas/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5118
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5118
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5118,
+     "url": "https://kepco.jp/gas/lp_gas/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5119,
+     "url": "https://kepco.jp/gas/lp_gas/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://kepco.jp/gas/lp_gas/",
+     "entryIsCurrent": true,
+     "from": "https://kepco.jp/gas/lp_gas/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "ccf6a583-fead-4aef-b1cd-c27d9b7aeca8",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://kepco.jp/gas/lp_gas/",
+    "urlHash": "5d595537e95f"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 202,
+   "timeOrigin": 1793554759315,
+   "url": "https://kepco.jp/gas/lp_gas/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "5d595537e95f",
+   "titleHash": "1647b9db6c01"
+  }
+ ],
+ "plan": {
+  "link": "https://kepco.jp/gas/lp_gas/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 23.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

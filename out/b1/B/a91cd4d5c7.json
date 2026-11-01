@@ -1,0 +1,694 @@
+{
+ "id": "a91cd4d5c7",
+ "page": "https://www.evite.com/invites/party/holidays/halloween/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 12194,
+   "histLen": 22,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 368,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 368,
+     "url": "https://www.evite.com/invites/party/holidays/halloween/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.evite.com/invites/party/holidays/halloween/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 368
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 369
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.evite.com/invites/party/holidays/halloween/",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 949
+    },
+    {
+     "e": "ReferenceError: $ is not defined",
+     "f": "https://www.evite.com/invites/party/holidays/halloween/ line 933 > injectedScript",
+     "k": "error",
+     "l": 1,
+     "t": 983
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1127
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.evite.com/invites/party/holidays/halloween/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "6f96166b-0f86-4ac6-8c1e-d7b129699317",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.evite.com/invites/party/holidays/halloween/",
+    "urlHash": "a91cd4d5c7b4"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5842,
+   "timeOrigin": 1793554364459,
+   "url": "https://www.evite.com/invites/party/holidays/halloween/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: $ is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_dc_gtm_UA-3914470-18\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "a91cd4d5c7b4",
+   "titleHash": "cf627518fbb2"
+  },
+  {
+   "step": "link",
+   "href": "https://www.evite.com/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 6920,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.evite.com/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 891
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1077
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.evite.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.evite.com/invites/party/holidays/halloween/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "b0830c1e-2864-463a-9c3e-84512908390d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.evite.com/",
+    "urlHash": "76d08cc6d345"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6546,
+   "timeOrigin": 1793554373382,
+   "url": "https://www.evite.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "76d08cc6d345",
+   "titleHash": "9e40a91d6444"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 12194,
+   "histLen": 23,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.evite.com/invites/party/holidays/halloween/",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 60
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 106
+    },
+    {
+     "e": "ReferenceError: $ is not defined",
+     "f": "https://www.evite.com/invites/party/holidays/halloween/ line 933 > injectedScript",
+     "k": "error",
+     "l": 1,
+     "t": 449
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.evite.com/invites/party/holidays/halloween/",
+     "entryIsCurrent": true,
+     "from": "https://www.evite.com/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "6f96166b-0f86-4ac6-8c1e-d7b129699317",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.evite.com/invites/party/holidays/halloween/",
+    "urlHash": "a91cd4d5c7b4"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5842,
+   "timeOrigin": 1793554377352,
+   "url": "https://www.evite.com/invites/party/holidays/halloween/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: $ is not defined"
+    }
+   ],
+   "urlHash": "a91cd4d5c7b4",
+   "titleHash": "cf627518fbb2"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 6920,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.evite.com/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 891
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1077
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 3673,
+     "url": "https://www.evite.com/invites/party/holidays/halloween/",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 6376
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://www.evite.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.evite.com/invites/party/holidays/halloween/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "b0830c1e-2864-463a-9c3e-84512908390d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.evite.com/",
+    "urlHash": "76d08cc6d345"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6560,
+   "timeOrigin": 1793554373382,
+   "url": "https://www.evite.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "76d08cc6d345",
+   "titleHash": "9e40a91d6444"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 6920,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.evite.com/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 706
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1299
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.evite.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.evite.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "b0830c1e-2864-463a-9c3e-84512908390d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.evite.com/",
+    "urlHash": "76d08cc6d345"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 5430
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6546,
+   "timeOrigin": 1793554382645,
+   "url": "https://www.evite.com/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "76d08cc6d345",
+   "titleHash": "9e40a91d6444"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6920,
+   "histLen": 24,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.evite.com/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 706
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1299
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3876,
+     "url": "https://www.evite.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.evite.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3877
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3877,
+     "url": "https://www.evite.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3878
+    },
+    {
+     "k": "hashchange",
+     "t": 3878,
+     "url": "https://www.evite.com/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.evite.com/",
+     "entryIsCurrent": false,
+     "from": "https://www.evite.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "2fc568f7-48c5-44d6-a0d9-34bd516d07af",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.evite.com/",
+    "urlHash": "b3b56dda7692"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6560,
+   "timeOrigin": 1793554382645,
+   "url": "https://www.evite.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "b3b56dda7692",
+   "titleHash": "9e40a91d6444"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6920,
+   "histLen": 24,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N.addEventListener@https://www.evite.com/:70:45",
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847"
+     ],
+     "t": 706
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1299
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3876,
+     "url": "https://www.evite.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.evite.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3877
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3877,
+     "url": "https://www.evite.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3878
+    },
+    {
+     "k": "hashchange",
+     "t": 3878,
+     "url": "https://www.evite.com/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6456,
+     "url": "https://www.evite.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.evite.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6456
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6457
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6457,
+     "url": "https://www.evite.com/"
+    },
+    {
+     "k": "hashchange",
+     "t": 6457,
+     "url": "https://www.evite.com/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.evite.com/",
+     "entryIsCurrent": true,
+     "from": "https://www.evite.com/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "b0830c1e-2864-463a-9c3e-84512908390d",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.evite.com/",
+    "urlHash": "76d08cc6d345"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6560,
+   "timeOrigin": 1793554382645,
+   "url": "https://www.evite.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "76d08cc6d345",
+   "titleHash": "9e40a91d6444"
+  }
+ ],
+ "plan": {
+  "link": "https://www.evite.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 27.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -1,0 +1,226 @@
+{
+ "id": "eb621ae069",
+ "page": "https://app.emby.media/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 387
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793555621670,
+   "url": "https://app.emby.media/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "eb621ae069bf",
+   "titleHash": "2cbe45baddc2"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 237
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 387
+     }
+    ],
+    "url": "https://app.emby.media/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793555626573,
+   "url": "https://app.emby.media/",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "eb621ae069bf",
+   "titleHash": "2cbe45baddc2"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 237
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2818,
+     "url": "https://app.emby.media/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2818,
+     "url": "https://app.emby.media/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793555626573,
+   "url": "https://app.emby.media/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9bdeb272da51",
+   "titleHash": "2cbe45baddc2"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 237
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2818,
+     "url": "https://app.emby.media/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2818,
+     "url": "https://app.emby.media/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5372,
+     "url": "https://app.emby.media/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5372,
+     "url": "https://app.emby.media/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793555626573,
+   "url": "https://app.emby.media/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "eb621ae069bf",
+   "titleHash": "2cbe45baddc2"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 13.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

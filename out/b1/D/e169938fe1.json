@@ -1,0 +1,598 @@
+{
+ "id": "e169938fe1",
+ "page": "https://www.correio24horas.com.<token>",
+ "steps": [
+  {
+   "step": "load",
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 25,
+   "url": "https://www.correio24horas.com.<token>",
+   "log": [],
+   "docH": 7621,
+   "marker": null,
+   "timeOrigin": 1793563166167,
+   "scrollX": 0,
+   "counts": {},
+   "prev": null,
+   "textLen": 6984,
+   "nav": {
+    "url": "https://www.correio24horas.com.<token>",
+    "canGoBack": false,
+    "transition": null,
+    "len": 1,
+    "idx": 0,
+    "key": "c9583815-d94c-4cf0-93c5-c93b88a655c4",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.correio24horas.com.<token>",
+     "from": null,
+     "type": "replace",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e169938fe195"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e169938fe195",
+   "titleHash": "48686e7cd161"
+  },
+  {
+   "step": "link",
+   "href": "https://www.correio24horas.com.br/",
+   "click": "js",
+   "settle": 7.5,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 26,
+   "url": "https://www.correio24horas.com.br/",
+   "log": [],
+   "docH": 12394,
+   "marker": null,
+   "timeOrigin": 1793563176802,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.correio24horas.com.<token>",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.correio24horas.com.br/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 510,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:push": 1
+    }
+   },
+   "textLen": 8006,
+   "nav": {
+    "url": "https://www.correio24horas.com.br/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "d1a92916-e3f4-4e79-a748-38e4c3996602",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "from": "https://www.correio24horas.com.<token>",
+     "type": "push",
+     "entryIsCurrent": true
+    },
+    "urlHash": "6f4fc944fc5a"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "6f4fc944fc5a",
+   "titleHash": "4d1be8c0e8c3"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 26,
+   "url": "https://www.correio24horas.com.<token>",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": "A",
+     "url": "https://www.correio24horas.com.br/",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 510,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 8321,
+     "persisted": true
+    }
+   ],
+   "docH": 7621,
+   "marker": "m0",
+   "timeOrigin": 1793563166167,
+   "scrollX": 0,
+   "counts": {
+    "navigate:push": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.correio24horas.com.br/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.correio24horas.com.<token>",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 292,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1
+    }
+   },
+   "textLen": 7487,
+   "nav": {
+    "url": "https://www.correio24horas.com.<token>",
+    "canGoBack": false,
+    "transition": null,
+    "len": 2,
+    "idx": 0,
+    "key": "c9583815-d94c-4cf0-93c5-c93b88a655c4",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.correio24horas.com.<token>",
+     "from": "https://www.correio24horas.com.br/",
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e169938fe195"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e169938fe195",
+   "titleHash": "48686e7cd161"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 26,
+   "url": "https://www.correio24horas.com.br/",
+   "log": [
+    {
+     "hashChange": false,
+     "cancelable": false,
+     "canIntercept": false,
+     "src": null,
+     "url": "https://www.correio24horas.com.<token>",
+     "same": false,
+     "k": "navigate",
+     "download": null,
+     "t": 292,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "t": 3385,
+     "persisted": true
+    }
+   ],
+   "docH": 12394,
+   "marker": "m1",
+   "timeOrigin": 1793563176802,
+   "scrollX": 0,
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.correio24horas.com.<token>",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": true,
+      "canIntercept": true,
+      "src": "A",
+      "url": "https://www.correio24horas.com.br/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 510,
+      "m": "push",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 8321,
+      "persisted": true
+     },
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.correio24horas.com.br/",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 11231,
+      "m": "traverse",
+      "form": false,
+      "userInitiated": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1,
+     "navigate:push": 1
+    }
+   },
+   "textLen": 8006,
+   "nav": {
+    "url": "https://www.correio24horas.com.br/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "d1a92916-e3f4-4e79-a748-38e4c3996602",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "from": null,
+     "type": "traverse",
+     "entryIsCurrent": true
+    },
+    "urlHash": "6f4fc944fc5a"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "6f4fc944fc5a",
+   "titleHash": "4d1be8c0e8c3"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 26,
+   "url": "https://www.correio24horas.com.br/",
+   "log": [],
+   "docH": 12410,
+   "marker": null,
+   "timeOrigin": 1793563190348,
+   "scrollX": 0,
+   "counts": {},
+   "prev": {
+    "url": "https://www.correio24horas.com.br/",
+    "log": [
+     {
+      "hashChange": false,
+      "cancelable": false,
+      "canIntercept": false,
+      "src": null,
+      "url": "https://www.correio24horas.com.<token>",
+      "same": false,
+      "k": "navigate",
+      "download": null,
+      "t": 292,
+      "m": "traverse",
+      "form": false,
+      "prevented": false,
+      "userInitiated": false
+     },
+     {
+      "k": "pageshow",
+      "t": 3385,
+      "persisted": true
+     }
+    ],
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    }
+   },
+   "textLen": 8061,
+   "nav": {
+    "url": "https://www.correio24horas.com.br/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 2,
+    "idx": 1,
+    "key": "d1a92916-e3f4-4e79-a748-38e4c3996602",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "from": "https://www.correio24horas.com.br/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "6f4fc944fc5a"
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "6f4fc944fc5a",
+   "titleHash": "4d1be8c0e8c3"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.7,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 27,
+   "url": "https://www.correio24horas.com.br/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.correio24horas.com.br/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 195,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 196,
+     "m": "push",
+     "from": "https://www.correio24horas.com.br/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 196
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 196
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.correio24horas.com.br/",
+     "t": 197
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.correio24horas.com.br/",
+     "t": 197
+    }
+   ],
+   "docH": 12410,
+   "marker": "m4",
+   "timeOrigin": 1793563190348,
+   "scrollX": 0,
+   "counts": {
+    "hashchange": 1,
+    "currententrychange:push": 1,
+    "get:currentEntry": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1
+   },
+   "prev": null,
+   "textLen": 8061,
+   "nav": {
+    "url": "https://www.correio24horas.com.br/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 2,
+    "key": "2b3234da-a203-46ba-b49e-537478053623",
+    "sameDoc": true,
+    "canGoForward": false,
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "from": "https://www.correio24horas.com.br/",
+     "type": "reload",
+     "entryIsCurrent": false
+    },
+    "urlHash": "b5ef909ce4cf"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "b5ef909ce4cf",
+   "titleHash": "4d1be8c0e8c3"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "readyState": "complete",
+   "histState": "null",
+   "scrollY": 0,
+   "active": "BODY",
+   "histLen": 27,
+   "url": "https://www.correio24horas.com.br/",
+   "log": [
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.correio24horas.com.br/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 195,
+     "m": "push",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 196,
+     "m": "push",
+     "from": "https://www.correio24horas.com.br/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 196
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 196
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.correio24horas.com.br/",
+     "t": 197
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.correio24horas.com.br/",
+     "t": 197
+    },
+    {
+     "hashChange": true,
+     "cancelable": true,
+     "canIntercept": true,
+     "src": null,
+     "url": "https://www.correio24horas.com.br/",
+     "same": true,
+     "k": "navigate",
+     "download": null,
+     "t": 3262,
+     "m": "traverse",
+     "form": false,
+     "info": null,
+     "userInitiated": false,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "t": 3263,
+     "m": "traverse",
+     "from": "https://www.correio24horas.com.br/"
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3264
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3264
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.correio24horas.com.br/",
+     "t": 3264
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.correio24horas.com.br/",
+     "t": 3276
+    }
+   ],
+   "docH": 12410,
+   "marker": "m5",
+   "timeOrigin": 1793563190348,
+   "scrollX": 0,
+   "counts": {
+    "get:currentEntry": 2,
+    "navigate:push": 1,
+    "currententrychange:traverse": 1,
+    "navigatesuccess": 2,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1
+   },
+   "prev": null,
+   "textLen": 8061,
+   "nav": {
+    "url": "https://www.correio24horas.com.br/",
+    "canGoBack": true,
+    "transition": null,
+    "len": 3,
+    "idx": 1,
+    "key": "d1a92916-e3f4-4e79-a748-38e4c3996602",
+    "sameDoc": true,
+    "canGoForward": true,
+    "activation": {
+     "entry": "https://www.correio24horas.com.br/",
+     "from": "https://www.correio24horas.com.br/",
+     "type": "reload",
+     "entryIsCurrent": true
+    },
+    "urlHash": "6f4fc944fc5a"
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "6f4fc944fc5a",
+   "titleHash": "4d1be8c0e8c3"
+  }
+ ],
+ "plan": {
+  "link": "https://www.correio24horas.com.br/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 34.4,
+ "browser": "Safari TP 27.0",
+ "setup": "D"
+}

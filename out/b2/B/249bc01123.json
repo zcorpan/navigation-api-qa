@@ -1,0 +1,863 @@
+{
+ "id": "249bc01123",
+ "page": "https://www.dior.com/zh_hk",
+ "steps": [
+  {
+   "step": "load",
+   "active": "DIV",
+   "counts": {
+    "currententrychange:replace": 2,
+    "error": 1,
+    "history:replaceState": 2,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 1450,
+   "histLen": 4,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 246,
+     "url": "/zh_hk"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 246,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 247
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 247
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 481,
+     "url": "/zh_hk"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 481,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 481
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 481
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 793
+    },
+    {
+     "e": "TypeError: ttq.grantConsent is not a function",
+     "f": "https://www.dior.com/zh_hk line 1138 > injectedScript",
+     "k": "error",
+     "l": 1,
+     "t": 3671
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:275:204"
+     ],
+     "t": 3767
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:275:204"
+     ],
+     "t": 3767
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.dior.com/zh_hk",
+     "entryIsCurrent": true,
+     "from": "https://www.dior.com/zh_hk",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "f2ef22c5-21aa-4d1b-9fbd-470e7f8d5613",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dior.com/zh_hk",
+    "urlHash": "249bc01123c9"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -2
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 350,
+   "timeOrigin": 1793562650788,
+   "url": "https://www.dior.com/zh_hk",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Warning: fragment with name applePayPaymentMethodFull already exists.\ngraphql-tag enforces all fragment names across your application to be unique; read more about\nthis in the docs: http://dev.apollodata.com/core/fragments.html"
+    },
+    {
+     "k": "console-warn",
+     "e": "Warning: fragment with name paymentMethodsFull already exists.\ngraphql-tag enforces all fragment names across your application to be unique; read more about\nthis in the docs: http://dev.apollodata.com/core/fragments.html"
+    },
+    {
+     "k": "console-warn",
+     "e": "Warning: fragment with name cartPaypalSession already exists.\ngraphql-tag enforces all fragment names across your application to be unique; read more about\nthis in the docs: http://dev.apollodata.com/core/fragments.html"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: ttq.grantConsent is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 293478474415334."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_tt_enable_cookie\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "249bc01123c9",
+   "titleHash": "064c47a4ead8"
+  },
+  {
+   "step": "link",
+   "href": null,
+   "skipped": true
+  },
+  {
+   "step": "link2",
+   "skipped": true
+  },
+  {
+   "step": "back",
+   "skipped": true
+  },
+  {
+   "step": "back3",
+   "skipped": true
+  },
+  {
+   "step": "forward",
+   "skipped": true
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 1450,
+   "histLen": 4,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 305,
+     "url": "/zh_hk"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 305,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 305
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 305
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 633,
+     "url": "/zh_hk"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 633,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 633
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 633
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:275:204"
+     ],
+     "t": 874
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:275:204"
+     ],
+     "t": 874
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1498
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.dior.com/zh_hk",
+     "entryIsCurrent": true,
+     "from": "https://www.dior.com/zh_hk",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "f2ef22c5-21aa-4d1b-9fbd-470e7f8d5613",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dior.com/zh_hk",
+    "urlHash": "249bc01123c9"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 350,
+   "timeOrigin": 1793562657146,
+   "url": "https://www.dior.com/zh_hk",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Warning: fragment with name applePayPaymentMethodFull already exists.\ngraphql-tag enforces all fragment names across your application to be unique; read more about\nthis in the docs: http://dev.apollodata.com/core/fragments.html"
+    },
+    {
+     "k": "console-warn",
+     "e": "Warning: fragment with name paymentMethodsFull already exists.\ngraphql-tag enforces all fragment names across your application to be unique; read more about\nthis in the docs: http://dev.apollodata.com/core/fragments.html"
+    },
+    {
+     "k": "console-warn",
+     "e": "Warning: fragment with name cartPaypalSession already exists.\ngraphql-tag enforces all fragment names across your application to be unique; read more about\nthis in the docs: http://dev.apollodata.com/core/fragments.html"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 293478474415334."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Duplicate Pixel ID: 1561424250832075."
+    }
+   ],
+   "urlHash": "249bc01123c9",
+   "titleHash": "064c47a4ead8"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "hashchange": 1,
+    "history:replaceState": 3,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigateerror": 1,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 1450,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 305,
+     "url": "/zh_hk"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 305,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 305
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 305
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 633,
+     "url": "/zh_hk"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 633,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 633
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 633
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:275:204"
+     ],
+     "t": 874
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:275:204"
+     ],
+     "t": 874
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1498
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4099,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4099
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4099,
+     "url": "https://www.dior.com/zh_hk"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 4099,
+     "url": "/zh_hk#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 4099
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4099,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 4100
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4100
+    },
+    {
+     "k": "hashchange",
+     "t": 4102,
+     "url": "https://www.dior.com/zh_hk"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://www.dior.com/zh_hk",
+     "entryIsCurrent": false,
+     "from": "https://www.dior.com/zh_hk",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "30c97046-d4cb-45fa-b7a6-681eee58ace8",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dior.com/zh_hk",
+    "urlHash": "e92a5d99a084"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 350,
+   "timeOrigin": 1793562657146,
+   "url": "https://www.dior.com/zh_hk",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e92a5d99a084",
+   "titleHash": "064c47a4ead8"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "DIV",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 3,
+    "listen:currententrychange": 1,
+    "listen:navigate": 1,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigate:traverse": 1,
+    "navigateerror": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 1450,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 305,
+     "url": "/zh_hk"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 305,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 305
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 305
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 633,
+     "url": "/zh_hk"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 633,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 633
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 633
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "Rp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:530:421",
+      "Yp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:532:212",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:275:204"
+     ],
+     "t": 874
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "Up@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:531:91",
+      "Yp@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:532:268",
+      "Hg/c<@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:376:306",
+      "c@https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js:275:204"
+     ],
+     "t": 874
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1498
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4099,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4099
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4099,
+     "url": "https://www.dior.com/zh_hk"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 4099,
+     "url": "/zh_hk#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 4099
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4099,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 4100
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4100
+    },
+    {
+     "k": "hashchange",
+     "t": 4102,
+     "url": "https://www.dior.com/zh_hk"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6699,
+     "url": "https://www.dior.com/zh_hk",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.dior.com/zh_hk",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6699
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6699
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6699,
+     "url": "https://www.dior.com/zh_hk"
+    },
+    {
+     "k": "hashchange",
+     "t": 6699,
+     "url": "https://www.dior.com/zh_hk"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://www.dior.com/zh_hk",
+     "entryIsCurrent": true,
+     "from": "https://www.dior.com/zh_hk",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "f2ef22c5-21aa-4d1b-9fbd-470e7f8d5613",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.dior.com/zh_hk",
+    "urlHash": "249bc01123c9"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 350,
+   "timeOrigin": 1793562657146,
+   "url": "https://www.dior.com/zh_hk",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "249bc01123c9",
+   "titleHash": "064c47a4ead8"
+  }
+ ],
+ "plan": {
+  "link": null,
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 16.5,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

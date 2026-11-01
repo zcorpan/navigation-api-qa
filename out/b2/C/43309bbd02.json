@@ -1,0 +1,712 @@
+{
+ "id": "43309bbd02",
+ "page": "https://www.ndtv.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "IFRAME",
+   "counts": {
+    "error": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9041,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 1290
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1584
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16167,
+   "timeOrigin": 1793562145631,
+   "url": "https://www.ndtv.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562146199_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562146199_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableLazyLoad is deprecated, use googletag.setConfig({lazyLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: Interstitial_1x1.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either t"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562152581_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793562152581_sharedId\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "43309bbd02d7",
+   "titleHash": "919e07b9adaa"
+  },
+  {
+   "step": "link",
+   "href": "https://www.ndtv.com/latest",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6120,
+   "histLen": 8,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 444
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562157354,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Blocked loading mixed active content \u201chttp://d5p.de17a.com/getuid/pubmatic;c"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-error",
+     "e": "[2026-11-01T19:42:37.376Z]  @firebase/firestore: Firestore (6.0.4): Could not reach Cloud Firestore backend. Connection failed 1 times. Most recent error: FirebaseError: [code=unavailable]: The operation could not be completed\nThis typically indicates that your device does not have a healthy Interne"
+    },
+    {
+     "k": "console-error",
+     "e": "[2026-11-01T19:42:37.377Z]  @firebase/firestore: Firestore (6.0.4): Could not reach Cloud Firestore backend. Connection failed 1 times. Most recent error: FirebaseError: [code=unavailable]: The operation could not be completed\nThis typically indicates that your device does not have a healthy Interne"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"data\", e.data() is undefined"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"experiments\", o is undefined"
+    }
+   ],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "link2",
+   "href": "https://www.ndtv.com/",
+   "click": "native",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "error": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9041,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": null,
+     "k": "error",
+     "l": 0,
+     "t": 827
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 833
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2509
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 16099,
+   "timeOrigin": 1793562161338,
+   "url": "https://www.ndtv.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Object(2)"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableLazyLoad is deprecated, use googletag.setConfig({lazyLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: Interstitial_1x1.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "virtual placement container selector should return only one element: xasaxscsaascascsdv"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: sticky-logo"
+    },
+    {
+     "k": "console-warn",
+     "e": "StickyLogo: parsed placement has no items"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "43309bbd02d7",
+   "titleHash": "919e07b9adaa"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 405
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -35
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562167181,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "back3",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 12170,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "Script error.",
+     "f": "https://gum.criteo.com/sync",
+     "k": "error",
+     "l": 0,
+     "t": 580
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1625
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 6477,
+   "textLen": 17886,
+   "timeOrigin": 1793562170196,
+   "url": "https://www.ndtv.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "virtual placement container selector should return only one element: xasaxscsaascascsdv"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: sticky-logo, Video Reel Above Feed"
+    },
+    {
+     "k": "console-warn",
+     "e": "StickyLogo: parsed placement has no items"
+    },
+    {
+     "k": "console-warn",
+     "e": "Reel placement with no content. Page https://www.ndtv.com/. Mode organic-video-reel-dvr."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.enableLazyLoad is deprecated, use googletag.setConfig({lazyLoad: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Div ID passed to googletag.display() does not match any defined slots: Interstitial_1x1.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: TRC.getRTUS is not a function"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Placements With no Content: Below Home Thumbnails New | Card 5"
+    },
+    {
+     "k": "console-warn",
+     "e": "StickyLogo: parsed placement has no items"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot rtbdemand7285 rendered inside of the viewport.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[2026-11-01T19:42:52.980Z]  @firebase/app-compat: \n      Warning: Firebase is already defined in the global scope. Please make sure\n      Firebase library is only loaded once.\n    "
+    }
+   ],
+   "urlHash": "43309bbd02d7",
+   "titleHash": "919e07b9adaa"
+  },
+  {
+   "step": "forward",
+   "settle": 2.7,
+   "active": "IFRAME",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 2
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 405
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 7276
+    }
+   ],
+   "marker": "m3",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562167181,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 359
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 2
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 405
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 7276
+     }
+    ],
+    "url": "https://www.ndtv.com/latest"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562177329,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "IFRAME",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 359
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2925,
+     "url": "https://www.ndtv.com/latest"
+    },
+    {
+     "k": "hashchange",
+     "t": 2935,
+     "url": "https://www.ndtv.com/latest"
+    }
+   ],
+   "marker": "m6",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562177329,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/ident"
+    }
+   ],
+   "urlHash": "321424e869a3",
+   "titleHash": "de7ea782d210"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "IFRAME",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6120,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 359
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2925,
+     "url": "https://www.ndtv.com/latest"
+    },
+    {
+     "k": "hashchange",
+     "t": 2935,
+     "url": "https://www.ndtv.com/latest"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5582,
+     "url": "https://www.ndtv.com/latest"
+    },
+    {
+     "k": "hashchange",
+     "t": 5611,
+     "url": "https://www.ndtv.com/latest"
+    }
+   ],
+   "marker": "m7",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 10830,
+   "timeOrigin": 1793562177329,
+   "url": "https://www.ndtv.com/latest",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3e9ae41e677f",
+   "titleHash": "de7ea782d210"
+  }
+ ],
+ "plan": {
+  "link": "https://www.ndtv.com/latest",
+  "link2": "https://www.ndtv.com/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": ".fc-cta-consent",
+ "elapsed": 40.1,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

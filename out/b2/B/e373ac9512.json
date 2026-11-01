@@ -1,0 +1,707 @@
+{
+ "id": "e373ac9512",
+ "page": "https://tsn.<token>.html",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 14295,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "_i@https://jsc.idealmedia.io/site/577443.js:352:4044",
+      "@https://jsc.idealmedia.io/site/577443.js:356:19442",
+      "@https://jsc.idealmedia.io/site/577443.js:356:20124",
+      "@https://jsc.idealmedia.io/site/577443.js:356:20129"
+     ],
+     "t": 237
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1198
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://tsn.<token>.html",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "3a6636c9-17de-4811-84b9-10f5c1a7c5d0",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tsn.<token>.html",
+    "urlHash": "e373ac9512ff"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 15740,
+   "timeOrigin": 1793562982147,
+   "url": "https://tsn.<token>.html",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "e373ac9512ff",
+   "titleHash": "ec4d7e4fcce5"
+  },
+  {
+   "step": "link",
+   "href": "https://tsn.ua/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 8502,
+   "histLen": 5,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 186
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://tsn.ua/",
+     "entryIsCurrent": true,
+     "from": "https://tsn.<token>.html",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "e6553a00-936e-442e-9aeb-a2960d8d1325",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tsn.ua/",
+    "urlHash": "baa8ffaf90d5"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11645,
+   "timeOrigin": 1793562988378,
+   "url": "https://tsn.ua/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"scrollTop\", e.document.body is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    }
+   ],
+   "urlHash": "baa8ffaf90d5",
+   "titleHash": "f3ca3a281959"
+  },
+  {
+   "step": "link2",
+   "href": "https://tsn.ua/",
+   "click": "native",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 8502,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 219
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://tsn.ua/",
+     "entryIsCurrent": true,
+     "from": "https://tsn.ua/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "c0ee33f3-282d-4ac6-827b-5809e63328c6",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tsn.ua/",
+    "urlHash": "66d91c5566b5"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11645,
+   "timeOrigin": 1793562991579,
+   "url": "https://tsn.ua/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    }
+   ],
+   "urlHash": "66d91c5566b5",
+   "titleHash": "f3ca3a281959"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 8502,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 160
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://tsn.ua/",
+     "entryIsCurrent": true,
+     "from": "https://tsn.ua/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "e6553a00-936e-442e-9aeb-a2960d8d1325",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tsn.ua/",
+    "urlHash": "baa8ffaf90d5"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11645,
+   "timeOrigin": 1793562994766,
+   "url": "https://tsn.ua/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    }
+   ],
+   "urlHash": "baa8ffaf90d5",
+   "titleHash": "f3ca3a281959"
+  },
+  {
+   "step": "back3",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "listen:navigate": 1,
+    "pageshow": 1
+   },
+   "docH": 14295,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "_i@https://jsc.idealmedia.io/site/577443.js:352:4044",
+      "@https://jsc.idealmedia.io/site/577443.js:356:19442",
+      "@https://jsc.idealmedia.io/site/577443.js:356:20124",
+      "@https://jsc.idealmedia.io/site/577443.js:356:20129"
+     ],
+     "t": 50
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 109
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://tsn.<token>.html",
+     "entryIsCurrent": true,
+     "from": "https://tsn.ua/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "3a6636c9-17de-4811-84b9-10f5c1a7c5d0",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tsn.<token>.html",
+    "urlHash": "e373ac9512ff"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 15740,
+   "timeOrigin": 1793562997524,
+   "url": "https://tsn.<token>.html",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    }
+   ],
+   "urlHash": "e373ac9512ff",
+   "titleHash": "ec4d7e4fcce5"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 8502,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 160
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2750,
+     "url": "https://tsn.<token>.html",
+     "userInitiated": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5468
+    }
+   ],
+   "marker": "m3",
+   "nav": {
+    "activation": {
+     "entry": "https://tsn.ua/",
+     "entryIsCurrent": true,
+     "from": "https://tsn.<token>.html",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "e6553a00-936e-442e-9aeb-a2960d8d1325",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tsn.ua/",
+    "urlHash": "baa8ffaf90d5"
+   },
+   "prev": {
+    "counts": {
+     "navigate:traverse": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 160
+     },
+     {
+      "canIntercept": false,
+      "cancelable": false,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": false,
+      "src": null,
+      "t": 2750,
+      "url": "https://tsn.<token>.html",
+      "userInitiated": false
+     }
+    ],
+    "url": "https://tsn.ua/"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11645,
+   "timeOrigin": 1793562994766,
+   "url": "https://tsn.ua/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    }
+   ],
+   "urlHash": "baa8ffaf90d5",
+   "titleHash": "f3ca3a281959"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "pageshow": 1
+   },
+   "docH": 8502,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 705
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://tsn.ua/",
+     "entryIsCurrent": true,
+     "from": "https://tsn.ua/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "e6553a00-936e-442e-9aeb-a2960d8d1325",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tsn.ua/",
+    "urlHash": "baa8ffaf90d5"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11645,
+   "timeOrigin": 1793563002901,
+   "url": "https://tsn.ua/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    }
+   ],
+   "urlHash": "baa8ffaf90d5",
+   "titleHash": "f3ca3a281959"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "hashchange": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 8502,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 705
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3332,
+     "url": "https://tsn.ua/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tsn.ua/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3332
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3332,
+     "url": "https://tsn.ua/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3339
+    },
+    {
+     "k": "hashchange",
+     "t": 3339,
+     "url": "https://tsn.ua/"
+    }
+   ],
+   "marker": "m6",
+   "nav": {
+    "activation": {
+     "entry": "https://tsn.ua/",
+     "entryIsCurrent": false,
+     "from": "https://tsn.ua/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "c99dea49-f7d1-40c8-9e8c-789f362790dc",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tsn.ua/",
+    "urlHash": "04a19539a087"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11645,
+   "timeOrigin": 1793563002901,
+   "url": "https://tsn.ua/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "04a19539a087",
+   "titleHash": "f3ca3a281959"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 8502,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 705
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3332,
+     "url": "https://tsn.ua/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tsn.ua/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3332
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3332,
+     "url": "https://tsn.ua/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3339
+    },
+    {
+     "k": "hashchange",
+     "t": 3339,
+     "url": "https://tsn.ua/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5921,
+     "url": "https://tsn.ua/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://tsn.ua/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5922
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5922
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5922,
+     "url": "https://tsn.ua/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5932,
+     "url": "https://tsn.ua/"
+    }
+   ],
+   "marker": "m7",
+   "nav": {
+    "activation": {
+     "entry": "https://tsn.ua/",
+     "entryIsCurrent": true,
+     "from": "https://tsn.ua/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "e6553a00-936e-442e-9aeb-a2960d8d1325",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://tsn.ua/",
+    "urlHash": "baa8ffaf90d5"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 11645,
+   "timeOrigin": 1793563002901,
+   "url": "https://tsn.ua/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "baa8ffaf90d5",
+   "titleHash": "f3ca3a281959"
+  }
+ ],
+ "plan": {
+  "link": "https://tsn.ua/",
+  "link2": "https://tsn.ua/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 29.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}
