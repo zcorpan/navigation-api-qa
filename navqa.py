@@ -372,6 +372,10 @@ def state(be, marker):
     return s
 
 
+STEPS = [('load', None), ('link', 'link'), ('link2', 'link'), ('back', None), ('back3', None), ('forward', None), ('reload', None),
+         ('fragment', 'fragment'), ('back2', None)]
+
+
 def visit(be, pid, url, plan, shotdir):
     rec = {'id': pid, 'page': url, 'steps': [], 'plan': {}}
     t0 = time.time()
@@ -383,9 +387,9 @@ def visit(be, pid, url, plan, shotdir):
             settle(be, min_wait=1.5)
     except Exception as e:
         rec['consentError'] = str(e)[:200]
-    steps = [('load', None), ('link', 'link'), ('back', None), ('forward', None), ('reload', None), ('fragment', 'fragment'), ('back2', None)]
+    steps = STEPS
     marker = None
-    needs = {'back': 'link', 'forward': 'back', 'reload': 'load', 'back2': 'fragment'}
+    needs = {'link2': 'link', 'back': 'link', 'back3': 'link2', 'forward': 'back', 'reload': 'load', 'back2': 'fragment'}
     done = {'load'}
     for i, (name, pick) in enumerate(steps):
         info = {'step': name}
@@ -418,7 +422,7 @@ def visit(be, pid, url, plan, shotdir):
                         info['click'] = be.click()
                     except Exception as e:
                         info['clickError'] = str(e)[:200]
-            elif name in ('back', 'back2'):
+            elif name in ('back', 'back2', 'back3'):
                 be.back()
             elif name == 'forward':
                 be.forward()

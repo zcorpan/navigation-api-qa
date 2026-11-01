@@ -1,0 +1,44 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>navigation.activation and entry keys across replaceState, pushState, reload, bfcache</title>
+<!--
+Next.js app-router.tsx (hasMissedTraversal) assumes the activation entry is fixed for the
+document's lifetime and that entry keys are stable across replaceState: a key mismatch between
+navigation.activation.entry and navigation.currentEntry means a traversal it didn't see.
+Steps: load, replaceState, pushState, reload, then navigate to page2 and come back (bfcache or not).
+-->
+<a id=away href="page2.html">away</a>
+<script>
+const rec = JSON.parse(sessionStorage.getItem('rec') || '[]');
+const snap = label => {
+  const a = navigation.activation;
+  rec.push({ label, activationType: a && a.navigationType, activationEntryUrl: a && a.entry && a.entry.url.replace(/^.*\//, ''),
+    activationFromUrl: a && a.from && a.from.url.replace(/^.*\//, ''),
+    sameKey: !!(a && a.entry && a.entry.key === navigation.currentEntry.key),
+    sameEntryObject: !!(a && a.entry === navigation.currentEntry), idx: navigation.currentEntry.index });
+  sessionStorage.setItem('rec', JSON.stringify(rec));
+};
+addEventListener('pageshow', e => {
+  const phase = sessionStorage.getItem('phase') || 'start';
+  if (phase === 'start') {
+    sessionStorage.removeItem('__result');
+    rec.length = 0;
+    snap('load');
+    history.replaceState({ __NA: true }, '', location.pathname + '?r');
+    snap('after replaceState');
+    history.pushState({ __NA: true }, '', location.pathname + '?p');
+    snap('after pushState');
+    history.back();
+    setTimeout(() => { snap('after back (same-document)'); sessionStorage.setItem('phase', 'reloaded'); location.reload(); }, 500);
+  } else if (phase === 'reloaded') {
+    snap('after reload');
+    sessionStorage.setItem('phase', 'away');
+  } else if (phase === 'away') {
+    snap('after returning, persisted=' + e.persisted);
+    sessionStorage.setItem('phase', 'done');
+    sessionStorage.setItem('__result', JSON.stringify(rec));
+    window.__result = rec;
+  }
+});
+window.__plan = ['wait 1500', 'click #away', 'wait 1000', 'back', 'wait 1500'];
+</script>

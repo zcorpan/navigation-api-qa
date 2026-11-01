@@ -19,9 +19,9 @@
     }
   };
   const err = e => (e && e.name ? e.name + ': ' + e.message : String(e)).slice(0, 300);
-  const stack = () => {
+  const stack = function __navqaStack() {
     try {
-      return (new Error().stack || '').split('\n').filter(s => s && !s.includes('__navqa')).slice(1, 5).map(s => s.trim().slice(0, 240));
+      return (new Error().stack || '').split('\n').filter(s => s && s.trim() !== 'Error' && !s.includes('__navqa')).slice(0, 4).map(s => s.trim().slice(0, 240));
     } catch (e) {
       return [];
     }
@@ -36,7 +36,7 @@
   }, true);
   for (const m of ['pushState', 'replaceState']) {
     const orig = History.prototype[m];
-    History.prototype[m] = function (...a) {
+    History.prototype[m] = function __navqaWrapH(...a) {
       push({ k: 'history', m, url: a[2] == null ? undefined : str(String(a[2]), 200) });
       return orig.apply(this, a);
     };
@@ -48,7 +48,7 @@
   for (const m of ['navigate', 'reload', 'traverseTo', 'back', 'forward', 'updateCurrentEntry', 'entries']) {
     const orig = N[m];
     if (typeof orig !== 'function') continue;
-    N[m] = function (...a) {
+    N[m] = function __navqaWrapN(...a) {
       const rec = { k: 'call', m, a: m === 'entries' ? undefined : str(a), s: stack() };
       push(rec);
       let r;
@@ -66,13 +66,13 @@
       return r;
     };
   }
-  N.addEventListener = function (type, fn, o) {
+  N.addEventListener = function __navqaWrapAEL(type, fn, o) {
     push({ k: 'listen', m: String(type), s: stack() });
     return AEL.call(this, type, fn, o);
   };
   for (const t of ['onnavigate', 'onnavigatesuccess', 'onnavigateerror', 'oncurrententrychange']) {
     const d = Object.getOwnPropertyDescriptor(N, t);
-    if (d && d.set) Object.defineProperty(N, t, { ...d, set(v) { push({ k: 'listen', m: t, s: stack() }); return d.set.call(this, v); } });
+    if (d && d.set) Object.defineProperty(N, t, { ...d, set: function __navqaWrapSet(v) { push({ k: 'listen', m: t, s: stack() }); return d.set.call(this, v); } });
   }
   for (const g of ['currentEntry', 'transition', 'activation', 'canGoBack', 'canGoForward']) {
     const d = Object.getOwnPropertyDescriptor(N, g);
@@ -83,7 +83,7 @@
     for (const m of ['intercept', 'scroll']) {
       const orig = NE[m];
       if (typeof orig !== 'function') continue;
-      NE[m] = function (o) {
+      NE[m] = function __navqaWrapNE(o) {
         const rec = { k: m, m: this.navigationType, url: this.destination && str(this.destination.url, 200), s: stack() };
         if (o && m === 'intercept') rec.opts = { handler: typeof o.handler, precommit: typeof o.precommitHandler, focusReset: o.focusReset, scroll: o.scroll };
         push(rec);

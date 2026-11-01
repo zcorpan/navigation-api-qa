@@ -2,7 +2,7 @@
 then A2, B and C on that chunk while A moves to the next one; D (Safari TP, one session at a time)
 works through chunks on its own queue.
 
-Usage: pipeline.py <batch.txt> <outdir> [chunk size]
+Usage: pipeline.py <batch.txt> <outdir> [chunk size] [follower setups, e.g. A2,B,C]
 """
 import os
 import queue
@@ -32,6 +32,8 @@ def run(setup, chunk, workers):
 
 
 WORKERS = {'A2': 2, 'B': 2, 'C': 2, 'D': 1}
+if len(sys.argv) > 4:
+    WORKERS = {k: v for k, v in WORKERS.items() if k in sys.argv[4].split(',')}
 queues = {s: queue.Queue() for s in WORKERS}
 
 

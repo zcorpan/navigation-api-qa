@@ -67,7 +67,8 @@ def features(rec):
         navs = [e for e in ev if e.get('k') == 'navigate']
         intercepts = [e for e in ev if e.get('k') == 'intercept']
         errs = sorted({norm_err(e.get('e', '')) for e in ev if e.get('k') in ('error', 'rejection')})
-        nav_errs = sorted({e['k'] + ' ' + norm_err(e.get('e', '')) for e in ev if e.get('k') in ('navigateerror', 'committed-reject', 'finished-reject')})
+        nav_errs = sorted({e['k'] + ' ' + (e.get('e') or '').split(':')[0] for e in ev if e.get('k') in ('navigateerror', 'committed-reject', 'finished-reject')})
+        err_names = sorted({(e.get('e') or '').split(':')[0][:40] for e in ev if e.get('k') in ('error', 'rejection')})
         for e in ev:
             if e.get('k') in API_KINDS:
                 api.add(e['k'] + ':' + str(e.get('m')))
@@ -84,6 +85,7 @@ def features(rec):
             'intercepted': len(intercepts),
             'errs': errs,
             'navErrs': nav_errs,
+            'errNames': err_names,
             'textLen': s.get('textLen') or 0,
             'titleHash': s.get('titleHash'),
             'click': s.get('click'),
@@ -123,7 +125,7 @@ def compare(pages):
         if not fa or not fa2:
             flags.append(out)
             continue
-        needs = {'back': 'link', 'forward': 'back', 'back2': 'fragment'}
+        needs = {'link2': 'link', 'back': 'link', 'back3': 'link2', 'forward': 'back', 'back2': 'fragment'}
         for step in fa:
             if step in needs and fa.get(needs[step], {}).get('skipped'):
                 continue
@@ -137,18 +139,26 @@ def compare(pages):
                 for m in METRICS:
                     if same(m, a.get(m), a2.get(m)) and not same(m, a.get(m), fx[step].get(m)):
                         out['diffs'].append({'setup': x, 'step': step, 'metric': m, 'A': a.get(m), x: fx[step].get(m)})
-                ea = set(a['errs']) | set(a2['errs'])
-                new = [e for e in fx[step]['errs'] if e not in ea]
-                if new:
-                    out['diffs'].append({'setup': x, 'step': step, 'metric': 'newErrors', x: new})
+                if x == 'B':
+                    # same engine with the API off is the reference for Firefox's error messages
+                    fc = (F.get('C') or {}).get(step) or {}
+                    new = [e for e in fx[step]['errs'] if e not in set(fc.get('errs') or [])]
+                    if new and not fc.get('skipped') and fc:
+                        out['diffs'].append({'setup': x, 'step': step, 'metric': 'newErrors', x: new, 'A_errNames': sorted(set(a['errNames']) | set(a2['errNames']))})
+                elif x == 'D':
+                    new = [e for e in fx[step]['errNames'] if e not in set(a['errNames']) | set(a2['errNames'])]
+                    if new:
+                        out['diffs'].append({'setup': x, 'step': step, 'metric': 'newErrors', x: new})
                 ne = [e for e in fx[step]['navErrs'] if e not in set(a['navErrs']) | set(a2['navErrs'])]
                 if ne:
                     out['diffs'].append({'setup': x, 'step': step, 'metric': 'navErrors', x: ne})
         # attribution for Firefox diffs: C agreeing with A means the API path made the difference
         cdiff = {(d['step'], d['metric']) for d in out['diffs'] if d['setup'] == 'C'}
+        fc = F.get('C') or {}
         for d in out['diffs']:
             if d['setup'] == 'B':
-                d['C_same_as_A'] = (d['step'], d['metric']) not in cdiff
+                cstep = fc.get(d['step'])
+                d['C_same_as_A'] = None if not cstep or cstep.get('skipped') else (d['step'], d['metric']) not in cdiff
         out['skippedSteps'] = {s: [k for k, v in f.items() if v.get('skipped')] for s, f in F.items() if f}
         flags.append(out)
     return flags
