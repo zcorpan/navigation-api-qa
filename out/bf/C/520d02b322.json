@@ -1,0 +1,538 @@
+{
+ "id": "520d02b322",
+ "page": "https://rozetka.com.ua/ua/smart/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "IFRAME",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2823,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 720,
+     "url": "/ua/smart/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 921
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2058,
+   "timeOrigin": 1793571301656,
+   "url": "https://rozetka.com.ua/ua/smart/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://rozetka.com.ua/data-16fef5d9-4043-431c-8d78-d191756f1061/metrics/ was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "console-error",
+     "e": "APP_ERROR: Script isn't loaded Object(4)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://common-api.rozetka.com.ua/collect/cwv. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "console-error",
+     "e": "TypeError: ServiceWorker script at https://rozetka.com.ua/sw.js for scope https://rozetka.com.ua/ encountered an error during installation."
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    },
+    {
+     "k": "pageerror",
+     "e": "The Notification permission may only be requested from inside a short running user-generated event handler."
+    }
+   ],
+   "urlHash": "520d02b32242",
+   "titleHash": "599311ec396a"
+  },
+  {
+   "step": "link",
+   "href": "https://rozetka.com.ua/",
+   "click": "actions",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 2823,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 720,
+     "url": "/ua/smart/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 921
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5504,
+     "url": "/ua/smart/"
+    },
+    {
+     "e": "HttpErrorResponse: Http failure response for https://common-api.rozetka.com.ua/v1/api/banners/main 0 undefined",
+     "k": "rejection",
+     "t": 5507
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2058,
+   "timeOrigin": 1793571301656,
+   "url": "https://rozetka.com.ua/ua/smart/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://common-api.rozetka.com.ua/collect/cwv. (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "console-error",
+     "e": "APP_ERROR: External request error Object(5)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://common-api.rozetka.com.ua/v1/api/banners/main (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "console-error",
+     "e": "APP_ERROR: External request error Object(5)"
+    },
+    {
+     "k": "console-error",
+     "e": "APP_ERROR: External request error Object(5)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://common-api.rozetka.com.ua/v1/api/pages/main (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://common-api.rozetka.com.ua/v1/api/banners/get-header-banners (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "pageerror",
+     "e": "uncaught exception: Object { __sentry_captured__, error, message, name, redirected, type, ok, url, statusText, status, ... }"
+    }
+   ],
+   "urlHash": "520d02b32242",
+   "titleHash": "599311ec396a"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 2823,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 720,
+     "url": "/ua/smart/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 921
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5504,
+     "url": "/ua/smart/"
+    },
+    {
+     "e": "HttpErrorResponse: Http failure response for https://common-api.rozetka.com.ua/v1/api/banners/main 0 undefined",
+     "k": "rejection",
+     "t": 5507
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2058,
+   "timeOrigin": 1793571301656,
+   "url": "https://rozetka.com.ua/ua/smart/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "520d02b32242",
+   "titleHash": "599311ec396a"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 2823,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 720,
+     "url": "/ua/smart/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 921
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5504,
+     "url": "/ua/smart/"
+    },
+    {
+     "e": "HttpErrorResponse: Http failure response for https://common-api.rozetka.com.ua/v1/api/banners/main 0 undefined",
+     "k": "rejection",
+     "t": 5507
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2058,
+   "timeOrigin": 1793571301656,
+   "url": "https://rozetka.com.ua/ua/smart/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "520d02b32242",
+   "titleHash": "599311ec396a"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 1,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/ua/smart/?__cf_chl_rt_tk=LC3hl0knKE9nthRyNlFd2oM7eF84BeLz5aAbizbFbBU-1793571315-<ip>-LRRY3VSUpEdeQfhctevwuc0c4ywHf6T7b_vE5SlEDzA"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 82,
+     "url": "/ua/smart/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 179
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 262,
+   "timeOrigin": 1793571315079.46,
+   "url": "https://rozetka.com.ua/ua/smart/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    }
+   ],
+   "urlHash": "520d02b32242",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/ua/smart/?__cf_chl_rt_tk=LC3hl0knKE9nthRyNlFd2oM7eF84BeLz5aAbizbFbBU-1793571315-<ip>-LRRY3VSUpEdeQfhctevwuc0c4ywHf6T7b_vE5SlEDzA"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 82,
+     "url": "/ua/smart/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 179
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2761,
+     "url": "https://rozetka.com.ua/ua/smart/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2761,
+     "url": "https://rozetka.com.ua/ua/smart/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 262,
+   "timeOrigin": 1793571315079.46,
+   "url": "https://rozetka.com.ua/ua/smart/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "fd1c61c24178",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 2,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/ua/smart/?__cf_chl_rt_tk=LC3hl0knKE9nthRyNlFd2oM7eF84BeLz5aAbizbFbBU-1793571315-<ip>-LRRY3VSUpEdeQfhctevwuc0c4ywHf6T7b_vE5SlEDzA"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 82,
+     "url": "/ua/smart/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 179
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2761,
+     "url": "https://rozetka.com.ua/ua/smart/"
+    },
+    {
+     "k": "hashchange",
+     "t": 2761,
+     "url": "https://rozetka.com.ua/ua/smart/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5336,
+     "url": "https://rozetka.com.ua/ua/smart/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5336,
+     "url": "https://rozetka.com.ua/ua/smart/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 262,
+   "timeOrigin": 1793571315079.46,
+   "url": "https://rozetka.com.ua/ua/smart/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "520d02b32242",
+   "titleHash": "5ffa9751f584"
+  }
+ ],
+ "plan": {
+  "link": "https://rozetka.com.ua/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 21.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

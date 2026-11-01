@@ -1,0 +1,26 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Scroll position restored after reload</title>
+<!--
+Scroll to 3000px, then reload (?how=script: location.reload(); otherwise the harness's reload
+command). After the reload, report scrollY at load and 1s later.
+-->
+<style>body { height: 10000px; }</style>
+<script>
+const q = new URLSearchParams(location.search);
+if (!sessionStorage.getItem('reloaded')) {
+  sessionStorage.removeItem('__result');
+  onload = () => setTimeout(() => {
+    scrollTo(0, 3000);
+    sessionStorage.setItem('reloaded', '1');
+    if (q.get('how') === 'script') setTimeout(() => location.reload(), 300);
+  }, 100);
+  window.__plan = q.get('how') === 'script' ? ['wait 2500'] : ['wait 800', 'reload', 'wait 1500'];
+} else {
+  sessionStorage.removeItem('reloaded');
+  onload = () => {
+    const atLoad = Math.round(scrollY);
+    setTimeout(() => sessionStorage.setItem('__result', JSON.stringify({ atLoad, after1s: Math.round(scrollY), restoration: history.scrollRestoration })), 1000);
+  };
+}
+</script>

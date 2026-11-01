@@ -1,0 +1,487 @@
+{
+ "id": "3f1bad7142",
+ "page": "https://www.shazam.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 4734,
+   "histLen": 7,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 125,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 379
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3686,
+   "timeOrigin": 1793571052947,
+   "url": "https://www.shazam.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3f1bad71427c",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "link",
+   "href": "https://www.shazam.com/apps",
+   "click": "actions",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2969,
+   "histLen": 8,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 125,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 379
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4806,
+     "url": "/apps"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571052947,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "823c00666198",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4734,
+   "histLen": 8,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 125,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 379
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4806,
+     "url": "/apps"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7344,
+     "url": "https://www.shazam.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 7362,
+     "url": "/"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3734,
+   "timeOrigin": 1793571052947,
+   "url": "https://www.shazam.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3f1bad71427c",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 3,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 2969,
+   "histLen": 8,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 125,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 379
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4806,
+     "url": "/apps"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7344,
+     "url": "https://www.shazam.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 7362,
+     "url": "/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10009,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 10017,
+     "url": "/apps"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571052947,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "823c00666198",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2969,
+   "histLen": 8,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 104,
+     "url": "/apps"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 325
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "history:pushState": 1,
+     "history:replaceState": 3,
+     "no-navigation": 1,
+     "pageshow": 1,
+     "popstate": 2
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 125,
+      "url": "/"
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 379
+     },
+     {
+      "k": "history",
+      "m": "pushState",
+      "t": 4806,
+      "url": "/apps"
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 7344,
+      "url": "https://www.shazam.com/"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 7362,
+      "url": "/"
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 10009,
+      "url": "https://www.shazam.com/apps"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 10017,
+      "url": "/apps"
+     }
+    ],
+    "url": "https://www.shazam.com/apps"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571065609,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "823c00666198",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 2969,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 104,
+     "url": "/apps"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 325
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2888,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "k": "hashchange",
+     "t": 2888,
+     "url": "https://www.shazam.com/apps"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571065609,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "55d7066e4959",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 2969,
+   "histLen": 9,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 104,
+     "url": "/apps"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 325
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2888,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "k": "hashchange",
+     "t": 2888,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5472,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5480,
+     "url": "/apps"
+    },
+    {
+     "k": "hashchange",
+     "t": 5482,
+     "url": "https://www.shazam.com/apps"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571065609,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "823c00666198",
+   "titleHash": "c698c9db3cab"
+  }
+ ],
+ "plan": {
+  "link": "https://www.shazam.com/apps",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 20.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

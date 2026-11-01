@@ -1,0 +1,1838 @@
+{
+ "id": "eb7980b056",
+ "page": "https://pumpbear.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "call:updateCurrentEntry": 1,
+    "currententrychange": 1,
+    "listen:navigate": 3,
+    "pageshow": 1
+   },
+   "docH": 4547,
+   "histLen": 22,
+   "histState": "null",
+   "log": [
+    {
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "startNavigationListenerImpl@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1968",
+      "startNavigationListener@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776",
+      "run@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/run.@YvJu4V.js:2:926",
+      "@https://pumpbear.com/assets/app/actions/public/entry.@nxcbPi.ts:1:390"
+     ],
+     "t": 75
+    },
+    {
+     "from": "https://pumpbear.com/",
+     "k": "currententrychange",
+     "m": null,
+     "t": 75
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "startNavigationListenerImpl@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2108",
+      "startNavigationListener@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776",
+      "run@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/run.@YvJu4V.js:2:926",
+      "@https://pumpbear.com/assets/app/actions/public/entry.@nxcbPi.ts:1:390"
+     ],
+     "t": 75
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 117
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "start@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "29870/startListeners/<@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "startListeners@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "start@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js"
+     ],
+     "t": 134
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://pumpbear.com/jjml/:759:426",
+      "jt@https://pumpbear.com/jjml/:759:757",
+      "NG@https://pumpbear.com/jjml/:1035:1",
+      "QG@https://pumpbear.com/jjml/:1032:250"
+     ],
+     "t": 284
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://pumpbear.com/jjml/:759:426",
+      "jt@https://pumpbear.com/jjml/:759:757",
+      "NG@https://pumpbear.com/jjml/:1035:1",
+      "QG@https://pumpbear.com/jjml/:1032:250"
+     ],
+     "t": 290
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 387
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://pumpbear.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "4a63d4f8-d792-4a04-b345-a2ee6f2d3a14",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://pumpbear.com/",
+    "urlHash": "eb7980b05698"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3320,
+   "timeOrigin": 1793571525464,
+   "url": "https://pumpbear.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked an inline script (script-src-elem) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked an inline script (script-src-elem) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: \u201cscript-src 'self' 'wasm-unsafe-eval' 'nonce-dWqhf/03hVRFZfSAR7hMXxzm' 'sha256-+aR3QuOMfezGs27+Lk/SqCe1rMM7miM+Is6l8vmKbOg=' https://www.paypal.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com https:/"
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pumpbear.com/jjml/E3j9INpFxNV_EjlUbpU-TLhRBQnkOygvlVfOeMeIH8gOtLF4K60\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://pumpbear.com/jjml/ was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "console-error",
+     "e": "[createFrame] Failed to load module for hc9bbfd06: TypeError: 403  https://pumpbear.com/assets/app/ui/public/drawer-team-filter.@y7kLeI.tsx"
+    },
+    {
+     "k": "console-error",
+     "e": "[createFrame] Failed to load module for heb6ea962: TypeError: 403  https://pumpbear.com/assets/app/ui/public/search-suggest.@I1cM63.tsx"
+    },
+    {
+     "k": "console-error",
+     "e": "[createFrame] Failed to load module for h39300689: TypeError: 403  https://pumpbear.com/assets/app/ui/public/mega-menu-keys.@NOi5AP.tsx"
+    },
+    {
+     "k": "console-error",
+     "e": "[createFrame] Failed to load module for h2af3567f: TypeError: 403  https://pumpbear.com/assets/app/ui/public/card-quick-add.@bD_6ch.tsx"
+    }
+   ],
+   "urlHash": "eb7980b05698",
+   "titleHash": "febff36414ba"
+  },
+  {
+   "step": "link",
+   "href": "https://pumpbear.com/collections/personalized",
+   "click": "actions",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "call:updateCurrentEntry": 2,
+    "currententrychange": 2,
+    "currententrychange:push": 1,
+    "get:transition": 1,
+    "intercept:push": 1,
+    "listen:navigate": 3,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "scroll:push": 1
+   },
+   "docH": 800,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "startNavigationListenerImpl@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1968",
+      "startNavigationListener@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776",
+      "run@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/run.@YvJu4V.js:2:926",
+      "@https://pumpbear.com/assets/app/actions/public/entry.@nxcbPi.ts:1:390"
+     ],
+     "t": 75
+    },
+    {
+     "from": "https://pumpbear.com/",
+     "k": "currententrychange",
+     "m": null,
+     "t": 75
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "startNavigationListenerImpl@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2108",
+      "startNavigationListener@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776",
+      "run@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/run.@YvJu4V.js:2:926",
+      "@https://pumpbear.com/assets/app/actions/public/entry.@nxcbPi.ts:1:390"
+     ],
+     "t": 75
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 117
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "start@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "29870/startListeners/<@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "startListeners@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "start@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js"
+     ],
+     "t": 134
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://pumpbear.com/jjml/:759:426",
+      "jt@https://pumpbear.com/jjml/:759:757",
+      "NG@https://pumpbear.com/jjml/:1035:1",
+      "QG@https://pumpbear.com/jjml/:1032:250"
+     ],
+     "t": 284
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://pumpbear.com/jjml/:759:426",
+      "jt@https://pumpbear.com/jjml/:759:757",
+      "NG@https://pumpbear.com/jjml/:1035:1",
+      "QG@https://pumpbear.com/jjml/:1032:250"
+     ],
+     "t": 290
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 387
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": false,
+     "src": "A",
+     "t": 4777,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": true
+    },
+    {
+     "k": "intercept",
+     "m": "push",
+     "opts": {
+      "focusReset": "after-transition",
+      "handler": "function",
+      "precommit": "undefined",
+      "scroll": "after-transition"
+     },
+     "s": [
+      "y@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018",
+      "startNavigationListenerImpl/<@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853"
+     ],
+     "t": 4777,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "from": "https://pumpbear.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4778
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 4778
+    },
+    {
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/collections/personalized\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "handler@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2882"
+     ],
+     "t": 4778
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": null,
+     "t": 4778
+    },
+    {
+     "k": "scroll",
+     "m": "push",
+     "s": [
+      "handler@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083"
+     ],
+     "t": 4802,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4802
+    }
+   ],
+   "marker": "m0",
+   "nav": {
+    "activation": {
+     "entry": "https://pumpbear.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4de91b86-2b88-4636-9831-c8ff159d6332",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://pumpbear.com/collections/personalized",
+    "urlHash": "2f342f0ae815"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 23
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793571525464,
+   "url": "https://pumpbear.com/collections/personalized",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com https:/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (frame-src) at https://chat.massauto.work/widget because it violates the following directive: \u201cframe-src 'self' https://challenges.cloudflare.com blob:\u201d"
+    }
+   ],
+   "urlHash": "2f342f0ae815",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 2,
+    "call:updateCurrentEntry": 2,
+    "currententrychange": 2,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:transition": 2,
+    "intercept:push": 1,
+    "intercept:traverse": 1,
+    "listen:navigate": 3,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1,
+    "scroll:push": 1,
+    "scroll:traverse": 1
+   },
+   "docH": 800,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "startNavigationListenerImpl@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1968",
+      "startNavigationListener@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776",
+      "run@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/run.@YvJu4V.js:2:926",
+      "@https://pumpbear.com/assets/app/actions/public/entry.@nxcbPi.ts:1:390"
+     ],
+     "t": 75
+    },
+    {
+     "from": "https://pumpbear.com/",
+     "k": "currententrychange",
+     "m": null,
+     "t": 75
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "startNavigationListenerImpl@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2108",
+      "startNavigationListener@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776",
+      "run@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/run.@YvJu4V.js:2:926",
+      "@https://pumpbear.com/assets/app/actions/public/entry.@nxcbPi.ts:1:390"
+     ],
+     "t": 75
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 117
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "start@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "29870/startListeners/<@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "startListeners@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "start@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js"
+     ],
+     "t": 134
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://pumpbear.com/jjml/:759:426",
+      "jt@https://pumpbear.com/jjml/:759:757",
+      "NG@https://pumpbear.com/jjml/:1035:1",
+      "QG@https://pumpbear.com/jjml/:1032:250"
+     ],
+     "t": 284
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://pumpbear.com/jjml/:759:426",
+      "jt@https://pumpbear.com/jjml/:759:757",
+      "NG@https://pumpbear.com/jjml/:1035:1",
+      "QG@https://pumpbear.com/jjml/:1032:250"
+     ],
+     "t": 290
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 387
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": false,
+     "src": "A",
+     "t": 4777,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": true
+    },
+    {
+     "k": "intercept",
+     "m": "push",
+     "opts": {
+      "focusReset": "after-transition",
+      "handler": "function",
+      "precommit": "undefined",
+      "scroll": "after-transition"
+     },
+     "s": [
+      "y@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018",
+      "startNavigationListenerImpl/<@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853"
+     ],
+     "t": 4777,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "from": "https://pumpbear.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4778
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 4778
+    },
+    {
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/collections/personalized\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "handler@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2882"
+     ],
+     "t": 4778
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": null,
+     "t": 4778
+    },
+    {
+     "k": "scroll",
+     "m": "push",
+     "s": [
+      "handler@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083"
+     ],
+     "t": 4802,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4802
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7368,
+     "url": "https://pumpbear.com/",
+     "userInitiated": false
+    },
+    {
+     "k": "intercept",
+     "m": "traverse",
+     "opts": {
+      "focusReset": "after-transition",
+      "handler": "function",
+      "precommit": "undefined",
+      "scroll": "after-transition"
+     },
+     "s": [
+      "y@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018",
+      "startNavigationListenerImpl/<@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853"
+     ],
+     "t": 7368,
+     "url": "https://pumpbear.com/"
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7368
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 7368
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7368,
+     "url": "https://pumpbear.com/"
+    },
+    {
+     "k": "scroll",
+     "m": "traverse",
+     "s": [
+      "handler@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083"
+     ],
+     "t": 7388,
+     "url": "https://pumpbear.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7388
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://pumpbear.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "4a63d4f8-d792-4a04-b345-a2ee6f2d3a14",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://pumpbear.com/",
+    "urlHash": "eb7980b05698"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793571525464,
+   "url": "https://pumpbear.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a style (style-src-elem) at https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css from being applied because it violates the following directive: \u201cstyle-src 'unsafe-inline'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challenges.cloudflare"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsa"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challenges.cl"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6'"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challenges.cloudflare"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://a.klaviyo.com/onsite/track-analytics because it violates the following directive: \u201cconnect-src 'self' https://challenges.cloudflare.com\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://a.klaviyo.com/onsite/track-analytics because it violates the following directive: \u201cconnect-src 'self' https://challenges.cloudflare.com\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a style (style-src-elem) at https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css from being applied because it violates the following directive: \u201cstyle-src 'unsafe-inline'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challenges.cloud"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challeng"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lI"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challenges.cloud"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a style (style-src-elem) at https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css from being applied because it violates the following directive: \u201cstyle-src 'unsafe-inline'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challenges.cloud"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challeng"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lI"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challenges.cloud"
+    }
+   ],
+   "urlHash": "eb7980b05698",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 3,
+    "call:updateCurrentEntry": 2,
+    "currententrychange": 2,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 2,
+    "get:transition": 3,
+    "intercept:push": 1,
+    "intercept:traverse": 2,
+    "listen:navigate": 3,
+    "navigate:push": 1,
+    "navigate:traverse": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 2,
+    "rejection": 1,
+    "scroll:push": 1,
+    "scroll:traverse": 2
+   },
+   "docH": 800,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "startNavigationListenerImpl@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1968",
+      "startNavigationListener@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776",
+      "run@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/run.@YvJu4V.js:2:926",
+      "@https://pumpbear.com/assets/app/actions/public/entry.@nxcbPi.ts:1:390"
+     ],
+     "t": 75
+    },
+    {
+     "from": "https://pumpbear.com/",
+     "k": "currententrychange",
+     "m": null,
+     "t": 75
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "startNavigationListenerImpl@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2108",
+      "startNavigationListener@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:1776",
+      "run@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/run.@YvJu4V.js:2:926",
+      "@https://pumpbear.com/assets/app/actions/public/entry.@nxcbPi.ts:1:390"
+     ],
+     "t": 75
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "N<@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31508",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31541",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31847",
+      "@https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:31851"
+     ],
+     "t": 117
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "start@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "29870/startListeners/<@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "startListeners@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js",
+      "start@https://static.klaviyo.com/onsite/js/8293.f39224a1383f7.js"
+     ],
+     "t": 134
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://pumpbear.com/jjml/:759:426",
+      "jt@https://pumpbear.com/jjml/:759:757",
+      "NG@https://pumpbear.com/jjml/:1035:1",
+      "QG@https://pumpbear.com/jjml/:1032:250"
+     ],
+     "t": 284
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://pumpbear.com/jjml/:759:426",
+      "jt@https://pumpbear.com/jjml/:759:757",
+      "NG@https://pumpbear.com/jjml/:1035:1",
+      "QG@https://pumpbear.com/jjml/:1032:250"
+     ],
+     "t": 290
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 387
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": false,
+     "src": "A",
+     "t": 4777,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": true
+    },
+    {
+     "k": "intercept",
+     "m": "push",
+     "opts": {
+      "focusReset": "after-transition",
+      "handler": "function",
+      "precommit": "undefined",
+      "scroll": "after-transition"
+     },
+     "s": [
+      "y@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018",
+      "startNavigationListenerImpl/<@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853"
+     ],
+     "t": 4777,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "from": "https://pumpbear.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4778
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 4778
+    },
+    {
+     "a": "[{\"state\":{\"src\":\"https://pumpbear.com/collections/personalized\",\"resetScroll\":\"after-transition\",\"resetFocus\":\"after-transition\",\"$rmx\":true}}]",
+     "k": "call",
+     "m": "updateCurrentEntry",
+     "s": [
+      "handler@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:2882"
+     ],
+     "t": 4778
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": null,
+     "t": 4778
+    },
+    {
+     "k": "scroll",
+     "m": "push",
+     "s": [
+      "handler@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083"
+     ],
+     "t": 4802,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4802
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7368,
+     "url": "https://pumpbear.com/",
+     "userInitiated": false
+    },
+    {
+     "k": "intercept",
+     "m": "traverse",
+     "opts": {
+      "focusReset": "after-transition",
+      "handler": "function",
+      "precommit": "undefined",
+      "scroll": "after-transition"
+     },
+     "s": [
+      "y@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018",
+      "startNavigationListenerImpl/<@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853"
+     ],
+     "t": 7368,
+     "url": "https://pumpbear.com/"
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7368
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 7368
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7368,
+     "url": "https://pumpbear.com/"
+    },
+    {
+     "k": "scroll",
+     "m": "traverse",
+     "s": [
+      "handler@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083"
+     ],
+     "t": 7388,
+     "url": "https://pumpbear.com/"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7388
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 9935,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "k": "intercept",
+     "m": "traverse",
+     "opts": {
+      "focusReset": "after-transition",
+      "handler": "function",
+      "precommit": "undefined",
+      "scroll": "after-transition"
+     },
+     "s": [
+      "y@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:5018",
+      "startNavigationListenerImpl/<@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3853"
+     ],
+     "t": 9935,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "from": "https://pumpbear.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 9935
+    },
+    {
+     "k": "get",
+     "m": "transition",
+     "t": 9935
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9936,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "k": "scroll",
+     "m": "traverse",
+     "s": [
+      "handler@https://pumpbear.com/assets/npm/%40remix-run/component/dist/runtime/navigation.@g5rzKf.js:1:3083"
+     ],
+     "t": 9953,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 9953
+    },
+    {
+     "e": "Error: Loading chunk 4014 failed after 3 retries.",
+     "k": "rejection",
+     "t": 10039
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://pumpbear.com/jjml/:759:426",
+      "jt@https://pumpbear.com/jjml/:759:757",
+      "NG@https://pumpbear.com/jjml/:1035:1",
+      "QG@https://pumpbear.com/jjml/:1032:250"
+     ],
+     "t": 10949
+    }
+   ],
+   "marker": "m2",
+   "nav": {
+    "activation": {
+     "entry": "https://pumpbear.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4de91b86-2b88-4636-9831-c8ff159d6332",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://pumpbear.com/collections/personalized",
+    "urlHash": "2f342f0ae815"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 0,
+   "timeOrigin": 1793571525464,
+   "url": "https://pumpbear.com/collections/personalized",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (img-src) at https://www.facebook.com/tr/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com htt"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://mpc2-prod-26-is5qnl632q-uc.a.run.app/events because it violates the following directive: \u201cconnect-src 'self' https://challenges.cloudflare.com\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://api.stripe.com https:/"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at https://demo-1.conversionsapigateway.com/events because it violates the following directive: \u201cconnect-src 'self' https://challenges.cloudflare.com\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a style (style-src-elem) at https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css from being applied because it violates the following directive: \u201cstyle-src 'unsafe-inline'\u201d"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/styles.f5ac5e657987c.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challenges.cloud"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~Render~contentBlocks~customerHubRoot.fc985e829f385.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' "
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challeng"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.b0d8c5d17ae7d.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lI"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked a script (script-src-elem) at https://static.klaviyo.com/onsite/js/Render.d9de14477b3e9.js from being executed because it violates the following directive: \u201cscript-src 'nonce-POZkVwnHH7tP1872lILYl6' 'unsafe-eval' https://challenges.cloud"
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Loading chunk 4014 failed after 3 retries."
+    }
+   ],
+   "urlHash": "2f342f0ae815",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 2,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 23,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/collections/personalized?__cf_chl_rt_tk=CWMukvakekxZb0bVPUxh0.O8ThMUJk6jCLdpAtcIzIE-1793571538-<ip>-B9Ajjp8LGZIkmP_O5VbJ9BhCZrPacOAbrQjbZPE3Nh4"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 71,
+     "url": "/collections/personalized"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 71,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 71
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 71
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 271
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://pumpbear.com/collections/personalized",
+     "entryIsCurrent": true,
+     "from": "https://pumpbear.com/collections/personalized",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "4de91b86-2b88-4636-9831-c8ff159d6332",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://pumpbear.com/collections/personalized",
+    "urlHash": "2f342f0ae815"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 260,
+   "timeOrigin": 1793571530890.14,
+   "url": "https://pumpbear.com/collections/personalized",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "pageerror",
+     "e": "Content-Security-Policy: The page\u2019s settings blocked the loading of a resource (connect-src) at data:, because it violates the following directive: \u201cconnect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "0"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-error",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "0"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "console-warn",
+     "e": "Object(0)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: rejected by sanitizer (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    },
+    {
+     "k": "pageerror",
+     "e": "downloadable font: font load failed (font-family: \"Apple Symbols\" style:normal weight:400 width:100 src index:0) source: (invalid URI)"
+    }
+   ],
+   "urlHash": "2f342f0ae815",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigatesuccess": 3,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 24,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/collections/personalized?__cf_chl_rt_tk=CWMukvakekxZb0bVPUxh0.O8ThMUJk6jCLdpAtcIzIE-1793571538-<ip>-B9Ajjp8LGZIkmP_O5VbJ9BhCZrPacOAbrQjbZPE3Nh4"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 71,
+     "url": "/collections/personalized"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 71,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 71
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 71
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 271
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2828,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2828
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2828,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2828
+    },
+    {
+     "k": "hashchange",
+     "t": 2828,
+     "url": "https://pumpbear.com/collections/personalized"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://pumpbear.com/collections/personalized",
+     "entryIsCurrent": false,
+     "from": "https://pumpbear.com/collections/personalized",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "24ea4b9f-75ea-4348-8ea2-0e19f17e9343",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://pumpbear.com/collections/personalized",
+    "urlHash": "455745f0401d"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 260,
+   "timeOrigin": 1793571530890.14,
+   "url": "https://pumpbear.com/collections/personalized",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "455745f0401d",
+   "titleHash": "5ffa9751f584"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 24,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1,
+     "url": "/collections/personalized?__cf_chl_rt_tk=CWMukvakekxZb0bVPUxh0.O8ThMUJk6jCLdpAtcIzIE-1793571538-<ip>-B9Ajjp8LGZIkmP_O5VbJ9BhCZrPacOAbrQjbZPE3Nh4"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 1,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 2
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 71,
+     "url": "/collections/personalized"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 71,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 71
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 71
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 271
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2828,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2828
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2828,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2828
+    },
+    {
+     "k": "hashchange",
+     "t": 2828,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5384,
+     "url": "https://pumpbear.com/collections/personalized",
+     "userInitiated": false
+    },
+    {
+     "from": "https://pumpbear.com/collections/personalized",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5384
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5384
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5384,
+     "url": "https://pumpbear.com/collections/personalized"
+    },
+    {
+     "k": "hashchange",
+     "t": 5384,
+     "url": "https://pumpbear.com/collections/personalized"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://pumpbear.com/collections/personalized",
+     "entryIsCurrent": true,
+     "from": "https://pumpbear.com/collections/personalized",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "4de91b86-2b88-4636-9831-c8ff159d6332",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://pumpbear.com/collections/personalized",
+    "urlHash": "2f342f0ae815"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 260,
+   "timeOrigin": 1793571530890.14,
+   "url": "https://pumpbear.com/collections/personalized",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "2f342f0ae815",
+   "titleHash": "5ffa9751f584"
+  }
+ ],
+ "plan": {
+  "link": "https://pumpbear.com/collections/personalized",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 21.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

@@ -1,0 +1,500 @@
+{
+ "id": "79713cbc01",
+ "page": "https://www.franceinfo.fr/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 21026,
+   "histLen": 31,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1002
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 30138,
+   "timeOrigin": 1793571854130,
+   "url": "https://www.franceinfo.fr/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://www.franceinfo.fr/\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "79713cbc019c",
+   "titleHash": "df3dfe9fb24c"
+  },
+  {
+   "step": "link",
+   "href": "https://www.franceinfo.fr/en-direct/",
+   "click": "actions",
+   "settle": 2.5,
+   "active": "BUTTON",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5889,
+   "histLen": 32,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 258,
+     "url": "/en-direct/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 545
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6570,
+   "timeOrigin": 1793571862158,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://notifier.live.francetvinfo.fr/live/null/events. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "f6ec0c561977",
+   "titleHash": "94eb6dcc01b4"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BUTTON",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 21026,
+   "histLen": 32,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 181
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 30360,
+   "timeOrigin": 1793571864762,
+   "url": "https://www.franceinfo.fr/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "The resource from \u201chttps://www.franceinfo.fr/\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "79713cbc019c",
+   "titleHash": "df3dfe9fb24c"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BUTTON",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5889,
+   "histLen": 32,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 25,
+     "url": "/en-direct/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 225
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6570,
+   "timeOrigin": 1793571867509,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "f6ec0c561977",
+   "titleHash": "94eb6dcc01b4"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BUTTON",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5889,
+   "histLen": 32,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 150,
+     "url": "/en-direct/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1612
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6570,
+   "timeOrigin": 1793571870303,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://notifier.live.francetvinfo.fr/live/null/events. (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "f6ec0c561977",
+   "titleHash": "94eb6dcc01b4"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.6,
+   "active": "BUTTON",
+   "counts": {
+    "hashchange": 1,
+    "history:pushState": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 5889,
+   "histLen": 34,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 150,
+     "url": "/en-direct/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1612
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4183,
+     "url": "https://www.franceinfo.fr/en-direct/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 4183,
+     "url": "/en-direct/#navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 4190,
+     "url": "https://www.franceinfo.fr/en-direct/"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4190,
+     "url": "#navqa-frag"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6570,
+   "timeOrigin": 1793571870303,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "114ee043459a",
+   "titleHash": "94eb6dcc01b4"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BUTTON",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 5889,
+   "histLen": 34,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 28,
+     "url": "/en-direct/#navqa-frag"
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 194,
+     "url": "#navqa-frag"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 207
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6570,
+   "timeOrigin": 1793571877447,
+   "url": "https://www.franceinfo.fr/en-direct/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Error: Failed to load static props"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_cookie_test\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "114ee043459a",
+   "titleHash": "94eb6dcc01b4"
+  }
+ ],
+ "plan": {
+  "link": "https://www.franceinfo.fr/en-direct/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#didomi-notice-agree-button",
+ "elapsed": 25.6,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

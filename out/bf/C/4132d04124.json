@@ -1,0 +1,656 @@
+{
+ "id": "4132d04124",
+ "page": "https://www.globo.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 11971,
+   "histLen": 31,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: can't access property \"saveData\", e is undefined",
+     "f": "https://www.globo.com/",
+     "k": "error",
+     "l": 439,
+     "t": 351
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6759
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13174,
+   "timeOrigin": 1793571534071,
+   "url": "https://www.globo.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571535484_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571535484_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571535485_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571535485_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either t"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"saveData\", e is undefined"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR - (ox_esp) Call to OX failedSyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://ib.adnxs.com/getuidj (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 400."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Erro ao buscar signo no GHint: TypeError: null has no properties"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "4132d0412437",
+   "titleHash": "cd4053a3f49b"
+  },
+  {
+   "step": "link",
+   "href": "https://www.globo.com/todos-os-sites/",
+   "click": "actions",
+   "settle": 2.5,
+   "active": "DIV",
+   "counts": {
+    "error": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6229,
+   "histLen": 32,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "Script error.",
+     "f": "https://s3.glbimg.com/v1/AUTH_85048ced02e245569cbcd11ed581832a/recads-mc-component/latest/web.critical.js",
+     "k": "error",
+     "l": 0,
+     "t": 50
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 926
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 6337,
+   "timeOrigin": 1793571546423,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: e.globalWebdeps is not a function"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "3352ceb123bc",
+   "titleHash": "751bf0d8d17f"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "error": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 11951,
+   "histLen": 32,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "e": "TypeError: can't access property \"saveData\", e is undefined",
+     "f": "https://www.globo.com/",
+     "k": "error",
+     "l": 439,
+     "t": 17
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1243
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 11151,
+   "textLen": 12802,
+   "timeOrigin": 1793571548995,
+   "url": "https://www.globo.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"saveData\", e is undefined"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "Erro ao buscar signo no GHint: TypeError: null has no properties"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://globo-ab.globo.com/v2/selected-alternatives (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "[Player API] error retrieving experiments: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "4132d0412437",
+   "titleHash": "cd4053a3f49b"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6229,
+   "histLen": 32,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 597
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 5
+     }
+    ],
+    "url": "https://www.globo.com/login-callback.ghtml"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5543,
+   "timeOrigin": 1793571552824,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.com/v1.0/state\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "3352ceb123bc",
+   "titleHash": "751bf0d8d17f"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 6229,
+   "histLen": 32,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4547
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "https://www.globo.com/login-callback.ghtml"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5543,
+   "timeOrigin": 1793571555989,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "XML Parsing Error: no root element found\nLocation: https://api.permutive.app/v1.0/state\nLine Number 1, Column 1:"
+    }
+   ],
+   "urlHash": "3352ceb123bc",
+   "titleHash": "751bf0d8d17f"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 6229,
+   "histLen": 33,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4547
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7104,
+     "url": "https://www.globo.com/todos-os-sites/"
+    },
+    {
+     "k": "hashchange",
+     "t": 7108,
+     "url": "https://www.globo.com/todos-os-sites/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5915,
+   "timeOrigin": 1793571555989,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9971291ec1fd",
+   "titleHash": "751bf0d8d17f"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 6229,
+   "histLen": 33,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 4547
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7104,
+     "url": "https://www.globo.com/todos-os-sites/"
+    },
+    {
+     "k": "hashchange",
+     "t": 7108,
+     "url": "https://www.globo.com/todos-os-sites/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9764,
+     "url": "https://www.globo.com/todos-os-sites/"
+    },
+    {
+     "k": "hashchange",
+     "t": 9767,
+     "url": "https://www.globo.com/todos-os-sites/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 5915,
+   "timeOrigin": 1793571555989,
+   "url": "https://www.globo.com/todos-os-sites/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3352ceb123bc",
+   "titleHash": "751bf0d8d17f"
+  }
+ ],
+ "plan": {
+  "link": "https://www.globo.com/todos-os-sites/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 35.2,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

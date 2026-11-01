@@ -1,0 +1,1266 @@
+{
+ "id": "3f1bad7142",
+ "page": "https://www.shazam.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 4734,
+   "histLen": 7,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 130,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 130,
+     "url": "https://www.shazam.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 130
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 157
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 392
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.shazam.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "e864aa10-7a81-4c57-8748-b9bf7722449f",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.shazam.com/",
+    "urlHash": "3f1bad71427c"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3718,
+   "timeOrigin": 1793571053026,
+   "url": "https://www.shazam.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3f1bad71427c",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "link",
+   "href": "https://www.shazam.com/apps",
+   "click": "actions",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 2969,
+   "histLen": 8,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 130,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 130,
+     "url": "https://www.shazam.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 130
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 157
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 392
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4834,
+     "url": "/apps"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4834,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4834
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4846
+    }
+   ],
+   "marker": "m0",
+   "nav": {
+    "activation": {
+     "entry": "https://www.shazam.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "3b00886b-1266-42bf-9d3b-d7739d8558ba",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.shazam.com/apps",
+    "urlHash": "823c00666198"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571053026,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "823c00666198",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "history:pushState": 1,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 4734,
+   "histLen": 8,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 130,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 130,
+     "url": "https://www.shazam.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 130
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 157
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 392
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4834,
+     "url": "/apps"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4834,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4834
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4846
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7382,
+     "url": "https://www.shazam.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7382
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7382
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7382,
+     "url": "https://www.shazam.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 7400,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7400,
+     "url": "https://www.shazam.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 7400
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7436
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://www.shazam.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "e864aa10-7a81-4c57-8748-b9bf7722449f",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.shazam.com/",
+    "urlHash": "3f1bad71427c"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3712,
+   "timeOrigin": 1793571053026,
+   "url": "https://www.shazam.com/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3f1bad71427c",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "currententrychange:traverse": 2,
+    "history:pushState": 1,
+    "history:replaceState": 3,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigate:traverse": 2,
+    "navigatesuccess": 6,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 2969,
+   "histLen": 8,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 130,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 130,
+     "url": "https://www.shazam.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 130
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 157
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 392
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 4834,
+     "url": "/apps"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4834,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4834
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4846
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7382,
+     "url": "https://www.shazam.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7382
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7382
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7382,
+     "url": "https://www.shazam.com/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 7400,
+     "url": "/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7400,
+     "url": "https://www.shazam.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 7400
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7436
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10051,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 10052
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10052
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10052,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 10060,
+     "url": "/apps"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10060,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 10060
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10073
+    }
+   ],
+   "marker": "m2",
+   "nav": {
+    "activation": {
+     "entry": "https://www.shazam.com/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "3b00886b-1266-42bf-9d3b-d7739d8558ba",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.shazam.com/apps",
+    "urlHash": "823c00666198"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571053026,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "823c00666198",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2969,
+   "histLen": 8,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 86,
+     "url": "/apps"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 86,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 86
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 101
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 334
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.shazam.com/apps",
+     "entryIsCurrent": true,
+     "from": "https://www.shazam.com/apps",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "3b00886b-1266-42bf-9d3b-d7739d8558ba",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.shazam.com/apps",
+    "urlHash": "823c00666198"
+   },
+   "prev": {
+    "counts": {
+     "currententrychange:push": 1,
+     "currententrychange:replace": 3,
+     "currententrychange:traverse": 2,
+     "history:pushState": 1,
+     "history:replaceState": 3,
+     "navigate:push": 1,
+     "navigate:replace": 3,
+     "navigate:traverse": 2,
+     "navigatesuccess": 6,
+     "pageshow": 1,
+     "popstate": 2
+    },
+    "log": [
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 130,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 130,
+      "url": "https://www.shazam.com/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.shazam.com/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 130
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 157
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 392
+     },
+     {
+      "k": "history",
+      "m": "pushState",
+      "t": 4834,
+      "url": "/apps"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "push",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 4834,
+      "url": "https://www.shazam.com/apps",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.shazam.com/",
+      "k": "currententrychange",
+      "m": "push",
+      "t": 4834
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 4846
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 7382,
+      "url": "https://www.shazam.com/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.shazam.com/apps",
+      "k": "currententrychange",
+      "m": "traverse",
+      "t": 7382
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 7382
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 7382,
+      "url": "https://www.shazam.com/"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 7400,
+      "url": "/"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 7400,
+      "url": "https://www.shazam.com/",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.shazam.com/",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 7400
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 7436
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "traverse",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 10051,
+      "url": "https://www.shazam.com/apps",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.shazam.com/",
+      "k": "currententrychange",
+      "m": "traverse",
+      "t": 10052
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 10052
+     },
+     {
+      "k": "popstate",
+      "state": "object",
+      "t": 10052,
+      "url": "https://www.shazam.com/apps"
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "t": 10060,
+      "url": "/apps"
+     },
+     {
+      "canIntercept": true,
+      "cancelable": true,
+      "download": null,
+      "form": false,
+      "hashChange": false,
+      "k": "navigate",
+      "m": "replace",
+      "prevented": false,
+      "same": true,
+      "src": null,
+      "t": 10060,
+      "url": "https://www.shazam.com/apps",
+      "userInitiated": false
+     },
+     {
+      "from": "https://www.shazam.com/apps",
+      "k": "currententrychange",
+      "m": "replace",
+      "t": 10060
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 10073
+     }
+    ],
+    "url": "https://www.shazam.com/apps"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571065729,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "823c00666198",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "hashchange": 1,
+    "history:replaceState": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 2969,
+   "histLen": 9,
+   "histState": "null",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 86,
+     "url": "/apps"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 86,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 86
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 101
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 334
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2912,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2912
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2912,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2912
+    },
+    {
+     "k": "hashchange",
+     "t": 2912,
+     "url": "https://www.shazam.com/apps"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.shazam.com/apps",
+     "entryIsCurrent": false,
+     "from": "https://www.shazam.com/apps",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "90e2d3f1-b661-495c-aa0b-940b57b02e2e",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.shazam.com/apps",
+    "urlHash": "55d7066e4959"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571065729,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "55d7066e4959",
+   "titleHash": "c698c9db3cab"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 2969,
+   "histLen": 9,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 86,
+     "url": "/apps"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 86,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 86
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 101
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 334
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 2912,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 2912
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2912,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2912
+    },
+    {
+     "k": "hashchange",
+     "t": 2912,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5473,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5474
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5474
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5474,
+     "url": "https://www.shazam.com/apps"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5479,
+     "url": "/apps"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5479,
+     "url": "https://www.shazam.com/apps",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.shazam.com/apps",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5479
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5480
+    },
+    {
+     "k": "hashchange",
+     "t": 5481,
+     "url": "https://www.shazam.com/apps"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.shazam.com/apps",
+     "entryIsCurrent": true,
+     "from": "https://www.shazam.com/apps",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "3b00886b-1266-42bf-9d3b-d7739d8558ba",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.shazam.com/apps",
+    "urlHash": "823c00666198"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 1283,
+   "timeOrigin": 1793571065729,
+   "url": "https://www.shazam.com/apps",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "823c00666198",
+   "titleHash": "c698c9db3cab"
+  }
+ ],
+ "plan": {
+  "link": "https://www.shazam.com/apps",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 20.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

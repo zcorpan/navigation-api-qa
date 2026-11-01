@@ -1,0 +1,601 @@
+{
+ "id": "5a74c53e54",
+ "page": "https://www.livescore.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 2812,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 108,
+     "url": "/en/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 173
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2487,
+   "timeOrigin": 1793571597390,
+   "url": "https://www.livescore.com/en/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR - (ox_esp) Call to OX failedSyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "734bd1a4ae1b",
+   "titleHash": "7be34720c53e"
+  },
+  {
+   "step": "link",
+   "href": "https://www.livescore.com/en/news/",
+   "click": "actions",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3251,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 108,
+     "url": "/en/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 173
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7264,
+     "url": "/en/news/"
+    }
+   ],
+   "marker": "m0",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4085,
+   "timeOrigin": 1793571597390,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3223,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 108,
+     "url": "/en/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 173
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7264,
+     "url": "/en/news/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9778,
+     "url": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 10153,
+     "url": "/en/"
+    }
+   ],
+   "marker": "m1",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3132,
+   "timeOrigin": 1793571597390,
+   "url": "https://www.livescore.com/en/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "734bd1a4ae1b",
+   "titleHash": "7be34720c53e"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "history:pushState": 1,
+    "history:replaceState": 3,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3251,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 108,
+     "url": "/en/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 173
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7264,
+     "url": "/en/news/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 9778,
+     "url": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 10153,
+     "url": "/en/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 12704,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 13093,
+     "url": "/en/news/"
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4085,
+   "timeOrigin": 1793571597390,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 3251,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 204,
+     "url": "/en/news/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 455
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4030,
+   "timeOrigin": 1793571613243,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3251,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 204,
+     "url": "/en/news/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 455
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3117,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3117,
+     "url": "/en/news/#navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 3117,
+     "url": "https://www.livescore.com/en/news/"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4030,
+   "timeOrigin": 1793571613243,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a201f2da02e6",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 3,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3251,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 204,
+     "url": "/en/news/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 455
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3117,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3117,
+     "url": "/en/news/#navqa-frag"
+    },
+    {
+     "k": "hashchange",
+     "t": 3117,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5701,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5724,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5727,
+     "url": "/en/news/"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4030,
+   "timeOrigin": 1793571613243,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  }
+ ],
+ "plan": {
+  "link": "https://www.livescore.com/en/news/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 24.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

@@ -1,0 +1,1407 @@
+{
+ "id": "5b74cb603e",
+ "page": "https://247sports.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 7927,
+   "histLen": 4,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 156,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 156,
+     "url": "https://247sports.com/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://247sports.com/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 156
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 181
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 3232
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3581
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 3581
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "a6b1cd9d-9d20-4f6b-baac-d7aa476dceb9",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/",
+    "urlHash": "5b74cb603e44"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7669,
+   "timeOrigin": 1793571647061,
+   "url": "https://247sports.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571654836_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571654836_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571654838_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571654838_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "5b74cb603e44",
+   "titleHash": "55de2411533c"
+  },
+  {
+   "step": "link",
+   "href": "https://247sports.com/League/NCAA-FB/Teams/",
+   "click": "actions",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "error": 11,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 9039,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 182,
+     "url": null
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 182,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 182
+    },
+    {
+     "e": "Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "e": "Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+     "f": "https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/react-dom.cjs.bundle.js",
+     "k": "error",
+     "l": 2,
+     "t": 240
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 245
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16898",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 474
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16937",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 474
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 602
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 602
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 754
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "2aaed584-f8af-460e-b5a8-4c3bc48a47b0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "8d39dd092165"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13452,
+   "timeOrigin": 1793571657232,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "8d39dd092165",
+   "titleHash": "b970d5fdbc0a"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 7927,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16898",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290394/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290394/7301.js:2:46673"
+     ],
+     "t": 323
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16937",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290394/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290394/7301.js:2:46673"
+     ],
+     "t": 323
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 619
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 619
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2861
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "a6b1cd9d-9d20-4f6b-baac-d7aa476dceb9",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/",
+    "urlHash": "5b74cb603e44"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 7669,
+   "timeOrigin": 1793571659808,
+   "url": "https://247sports.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "5b74cb603e44",
+   "titleHash": "55de2411533c"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "get:currentEntry": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 9039,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 309
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16898",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 381
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16937",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 381
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 681
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 681
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "2aaed584-f8af-460e-b5a8-4c3bc48a47b0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "8d39dd092165"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13446,
+   "timeOrigin": 1793571665273,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "8d39dd092165",
+   "titleHash": "b970d5fdbc0a"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "get:canGoBack": 1,
+    "get:canGoForward": 1,
+    "get:currentEntry": 4,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 9128,
+   "histLen": 5,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16896",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 487
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16935",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 487
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2076
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2341
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 2341
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3937
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3937
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3937
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "2aaed584-f8af-460e-b5a8-4c3bc48a47b0",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "8d39dd092165"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 13446,
+   "timeOrigin": 1793571668236,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cfly_geo\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettin"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Ignoring the setConfig.singleRequest() call since the service is already enabled.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_li_dcdm_c\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "console-warn",
+     "e": "The \"hotkeyaction\" event has been deprecated. This check will be removed July 1st, 2024"
+    },
+    {
+     "k": "console-warn",
+     "e": "The \"resource.playback.lts.clearOutOfBoundsLtsBuffer\" setting is deprecated and has no effect. The player now always seeks to the trailing edge when the LTS window moves past the paused position. This check will be removed July 1st, 2026"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    },
+    {
+     "k": "pageerror",
+     "e": "TypeError: can't access property \"applicableSections\", e is null"
+    }
+   ],
+   "urlHash": "8d39dd092165",
+   "titleHash": "b970d5fdbc0a"
+  },
+  {
+   "step": "fragment",
+   "href": "https://247sports.com/League/NCAA-FB/Teams/",
+   "click": "actions",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "get:canGoBack": 1,
+    "get:canGoForward": 1,
+    "get:currentEntry": 5,
+    "hashchange": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 9128,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16896",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 487
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16935",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 487
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2076
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2341
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 2341
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3937
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3937
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3937
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 4933,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/",
+     "userInitiated": true
+    },
+    {
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4933
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4934
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4934
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4934,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    },
+    {
+     "k": "hashchange",
+     "t": 4935,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": false,
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "5223bbce-3834-4808-988b-795887d94782",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "b29036f5788e"
+   },
+   "prev": {
+    "counts": {
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 575,
+   "textLen": 13374,
+   "timeOrigin": 1793571668236,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "b29036f5788e",
+   "titleHash": "b970d5fdbc0a"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "call:entries": 1,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:canGoBack": 1,
+    "get:canGoForward": 1,
+    "get:currentEntry": 6,
+    "hashchange": 2,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 2,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 9128,
+   "histLen": 6,
+   "histState": "object",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16896",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 487
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "n.start@https://mangamad.com/public/iitfwz62rnxt:1:16935",
+      "t.start/e</<@https://mangamad.com/public/iitfwz62rnxt:1:133103",
+      "d@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:13591",
+      "e@https://s3media.247sports.com/Scripts/Bundle/4c216aba5ec8a16628a717f172bc746400dfc478-1793290406/7301.js:2:46673"
+     ],
+     "t": 487
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2076
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 2341
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Xia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "qE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "Jqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js",
+      "QX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610270101/pubads_impl.js"
+     ],
+     "t": 2341
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3937
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "canGoBack",
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "canGoForward",
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3937
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3937
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "X2[_p[347]][_p[481]]/<@https://js.ad-score.com/score.min.js",
+      "X2[_p[347]][_p[481]]@https://js.ad-score.com/score.min.js",
+      "XZ/<@https://js.ad-score.com/score.min.js",
+      "q@https://js.ad-score.com/score.min.js"
+     ],
+     "t": 3937
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": "A",
+     "t": 4933,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/",
+     "userInitiated": true
+    },
+    {
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4933
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4934
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4934
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4934,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    },
+    {
+     "k": "hashchange",
+     "t": 4935,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7554,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 7554
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7554
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7554
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 7554,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    },
+    {
+     "k": "hashchange",
+     "t": 7556,
+     "url": "https://247sports.com/League/NCAA-FB/Teams/"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://247sports.com/League/NCAA-FB/Teams/",
+     "entryIsCurrent": true,
+     "from": "https://247sports.com/League/NCAA-FB/Teams/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "2aaed584-f8af-460e-b5a8-4c3bc48a47b0",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://247sports.com/League/NCAA-FB/Teams/",
+    "urlHash": "8d39dd092165"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 212,
+   "textLen": 13374,
+   "timeOrigin": 1793571668236,
+   "url": "https://247sports.com/League/NCAA-FB/Teams/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8d39dd092165",
+   "titleHash": "b970d5fdbc0a"
+  }
+ ],
+ "plan": {
+  "link": "https://247sports.com/League/NCAA-FB/Teams/",
+  "fragment": "https://247sports.com/League/NCAA-FB/Teams/"
+ },
+ "consent": "text:Accept All",
+ "elapsed": 31.3,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

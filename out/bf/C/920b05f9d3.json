@@ -1,0 +1,631 @@
+{
+ "id": "920b05f9d3",
+ "page": "https://vimeo.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9005,
+   "histLen": 20,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 572,
+     "url": "/"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1533
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9520,
+   "timeOrigin": 1793571441078,
+   "url": "https://vimeo.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Datadog Browser SDK: No storage available for session. We will not send any data."
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    }
+   ],
+   "urlHash": "920b05f9d369",
+   "titleHash": "6d4719e2ddc3"
+  },
+  {
+   "step": "link",
+   "href": "https://vimeo.com/upgrade-plan",
+   "click": "actions",
+   "settle": 2.6,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 54,
+     "url": "/log_in?unified_auth_flow_id=3c296809-a067-4e0a-a99b-2163c13f2e75&auth_surface=pricing&auth_trigger=login&auth_origin_route=%2Fupgrade-plan&auth_surface_type=page&auth_initial_intent=login&auth_attrib"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 80,
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=3c296809-a067-4e0a-a99b-2163c13f"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 386
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 321,
+   "timeOrigin": 1793571447885,
+   "url": "https://vimeo.com/log_in",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "console-error",
+     "e": "Unable to retrieve data from Subscription Plans Api TypeError: NetworkError when attempting to fetch resource. (vimeo.com)"
+    },
+    {
+     "k": "console-error",
+     "e": "Unable to retrieve data from Subscription Plans Api TypeError: NetworkError when attempting to fetch resource. (vimeo.com)"
+    }
+   ],
+   "urlHash": "25c1be1b9387",
+   "titleHash": "fa9a669ee88b"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 9005,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1073
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 1184,
+     "url": "/"
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 9520,
+   "timeOrigin": 1793571449978,
+   "url": "https://vimeo.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "Datadog Browser SDK: No storage available for session. We will not send any data."
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "console-warn",
+     "e": "SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"
+    }
+   ],
+   "urlHash": "920b05f9d369",
+   "titleHash": "6d4719e2ddc3"
+  },
+  {
+   "step": "forward",
+   "settle": 2.6,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 1
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 38,
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=3c296809-a067-4e0a-a99b-2163c13f"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 242
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 304,
+   "timeOrigin": 1793571453693,
+   "url": "https://vimeo.com/log_in",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "25c1be1b9387",
+   "titleHash": "fa9a669ee88b"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "history:replaceState": 1,
+    "no-navigation": 1,
+    "pageshow": 1
+   },
+   "docH": 800,
+   "histLen": 21,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 187,
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=3c296809-a067-4e0a-a99b-2163c13f"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 440
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 304,
+   "timeOrigin": 1793571457014,
+   "url": "https://vimeo.com/log_in",
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "25c1be1b9387",
+   "titleHash": "fa9a669ee88b"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 800,
+   "histLen": 22,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 187,
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=3c296809-a067-4e0a-a99b-2163c13f"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 440
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3042,
+     "url": "https://vimeo.com/log_in"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3042,
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=3c296809-a067-4e0a-a99b-2163c13f"
+    },
+    {
+     "k": "hashchange",
+     "t": 3043,
+     "url": "https://vimeo.com/log_in"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 304,
+   "timeOrigin": 1793571457014,
+   "url": "https://vimeo.com/log_in",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "4f38ff5caf98",
+   "titleHash": "fa9a669ee88b"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "DIV#transcend-consent-manager",
+   "counts": {
+    "hashchange": 2,
+    "history:replaceState": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 800,
+   "histLen": 22,
+   "histState": "object",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 187,
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=3c296809-a067-4e0a-a99b-2163c13f"
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 440
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3042,
+     "url": "https://vimeo.com/log_in"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3042,
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=3c296809-a067-4e0a-a99b-2163c13f"
+    },
+    {
+     "k": "hashchange",
+     "t": 3043,
+     "url": "https://vimeo.com/log_in"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5624,
+     "url": "https://vimeo.com/log_in"
+    },
+    {
+     "k": "hashchange",
+     "t": 5626,
+     "url": "https://vimeo.com/log_in"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 304,
+   "timeOrigin": 1793571457014,
+   "url": "https://vimeo.com/log_in",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "25c1be1b9387",
+   "titleHash": "fa9a669ee88b"
+  }
+ ],
+ "plan": {
+  "link": "https://vimeo.com/upgrade-plan",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 24.4,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

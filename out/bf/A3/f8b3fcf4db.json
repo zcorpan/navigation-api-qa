@@ -1,0 +1,990 @@
+{
+ "id": "f8b3fcf4db",
+ "page": "https://cloud.mail.ru/promo/quota",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://cloud.mail.ru/promo/quota",
+   "readyState": "complete",
+   "timeOrigin": 1793571022992.9,
+   "marker": null,
+   "histLen": 5,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6324,
+   "active": "BODY",
+   "textLen": 4427,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://cloud.mail.ru/promo/quota",
+    "key": "b1a123d9-bc13-4ab6-865b-303db4bbf7c8",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://cloud.mail.ru/promo/quota",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "f8b3fcf4dba3"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Uncaught SyntaxError: Unexpected token '~', \"~\" is not valid JSON",
+     "f": "https://cloud.mail.ru/promo/quota",
+     "l": 1,
+     "t": 62
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": null,
+     "t": 879
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://cloud.mail.ru/promo/quota",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 879,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://cloud.mail.ru/promo/quota",
+     "t": 880
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 891
+    },
+    {
+     "k": "rejection",
+     "e": "null",
+     "t": 1036
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2294
+    }
+   ],
+   "counts": {
+    "error": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "rejection": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "pageerror",
+     "e": "null"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "%c[%s] %s%c%s%c %c%s %o  color: #ccc; 00:02.054 \u274c  text-decoration: underline; font-weight: bold;color: red; error text-decoration: inherit; font-weight: inherit; color: red; \u0412\u044b \u043d\u0435 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u044b. t"
+    }
+   ],
+   "urlHash": "f8b3fcf4dba3",
+   "titleHash": "7d10a06036e2"
+  },
+  {
+   "step": "link",
+   "href": "https://cloud.mail.ru/",
+   "click": "native",
+   "settle": 2.6,
+   "url": "https://cloud.mail.ru/",
+   "readyState": "complete",
+   "timeOrigin": 1793571032412.7,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3071,
+   "active": "BODY",
+   "textLen": 3047,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://cloud.mail.ru/",
+    "key": "1dd697a6-25f2-48ad-8b29-97c6f7fe0733",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://cloud.mail.ru/",
+     "from": "https://cloud.mail.ru/promo/quota",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0b987b7fea5b"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 201
+    },
+    {
+     "k": "error",
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": "https://cloud.mail.ru/",
+     "l": 0,
+     "t": 309
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 556
+    }
+   ],
+   "counts": {
+    "error": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "pageerror",
+     "e": "[metida] XRay not included"
+    }
+   ],
+   "urlHash": "0b987b7fea5b",
+   "titleHash": "e1915bd3a1b4"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://cloud.mail.ru/promo/quota",
+   "readyState": "complete",
+   "timeOrigin": 1793571022992.9,
+   "marker": "m0",
+   "histLen": 6,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 6324,
+   "active": "A",
+   "textLen": 4427,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://cloud.mail.ru/promo/quota",
+    "key": "b1a123d9-bc13-4ab6-865b-303db4bbf7c8",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://cloud.mail.ru/promo/quota",
+     "from": "https://cloud.mail.ru/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "f8b3fcf4dba3"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Uncaught SyntaxError: Unexpected token '~', \"~\" is not valid JSON",
+     "f": "https://cloud.mail.ru/promo/quota",
+     "l": 1,
+     "t": 62
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": null,
+     "t": 879
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://cloud.mail.ru/promo/quota",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 879,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://cloud.mail.ru/promo/quota",
+     "t": 880
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 891
+    },
+    {
+     "k": "rejection",
+     "e": "null",
+     "t": 1036
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2294
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://cloud.mail.ru/",
+     "same": false,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": "A",
+     "t": 9049,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 11810
+    }
+   ],
+   "counts": {
+    "error": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "rejection": 1,
+    "pageshow": 2,
+    "navigate:push": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "null"
+    },
+    {
+     "k": "console-error",
+     "e": "%c[%s] %s%c%s%c %c%s %o  color: #ccc; 00:02.054 \u274c  text-decoration: underline; font-weight: bold;color: red; error text-decoration: inherit; font-weight: inherit; color: red; \u0412\u044b \u043d\u0435 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u044b. t"
+    },
+    {
+     "k": "console-error",
+     "e": "Permissions policy violation: unload is not allowed in this document."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    }
+   ],
+   "urlHash": "f8b3fcf4dba3",
+   "titleHash": "7d10a06036e2"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://cloud.mail.ru/",
+   "readyState": "complete",
+   "timeOrigin": 1793571032412.7,
+   "marker": "m1",
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3071,
+   "active": "BODY",
+   "textLen": 3047,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://cloud.mail.ru/",
+    "key": "1dd697a6-25f2-48ad-8b29-97c6f7fe0733",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://cloud.mail.ru/",
+     "from": "https://cloud.mail.ru/promo/quota",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0b987b7fea5b"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 201
+    },
+    {
+     "k": "error",
+     "e": "ResizeObserver loop completed with undelivered notifications.",
+     "f": "https://cloud.mail.ru/",
+     "l": 0,
+     "t": 309
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 556
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://cloud.mail.ru/promo/quota",
+     "same": false,
+     "canIntercept": false,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": false,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2521,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5277
+    }
+   ],
+   "counts": {
+    "error": 2,
+    "pageshow": 2,
+    "navigate:traverse": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 11554
+     }
+    ],
+    "counts": {
+     "pageshow": 2
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "[metida] XRay not included"
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    }
+   ],
+   "urlHash": "0b987b7fea5b",
+   "titleHash": "e1915bd3a1b4"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://cloud.mail.ru/",
+   "readyState": "complete",
+   "timeOrigin": 1793571040609.3,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3071,
+   "active": "BODY",
+   "textLen": 3047,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://cloud.mail.ru/",
+    "key": "1dd697a6-25f2-48ad-8b29-97c6f7fe0733",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://cloud.mail.ru/",
+     "from": "https://cloud.mail.ru/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0b987b7fea5b"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 123
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 169
+    }
+   ],
+   "counts": {
+    "error": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 5185
+     }
+    ],
+    "counts": {
+     "pageshow": 2
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "console-error",
+     "e": "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+    },
+    {
+     "k": "pageerror",
+     "e": "[metida] XRay not included"
+    }
+   ],
+   "urlHash": "0b987b7fea5b",
+   "titleHash": "e1915bd3a1b4"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://cloud.mail.ru/",
+   "readyState": "complete",
+   "timeOrigin": 1793571040609.3,
+   "marker": "m4",
+   "histLen": 7,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3071,
+   "active": "BODY",
+   "textLen": 3047,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://cloud.mail.ru/",
+    "key": "cb719b8d-2e4c-4684-8313-d07008ff34ec",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://cloud.mail.ru/",
+     "from": "https://cloud.mail.ru/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "f2f3a95a58ab"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 123
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 169
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://cloud.mail.ru/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2851,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://cloud.mail.ru/",
+     "t": 2851
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://cloud.mail.ru/",
+     "t": 2851
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2851
+    },
+    {
+     "k": "hashchange",
+     "url": "https://cloud.mail.ru/",
+     "t": 2852
+    }
+   ],
+   "counts": {
+    "error": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f2f3a95a58ab",
+   "titleHash": "e1915bd3a1b4"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://cloud.mail.ru/",
+   "readyState": "complete",
+   "timeOrigin": 1793571040609.3,
+   "marker": "m5",
+   "histLen": 7,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3071,
+   "active": "BODY",
+   "textLen": 3047,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://cloud.mail.ru/",
+    "key": "1dd697a6-25f2-48ad-8b29-97c6f7fe0733",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://cloud.mail.ru/",
+     "from": "https://cloud.mail.ru/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "0b987b7fea5b"
+   },
+   "log": [
+    {
+     "k": "error",
+     "e": "Script error.",
+     "f": null,
+     "l": 0,
+     "t": 123
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 169
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://cloud.mail.ru/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2851,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://cloud.mail.ru/",
+     "t": 2851
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://cloud.mail.ru/",
+     "t": 2851
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2851
+    },
+    {
+     "k": "hashchange",
+     "url": "https://cloud.mail.ru/",
+     "t": 2852
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://cloud.mail.ru/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5474,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://cloud.mail.ru/",
+     "t": 5474
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5474
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://cloud.mail.ru/",
+     "t": 5474
+    },
+    {
+     "k": "hashchange",
+     "url": "https://cloud.mail.ru/",
+     "t": 5474
+    }
+   ],
+   "counts": {
+    "error": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "0b987b7fea5b",
+   "titleHash": "e1915bd3a1b4"
+  }
+ ],
+ "plan": {
+  "link": "https://cloud.mail.ru/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "text:Accept all",
+ "elapsed": 26.0,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A3"
+}

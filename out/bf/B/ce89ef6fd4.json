@@ -1,0 +1,1382 @@
+{
+ "id": "ce89ef6fd4",
+ "page": "https://sudoku.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY#body",
+   "counts": {
+    "call:entries": 2,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1
+   },
+   "docH": 2263,
+   "histLen": 36,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "nf@https://sudoku.com/build/ref-game.8da14029.js:26:46836",
+      "ng@https://sudoku.com/build/ref-game.8da14029.js:26:47672",
+      "62205@https://sudoku.com/build/ref-game.8da14029.js:26:56279",
+      "t@https://sudoku.com/build/runtime.16cb17ad.js:1:141"
+     ],
+     "t": 42
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "62205/e.prototype.installRedirectProtection@https://sudoku.com/build/ref-game.8da14029.js:26:87576",
+      "e@https://sudoku.com/build/ref-game.8da14029.js:26:56366",
+      "t@https://sudoku.com/build/ref-game.8da14029.js:56:30543",
+      "4278@https://sudoku.com/build/ref-game.8da14029.js:56:30506"
+     ],
+     "t": 42
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 44
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 1,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 200
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 233
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 233
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://sudoku.com/",
+     "entryIsCurrent": true,
+     "from": "https://sudoku.com/",
+     "type": "reload"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "a520ca23-9202-4c5e-b65f-1f099040350d",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://sudoku.com/",
+    "urlHash": "ce89ef6fd49d"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "interactive",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3410,
+   "timeOrigin": 1793571914630,
+   "url": "https://sudoku.com/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "ADS ERROR Object(3)"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_fbp\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "fun-hooks: referenced 'registerAdserver' but it was never created"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571915225_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571915225_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571915227_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571915227_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571915228_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571915228_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/envelope (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 401."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    }
+   ],
+   "urlHash": "ce89ef6fd49d",
+   "titleHash": "548033c141f0"
+  },
+  {
+   "step": "link",
+   "href": "https://sudoku.com/killer",
+   "click": "actions",
+   "settle": 3.3,
+   "active": "BODY#body",
+   "counts": {
+    "call:entries": 2,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2985,
+   "histLen": 37,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "nf@https://sudoku.com/build/ref-game.8da14029.js:26:46836",
+      "ng@https://sudoku.com/build/ref-game.8da14029.js:26:47672",
+      "62205@https://sudoku.com/build/ref-game.8da14029.js:26:56279",
+      "t@https://sudoku.com/build/runtime.16cb17ad.js:1:141"
+     ],
+     "t": 34
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "62205/e.prototype.installRedirectProtection@https://sudoku.com/build/ref-game.8da14029.js:26:87576",
+      "e@https://sudoku.com/build/ref-game.8da14029.js:26:56366",
+      "t@https://sudoku.com/build/ref-game.8da14029.js:56:30543",
+      "4278@https://sudoku.com/build/ref-game.8da14029.js:56:30506"
+     ],
+     "t": 34
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 89
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 93
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 125
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 125
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1767
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "entryIsCurrent": true,
+     "from": "https://sudoku.com/",
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "df689bec-acea-4ea4-a81d-eb7075bca7ee",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://sudoku.com/killer",
+    "urlHash": "9de23868b84b"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3816,
+   "timeOrigin": 1793571927192,
+   "url": "https://sudoku.com/killer",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "fun-hooks: referenced 'registerAdserver' but it was never created"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571928248_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571928248_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571928249_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571928249_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    }
+   ],
+   "urlHash": "9de23868b84b",
+   "titleHash": "2f796c278e4e"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "active": "BODY#body",
+   "counts": {
+    "call:entries": 2,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2263,
+   "histLen": 37,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "nf@https://sudoku.com/build/ref-game.8da14029.js:26:46836",
+      "ng@https://sudoku.com/build/ref-game.8da14029.js:26:47672",
+      "62205@https://sudoku.com/build/ref-game.8da14029.js:26:56279",
+      "t@https://sudoku.com/build/runtime.16cb17ad.js:1:141"
+     ],
+     "t": 28
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "62205/e.prototype.installRedirectProtection@https://sudoku.com/build/ref-game.8da14029.js:26:87576",
+      "e@https://sudoku.com/build/ref-game.8da14029.js:26:56366",
+      "t@https://sudoku.com/build/ref-game.8da14029.js:56:30543",
+      "4278@https://sudoku.com/build/ref-game.8da14029.js:56:30506"
+     ],
+     "t": 28
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 30
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 79
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 103
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 136
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 136
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://sudoku.com/",
+     "entryIsCurrent": true,
+     "from": "https://sudoku.com/killer",
+     "type": "traverse"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "a520ca23-9202-4c5e-b65f-1f099040350d",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://sudoku.com/",
+    "urlHash": "ce89ef6fd49d"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3410,
+   "timeOrigin": 1793571930551,
+   "url": "https://sudoku.com/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "fun-hooks: referenced 'registerAdserver' but it was never created"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571931185_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571931185_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571931186_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571931186_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    }
+   ],
+   "urlHash": "ce89ef6fd49d",
+   "titleHash": "548033c141f0"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY#body",
+   "counts": {
+    "call:entries": 3,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:traverse": 1,
+    "pageshow": 2
+   },
+   "docH": 2916,
+   "histLen": 37,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "nf@https://sudoku.com/build/ref-game.8da14029.js:26:46836",
+      "ng@https://sudoku.com/build/ref-game.8da14029.js:26:47672",
+      "62205@https://sudoku.com/build/ref-game.8da14029.js:26:56279",
+      "t@https://sudoku.com/build/runtime.16cb17ad.js:1:141"
+     ],
+     "t": 34
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "62205/e.prototype.installRedirectProtection@https://sudoku.com/build/ref-game.8da14029.js:26:87576",
+      "e@https://sudoku.com/build/ref-game.8da14029.js:26:56366",
+      "t@https://sudoku.com/build/ref-game.8da14029.js:56:30543",
+      "4278@https://sudoku.com/build/ref-game.8da14029.js:56:30506"
+     ],
+     "t": 34
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 89
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 93
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 125
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 125
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1767
+    },
+    {
+     "canIntercept": false,
+     "cancelable": false,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": false,
+     "src": null,
+     "t": 2941,
+     "url": "https://sudoku.com/",
+     "userInitiated": false
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 2950
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5740
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "entryIsCurrent": true,
+     "from": "https://sudoku.com/",
+     "type": "traverse"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "df689bec-acea-4ea4-a81d-eb7075bca7ee",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://sudoku.com/killer",
+    "urlHash": "9de23868b84b"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3816,
+   "timeOrigin": 1793571927192,
+   "url": "https://sudoku.com/killer",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "fun-hooks: referenced 'registerAdserver' but it was never created"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571928249_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571928249_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    }
+   ],
+   "urlHash": "9de23868b84b",
+   "titleHash": "2f796c278e4e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY#body",
+   "counts": {
+    "call:entries": 2,
+    "get:currentEntry": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2985,
+   "histLen": 37,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "nf@https://sudoku.com/build/ref-game.8da14029.js:26:46836",
+      "ng@https://sudoku.com/build/ref-game.8da14029.js:26:47672",
+      "62205@https://sudoku.com/build/ref-game.8da14029.js:26:56279",
+      "t@https://sudoku.com/build/runtime.16cb17ad.js:1:141"
+     ],
+     "t": 118
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "62205/e.prototype.installRedirectProtection@https://sudoku.com/build/ref-game.8da14029.js:26:87576",
+      "e@https://sudoku.com/build/ref-game.8da14029.js:26:56366",
+      "t@https://sudoku.com/build/ref-game.8da14029.js:56:30543",
+      "4278@https://sudoku.com/build/ref-game.8da14029.js:56:30506"
+     ],
+     "t": 118
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 163
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 240
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 240
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 285
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1650
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "entryIsCurrent": true,
+     "from": "https://sudoku.com/killer",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "df689bec-acea-4ea4-a81d-eb7075bca7ee",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://sudoku.com/killer",
+    "urlHash": "9de23868b84b"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3816,
+   "timeOrigin": 1793571935941,
+   "url": "https://sudoku.com/killer",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "fun-hooks: referenced 'registerAdserver' but it was never created"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571936851_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571936851_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571936852_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201c_gd1793571936852_sharedId\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-warn",
+     "e": "This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead."
+    },
+    {
+     "k": "console-error",
+     "e": "ADS ERROR Object(3)"
+    }
+   ],
+   "urlHash": "9de23868b84b",
+   "titleHash": "2f796c278e4e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY#body",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:push": 1,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 2985,
+   "histLen": 38,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "nf@https://sudoku.com/build/ref-game.8da14029.js:26:46836",
+      "ng@https://sudoku.com/build/ref-game.8da14029.js:26:47672",
+      "62205@https://sudoku.com/build/ref-game.8da14029.js:26:56279",
+      "t@https://sudoku.com/build/runtime.16cb17ad.js:1:141"
+     ],
+     "t": 118
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "62205/e.prototype.installRedirectProtection@https://sudoku.com/build/ref-game.8da14029.js:26:87576",
+      "e@https://sudoku.com/build/ref-game.8da14029.js:26:56366",
+      "t@https://sudoku.com/build/ref-game.8da14029.js:56:30543",
+      "4278@https://sudoku.com/build/ref-game.8da14029.js:56:30506"
+     ],
+     "t": 118
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 163
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 240
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 240
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 285
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1650
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4255,
+     "url": "https://sudoku.com/killer",
+     "userInitiated": false
+    },
+    {
+     "from": "https://sudoku.com/killer",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4255
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4255,
+     "url": "https://sudoku.com/killer"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4257
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4257
+    },
+    {
+     "k": "hashchange",
+     "t": 4257,
+     "url": "https://sudoku.com/killer"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "entryIsCurrent": false,
+     "from": "https://sudoku.com/killer",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "5fe65ab9-75cc-4166-b66b-c4f48308526a",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://sudoku.com/killer",
+    "urlHash": "8c509824399e"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3816,
+   "timeOrigin": 1793571935941,
+   "url": "https://sudoku.com/killer",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "8c509824399e",
+   "titleHash": "2f796c278e4e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.6,
+   "active": "BODY#body",
+   "counts": {
+    "call:entries": 2,
+    "currententrychange:push": 1,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 3,
+    "hashchange": 2,
+    "listen:navigate": 2,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:traverse": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 2985,
+   "histLen": 38,
+   "histState": "null",
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "nf@https://sudoku.com/build/ref-game.8da14029.js:26:46836",
+      "ng@https://sudoku.com/build/ref-game.8da14029.js:26:47672",
+      "62205@https://sudoku.com/build/ref-game.8da14029.js:26:56279",
+      "t@https://sudoku.com/build/runtime.16cb17ad.js:1:141"
+     ],
+     "t": 118
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "62205/e.prototype.installRedirectProtection@https://sudoku.com/build/ref-game.8da14029.js:26:87576",
+      "e@https://sudoku.com/build/ref-game.8da14029.js:26:56366",
+      "t@https://sudoku.com/build/ref-game.8da14029.js:56:30543",
+      "4278@https://sudoku.com/build/ref-game.8da14029.js:56:30506"
+     ],
+     "t": 118
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 163
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 240
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "Kia@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31135",
+      "jE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:31298",
+      "xqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:287245",
+      "WX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610260101/pubads_impl.js:23:41900"
+     ],
+     "t": 240
+    },
+    {
+     "a": null,
+     "k": "call",
+     "len": 2,
+     "m": "entries",
+     "s": [
+      "it@https://www.googletagmanager.com/gtag/js",
+      "jt@https://www.googletagmanager.com/gtag/js",
+      "NG@https://www.googletagmanager.com/gtag/js",
+      "QG@https://www.googletagmanager.com/gtag/js"
+     ],
+     "t": 285
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1650
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 4255,
+     "url": "https://sudoku.com/killer",
+     "userInitiated": false
+    },
+    {
+     "from": "https://sudoku.com/killer",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 4255
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 4255,
+     "url": "https://sudoku.com/killer"
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 4257
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 4257
+    },
+    {
+     "k": "hashchange",
+     "t": 4257,
+     "url": "https://sudoku.com/killer"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 6846,
+     "url": "https://sudoku.com/killer",
+     "userInitiated": false
+    },
+    {
+     "from": "https://sudoku.com/killer",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 6846
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 6846
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 6846
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 6846,
+     "url": "https://sudoku.com/killer"
+    },
+    {
+     "k": "hashchange",
+     "t": 6852,
+     "url": "https://sudoku.com/killer"
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://sudoku.com/killer",
+     "entryIsCurrent": true,
+     "from": "https://sudoku.com/killer",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "df689bec-acea-4ea4-a81d-eb7075bca7ee",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://sudoku.com/killer",
+    "urlHash": "9de23868b84b"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3816,
+   "timeOrigin": 1793571935941,
+   "url": "https://sudoku.com/killer",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9de23868b84b",
+   "titleHash": "2f796c278e4e"
+  }
+ ],
+ "plan": {
+  "link": "https://sudoku.com/killer",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#truste-consent-button",
+ "elapsed": 35.8,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

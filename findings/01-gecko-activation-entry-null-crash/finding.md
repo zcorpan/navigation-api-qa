@@ -49,15 +49,16 @@ reads `navigation.activation` and `navigation.activation.entry` and posts the re
   `nsWrapperCache::GetWrapperMaybeDead`, frame 1 `NavigationActivation_Binding::get_entry`
   (e.g. https://crash-stats.mozilla.org/report/index/9dd27c8b-75e0-4ad7-b1d6-31b080261101,
   Fenix 159.0). Mostly release (96), mostly Android (81).
-- Scripts that read `navigation.activation.entry`: Next.js's app router (`hasMissedTraversal()` in
-  `packages/next/src/client/components/app-router.tsx`) and 64 desktop top-10k pages in the
-  HTTP Archive sample (`activation-read` and `nextjs-activation` strata in
-  `queries/02-sample10k-pages.csv`). Any of them in an opaque-origin document (sandboxed iframe
-  without `allow-same-origin`, or a page served with CSP `sandbox`) that is reached by a traversal
-  crashes the tab.
-- In this run the harness itself hit it on 20 Firefox (API on) visits and 0 Firefox (API off)
-  visits, each time when a back landed on `about:blank` and the harness read
-  `activation.entry` (`data/crash/`).
+- Scripts that read `navigation.activation`: 237 client-pages in the HTTP Archive 10k sample
+  (`data/feature-usage.txt`), including Next.js's app router, which reads `activation.entry` in
+  `hasMissedTraversal()` (`packages/next/src/client/components/app-router.tsx`; 133 client-pages,
+  `nextjs-activation` in `queries/02-sample10k-pages.csv`). Any of them in an opaque-origin
+  document (sandboxed iframe without `allow-same-origin`, or a page served with CSP `sandbox`) that
+  is reached by a traversal would crash the tab.
+- In this run the harness itself hit it whenever a back landed on `about:blank` and it read
+  `activation.entry`: rerunning 17 affected pages one per fresh session, Firefox (API on) died on
+  14; with the read skipped in opaque-origin documents, on 0 (3 network errors); Firefox (API off)
+  on 0 (3 network errors) (`data/crash/`).
 
 ## Existing reports
 

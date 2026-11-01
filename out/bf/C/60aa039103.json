@@ -1,0 +1,587 @@
+{
+ "id": "60aa039103",
+ "page": "https://www.xfinity.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 2
+   },
+   "docH": 5661,
+   "histLen": 4,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 431
+    },
+    {
+     "e": "ReferenceError: dataLayer is not defined",
+     "k": "rejection",
+     "t": 853
+    },
+    {
+     "e": "ReferenceError: dataLayer is not defined",
+     "k": "rejection",
+     "t": 877
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3965,
+   "timeOrigin": 1793571916604,
+   "url": "https://www.xfinity.com/national/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cTiPMix\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cx-ms-routing-name\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cTiPMix\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cx-ms-routing-name\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: dataLayer is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: dataLayer is not defined"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://fid.agkn.com/f (Reason: CORS header \u2018Access-Control-Allow-Origin\u2019 missing). Status code: 403."
+    },
+    {
+     "k": "console-error",
+     "e": "TransUnion error: TypeError: NetworkError when attempting to fetch resource."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://fid.agkn.com/f (Reason: CORS request did not succeed). Status code: (null)."
+    },
+    {
+     "k": "console-warn",
+     "e": "Pinterest Tag Warning: 'New_Pagevisit' is not a standard event name. In order to use it in Pinterest services, please go to event overview page and select as custom event."
+    },
+    {
+     "k": "console-warn",
+     "e": "[XAUI_WIDGET]: Unsupported message type sent to widget [LOADED] object"
+    },
+    {
+     "k": "console-warn",
+     "e": "[Meta Pixel] - Pixel track not found"
+    }
+   ],
+   "urlHash": "272b832dbb77",
+   "titleHash": "f815635168ef"
+  },
+  {
+   "step": "link",
+   "href": "https://www.xfinity.com/digital/offers/plan-builder",
+   "click": "actions",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 932,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 93
+    },
+    {
+     "e": "ReferenceError: dataLayer is not defined",
+     "k": "rejection",
+     "t": 244
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 110,
+   "timeOrigin": 1793571924791,
+   "url": "https://www.xfinity.com/planbuilder",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cADRUM\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "Cart error: `salesSessionId` required"
+    },
+    {
+     "k": "console-warn",
+     "e": "Pinterest Tag Warning: 'New_Pagevisit' is not a standard event name. In order to use it in Pinterest services, please go to event overview page and select as custom event."
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: dataLayer is not defined"
+    }
+   ],
+   "urlHash": "2d4a5fc28e0c",
+   "titleHash": "1b84c8c7262e"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 932,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 107
+    },
+    {
+     "e": "ReferenceError: dataLayer is not defined",
+     "k": "rejection",
+     "t": 246
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 110,
+   "timeOrigin": 1793571927188,
+   "url": "https://www.xfinity.com/planbuilder",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cADRUM\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-error",
+     "e": "Cart error: `salesSessionId` required"
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "pageerror",
+     "e": "AbortError: The operation was aborted. "
+    },
+    {
+     "k": "console-warn",
+     "e": "Pinterest Tag Warning: 'New_Pagevisit' is not a standard event name. In order to use it in Pinterest services, please go to event overview page and select as custom event."
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: dataLayer is not defined"
+    }
+   ],
+   "urlHash": "2d4a5fc28e0c",
+   "titleHash": "1b84c8c7262e"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 932,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 107
+    },
+    {
+     "e": "ReferenceError: dataLayer is not defined",
+     "k": "rejection",
+     "t": 246
+    }
+   ],
+   "marker": "m2",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 110,
+   "timeOrigin": 1793571927188,
+   "url": "https://www.xfinity.com/planbuilder",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "2d4a5fc28e0c",
+   "titleHash": "1b84c8c7262e"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "no-navigation": 1,
+    "pageshow": 1,
+    "rejection": 1
+   },
+   "docH": 932,
+   "histLen": 6,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 197
+    },
+    {
+     "e": "ReferenceError: dataLayer is not defined",
+     "k": "rejection",
+     "t": 385
+    }
+   ],
+   "marker": null,
+   "nav": null,
+   "prev": {
+    "counts": {
+     "no-navigation": 1,
+     "pageshow": 1
+    },
+    "log": [
+     {
+      "k": "no-navigation",
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": -1
+     }
+    ],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 110,
+   "timeOrigin": 1793571932300,
+   "url": "https://www.xfinity.com/planbuilder",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201cADRUM\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "ReferenceError: dataLayer is not defined"
+    },
+    {
+     "k": "console-warn",
+     "e": "Pinterest Tag Warning: 'New_Pagevisit' is not a standard event name. In order to use it in Pinterest services, please go to event overview page and select as custom event."
+    }
+   ],
+   "urlHash": "2d4a5fc28e0c",
+   "titleHash": "1b84c8c7262e"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 1,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 1,
+    "rejection": 1
+   },
+   "docH": 932,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 197
+    },
+    {
+     "e": "ReferenceError: dataLayer is not defined",
+     "k": "rejection",
+     "t": 385
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2775,
+     "url": "https://www.xfinity.com/planbuilder"
+    },
+    {
+     "k": "hashchange",
+     "t": 2778,
+     "url": "https://www.xfinity.com/planbuilder"
+    }
+   ],
+   "marker": "m4",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 110,
+   "timeOrigin": 1793571932300,
+   "url": "https://www.xfinity.com/planbuilder",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "3b6b15f7ebfe",
+   "titleHash": "1b84c8c7262e"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "hashchange": 2,
+    "no-navigation": 1,
+    "pageshow": 1,
+    "popstate": 2,
+    "rejection": 1
+   },
+   "docH": 932,
+   "histLen": 7,
+   "histState": "null",
+   "log": [
+    {
+     "k": "no-navigation",
+     "t": 0
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 197
+    },
+    {
+     "e": "ReferenceError: dataLayer is not defined",
+     "k": "rejection",
+     "t": 385
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 2775,
+     "url": "https://www.xfinity.com/planbuilder"
+    },
+    {
+     "k": "hashchange",
+     "t": 2778,
+     "url": "https://www.xfinity.com/planbuilder"
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5341,
+     "url": "https://www.xfinity.com/planbuilder"
+    },
+    {
+     "k": "hashchange",
+     "t": 5344,
+     "url": "https://www.xfinity.com/planbuilder"
+    }
+   ],
+   "marker": "m5",
+   "nav": null,
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 110,
+   "timeOrigin": 1793571932300,
+   "url": "https://www.xfinity.com/planbuilder",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "2d4a5fc28e0c",
+   "titleHash": "1b84c8c7262e"
+  }
+ ],
+ "plan": {
+  "link": "https://www.xfinity.com/digital/offers/plan-builder",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 23.7,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "C"
+}

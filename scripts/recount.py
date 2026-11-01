@@ -69,3 +69,24 @@ for b in ('b1', 'b2'):
     fl = json.load(open(f'out/{b}/flags.json'))
     bc = sum(1 for f in fl if any(d['setup'] == 'B' and d.get('C_same_as_A') for d in f['diffs']))
     print(f'  {b}: {len(fl)} pages compared, {bc} with a Firefox diff the API-off control does not share')
+
+print('\n## bfcache on back/forward (pageshow persisted), per setup')
+src = open('analyze_nav.py').read().replace('\nmain()\n', '\n')
+an = {}
+exec(compile(src, 'analyze_nav.py', 'exec'), an)
+for label, dirs in [('batches 1+2', [('A', 'out/b1/A'), ('A', 'out/b2/A'), ('B', 'out/b1/B'), ('B', 'out/b2/B'), ('C', 'out/b1/C'), ('C', 'out/b2/C'), ('D', 'out/b1/D'), ('D', 'out/b2/D')]),
+                    ('bf (80 pages, pointer-action clicks; A3 = Chrome with bfcache)', [('A3', 'out/bf/A3'), ('B', 'out/bf/B'), ('C', 'out/bf/C')])]:
+    cnt = collections.Counter()
+    for s, d in dirs:
+        for f in glob.glob(f'{d}/*.json'):
+            r = json.load(open(f))
+            if r.get('error'):
+                continue
+            fe = an['features'](r)[0]
+            for st in ('back', 'forward'):
+                v = (fe.get(st) or {}).get('bfcache')
+                if v is not None:
+                    cnt[(s, st, v)] += 1
+    print(' ', label)
+    for s in sorted({k[0] for k in cnt}):
+        print('    ', s, {st: f'{cnt[(s, st, True)]}/{cnt[(s, st, True)] + cnt[(s, st, False)]}' for st in ('back', 'forward')})

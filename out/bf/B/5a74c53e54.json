@@ -1,0 +1,1515 @@
+{
+ "id": "5a74c53e54",
+ "page": "https://www.livescore.com/",
+ "steps": [
+  {
+   "step": "load",
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 2812,
+   "histLen": 1,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 95,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 96,
+     "url": "https://www.livescore.com/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 96
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 96
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 164
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:705201",
+      "s@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:402"
+     ],
+     "t": 364
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5141
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 5141
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.livescore.com/en/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": false,
+    "idx": 0,
+    "key": "5b4e8ca8-abc2-443f-aaf5-4631ec45317a",
+    "len": 1,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.livescore.com/en/",
+    "urlHash": "734bd1a4ae1b"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 2486,
+   "timeOrigin": 1793571643456,
+   "url": "https://www.livescore.com/en/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-error",
+     "e": "ERROR - (ox_esp) Call to OX failedSyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201csa-user-id-v2\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "734bd1a4ae1b",
+   "titleHash": "7be34720c53e"
+  },
+  {
+   "step": "link",
+   "href": "https://www.livescore.com/en/news/",
+   "click": "actions",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 1,
+    "get:currentEntry": 2,
+    "history:pushState": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1
+   },
+   "docH": 3251,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 95,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 96,
+     "url": "https://www.livescore.com/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 96
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 96
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 164
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:705201",
+      "s@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:402"
+     ],
+     "t": 364
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5141
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 5141
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7573,
+     "url": "/en/news/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7573,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 7574
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7575
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7575
+    }
+   ],
+   "marker": "m0",
+   "nav": {
+    "activation": {
+     "entry": "https://www.livescore.com/en/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "f3692f28-f250-4aad-a4ee-446cb4fac013",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.livescore.com/en/news/",
+    "urlHash": "854128083d1a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4084,
+   "timeOrigin": 1793571643456,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "active": "A",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 4,
+    "history:pushState": 1,
+    "history:replaceState": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigate:traverse": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3223,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 95,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 96,
+     "url": "https://www.livescore.com/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 96
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 96
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 164
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:705201",
+      "s@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:402"
+     ],
+     "t": 364
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5141
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 5141
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7573,
+     "url": "/en/news/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7573,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 7574
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7575
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7575
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10101,
+     "url": "https://www.livescore.com/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 10102
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10102
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10102
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10102,
+     "url": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 10463,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10463,
+     "url": "https://www.livescore.com/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 10463
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10464
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10464
+    }
+   ],
+   "marker": "m1",
+   "nav": {
+    "activation": {
+     "entry": "https://www.livescore.com/en/",
+     "entryIsCurrent": true,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": false,
+    "canGoForward": true,
+    "idx": 0,
+    "key": "5b4e8ca8-abc2-443f-aaf5-4631ec45317a",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.livescore.com/en/",
+    "urlHash": "734bd1a4ae1b"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 3131,
+   "timeOrigin": 1793571643456,
+   "url": "https://www.livescore.com/en/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "734bd1a4ae1b",
+   "titleHash": "7be34720c53e"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "active": "A",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "currententrychange:traverse": 2,
+    "get:currentEntry": 6,
+    "history:pushState": 1,
+    "history:replaceState": 3,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigate:traverse": 2,
+    "navigatesuccess": 6,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3251,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 95,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 96,
+     "url": "https://www.livescore.com/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 96
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 96
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 164
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:705201",
+      "s@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:402"
+     ],
+     "t": 364
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5141
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "wja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "hra<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js",
+      "FX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610290101/pubads_impl.js"
+     ],
+     "t": 5141
+    },
+    {
+     "k": "history",
+     "m": "pushState",
+     "t": 7573,
+     "url": "/en/news/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 7573,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 7574
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 7575
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 7575
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10101,
+     "url": "https://www.livescore.com/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 10102
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10102
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10102
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 10102,
+     "url": "https://www.livescore.com/en/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 10463,
+     "url": "/en/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 10463,
+     "url": "https://www.livescore.com/en/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 10463
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 10464
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 10464
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 13018,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 13019
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 13019
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13019
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 13019,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 13321,
+     "url": "/en/news/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 13321,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 13322
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 13322
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 13323
+    }
+   ],
+   "marker": "m2",
+   "nav": {
+    "activation": {
+     "entry": "https://www.livescore.com/en/",
+     "entryIsCurrent": false,
+     "from": null,
+     "type": "push"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "f3692f28-f250-4aad-a4ee-446cb4fac013",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.livescore.com/en/news/",
+    "urlHash": "854128083d1a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4084,
+   "timeOrigin": 1793571643456,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "reload",
+   "settle": 2.6,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:replace": 1,
+    "get:currentEntry": 1,
+    "history:replaceState": 1,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "docH": 3251,
+   "histLen": 2,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 174,
+     "url": "/en/news/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 174,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 174
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 174
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:705201",
+      "s@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:402"
+     ],
+     "t": 221
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 446
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 446
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 518
+    }
+   ],
+   "marker": null,
+   "nav": {
+    "activation": {
+     "entry": "https://www.livescore.com/en/news/",
+     "entryIsCurrent": true,
+     "from": "https://www.livescore.com/en/news/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 1,
+    "key": "f3692f28-f250-4aad-a4ee-446cb4fac013",
+    "len": 2,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.livescore.com/en/news/",
+    "urlHash": "854128083d1a"
+   },
+   "prev": {
+    "counts": {},
+    "log": [],
+    "url": "about:blank"
+   },
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4030,
+   "timeOrigin": 1793571659549,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "console-warn",
+     "e": "[GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message"
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bundle\u201d has been rejected for invalid domain."
+    },
+    {
+     "k": "pageerror",
+     "e": "Cookie \u201ccto_bidid\u201d has been rejected for invalid domain."
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 2,
+    "get:currentEntry": 2,
+    "hashchange": 1,
+    "history:replaceState": 2,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 2,
+    "navigateerror": 1,
+    "navigatesuccess": 2,
+    "pageshow": 1,
+    "popstate": 1
+   },
+   "docH": 3251,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 174,
+     "url": "/en/news/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 174,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 174
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 174
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:705201",
+      "s@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:402"
+     ],
+     "t": 221
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 446
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 446
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 518
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3174,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3175
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3175,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3175,
+     "url": "/en/news/#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 3175
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3175,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3175
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3175
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3175
+    },
+    {
+     "k": "hashchange",
+     "t": 3175,
+     "url": "https://www.livescore.com/en/news/"
+    }
+   ],
+   "marker": "m4",
+   "nav": {
+    "activation": {
+     "entry": "https://www.livescore.com/en/news/",
+     "entryIsCurrent": false,
+     "from": "https://www.livescore.com/en/news/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": false,
+    "idx": 2,
+    "key": "d13b261f-b830-4aac-938c-7cc0a93f43d2",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.livescore.com/en/news/",
+    "urlHash": "a201f2da02e6"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4030,
+   "timeOrigin": 1793571659549,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "a201f2da02e6",
+   "titleHash": "12dd3c29e82f"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "active": "BODY",
+   "counts": {
+    "currententrychange:push": 1,
+    "currententrychange:replace": 3,
+    "currententrychange:traverse": 1,
+    "get:currentEntry": 4,
+    "hashchange": 2,
+    "history:replaceState": 3,
+    "listen:navigate": 1,
+    "listen:navigatesuccess": 1,
+    "navigate:push": 1,
+    "navigate:replace": 3,
+    "navigate:traverse": 1,
+    "navigateerror": 1,
+    "navigatesuccess": 4,
+    "pageshow": 1,
+    "popstate": 2
+   },
+   "docH": 3251,
+   "histLen": 3,
+   "histState": "object",
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 174,
+     "url": "/en/news/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 174,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 174
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 174
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "window.rumRunner/<[48]<@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:705201",
+      "s@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:219",
+      "r@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:386",
+      "createInstance@https://rumcdn.geoedge.be/bfff1eda-fef0-483e-807e-9fb5607a4c06/grumi.js:7:402"
+     ],
+     "t": 221
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 446
+    },
+    {
+     "k": "listen",
+     "m": "navigatesuccess",
+     "s": [
+      "nja@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "CE@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "Zqa<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js",
+      "HX.prototype.J@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js"
+     ],
+     "t": 446
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 518
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "push",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3174,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "push",
+     "t": 3175
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 3175,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 3175,
+     "url": "/en/news/#navqa-frag"
+    },
+    {
+     "e": "AbortError: The operation was aborted. ",
+     "k": "navigateerror",
+     "t": 3175
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 3175,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 3175
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3175
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 3175
+    },
+    {
+     "k": "hashchange",
+     "t": 3175,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": true,
+     "info": null,
+     "k": "navigate",
+     "m": "traverse",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5782,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "traverse",
+     "t": 5782
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5782
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5782
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "t": 5782,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "hashchange",
+     "t": 5799,
+     "url": "https://www.livescore.com/en/news/"
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "t": 5801,
+     "url": "/en/news/"
+    },
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "download": null,
+     "form": false,
+     "hashChange": false,
+     "info": null,
+     "k": "navigate",
+     "m": "replace",
+     "prevented": false,
+     "same": true,
+     "src": null,
+     "t": 5801,
+     "url": "https://www.livescore.com/en/news/",
+     "userInitiated": false
+    },
+    {
+     "from": "https://www.livescore.com/en/news/",
+     "k": "currententrychange",
+     "m": "replace",
+     "t": 5801
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5802
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 5802
+    }
+   ],
+   "marker": "m5",
+   "nav": {
+    "activation": {
+     "entry": "https://www.livescore.com/en/news/",
+     "entryIsCurrent": true,
+     "from": "https://www.livescore.com/en/news/",
+     "type": "reload"
+    },
+    "canGoBack": true,
+    "canGoForward": true,
+    "idx": 1,
+    "key": "f3692f28-f250-4aad-a4ee-446cb4fac013",
+    "len": 3,
+    "sameDoc": true,
+    "transition": null,
+    "url": "https://www.livescore.com/en/news/",
+    "urlHash": "854128083d1a"
+   },
+   "prev": null,
+   "readyState": "complete",
+   "scrollX": 0,
+   "scrollY": 0,
+   "textLen": 4030,
+   "timeOrigin": 1793571659549,
+   "url": "https://www.livescore.com/en/news/",
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warn",
+     "e": "[GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {}\nhttps://goo.gle/gpt-message"
+    }
+   ],
+   "urlHash": "854128083d1a",
+   "titleHash": "12dd3c29e82f"
+  }
+ ],
+ "plan": {
+  "link": "https://www.livescore.com/en/news/",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#onetrust-accept-btn-handler",
+ "elapsed": 24.9,
+ "browser": "Firefox Nightly 161.0a1",
+ "setup": "B"
+}

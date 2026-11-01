@@ -1,0 +1,1084 @@
+{
+ "id": "920b05f9d3",
+ "page": "https://vimeo.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://vimeo.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793570274657.1,
+   "marker": null,
+   "histLen": 23,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 9002,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 9520,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://vimeo.com/",
+    "key": "a2372b6c-fc12-4d5f-b4a2-84a2eb92f511",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://vimeo.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "920b05f9d369"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at nE (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at nK (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 219
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at nE (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at nK (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 219
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 1502
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1502,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/",
+     "t": 1502
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1710
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 2016
+    }
+   ],
+   "counts": {
+    "listen:navigate": 1,
+    "listen:currententrychange": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Allow attribute will take precedence over 'allowfullscreen'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "Datadog Browser SDK: No storage available for session. We will not send any data."
+    }
+   ],
+   "urlHash": "920b05f9d369",
+   "titleHash": "6d4719e2ddc3"
+  },
+  {
+   "step": "link",
+   "href": "https://vimeo.com/upgrade-plan",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://vimeo.com/log_in",
+   "readyState": "complete",
+   "timeOrigin": 1793570281519.1,
+   "marker": null,
+   "histLen": 24,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 321,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://vimeo.com/log_in",
+    "key": "31b14586-a4e2-497e-b03f-1fdabb1ed807",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "replace",
+     "entry": "https://vimeo.com/log_in",
+     "from": "https://vimeo.com/upgrade-plan",
+     "entryIsCurrent": true
+    },
+    "urlHash": "04605e2f7a4a"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/log_in?unified_auth_flow_id=5869c11b-b188-45bf-9bf4-5a7c47bf6fa5&auth_surface=pricing&auth_trigger=login&auth_origin_route=%2Fupgrade-plan&auth_surface_type=page&auth_initial_intent=login&auth_attrib",
+     "t": 47
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 47,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/log_in",
+     "t": 47
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 47
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=5869c11b-b188-45bf-9bf4-5a7c47bf",
+     "t": 74
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 74,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/log_in",
+     "t": 74
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 74
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at Vz (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at Vu (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 84
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at Vz (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at Vu (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 84
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 339
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "listen:navigate": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "pageerror",
+     "e": "Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 401 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 401 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "04605e2f7a4a",
+   "titleHash": "fa9a669ee88b"
+  },
+  {
+   "step": "back",
+   "settle": 2.6,
+   "url": "https://vimeo.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793570283662.7,
+   "marker": null,
+   "histLen": 24,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 9002,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 9520,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://vimeo.com/",
+    "key": "a2372b6c-fc12-4d5f-b4a2-84a2eb92f511",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://vimeo.com/",
+     "from": "https://vimeo.com/log_in",
+     "entryIsCurrent": true
+    },
+    "urlHash": "920b05f9d369"
+   },
+   "log": [
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at Lp (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at LJ (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 95
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at Lp (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at LJ (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 95
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 1238
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 1238,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/",
+     "t": 1238
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 1443
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 1550
+    }
+   ],
+   "counts": {
+    "listen:navigate": 1,
+    "listen:currententrychange": 1,
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-warning",
+     "e": "Allow attribute will take precedence over 'allowfullscreen'."
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    },
+    {
+     "k": "console-warning",
+     "e": "Datadog Browser SDK: No storage available for session. We will not send any data."
+    }
+   ],
+   "urlHash": "920b05f9d369",
+   "titleHash": "6d4719e2ddc3"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://vimeo.com/log_in",
+   "readyState": "complete",
+   "timeOrigin": 1793570286442,
+   "marker": null,
+   "histLen": 24,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 304,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://vimeo.com/log_in",
+    "key": "31b14586-a4e2-497e-b03f-1fdabb1ed807",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://vimeo.com/log_in",
+     "from": "https://vimeo.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "04605e2f7a4a"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=5869c11b-b188-45bf-9bf4-5a7c47bf",
+     "t": 41
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 41,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/log_in",
+     "t": 41
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 41
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at zX (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at zN (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 127
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at zX (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at zN (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 127
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 243
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "listen:navigate": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "04605e2f7a4a",
+   "titleHash": "fa9a669ee88b"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://vimeo.com/log_in",
+   "readyState": "complete",
+   "timeOrigin": 1793570289330.4,
+   "marker": null,
+   "histLen": 24,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 304,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://vimeo.com/log_in",
+    "key": "31b14586-a4e2-497e-b03f-1fdabb1ed807",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://vimeo.com/log_in",
+     "from": "https://vimeo.com/log_in",
+     "entryIsCurrent": true
+    },
+    "urlHash": "04605e2f7a4a"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=5869c11b-b188-45bf-9bf4-5a7c47bf",
+     "t": 23
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 23,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/log_in",
+     "t": 23
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 23
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at Vz (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at Vu (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 51
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at Vz (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at Vu (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 51
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 206
+    }
+   ],
+   "counts": {
+    "history:replaceState": 1,
+    "navigate:replace": 1,
+    "currententrychange:replace": 1,
+    "navigatesuccess": 1,
+    "listen:navigate": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [],
+    "counts": {}
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 403 ()"
+    }
+   ],
+   "urlHash": "04605e2f7a4a",
+   "titleHash": "fa9a669ee88b"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://vimeo.com/log_in",
+   "readyState": "complete",
+   "timeOrigin": 1793570289330.4,
+   "marker": "m4",
+   "histLen": 25,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 304,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://vimeo.com/log_in",
+    "key": "c2991dec-790d-455d-85f6-2e3ff509a073",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://vimeo.com/log_in",
+     "from": "https://vimeo.com/log_in",
+     "entryIsCurrent": false
+    },
+    "urlHash": "d65ed805effe"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=5869c11b-b188-45bf-9bf4-5a7c47bf",
+     "t": 23
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 23,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/log_in",
+     "t": 23
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 23
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at Vz (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at Vu (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 51
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at Vz (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at Vu (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 51
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 206
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2869,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://vimeo.com/log_in",
+     "t": 2870
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://vimeo.com/log_in",
+     "t": 2870
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=5869c11b-b188-45bf-9bf4-5a7c47bf",
+     "t": 2870
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 2870
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2870,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/log_in",
+     "t": 2870
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2871
+    },
+    {
+     "k": "hashchange",
+     "url": "https://vimeo.com/log_in",
+     "t": 2871
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "listen:navigate": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigateerror": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "d65ed805effe",
+   "titleHash": "fa9a669ee88b"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://vimeo.com/log_in",
+   "readyState": "complete",
+   "timeOrigin": 1793570289330.4,
+   "marker": "m5",
+   "histLen": 25,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "DIV#transcend-consent-manager",
+   "textLen": 304,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://vimeo.com/log_in",
+    "key": "31b14586-a4e2-497e-b03f-1fdabb1ed807",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://vimeo.com/log_in",
+     "from": "https://vimeo.com/log_in",
+     "entryIsCurrent": true
+    },
+    "urlHash": "04605e2f7a4a"
+   },
+   "log": [
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=5869c11b-b188-45bf-9bf4-5a7c47bf",
+     "t": 23
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 23,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/log_in",
+     "t": 23
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 23
+    },
+    {
+     "k": "listen",
+     "m": "navigate",
+     "s": [
+      "at Vz (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at Vu (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 51
+    },
+    {
+     "k": "listen",
+     "m": "currententrychange",
+     "s": [
+      "at Vz (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at Vu (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at UGzbL0 (https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+      "at https://vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+     ],
+     "t": 51
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 206
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2869,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://vimeo.com/log_in",
+     "t": 2870
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://vimeo.com/log_in",
+     "t": 2870
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/log_in?auth_origin_url=%2Fupgrade-plan%3Fpaywall_trigger%3Dmarketing_pricing_link%26paywall_location%3Dtop_navigation%26paywall_feature%3Dgeneral&unified_auth_flow_id=5869c11b-b188-45bf-9bf4-5a7c47bf",
+     "t": 2870
+    },
+    {
+     "k": "navigateerror",
+     "e": "AbortError: Navigation was aborted",
+     "t": 2870
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2870,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://vimeo.com/log_in",
+     "t": 2870
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2871
+    },
+    {
+     "k": "hashchange",
+     "url": "https://vimeo.com/log_in",
+     "t": 2871
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://vimeo.com/log_in",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5550,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://vimeo.com/log_in",
+     "t": 5551
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5551
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://vimeo.com/log_in",
+     "t": 5551
+    },
+    {
+     "k": "hashchange",
+     "url": "https://vimeo.com/log_in",
+     "t": 5551
+    }
+   ],
+   "counts": {
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 3,
+    "listen:navigate": 1,
+    "listen:currententrychange": 1,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigateerror": 1,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "04605e2f7a4a",
+   "titleHash": "fa9a669ee88b"
+  }
+ ],
+ "plan": {
+  "link": "https://vimeo.com/upgrade-plan",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 23.1,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A3"
+}

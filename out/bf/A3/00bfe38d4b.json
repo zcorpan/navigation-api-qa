@@ -1,0 +1,571 @@
+{
+ "id": "00bfe38d4b",
+ "page": "https://www.wetter.com/wetter_aktuell/regenradar/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.wetter.com/wetterkarten/regenradar/",
+   "readyState": "complete",
+   "timeOrigin": 1793570868568.8,
+   "marker": null,
+   "histLen": 22,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 120,
+   "docH": 5819,
+   "active": "DIV#cmp-wetter",
+   "textLen": 5884,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.wetter.com/wetterkarten/regenradar/",
+    "key": "8b6c5bc2-6f01-4419-ad8f-7e577ad171dc",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.wetter.com/wetterkarten/regenradar/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "bd75d7ffa45b"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 318
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "bd75d7ffa45b",
+   "titleHash": "12d6ea9cf3a5"
+  },
+  {
+   "step": "link",
+   "href": "https://www.wetter.com/datenschutz/adsb/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.wetter.com/datenschutz/adsb/",
+   "readyState": "complete",
+   "timeOrigin": 1793570873298.5,
+   "marker": null,
+   "histLen": 23,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3197,
+   "active": "BODY",
+   "textLen": 3736,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.wetter.com/datenschutz/adsb/",
+    "key": "249ba0bb-959c-47f4-8b27-7b8dc6d29876",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.wetter.com/datenschutz/adsb/",
+     "from": "https://www.wetter.com/wetterkarten/regenradar/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e01779dd484c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 42
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e01779dd484c",
+   "titleHash": "8fc72fc18374"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.wetter.com/wetterkarten/regenradar/",
+   "readyState": "complete",
+   "timeOrigin": 1793570868568.8,
+   "marker": "m0",
+   "histLen": 23,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 120,
+   "docH": 5819,
+   "active": "A",
+   "textLen": 5884,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.wetter.com/wetterkarten/regenradar/",
+    "key": "8b6c5bc2-6f01-4419-ad8f-7e577ad171dc",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.wetter.com/wetterkarten/regenradar/",
+     "from": "https://www.wetter.com/datenschutz/adsb/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "bd75d7ffa45b"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 318
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "same": false,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": "A",
+     "t": 4503,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 7139
+    }
+   ],
+   "counts": {
+    "pageshow": 2,
+    "navigate:push": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "bd75d7ffa45b",
+   "titleHash": "12d6ea9cf3a5"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://www.wetter.com/datenschutz/adsb/",
+   "readyState": "complete",
+   "timeOrigin": 1793570873298.5,
+   "marker": "m1",
+   "histLen": 23,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3197,
+   "active": "BODY",
+   "textLen": 3736,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.wetter.com/datenschutz/adsb/",
+    "key": "249ba0bb-959c-47f4-8b27-7b8dc6d29876",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.wetter.com/datenschutz/adsb/",
+     "from": "https://www.wetter.com/wetterkarten/regenradar/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e01779dd484c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 42
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.wetter.com/wetterkarten/regenradar/",
+     "same": false,
+     "canIntercept": false,
+     "userInitiated": true,
+     "hashChange": false,
+     "cancelable": false,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2587,
+     "prevented": false
+    },
+    {
+     "k": "pageshow",
+     "persisted": true,
+     "t": 5239
+    }
+   ],
+   "counts": {
+    "pageshow": 2,
+    "navigate:traverse": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 6954
+     }
+    ],
+    "counts": {
+     "pageshow": 2
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e01779dd484c",
+   "titleHash": "8fc72fc18374"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.wetter.com/datenschutz/adsb/",
+   "readyState": "complete",
+   "timeOrigin": 1793570881169,
+   "marker": null,
+   "histLen": 23,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3197,
+   "active": "BODY",
+   "textLen": 3736,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.wetter.com/datenschutz/adsb/",
+    "key": "249ba0bb-959c-47f4-8b27-7b8dc6d29876",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.wetter.com/datenschutz/adsb/",
+     "from": "https://www.wetter.com/datenschutz/adsb/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e01779dd484c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 29
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "about:blank",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 0
+     },
+     {
+      "k": "pageshow",
+      "persisted": true,
+      "t": 5201
+     }
+    ],
+    "counts": {
+     "pageshow": 2
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "e01779dd484c",
+   "titleHash": "8fc72fc18374"
+  },
+  {
+   "step": "fragment",
+   "href": "https://www.wetter.com/datenschutz/adsb/",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.wetter.com/datenschutz/adsb/",
+   "readyState": "complete",
+   "timeOrigin": 1793570881169,
+   "marker": "m4",
+   "histLen": 24,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 979,
+   "docH": 3197,
+   "active": "SUMMARY#DSB1",
+   "textLen": 3628,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.wetter.com/datenschutz/adsb/",
+    "key": "b0fa1cea-dd82-451c-be2c-037afeb7f28d",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.wetter.com/datenschutz/adsb/",
+     "from": "https://www.wetter.com/datenschutz/adsb/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "f838f325fa83"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 29
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": "A",
+     "t": 2688,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.wetter.com/datenschutz/adsb/",
+     "t": 2688
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2688
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "t": 2688
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "t": 2703
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigatesuccess": 1,
+    "popstate": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "f838f325fa83",
+   "titleHash": "8fc72fc18374"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.wetter.com/datenschutz/adsb/",
+   "readyState": "complete",
+   "timeOrigin": 1793570881169,
+   "marker": "m5",
+   "histLen": 24,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 3197,
+   "active": "SUMMARY#DSB1",
+   "textLen": 3736,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.wetter.com/datenschutz/adsb/",
+    "key": "249ba0bb-959c-47f4-8b27-7b8dc6d29876",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.wetter.com/datenschutz/adsb/",
+     "from": "https://www.wetter.com/datenschutz/adsb/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "e01779dd484c"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 29
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": "A",
+     "t": 2688,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.wetter.com/datenschutz/adsb/",
+     "t": 2688
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2688
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "t": 2688
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "t": 2703
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5297,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.wetter.com/datenschutz/adsb/",
+     "t": 5297
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5297
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "t": 5297
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.wetter.com/datenschutz/adsb/",
+     "t": 5297
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "navigatesuccess": 2,
+    "popstate": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "e01779dd484c",
+   "titleHash": "8fc72fc18374"
+  }
+ ],
+ "plan": {
+  "link": "https://www.wetter.com/datenschutz/adsb/",
+  "fragment": "https://www.wetter.com/datenschutz/adsb/"
+ },
+ "consent": null,
+ "elapsed": 20.5,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A3"
+}

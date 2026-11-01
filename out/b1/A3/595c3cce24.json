@@ -1,0 +1,1456 @@
+{
+ "id": "595c3cce24",
+ "page": "https://www.google.com/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://www.google.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793570162232.3,
+   "marker": null,
+   "histLen": 11,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "BODY",
+   "textLen": 183,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://www.google.com/",
+    "key": "1ee81943-dfd3-439e-865b-a451d5fe5910",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.google.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 46
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 53
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 53
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 162
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.google.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 162,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.google.com/",
+     "t": 162
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 166
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAAEAA",
+      "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACA",
+      "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAAEAA",
+      "at async https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAAEA"
+     ],
+     "t": 167,
+     "len": 1
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 169
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 187
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.google.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 187,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.google.com/",
+     "t": 187
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 187
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAAEAA",
+      "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACA",
+      "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIAEAG",
+      "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIAE"
+     ],
+     "t": 251,
+     "len": 1
+    }
+   ],
+   "counts": {
+    "get:activation": 2,
+    "get:currentEntry": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.google.com/recaptcha/api2/aframe",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 1
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "link",
+   "href": "https://www.google.com/setprefs",
+   "click": "native",
+   "settle": 2.5,
+   "url": "https://www.google.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793570169210.2,
+   "marker": null,
+   "histLen": 12,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "TEXTAREA#ti6dpd",
+   "textLen": 183,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.google.com/",
+    "key": "d4e5ccf5-b942-4146-8549-5cd2a385c7a6",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://www.google.com/",
+     "from": "https://www.google.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 15
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 17
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 17
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 17
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 17
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 85
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.google.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 85,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.google.com/",
+     "t": 85
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 89
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+      "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at async https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAA"
+     ],
+     "t": 89,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 91
+    },
+    {
+     "k": "history",
+     "m": "replaceState",
+     "url": "/",
+     "t": 109
+    },
+    {
+     "k": "navigate",
+     "m": "replace",
+     "url": "https://www.google.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": false,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 109,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "replace",
+     "from": "https://www.google.com/",
+     "t": 110
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 110
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+      "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIA",
+      "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECA"
+     ],
+     "t": 204,
+     "len": 2
+    }
+   ],
+   "counts": {
+    "get:activation": 4,
+    "get:currentEntry": 1,
+    "history:replaceState": 2,
+    "navigate:replace": 2,
+    "currententrychange:replace": 2,
+    "navigatesuccess": 2,
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.google.com/",
+    "log": [
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 46
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 53
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 53
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/",
+      "t": 162
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.google.com/",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 162,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.google.com/",
+      "t": 162
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 166
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAAEAA",
+       "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACA",
+       "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAAEAA",
+       "at async https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAAEA"
+      ],
+      "t": 167,
+      "len": 1
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 169
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/",
+      "t": 187
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.google.com/",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 187,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.google.com/",
+      "t": 187
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 187
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAAEAA",
+       "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACA",
+       "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIAEAG",
+       "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.sv.5HzTGt_keTc.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIAE"
+      ],
+      "t": 251,
+      "len": 1
+     },
+     {
+      "k": "navigate",
+      "m": "push",
+      "url": "https://www.google.com/setprefs",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": "A",
+      "t": 6875,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "get:activation": 2,
+     "get:currentEntry": 1,
+     "history:replaceState": 2,
+     "navigate:replace": 2,
+     "currententrychange:replace": 2,
+     "navigatesuccess": 2,
+     "call:entries": 2,
+     "pageshow": 1,
+     "navigate:push": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://www.google.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793570171802.8,
+   "marker": null,
+   "histLen": 12,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "TEXTAREA#ti6dpd",
+   "textLen": 183,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://www.google.com/",
+    "key": "1ee81943-dfd3-439e-865b-a451d5fe5910",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.google.com/",
+     "from": "https://www.google.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 7
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+      "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at async https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAA"
+     ],
+     "t": 20,
+     "len": 2
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 35
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 35
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 35
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 35
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 35
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 35
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 35
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+      "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIA",
+      "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECA"
+     ],
+     "t": 99,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 131
+    }
+   ],
+   "counts": {
+    "get:activation": 7,
+    "call:entries": 2,
+    "get:currentEntry": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.google.com/",
+    "log": [
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 15
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 17
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 17
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 17
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 17
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/",
+      "t": 85
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.google.com/",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 85,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.google.com/",
+      "t": 85
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 89
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+       "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+       "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+       "at async https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAA"
+      ],
+      "t": 89,
+      "len": 2
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 91
+     },
+     {
+      "k": "history",
+      "m": "replaceState",
+      "url": "/",
+      "t": 109
+     },
+     {
+      "k": "navigate",
+      "m": "replace",
+      "url": "https://www.google.com/",
+      "same": true,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 109,
+      "prevented": false
+     },
+     {
+      "k": "currententrychange",
+      "m": "replace",
+      "from": "https://www.google.com/",
+      "t": 110
+     },
+     {
+      "k": "navigatesuccess",
+      "t": 110
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+       "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+       "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIA",
+       "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECA"
+      ],
+      "t": 204,
+      "len": 2
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.google.com/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2438,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "get:activation": 4,
+     "get:currentEntry": 1,
+     "history:replaceState": 2,
+     "navigate:replace": 2,
+     "currententrychange:replace": 2,
+     "navigatesuccess": 2,
+     "call:entries": 2,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://www.google.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793570174385.9,
+   "marker": null,
+   "histLen": 12,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "TEXTAREA#ti6dpd",
+   "textLen": 183,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.google.com/",
+    "key": "d4e5ccf5-b942-4146-8549-5cd2a385c7a6",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://www.google.com/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 7
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+      "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at async https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAA"
+     ],
+     "t": 19,
+     "len": 2
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 24
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 24
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 24
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 24
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 24
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 24
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 24
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+      "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIA",
+      "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECA"
+     ],
+     "t": 45,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 88
+    }
+   ],
+   "counts": {
+    "get:activation": 7,
+    "call:entries": 2,
+    "get:currentEntry": 1,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.google.com/",
+    "log": [
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 7
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+       "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+       "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+       "at async https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAA"
+      ],
+      "t": 20,
+      "len": 2
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 35
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 35
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 35
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 35
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 35
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 35
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 35
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+       "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+       "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIA",
+       "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECA"
+      ],
+      "t": 99,
+      "len": 2
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 131
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://www.google.com/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2575,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "get:activation": 7,
+     "call:entries": 2,
+     "get:currentEntry": 1,
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://www.google.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793570176974.6,
+   "marker": null,
+   "histLen": 12,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "TEXTAREA#ti6dpd",
+   "textLen": 183,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://www.google.com/",
+    "key": "d4e5ccf5-b942-4146-8549-5cd2a385c7a6",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.google.com/",
+     "from": "https://www.google.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 18
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 19
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 19
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 19
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAA",
+      "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at async https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAA"
+     ],
+     "t": 91,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 145
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAA",
+      "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAUAAAAAAAAECAAAAAAAAAAECAIA",
+      "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAUAAAAAAAAECAAAAAAAAAAECA"
+     ],
+     "t": 206,
+     "len": 2
+    }
+   ],
+   "counts": {
+    "get:activation": 3,
+    "get:currentEntry": 1,
+    "call:entries": 2,
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://www.google.com/",
+    "log": [
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 7
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+       "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+       "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+       "at async https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAA"
+      ],
+      "t": 19,
+      "len": 2
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 24
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 24
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 24
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 24
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 24
+     },
+     {
+      "k": "get",
+      "m": "activation",
+      "t": 24
+     },
+     {
+      "k": "get",
+      "m": "currentEntry",
+      "t": 24
+     },
+     {
+      "k": "call",
+      "m": "entries",
+      "s": [
+       "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAAACAAA",
+       "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgABAAAAAAAAAAAAAAAAAAAAECAIAEAGgAAAAAAAAAAAAAAIAAAAA",
+       "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECAIA",
+       "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAVAAABAAAAECAAAAAAAAAAECA"
+      ],
+      "t": 45,
+      "len": 2
+     },
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 88
+     }
+    ],
+    "counts": {
+     "get:activation": 7,
+     "call:entries": 2,
+     "get:currentEntry": 1,
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://www.google.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793570176974.6,
+   "marker": "m4",
+   "histLen": 13,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "TEXTAREA#ti6dpd",
+   "textLen": 183,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://www.google.com/",
+    "key": "3b8715e8-d6fb-4d72-a280-fe31377e5f64",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.google.com/",
+     "from": "https://www.google.com/",
+     "entryIsCurrent": false
+    },
+    "urlHash": "9dd36d818fcb"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 18
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 19
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 19
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 19
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAA",
+      "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at async https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAA"
+     ],
+     "t": 91,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 145
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAA",
+      "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAUAAAAAAAAECAAAAAAAAAAECAIA",
+      "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAUAAAAAAAAECAAAAAAAAAAECA"
+     ],
+     "t": 206,
+     "len": 2
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.google.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2736,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.google.com/",
+     "t": 2736
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.google.com/",
+     "t": 2736
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2737
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.google.com/",
+     "t": 2737
+    }
+   ],
+   "counts": {
+    "get:activation": 3,
+    "get:currentEntry": 1,
+    "call:entries": 2,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "9dd36d818fcb",
+   "titleHash": "2b681c0a24ba"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://www.google.com/",
+   "readyState": "complete",
+   "timeOrigin": 1793570176974.6,
+   "marker": "m5",
+   "histLen": 13,
+   "histState": "object",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 800,
+   "active": "TEXTAREA#ti6dpd",
+   "textLen": 183,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://www.google.com/",
+    "key": "d4e5ccf5-b942-4146-8549-5cd2a385c7a6",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://www.google.com/",
+     "from": "https://www.google.com/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "595c3cce2409"
+   },
+   "log": [
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 18
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 19
+    },
+    {
+     "k": "get",
+     "m": "activation",
+     "t": 19
+    },
+    {
+     "k": "get",
+     "m": "currentEntry",
+     "t": 19
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.$Ic.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAA",
+      "at aJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at async https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAA"
+     ],
+     "t": 91,
+     "len": 2
+    },
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 145
+    },
+    {
+     "k": "call",
+     "m": "entries",
+     "a": null,
+     "s": [
+      "at qJc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAAACAAA",
+      "at _.zcc.nv (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQAAAAACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAECAIAEAEgAAAAAAAAAAAAAAIAAAAA",
+      "at Jdc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAUAAAAAAAAECAAAAAAAAAAECAIA",
+      "at _.ydc (https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.qyp1U6QroYs.2023.O/ck=xjs.hd.B01D7N66YVE.L.B1.O/am=AAAIAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAEAAABQQCAAABOBAAAABAAAAAAAIBwAAgAUAAAAAAAAECAAAAAAAAAAECA"
+     ],
+     "t": 206,
+     "len": 2
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://www.google.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 2736,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://www.google.com/",
+     "t": 2736
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.google.com/",
+     "t": 2736
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 2737
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.google.com/",
+     "t": 2737
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://www.google.com/",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5317,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://www.google.com/",
+     "t": 5317
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5317
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://www.google.com/",
+     "t": 5317
+    },
+    {
+     "k": "hashchange",
+     "url": "https://www.google.com/",
+     "t": 5317
+    }
+   ],
+   "counts": {
+    "get:activation": 3,
+    "get:currentEntry": 1,
+    "call:entries": 2,
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [],
+   "urlHash": "595c3cce2409",
+   "titleHash": "2b681c0a24ba"
+  }
+ ],
+ "plan": {
+  "link": "https://www.google.com/setprefs",
+  "fragment": "#navqa-frag"
+ },
+ "consent": "#L2AGLb",
+ "elapsed": 22.7,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A3"
+}

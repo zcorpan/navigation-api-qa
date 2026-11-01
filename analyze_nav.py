@@ -89,6 +89,8 @@ def features(rec):
             'textLen': s.get('textLen') or 0,
             'titleHash': s.get('titleHash'),
             'click': s.get('click'),
+            'bfcache': any(e.get('k') == 'pageshow' and e.get('persisted') for e in ev) if name in ('back', 'back2', 'back3', 'forward') else None,
+            'histState': s.get('histState'),
         }
     return feats, api
 

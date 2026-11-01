@@ -14,7 +14,24 @@ directory per cause, each with a test case and per-browser results. Search for
 | 02 | Spec | [`navigation.activation` can have a null `entry` when entries and events are disabled](findings/02-spec-activation-entries-disabled/finding.md) (the spec gap behind 01; Chromium and WebKit return a null `activation`). |
 | 03 | Spec (Safari TP follows it) | [An intercepted `navigation.navigate()` cancels an ongoing cross-document navigation](findings/03-spec-intercepted-navigate-cancels-cross-document/finding.md): with React DOM 19's default transition indicator active, a link click or `location.href` navigation with a response slower than ~20 ms does nothing in Safari TP; Chrome and Firefox navigate. |
 
-<!-- page results summary filled below -->
+## Findings in the infrastructure the API builds on (navigation, session history, bfcache, automation)
+
+Differences where Firefox with and without the Navigation API agreed with each other but not with
+Chrome, rechecked with targeted tests (`scripts/engine_diffs.py`, `analysis/engine-diffs.txt`).
+
+| # | Target | Finding |
+|---|---|---|
+| infra-07 | Gecko (known bugs, data) | [Firefox restores fewer pages from bfcache on back](findings/infra-07-gecko-bfcache-eligibility-gap/finding.md): 18/77 vs Chrome 32/79 and Safari TP 38/74 on the same pages; on the 10 pages only Firefox didn't cache, in-flight requests (bug 1896663), unload listeners (bugs 1712380, 1741670) and MSE (bug 2072126). |
+| infra-04 | Firefox WebDriver (Marionette) | [Element Click leaves an `unload` listener on the page](findings/infra-04-marionette-click-unload-listener/finding.md) (add/remove `mozSystemGroup` mismatch), so after any WebDriver click the page can't enter bfcache. |
+| infra-05 | Firefox WebDriver (Marionette) | [WebDriver Refresh is a cache-bypassing reload](findings/infra-05-marionette-refresh-hard-reload/finding.md), so the scroll position isn't restored (Chrome and Safari TP restore it). |
+| infra-06 | WebKit (known: bug 306262) | [`userInitiated` is false for cross-document link clicks](findings/infra-06-webkit-userinitiated-gesture/finding.md): set from the gesture indicator at event time; 323 sample client-pages read it (ad-quality and bot-detection scripts). |
+
+Traced to the harness or sites rather than browsers: Chrome never used bfcache in setups A and A2
+because Playwright launches it with `--disable-back-forward-cache` (A3 turns it back on);
+`history.length` and same-document differences after link steps came from sites serving Firefox or
+Safari different pages (redirects, overlays) or links that didn't navigate; Safari TP's WebDriver
+back skips entries created without a user gesture and its element click often didn't reach the
+page on real sites (not reduced).
 
 ## 1. Where the API is used (HTTP Archive, 2026-10-01 crawl)
 
@@ -69,11 +86,29 @@ a wider link picker after a first try; Safari TP uses script clicks and `history
 safaridriver's element click often didn't reach the page and its back skips entries created
 without a user gesture; the state read skips `activation` in opaque-origin documents after it
 triggered finding 01 (it crashed Firefox when a back landed on `about:blank`; those visits were
-rerun).
+rerun). Batches 1 and 2 used WebDriver Element Click in Firefox and Playwright's default (bfcache
+off) in Chrome, so their back/forward data says nothing about bfcache; the bfcache comparison
+(`out/bf/`) uses pointer-action clicks in Firefox and Chrome with bfcache on (A3). Long tokens
+(200+ characters) and the tester's network identifiers in recorded traces were replaced with
+`<token>`/`<ip>` (`scripts/scrub_out.py`). Safari TP ran on batch 1 and on the 52 active-use pages
+of batch 2.
 
 ### Page results
 
-<!-- filled from recount.py -->
+Visits: batch 1, 188 pages in each of A, A2, B, C, D; batch 2, 194 pages in A, A2, B, C and the 52
+active-use pages in D (`scripts/recount.py`). Chrome's traces show how little the scripted
+interactions exercised the API: listeners on 106 and 107 pages, but `intercept()` on 4 and 2,
+`navigate()` on 3 and 0, and React's transition indicator never.
+
+- Firefox: 24 (batch 1) and 22 (batch 2) pages had a difference from Chrome that Firefox with the
+  API off didn't share (`out/b*/flags.json`, `analysis-b*.txt`). Rerunning the 20 with a navigation
+  difference twice in A, B and C (`samples/b*-recheck*.txt`, `out/b*-re*`), only one reproduced,
+  vdenergy.dpsconsulting.es, which was finding 01 (the harness's `activation.entry` read after a
+  back to `about:blank`). The rest were page noise (ads, redirects, consent dialogs, timing) or
+  JS errors that don't repeat.
+- Safari TP: differences from Chrome were dominated by sites serving Safari different flows
+  (redirects, overlays, consent dialogs), slow loads, and the late trace injection; none led to a
+  Navigation API cause beyond those found with local tests (finding 03).
 
 ## 3. Local tests
 

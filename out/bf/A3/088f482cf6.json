@@ -1,0 +1,621 @@
+{
+ "id": "088f482cf6",
+ "page": "https://services.nidw.gov.bd/",
+ "steps": [
+  {
+   "step": "load",
+   "url": "https://services.nidw.gov.bd/nid-pub/",
+   "readyState": "complete",
+   "timeOrigin": 1793571022046.9,
+   "marker": null,
+   "histLen": 5,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2411,
+   "active": "BODY",
+   "textLen": 1230,
+   "nav": {
+    "len": 1,
+    "idx": 0,
+    "url": "https://services.nidw.gov.bd/nid-pub/",
+    "key": "defb6193-22db-43d6-8cc3-ced3b3ea0ab3",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://services.nidw.gov.bd/nid-pub/",
+     "from": null,
+     "entryIsCurrent": true
+    },
+    "urlHash": "3ab932112026"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 5896
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+   ],
+   "urlHash": "3ab932112026",
+   "titleHash": "484e73778fa0"
+  },
+  {
+   "step": "link",
+   "href": "https://services.nidw.gov.bd/nid-pub/fees",
+   "click": "native",
+   "settle": 8.4,
+   "url": "https://services.nidw.gov.bd/nid-pub/fees",
+   "readyState": "complete",
+   "timeOrigin": 1793571033577.6,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2040,
+   "active": "BODY",
+   "textLen": 468,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://services.nidw.gov.bd/nid-pub/fees",
+    "key": "fe99ca37-35ba-437f-882e-9bdbe91eac1b",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "push",
+     "entry": "https://services.nidw.gov.bd/nid-pub/fees",
+     "from": "https://services.nidw.gov.bd/nid-pub/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "416ac99c98ee"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 6154
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://services.nidw.gov.bd/nid-pub/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 5896
+     },
+     {
+      "k": "navigate",
+      "m": "push",
+      "url": "https://services.nidw.gov.bd/nid-pub/fees",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": false,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 10073,
+      "prevented": false
+     },
+     {
+      "k": "navigateerror",
+      "e": "AbortError: Navigation was aborted",
+      "t": 10075
+     },
+     {
+      "k": "navigate",
+      "m": "push",
+      "url": "https://services.nidw.gov.bd/nid-pub/fees",
+      "same": false,
+      "canIntercept": true,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": true,
+      "form": false,
+      "download": null,
+      "src": "A",
+      "t": 10075,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:push": 2,
+     "navigateerror": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+   ],
+   "urlHash": "416ac99c98ee",
+   "titleHash": "a0fff5f48d15"
+  },
+  {
+   "step": "back",
+   "settle": 2.5,
+   "url": "https://services.nidw.gov.bd/nid-pub/",
+   "readyState": "complete",
+   "timeOrigin": 1793571042076.5,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2411,
+   "active": "BODY",
+   "textLen": 1230,
+   "nav": {
+    "len": 2,
+    "idx": 0,
+    "url": "https://services.nidw.gov.bd/nid-pub/",
+    "key": "defb6193-22db-43d6-8cc3-ced3b3ea0ab3",
+    "sameDoc": true,
+    "canGoBack": false,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://services.nidw.gov.bd/nid-pub/",
+     "from": "https://services.nidw.gov.bd/nid-pub/fees",
+     "entryIsCurrent": true
+    },
+    "urlHash": "3ab932112026"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 836
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://services.nidw.gov.bd/nid-pub/fees",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 6154
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://services.nidw.gov.bd/nid-pub/",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 7429,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+   ],
+   "urlHash": "3ab932112026",
+   "titleHash": "484e73778fa0"
+  },
+  {
+   "step": "forward",
+   "settle": 2.5,
+   "url": "https://services.nidw.gov.bd/nid-pub/fees",
+   "readyState": "complete",
+   "timeOrigin": 1793571045291.3,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2040,
+   "active": "BODY",
+   "textLen": 468,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://services.nidw.gov.bd/nid-pub/fees",
+    "key": "fe99ca37-35ba-437f-882e-9bdbe91eac1b",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "traverse",
+     "entry": "https://services.nidw.gov.bd/nid-pub/fees",
+     "from": "https://services.nidw.gov.bd/nid-pub/",
+     "entryIsCurrent": true
+    },
+    "urlHash": "416ac99c98ee"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 848
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://services.nidw.gov.bd/nid-pub/",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 836
+     },
+     {
+      "k": "navigate",
+      "m": "traverse",
+      "url": "https://services.nidw.gov.bd/nid-pub/fees",
+      "same": false,
+      "canIntercept": false,
+      "userInitiated": true,
+      "hashChange": false,
+      "cancelable": false,
+      "form": false,
+      "download": null,
+      "src": null,
+      "t": 2664,
+      "prevented": false
+     }
+    ],
+    "counts": {
+     "pageshow": 1,
+     "navigate:traverse": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+   ],
+   "urlHash": "416ac99c98ee",
+   "titleHash": "a0fff5f48d15"
+  },
+  {
+   "step": "reload",
+   "settle": 2.5,
+   "url": "https://services.nidw.gov.bd/nid-pub/fees",
+   "readyState": "complete",
+   "timeOrigin": 1793571048958,
+   "marker": null,
+   "histLen": 6,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2040,
+   "active": "BODY",
+   "textLen": 468,
+   "nav": {
+    "len": 2,
+    "idx": 1,
+    "url": "https://services.nidw.gov.bd/nid-pub/fees",
+    "key": "fe99ca37-35ba-437f-882e-9bdbe91eac1b",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://services.nidw.gov.bd/nid-pub/fees",
+     "from": "https://services.nidw.gov.bd/nid-pub/fees",
+     "entryIsCurrent": true
+    },
+    "urlHash": "416ac99c98ee"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 619
+    }
+   ],
+   "counts": {
+    "pageshow": 1
+   },
+   "prev": {
+    "url": "https://services.nidw.gov.bd/nid-pub/fees",
+    "log": [
+     {
+      "k": "pageshow",
+      "persisted": false,
+      "t": 848
+     }
+    ],
+    "counts": {
+     "pageshow": 1
+    }
+   },
+   "sameDoc": false,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+   ],
+   "urlHash": "416ac99c98ee",
+   "titleHash": "a0fff5f48d15"
+  },
+  {
+   "step": "fragment",
+   "href": "#navqa-frag",
+   "click": "script-hash",
+   "settle": 2.5,
+   "url": "https://services.nidw.gov.bd/nid-pub/fees",
+   "readyState": "complete",
+   "timeOrigin": 1793571048958,
+   "marker": "m4",
+   "histLen": 7,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2040,
+   "active": "BODY",
+   "textLen": 468,
+   "nav": {
+    "len": 3,
+    "idx": 2,
+    "url": "https://services.nidw.gov.bd/nid-pub/fees",
+    "key": "9695f71c-0350-4a72-98ba-1446e44cd2a0",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": false,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://services.nidw.gov.bd/nid-pub/fees",
+     "from": "https://services.nidw.gov.bd/nid-pub/fees",
+     "entryIsCurrent": false
+    },
+    "urlHash": "074b5ed6c34f"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 619
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://services.nidw.gov.bd/nid-pub/fees",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3223,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://services.nidw.gov.bd/nid-pub/fees",
+     "t": 3223
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://services.nidw.gov.bd/nid-pub/fees",
+     "t": 3223
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3223
+    },
+    {
+     "k": "hashchange",
+     "url": "https://services.nidw.gov.bd/nid-pub/fees",
+     "t": 3223
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 1,
+    "navigatesuccess": 1,
+    "hashchange": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+   ],
+   "urlHash": "074b5ed6c34f",
+   "titleHash": "a0fff5f48d15"
+  },
+  {
+   "step": "back2",
+   "settle": 2.5,
+   "url": "https://services.nidw.gov.bd/nid-pub/fees",
+   "readyState": "complete",
+   "timeOrigin": 1793571048958,
+   "marker": "m5",
+   "histLen": 7,
+   "histState": "null",
+   "scrollX": 0,
+   "scrollY": 0,
+   "docH": 2040,
+   "active": "BODY",
+   "textLen": 468,
+   "nav": {
+    "len": 3,
+    "idx": 1,
+    "url": "https://services.nidw.gov.bd/nid-pub/fees",
+    "key": "fe99ca37-35ba-437f-882e-9bdbe91eac1b",
+    "sameDoc": true,
+    "canGoBack": true,
+    "canGoForward": true,
+    "transition": null,
+    "activation": {
+     "type": "reload",
+     "entry": "https://services.nidw.gov.bd/nid-pub/fees",
+     "from": "https://services.nidw.gov.bd/nid-pub/fees",
+     "entryIsCurrent": true
+    },
+    "urlHash": "416ac99c98ee"
+   },
+   "log": [
+    {
+     "k": "pageshow",
+     "persisted": false,
+     "t": 619
+    },
+    {
+     "k": "navigate",
+     "m": "push",
+     "url": "https://services.nidw.gov.bd/nid-pub/fees",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 3223,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "push",
+     "from": "https://services.nidw.gov.bd/nid-pub/fees",
+     "t": 3223
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://services.nidw.gov.bd/nid-pub/fees",
+     "t": 3223
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 3223
+    },
+    {
+     "k": "hashchange",
+     "url": "https://services.nidw.gov.bd/nid-pub/fees",
+     "t": 3223
+    },
+    {
+     "k": "navigate",
+     "m": "traverse",
+     "url": "https://services.nidw.gov.bd/nid-pub/fees",
+     "same": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "hashChange": true,
+     "cancelable": true,
+     "form": false,
+     "download": null,
+     "info": null,
+     "src": null,
+     "t": 5819,
+     "prevented": false
+    },
+    {
+     "k": "currententrychange",
+     "m": "traverse",
+     "from": "https://services.nidw.gov.bd/nid-pub/fees",
+     "t": 5819
+    },
+    {
+     "k": "navigatesuccess",
+     "t": 5819
+    },
+    {
+     "k": "popstate",
+     "state": "object",
+     "url": "https://services.nidw.gov.bd/nid-pub/fees",
+     "t": 5819
+    },
+    {
+     "k": "hashchange",
+     "url": "https://services.nidw.gov.bd/nid-pub/fees",
+     "t": 5819
+    }
+   ],
+   "counts": {
+    "pageshow": 1,
+    "navigate:push": 1,
+    "currententrychange:push": 1,
+    "popstate": 2,
+    "navigatesuccess": 2,
+    "hashchange": 2,
+    "navigate:traverse": 1,
+    "currententrychange:traverse": 1
+   },
+   "prev": null,
+   "sameDoc": true,
+   "errors": [
+    {
+     "k": "console-error",
+     "e": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    }
+   ],
+   "urlHash": "416ac99c98ee",
+   "titleHash": "a0fff5f48d15"
+  }
+ ],
+ "plan": {
+  "link": "https://services.nidw.gov.bd/nid-pub/fees",
+  "fragment": "#navqa-frag"
+ },
+ "consent": null,
+ "elapsed": 36.4,
+ "browser": "Chrome Canary 159.0.8136.0",
+ "setup": "A3"
+}

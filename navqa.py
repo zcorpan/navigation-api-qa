@@ -1,6 +1,6 @@
 """Navigation API QA harness.
 
-Setups: A, A2 = Chrome Canary; B = Firefox Nightly; C = Firefox Nightly with the Navigation API off;
+Setups: A, A2 = Chrome Canary (Playwright's default, bfcache off); A3 = Chrome Canary with bfcache; B = Firefox Nightly; C = Firefox Nightly with the Navigation API off;
 D = Safari Technology Preview.
 
   navqa.py run <setup> <pages.txt> <outdir> [--workers N] [--plan-from <outdir of A>]
@@ -161,8 +161,10 @@ class Chrome:
     def __init__(self, setup, trace=True):
         from playwright.sync_api import sync_playwright
         self.pw = sync_playwright().start()
+        # Playwright passes --disable-back-forward-cache by default; A3 keeps Chrome's bfcache on.
         self.browser = self.pw.chromium.launch(executable_path=CANARY, headless=False,
-                                               args=[f'--window-size={W},{H + 140}', '--no-first-run', '--no-default-browser-check'])
+                                               args=[f'--window-size={W},{H + 140}', '--no-first-run', '--no-default-browser-check'],
+                                               ignore_default_args=['--disable-back-forward-cache'] if setup == 'A3' else None)
         self.ctx = self.browser.new_context(viewport={'width': W, 'height': H}, ignore_https_errors=True)
         if trace:
             self.ctx.add_init_script(script=f'({TRACE})()')
@@ -247,6 +249,12 @@ class Selenium:
         from selenium.webdriver.common.by import By
         el = self.d.find_element(By.CSS_SELECTOR, '[data-navqa-pick]')
         try:
+            if os.environ.get('NAVQA_FF_CLICK') == 'actions':
+                # Marionette's element click leaves an unload listener on the page (bfcache-blocking).
+                from selenium.webdriver.common.action_chains import ActionChains
+                self.d.execute_script("arguments[0].scrollIntoView({block: 'center'})", el)
+                ActionChains(self.d).move_to_element(el).click().perform()
+                return 'actions'
             el.click()
             return 'native'
         except Exception:
@@ -356,7 +364,7 @@ class Safari(Selenium):
         return 'js'
 
 
-BACKENDS = {'A': Chrome, 'A2': Chrome, 'B': Firefox, 'C': Firefox, 'D': Safari}
+BACKENDS = {'A': Chrome, 'A2': Chrome, 'A3': Chrome, 'B': Firefox, 'C': Firefox, 'D': Safari}
 
 
 def settle(be, min_wait=1.5, max_wait=12):
