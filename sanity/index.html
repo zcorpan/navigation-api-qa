@@ -1,0 +1,8 @@
+<!doctype html><meta charset=utf-8><title>sanity</title>
+<p><a href="page2.html">page 2</a> <a href="#frag">fragment</a></p>
+<div style="height:3000px"></div><div id="frag">fragment target</div>
+<script>
+if (window.navigation) navigation.addEventListener('navigate', e => {
+  if (e.canIntercept && !e.hashChange && e.destination.url.includes('page2')) e.intercept({ handler: async () => { document.title = 'intercepted'; } });
+});
+</script>
