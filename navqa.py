@@ -28,6 +28,7 @@ NIGHTLY = '/Applications/Firefox Nightly.app/Contents/MacOS/firefox'
 STP_DRIVER = '/Applications/Safari Technology Preview.app/Contents/MacOS/safaridriver'
 W, H = 1280, 800
 VISIT_TIMEOUT = 240
+REDO_ERRORS = '--redo-errors' in sys.argv
 
 URL_QUERY = re.compile(r'([a-z][a-z0-9+.-]*://[^\s?#"\'<>]+)[?#][^\s"\'<>]*', re.I)
 CC_HOST = re.compile(r'\b(google|bing|yahoo|amazon|facebook)\.(?:co\.)?(?!com\b|net\b|org\b)[a-z]{2}\b')
@@ -113,24 +114,48 @@ PICK_JS = r"""([kind, pref]) => {
     const id = decodeURIComponent(u.hash.slice(1));
     return !!(document.getElementById(id) || document.getElementsByName(id).length);
   };
-  const links = [...document.querySelectorAll('a[href]')].filter(a => ok(a) && vis(a));
-  const a = (pref && links.find(l => l.href === pref)) || links[0];
+  const all = [...document.querySelectorAll('a[href]')].filter(ok);
+  const shown = a => { const r = a.getBoundingClientRect(), s = getComputedStyle(a); return r.width >= 4 && r.height >= 4 && s.visibility === 'visible' && +s.opacity >= 0.1; };
+  const reach = a => { a.scrollIntoView({ block: 'center', inline: 'nearest', behavior: 'instant' }); return vis(a); };
+  let a = pref && (all.find(l => l.href === pref && vis(l)) || all.find(l => l.href === pref && shown(l) && reach(l)));
+  if (!a) a = all.find(vis);
+  if (!a) { for (const l of all.filter(shown).slice(0, 40)) if (reach(l)) { a = l; break; } }
   if (!a) return null;
   a.setAttribute('data-navqa-pick', '1');
   return a.href;
+}"""
+
+CONSENT_JS = r"""() => {
+  const sels = ['#onetrust-accept-btn-handler', '#didomi-notice-agree-button', '.fc-cta-consent', '#L2AGLb', '[data-testid="uc-accept-all-button"]',
+    '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll', '#CybotCookiebotDialogBodyButtonAccept', '.cky-btn-accept', '#truste-consent-button',
+    '.qc-cmp2-summary-buttons button[mode="primary"]', 'button[data-cookiebanner="accept_button"]', '#accept-recommended-btn-handler', '.osano-cm-accept-all',
+    '#cookie-accept', '.cc-allow', '.cmplz-accept', '#wt-cli-accept-all-btn', 'button.iubenda-cs-accept-btn', '.evidon-banner-acceptbutton'];
+  for (const s of sels) { const b = document.querySelector(s); if (b && b.getBoundingClientRect().width > 0) { b.click(); return s; } }
+  const words = /^\s*(accept( all)?( cookies)?|agree|i agree|allow( all)?|got it|ok|okay|aceptar( todo| todas)?|acepto|aceitar( todos)?|accetta( tutto)?|accepter( tout)?|tout accepter|j'accepte|akzeptieren|alle akzeptieren|zustimmen|alle zulassen|elfogadom|összes elfogadása|kabul et|tümünü kabul et|zgadzam się|akceptuję|souhlasím|prijať všetko|accepteren|alles accepteren|godta alle|acceptera alla|hyväksy kaikki|accept și închide|同意|同意する|모두 동의|принять|согласен)\s*$/i;
+  for (const b of document.querySelectorAll('button, a[role="button"], [role="button"], input[type="button"], input[type="submit"]')) {
+    const t = (b.innerText || b.value || '').trim();
+    if (t.length < 40 && words.test(t)) {
+      let p = b, hit = false;
+      for (let i = 0; p && i < 8; i++, p = p.parentElement) if (/consent|cookie|cmp|gdpr|privacy|banner|notice/i.test((p.id || '') + ' ' + (typeof p.className === 'string' ? p.className : ''))) { hit = true; break; }
+      const r = b.getBoundingClientRect();
+      if (hit && r.width > 0 && r.height > 0) { b.click(); return 'text:' + t.slice(0, 20); }
+    }
+  }
+  return null;
 }"""
 
 SETTLE_JS = "() => { window.__navqaInternal = true; try { return [location.href, document.readyState, !!(window.navigation && navigation.transition), performance.timeOrigin]; } finally { window.__navqaInternal = false; } }"
 
 
 class Chrome:
-    def __init__(self, setup):
+    def __init__(self, setup, trace=True):
         from playwright.sync_api import sync_playwright
         self.pw = sync_playwright().start()
         self.browser = self.pw.chromium.launch(executable_path=CANARY, headless=False,
                                                args=[f'--window-size={W},{H + 140}', '--no-first-run', '--no-default-browser-check'])
         self.ctx = self.browser.new_context(viewport={'width': W, 'height': H}, ignore_https_errors=True)
-        self.ctx.add_init_script(script=f'({TRACE})()')
+        if trace:
+            self.ctx.add_init_script(script=f'({TRACE})()')
         self.page = self.ctx.new_page()
         self.errors = []
         self.page.on('pageerror', lambda e: self.errors.append({'k': 'pageerror', 'e': str(e)[:300]}))
@@ -238,7 +263,7 @@ class Selenium:
         self.d.save_screenshot(path)
 
     def inject(self):
-        if not self.preload:
+        if self.trace and not self.preload:
             self.d.execute_script(f'({TRACE})()')
 
     def reset(self):
@@ -255,7 +280,8 @@ class Selenium:
 class Firefox(Selenium):
     preload = True
 
-    def __init__(self, setup):
+    def __init__(self, setup, trace=True):
+        self.trace = trace
         from selenium import webdriver
         o = webdriver.FirefoxOptions()
         o.binary_location = NIGHTLY
@@ -265,13 +291,14 @@ class Firefox(Selenium):
         o.set_preference('browser.shell.checkDefaultBrowser', False)
         o.set_preference('datareporting.policy.dataSubmissionEnabled', False)
         o.set_preference('dom.disable_beforeunload', True)
-        self.d = webdriver.Firefox(options=o)
+        self.d = webdriver.Firefox(options=o, service=webdriver.FirefoxService(service_args=['--allow-system-access']))
         self.d.set_window_rect(0, 0, W, H)
         inner = self.d.execute_script('return [innerWidth, innerHeight]')
         self.d.set_window_rect(0, 0, W + (W - inner[0]), H + (H - inner[1]))
         self.d.set_page_load_timeout(45)
         self.d.set_script_timeout(15)
-        self.d.script.pin(TRACE)
+        if trace:
+            self.d.script.pin(TRACE)
         self.errors = []
         self.d.script.add_javascript_error_handler(lambda e: self.errors.append({'k': 'pageerror', 'e': str(getattr(e, 'text', e))[:300]}))
         self.d.script.add_console_message_handler(
@@ -281,9 +308,14 @@ class Firefox(Selenium):
     def version(self):
         return 'Firefox Nightly ' + str(self.v)
 
+    def uiback(self):
+        with self.d.context(self.d.CONTEXT_CHROME):
+            self.d.execute_script('gBrowser.goBack()')
+
 
 class Safari(Selenium):
-    def __init__(self, setup):
+    def __init__(self, setup, trace=True):
+        self.trace = trace
         from selenium import webdriver
         o = webdriver.SafariOptions()
         o.use_technology_preview = True
@@ -325,14 +357,16 @@ def settle(be, min_wait=1.5, max_wait=12):
 
 
 def state(be, marker):
-    for _ in range(3):
+    for _ in range(4):
         try:
             be.inject()
             s = be.call(STATE_JS)
-            break
+            if isinstance(s, dict):
+                break
+            s = {'error': f'state returned {type(s).__name__}'}
         except Exception as e:
             s = {'error': str(e)[:300]}
-            time.sleep(1)
+        time.sleep(1)
     s['sameDoc'] = s.get('marker') == marker if 'error' not in s else None
     s['errors'], be.errors[:] = list(be.errors), []
     return s
@@ -343,10 +377,22 @@ def visit(be, pid, url, plan, shotdir):
     t0 = time.time()
     be.goto(url)
     settle(be, min_wait=3)
+    try:
+        rec['consent'] = be.call(CONSENT_JS)
+        if rec['consent']:
+            settle(be, min_wait=1.5)
+    except Exception as e:
+        rec['consentError'] = str(e)[:200]
     steps = [('load', None), ('link', 'link'), ('back', None), ('forward', None), ('reload', None), ('fragment', 'fragment'), ('back2', None)]
     marker = None
+    needs = {'back': 'link', 'forward': 'back', 'reload': 'load', 'back2': 'fragment'}
+    done = {'load'}
     for i, (name, pick) in enumerate(steps):
         info = {'step': name}
+        if name in needs and needs[name] not in done:
+            info['skipped'] = True
+            rec['steps'].append(info)
+            continue
         if name != 'load':
             if pick:
                 try:
@@ -356,14 +402,22 @@ def visit(be, pid, url, plan, shotdir):
                     info['pickError'] = str(e)[:200]
                 info['href'] = href
                 rec['plan'][name] = href
-                if not href:
+                if not href and name == 'fragment':
+                    try:
+                        be.call("() => { location.hash = 'navqa-frag'; }")
+                        info['href'] = rec['plan'][name] = href = '#navqa-frag'
+                        info['click'] = 'script-hash'
+                    except Exception as e:
+                        info['clickError'] = str(e)[:200]
+                elif not href:
                     info['skipped'] = True
                     rec['steps'].append(info)
                     continue
-                try:
-                    info['click'] = be.click()
-                except Exception as e:
-                    info['clickError'] = str(e)[:200]
+                else:
+                    try:
+                        info['click'] = be.click()
+                    except Exception as e:
+                        info['clickError'] = str(e)[:200]
             elif name in ('back', 'back2'):
                 be.back()
             elif name == 'forward':
@@ -371,6 +425,7 @@ def visit(be, pid, url, plan, shotdir):
             elif name == 'reload':
                 be.reload()
             info['settle'] = settle(be)
+        done.add(name)
         info.update(state(be, marker))
         marker = f'm{i}'
         try:
@@ -439,7 +494,10 @@ def pid_of(url):
 def run(setup, pages_file, outdir, workers, plan_from):
     os.makedirs(outdir, exist_ok=True)
     urls = [l.split()[0] for l in open(pages_file) if l.strip() and not l.startswith('#')]
-    todo = [u for u in urls if not os.path.exists(os.path.join(outdir, pid_of(u) + '.json'))]
+    def needed(u):
+        f = os.path.join(outdir, pid_of(u) + '.json')
+        return not os.path.exists(f) or (REDO_ERRORS and 'error' in json.load(open(f)))
+    todo = [u for u in urls if needed(u)]
     if setup == 'D':
         workers = 1
     print(f'{setup}: {len(todo)} of {len(urls)} pages to visit with {workers} workers', flush=True)

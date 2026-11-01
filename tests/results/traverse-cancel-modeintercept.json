@@ -1,0 +1,58 @@
+{
+ "A": {
+  "browser": "Chrome Canary 159.0.8136.0",
+  "result": {
+   "events": [
+    {
+     "type": "push",
+     "cancelable": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "sameDocument": true
+    },
+    "navigatesuccess",
+    {
+     "type": "traverse",
+     "cancelable": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "sameDocument": true,
+     "action": "intercept"
+    },
+    "navigatesuccess",
+    "popstate"
+   ],
+   "url": "",
+   "idx": 0,
+   "histLen": 3
+  }
+ },
+ "B": {
+  "browser": "Firefox Nightly 161.0a1",
+  "result": {
+   "events": [
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "sameDocument": true,
+     "type": "push",
+     "userInitiated": false
+    },
+    "navigatesuccess",
+    {
+     "action": "intercept",
+     "canIntercept": true,
+     "cancelable": true,
+     "sameDocument": true,
+     "type": "traverse",
+     "userInitiated": false
+    },
+    "navigatesuccess",
+    "popstate"
+   ],
+   "histLen": 2,
+   "idx": 0,
+   "url": ""
+  }
+ }
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>React default transition indicator</title>
+<!--
+React DOM 19's default transition indicator, as minified in production bundles found in the crawl
+(e.g. "function f5(){function e(e){e.canIntercept&&"react-transition"===e.info&&e.intercept(...)").
+It runs while a transition is pending: a same-URL replace navigation intercepted with a promise
+that resolves when the transition ends. Variants via the query: ?hash=1 (current URL has a
+fragment), ?scroll=1 (page scrolled), ?focus=1 (input focused).
+-->
+<style>body { height: 4000px; } #sec { position: absolute; top: 2500px; }</style>
+<input id=inp>
+<div id=sec>section</div>
+<script>
+function startIndicator() {
+  function onNavigate(e) {
+    e.canIntercept && "react-transition" === e.info && e.intercept({
+      handler: function () { return new Promise(function (r) { pending = r; }); },
+      focusReset: "manual", scroll: "manual"
+    });
+  }
+  function onDone() {
+    null !== pending && (pending(), pending = null);
+    cancelled || setTimeout(start, 20);
+  }
+  function start() {
+    if (!cancelled && !navigation.transition) {
+      var e = navigation.currentEntry;
+      e && null != e.url && navigation.navigate(e.url, { state: e.getState(), info: "react-transition", history: "replace" });
+    }
+  }
+  if (typeof navigation === "object") {
+    var cancelled = false, pending = null;
+    navigation.addEventListener("navigate", onNavigate);
+    navigation.addEventListener("navigatesuccess", onDone);
+    navigation.addEventListener("navigateerror", onDone);
+    setTimeout(start, 100);
+    return function () {
+      cancelled = true;
+      navigation.removeEventListener("navigate", onNavigate);
+      navigation.removeEventListener("navigatesuccess", onDone);
+      navigation.removeEventListener("navigateerror", onDone);
+      null !== pending && (pending(), pending = null);
+    };
+  }
+}
+
+const q = new URLSearchParams(location.search);
+const events = [];
+const snap = () => ({
+  url: location.href.replace(/^.*\//, ''), histLen: history.length, histState: JSON.stringify(history.state),
+  entries: navigation.entries().length, idx: navigation.currentEntry.index, key: navigation.currentEntry.key,
+  id: navigation.currentEntry.id, navState: JSON.stringify(navigation.currentEntry.getState()),
+  scrollY: Math.round(scrollY), active: document.activeElement && document.activeElement.id || document.activeElement.tagName,
+});
+for (const t of ['popstate', 'hashchange', 'scroll'])
+  addEventListener(t, () => { if (events.at(-1) !== t) events.push(t); });
+if (window.navigation) {
+  for (const t of ['navigate', 'navigatesuccess', 'navigateerror', 'currententrychange'])
+    navigation.addEventListener(t, e => events.push(t + (e.navigationType ? ':' + e.navigationType : '') + (t === 'navigate' ? (e.hashChange ? ':hash' : '') + (e.canIntercept ? '' : ':noIntercept') : '') + (e.error ? ':' + e.error.name : '')));
+}
+window.__result = { pending: true };
+onload = () => setTimeout(() => {
+  if (!window.navigation) { window.__result = { noNavigationApi: true }; return; }
+  history.pushState({ app: 'tree' }, '', location.pathname + location.search + (q.get('hash') ? '#sec' : ''));
+  navigation.updateCurrentEntry({ state: { nav: 1 } });
+  if (q.get('scroll')) scrollTo(0, 600);
+  if (q.get('focus')) document.getElementById('inp').focus();
+  const before = snap();
+  events.length = 0;
+  const stop = startIndicator();
+  setTimeout(() => {
+    const during = { ...snap(), transition: !!navigation.transition };
+    stop();
+    setTimeout(() => {
+      const after = { ...snap(), transition: !!navigation.transition };
+      const changed = {};
+      for (const k in before) if (before[k] !== after[k]) changed[k] = [before[k], after[k]];
+      for (const k in before) if (before[k] !== during[k]) changed['during.' + k] = [before[k], during[k]];
+      window.__result = { changed, events, sameKey: before.key === after.key };
+    }, 300);
+  }, 700);
+}, 100);
+</script>

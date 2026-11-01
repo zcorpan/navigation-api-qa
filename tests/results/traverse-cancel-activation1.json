@@ -1,0 +1,58 @@
+{
+ "A": {
+  "browser": "Chrome Canary 159.0.8136.0",
+  "result": {
+   "events": [
+    {
+     "type": "push",
+     "cancelable": true,
+     "canIntercept": true,
+     "userInitiated": false,
+     "sameDocument": true
+    },
+    "navigatesuccess",
+    "clicked",
+    {
+     "type": "traverse",
+     "cancelable": true,
+     "canIntercept": true,
+     "userInitiated": true,
+     "sameDocument": true,
+     "action": "preventDefault"
+    },
+    "navigateerror:AbortError"
+   ],
+   "url": "#dummy",
+   "idx": 1,
+   "histLen": 3
+  }
+ },
+ "B": {
+  "browser": "Firefox Nightly 161.0a1",
+  "result": {
+   "events": [
+    {
+     "canIntercept": true,
+     "cancelable": true,
+     "sameDocument": true,
+     "type": "push",
+     "userInitiated": false
+    },
+    "navigatesuccess",
+    "clicked",
+    {
+     "action": "preventDefault",
+     "canIntercept": true,
+     "cancelable": true,
+     "sameDocument": true,
+     "type": "traverse",
+     "userInitiated": false
+    },
+    "navigateerror:AbortError"
+   ],
+   "histLen": 2,
+   "idx": 1,
+   "url": "#dummy"
+  }
+ }
+}

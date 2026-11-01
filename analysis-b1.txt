@@ -1,0 +1,308 @@
+27 ('D', 'navLen', None)
+25 ('D', 'histDelta', None)
+25 ('D', 'navIdx', None)
+19 ('D', 'textLen', None)
+19 ('D', 'path', None)
+19 ('D', 'titleHash', None)
+12 ('B', 'sameDoc', True)
+12 ('D', 'sameDoc', None)
+10 ('B', 'newErrors', True)
+8 ('B', 'newErrors', False)
+8 ('B', 'path', True)
+8 ('B', 'navLen', False)
+8 ('B', 'navIdx', True)
+8 ('B', 'textLen', True)
+8 ('B', 'titleHash', True)
+4 ('D', 'scrollY', None)
+4 ('D', 'intercepted', None)
+1 ('B', 'textLen', False)
+1 ('B', 'intercepted', True)
+
+## 77c092b2d2 https://www.omelete.com.br/series-tv/visionquest-explicado-quem-e-paladino/
+   api: call:entries get:currentEntry listen:navigatesuccess
+    B load newErrors A=None B=['Script error.'] C_same_as_A=False
+    B link newErrors A=None B=['Script error.'] C_same_as_A=False
+    B back newErrors A=None B=['Script error.'] C_same_as_A=False
+    B forward newErrors A=None B=['Script error.'] C_same_as_A=False
+    B reload newErrors A=None B=['Script error.'] C_same_as_A=False
+    B back2 newErrors A=None B=['Script error.'] C_same_as_A=False
+
+## 530d911298 https://www.idokep.hu/szmog
+   api: get:currentEntry listen:navigatesuccess
+    B back path A=about:blank B=https://www.idokep.hu/szmog C_same_as_A=True
+    B back sameDoc A=False B=True C_same_as_A=True
+    B back navIdx A=None B=0 C_same_as_A=True
+    B back textLen A=0 B=2815 C_same_as_A=True
+    B back titleHash A=da39a3ee5e6b B=234ff8fb45a6 C_same_as_A=True
+    B back newErrors A=None B=['Script error.'] C_same_as_A=True
+    B forward sameDoc A=False B=True C_same_as_A=True
+    B back2 path A=about:blank B=https://www.idokep.hu/szmog C_same_as_A=True
+    B back2 sameDoc A=False B=True C_same_as_A=True
+    B back2 navIdx A=None B=0 C_same_as_A=True
+    B back2 textLen A=0 B=2815 C_same_as_A=True
+    B back2 titleHash A=da39a3ee5e6b B=234ff8fb45a6 C_same_as_A=True
+    B back2 newErrors A=None B=['Script error.'] C_same_as_A=True
+
+## 595c3cce24 https://www.google.com/
+   api: call:entries get:activation get:currentEntry
+    B back path A=about:blank B=https://www.google.com/ C_same_as_A=True
+    B back sameDoc A=False B=True C_same_as_A=True
+    B back navIdx A=None B=0 C_same_as_A=True
+    B back textLen A=0 B=1706 C_same_as_A=True
+    B back titleHash A=da39a3ee5e6b B=2b681c0a24ba C_same_as_A=True
+    B forward sameDoc A=False B=True C_same_as_A=True
+    B back2 path A=about:blank B=https://www.google.com/ C_same_as_A=True
+    B back2 sameDoc A=False B=True C_same_as_A=True
+    B back2 navIdx A=None B=0 C_same_as_A=True
+    B back2 textLen A=0 B=1706 C_same_as_A=True
+    B back2 titleHash A=da39a3ee5e6b B=2b681c0a24ba C_same_as_A=True
+
+## 9488cdfe37 https://www.climatempo.com.br/
+   errors: {'B': "TypeError: argument of type 'NoneType' is not a container or iterable"}
+   api: call:entries get:currentEntry listen:navigatesuccess
+    D load textLen A=11606 D=7922 
+    D forward textLen A=10756 D=7922 
+    D reload textLen A=10634 D=7822 
+
+## dabd8d23e5 https://help.steampowered.com/
+   api: 
+    D link path A=https://help.steampowered.com/en/wizard/HelpWithGame/ D=https://help.steampowered.com/en/ 
+    D link histDelta A=1 D=0 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D link titleHash A=4e754daeaa00 D=43c4eac7c069 
+    D back path A=https://help.steampowered.com/en/ D=about:blank 
+    D back sameDoc A=True D=False 
+    D back histDelta A=1 D=0 
+    D back navLen A=2 D=0 
+    D back navIdx A=0 D=None 
+    D back textLen A=495 D=0 
+    D back titleHash A=43c4eac7c069 D=da39a3ee5e6b 
+    D forward path A=https://help.steampowered.com/en/wizard/HelpWithGame/ D=https://help.steampowered.com/en/ 
+    D forward sameDoc A=True D=False 
+    D forward histDelta A=1 D=0 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D forward titleHash A=4e754daeaa00 D=43c4eac7c069 
+    D reload path A=https://help.steampowered.com/en/wizard/HelpWithGame/ D=https://help.steampowered.com/en/ 
+    D reload histDelta A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D reload titleHash A=4e754daeaa00 D=43c4eac7c069 
+    D back2 path A=https://help.steampowered.com/en/ D=about:blank 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=1 D=0 
+    D back2 navLen A=2 D=0 
+    D back2 navIdx A=0 D=None 
+    D back2 textLen A=495 D=0 
+    D back2 titleHash A=43c4eac7c069 D=da39a3ee5e6b 
+
+## 204aeffbcd https://help.steampowered.com/en/wizard/HelpWithGame
+   api: 
+    D link histDelta A=1 D=0 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D link scrollY A=0 D=216 
+    D back path A=https://help.steampowered.com/en/wizard/HelpWithGame D=about:blank 
+    D back sameDoc A=True D=False 
+    D back histDelta A=1 D=0 
+    D back navLen A=2 D=0 
+    D back navIdx A=0 D=None 
+    D back textLen A=457 D=0 
+    D back titleHash A=08b076d05565 D=da39a3ee5e6b 
+    D forward sameDoc A=True D=False 
+    D forward histDelta A=1 D=0 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D forward scrollY A=0 D=216 
+    D reload histDelta A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D reload scrollY A=0 D=217 
+    D back2 path A=https://help.steampowered.com/en/wizard/HelpWithGame D=about:blank 
+    D back2 sameDoc A=True D=False 
+    D back2 histDelta A=1 D=0 
+    D back2 navLen A=2 D=0 
+    D back2 navIdx A=0 D=None 
+    D back2 scrollY A=250 D=0 
+    D back2 textLen A=457 D=0 
+    D back2 titleHash A=08b076d05565 D=da39a3ee5e6b 
+
+## e216654123 https://onedio.com/
+   api: call:entries get:currentEntry listen:navigate listen:navigatesuccess
+    B back path A=about:blank B=https://onedio.com/ C_same_as_A=True
+    B back sameDoc A=False B=True C_same_as_A=True
+    B back navIdx A=None B=0 C_same_as_A=True
+    B back textLen A=0 B=20884 C_same_as_A=True
+    B back titleHash A=da39a3ee5e6b B=126b54ee5c73 C_same_as_A=True
+    B forward sameDoc A=False B=True C_same_as_A=True
+    B back2 path A=about:blank B=https://onedio.com/ C_same_as_A=True
+    B back2 sameDoc A=False B=True C_same_as_A=True
+    B back2 navIdx A=None B=0 C_same_as_A=True
+    B back2 textLen A=0 B=20885 C_same_as_A=True
+    B back2 titleHash A=da39a3ee5e6b B=126b54ee5c73 C_same_as_A=True
+
+## 4cd380f7e9 https://www.mindmegette.hu/recept/csirkemellpaprikas
+   errors: {'B': "TypeError: argument of type 'NoneType' is not a container or iterable"}
+   api: call:entries
+
+## 7ebcabe976 https://www.tokyo-sports.co.jp/
+   errors: {'B': "TypeError: argument of type 'NoneType' is not a container or iterable"}
+   api: get:currentEntry listen:navigatesuccess
+
+## 8ef063f116 https://weebcentral.com/chapters/01M4TY7JEGKG2ERB468SDYYGRA
+   errors: {'B': "TypeError: argument of type 'NoneType' is not a container or iterable"}
+   api: 
+
+## c1a7b87539 https://oantagonista.com.br/
+   api: call:entries get:currentEntry listen:navigatesuccess
+    B load newErrors A=None B=['TypeError: MutationObserver.observe: Argument N is not an object.', 'TypeError: can\'t access property "querySelectorAll", e is null', 'TypeError: can\'t access property "style", el is null'] C_same_as_A=False
+    B back path A=about:blank B=https://oantagonista.com.br/ C_same_as_A=True
+    B back sameDoc A=False B=True C_same_as_A=True
+    B back navIdx A=None B=0 C_same_as_A=True
+    B back textLen A=0 B=14419 C_same_as_A=True
+    B back titleHash A=da39a3ee5e6b B=76173bd9cc69 C_same_as_A=True
+    B back newErrors A=None B=['Script error.', 'TypeError: MutationObserver.observe: Argument N is not an object.', 'TypeError: can\'t access property "querySelectorAll", e is null', 'TypeError: can\'t access property "style", el is null'] C_same_as_A=True
+    B forward sameDoc A=False B=True C_same_as_A=True
+    B reload newErrors A=None B=['TypeError: MutationObserver.observe: Argument N is not an object.', 'TypeError: can\'t access property "querySelectorAll", e is null', 'TypeError: can\'t access property "style", el is null'] C_same_as_A=False
+    B back2 path A=about:blank B=https://oantagonista.com.br/ C_same_as_A=True
+    B back2 sameDoc A=False B=True C_same_as_A=True
+    B back2 navIdx A=None B=0 C_same_as_A=True
+    B back2 textLen A=0 B=14419 C_same_as_A=True
+    B back2 titleHash A=da39a3ee5e6b B=76173bd9cc69 C_same_as_A=True
+    B back2 newErrors A=None B=['Script error.', 'TypeError: MutationObserver.observe: Argument N is not an object.', 'TypeError: can\'t access property "querySelectorAll", e is null', 'TypeError: can\'t access property "style", el is null'] C_same_as_A=True
+
+## d7d47c35e6 https://steamcommunity.com/app/1551980
+   api: 
+    D link path A=https://steamcommunity.com/ D=https://steamcommunity.com/app/1551980 
+    D link sameDoc A=False D=True 
+    D link histDelta A=1 D=0 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D link textLen A=5702 D=1349 
+    D link titleHash A=104e4d532818 D=09198cae6f15 
+    D back path A=https://steamcommunity.com/app/1551980 D=about:blank 
+    D back histDelta A=1 D=0 
+    D back navLen A=2 D=0 
+    D back navIdx A=0 D=None 
+    D back textLen A=993 D=0 
+    D back titleHash A=09198cae6f15 D=da39a3ee5e6b 
+    D forward path A=https://steamcommunity.com/ D=https://steamcommunity.com/app/1551980 
+    D forward histDelta A=1 D=0 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D forward textLen A=5702 D=1349 
+    D forward titleHash A=104e4d532818 D=09198cae6f15 
+    D reload path A=https://steamcommunity.com/ D=https://steamcommunity.com/app/1551980 
+    D reload histDelta A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D reload textLen A=5697 D=995 
+    D reload titleHash A=104e4d532818 D=09198cae6f15 
+    D back2 path A=https://steamcommunity.com/app/1551980 D=about:blank 
+    D back2 histDelta A=1 D=0 
+    D back2 navLen A=2 D=0 
+    D back2 navIdx A=0 D=None 
+    D back2 textLen A=993 D=0 
+    D back2 titleHash A=09198cae6f15 D=da39a3ee5e6b 
+
+## 288dd1f1dd https://udn.com/news/story/6810/9814953
+   errors: {'B': "TypeError: argument of type 'NoneType' is not a container or iterable"}
+   api: call:entries get:currentEntry listen:navigatesuccess
+
+## 836bb15592 https://store.steampowered.com/
+   api: call:navigate get:currentEntry intercept:replace listen:currententrychange listen:navigate
+    D link sameDoc A=False D=True 
+    D link histDelta A=1 D=0 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D link intercepted A=1 D=0 
+    D back path A=https://store.steampowered.com/ D=about:blank 
+    D back histDelta A=1 D=0 
+    D back navLen A=2 D=0 
+    D back navIdx A=0 D=None 
+    D back textLen A=5866 D=0 
+    D back titleHash A=c248673bcb9a D=da39a3ee5e6b 
+    D forward histDelta A=1 D=0 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D reload histDelta A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D back2 path A=https://store.steampowered.com/ D=about:blank 
+    D back2 histDelta A=1 D=0 
+    D back2 navLen A=2 D=0 
+    D back2 navIdx A=0 D=None 
+    D back2 textLen A=5728 D=0 
+    D back2 titleHash A=c248673bcb9a D=da39a3ee5e6b 
+
+## 5e3ece390d https://olhardigital.com.br/2026/10/15/ciencia-e-espaco/incendios-na-amazonia-reduzem-a-absorcao-de-
+   errors: {'B': "TypeError: argument of type 'NoneType' is not a container or iterable"}
+   api: get:currentEntry listen:navigate listen:navigatesuccess
+
+## 1680aa000b https://steamcommunity.com/
+   api: 
+    D link path A=https://steamcommunity.com/app/883710 D=https://steamcommunity.com/ 
+    D link sameDoc A=False D=True 
+    D link histDelta A=1 D=0 
+    D link navLen A=2 D=1 
+    D link navIdx A=1 D=0 
+    D link textLen A=4993 D=6252 
+    D link titleHash A=d99071b778a5 D=104e4d532818 
+    D back sameDoc A=False D=True 
+    D back histDelta A=1 D=0 
+    D back navLen A=2 D=1 
+    D forward path A=https://steamcommunity.com/app/883710 D=https://steamcommunity.com/ 
+    D forward sameDoc A=False D=True 
+    D forward histDelta A=1 D=0 
+    D forward navLen A=2 D=1 
+    D forward navIdx A=1 D=0 
+    D forward textLen A=4993 D=6252 
+    D forward titleHash A=d99071b778a5 D=104e4d532818 
+    D reload path A=https://steamcommunity.com/app/883710 D=https://steamcommunity.com/ 
+    D reload histDelta A=1 D=0 
+    D reload navLen A=2 D=1 
+    D reload navIdx A=1 D=0 
+    D reload textLen A=4993 D=5889 
+    D reload titleHash A=d99071b778a5 D=104e4d532818 
+    D back2 sameDoc A=False D=True 
+    D back2 histDelta A=1 D=0 
+    D back2 navLen A=2 D=1 
+
+## 2440a05586 https://store.steampowered.com/app/3219030/Planet_Zoo_2
+   api: call:navigate get:currentEntry intercept:replace listen:currententrychange listen:navigate
+    D load intercepted A=2 D=0 
+    D link intercepted A=1 D=0 
+    D back path A=https://store.steampowered.com/app/3219030/Planet_Zoo_2/ D=about:blank 
+    D back navLen A=2 D=0 
+    D back navIdx A=0 D=None 
+    D back intercepted A=1 D=0 
+    D back textLen A=8508 D=0 
+    D back titleHash A=2827f865da78 D=da39a3ee5e6b 
+    B forward intercepted A=0 B=1 C_same_as_A=True
+    D back2 path A=https://store.steampowered.com/app/3219030/Planet_Zoo_2/ D=about:blank 
+    D back2 navLen A=2 D=0 
+    D back2 navIdx A=0 D=None 
+    D back2 textLen A=8508 D=0 
+    D back2 titleHash A=2827f865da78 D=da39a3ee5e6b 
+
+## 3508890603 https://www.omelete.com.br/
+   api: call:entries get:currentEntry listen:navigatesuccess
+    B load newErrors A=None B=['Script error.'] C_same_as_A=True
+    B link newErrors A=None B=['Script error.'] C_same_as_A=True
+    B back newErrors A=None B=['Script error.'] C_same_as_A=True
+    B forward newErrors A=None B=['Script error.'] C_same_as_A=True
+    B reload newErrors A=None B=['Script error.'] C_same_as_A=True
+    B back2 newErrors A=None B=['Script error.'] C_same_as_A=True
+
+## e169938fe1 https://www.correio24horas.com.br/bahia/acusado-de-matar-ex-ator-mirim-da-tv-globo-joao-rebello-em-t
+   errors: {'B': "TypeError: argument of type 'NoneType' is not a container or iterable"}
+   api: get:currentEntry listen:navigatesuccess
+
+## e0eb0574ec https://www.costcotravel.com/theme-parks
+   errors: {'B': "TypeError: argument of type 'NoneType' is not a container or iterable"}
+   api: 
+
+## ceed5ac19c https://www.tacobell.com/food/featured/steak-double-dipping-burritos
+   errors: {'A': 'visit timed out after 240s'}
+   api: 

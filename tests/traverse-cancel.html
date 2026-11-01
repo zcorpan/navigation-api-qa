@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Cancel a same-document back traversal</title>
+<!--
+Back-button interception as in ad/exit-intent scripts (e.g. s.trvdp.com ins.js):
+  if (e.navigationType === "traverse") { if (e.cancelable) e.preventDefault(); else if (e.canIntercept) e.intercept({handler: () => Promise.resolve()}); }
+The page pushes one same-document entry, optionally gets user activation (click), then the browser
+goes back. Variants: ?activation=1 (click before back), ?mode=intercept (never preventDefault).
+-->
+<button id=b>click</button>
+<script>
+const q = new URLSearchParams(location.search);
+const events = [];
+navigation.addEventListener('navigate', e => {
+  const r = { type: e.navigationType, cancelable: e.cancelable, canIntercept: e.canIntercept, userInitiated: e.userInitiated, sameDocument: e.destination.sameDocument };
+  if (e.navigationType === 'traverse') {
+    if (e.cancelable && q.get('mode') !== 'intercept') { e.preventDefault(); r.action = 'preventDefault'; }
+    else if (e.canIntercept) { e.intercept({ handler: () => Promise.resolve() }); r.action = 'intercept'; }
+  }
+  events.push(r);
+});
+addEventListener('popstate', () => events.push('popstate'));
+navigation.addEventListener('navigateerror', e => events.push('navigateerror:' + e.error.name));
+navigation.addEventListener('navigatesuccess', () => events.push('navigatesuccess'));
+document.getElementById('b').onclick = () => events.push('clicked');
+history.pushState({ dummy: 1 }, '', location.pathname + location.search + '#dummy');
+window.__plan = [...(q.get('activation') ? ['click #b'] : []), 'wait 300', q.get('ui') ? 'uiback' : 'back', 'wait 1200'];
+window.__result = { pending: true };
+setTimeout(() => {
+  window.__result = { events, url: location.hash, idx: navigation.currentEntry.index, histLen: history.length };
+}, (q.get('activation') ? 300 : 0) + 3500);
+</script>
