@@ -1,4 +1,4 @@
-# [navigation-api-qa] `navigation.activation` can have a null `entry` when entries and events are disabled
+# `navigation.activation` can have a null `entry` when entries and events are disabled
 
 Target: whatwg/html issue (spec).
 

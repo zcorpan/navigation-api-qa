@@ -1,4 +1,4 @@
-# [navigation-api-qa] Content process crash reading `navigation.activation.entry` after traversing back into an opaque-origin document
+# Content process crash reading `navigation.activation.entry` after traversing back into an opaque-origin document
 
 Target: Bugzilla, Core :: DOM: Navigation (crash; `nsWrapperCache::GetWrapperMaybeDead` in `NavigationActivation_Binding::get_entry`).
 

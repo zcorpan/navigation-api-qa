@@ -1,4 +1,4 @@
-# [navigation-api-qa] Firefox restores fewer top-10k pages from bfcache on back than Chrome and Safari TP (data for known bugs)
+# Firefox restores fewer top-10k pages from bfcache on back than Chrome and Safari TP (data for known bugs)
 
 Target: data point for existing Bugzilla bugs (Core :: DOM: Navigation): [bug 1896663](https://bugzil.la/1896663) (in-flight
 requests), [bug 1712380](https://bugzil.la/1712380) and [bug 1741670](https://bugzil.la/1741670) (unload listeners on desktop), [bug 2072126](https://bugzil.la/2072126) (MSE content). No new bug.

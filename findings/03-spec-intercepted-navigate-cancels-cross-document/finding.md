@@ -1,4 +1,4 @@
-# [navigation-api-qa] An intercepted `navigation.navigate()` cancels an ongoing cross-document navigation, which breaks link clicks while React's transition indicator runs
+# An intercepted `navigation.navigate()` cancels an ongoing cross-document navigation, which breaks link clicks while React's transition indicator runs
 
 Target: whatwg/html issue (spec). Safari TP follows the spec; Chrome Canary and Firefox Nightly
 don't.

@@ -1,4 +1,4 @@
-# [navigation-api-qa] WebDriver Refresh in Firefox does a cache-bypassing reload, so the scroll position isn't restored
+# WebDriver Refresh in Firefox does a cache-bypassing reload, so the scroll position isn't restored
 
 Target: Bugzilla, Remote Protocol :: Marionette. Automation only.
 

@@ -1,4 +1,4 @@
-# [navigation-api-qa] WebDriver Element Click leaves an `unload` listener on the page, which makes it ineligible for bfcache
+# WebDriver Element Click leaves an `unload` listener on the page, which makes it ineligible for bfcache
 
 Target: Bugzilla, Remote Protocol :: Marionette. Automation only (not web-facing), but it changes
 what bfcache, back/forward and Navigation API (`navigation.activation`, `pageshow.persisted`)

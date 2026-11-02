@@ -1,4 +1,4 @@
-# [navigation-api-qa] WebKit: `NavigateEvent.userInitiated` is false for cross-document link clicks (known: WebKit bug 306262)
+# WebKit: `NavigateEvent.userInitiated` is false for cross-document link clicks (known: WebKit bug 306262)
 
 Target: already filed as [WebKit bug 306262](https://webkit.org/b/306262) ("NavigationEvent#userInitiated
 is only true for fragment links or form submissions"). Data point only.
