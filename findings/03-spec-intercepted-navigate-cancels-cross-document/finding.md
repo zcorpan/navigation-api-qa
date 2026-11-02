@@ -3,6 +3,8 @@
 Target: whatwg/html issue (spec). Safari TP follows the spec; Chrome Canary and Firefox Nightly
 don't.
 
+Filed: [whatwg/html#13173](https://github.com/whatwg/html/issues/13173). Related: [whatwg/html#12820](https://github.com/whatwg/html/issues/12820), [whatwg/html#11745](https://github.com/whatwg/html/issues/11745).
+
 ## What's wrong
 
 In *navigate* (https://html.spec.whatwg.org/#navigate), step 20 sets the navigable's ongoing
@@ -49,7 +51,7 @@ cross-document link or a Next.js app does a hard navigation during one.
 ## Existing reports
 
 None found in whatwg/html (searched "ongoing navigation intercept", "intercept cross-document
-navigation ongoing"). Related: whatwg/html#12820 and whatwg/html#11745 (ongoing cross-document
+navigation ongoing"). Related: [whatwg/html#12820](https://github.com/whatwg/html/issues/12820) and [whatwg/html#11745](https://github.com/whatwg/html/issues/11745) (ongoing cross-document
 navigations aren't observable, e.g. via `navigation.transition`; React's indicator skips its
 restart only when `navigation.transition` is non-null). facebook/react couldn't be searched from
 this account (GitHub search returned 422).

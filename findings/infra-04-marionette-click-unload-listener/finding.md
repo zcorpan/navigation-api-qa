@@ -4,6 +4,8 @@ Target: Bugzilla, Remote Protocol :: Marionette. Automation only (not web-facing
 what bfcache, back/forward and Navigation API (`navigation.activation`, `pageshow.persisted`)
 tests observe in Firefox.
 
+Filed: [bug 2088100](https://bugzil.la/2088100).
+
 ## What's wrong
 
 `interaction.flushEventLoop` adds an `unload` listener with `{ mozSystemGroup: true }`

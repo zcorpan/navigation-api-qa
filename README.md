@@ -3,28 +3,28 @@
 A live-page QA run of the Navigation API (`window.navigation`): top-ranked pages that use it,
 loaded and driven in Firefox Nightly 161.0a1, Chrome Canary 159.0.8136.0 and Safari TP 255, plus
 local test pages for patterns those pages contain. Findings are in [`findings/`](findings/), one
-directory per cause, each with a test case and per-browser results. Search for
-`[navigation-api-qa]` to find filed issues.
+directory per cause, each with a test case and per-browser results. Filed issues have
+`[zcorpan/navigation-api-qa]` at the end of their titles; the tables link them.
 
 ## Findings, ranked by impact
 
-| # | Target | Finding |
-|---|---|---|
-| 01 | Gecko | [Content process crash reading `navigation.activation.entry` after traversing back into an opaque-origin document](findings/01-gecko-activation-entry-null-crash/finding.md). Reachable from a page via a sandboxed iframe; 108 reports on crash-stats (`NavigationActivation_Binding::get_entry`); Firefox 152 release affected. |
-| 02 | Spec | [`navigation.activation` can have a null `entry` when entries and events are disabled](findings/02-spec-activation-entries-disabled/finding.md) (the spec gap behind 01; Chromium and WebKit return a null `activation`). |
-| 03 | Spec (Safari TP follows it) | [An intercepted `navigation.navigate()` cancels an ongoing cross-document navigation](findings/03-spec-intercepted-navigate-cancels-cross-document/finding.md): with React DOM 19's default transition indicator active, a link click or `location.href` navigation with a response slower than ~20 ms does nothing in Safari TP; Chrome and Firefox navigate. |
+| # | Target | Issues | Finding |
+|---|---|---|---|
+| 01 | Gecko | [bug 2088099](https://bugzil.la/2088099) | [Content process crash reading `navigation.activation.entry` after traversing back into an opaque-origin document](findings/01-gecko-activation-entry-null-crash/finding.md). Reachable from a page via a sandboxed iframe; 108 reports on crash-stats (`NavigationActivation_Binding::get_entry`); Firefox 152 release affected. |
+| 02 | Spec | [whatwg/html#13172](https://github.com/whatwg/html/issues/13172) | [`navigation.activation` can have a null `entry` when entries and events are disabled](findings/02-spec-activation-entries-disabled/finding.md) (the spec gap behind 01; Chromium and WebKit return a null `activation`). |
+| 03 | Spec (Safari TP follows it) | [whatwg/html#13173](https://github.com/whatwg/html/issues/13173) | [An intercepted `navigation.navigate()` cancels an ongoing cross-document navigation](findings/03-spec-intercepted-navigate-cancels-cross-document/finding.md): with React DOM 19's default transition indicator active, a link click or `location.href` navigation with a response slower than ~20 ms does nothing in Safari TP; Chrome and Firefox navigate. |
 
 ## Findings in the infrastructure the API builds on (navigation, session history, bfcache, automation)
 
 Differences where Firefox with and without the Navigation API agreed with each other but not with
 Chrome, rechecked with targeted tests (`scripts/engine_diffs.py`, `analysis/engine-diffs.txt`).
 
-| # | Target | Finding |
-|---|---|---|
-| infra-07 | Gecko (known bugs, data) | [Firefox restores fewer pages from bfcache on back](findings/infra-07-gecko-bfcache-eligibility-gap/finding.md): 18/77 vs Chrome 32/79 and Safari TP 38/74 on the same pages; on the 10 pages only Firefox didn't cache, in-flight requests (bug 1896663), unload listeners (bugs 1712380, 1741670) and MSE (bug 2072126). |
-| infra-04 | Firefox WebDriver (Marionette) | [Element Click leaves an `unload` listener on the page](findings/infra-04-marionette-click-unload-listener/finding.md) (add/remove `mozSystemGroup` mismatch), so after any WebDriver click the page can't enter bfcache. |
-| infra-05 | Firefox WebDriver (Marionette) | [WebDriver Refresh is a cache-bypassing reload](findings/infra-05-marionette-refresh-hard-reload/finding.md), so the scroll position isn't restored (Chrome and Safari TP restore it). |
-| infra-06 | WebKit (known: bug 306262) | [`userInitiated` is false for cross-document link clicks](findings/infra-06-webkit-userinitiated-gesture/finding.md): set from the gesture indicator at event time; 323 sample client-pages read it (ad-quality and bot-detection scripts). |
+| # | Target | Issues | Finding |
+|---|---|---|---|
+| infra-07 | Gecko (known bugs, data) | [bug 1896663](https://bugzil.la/1896663), [bug 1712380](https://bugzil.la/1712380), [bug 1741670](https://bugzil.la/1741670), [bug 2072126](https://bugzil.la/2072126) | [Firefox restores fewer pages from bfcache on back](findings/infra-07-gecko-bfcache-eligibility-gap/finding.md): 18/77 vs Chrome 32/79 and Safari TP 38/74 on the same pages; on the 10 pages only Firefox didn't cache, in-flight requests, unload listeners and MSE. |
+| infra-04 | Firefox WebDriver (Marionette) | [bug 2088100](https://bugzil.la/2088100) | [Element Click leaves an `unload` listener on the page](findings/infra-04-marionette-click-unload-listener/finding.md) (add/remove `mozSystemGroup` mismatch), so after any WebDriver click the page can't enter bfcache. |
+| infra-05 | Firefox WebDriver (Marionette) | [bug 2088101](https://bugzil.la/2088101) | [WebDriver Refresh is a cache-bypassing reload](findings/infra-05-marionette-refresh-hard-reload/finding.md), so the scroll position isn't restored (Chrome and Safari TP restore it). |
+| infra-06 | WebKit (known) | [WebKit bug 306262](https://webkit.org/b/306262) | [`userInitiated` is false for cross-document link clicks](findings/infra-06-webkit-userinitiated-gesture/finding.md): set from the gesture indicator at event time; 323 sample client-pages read it (ad-quality and bot-detection scripts). |
 
 Traced to the harness or sites rather than browsers: Chrome never used bfcache in setups A and A2
 because Playwright launches it with `--disable-back-forward-cache` (A3 turns it back on);

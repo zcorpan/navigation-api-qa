@@ -2,6 +2,8 @@
 
 Target: Bugzilla, Remote Protocol :: Marionette. Automation only.
 
+Filed: [bug 2088101](https://bugzil.la/2088101).
+
 ## What's wrong
 
 WebDriver Refresh (https://w3c.github.io/webdriver/#refresh) initiates "an overridden reload" of

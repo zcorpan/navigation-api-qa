@@ -2,6 +2,8 @@
 
 Target: whatwg/html issue (spec).
 
+Filed: [whatwg/html#13172](https://github.com/whatwg/html/issues/13172). Gecko crash: [bug 2088099](https://bugzil.la/2088099).
+
 ## What's wrong
 
 *update document for history step application*

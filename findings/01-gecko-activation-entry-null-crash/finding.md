@@ -2,6 +2,8 @@
 
 Target: Bugzilla, Core :: DOM: Navigation (crash; `nsWrapperCache::GetWrapperMaybeDead` in `NavigationActivation_Binding::get_entry`).
 
+Filed: [bug 2088099](https://bugzil.la/2088099). Spec issue: [whatwg/html#13172](https://github.com/whatwg/html/issues/13172).
+
 ## What's wrong
 
 In a document whose `Navigation` has entries and events disabled (opaque origin, e.g. a `data:`
@@ -63,5 +65,5 @@ reads `navigation.activation` and `navigation.activation.entry` and posts the re
 ## Existing reports
 
 No Bugzilla bug found for this signature with `NavigationActivation` (searched
-`cf_crash_signature` for `GetWrapperMaybeDead`: bug 2063234 is a different stack,
+`cf_crash_signature` for `GetWrapperMaybeDead`: [bug 2063234](https://bugzil.la/2063234) is a different stack,
 `ShadowRoot_Binding::get_host`). No whatwg/html issue found.
