@@ -1,4 +1,4 @@
-import sys, time; sys.path.insert(0, '/tmp/navigation-api-qa')
+import sys, time; import os; sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import navqa
 v = sys.argv[1]
 be = navqa.Firefox('B', trace=False); d = be.d
