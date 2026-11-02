@@ -138,6 +138,25 @@ interactions exercised the API: listeners on 106 and 107 pages, but `intercept()
 - Safari TP page comparisons are noisier than Firefox's: sites serve Safari different content
   and consent flows, and there is no API-off control for Safari.
 
+## Why the run stopped here
+
+The plan's stopping rule was two consecutive batches with no new cause. Only batch 2 met it, because
+batch 1 found finding 01. It stopped there anyway:
+
+- Batch 2 found nothing new: its 22 Firefox-only flags didn't reproduce on recheck or were finding
+  01 again.
+- Batch 2 already included all 69 top-10k desktop pages whose code calls `intercept()`,
+  `navigate()` or the other active methods. Further draws would mostly be pages that only listen
+  (GTM, the Cloudflare beacon, GPT), which behaved the same in all three browsers.
+- The scripted interactions barely reached the active API, even on those pages: `intercept()` ran
+  on 2–4 pages and React's transition indicator never ran.
+- Findings 01–03 came from local tests built on patterns in the pages' code; live pages only
+  confirmed finding 01.
+
+So another desktop top-10k batch would likely add little. Different coverage seems more useful:
+pages beyond the top 10k, mobile, and interactions this run didn't do (browser-UI traversals, form
+submissions, keyboard and modifier clicks). [`PLAN-phase2.md`](PLAN-phase2.md) is the plan for that.
+
 ## Reproduce
 
 ```sh
