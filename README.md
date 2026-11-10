@@ -159,6 +159,8 @@ submissions, keyboard and modifier clicks). [`PLAN-phase2.md`](PLAN-phase2.md) i
 
 ## Reproduce
 
+This run was done with the [`httparchive-qa` skill](https://github.com/zcorpan/web-platform-skills/blob/main/docs/httparchive.md). The steps below are standalone and rerun the same analysis without the skill.
+
 ```sh
 bq query --use_legacy_sql=false --format=csv --max_rows=100000 < queries/01-counter-pages.sql > queries/01-counter-pages.csv
 bq query --use_legacy_sql=false --format=json --max_rows=1000000 < queries/02-sample10k-snippets.sql > queries/02-sample10k-snippets.json
